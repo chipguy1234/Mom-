@@ -162,7 +162,7 @@ Q("3.5-10", "application", 1,
   "CR Part 154 requires the full identification process (the HLQ, an individual interview in English and the home language, and the NYSITELL if indicated) to be completed within 10 school days of initial enrollment. Parents must then be notified of the result within 5 school days of the determination, in their preferred language. The other numbers belong to different processes: 30 school days for SIFE determination and 45 school days for requesting a re-identification review.",
   [None,
    T("TERM", "Thirty school days is the window for determining SIFE status, which follows ELL identification. ELL identification itself must be completed within 10 school days.", "10-day ELL identification ↔ 30-day SIFE determination"),
-   T("TERM", "Forty-five school days is the window in which a parent, a teacher (with parent consent), or the student may request a re-identification review. It is not the deadline for initial identification.", "identification ↔ re-identification"),
+   T("TERM", "Forty-five school days is the window in which a parent, a teacher (with parent consent), or the student (if 18 or older) may request a re-identification review. It is not the deadline for initial identification.", "identification ↔ re-identification"),
    T("NYS_POLICY", "Identification cannot wait months, because services depend on it. The NYSESLAT measures the progress of students already identified, so it plays no part in initial identification.")],
   "Identification: 10 school days. Parent notice: within 5 school days after. SIFE: 30 school days. Re-identification request: 45 school days."),
 
@@ -674,7 +674,7 @@ LESSONS = [
   {"t": "Developing ELL", "d": "ELL with four to six years of ELL services."},
   {"t": "Long-Term ELL", "d": "ELL who has completed six or more years of ELL services, often with strong oral English and lagging academic literacy."},
   {"t": "Modality profile", "d": "A student's relative performance in listening, speaking, reading, and writing. It guides instruction beyond the overall level."},
-  {"t": "Re-identification", "d": "Review of ELL status that a parent, a teacher (with consent), or the student may request within 45 school days of enrollment."},
+  {"t": "Re-identification", "d": "Review of ELL status that a parent, a teacher (with consent), or the student (if 18 or older) may request within 45 school days of enrollment."},
   {"t": "First-year ELA exemption", "d": "One-time exemption from the Grades 3–8 ELA test for ELLs in their first year in U.S. schools; they take the NYSESLAT."},
   {"t": "ESSA four-year rule", "d": "Former ELs may stay in the EL subgroup for up to four years for accountability reporting. It is separate from NYS services."}
  ],

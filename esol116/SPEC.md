@@ -57,7 +57,7 @@ Use these terms throughout:
 - Identification must be complete within **10 school days** of initial enrollment.
 - Parents get notification of ELL status within **5 school days** of the determination, in their preferred language.
 - Parents attend an orientation about program options (TBE, Dual Language, ENL).
-- A **re-identification** review can be requested by a parent/guardian, teacher (with parent consent), or the student within 45 school days of enrollment.
+- A **re-identification** review can be requested by a parent/guardian, teacher (with parent consent), or the student (only if 18 or older) within 45 school days of enrollment.
 - **Language Proficiency Team (LPT):** for a student with an IEP, the LPT decides whether the student takes the NYSITELL. Its recommendation goes to the superintendent.
 - **SIFE** are ELLs who have attended school in the U.S. for less than 12 months and who, on initial enrollment, are two or more years below grade level in home-language literacy and/or math because of interrupted or inadequate schooling. SIFE status is determined within 30 school days, using an oral interview questionnaire and, for certain languages, the MLS (Multilingual Literacy SIFE Screener).
 - **ELL subgroups:**

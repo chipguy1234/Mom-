@@ -725,7 +725,7 @@
      "note": "No roster condition exists. The requirement follows the teacher's certificate, not the number of ELLs in a given class."
     }
    ],
-   "key": "All certified teachers: at least 15% of 175 CTLE hours on language acquisition and ELLs; ESOL and bilingual teachers: at least 50%."
+   "key": "Professional-certificate holders: at least 15% of 175 CTLE hours on language acquisition and ELLs; ESOL and bilingual teachers: at least 50%."
   },
   {
    "id": "6.2-08",
@@ -973,7 +973,7 @@
     "She may request a re-identification review, which can be initiated within 45 school days of enrollment."
    ],
    "answer": 3,
-   "why": "Part 154 includes a re-identification process: within 45 school days of enrollment, a parent or guardian, a teacher (with the parent's consent), or the student may ask for a review of ELL status. Three weeks is well inside that window, so the teacher should explain the process and help the parent start it. Families have a real voice in identification decisions.",
+   "why": "Part 154 includes a re-identification process: within 45 school days of enrollment, a parent or guardian, a teacher (with the parent's consent), or the student (if 18 or older) may ask for a review of ELL status. Three weeks is well inside that window, so the teacher should explain the process and help the parent start it. Families have a real voice in identification decisions.",
    "traps": [
     {
      "code": "NYS_POLICY",
@@ -990,7 +990,7 @@
     },
     null
    ],
-   "key": "Part 154 re-identification: a parent, a teacher (with consent), or the student can request a review of ELL status within 45 school days of enrollment."
+   "key": "Part 154 re-identification: a parent, a teacher (with consent), or a student 18+ can request a review of ELL status within 45 school days of enrollment."
   },
   {
    "id": "6.3-01",
@@ -1141,7 +1141,7 @@
     null,
     {
      "code": "TERM",
-     "pair": "one-way ↔ two-way Dual Language",
+     "pair": "Dual Language (ELL program) ↔ world-language program for English speakers",
      "note": "Dual Language programs serve ELLs. Two-way programs combine ELLs with English-proficient students, and one-way programs serve mainly ELLs; either way, ELLs are central."
     },
     {
@@ -1589,7 +1589,7 @@
    "body": [
     {
      "h": "CR Part 154: identification timelines",
-     "md": "Part 154 of the Commissioner's Regulations is New York's rulebook for ELLs. The identification sequence:\n\n- **Home Language Questionnaire (HLQ)** at enrollment, plus an **individual interview in English and the home language** by qualified personnel.\n- If a language other than English is indicated, the student takes the **NYSITELL**.\n- Identification must be complete within **10 school days** of initial enrollment.\n- Parents receive **written notification of ELL status within 5 school days** of the determination, **in their preferred language**.\n- Parents attend an **orientation** on the program options: Transitional Bilingual Education, Dual Language, and ENL.\n- **Re-identification:** within **45 school days** of enrollment, a parent or guardian, a teacher (with parent consent), or the student can request a review of ELL status.\n- **Language Proficiency Team (LPT):** for a student with an IEP, the LPT decides whether the student takes the NYSITELL, and its recommendation goes to the superintendent.\n- **SIFE** status is determined within **30 school days**.\n\nMemory hook: **5 – 10 – 30 – 45**. Notify in 5, identify in 10, SIFE in 30, re-identify within 45. Distractors love to swap these numbers."
+     "md": "Part 154 of the Commissioner's Regulations is New York's rulebook for ELLs. The identification sequence:\n\n- **Home Language Questionnaire (HLQ)** at enrollment, plus an **individual interview in English and the home language** by qualified personnel.\n- If a language other than English is indicated, the student takes the **NYSITELL**.\n- Identification must be complete within **10 school days** of initial enrollment.\n- Parents receive **written notification of ELL status within 5 school days** of the determination, **in their preferred language**.\n- Parents attend an **orientation** on the program options: Transitional Bilingual Education, Dual Language, and ENL.\n- **Re-identification:** within **45 school days** of enrollment, a parent or guardian, a teacher (with parent consent), or the student (if 18 or older) can request a review of ELL status.\n- **Language Proficiency Team (LPT):** for a student with an IEP, the LPT decides whether the student takes the NYSITELL, and its recommendation goes to the superintendent.\n- **SIFE** status is determined within **30 school days**.\n\nMemory hook: **5 – 10 – 30 – 45**. Notify in 5, identify in 10, SIFE in 30, re-identify within 45. Distractors love to swap these numbers."
     },
     {
      "h": "Programs, parent choice, and former ELLs",
@@ -1642,7 +1642,7 @@
     },
     {
      "t": "Re-identification",
-     "d": "Review of ELL status requested by a parent, a teacher (with consent), or the student within 45 school days of enrollment."
+     "d": "Review of ELL status requested by a parent, a teacher (with consent), or the student (if 18 or older) within 45 school days of enrollment."
     },
     {
      "t": "Language Proficiency Team (LPT)",

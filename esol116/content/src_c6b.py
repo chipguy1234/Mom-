@@ -87,23 +87,23 @@ QUESTIONS = [
  "key": "Make community partnerships reciprocal and curriculum-connected: share units and vocabulary with partners and learn from what they observe."
 },
 {
- "id": "6.4-05", "skill": "6.4", "type": "application", "difficulty": 2, "diag": 0,
- "stem": "A grade 6 math teacher tells the ESOL teacher, \"Amina scored Commanding on the NYSESLAT last spring, so she isn't an ELL anymore and doesn't need anything from us.\" Which response by the ESOL teacher is accurate?",
+ "id": "6.4-05", "skill": "6.4", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stem": "Amina scored Commanding on the NYSESLAT last spring and is now a former ELL. Her continued support this year is 90 minutes a week of Integrated ENL in her grade 6 math class. Her math teacher tells the ESOL teacher, \"She tested out, so I don't see what there is for us to do.\" Which response by the ESOL teacher would best serve Amina and the colleague?",
  "options": [
-  "Amina is now a former ELL, so she will continue to receive ENL support and testing accommodations for two years after exiting.",
-  "Amina has exited, so her services have ended, although her teachers may re-identify her as an ELL if her grades begin to decline.",
-  "Amina keeps her previous level of Stand-alone and Integrated ENL services for one more year, after which all of her supports end.",
-  "Amina remains eligible for testing accommodations only on the ELA test, since content-area tests no longer pose a language barrier."
+  "Explain that former ELLs keep two years of support, then co-plan upcoming units around the math language she may still find hard",
+  "Agree that Amina's needs have been met, and ask the math teacher to report back if her grades begin to slip so support can resume",
+  "Explain the two-year entitlement, then deliver Amina's 90 minutes herself in a separate room so the math lessons can continue as planned",
+  "Give the math teacher a list of Amina's testing accommodations, since accommodations on state tests are the main support for former ELLs"
  ],
  "answer": 0,
- "why": "In New York, a student who exits ELL status (by scoring Commanding, or Expanding plus a qualifying ELA score) becomes a former ELL. For two years she continues to receive support (in grades K–8, 90 minutes per week of Integrated ENL or other approved former-ELL services) and testing accommodations. Serving as a resource includes keeping colleagues accurate about these entitlements and planning the support with them.",
+ "why": "Under Part 154, a student who exits ELL status becomes a former ELL and receives two years of continued support (in grades K–8, 90 minutes a week of Integrated ENL or other approved former-ELL services) plus testing accommodations. Amina's support is Integrated ENL, so it only works if the two teachers plan together: even at Commanding, she may still need help with the academic language of math, such as multistep word problems and written explanations. Correcting the colleague's assumption and then co-planning builds the colleague's capacity instead of leaving the support on paper.",
  "traps": [
   None,
-  {"code": "NYS_POLICY", "note": "Former ELLs receive two years of continued support. Re-identification is a separate review requested within 45 school days of enrollment, not a response to falling grades."},
-  {"code": "NYS_POLICY", "note": "Former ELLs do not keep their prior service level. In grades K–8 they receive 90 minutes per week of Integrated ENL or other approved former-ELL services for two years."},
-  {"code": "NYS_POLICY", "note": "This reverses the rules. Former ELLs keep testing accommodations for two years, and the translation and glossary supports apply to content-area tests, not to the ELA test."}
+  {"code": "NYS_POLICY", "note": "Former ELLs are entitled to two years of continued support whether or not their grades slip. Waiting for failure ignores that entitlement and the math teacher's role in providing it."},
+  {"code": "EXCLUSION", "note": "Her support is Integrated ENL, delivered inside grade-level math. Pulling her out removes her from the math lesson and leaves the colleague's planning unchanged."},
+  {"code": "PARTIAL", "note": "Former ELLs do keep testing accommodations for two years, but Part 154 also requires continued instructional support, and a list alone does not help the teacher plan for it."}
  ],
- "key": "Former ELLs receive two years of continued ENL support and testing accommodations; exiting does not end services."
+ "key": "Former ELLs keep two years of support; make it real by co-planning with content teachers around the language demands of upcoming lessons."
 },
 {
  "id": "6.4-06", "skill": "6.4", "type": "scenario", "difficulty": 3, "diag": 0,
@@ -369,7 +369,7 @@ QUESTIONS = [
   "Recommend that she take honors precalculus again, since the AP course's heavy reading load could lower her grade point average"
  ],
  "answer": 1,
- "why": "English proficiency cannot be used to categorically bar ELLs from advanced coursework. The 1970 OCR memo and the 2015 Dear Colleague Letter require equal opportunity to participate in programs such as AP, IB, and gifted education, and Lucía's math record shows she is ready. The ESOL teacher advocates on two levels: for Lucía (enrollment plus scaffolds such as a math glossary and collaboration with the AP teacher) and for the system (revising a policy that uses English fluency as a gatekeeper). Lucía keeps her ENL services, too.",
+ "why": "English proficiency cannot be used to categorically bar ELLs from advanced coursework. The 1970 OCR memo barred excluding ELLs from college-preparatory courses because of their English, and the 2015 Dear Colleague Letter makes clear that ELLs must have equal opportunity to participate in programs such as AP, IB, and gifted education. Lucía's math record shows she is ready. The ESOL teacher advocates on two levels: for Lucía (enrollment plus scaffolds such as a math glossary and collaboration with the AP teacher) and for the system (revising a policy that uses English fluency as a gatekeeper). Lucía keeps her ENL services, too.",
  "traps": [
   {"code": "EXCLUSION", "note": "As a senior, postponing means never taking the course. ELL status cannot justify delaying advanced coursework when her math record shows readiness."},
   None,
@@ -564,7 +564,7 @@ QUESTIONS = [
  "why": "An ELL with a disability has two sets of needs and two sets of entitlements: ENL (or bilingual) services under CR Part 154 and special education services under IDEA and his IEP. One does not replace the other. The ESOL teacher advocates by clarifying this and proposing coordination, for example the CSE considering language needs in the IEP and the ENL and special education teachers co-planning, so the services reinforce each other.",
  "traps": [
   {"code": "NYS_POLICY", "note": "ELLs with disabilities remain ELLs. Special education services do not replace the ENL services required under CR Part 154."},
-  {"code": "MISREFERRAL", "note": "Ending services for a documented disability to make room for ENL leaves a real disability need unserved. The student is entitled to both."},
+  {"code": "NYS_POLICY", "note": "Ending services for a documented disability to make room for ENL leaves a real disability need unserved. The student is entitled to both."},
   None,
   {"code": "EXCLUSION", "note": "Postponing required ENL services denies Andrés language instruction now. His ELL entitlement does not wait for the IEP calendar."}
  ],
@@ -633,22 +633,22 @@ QUESTIONS = [
 },
 {
  "id": "6.6-03", "skill": "6.6", "type": "application", "difficulty": 2, "diag": 0,
- "stem": "An ESOL teacher with a professional certificate reviews her Continuing Teacher and Leader Education (CTLE) log near the end of her five-year registration period. She has completed 175 hours: 70 on language acquisition and the needs of ELLs, 60 on instructional technology, and 45 on social-emotional learning. Which statement accurately describes her status?",
+ "stem": "An ESOL teacher with a professional certificate is starting a new five-year Continuing Teacher and Leader Education (CTLE) registration period. Last spring's NYSESLAT results and her students' work both show that writing lags well behind the other modalities, and she wants her professional learning to address it. Which plan best meets both her CTLE requirement and this growth need?",
  "options": [
-  "She has met the requirement, since more than 15 percent of her hours address language acquisition and the needs of ELLs",
-  "She has met the requirement, since she completed the full 175 hours and CTLE topics are left to each teacher's discretion",
-  "She has not met the requirement, since at least half of her 175 required hours must address language acquisition and ELL needs",
-  "She has not met the requirement, since every one of her CTLE hours must address language acquisition because of her certificate"
+  "Complete the 175 hours in whatever sessions best fit her schedule, since CTLE leaves the choice of topics entirely to each teacher",
+  "Devote at least 15 percent of her hours to ELL topics, as general education teachers do, and fill the rest with district workshops",
+  "Devote at least half of her 175 hours to ELL-focused learning, anchored by sustained work on teaching academic writing to ELLs",
+  "Choose ELL-focused sessions by which presenters colleagues rate most highly, since a presenter's reputation best predicts useful PD"
  ],
  "answer": 2,
- "why": "Under NYS CTLE requirements, professional certificate holders complete 175 hours every five years. For teachers certified in ESOL or bilingual education, at least 50 percent (87.5 hours) must address language acquisition and ELL needs; for all other teachers the minimum is 15 percent. Her 70 hours (40 percent) fall short, so she should plan at least 18 more hours of ELL-focused learning that fit her growth goals.",
+ "why": "Professional certificate holders need 175 CTLE hours every five years. Certified ESOL and bilingual teachers must devote at least 50 percent (87.5 hours) to language acquisition and the needs of ELLs; other teachers need at least 15 percent. Reflective professionals also choose that learning from evidence. Her NYSESLAT results and student work point to writing, so sustained, classroom-connected study of writing instruction for ELLs both meets the requirement and targets the real need.",
  "traps": [
-  {"code": "NYS_POLICY", "note": "Fifteen percent is the minimum for teachers who are not certified in ESOL or bilingual education. Certified ESOL and bilingual teachers need at least 50 percent (87.5 of 175 hours)."},
-  {"code": "NYS_POLICY", "note": "The total is right, but CTLE has content requirements: a set share of hours must address language acquisition and ELL needs."},
+  {"code": "NYS_POLICY", "note": "CTLE has a content requirement: certified ESOL and bilingual teachers must devote at least half of their 175 hours to language acquisition and ELL needs."},
+  {"code": "TERM", "pair": "15% (all teachers) ↔ 50% (ESOL/bilingual teachers)", "note": "Fifteen percent is the minimum for teachers who are not certified in ESOL or bilingual education. As an ESOL teacher, she needs at least 50 percent."},
   None,
-  {"code": "NYS_POLICY", "note": "No rule requires every hour to focus on ELLs. At least half is required, which leaves room for other learning such as technology or SEL."}
+  {"code": "PARTIAL", "note": "ELL-focused sessions can count toward the requirement, but choosing them by reputation ignores her own evidence. Her data point to writing, and her learning should target it."}
  ],
- "key": "CTLE: 175 hours every 5 years; ESOL and bilingual teachers need at least 50% on language acquisition and ELL needs, other teachers at least 15%."
+ "key": "ESOL/bilingual teachers: at least 50% of 175 CTLE hours on ELL needs; aim that learning at goals drawn from student data."
 },
 {
  "id": "6.6-04", "skill": "6.6", "type": "knowledge", "difficulty": 1, "diag": 0,

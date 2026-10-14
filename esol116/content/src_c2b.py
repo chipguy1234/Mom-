@@ -42,7 +42,7 @@ QUESTIONS = [
         "traps": [
             None,
             {"code": "NYS_POLICY", "note": "Ten school days is the deadline for ELL identification, not SIFE determination. The NYSITELL measures English proficiency, so it can't show gaps in home-language literacy or math."},
-            {"code": "TERM", "pair": "SIFE determination ↔ ELL re-identification", "note": "Re-identification (within 45 school days) lets a parent, teacher, or student question ELL status itself. SIFE status is a separate determination made within 30 school days."},
+            {"code": "TERM", "pair": "SIFE determination ↔ ELL re-identification", "note": "Re-identification (within 45 school days) lets a parent, a teacher (with parent consent), or a student 18 or older question ELL status itself. SIFE status is a separate determination made within 30 school days."},
             {"code": "ASSESS_INVALID", "note": "The NYSESLAT measures English proficiency and comes far too late. SIFE status depends on home-language literacy and math compared with grade level."},
         ],
         "key": "SIFE status is decided within 30 school days through an oral interview questionnaire plus the MLS where available; English tests don't determine SIFE.",

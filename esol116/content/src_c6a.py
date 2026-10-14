@@ -454,7 +454,7 @@ Q62 = [
   {"code": "TERM", "pair": "15% (all teachers) ↔ 50% (ESOL/bilingual teachers)", "note": "Fifty percent is the minimum for certified ESOL and bilingual teachers. General education teachers need at least 15 percent."},
   {"code": "NYS_POLICY", "note": "No roster condition exists. The requirement follows the teacher's certificate, not the number of ELLs in a given class."}
  ],
- "key": "All certified teachers: at least 15% of 175 CTLE hours on language acquisition and ELLs; ESOL and bilingual teachers: at least 50%."
+ "key": "Professional-certificate holders: at least 15% of 175 CTLE hours on language acquisition and ELLs; ESOL and bilingual teachers: at least 50%."
 },
 
 {
@@ -610,14 +610,14 @@ Q62 = [
   "She may request a re-identification review, which can be initiated within 45 school days of enrollment."
  ],
  "answer": 3,
- "why": "Part 154 includes a re-identification process: within 45 school days of enrollment, a parent or guardian, a teacher (with the parent's consent), or the student may ask for a review of ELL status. Three weeks is well inside that window, so the teacher should explain the process and help the parent start it. Families have a real voice in identification decisions.",
+ "why": "Part 154 includes a re-identification process: within 45 school days of enrollment, a parent or guardian, a teacher (with the parent's consent), or the student (if 18 or older) may ask for a review of ELL status. Three weeks is well inside that window, so the teacher should explain the process and help the parent start it. Families have a real voice in identification decisions.",
  "traps": [
   {"code": "NYS_POLICY", "note": "Identification is not final yet. A re-identification review is available within 45 school days of enrollment, so she need not wait for the NYSESLAT."},
   {"code": "NYS_POLICY", "note": "A parent cannot waive ELL status or the annual NYSESLAT. Questioning the identification goes through the re-identification review."},
   {"code": "TERM", "pair": "re-identification review ↔ Language Proficiency Team", "note": "The LPT decides whether a student with an IEP takes the NYSITELL. It is not the process for a parent who believes her child was misidentified."},
   None
  ],
- "key": "Part 154 re-identification: a parent, a teacher (with consent), or the student can request a review of ELL status within 45 school days of enrollment."
+ "key": "Part 154 re-identification: a parent, a teacher (with consent), or a student 18+ can request a review of ELL status within 45 school days of enrollment."
 },
 
 ]
@@ -720,7 +720,7 @@ Q63 = [
  "why": "Part 154 gives parents of ELLs the right to an orientation on all program options (TBE, Dual Language, and ENL) and the right to choose among them. Because the purpose is an informed choice, each option must be presented accurately and without pressure. The claim that bilingual classes “hold kids back” also contradicts long-term research, such as Thomas and Collier's, showing strong outcomes for well-implemented bilingual and dual language programs.",
  "traps": [
   None,
-  {"code": "TERM", "pair": "one-way ↔ two-way Dual Language", "note": "Dual Language programs serve ELLs. Two-way programs combine ELLs with English-proficient students, and one-way programs serve mainly ELLs; either way, ELLs are central."},
+  {"code": "TERM", "pair": "Dual Language (ELL program) ↔ world-language program for English speakers", "note": "Dual Language programs serve ELLs. Two-way programs combine ELLs with English-proficient students, and one-way programs serve mainly ELLs; either way, ELLs are central."},
   {"code": "FAMILY_BARRIER", "note": "Parents need the information in a language they understand to make an informed choice. An English-only orientation would deny them that."},
   {"code": "NYS_POLICY", "note": "Orientation takes place at identification, before placement, so the child can begin services in the program the family chooses."}
  ],
@@ -1024,7 +1024,7 @@ LESSONS = [
          "- Identification must be complete within **10 school days** of initial enrollment.\n"
          "- Parents receive **written notification of ELL status within 5 school days** of the determination, **in their preferred language**.\n"
          "- Parents attend an **orientation** on the program options: Transitional Bilingual Education, Dual Language, and ENL.\n"
-         "- **Re-identification:** within **45 school days** of enrollment, a parent or guardian, a teacher (with parent consent), or the student can request a review of ELL status.\n"
+         "- **Re-identification:** within **45 school days** of enrollment, a parent or guardian, a teacher (with parent consent), or the student (if 18 or older) can request a review of ELL status.\n"
          "- **Language Proficiency Team (LPT):** for a student with an IEP, the LPT decides whether the student takes the NYSITELL, and its recommendation goes to the superintendent.\n"
          "- **SIFE** status is determined within **30 school days**.\n\n"
          "Memory hook: **5 – 10 – 30 – 45**. Notify in 5, identify in 10, SIFE in 30, re-identify within 45. Distractors love to swap these numbers."},
@@ -1080,7 +1080,7 @@ LESSONS = [
   {"t": "10 school days", "d": "Deadline for completing ELL identification after initial enrollment."},
   {"t": "Parent notification", "d": "Written notice of ELL status within 5 school days of the determination, in the parents' preferred language."},
   {"t": "Parent orientation", "d": "Session at identification explaining TBE, Dual Language, and ENL so parents can make an informed program choice."},
-  {"t": "Re-identification", "d": "Review of ELL status requested by a parent, a teacher (with consent), or the student within 45 school days of enrollment."},
+  {"t": "Re-identification", "d": "Review of ELL status requested by a parent, a teacher (with consent), or the student (if 18 or older) within 45 school days of enrollment."},
   {"t": "Language Proficiency Team (LPT)", "d": "Decides whether a student with an IEP takes the NYSITELL; its recommendation goes to the superintendent."},
   {"t": "SIFE determination", "d": "Made within 30 school days, using an oral interview questionnaire and, for some languages, the MLS screener."},
   {"t": "Bilingual program trigger", "d": "20 or more ELLs with the same home language in the same grade, districtwide; parents may still choose ENL."},

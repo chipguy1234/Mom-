@@ -323,7 +323,7 @@
     {
      "code": "TERM",
      "pair": "identification ↔ re-identification",
-     "note": "Forty-five school days is the window in which a parent, a teacher (with parent consent), or the student may request a re-identification review. It is not the deadline for initial identification."
+     "note": "Forty-five school days is the window in which a parent, a teacher (with parent consent), or the student (if 18 or older) may request a re-identification review. It is not the deadline for initial identification."
     },
     {
      "code": "NYS_POLICY",
@@ -1483,7 +1483,7 @@
     },
     {
      "t": "Re-identification",
-     "d": "Review of ELL status that a parent, a teacher (with consent), or the student may request within 45 school days of enrollment."
+     "d": "Review of ELL status that a parent, a teacher (with consent), or the student (if 18 or older) may request within 45 school days of enrollment."
     },
     {
      "t": "First-year ELA exemption",
