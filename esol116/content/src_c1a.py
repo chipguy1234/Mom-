@@ -126,6 +126,138 @@ QUESTIONS += [
  ],
  "key": "Arabic lacks /p/: use minimal pairs (pea/bee) plus an aspiration cue, then meaningful practice, not drills or referral."
 },
+{
+ "id": "1.1-08", "skill": "1.1", "type": "analysis", "difficulty": 2, "diag": 2,
+ "stimulus": "During a grade 8 social studies presentation, a student (Transitioning; home language Bengali) says, “Many families in the Sahara live in the de-ZERT.” Several classmates look puzzled, and one asks, “Like cake?”",
+ "stem": "The classmates' confusion is best explained by which feature of English pronunciation?",
+ "options": [
+  "intonation, because the student used a rising pitch at the end of a statement",
+  "word stress, because stress placement can distinguish one English word from another",
+  "vowel epenthesis, because the student added an extra syllable to the word",
+  "allophonic variation, because the final /t/ in the word was not fully released"
+ ],
+ "answer": 1,
+ "why": "English has lexical (word) stress, and moving it can change the word: DEsert (dry land) vs. desSERT (sweet course), or noun–verb pairs like REcord/reCORD and PERmit/perMIT. Stress also changes vowel quality, because unstressed vowels often reduce to schwa /ə/. Listeners rely heavily on stress patterns to recognize words, so misplaced stress can block comprehension even when every individual sound is accurate.",
+ "traps": [
+  {"code": "TERM", "pair": "word stress ↔ intonation", "note": "Intonation is the pitch pattern across a whole utterance; nothing in the scenario describes pitch. The problem is which syllable within one word was stressed."},
+  None,
+  {"code": "TERM", "pair": "epenthesis ↔ word stress", "note": "No syllable was added; 'desert' and 'dessert' both have two. Only the stressed syllable moved."},
+  {"code": "TERM", "pair": "allophone ↔ word stress", "note": "How the final /t/ is released never changes which word an English listener hears. The confusion came from stress placement."}
+ ],
+ "key": "English word stress can change the word: DEsert vs. desSERT, REcord (noun) vs. reCORD (verb)."
+},
+{
+ "id": "1.1-09", "skill": "1.1", "type": "analysis", "difficulty": 3, "diag": 0,
+ "stimulus": "Grade 3 student (Emerging; home language Mandarin), same day\nOral retell: “Yesterday I walk to the par with my frien. We jump in the lea.”\nWritten retell: “Yesterday I walked to the park with my friend. We jumped in the leaves.”",
+ "stem": "Based on both samples, which of the following is the most accurate interpretation of the student's oral omissions?",
+ "options": [
+  "The student has not yet acquired the regular past tense, as the oral forms 'walk' and 'jump' show.",
+  "Mandarin syllables allow few final consonants, so the student drops word-final consonants and clusters in speech.",
+  "Mandarin verbs take no tense endings, so the student is transferring L1 grammar by leaving off -ed.",
+  "The omissions occur across many different words, which suggests a speech sound disorder needing evaluation."
+ ],
+ "answer": 1,
+ "why": "Mandarin syllables can end only in a vowel or a nasal (/n/ or /ŋ/), so English final stops, fricatives, and clusters are hard to pronounce. The key evidence is that the student drops final consonants in words with no grammatical ending (park, friend) and keeps a final /n/ (frien), while writing walked and jumped correctly. That points to phonological transfer of syllable structure, not a missing grammar rule.",
+ "traps": [
+  {"code": "LITERAL", "note": "The oral sample alone suggests this, but the written retell shows walked and jumped used correctly. The omissions follow sound patterns, not grammar knowledge."},
+  None,
+  {"code": "PARTIAL", "note": "Mandarin does lack tense inflection, and that can cause grammatical omissions, but this student also drops non-grammatical finals (park, friend) and marks past tense correctly in writing."},
+  {"code": "MISREFERRAL", "note": "The omissions are systematic and match Mandarin syllable structure, the hallmark of L1 transfer. They don't suggest a speech disorder."}
+ ],
+ "key": "Compare oral and written evidence: dropped finals in speech but correct -ed in writing means phonological transfer, not missing grammar."
+},
+{
+ "id": "1.1-10", "skill": "1.1", "type": "application", "difficulty": 3, "diag": 0,
+ "stem": "Using C for a consonant phoneme and V for a vowel phoneme, which word has the syllable structure CCCVCC?",
+ "options": ["splash", "stamps", "thrown", "strict"],
+ "answer": 3,
+ "why": "Syllable structure is described by phonemes, not letters. 'Strict' is /s t r ɪ k t/: three consonants before the vowel and two after. English allows up to three consonants at the start of a syllable (in that case the first is always /s/) and up to four at the end (texts), which is why learners whose languages favor simple CV or CVC syllables, such as Japanese or Mandarin, find English clusters difficult.",
+ "traps": [
+  {"code": "TERM", "pair": "digraph ↔ consonant cluster", "note": "'Splash' begins with a three-consonant cluster, but sh is a single phoneme, /ʃ/, so the word is CCCVC."},
+  {"code": "LITERAL", "note": "'Stamps' has five consonants, but they fall two before the vowel and three after (/s t æ m p s/), so it is CCVCCC, the mirror image."},
+  {"code": "TERM", "pair": "grapheme ↔ phoneme", "note": "'Thrown' looks consonant-heavy, but th = /θ/ and ow = /oʊ/, so it is /θ r oʊ n/, only CCVC."}
+ ],
+ "key": "Analyze syllables by phonemes: strict = /strɪkt/ = CCCVCC. Three-consonant onsets in English always begin with /s/."
+},
+{
+ "id": "1.1-11", "skill": "1.1", "type": "analysis", "difficulty": 2, "diag": 0,
+ "stimulus": "A grade 10 student (Expanding; home language Spanish) reads aloud, “The banana is on the table.” The teacher notes that the student gives every syllable about the same length and a full vowel, saying [ba-na-na] with a clear [a] in each syllable.",
+ "stem": "The student's reading suggests a need for instruction in which feature of English pronunciation?",
+ "options": [
+  "aspiration of voiceless stops at the beginning of stressed syllables",
+  "contrastive stress to highlight new information within a sentence",
+  "reduction of unstressed vowels to schwa in a stress-timed rhythm",
+  "rising intonation at the end of yes/no questions"
+ ],
+ "answer": 2,
+ "why": "English is often described as stress-timed: stressed syllables are longer and louder, and many unstressed vowels reduce to schwa /ə/, so banana is /bəˈnænə/. Spanish is syllable-timed, with syllables of similar length and full vowels even when unstressed. Transferring that rhythm makes English sound choppy and can reduce intelligibility, so teaching stress and schwa (for example, tapping the stressed syllable) is high-yield.",
+ "traps": [
+  {"code": "PARTIAL", "note": "Aspiration is a real English feature some learners miss, but the teacher's notes describe equal syllable length and full vowels, which point to rhythm and vowel reduction."},
+  {"code": "TERM", "pair": "sentence stress ↔ word rhythm", "note": "Contrastive stress highlights one word in a sentence for meaning. The issue here is rhythm inside words: unstressed syllables aren't being reduced."},
+  None,
+  {"code": "LITERAL", "note": "The sentence is a statement, so question intonation has nothing to do with this evidence."}
+ ],
+ "key": "English is stress-timed: unstressed vowels reduce to schwa (/bəˈnænə/). Syllable-timed L1s like Spanish give every syllable full weight."
+},
+{
+ "id": "1.1-12", "skill": "1.1", "type": "application", "difficulty": 2, "diag": 0,
+ "stem": "A teacher says to a student, “You turned in your permission slip, didn't you?” with falling intonation on the tag. What does the falling intonation most likely signal?",
+ "options": [
+  "The teacher expects the student to confirm something the teacher already believes is true.",
+  "The teacher is genuinely unsure and is asking the student for new information.",
+  "No difference in meaning, since the words of the tag alone make the sentence a question.",
+  "The teacher is using contrastive stress to emphasize the word 'permission.'"
+ ],
+ "answer": 0,
+ "why": "Intonation, the rise and fall of pitch across an utterance, carries meaning beyond the words. With a falling tag, the speaker is fairly sure and expects agreement; with a rising tag, the speaker is genuinely uncertain and wants information. ELLs may miss these cues or transfer L1 pitch patterns, so intonation is worth teaching explicitly in real exchanges.",
+ "traps": [
+  None,
+  {"code": "TERM", "pair": "falling tag ↔ rising tag", "note": "That meaning goes with rising intonation on the tag, which signals real uncertainty. A falling tag signals that the speaker expects confirmation."},
+  {"code": "LITERAL", "note": "The words are identical either way; the pitch pattern is what tells the listener whether the speaker is checking a belief or truly asking."},
+  {"code": "TERM", "pair": "intonation ↔ contrastive stress", "note": "Contrastive stress makes one word prominent (the PERMISSION slip, not the lunch form). The stem describes pitch on the tag, which is intonation."}
+ ],
+ "key": "Falling tag = the speaker expects confirmation; rising tag = a genuine question. Intonation carries meaning."
+},
+{
+ "id": "1.1-13", "skill": "1.1", "type": "analysis", "difficulty": 3, "diag": 0,
+ "stimulus": "Word | Student's pronunciation\nbag | [bæk]\nhis | [hɪs]\ncard | [kɑrt]\nlove | [lʌf]",
+ "stem": "A grade 9 Expanding student whose home language is Russian reads a word list aloud. Voiced consonants at the beginning and in the middle of words are accurate (boy, ladder, visit), but the teacher records the pronunciations above. Which of the following best explains this pattern?",
+ "options": [
+  "Russian has no voiced consonants, so the student substitutes voiceless ones in every position.",
+  "The student is still in the silent period and is not yet ready for pronunciation instruction.",
+  "The student cannot hear voicing differences in any position, which suggests an auditory processing problem.",
+  "Russian makes voiced consonants voiceless at the end of a word, and the student is transferring that rule."
+ ],
+ "answer": 3,
+ "why": "Russian, like Polish and German, has final devoicing: voiced consonants such as /b d g z v/ become voiceless at the end of a word, so Russian хлеб ('bread') ends in [p]. Because this student voices consonants correctly at the beginning and middle of words, the issue is a positional L1 rule transferred to English. It can merge pairs like bag/back and his/hiss, so it's worth targeting with final-position minimal pairs.",
+ "traps": [
+  {"code": "LITERAL", "note": "Russian has plenty of voiced consonants, and the student produces them correctly at the start and middle of words. Only word-final position is affected."},
+  {"code": "WRONG_LEVEL", "note": "An Expanding ninth grader who reads aloud is far past the silent period, and pronunciation can be addressed at every level."},
+  {"code": "MISREFERRAL", "note": "Correct voicing in initial and medial positions shows the student hears and makes the contrast. A position-specific pattern that matches the L1 is transfer, not a processing problem."},
+  None
+ ],
+ "key": "Russian final devoicing makes 'bag' sound like 'back': a positional L1 rule, not a missing sound."
+},
+{
+ "id": "1.1-14", "skill": "1.1", "type": "analysis", "difficulty": 1, "diag": 0,
+ "stimulus": "Teacher says | Student writes\nshop | chop\nwash | wach\nshoe | choo",
+ "stem": "A grade 2 Entering student whose home language is Spanish produces these spellings on a weekly spelling check. The pattern most likely reflects which of the following?",
+ "options": [
+  "The student does not yet know the letter-sound correspondence for the letters s and h.",
+  "The student is confusing two allophones of a single English phoneme.",
+  "The student is reversing digraphs, which is an early warning sign of dyslexia.",
+  "Most varieties of Spanish have /tʃ/ but no /ʃ/, so the student hears English /ʃ/ as /tʃ/."
+ ],
+ "answer": 3,
+ "why": "/ʃ/ (shoe) and /tʃ/ (chew) are separate phonemes in English, as the minimal pair share/chair shows. Most varieties of Spanish have /tʃ/ (spelled ch, as in chico) but no /ʃ/ phoneme, so the new sound is mapped onto the closest familiar one, and the spelling follows what the student hears. This is transfer from the L1 phoneme inventory, best addressed with listening discrimination and minimal pairs.",
+ "traps": [
+  {"code": "LITERAL", "note": "The student consistently writes ch, the spelling of the sound she hears. That points to a perception pattern, not a random gap in letter-sound knowledge."},
+  {"code": "TERM", "pair": "phoneme ↔ allophone", "note": "In English, /ʃ/ and /tʃ/ are separate phonemes (share vs. chair). Treating them as allophones misreads the contrast."},
+  {"code": "MISREFERRAL", "note": "A consistent substitution that matches the home language's sound system is typical L2 transfer. It is not a reversal and not a sign of dyslexia."},
+  None
+ ],
+ "key": "Most Spanish varieties have /tʃ/ but no /ʃ/; sh-to-ch spellings reflect transfer from the L1 phoneme inventory."
+},
 ]
 
 # ---- END QUESTIONS ----

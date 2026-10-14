@@ -265,7 +265,7 @@ QUESTIONS = [
  "stem": "Which of the following is the strongest theoretical rationale for content-based instruction (CBI) with ELLs?",
  "options": [
   "Students need to master English grammar in isolation before they can benefit from content instruction.",
-  "Content teachers are no longer responsible for language development once an ELL is placed in their class.",
+  "Language development is the ESOL teacher's job, so content teachers can focus on content alone.",
   "Language is acquired effectively when it is used to learn meaningful, cognitively demanding content.",
   "Krashen's Monitor hypothesis identifies conscious study of grammar rules as the main source of fluency."
  ],

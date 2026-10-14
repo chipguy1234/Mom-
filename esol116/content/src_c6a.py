@@ -32,7 +32,7 @@ Q61 = [
  "options": [
   "Lau required affirmative steps so that ELLs could participate meaningfully, but it did not prescribe a method such as bilingual education.",
   "Lau required bilingual education for Chinese-speaking students in particular, since the case was brought on their behalf in San Francisco.",
-  "Lau required English-only instruction, holding that full-time placement in mainstream classrooms is the surest route to equal educational opportunity.",
+  "Lau required English-only instruction, holding that full-time placement in mainstream classes is the surest route to equal opportunity.",
   "Lau required a bilingual program wherever 20 or more ELLs who share a home language are enrolled in the same grade."
  ],
  "answer": 0,
@@ -92,8 +92,8 @@ Q61 = [
  "stem": "A family that recently arrived from Honduras comes to enroll their 9-year-old daughter. The registrar tells the ENL teacher that the parents have no immigration documents and suggests holding off on enrollment until the family's legal status is resolved. Which ruling is most relevant to the ENL teacher's response?",
  "options": [
   "Lau v. Nichols, because the girl will need language support so that she can participate meaningfully once she enrolls",
-  "Meyer v. Nebraska, because the family has a constitutional right to have their daughter taught in Spanish",
-  "Castañeda v. Pickard, because a district's enrollment procedures must be grounded in sound educational theory",
+  "Meyer v. Nebraska, because the family has a constitutional right to have their daughter taught in Spanish at school",
+  "Castañeda v. Pickard, because a district's enrollment procedures must be grounded in sound educational theory and research",
   "Plyler v. Doe, because a state may not deny children a free public K–12 education because they are undocumented"
  ],
  "answer": 3,
@@ -214,7 +214,7 @@ Q61 = [
  "stem": "District leaders want one federal guidance document that addresses every one of these findings as a civil-rights obligation toward English learners and their families. Which source is most appropriate?",
  "options": [
   "Plyler v. Doe, the 1982 Supreme Court decision on schooling for undocumented children",
-  "The Bilingual Education Act, the 1968 law that first funded bilingual programs",
+  "The Bilingual Education Act, the 1968 federal law that first funded bilingual programs",
   "The 2015 DOJ/OCR Dear Colleague Letter on English learner students and LEP parents",
   "Lau v. Nichols, the 1974 Supreme Court decision requiring affirmative steps for ELLs"
  ],
@@ -461,7 +461,7 @@ Q62 = [
  "id": "6.2-08", "skill": "6.2", "type": "scenario", "difficulty": 2, "diag": 0,
  "stem": "A high school junior who arrived from Ukraine three years ago reads and writes Ukrainian at an advanced level and scored Expanding on the most recent NYSESLAT. Her counselor says the NYS Seal of Biliteracy “is for English speakers who study a world language, not for ELLs.” Which response best reflects NYS policy and the asset-based thinking behind the Seal?",
  "options": [
-  "The counselor is correct, because the Seal rewards world-language coursework, and ELLs already have the NYSESLAT to document progress.",
+  "The counselor is correct, because the Seal rewards world-language coursework, and ELLs have the NYSESLAT instead.",
   "She will become eligible after two years as a former ELL, the same period during which former ELLs keep their services.",
   "She should set the Seal aside for now, because building advanced Ukrainian literacy could slow her progress in English.",
   "The Seal recognizes graduates with high proficiency in English and another language, so she can work toward it in Ukrainian."
@@ -483,7 +483,7 @@ Q62 = [
  "stem": "Which statement best describes the district's compliance with CR Part 154?",
  "options": [
   "It complied, because the student's ELL identification was completed within 10 school days of initial enrollment.",
-  "It did not comply: notice was due within 5 school days of identification and in the family's preferred language.",
+  "It did not comply: notice was due within 5 school days of identification, in the family's preferred language.",
   "It did not comply, because the NYSITELL must be administered on the same school day that the student first enrolls.",
   "It complied, because Part 154 gives schools up to 30 school days after identification to notify families of ELL status."
  ],
@@ -566,7 +566,7 @@ Q62 = [
   "He keeps testing accommodations for two years after exiting, but Part 154 requires no further instructional support.",
   "As a former ELL, he receives continued support (90 minutes a week in grades K–8) and testing accommodations for two years.",
   "He continues to receive 180 minutes a week of Integrated ENL until he scores Level 3 or higher on the grade 8 ELA test.",
-  "He can remain in the ELL subgroup for up to four years after exiting, so he keeps receiving full ENL services throughout that period."
+  "He can remain in the ELL subgroup for up to four years, so he keeps receiving full ENL services throughout that period."
  ],
  "answer": 1,
  "why": "Under Part 154, students who exit ELL status become former ELLs and receive two years of continued support (90 minutes per week in grades K–8, through Integrated ENL or other approved former-ELL services) plus testing accommodations. Exiting is a milestone, not the end of the school's responsibility. The four-year figure is a separate ESSA accountability rule about reporting, not a service entitlement.",
@@ -653,7 +653,7 @@ Q63 = [
   "Survey families in their home languages about times, places, and topics, then plan events with interpreters, childcare, and their input.",
   "Send a firmly worded English reminder before the next event explaining that attendance shows support for children's learning.",
   "Accept that cultural norms in many immigrant families discourage school involvement, and shift attention to the students instead.",
-  "Offer a workshop that teaches parents how American schools expect families to help, since many lack the skills to support their children's learning."
+  "Offer a workshop that teaches parents how American schools expect families to help, since many lack the skills to support learning."
  ],
  "answer": 0,
  "why": "Low turnout usually signals barriers, not a lack of caring: work schedules, transportation, childcare, an event held only in English, or unfamiliarity with U.S. school customs. Asking families in their own languages what would work, and then building in interpreters, childcare, flexible times, and family-chosen topics, treats families as partners. Attendance at one English-only evening event is not a measure of how much families value education.",
@@ -670,7 +670,7 @@ Q63 = [
  "id": "6.3-03", "skill": "6.3", "type": "scenario", "difficulty": 3, "diag": 0,
  "stem": "At a conference with an interpreter, the parents of a sixth grader who recently arrived from South Korea listen politely and nod. When asked for their thoughts, they say, “You are the teacher. Whatever you decide is best.” They raise no questions or concerns. Which response by the teacher is most appropriate?",
  "options": [
-  "Conclude that the parents are satisfied with their child's progress and have no concerns, and continue making instructional decisions on her own.",
+  "Conclude that the parents are satisfied with their child's progress, and continue making instructional decisions on her own.",
   "Plan for daily homework and strict classroom discipline, since Korean families generally expect a traditional approach.",
   "Explain that this kind of deference is not appropriate in U.S. schools and that the parents need to take a more active role.",
   "Recognize that the reply may show respect for teachers, and ask specific questions about the child's strengths, interests, and home life."
@@ -795,7 +795,7 @@ Q63 = [
  "options": [
   "Explain that coming to school meetings is the most important way to show support, and encourage him to adjust his work schedule.",
   "Affirm that the Fulani talk and storytelling build her language and learning, suggest ways to extend them, and offer phone meetings.",
-  "Suggest that the family speak English at breakfast instead, so that his daughter can practice the language she is learning at school.",
+  "Suggest that the family speak English at breakfast instead, so his daughter can practice the language she is learning.",
   "Thank him and suggest the after-school homework club for his daughter, since the school can take care of her academic support."
  ],
  "answer": 1,
