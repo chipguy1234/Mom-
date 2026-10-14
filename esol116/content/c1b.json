@@ -1,0 +1,1733 @@
+{
+ "questions": [
+  {
+   "id": "1.5-01",
+   "skill": "1.5",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "During a Stand-alone ENL lesson for Emerging-level third graders, a teacher reads aloud a picture book whose language is slightly beyond what the students can produce on their own. She points to illustrations, acts out key verbs, and paraphrases difficult sentences; students are not asked to respond orally. The teacher's approach most directly applies which hypothesis?",
+   "options": [
+    "Swain's Output Hypothesis, which holds that producing language pushes learners to notice gaps in what they can say",
+    "Long's Interaction Hypothesis, which holds that negotiating meaning after a communication breakdown drives acquisition",
+    "Krashen's Input Hypothesis, which holds that understanding messages slightly beyond one's current level drives acquisition",
+    "Krashen's Monitor Hypothesis, which holds that consciously learned rules serve as an editor for learners' output"
+   ],
+   "answer": 2,
+   "why": "Making a slightly-too-hard text understandable through pictures, gestures, and paraphrase is the classroom form of Krashen's Input Hypothesis (i+1): learners acquire language when they understand input a step beyond their current competence (i). The emphasis is on comprehension, not production. Krashen argued that speech emerges on its own once enough comprehensible input has been acquired.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "Students aren't asked to speak at all, so nothing here pushes production. The lesson works by making input comprehensible, which is Krashen's claim, not Swain's.",
+     "pair": "Input ↔ Output"
+    },
+    {
+     "code": "TERM",
+     "note": "There is no two-way negotiation: students don't signal confusion, and the teacher isn't responding to breakdowns with clarification requests. She modifies the input herself, in advance.",
+     "pair": "Input ↔ Interaction"
+    },
+    null,
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "The Monitor concerns how learned grammar rules edit what learners say or write. This lesson involves no rule instruction and no student output to edit."
+    }
+   ],
+   "key": "Input Hypothesis (i+1): acquisition comes from understanding input slightly beyond current level; visuals, gestures, and paraphrase make it comprehensible."
+  },
+  {
+   "id": "1.5-02",
+   "skill": "1.5",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Observation notes, grade 8 Integrated ENL science (student: Expanding level, home language Pashto)\n- Small-group lab: explains the procedure to peers in full sentences and jokes with his partner\n- Whole-class cold call: looks down and says 'I don't know,' although his lab sheet shows the correct answer\n- After class: tells the teacher he is afraid classmates will laugh at his accent",
+   "stem": "The teacher stops cold-calling the student and instead has partners rehearse answers before volunteers share with the class. This decision is most consistent with which hypothesis?",
+   "options": [
+    "The Monitor Hypothesis, because rehearsal gives him time to check his speech against grammar rules he has learned",
+    "The Affective Filter Hypothesis, because lowering his anxiety lets him take in input and participate without a block",
+    "The Natural Order Hypothesis, because rehearsal lets him use English structures in the order they are acquired",
+    "The Output Hypothesis, because rehearsal forces him to produce language that exposes gaps in his knowledge"
+   ],
+   "answer": 1,
+   "why": "The evidence points to anxiety: he uses English well with a partner, freezes when cold-called, and says he fears being laughed at. Krashen's Affective Filter Hypothesis holds that anxiety, low self-confidence, and low motivation raise a mental 'filter' that keeps comprehensible input from being acquired and suppresses participation. Low-risk structures such as partner rehearsal and wait time lower the filter without lowering expectations; he still shares grade-level science content.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "Rehearsal does give time to monitor, but the evidence points elsewhere: he speaks fluently in small groups and says he fears being laughed at. The teacher's change targets that fear, not rule-checking.",
+     "pair": "Affective Filter ↔ Monitor"
+    },
+    null,
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Natural Order describes the sequence in which grammatical morphemes are acquired. It says nothing about anxiety or how to structure participation."
+    },
+    {
+     "code": "LITERAL",
+     "note": "Partner rehearsal does involve output, but he already produces full sentences with peers. The teacher's change removes public pressure rather than adding production demands."
+    }
+   ],
+   "key": "Affective Filter: anxiety blocks acquisition and participation; lower it with low-risk structures like partner rehearsal, not by lowering content expectations."
+  },
+  {
+   "id": "1.5-03",
+   "skill": "1.5",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Teacher notes, grade 10 Stand-alone ENL (student: Transitioning level, home language Russian)\n- Untimed grammar quiz on third-person singular -s: 19/20 correct\n- Timed oral debate the same week: 'She work at the hospital.' 'He want to win.'\n- Revision conference: rereads his draft and adds -s to most verbs that need it",
+   "stem": "Which of Krashen's hypotheses best explains why the student's accuracy differs across these tasks?",
+   "options": [
+    "The Natural Order Hypothesis, because third-person -s is acquired late regardless of when it is taught",
+    "The Input Hypothesis, because he has not yet received enough comprehensible input containing third-person -s",
+    "The Monitor Hypothesis, because learned rules are applied only when there is time, a focus on form, and rule knowledge",
+    "The Affective Filter Hypothesis, because the timed debate made him anxious enough to forget a rule he knows well"
+   ],
+   "answer": 2,
+   "why": "Krashen's Monitor Hypothesis says consciously learned rules can 'edit' output only when three conditions are met: enough time, a focus on form, and knowledge of the rule. The untimed quiz and the revision conference meet all three; the fast-paced debate doesn't, so the student falls back on his acquired system, which doesn't yet include third-person -s. This reflects Krashen's distinction between learned knowledge and acquired competence.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "Natural Order explains why third-person -s is missing from his spontaneous speech, but it can't explain why his accuracy jumps on the quiz and in revision. The contrast across conditions is the Monitor's signature."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "More comprehensible input may eventually lead him to acquire the form, but the Input Hypothesis doesn't explain why he is accurate on some tasks and not others in the same week."
+    },
+    null,
+    {
+     "code": "LITERAL",
+     "note": "This latches onto the word 'timed.' Nothing in the notes indicates anxiety; the accuracy drop is predicted whenever time and attention to form are removed."
+    }
+   ],
+   "key": "Monitor Hypothesis: learned rules edit output only with time, focus on form, and rule knowledge, so accuracy rises on untimed, form-focused tasks."
+  },
+  {
+   "id": "1.5-04",
+   "skill": "1.5",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 4 ENL teacher taught third-person singular -s ('she walks') in September. In March, her Emerging-level students reliably use -ing and plural -s in conversation but still often omit third-person -s. A colleague says the students must not have been paying attention. Which response best reflects Krashen's Natural Order Hypothesis?",
+   "options": [
+    "Students acquire grammatical forms in the order the teacher presents them, so third-person -s should be retaught with more drills.",
+    "Third-person -s is omitted because the students' home languages lack subject–verb agreement, so the pattern reflects transfer.",
+    "The omission shows that the students' interlanguage has fossilized, so further instruction on this form is unlikely to help.",
+    "Grammatical morphemes tend to be acquired in a predictable order, and third-person -s typically comes late whenever it is taught."
+   ],
+   "answer": 3,
+   "why": "Morpheme-order studies, summarized in Krashen's Natural Order Hypothesis, found that learners from many language backgrounds acquire English grammatical morphemes in a broadly predictable order: -ing and plural -s early, third-person singular -s and possessive 's late. Teaching a form doesn't move it earlier in that order. The implication is to keep providing rich input and meaningful practice while expecting late-acquired forms to appear late in spontaneous speech.",
+   "traps": [
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "This reverses the hypothesis. Natural Order says the acquisition sequence is not set by the teaching sequence, so more drills won't move third-person -s earlier."
+    },
+    {
+     "code": "TERM",
+     "note": "Late acquisition of third-person -s appears in learners from many home-language backgrounds, so it is developmental, not a transfer effect. The scenario gives no L1 evidence at all.",
+     "pair": "developmental order ↔ L1 transfer"
+    },
+    {
+     "code": "TERM",
+     "note": "Six months after instruction, Emerging-level students are still developing. Fossilization describes forms that stop changing over a long period despite continued input.",
+     "pair": "developmental stage ↔ fossilization"
+    },
+    null
+   ],
+   "key": "Natural Order: morphemes are acquired in a predictable sequence (-ing early, third-person -s late) regardless of teaching order."
+  },
+  {
+   "id": "1.5-05",
+   "skill": "1.5",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 1,
+   "stem": "Tomás, a grade 5 student whose home language is Spanish, arrived in New York 18 months ago. He chats easily with classmates and jokes with the lunch aides, but he struggles to explain cause and effect in his science textbook and on written assessments. His classroom teacher says, 'His English is fine, so this must be a learning problem.' Which concept best explains Tomás's profile?",
+   "options": [
+    "Cummins' distinction between BICS, which typically develops in 1–3 years, and CALP, which typically takes 5–7 years",
+    "Cummins' Threshold Hypothesis, which suggests that limited Spanish proficiency is blocking his cognitive growth",
+    "Krashen's Natural Order Hypothesis, which predicts that academic structures are acquired before social ones",
+    "A possible learning disability, because his social fluency shows his English is strong enough to rule out language"
+   ],
+   "answer": 0,
+   "why": "Cummins distinguished Basic Interpersonal Communicative Skills (BICS), context-embedded social language that usually develops in about 1–3 years, from Cognitive Academic Language Proficiency (CALP), the context-reduced, cognitively demanding language of textbooks and tests that typically takes 5–7 years or longer. After 18 months, conversational fluency with an academic gap is the expected profile. Mistaking BICS for full proficiency is a classic route to inappropriate special-education referral.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "note": "Nothing suggests limited Spanish. The Threshold Hypothesis concerns how proficiency levels in both languages relate to the cognitive effects of bilingualism; it doesn't explain a social–academic gap in English.",
+     "pair": "BICS/CALP ↔ Threshold"
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Natural Order concerns the sequence of grammatical morphemes, and the claim is backward anyway: social language develops before academic language."
+    },
+    {
+     "code": "MISREFERRAL",
+     "note": "This mistakes BICS for full proficiency. Eighteen months is well within the normal time frame for developing academic language, so the profile isn't evidence of a disability."
+    }
+   ],
+   "key": "Social fluency (BICS, 1–3 years) is not academic proficiency (CALP, 5–7 years); playground English doesn't rule out language as the cause."
+  },
+  {
+   "id": "1.5-06",
+   "skill": "1.5",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A grade 7 ENL teacher is planning for newcomers who are literate in Arabic and studied algebra in Yemen. Which instructional decision follows most directly from Cummins' Common Underlying Proficiency (CUP) model?",
+   "options": [
+    "Build students' social English first, since academic concepts can't be taught until conversational fluency develops",
+    "Keep Arabic out of math class so English has room to grow, since each language draws on a separate store of proficiency",
+    "Provide input slightly beyond students' current English level, since comprehensible input is the sole cause of acquisition",
+    "Have students discuss algebra problems in Arabic and link the ideas to English terms, since knowledge transfers across languages"
+   ],
+   "answer": 3,
+   "why": "Cummins' CUP (the 'dual iceberg') holds that two languages look separate on the surface but share an underlying base of concepts, literacy skills, and academic knowledge. What these students learned about algebra in Arabic isn't trapped in Arabic; it transfers once they have English labels for it. Using the home language to access and discuss content, then bridging to English, is the direct classroom application.",
+   "traps": [
+    {
+     "code": "EXCLUSION",
+     "note": "Cummins never said academic content must wait for social fluency. Delaying algebra wastes knowledge these students already have and holds them back from grade-level work."
+    },
+    {
+     "code": "DEFICIT",
+     "note": "This is the 'separate underlying proficiency' (balloon) model that Cummins rejected. Treating the home language as competition for English contradicts the CUP."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Comprehensible input (i+1) is Krashen's idea, not Cummins'. It says nothing about drawing on what students already know in their home language."
+    },
+    null
+   ],
+   "key": "CUP (dual iceberg): languages share one underlying proficiency, so concepts and literacy built in the home language transfer to English."
+  },
+  {
+   "id": "1.5-07",
+   "skill": "1.5",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 9 global history teacher plans a lecture on the causes of World War I for a class that includes Transitioning-level ELLs. Drawing on Cummins' quadrants, the ENL co-teacher recommends keeping the task cognitively demanding while making it more context-embedded. Which change best accomplishes this?",
+   "options": [
+    "Replace the lecture with a shorter, simplified reading about the war written at a lower grade level",
+    "Add a visual timeline, a map of the alliances, and a partner task sorting cause cards during the lecture",
+    "Give students a list of key terms with dictionary definitions to memorize the night before the lecture",
+    "Deliver the lecture more slowly and repeat it the next day so that students hear all of the content twice"
+   ],
+   "answer": 1,
+   "why": "Cummins' framework crosses two dimensions: contextual support (context-embedded ↔ context-reduced) and cognitive demand (undemanding ↔ demanding). A lecture with no visuals is context-reduced and demanding, the hardest quadrant for ELLs. Adding visuals, maps, cards to manipulate, and partner talk embeds the content in context while keeping the demanding analysis of causes, which is how to scaffold without watering down.",
+   "traps": [
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Simplifying the reading moves the task toward the cognitively undemanding side of the grid. The goal is to keep the thinking demanding and add contextual support."
+    },
+    null,
+    {
+     "code": "ISOLATED",
+     "note": "A memorized word list is itself context-reduced. It adds no visual, hands-on, or interactive cues to the lecture."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Slower delivery and repetition may aid comprehension slightly, but the lecture stays context-reduced, with no visual, physical, or interactive cues."
+    }
+   ],
+   "key": "Cummins' quadrants: keep tasks cognitively demanding but make them context-embedded with visuals, hands-on materials, and interaction."
+  },
+  {
+   "id": "1.5-08",
+   "skill": "1.5",
+   "type": "application",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "Oksana and Danylo, 12-year-old cousins from Ukraine, enroll in the same Brooklyn middle school. Oksana completed grade 6 in Kyiv and reads fluently in Ukrainian; Danylo's schooling was interrupted for two years, and his Ukrainian literacy is limited. Both receive the same ENL services, and after a year Oksana's English reading has advanced much faster. Which hypothesis most directly predicts this difference?",
+   "options": [
+    "The Threshold Hypothesis, which holds that the cognitive benefits of bilingualism appear only after proficiency in both languages reaches certain levels",
+    "The BICS/CALP distinction, which holds that social language develops more quickly than academic language",
+    "The Developmental Interdependence Hypothesis, which holds that L2 growth depends partly on L1 competence when intensive L2 exposure begins",
+    "The Critical Period Hypothesis, which holds that language acquisition becomes harder after a biologically determined age"
+   ],
+   "answer": 2,
+   "why": "Cummins' Developmental Interdependence Hypothesis states that the level of L2 competence a child attains depends partly on the L1 competence the child has developed when intensive exposure to the L2 begins. Oksana's strong Ukrainian literacy gives her concepts and reading skills that transfer to English; Danylo must build those foundations while also learning English. The implication is to develop home-language literacy where possible and to plan intensive foundational literacy support for students with interrupted schooling.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "The Threshold Hypothesis concerns when bilingualism produces cognitive benefits or costs. It doesn't directly predict that stronger L1 literacy at the start of L2 exposure leads to faster L2 reading growth.",
+     "pair": "Developmental Interdependence ↔ Threshold"
+    },
+    {
+     "code": "LITERAL",
+     "note": "BICS/CALP describes the gap between social and academic language within one learner. It doesn't explain why one cousin's academic reading grows faster than the other's."
+    },
+    null,
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "The cousins are the same age, so age can't account for the difference. The variable that differs is their home-language literacy."
+    }
+   ],
+   "key": "Developmental Interdependence: strong L1 literacy when L2 exposure begins predicts faster L2 academic growth."
+  },
+  {
+   "id": "1.5-09",
+   "skill": "1.5",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Two grade 6 Expanding-level students co-write a summary of a science video.\nAmina: The ice... it... how do you say when it turns to water?\nJoon: Melts. The ice melts.\nAmina: Okay. The ice melts because the heat... the heat give energy?\nJoon: Gives. 'The heat gives energy.' Wait, isn't there a science word? Let's check the word wall.\nAmina: 'Thermal energy transfers to the ice.' I'll write that.",
+   "stem": "This exchange best illustrates which process described by Swain's Output Hypothesis?",
+   "options": [
+    "Receiving comprehensible input that is slightly beyond the students' current level of competence",
+    "Lowering the affective filter by working with a trusted peer instead of with the teacher",
+    "Using the Monitor to edit errors once the whole summary has been completely drafted",
+    "Noticing a gap between what one wants to say and what one can say, then testing new forms"
+   ],
+   "answer": 3,
+   "why": "Swain argued that comprehensible input alone isn't enough; being pushed to produce language makes learners process grammar more deeply. Her Output Hypothesis names three functions: noticing (Amina realizes she lacks the word 'melts'), hypothesis testing ('the heat give energy?'), and metalinguistic reflection (Joon questions word choice and checks the word wall). Collaborative writing tasks that push for precise output create exactly these moments.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "The learning here is triggered by trying to produce language, not by receiving it. Amina discovers what she can't yet say only when she attempts to write.",
+     "pair": "Output ↔ Input"
+    },
+    {
+     "code": "LITERAL",
+     "note": "The peer setting may help, but it isn't what the transcript shows. The key evidence is students struggling to express ideas and trying out forms."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "The Monitor is Krashen's concept, and the students aren't editing a finished draft; they are reformulating together as they compose."
+    },
+    null
+   ],
+   "key": "Swain's Output Hypothesis: producing language makes learners notice gaps, test hypotheses, and reflect on form."
+  },
+  {
+   "id": "1.5-10",
+   "skill": "1.5",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 2,
+   "stimulus": "Grade 2 Stand-alone ENL, retelling a story (Karim, Emerging level, home language Arabic)\nTeacher: What did the farmer do with the seeds?\nKarim: He... plant? He put in the... the ground, the dirt.\nTeacher: You mean he planted them in the soil?\nKarim: Yes, planted in soil.\nTeacher: And then what happened?\nKarim: The rain came, and they grow up.\nTeacher: Sorry, they what?\nKarim: They grow... grew. They grew.",
+   "stem": "Which concept best describes the teacher's moves 'You mean he planted them in the soil?' and 'Sorry, they what?'",
+   "options": [
+    "Negotiation of meaning through a confirmation check and a clarification request, as in Long's Interaction Hypothesis",
+    "Explicit correction, in which the teacher supplies the correct form and states that the student's form was wrong",
+    "Premodified comprehensible input, as in Krashen's Input Hypothesis, in which language is simplified in advance",
+    "Pushed output, as in Swain's Output Hypothesis, in which the teacher requires complete sentences before moving on"
+   ],
+   "answer": 0,
+   "why": "Long's Interaction Hypothesis holds that acquisition is promoted when learners and their partners work through communication breakdowns, a process called negotiation of meaning. A confirmation check ('You mean he planted them in the soil?') verifies understanding while modeling target forms; a clarification request ('Sorry, they what?') signals a problem and pushes the learner to reformulate, as Karim does with 'grew.' The modified input and the learner's repair come from the interaction itself, not from pre-simplified materials.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "note": "The teacher never says Karim's form is wrong. Her moves signal a need for confirmation or clarification and leave the repair to the conversation.",
+     "pair": "explicit correction ↔ clarification request"
+    },
+    {
+     "code": "TERM",
+     "note": "The teacher's language isn't simplified ahead of time; it is adjusted in response to a breakdown during a two-way exchange. That responsive adjustment is the core of Long's hypothesis.",
+     "pair": "Interaction ↔ Input"
+    },
+    {
+     "code": "TERM",
+     "note": "Karim does reformulate ('grew'), but the teacher never demands complete sentences. Her moves are the negotiation-of-meaning moves Long identified, which happen to prompt output.",
+     "pair": "Interaction ↔ Output"
+    }
+   ],
+   "key": "Interaction Hypothesis (Long): negotiating meaning through comprehension checks, clarification requests, and confirmation checks makes input comprehensible and prompts repair."
+  },
+  {
+   "id": "1.5-11",
+   "skill": "1.5",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A grade 8 ENL teacher notices that her Transitioning-level students read and hear the past perfect constantly in novels but rarely use it. She gives them a short story in which every past perfect verb ('had already left') is in bold, asks pairs to find the bolded verbs and discuss why the author used them, and then has students retell the story. Which theoretical claim most directly supports her decision to bold the verbs?",
+   "options": [
+    "Producing language pushes learners to notice gaps in their knowledge, so the retelling is what drives acquisition.",
+    "Acquisition happens subconsciously through comprehensible input, so learners need only understand the story's meaning.",
+    "Input becomes intake only when learners consciously register a form, so making a form salient can promote acquisition.",
+    "Language is learned through habit formation, so repeated exposure to correct models gradually replaces learners' errors."
+   ],
+   "answer": 2,
+   "why": "Schmidt's Noticing Hypothesis holds that learners must consciously notice a form in the input for it to become intake, the raw material of acquisition. These students had met the past perfect constantly without registering it; bolding it (input enhancement) and discussing why the author chose it make the form salient. This contrasts with Krashen's view that comprehensible input works subconsciously.",
+   "traps": [
+    {
+     "code": "LITERAL",
+     "note": "The retelling reflects Swain's Output Hypothesis, but the stem asks what supports bolding the verbs. Bolding works on the input side, by drawing attention to form."
+    },
+    {
+     "code": "TERM",
+     "note": "This is Krashen's position, and it argues against bolding: if understanding meaning were enough, students who constantly meet the past perfect would already be using it.",
+     "pair": "Noticing ↔ Input Hypothesis"
+    },
+    null,
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Habit formation through repetition and reinforcement is behaviorism. Bolding asks learners to consciously attend to and analyze a form, not to build habits through repetition."
+    }
+   ],
+   "key": "Noticing Hypothesis (Schmidt): input becomes intake only when learners notice the form; input enhancement such as bolding makes forms salient."
+  },
+  {
+   "id": "1.5-12",
+   "skill": "1.5",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A grade 3 ENL teacher finds that Mei, an Emerging-level student whose home language is Mandarin, can't yet write a sequenced paragraph on her own but can do so with a graphic organizer, sentence starters ('First,...' 'Next,...'), and brief prompting. Over several weeks, the teacher removes the starters and then the organizer as Mei gains control. This approach most directly reflects which concept?",
+   "options": [
+    "Krashen's i+1, because the paragraph task is one step beyond Mei's current level of competence",
+    "Vygotsky's zone of proximal development, with support withdrawn as Mei becomes independent",
+    "Cummins' Common Underlying Proficiency, because Mei's writing skills transfer from Mandarin",
+    "Chomsky's Universal Grammar, because Mei's innate language faculty lets her build paragraphs"
+   ],
+   "answer": 1,
+   "why": "Vygotsky's zone of proximal development is the gap between what a learner can do alone and what she can do with help from a more knowledgeable other. Wood, Bruner, and Ross called that temporary, adjustable help scaffolding, and it is withdrawn as the learner internalizes the skill. The organizer, starters, and prompting, removed step by step, are textbook scaffolding within Mei's ZPD.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "i+1 describes input a learner can understand. This scenario centers on what Mei can do with assistance from a more capable other, and on fading that assistance, which is the ZPD.",
+     "pair": "ZPD ↔ i+1"
+    },
+    null,
+    {
+     "code": "LITERAL",
+     "note": "Mandarin is mentioned, but nothing in the scenario involves transferring skills from her home language. The evidence is assisted performance followed by gradual withdrawal of support."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Universal Grammar concerns innate knowledge of grammatical principles, not paragraph organization or learning with assistance."
+    }
+   ],
+   "key": "ZPD (Vygotsky): teach in the gap between independent and assisted performance; scaffold, then fade support as the learner gains control."
+  },
+  {
+   "id": "1.5-13",
+   "skill": "1.5",
+   "type": "knowledge",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A kindergarten ELL says, 'My foots are cold' and 'I goed to the park,' forms he has almost certainly never heard adults use. Linguists have cited this kind of evidence to argue most directly against which view of language acquisition?",
+   "options": [
+    "The innatist view that children have a language acquisition device guided by Universal Grammar",
+    "The interactionist view that negotiating meaning helps make input comprehensible to learners",
+    "The sociocultural view that learning is mediated by interaction with more capable others",
+    "The behaviorist view that language is acquired through imitation and reinforcement of habits"
+   ],
+   "answer": 3,
+   "why": "Behaviorists such as Skinner explained language learning as habit formation through imitation and reinforcement, the basis of the Audiolingual Method's drills. But no adult says 'goed' or 'foots'; the child has extracted the rules for past -ed and plural -s and applied them too broadly. Chomsky and other innatists cited such creative, rule-governed errors as evidence that learners actively construct grammar, guided by an innate language faculty (the LAD, or Universal Grammar).",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "This evidence supports the innatist view. Rule-based errors suggest children actively construct grammar rather than copy what they hear.",
+     "pair": "behaviorism ↔ innatism"
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Nothing about overgeneralized forms contradicts the claim that negotiation of meaning aids comprehension; the two ideas are compatible."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Sociocultural theory addresses how social support mediates learning. Novel rule-based forms don't challenge it."
+    },
+    null
+   ],
+   "key": "Overgeneralizations like 'goed' show learners construct rules, undercutting behaviorist imitation-and-reinforcement accounts and supporting innatist ones."
+  },
+  {
+   "id": "1.5-14",
+   "skill": "1.5",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A family from Nepal enrolls a 6-year-old daughter and a 15-year-old son in the same district. The parents ask the ENL teacher which child will learn English 'better.' Which response best reflects research related to the Critical Period Hypothesis and age in second-language acquisition?",
+   "options": [
+    "The younger child is more likely to develop native-like pronunciation over time, while the teenager may progress faster at first by drawing on prior schooling.",
+    "The teenager has passed the critical period, so he is unlikely to reach a high level of English proficiency regardless of the support he receives.",
+    "Both children will follow the same timeline, because age has little effect on acquisition once the instruction is comprehensible.",
+    "The younger child will reach grade-level academic English faster, because young children absorb academic vocabulary more easily."
+   ],
+   "answer": 0,
+   "why": "Lenneberg's Critical Period Hypothesis proposed a biologically based window for language acquisition. For second languages, the clearest age effects appear in pronunciation: learners who start young are more likely to sound native-like in the long run. Older learners, however, usually progress faster at first because they bring cognitive maturity, literacy, and school knowledge that transfer. 'Older is faster at first; younger tends to be better for accent in the long run' is the defensible summary, and neither child's potential should be underestimated.",
+   "traps": [
+    null,
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "This overstates the hypothesis. The clearest age effects in L2 involve native-like pronunciation; adolescents routinely reach high proficiency, and low expectations would harm this student."
+    },
+    {
+     "code": "ONE_SIZE",
+     "note": "Age does shape the process: older and younger learners differ in rate, in what they bring (literacy, school knowledge), and in long-term pronunciation outcomes."
+    },
+    {
+     "code": "TERM",
+     "note": "Younger isn't faster. Older learners usually progress more quickly at first, and young children also face a long road to academic language (CALP).",
+     "pair": "rate of acquisition ↔ ultimate attainment"
+    }
+   ],
+   "key": "Age effects: younger starters tend toward native-like accent long-term; older learners often progress faster initially. The CPH doesn't cap a teen's proficiency."
+  },
+  {
+   "id": "1.6-01",
+   "skill": "1.6",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 1,
+   "stem": "Nine weeks into the school year, a kindergarten teacher reports that Ibrahima, a newcomer whose home language is Wolof and who scored at the Entering level on the NYSITELL, has not yet spoken English in class. He follows routines, points to pictures when asked, and laughs at the right moments during read-alouds. What is the most appropriate interpretation and response?",
+   "options": [
+    "His silence after nine weeks suggests a possible speech or language disorder, so the teacher should request an evaluation now.",
+    "He is likely in a silent period, so the teacher should keep providing comprehensible input and invite nonverbal responses.",
+    "His interlanguage has stopped developing, so the teacher should begin intensive drills on high-frequency English phrases.",
+    "He should be required to answer in English each day so that he does not grow too comfortable relying on gestures."
+   ],
+   "answer": 1,
+   "why": "Many newcomers go through a silent or preproduction period (the first stage of Krashen and Terrell's Natural Approach), building comprehension before they speak. Following routines, pointing, and laughing at the story are evidence that Ibrahima understands English input. The level-appropriate response is rich comprehensible input with nonverbal response options (TPR, pointing, gestures) and low-pressure invitations to speak, not pressure to produce or a referral based on silence alone.",
+   "traps": [
+    {
+     "code": "MISREFERRAL",
+     "note": "A silent period of weeks or even months is typical for newcomers, and following routines and laughing at stories show he understands English. Silence alone isn't evidence of a disorder."
+    },
+    null,
+    {
+     "code": "TERM",
+     "note": "Nothing has stopped: nine weeks into English, he is building comprehension. Fossilization describes forms that stop changing after long exposure, and isolated drills wouldn't suit this stage anyway.",
+     "pair": "silent period ↔ fossilization"
+    },
+    {
+     "code": "WRONG_LEVEL",
+     "note": "Forcing speech during the preproduction stage raises anxiety and doesn't match where he is developmentally. Nonverbal responses are an appropriate bridge, not a crutch."
+    }
+   ],
+   "key": "A silent period with clear comprehension is normal for newcomers; respond with comprehensible input and nonverbal options, not referral."
+  },
+  {
+   "id": "1.6-02",
+   "skill": "1.6",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Oral sample, grade 2 student (home language: Spanish), describing a picture during a conference:\n'The boy is go to the store. He want buy the apple. His mama say no, is too expensive. Then he is sad and he go home.'",
+   "stem": "Based on this sample, the student is most likely in which stage of the Natural Approach (Krashen & Terrell)?",
+   "options": [
+    "Preproduction, because the student relies mainly on comprehension and nonverbal responses",
+    "Early Production, because the student uses mostly one- and two-word utterances and memorized chunks",
+    "Speech Emergence, because the student produces simple sentences and connected phrases with frequent errors",
+    "Intermediate Fluency, because the student produces complex sentences and opinions with relatively few errors"
+   ],
+   "answer": 2,
+   "why": "In Krashen and Terrell's Natural Approach, Speech Emergence is marked by simple sentences, short connected discourse, a growing vocabulary, and many grammatical errors (here: 'is go,' 'he want buy,' the dropped subject in 'is too expensive'). The student tells a sequenced story, which goes beyond Early Production, but the simple structures and frequent errors fall short of Intermediate Fluency. Knowing the stage helps the teacher pitch questions, such as 'how' and 'why' prompts with sentence frames for connected speech.",
+   "traps": [
+    {
+     "code": "WRONG_LEVEL",
+     "note": "The student produces a multi-sentence story, far beyond the comprehension-focused, largely nonverbal preproduction stage."
+    },
+    {
+     "code": "TERM",
+     "note": "Early Production is marked by one- or two-word answers and set phrases. This student strings together several original sentences in sequence ('Then...').",
+     "pair": "Early Production ↔ Speech Emergence"
+    },
+    null,
+    {
+     "code": "TERM",
+     "note": "Intermediate Fluency brings more complex sentences and fewer errors. These sentences are simple and contain frequent errors ('is go,' 'he want buy').",
+     "pair": "Speech Emergence ↔ Intermediate Fluency"
+    }
+   ],
+   "key": "Speech Emergence: simple sentences and short connected speech with many errors; beyond one-word answers, not yet complex fluent speech."
+  },
+  {
+   "id": "1.6-03",
+   "skill": "1.6",
+   "type": "knowledge",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "Which statement best describes Selinker's concept of interlanguage?",
+   "options": [
+    "A permanent plateau in which nontarget forms persist in a learner's speech despite instruction and exposure",
+    "The alternating use of two languages within a single conversation or sentence by bilingual speakers",
+    "A simplified contact language that develops when speakers who share no common language must communicate",
+    "A learner's systematic, evolving language system, shaped by the L1, the target language, and learning processes"
+   ],
+   "answer": 3,
+   "why": "Selinker coined interlanguage for the learner's own in-between system. It is neither the L1 nor the target language, but it is systematic and rule-governed, shaped by L1 transfer, overgeneralization of target-language rules, and learning strategies. It is also dynamic, restructuring as learners take in more input, which is why errors are useful windows into what a learner currently knows.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "This describes fossilization, which happens when parts of an interlanguage stop developing. Interlanguage itself is dynamic and keeps changing.",
+     "pair": "interlanguage ↔ fossilization"
+    },
+    {
+     "code": "TERM",
+     "note": "Code-switching is a bilingual's purposeful alternation between two languages, not a learner's developing system for one language.",
+     "pair": "interlanguage ↔ code-switching"
+    },
+    {
+     "code": "TERM",
+     "note": "A pidgin is a contact language shared by a community. Interlanguage belongs to an individual learner and moves toward the target language.",
+     "pair": "interlanguage ↔ pidgin"
+    },
+    null
+   ],
+   "key": "Interlanguage (Selinker): the learner's systematic, rule-governed, evolving system between L1 and target language."
+  },
+  {
+   "id": "1.6-04",
+   "skill": "1.6",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "Tanvir, a grade 11 student whose home language is Bengali, has attended New York schools since grade 2 and is now a Long-Term ELL. He speaks fluently, but for years he has consistently omitted past-tense -ed in speech and writing ('Yesterday I walk to work'), even after explicit instruction and frequent feedback. Which term best describes this pattern?",
+   "options": [
+    "Fossilization, in which certain interlanguage forms stabilize and persist despite continued instruction",
+    "Overgeneralization, in which a learner extends a target-language rule to words where it does not apply",
+    "Negative transfer, in which a grammar rule from the home language is carried directly into English",
+    "Interlanguage restructuring, in which a learner's system is actively reorganizing around a new rule"
+   ],
+   "answer": 0,
+   "why": "Selinker used fossilization for interlanguage features that stop developing and persist, sometimes permanently, despite ongoing input, instruction, and motivation. Years of consistent -ed omission in a fluent student, unchanged by feedback, is the classic profile, and it is often seen in Long-Term ELLs whose oral fluency outpaced their written accuracy. Fossilized forms usually call for focused, noticing-based work in meaningful contexts (e.g., targeted self-editing and elicitation) rather than more of the same general feedback.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "note": "Omitting -ed is the opposite of overgeneralizing it. Overgeneralization would look like -ed spreading to irregular verbs ('goed').",
+     "pair": "fossilization ↔ overgeneralization"
+    },
+    {
+     "code": "TERM",
+     "note": "Nothing in the scenario points to a home-language pattern. What defines this case is persistence over years despite instruction.",
+     "pair": "fossilization ↔ negative transfer"
+    },
+    {
+     "code": "TERM",
+     "note": "Restructuring means the system is changing. Here the form has stayed the same for years, which is the hallmark of fossilization.",
+     "pair": "fossilization ↔ interlanguage development"
+    }
+   ],
+   "key": "Fossilization: interlanguage forms that stabilize and persist despite continued input and instruction."
+  },
+  {
+   "id": "1.6-05",
+   "skill": "1.6",
+   "type": "analysis",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A grade 4 ENL teacher collects sentences from student journals. Which sentence most clearly reflects overgeneralization of an English rule rather than transfer from the student's home language?",
+   "options": [
+    "'I have nine years.' (home language: Spanish)",
+    "'She is very kind girl.' (home language: Russian)",
+    "'Last week my brother catched a big fish.' (home language: Arabic)",
+    "'I have two book and three pencil in my bag.' (home language: Mandarin)"
+   ],
+   "answer": 2,
+   "why": "Overgeneralization is an intralingual (developmental) process in which the learner applies a productive English rule too broadly. 'Catched' extends regular past -ed to an irregular verb, a form no English speaker models and that has nothing to do with Arabic. The other three sentences mirror home-language patterns, so they are examples of negative transfer.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "This mirrors Spanish, which expresses age with 'tener' ('Tengo nueve años'), so it is negative transfer, not an overextended English rule.",
+     "pair": "overgeneralization ↔ negative transfer"
+    },
+    {
+     "code": "TERM",
+     "note": "Russian has no articles, so omitting 'a' reflects the home language. It isn't an English rule stretched too far.",
+     "pair": "overgeneralization ↔ negative transfer"
+    },
+    null,
+    {
+     "code": "TERM",
+     "note": "Mandarin doesn't mark plural on nouns, so dropping -s reflects the home language. Overgeneralization adds an ending where it doesn't belong; it doesn't leave one off.",
+     "pair": "overgeneralization ↔ negative transfer"
+    }
+   ],
+   "key": "Overgeneralization stretches an English rule too far ('catched'); transfer errors mirror an L1 pattern ('I have nine years' from Spanish)."
+  },
+  {
+   "id": "1.6-06",
+   "skill": "1.6",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 2,
+   "stem": "Nusrat, a grade 6 Emerging-level student whose home language is Bengali, writes: 'My aunt is a doctor. He works at a hospital in Queens. He is very busy.' In both speech and writing, she uses 'he' and 'she' interchangeably for men and women. What is the most likely source of this pattern?",
+   "options": [
+    "Negative transfer, because Bengali third-person pronouns don't mark gender, so the distinction is new to her",
+    "Overgeneralization, because she has learned that 'he' is the default English pronoun and uses it everywhere",
+    "Fossilization, because the confusion has become a permanent, unchanging feature of her English",
+    "A mistake rather than an error, because she knows the right pronoun but writes too quickly to apply it"
+   ],
+   "answer": 0,
+   "why": "Negative transfer (interference) occurs when a home-language pattern leads to a nontarget form in English. Bengali third-person pronouns (such as 'se') don't mark gender, so Nusrat must learn a distinction her home language doesn't make, and using he and she interchangeably is a predictable result. Recognizing the source lets the teacher target the contrast explicitly and supportively, as a language difference rather than carelessness.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "note": "She uses 'he' and 'she' interchangeably, not 'he' everywhere, so no single English rule is being stretched. The pattern tracks a distinction her home language doesn't make.",
+     "pair": "negative transfer ↔ overgeneralization"
+    },
+    {
+     "code": "TERM",
+     "note": "She is an Emerging-level student who is still developing; nothing shows the form has persisted unchanged for years despite instruction.",
+     "pair": "negative transfer ↔ fossilization"
+    },
+    {
+     "code": "TERM",
+     "note": "The pattern is consistent across speech and writing, which signals a gap in competence (an error), not an occasional slip.",
+     "pair": "error ↔ mistake"
+    }
+   ],
+   "key": "Negative transfer: an L1 pattern (e.g., Bengali's gender-neutral pronouns) produces a predictable nontarget English form."
+  },
+  {
+   "id": "1.6-07",
+   "skill": "1.6",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "Which observation best illustrates positive transfer from a student's home language?",
+   "options": [
+    "A Spanish-speaking student says she is 'embarrassed' when she means 'pregnant,' because the Spanish 'embarazada' sounds similar.",
+    "An Arabic-speaking student writes 'I am interested in the science' when referring to science as a general subject.",
+    "A Russian-speaking student mixes Russian words into his English sentences when chatting with a Russian-speaking friend.",
+    "A Spanish-literate seventh grader works out 'evaporation' and 'democracy' from 'evaporación' and 'democracia.'"
+   ],
+   "answer": 3,
+   "why": "Positive transfer occurs when similarities between the home language and English make learning easier. Spanish and English share thousands of Latin-based academic cognates (evaporación/evaporation, democracia/democracy), so a student literate in Spanish can use her L1 vocabulary and reading strategies to unlock English academic words. Teaching cognate awareness explicitly, while flagging false cognates like embarazada, turns this into a deliberate strategy.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "'Embarazada' is a false cognate: the similarity misleads rather than helps, which makes this negative transfer.",
+     "pair": "positive transfer ↔ negative transfer"
+    },
+    {
+     "code": "TERM",
+     "note": "Arabic uses the definite article with general nouns ('al-'), so adding 'the' before a general subject is negative transfer.",
+     "pair": "positive transfer ↔ negative transfer"
+    },
+    {
+     "code": "TERM",
+     "note": "Mixing languages with a bilingual friend is code-switching, a purposeful bilingual practice, not the carryover of an L1 pattern into English.",
+     "pair": "transfer ↔ code-switching"
+    },
+    null
+   ],
+   "key": "Positive transfer: L1–English similarities (e.g., Spanish–English academic cognates) speed learning; false cognates are negative transfer."
+  },
+  {
+   "id": "1.6-08",
+   "skill": "1.6",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "During a grade 8 Integrated ENL social studies discussion, a bilingual student at the Expanding level says to her partner, 'The colonists were angry about the taxes, pero también they had no representation, ¿me entiendes?' A colleague worries that the student is 'confused between her languages.' Which response best reflects research on code-switching?",
+   "options": [
+    "Code-switching shows that her two language systems haven't yet separated, so she should be redirected to English only.",
+    "Code-switching is rule-governed and purposeful among bilinguals, so it reflects a resource for meaning, not confusion.",
+    "Code-switching is a form of negative transfer, so the teacher should recast each switch with its English equivalent.",
+    "Code-switching is fine socially, but in academic talk it signals that she lacks the content knowledge for the topic."
+   ],
+   "answer": 1,
+   "why": "Sociolinguistic research shows that code-switching follows grammatical constraints and serves social and discourse functions such as emphasis, solidarity, identity, and checking understanding ('¿me entiendes?'). Proficient bilinguals switch skillfully, not randomly. Here the student makes an accurate content point; the teacher can value this practice (a form of translanguaging) and, when a formal product calls for it, help her produce an all-English version.",
+   "traps": [
+    {
+     "code": "DEFICIT",
+     "note": "Treating language mixing as confusion and banning the home language reflects a deficit view. Bilinguals switch systematically, and skilled bilinguals switch fluently."
+    },
+    null,
+    {
+     "code": "TERM",
+     "note": "Transfer is an L1 pattern unintentionally shaping English; switching is a deliberate choice between two languages the speaker controls. Recasting every switch would also interrupt meaningful talk.",
+     "pair": "code-switching ↔ negative transfer"
+    },
+    {
+     "code": "ASSESS_INVALID",
+     "note": "Her content point is accurate (taxation without representation). Judging content knowledge by which language she uses confuses language choice with understanding."
+    }
+   ],
+   "key": "Code-switching is systematic, purposeful bilingual behavior, not evidence of confusion or deficiency."
+  },
+  {
+   "id": "1.6-09",
+   "skill": "1.6",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Speech samples from Bakhrom (home language: Uzbek), collected over one school year\nSeptember: 'No go outside.' 'No want.'\nDecember: 'I no like this.' 'He don't eat lunch.'\nMarch: 'I can't find it.' 'She isn't here.'\nJune: 'He doesn't want to play.' 'They didn't come.'",
+   "stem": "Which conclusion is best supported by these samples?",
+   "options": [
+    "Bakhrom's negation is fossilizing, since nontarget forms appear in most of the samples collected this year.",
+    "Bakhrom is moving through a predictable developmental sequence for negation, so his early forms reflect growth.",
+    "Bakhrom's early forms mainly reflect Uzbek word order, so the teacher should contrast the two negation systems.",
+    "Bakhrom's December forms were mistakes rather than errors, since he produced correct negatives later that year."
+   ],
+   "answer": 1,
+   "why": "Learners of English from many language backgrounds pass through similar stages of negation: 'no' + verb ('No go') → no/don't before the verb ('I no like,' 'He don't eat') → negated auxiliaries ('can't,' 'isn't') → analyzed do-support ('doesn't,' 'didn't'). Bakhrom's samples track this sequence month by month, so the nontarget forms are evidence of a developing interlanguage. Instruction generally can't make learners skip a stage, but rich input and feedback help them move through it.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "His forms change month by month toward the target, the opposite of fossilization, which means no change despite continued input.",
+     "pair": "developmental sequence ↔ fossilization"
+    },
+    null,
+    {
+     "code": "TERM",
+     "note": "The 'no + verb' stage appears in learners from many different home languages, and his forms change in the predicted order across the year. That points to a developmental sequence, not L1 word order.",
+     "pair": "developmental sequence ↔ negative transfer"
+    },
+    {
+     "code": "TERM",
+     "note": "In December those forms were consistent and reflected his system at that point, which makes them errors in Corder's sense. Later accuracy shows development, not that the earlier forms were slips.",
+     "pair": "error ↔ mistake"
+    }
+   ],
+   "key": "Developmental sequences (negation: no + verb → don't + verb → aux + not → analyzed do) are predictable stages, not failures."
+  },
+  {
+   "id": "1.6-10",
+   "skill": "1.6",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Teacher notes on Valentina, grade 7, Transitioning level (home language: Spanish)\n- In a timed quick-write, writes 'she don't' twice and 'he go' once\n- When the teacher underlines those phrases and asks her to check them, she immediately writes 'doesn't' and 'goes'\n- Consistently writes 'more better' and 'more easier'; when asked to check them, she says they look correct",
+   "stem": "Applying Corder's distinction between errors and mistakes, which analysis is most accurate?",
+   "options": [
+    "Every form is an error, because any nontarget form in writing reveals a gap in the learner's competence.",
+    "'More better' is a mistake caused by time pressure, while 'she don't' and 'he go' are errors needing reteaching.",
+    "Every form is a mistake, because she is at the Transitioning level and has already been taught these rules.",
+    "'She don't' and 'he go' are mistakes she can self-correct, while 'more better' is an error from an unacquired rule."
+   ],
+   "answer": 3,
+   "why": "Corder distinguished mistakes, performance slips a learner can self-correct because the rule is part of her competence, from errors, which are systematic and reflect what her interlanguage doesn't yet contain. Valentina fixes 'don't' and 'go' as soon as she's prompted (mistakes), but she judges 'more better' to be correct (an error, from a comparative rule not yet acquired). The implication: prompt self-editing for mistakes and plan targeted instruction for errors.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "This ignores the evidence that she fixes 'don't' and 'go' as soon as she's prompted. Forms a learner can self-correct are mistakes, not gaps in competence.",
+     "pair": "error ↔ mistake"
+    },
+    {
+     "code": "LITERAL",
+     "note": "This reverses the evidence by fixating on the word 'timed.' She self-corrects 'don't' and 'go' but judges 'more better' correct even with time to check it."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Being taught a rule isn't the same as acquiring it. She can't recognize 'more better' as nontarget, so it reflects her current competence."
+    },
+    null
+   ],
+   "key": "Corder: mistakes are slips a learner can self-correct; errors are systematic gaps in competence she can't yet fix."
+  },
+  {
+   "id": "1.6-11",
+   "skill": "1.6",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Excerpt from the reading log of Farid, a grade 9 student (home language: Dari)\n'Before I read, I looked at the title and headings and decided my goal was to find three causes. While reading, I stopped after each section to ask myself if I understood. When I got lost in the second part, I went back and reread. After, I checked my three causes against my goal.'",
+   "stem": "In Chamot and O'Malley's CALLA framework, the strategies Farid describes are best classified as which type?",
+   "options": [
+    "Metacognitive strategies, because he plans, monitors, and evaluates his own learning",
+    "Cognitive strategies, because he works directly with the text by rereading the passage",
+    "Social/affective strategies, because he manages his own feelings when he gets lost",
+    "Compensation strategies, because he makes up for unknown words by guessing from context"
+   ],
+   "answer": 0,
+   "why": "CALLA (Chamot & O'Malley) sorts learning strategies into three families. Metacognitive strategies are executive: planning (setting a goal from the headings), monitoring (checking comprehension after each section), and evaluating (checking results against the goal). Cognitive strategies act directly on the material (note-taking, summarizing, rereading), and social/affective strategies involve other people or emotions; here the rereading is a fix-up move driven by his monitoring, so the routine as a whole is metacognitive.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "note": "Rereading alone could be cognitive, but here it is a fix-up step triggered by his self-monitoring. The log as a whole is about planning a goal, checking comprehension, and evaluating results.",
+     "pair": "metacognitive ↔ cognitive"
+    },
+    {
+     "code": "LITERAL",
+     "note": "'Got lost' refers to comprehension, not emotion. He doesn't work with peers or use self-talk to manage anxiety."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Compensation strategies come from Oxford's taxonomy, not CALLA's three categories, and Farid never guesses word meanings."
+    }
+   ],
+   "key": "CALLA: metacognitive = planning, monitoring, evaluating; cognitive = working with material; social/affective = working with others or managing feelings."
+  },
+  {
+   "id": "1.6-12",
+   "skill": "1.6",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "An ENL teacher wants to explicitly teach a social/affective learning strategy to a group of anxious Emerging-level high school students. Which activity best fits this goal?",
+   "options": [
+    "Teaching students to sort new vocabulary into semantic categories in their notebooks",
+    "Modeling how to preview a text's headings and set a purpose before starting to read",
+    "Teaching phrases for asking a partner to clarify and practicing encouraging self-talk",
+    "Showing students how to summarize a paragraph by finding its main idea and details"
+   ],
+   "answer": 2,
+   "why": "In CALLA, social/affective strategies involve interacting with others or managing one's emotions: asking questions for clarification, cooperating with peers, and using self-talk to reduce anxiety. Teaching clarification phrases ('Can you say that another way?') and encouraging self-talk gives anxious students tools to keep communicating. Grouping and summarizing are cognitive strategies; previewing and setting a purpose are metacognitive.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "Grouping or classifying words is a cognitive strategy: it works directly on the material, without involving other people or managing emotions.",
+     "pair": "social/affective ↔ cognitive"
+    },
+    {
+     "code": "TERM",
+     "note": "Previewing and setting a purpose are planning moves, which makes them metacognitive strategies.",
+     "pair": "social/affective ↔ metacognitive"
+    },
+    null,
+    {
+     "code": "TERM",
+     "note": "Summarizing is a cognitive strategy that transforms the content; it doesn't involve interaction or managing anxiety.",
+     "pair": "social/affective ↔ cognitive"
+    }
+   ],
+   "key": "Social/affective strategies: asking for clarification, cooperating with peers, and positive self-talk to manage anxiety."
+  },
+  {
+   "id": "1.6-13",
+   "skill": "1.6",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "While revising a narrative, Sofía, a grade 5 Expanding-level student, explains to her teacher that Spanish lets her say 'Llegó tarde' without a subject, but English needs one, which is why 'Was late to school' was circled in her draft. Sofía's comment most directly demonstrates which ability?",
+   "options": [
+    "Code-switching, the alternating use of two languages within a single utterance or conversation",
+    "Positive transfer, the carryover of a similar home-language pattern that makes English easier",
+    "Fossilization, the persistence of a nontarget form despite continued instruction and exposure",
+    "Metalinguistic awareness, the ability to reflect on and talk about language as an object"
+   ],
+   "answer": 3,
+   "why": "Metalinguistic awareness is the ability to step back and think about language itself (its sounds, words, and rules) and to compare how languages work. Sofía explains that Spanish allows a dropped subject but English requires one, exactly the kind of cross-linguistic reflection bilingual learners are often strong in. Teachers can build on it with contrastive mini-lessons and self-editing checklists.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "She quotes Spanish to compare two grammars, not to communicate by switching languages. Analyzing language is different from using two languages in conversation.",
+     "pair": "metalinguistic awareness ↔ code-switching"
+    },
+    {
+     "code": "TERM",
+     "note": "The Spanish pattern she describes (a dropped subject) caused an English error, which is negative transfer, and the question asks about her ability to analyze it.",
+     "pair": "positive transfer ↔ negative transfer"
+    },
+    {
+     "code": "LITERAL",
+     "note": "She is identifying and explaining the problem herself; nothing suggests the form has persisted for years despite instruction."
+    },
+    null
+   ],
+   "key": "Metalinguistic awareness: consciously analyzing and talking about language, such as comparing L1 and English rules; a bilingual strength to build on."
+  },
+  {
+   "id": "1.6-14",
+   "skill": "1.6",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A grade 6 science teacher learns that a new student in her class scored at the Transitioning level on the NYSESLAT. Which expectation best matches how New York State describes this level of English language development?",
+   "options": [
+    "The student depends heavily on supports and structures, such as visuals and home-language resources, to engage with academic language.",
+    "The student shows some independence with academic language but still needs targeted supports, such as sentence frames, for complex tasks.",
+    "The student independently meets the linguistic demands of grade-level work and qualifies to exit ELL status based on this score.",
+    "The student shows great independence with academic language and needs only light, occasional support for the most complex tasks."
+   ],
+   "answer": 1,
+   "why": "New York describes its five levels as a continuum from dependence to independence: Entering students show great dependence on supports and structures, Emerging students some dependence, Transitioning students some independence, Expanding students great independence, and Commanding students meet the linguistic demands of grade-level work. A Transitioning student can do a good deal alone but still needs targeted scaffolds (sentence frames, graphic organizers, structured talk) for complex grade-level tasks. Matching support to level is what the NYS descriptors are for.",
+   "traps": [
+    {
+     "code": "WRONG_LEVEL",
+     "note": "Great dependence on supports describes the Entering level. A Transitioning student can already do a fair amount independently."
+    },
+    null,
+    {
+     "code": "NYS_POLICY",
+     "note": "This describes Commanding. Transitioning isn't an exit level: exit requires Commanding, or Expanding plus Level 3+ on the Grades 3–8 ELA test (or 65+ on the Regents ELA)."
+    },
+    {
+     "code": "WRONG_LEVEL",
+     "note": "Great independence with only light support describes the Expanding level, one step above Transitioning."
+    }
+   ],
+   "key": "NYS levels run dependence → independence: Entering (great dependence), Emerging (some), Transitioning (some independence), Expanding (great independence), Commanding (proficient)."
+  },
+  {
+   "id": "1.7-01",
+   "skill": "1.7",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 1,
+   "stimulus": "Excerpt from a grade 4 student's personal narrative:\n'My grandmother be cooking every Sunday. The whole family come over and we be eating for hours.'\n\nClassroom teacher's margin note: 'Wrong verb! Should be is cooking.'",
+   "stem": "From a sociolinguistic perspective, which statement best explains the student's use of 'be'?",
+   "options": [
+    "It is habitual 'be,' a rule-governed feature of African American English that marks an action as recurring.",
+    "It is an interlanguage error showing that the student has not yet acquired the English present progressive.",
+    "It is informal slang showing that the student has not yet been taught the rules of English grammar.",
+    "It is a feature of African American English that means the same as 'is cooking,' so the correction keeps her meaning."
+   ],
+   "answer": 0,
+   "why": "Habitual (invariant) 'be' is one of the best-documented features of African American English: 'My grandmother be cooking every Sunday' means she regularly cooks, an aspect distinction General American English has to express with words like 'usually.' 'She is cooking' means right now, so the teacher's correction actually changes the meaning. Recognizing AAE as rule-governed lets teachers build style shifting toward academic English without treating the home variety as broken.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "note": "The form follows the rules of a systematic variety of English. It isn't a developmental gap in a second-language learner's system.",
+     "pair": "dialect feature ↔ interlanguage"
+    },
+    {
+     "code": "DEFICIT",
+     "note": "Calling a rule-governed dialect feature 'slang' that lacks grammar is a deficit judgment. Habitual be follows consistent grammatical rules."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "It is an AAE feature, but the meaning differs: 'be cooking' marks a regular, habitual event, while 'is cooking' means right now. The teacher's correction changes the meaning."
+    }
+   ],
+   "key": "Habitual 'be' in AAE marks recurring action ('She be cooking' = she usually cooks); it's rule-governed, not an error."
+  },
+  {
+   "id": "1.7-02",
+   "skill": "1.7",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 7 ELA teacher notices that several students' essays include features of African American English, such as 'He walk to school every day' and 'They was ready.' Which approach is most consistent with current sociolinguistic research?",
+   "options": [
+    "Mark each feature as a grammatical error and have students rewrite their essays until the features disappear",
+    "Accept the features in all written work, since teaching academic English would devalue students' home language",
+    "Use contrastive analysis to compare home and academic English patterns, teaching students to choose forms by context",
+    "Refer the students for ENL services, since nonstandard grammar in their writing indicates limited English proficiency"
+   ],
+   "answer": 2,
+   "why": "Linguists recognize AAE as a systematic, rule-governed variety of English, with patterns such as zero third-person -s ('He walk') and 'was' used with all subjects. Contrastive analysis has students compare the patterns of their home variety and academic English side by side and choose forms based on audience and purpose. It adds to students' repertoire without erasing their home language, which makes it both respectful and rigorous.",
+   "traps": [
+    {
+     "code": "DEFICIT",
+     "note": "Treating every dialect feature as an error stigmatizes students' home variety and ignores that AAE is rule-governed; it also teaches no explicit contrast."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Valuing the home variety is right, but students also deserve explicit access to academic English. Withholding it limits their options."
+    },
+    null,
+    {
+     "code": "NYS_POLICY",
+     "note": "ELL identification in New York starts with a Home Language Questionnaire indicating a language other than English. Speaking a dialect of English doesn't make a student an ELL."
+    }
+   ],
+   "key": "For dialect features in writing, use contrastive analysis to teach style shifting to academic English without stigmatizing the home variety."
+  },
+  {
+   "id": "1.7-03",
+   "skill": "1.7",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stimulus": "Two utterances from Ji-ho, a grade 10 Expanding-level student (home language: Korean)\nTo a friend at lunch: 'Yo, that test was wild. I totally bombed the last part.'\nTo his teacher in a conference: 'I think I had difficulty with the last section of the test. Could we go over it?'",
+   "stem": "Ji-ho's speech in these two situations best illustrates which sociolinguistic concept?",
+   "options": [
+    "Code-switching, alternating between two languages to signal group identity",
+    "Style shifting, adjusting one's register to fit the audience and setting",
+    "Diglossia, using a high and a low variety with separate social functions",
+    "Fossilization, retaining informal forms that persist in academic contexts"
+   ],
+   "answer": 1,
+   "why": "Every speaker controls a range of registers (casual, consultative, formal) and shifts among them depending on audience, setting, and purpose. Ji-ho's slang with a friend and his polite, precise request to his teacher show strong sociolinguistic competence, not inconsistency. Teaching register explicitly, such as comparing how the same idea sounds at lunch and in a lab report, helps ELLs extend this skill to academic writing.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "Both utterances are in English. Code-switching alternates between languages; Ji-ho is shifting between registers of one language.",
+     "pair": "code-switching ↔ style shifting"
+    },
+    null,
+    {
+     "code": "TERM",
+     "note": "Diglossia is a community-wide division of labor between two distinct varieties (such as Modern Standard and colloquial Arabic), not one speaker adjusting formality.",
+     "pair": "diglossia ↔ register"
+    },
+    {
+     "code": "LITERAL",
+     "note": "He uses informal forms only with a friend and switches to formal ones with his teacher, the opposite of informal forms persisting where they don't fit."
+    }
+   ],
+   "key": "Style shifting: speakers adjust register (casual ↔ formal) to audience and setting, a sign of sociolinguistic competence."
+  },
+  {
+   "id": "1.7-04",
+   "skill": "1.7",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "Chinedu, a grade 9 student who recently moved to the Bronx from Lagos, Nigeria, grew up speaking English and Igbo and was educated in English. His writing includes forms such as 'I am having two sisters' and 'We will discuss about it.' A colleague says, 'He just needs to learn proper English.' Which perspective best reflects the field of World Englishes?",
+   "options": [
+    "Chinedu's forms are interlanguage errors showing that he is still acquiring English and needs beginner-level instruction.",
+    "Nigerian English is a pidgin, not a full variety of English, so Chinedu's academic English must be built from the ground up.",
+    "Chinedu's English should not be addressed at all, because any adjustment to U.S. norms would disrespect his variety.",
+    "Nigerian English is an established variety with its own norms, and Chinedu can learn to adjust for U.S. academic contexts."
+   ],
+   "answer": 3,
+   "why": "In Kachru's model, Nigeria is an Outer Circle country, where English is an official, institutional language with its own established norms (as in India, Singapore, and the Philippines). Forms such as the progressive with stative verbs or 'discuss about' are features of the variety, not signs that Chinedu is a beginner. The sociolinguistically sound response respects his English as legitimate and teaches him to notice and shift between Nigerian and U.S. academic conventions when the audience calls for it.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "Chinedu grew up with English and was schooled in it. His forms are features of an established variety, not the developing system of a beginner.",
+     "pair": "World English variety ↔ interlanguage"
+    },
+    {
+     "code": "DEFICIT",
+     "note": "This confuses Nigerian English with Nigerian Pidgin, a separate contact language, and treats a legitimate variety as something to be erased and rebuilt."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Respecting his variety doesn't mean withholding instruction in U.S. academic conventions; he benefits from learning to shift for different audiences."
+    },
+    null
+   ],
+   "key": "World Englishes: Outer Circle varieties (e.g., Nigerian, Indian English) have legitimate norms; teach shifting for context rather than 'fixing.'"
+  },
+  {
+   "id": "1.7-05",
+   "skill": "1.7",
+   "type": "knowledge",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "In Kachru's model of World Englishes, which description best fits the Expanding Circle?",
+   "options": [
+    "Countries such as the United States and Australia, where English is the primary language of most residents",
+    "Countries such as India and Nigeria, where English is an official or institutional language alongside local ones",
+    "Countries such as China and Brazil, where English is learned mainly as a foreign language for global use",
+    "Communities in which an English-based creole has become the first language of a new generation of speakers"
+   ],
+   "answer": 2,
+   "why": "Kachru described three concentric circles. The Inner Circle includes countries where English is the primary language (U.S., U.K., Australia); the Outer Circle includes countries where English has official or institutional roles, often from colonial history (India, Nigeria, Singapore, the Philippines); and the Expanding Circle includes countries where English is learned as a foreign language for international use (China, Brazil, Japan). The model emphasizes that English now belongs to many communities with different norms.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "This describes the Inner Circle, where English is the primary language of most of the population.",
+     "pair": "Inner Circle ↔ Expanding Circle"
+    },
+    {
+     "code": "TERM",
+     "note": "This describes the Outer Circle, typically postcolonial countries where English has official or institutional roles.",
+     "pair": "Outer Circle ↔ Expanding Circle"
+    },
+    null,
+    {
+     "code": "TERM",
+     "note": "Creole formation is a separate sociolinguistic process; Kachru's circles classify countries by the role English plays in them.",
+     "pair": "Expanding Circle ↔ creole"
+    }
+   ],
+   "key": "Kachru: Inner (primary language, e.g., U.S.), Outer (institutional, e.g., India, Nigeria), Expanding (foreign language, e.g., China, Brazil)."
+  },
+  {
+   "id": "1.7-06",
+   "skill": "1.7",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "Andrés entered kindergarten speaking only Spanish. By grade 8 he is fluent in English, understands little academic Spanish, and refuses to speak Spanish with his grandparents because he finds it 'embarrassing.' His school offered English-only instruction and rarely acknowledged students' home languages. This pattern best illustrates which concept?",
+   "options": [
+    "Subtractive bilingualism, in which a new language replaces the first, often when the home language has low status",
+    "Additive bilingualism, in which a new language is acquired while the first language continues to develop",
+    "Fossilization, in which a learner's Spanish has stopped developing because of the age at which English began",
+    "Semilingualism, in which a student lacks full proficiency in either language because of exposure to two languages"
+   ],
+   "answer": 0,
+   "why": "Lambert distinguished additive bilingualism, in which a new language is added while the home language is maintained and developed, from subtractive bilingualism, in which the new language gradually replaces the home language. Subtractive outcomes are most likely when the home language has low social status and school offers no support for it, which is exactly Andrés's context, including his embarrassment. Programs and classrooms that value and develop the home language (dual language, home-language literacy, CR-SE practices) push toward additive outcomes.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "note": "His Spanish is shrinking, not developing alongside English, so this is the opposite of an additive outcome.",
+     "pair": "additive ↔ subtractive bilingualism"
+    },
+    {
+     "code": "TERM",
+     "note": "Fossilization describes L2 interlanguage forms that stop developing. Here the home language is being lost, a different process driven by its social status.",
+     "pair": "subtractive bilingualism ↔ fossilization"
+    },
+    {
+     "code": "DEFICIT",
+     "note": "'Semilingualism' is a widely criticized deficit label. Andrés is fluent in English, and his Spanish loss reflects messages about status, not a cognitive cost of bilingualism."
+    }
+   ],
+   "key": "Subtractive bilingualism: English replaces the home language, often when it has low status; additive bilingualism maintains both."
+  },
+  {
+   "id": "1.7-07",
+   "skill": "1.7",
+   "type": "application",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Note from a parent, translated from Arabic:\n'My son speaks Arabic at home, but only our Egyptian dialect. He cannot read or write real Arabic, the Arabic of books and the news. Please do not think he knows Arabic well.'",
+   "stem": "The situation the parent describes is best explained by which sociolinguistic concept?",
+   "options": [
+    "Register variation, in which one speaker shifts between casual and formal styles of a single variety",
+    "Diglossia, in which a community uses a formal variety for writing and a colloquial variety for daily speech",
+    "Subtractive bilingualism, in which the student's Arabic is being replaced by English since arriving",
+    "Incomplete first language, in which speaking only a dialect means the student lacks a full home language"
+   ],
+   "answer": 1,
+   "why": "Ferguson's term diglossia describes communities in which two varieties of a language divide the work: a 'high' variety for writing, news, religion, and formal speeches (Modern Standard Arabic) and a 'low' variety for everyday conversation (here, Egyptian Arabic). Children acquire the colloquial variety at home and typically learn the standard variety through schooling, so this boy is a fluent Arabic speaker whose formal literacy hasn't yet been developed. The parent's 'real Arabic' reflects the prestige gap between varieties, a language attitude teachers shouldn't adopt.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "Register is one speaker adjusting formality within a variety. The parent is describing two distinct varieties with separate social functions across a whole community.",
+     "pair": "diglossia ↔ register"
+    },
+    null,
+    {
+     "code": "LITERAL",
+     "note": "Nothing suggests his Arabic is being lost; he speaks Egyptian Arabic fluently at home. The gap is in a formal variety that is usually learned through schooling."
+    },
+    {
+     "code": "DEFICIT",
+     "note": "Egyptian Arabic is a complete, rule-governed variety. The parent's phrase 'real Arabic' reflects the prestige of the formal variety, not a missing first language."
+    }
+   ],
+   "key": "Diglossia: a 'high' variety (e.g., Modern Standard Arabic) serves writing and formal uses; a 'low' variety (e.g., Egyptian Arabic) serves everyday speech."
+  },
+  {
+   "id": "1.7-08",
+   "skill": "1.7",
+   "type": "knowledge",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A colleague describes Haitian Creole as 'broken French' and suggests that Haitian students' home language is not a real language. Which response is most accurate linguistically?",
+   "options": [
+    "Haitian Creole is a pidgin: a simplified contact language with no native speakers, used for limited purposes such as trade.",
+    "Haitian Creole is a dialect of French, so students who speak it can easily understand French-language school materials.",
+    "Haitian Creole is a simplified form of French, so it offers little foundation for transferring literacy and concepts to English.",
+    "Haitian Creole is a creole: a full, rule-governed language with native speakers and its own grammar, drawing much vocabulary from French."
+   ],
+   "answer": 3,
+   "why": "A pidgin is a simplified contact language with no native speakers; when a pidgin becomes a community's native language, it expands into a creole, a complete language with its own consistent grammar. Haitian Creole (Kreyòl) draws much of its vocabulary from French but has its own grammar (for example, tense and aspect are marked with particles such as 'te' and 'ap' before the verb), and it is an official language of Haiti. Calling it 'broken French' is a judgment about status, not a linguistic fact.",
+   "traps": [
+    {
+     "code": "TERM",
+     "note": "A pidgin has no native speakers. Haitian Creole is the first language of millions of people and has a complete grammar.",
+     "pair": "creole ↔ pidgin"
+    },
+    {
+     "code": "TERM",
+     "note": "Haitian Creole has its own grammar and is not fully mutually intelligible with French, so French materials can't be assumed comprehensible to Haitian Creole speakers.",
+     "pair": "creole ↔ dialect"
+    },
+    {
+     "code": "DEFICIT",
+     "note": "Treating the home language as 'simplified' and useless for transfer is a deficit view. Literacy and concepts developed in Haitian Creole transfer to English like those in any language."
+    },
+    null
+   ],
+   "key": "A creole is a full native language that grew from a pidgin; Haitian Creole has its own grammar and is an official language of Haiti."
+  },
+  {
+   "id": "1.7-09",
+   "skill": "1.7",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 2,
+   "stem": "Daniela, a grade 10 student born in Queens, speaks Spanish fluently with her family but has never been taught to read or write it; her spoken Spanish is informal, with little academic vocabulary. She wants to take Spanish at school and eventually earn the NYS Seal of Biliteracy. Which placement and instruction would best serve her?",
+   "options": [
+    "A beginning Spanish 1 course, since she has had no formal instruction in reading or writing Spanish",
+    "An exemption from world-language study, since she already speaks Spanish fluently at home",
+    "A heritage-language course that builds on her oral Spanish to develop literacy and formal registers",
+    "An English-only schedule, since continued Spanish study could slow her growth in academic English"
+   ],
+   "answer": 2,
+   "why": "Heritage-language speakers grew up with a home language other than English and often have strong oral skills and cultural knowledge but limited literacy and a narrower range of formal registers, because their schooling was in English. Courses designed for heritage speakers build directly on what they already know, developing reading, writing, and academic and formal registers rather than starting from greetings and colors. This also supports the NYS Seal of Biliteracy, which recognizes high proficiency in English and another language.",
+   "traps": [
+    {
+     "code": "WRONG_LEVEL",
+     "note": "A beginner course ignores her strong oral proficiency and cultural knowledge and would start her with basics she already controls."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "Exempting her denies the literacy development she wants and blocks her path to the Seal of Biliteracy."
+    },
+    null,
+    {
+     "code": "DEFICIT",
+     "note": "Developing home-language literacy supports, rather than competes with, academic English; Cummins' Common Underlying Proficiency predicts transfer."
+    }
+   ],
+   "key": "Heritage speakers often have strong oral skills but limited literacy; build on them with heritage-language instruction, not beginner courses."
+  },
+  {
+   "id": "1.7-10",
+   "skill": "1.7",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Family language profile, from an intake interview\n- Grandparents (arrived from Guangdong in 1985): speak Cantonese only\n- Parents (arrived as young children): speak Cantonese with the grandparents, mostly English with each other\n- Kevin (grade 3, born in Manhattan): understands some Cantonese but answers in English",
+   "stem": "This profile best illustrates which sociolinguistic phenomenon?",
+   "options": [
+    "Intergenerational language shift, in which a community's home language gives way to the dominant language over generations",
+    "Diglossia, in which Cantonese and English serve separate and stable social functions across the whole community",
+    "Fossilization, in which Kevin's Cantonese stopped developing because he was exposed to it too late in childhood",
+    "Code-switching, in which family members alternate between Cantonese and English within single conversations"
+   ],
+   "answer": 0,
+   "why": "Language shift is the gradual replacement of a community's language by a dominant one. In many immigrant families it follows a well-documented three-generation pattern: immigrants speak mainly the home language, their children become bilingual, and grandchildren are often English-dominant with mainly receptive home-language skills, as Kevin is. Schools can slow shift by valuing and developing home languages through dual language programs, home-language reading, and inviting grandparents' knowledge into the classroom.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "note": "Diglossia is a stable division of functions. Here the balance changes generation by generation, with Cantonese use shrinking.",
+     "pair": "language shift ↔ diglossia"
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Kevin has heard Cantonese since birth, and fossilization concerns L2 interlanguage forms. His limited Cantonese reflects the family's shift toward English."
+    },
+    {
+     "code": "LITERAL",
+     "note": "The parents do use both languages, but the profile's key evidence is the trend across three generations, not switching within conversations."
+    }
+   ],
+   "key": "Language shift: across generations, an immigrant community's language yields to English (home language only → bilingual → English-dominant)."
+  },
+  {
+   "id": "1.7-11",
+   "skill": "1.7",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "Min-seo, a grade 6 newcomer whose home language is Korean, addresses her teacher as 'Teacher' ('Teacher, I finished!') instead of 'Ms. Ortiz.' Which explanation is most accurate?",
+   "options": [
+    "She is being casual, since using a job title instead of a name signals informality in Korean culture.",
+    "She is transferring a cultural norm, since Korean students address teachers with the respectful title 'seonsaengnim.'",
+    "She has a vocabulary gap, since she hasn't yet learned the word 'Ms.' or how English surnames work.",
+    "She is in a developmental stage that all ELLs pass through, addressing adults by role before learning names."
+   ],
+   "answer": 1,
+   "why": "Language carries culture: in Korean, students address teachers with the title 'seonsaengnim' (teacher plus the honorific -nim), often without a name, as a sign of respect; Mandarin speakers similarly use 'lǎoshī.' Min-seo is transferring a sociolinguistic norm of respect into English. The teacher can explain the U.S. convention ('Here we say Ms. Ortiz') while recognizing that her intent is polite.",
+   "traps": [
+    {
+     "code": "STEREOTYPE",
+     "note": "This gets Korean norms backward and attributes a false cultural trait to the student. In Korean, addressing a teacher by title is a sign of respect."
+    },
+    null,
+    {
+     "code": "LITERAL",
+     "note": "She very likely knows her teacher's name; the choice of 'Teacher' reflects a convention of respect, not missing vocabulary."
+    },
+    {
+     "code": "TERM",
+     "note": "There is no universal stage of addressing adults by role. The form comes from a specific cultural norm, not a developmental sequence.",
+     "pair": "sociopragmatic transfer ↔ developmental sequence"
+    }
+   ],
+   "key": "Address terms carry cultural norms; calling a teacher 'Teacher' transfers a Korean respect convention, which is polite, not an error to penalize."
+  },
+  {
+   "id": "1.7-12",
+   "skill": "1.7",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Intake notes, grade 4 newcomer from Huehuetenango, Guatemala\n- Home Language Questionnaire (completed by the father with a Spanish interpreter): home language listed as Spanish\n- In class, the student responds minimally to Spanish-language supports and rarely talks with Spanish-speaking peers\n- In meetings, the father answers the Spanish interpreter in short phrases and often asks for repetition",
+   "stem": "Based on these notes, what should the ENL teacher consider first?",
+   "options": [
+    "The student may have a language-based learning disability, since he responds poorly to support in his home language.",
+    "The student is likely in a silent period, so the teacher should continue Spanish supports and wait for speech to emerge.",
+    "The father may be uninterested in school involvement, so the teacher should rely on written notices sent in Spanish.",
+    "The family's primary language may be an Indigenous language, such as Q'anjob'al, that is often underreported due to stigma."
+   ],
+   "answer": 3,
+   "why": "Many families from Guatemala and southern Mexico speak an Indigenous language, such as Q'anjob'al, K'iche', Mam, or Mixteco, as their primary language, with Spanish as a second language. Because these languages have long been stigmatized, families may list Spanish on official forms. The father's difficulty with the Spanish interpreter and the student's limited response to Spanish supports point to this mismatch, so the teacher should respectfully ask about every language used at home and arrange support in the family's actual language.",
+   "traps": [
+    {
+     "code": "MISREFERRAL",
+     "note": "Poor response to Spanish supports may mean Spanish isn't his strongest language. Treating a possible language mismatch as a disability is premature."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "A silent period is possible, but it doesn't explain the father's difficulty with Spanish too. Continuing Spanish supports could mean providing input the student doesn't understand."
+    },
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "Short answers and requests for repetition suggest a language barrier, not disinterest. Written Spanish notices could fail for the same reason."
+    },
+    null
+   ],
+   "key": "Language status matters: Indigenous-language families may report Spanish, so ask about all home languages before assuming Spanish supports fit."
+  },
+  {
+   "id": "1.7-13",
+   "skill": "1.7",
+   "type": "knowledge",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A colleague asks how linguists decide whether two varieties are separate languages or dialects of one language. Which response is most accurate?",
+   "options": [
+    "The distinction is often social and political; 'languages' tend to have standardization and official status, not more complex grammar.",
+    "Varieties are separate languages whenever their speakers can't understand each other, and this test is applied consistently worldwide.",
+    "A variety becomes a language once it develops a writing system, while varieties that remain unwritten are classified as dialects.",
+    "Dialects are simplified versions of a standard language, so they follow fewer grammatical rules than the language itself does."
+   ],
+   "answer": 0,
+   "why": "Linguistically, every variety, whether called a language or a dialect, is a complete, rule-governed system. Which ones are called 'languages' depends largely on history, politics, and standardization, as in the well-known quip that 'a language is a dialect with an army and navy.' Mutual intelligibility is a useful guide but inconsistent, and for teachers the takeaway is that a variety's prestige is social, not a measure of its grammar.",
+   "traps": [
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Mutual intelligibility is one useful criterion, but it isn't applied consistently: Swedish and Norwegian are largely mutually intelligible yet called separate languages, while spoken Mandarin and Cantonese are not, yet are often called dialects."
+    },
+    {
+     "code": "TERM",
+     "note": "Many fully fledged languages have no writing system, and writing doesn't change a variety's linguistic status.",
+     "pair": "language ↔ dialect"
+    },
+    {
+     "code": "DEFICIT",
+     "note": "Dialects are not simplified; every variety is fully rule-governed. Lower prestige reflects the social status of speakers, not grammatical simplicity."
+    }
+   ],
+   "key": "'Language' vs. 'dialect' is largely a social and political label; all varieties are rule-governed, and prestige reflects status, not grammar."
+  },
+  {
+   "id": "1.7-14",
+   "skill": "1.7",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "Farhana, a grade 11 former ELL whose home language is Bengali, asks her ENL teacher to help her 'get rid of' her accent before a class presentation because she worries classmates will think she is less intelligent. Which response best reflects sociolinguistic research on accent?",
+   "options": [
+    "Assure her that her accent doesn't matter, so she doesn't need any pronunciation support before her presentation.",
+    "Explain that she began English after early childhood, so the critical period makes pronunciation work pointless.",
+    "Explain that everyone has an accent, and work on features that affect intelligibility, such as word stress.",
+    "Plan daily accent-reduction drills with minimal pairs until her speech sounds identical to a native speaker's."
+   ],
+   "answer": 2,
+   "why": "All speakers have accents, and judging intelligence by accent is a language attitude, not a linguistic fact. Research distinguishes intelligibility (being understood) from nativeness (sounding like a native speaker), and the realistic, respectful goal is intelligibility. Targeting high-impact features such as word and sentence stress gives Farhana what she asked for, confidence in being understood, without treating her accent, and the identity it carries, as a defect.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "Affirming her is good, but dismissing her request ignores a legitimate goal; targeted work on intelligibility can build her confidence."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Age effects on accent don't mean instruction can't help. Pronunciation work focused on intelligibility is effective at any age."
+    },
+    null,
+    {
+     "code": "ISOLATED",
+     "note": "Decontextualized drills aimed at sounding 'native' set an unrealistic goal and imply her accent is a defect to erase."
+    }
+   ],
+   "key": "Aim pronunciation work at intelligibility (e.g., stress), not accent elimination; accents carry identity, and bias against them is a language attitude."
+  }
+ ],
+ "lessons": [
+  {
+   "skill": "1.5",
+   "title": "Theories of Second-Language Acquisition",
+   "why": "The 116 rarely asks you to just name a theorist; it describes a classroom move or a student's behavior and asks which theory explains it, or which practice follows from a theory.",
+   "body": [
+    {
+     "h": "Krashen's Monitor Model: five hypotheses",
+     "md": "Krashen's five hypotheses are the most-tested theory cluster. Learn each one with a classroom look-for.\n\n- **Acquisition–Learning:** acquisition is subconscious (picking language up through meaningful use); learning is conscious knowledge of rules. Krashen argued that acquisition is what drives fluent speech.\n- **Monitor:** learned rules work only as an editor, and only when the learner has **time, a focus on form, and knowledge of the rule**. Look-for: a student aces an untimed grammar quiz but drops the same endings in a fast debate.\n- **Natural Order:** grammatical morphemes are acquired in a predictable order (e.g., -ing and plural -s early, third-person -s late), **regardless of the order in which they are taught**.\n- **Input (i+1):** we acquire language by understanding messages slightly beyond our current level. Look-for: a read-aloud made comprehensible with pictures, gestures, and paraphrase, with no pressure to speak.\n- **Affective Filter:** anxiety, low motivation, and low self-confidence raise a mental block that keeps input from being acquired. Look-for: a student who talks freely with a partner but freezes when cold-called.\n\nKrashen and Terrell's **Natural Approach** turned these ideas into a method, with five stages: Preproduction, Early Production, Speech Emergence, Intermediate Fluency, and Advanced Fluency."
+    },
+    {
+     "h": "Cummins: why playground English isn't the whole story",
+     "md": "- **BICS vs. CALP:** Basic Interpersonal Communicative Skills (social, context-embedded language) typically develop in about **1–3 years**. Cognitive Academic Language Proficiency (the language of textbooks and tests) takes about **5–7 years**, and longer without home-language schooling. A fluent talker who struggles with a science text is the expected profile, not a red flag for disability.\n- **Common Underlying Proficiency (CUP), the dual iceberg:** two languages look separate above the waterline but share one base of concepts, literacy skills, and knowledge. What a student learned about algebra in Arabic transfers once she has the English labels. Cummins rejected the 'separate underlying proficiency' (balloon) view, in which the home language takes up room English needs.\n- **Developmental Interdependence:** how far a child gets in L2 depends partly on her L1 competence when intensive L2 exposure begins. Strong L1 literacy predicts faster English academic growth.\n- **Threshold Hypothesis:** Cummins proposed that the cognitive benefits of bilingualism appear once learners reach threshold levels of proficiency in both languages.\n- **The quadrants:** tasks vary by **context** (embedded ↔ reduced) and **cognitive demand** (undemanding ↔ demanding). For ELLs, the goal is grade-level, cognitively demanding work made **context-embedded** with visuals, hands-on materials, and interaction. Lowering the demand is not the goal."
+    },
+    {
+     "h": "Beyond input: interaction, output, and noticing",
+     "md": "These three theories agree that input matters but say it isn't enough. Know what each one adds.\n\n- **Long's Interaction Hypothesis:** acquisition is promoted when speakers **negotiate meaning** after a breakdown, using comprehension checks ('Do you understand?'), clarification requests ('Sorry, they what?'), and confirmation checks ('You mean he planted them?'). The key word is *two-way*.\n- **Swain's Output Hypothesis:** producing language pushes learners to process grammar more deeply. Output has three functions: **noticing the gap** between what they want to say and what they can say, **hypothesis testing** ('the heat give energy?'), and **metalinguistic reflection** (talking about language). Collaborative writing and pushed speaking tasks apply it.\n- **Schmidt's Noticing Hypothesis:** input becomes *intake* only when learners consciously notice a form. Bolding target forms (input enhancement), highlighting, and guided discovery apply it. Note the contrast with Krashen, who saw acquisition as subconscious."
+    },
+    {
+     "h": "Sociocultural theory and scaffolding",
+     "md": "Vygotsky saw learning as social first and individual second. The **zone of proximal development (ZPD)** is the distance between what a learner can do alone and what she can do with help from a more knowledgeable other, whether a teacher or a peer. **Scaffolding** (Wood, Bruner & Ross) is the temporary, adjustable support that makes that assisted performance possible, such as graphic organizers, sentence starters, modeling, and prompting. It is gradually withdrawn as the learner takes control, which is the logic of gradual release.\n\nDon't confuse the ZPD with i+1. **i+1 is about input a learner can understand**; **the ZPD is about a task a learner can do with assistance.** If a scenario shows support being faded over time, think ZPD and scaffolding."
+    },
+    {
+     "h": "Innatism, behaviorism, and age",
+     "md": "- **Behaviorism (Skinner):** language is habit formation through imitation, repetition, and reinforcement. It underlies the **Audiolingual Method** (pattern drills, immediate correction).\n- **Innatism (Chomsky):** children are born with a **Language Acquisition Device** and **Universal Grammar**. Evidence: children produce forms no adult says ('goed,' 'foots'), which shows they build rules rather than imitate.\n- **Critical Period Hypothesis (Lenneberg):** proposes a biologically based window for language acquisition. For L2, the clearest age effect is on pronunciation: early starters are more likely to sound native-like in the long run. But older learners usually **progress faster at first** because they bring literacy and school knowledge. The CPH does **not** mean adolescents can't reach high proficiency."
+    },
+    {
+     "h": "Telling near-miss theories apart",
+     "md": "When two options both sound right, find the scenario's **key evidence** and match it:\n\n- The teacher makes a message understandable, and no production is required → **Input (i+1)**\n- Two speakers repair a breakdown → **Interaction (Long)**\n- A learner struggles to say something and tries out forms → **Output (Swain)**\n- A form is made salient (bolded, highlighted) → **Noticing (Schmidt)**\n- Help is given and then faded → **ZPD/scaffolding (Vygotsky)**\n- Accuracy differs between untimed and timed tasks → **Monitor**\n- Anxiety blocks participation → **Affective Filter**\n- Social fluency with an academic struggle → **BICS vs. CALP**\n- Home-language knowledge is used to learn English content → **CUP**"
+    }
+   ],
+   "traps": [
+    "Exam trap: choosing ZPD when the scenario is about comprehensible input (i+1), or the reverse. Input = understanding; ZPD = doing with help.",
+    "Exam trap: reading social fluency as full proficiency. BICS (1–3 years) is not CALP (5–7 years), so an academic gap at 18 months isn't grounds for referral.",
+    "Exam trap: assuming that a form that has been taught should be acquired. Natural Order and the Monitor say otherwise.",
+    "Exam trap: Output vs. Interaction. If the teacher's move is a clarification request or confirmation check, it is Long's negotiation of meaning, even though the student then produces output.",
+    "Exam trap: overstating the Critical Period. Age affects accent most; it doesn't cap a teenager's proficiency."
+   ],
+   "terms": [
+    {
+     "t": "i+1",
+     "d": "Krashen: input slightly beyond the learner's current level (i) that is still comprehensible."
+    },
+    {
+     "t": "Affective Filter",
+     "d": "Krashen: anxiety, low motivation, or low confidence blocks input from being acquired."
+    },
+    {
+     "t": "Monitor",
+     "d": "Krashen: learned rules edit output only with time, focus on form, and knowledge of the rule."
+    },
+    {
+     "t": "Natural Order",
+     "d": "Krashen: grammatical morphemes are acquired in a predictable sequence regardless of teaching order."
+    },
+    {
+     "t": "BICS",
+     "d": "Cummins: social, context-embedded conversational language; about 1–3 years to develop."
+    },
+    {
+     "t": "CALP",
+     "d": "Cummins: academic, context-reduced, cognitively demanding language; about 5–7 years or more."
+    },
+    {
+     "t": "Common Underlying Proficiency",
+     "d": "Cummins' dual iceberg: languages share one underlying base, so concepts and literacy transfer."
+    },
+    {
+     "t": "Developmental Interdependence",
+     "d": "Cummins: L2 attainment depends partly on L1 competence when intensive L2 exposure begins."
+    },
+    {
+     "t": "Threshold Hypothesis",
+     "d": "Cummins: cognitive benefits of bilingualism appear after threshold proficiency levels in both languages."
+    },
+    {
+     "t": "Negotiation of meaning",
+     "d": "Long: comprehension checks, clarification requests, and confirmation checks used to repair breakdowns."
+    },
+    {
+     "t": "Output Hypothesis",
+     "d": "Swain: producing language makes learners notice gaps, test hypotheses, and reflect on form."
+    },
+    {
+     "t": "Noticing Hypothesis",
+     "d": "Schmidt: input becomes intake only when learners consciously notice the form."
+    },
+    {
+     "t": "Zone of proximal development",
+     "d": "Vygotsky: the gap between what a learner does alone and with help from a more capable other."
+    },
+    {
+     "t": "Scaffolding",
+     "d": "Wood, Bruner & Ross: temporary, adjustable support that is faded as the learner gains control."
+    },
+    {
+     "t": "Universal Grammar / LAD",
+     "d": "Chomsky: innate language faculty that guides children's construction of grammar."
+    },
+    {
+     "t": "Critical Period Hypothesis",
+     "d": "Lenneberg: a biological window for acquisition; in L2, strongest effects on long-term pronunciation."
+    }
+   ],
+   "tip": "Find the single piece of evidence in the scenario (comprehension, breakdown repair, production struggle, salience, faded help, anxiety) and match it to the theory that names that mechanism."
+  },
+  {
+   "skill": "1.6",
+   "title": "How a Second Language Develops",
+   "why": "The 116 shows a student's utterance, writing, or behavior and asks you to name the process behind it (transfer, overgeneralization, interlanguage, fossilization) or the stage the student is in, and to respond at the right level.",
+   "body": [
+    {
+     "h": "Stages: the Natural Approach and the NYS levels",
+     "md": "Krashen and Terrell's stages describe typical oral development:\n\n- **Preproduction (silent period):** builds comprehension and responds by pointing, gesturing, and following directions. It can last weeks to months and is normal, not a reason for referral.\n- **Early Production:** one- and two-word answers and memorized chunks ('I don't know,' 'Can I go?').\n- **Speech Emergence:** simple sentences and short connected speech with many errors ('He want buy the apple').\n- **Intermediate Fluency:** longer, more complex sentences, opinions, and explanations, with fewer errors.\n- **Advanced Fluency:** near-native in many contexts, while academic language is still developing.\n\nNew York describes its five NYSESLAT levels as a continuum from dependence to independence: **Entering** (great dependence on supports and structures), **Emerging** (some dependence), **Transitioning** (some independence), **Expanding** (great independence), and **Commanding** (proficient). Use the level to calibrate scaffolds: substantial at Entering, lighter at Expanding. Transitioning is not an exit level; exit requires Commanding, or Expanding plus the ELA-test criterion."
+    },
+    {
+     "h": "Interlanguage, fossilization, errors and mistakes",
+     "md": "Selinker's **interlanguage** is the learner's own in-between system. It is neither the L1 nor English, but it is **systematic** (it has rules), **dynamic** (it keeps restructuring), and shaped by transfer, overgeneralization, and strategies. Errors are windows into that system.\n\n**Fossilization** happens when some interlanguage features stop developing and persist despite continued input and instruction. Example: a fluent Long-Term ELL who, after years of feedback, still writes 'Yesterday I walk to work.'\n\nCorder's **error vs. mistake** distinction:\n\n- **Mistake:** a performance slip. The learner knows the rule and can self-correct when prompted ('she don't' → 'doesn't').\n- **Error:** systematic, reflecting a gap in competence. The learner can't self-correct it ('more better' looks right to her).\n\nThe implication: prompt self-editing for mistakes, and plan instruction for errors."
+    },
+    {
+     "h": "Where errors come from: transfer vs. overgeneralization",
+     "md": "- **Negative transfer (interference):** an L1 pattern produces a nontarget English form. Spanish 'tengo nueve años' becomes 'I have nine years'; Russian has no articles, so 'She is very kind girl'; Bengali pronouns don't mark gender, so 'My aunt... he works.'\n- **Positive transfer:** similarities help. Spanish–English academic cognates (evaporación/evaporation), L1 reading strategies, and math knowledge all carry over. **False cognates** (embarazada is not 'embarrassed') are negative transfer.\n- **Overgeneralization (intralingual or developmental):** an English rule is stretched too far, as in 'catched,' 'childs,' and 'mouses.' No L1 explains it, and learners from every background do it.\n\nQuick test: *Does the error mirror the home language?* Then it's transfer. *Does it stretch an English rule?* Then it's overgeneralization."
+    },
+    {
+     "h": "Developmental sequences",
+     "md": "Learners from many L1s pass through similar stages for structures like negation and questions. Instruction generally can't make them skip a stage, though input and feedback help them move along.\n\n- **Negation:** 'No go' → 'I no like / He don't eat' → 'I can't / She isn't' → 'He doesn't want.'\n- **Questions:** 'You like pizza?' (rising intonation) → 'Where you are going?' (wh- word fronted, no inversion) → 'Where are you going?'\n\nOn the exam, a series of samples that change in this order over a year signals **growth through a sequence**. It is not fossilization, and the earlier forms were not mistakes."
+    },
+    {
+     "h": "Code-switching and metalinguistic awareness",
+     "md": "**Code-switching** means alternating languages within a conversation or sentence ('They had no representation, ¿me entiendes?'). It is rule-governed and purposeful, used for emphasis, identity, solidarity, or the precise word. It is **not** evidence of confusion, and skilled bilinguals do it fluently. In the classroom it connects to translanguaging: let students use their full repertoire to make meaning, then help them produce an English version when the task calls for one.\n\n**Metalinguistic awareness** is the ability to think and talk about language as an object, as when a student says, 'Spanish lets me drop the subject, but English needs one.' Bilinguals often have heightened metalinguistic awareness, and contrastive mini-lessons and self-editing checklists build on it."
+    },
+    {
+     "h": "Learner strategies (CALLA)",
+     "md": "Chamot and O'Malley's CALLA groups learning strategies into three families:\n\n- **Metacognitive (managing learning):** planning (setting a goal, previewing headings), monitoring (checking comprehension), and evaluating (checking results).\n- **Cognitive (working with the material):** note-taking, summarizing, grouping words, using imagery, inferencing, and using cognates.\n- **Social/affective (others and emotions):** asking for clarification, cooperating, and positive self-talk to lower anxiety.\n\nA useful test: if it's *about* learning (setting goals, checking), it's metacognitive; if it *does* something to the content, it's cognitive; if it involves people or feelings, it's social/affective. 'Compensation strategies' come from Oxford's taxonomy, not CALLA."
+    }
+   ],
+   "traps": [
+    "Exam trap: calling every persistent error 'fossilization.' If the forms are changing over months, it's development; fossilization means no change despite input.",
+    "Exam trap: labeling 'catched' as transfer. If no L1 explains it and it stretches an English rule, it's overgeneralization.",
+    "Exam trap: treating a silent period or code-switching as a problem calling for referral or English-only rules. Both are typical bilingual development.",
+    "Exam trap: classifying a strategy by one surface action. Rereading inside a plan-monitor-evaluate routine is part of a metacognitive process.",
+    "Exam trap: treating Transitioning (or Expanding alone) as ready to exit. Exit requires Commanding, or Expanding plus the ELA criterion."
+   ],
+   "terms": [
+    {
+     "t": "Silent period",
+     "d": "Preproduction stage in which a newcomer builds comprehension before speaking; typical, not a disorder."
+    },
+    {
+     "t": "Speech Emergence",
+     "d": "Natural Approach stage: simple sentences and short connected speech with frequent errors."
+    },
+    {
+     "t": "Interlanguage",
+     "d": "Selinker: the learner's systematic, evolving system between the L1 and the target language."
+    },
+    {
+     "t": "Fossilization",
+     "d": "Interlanguage forms that stabilize and persist despite continued input and instruction."
+    },
+    {
+     "t": "Error",
+     "d": "Corder: systematic nontarget form reflecting a gap in competence; the learner can't self-correct."
+    },
+    {
+     "t": "Mistake",
+     "d": "Corder: a performance slip the learner can self-correct because the rule is known."
+    },
+    {
+     "t": "Negative transfer",
+     "d": "An L1 pattern produces a nontarget English form (interference)."
+    },
+    {
+     "t": "Positive transfer",
+     "d": "L1–English similarities, such as cognates or literacy skills, make learning easier."
+    },
+    {
+     "t": "False cognate",
+     "d": "Words that look alike across languages but differ in meaning (embarazada ≠ embarrassed)."
+    },
+    {
+     "t": "Overgeneralization",
+     "d": "Applying an English rule too broadly ('catched,' 'childs'); intralingual, not from the L1."
+    },
+    {
+     "t": "Developmental sequence",
+     "d": "Predictable stages learners pass through for a structure such as negation or questions."
+    },
+    {
+     "t": "Code-switching",
+     "d": "Purposeful, rule-governed alternation between languages by bilingual speakers."
+    },
+    {
+     "t": "Metalinguistic awareness",
+     "d": "The ability to reflect on and talk about language as an object of analysis."
+    },
+    {
+     "t": "Metacognitive strategy",
+     "d": "CALLA: planning, monitoring, and evaluating one's own learning."
+    },
+    {
+     "t": "Cognitive strategy",
+     "d": "CALLA: working directly with material, such as summarizing, note-taking, or grouping."
+    },
+    {
+     "t": "Social/affective strategy",
+     "d": "CALLA: asking for clarification, cooperating, or using self-talk to manage anxiety."
+    }
+   ],
+   "tip": "For any student error, ask: Does it mirror the L1 or stretch an English rule? Can the student self-correct it? Is it changing over time? The answers name the process."
+  },
+  {
+   "skill": "1.7",
+   "title": "Sociolinguistics: Language Variation, Status, and Identity",
+   "why": "The 116 tests whether you treat dialects, accents, and home languages as rule-governed resources and can respond to language variation without a deficit lens, often through a student sample or a colleague's comment.",
+   "body": [
+    {
+     "h": "Every variety is rule-governed",
+     "md": "Linguists agree that all language varieties (dialects, creoles, regional and social varieties) are complete, systematic, and rule-governed. 'Standard' English has more **prestige**, but that prestige comes from its speakers' social power, not from better grammar. Whether a variety is called a 'language' or a 'dialect' is largely social and political. Swedish and Norwegian are largely mutually intelligible yet counted as separate languages, while spoken Mandarin and Cantonese are not mutually intelligible yet are often called dialects.\n\n**African American English (AAE)** is the most-tested example. Know a few features:\n\n- **Habitual be:** 'She be cooking every Sunday' means she regularly cooks. Changing it to 'is cooking' changes the meaning.\n- **Zero copula:** 'He tired.' It follows rules: it typically occurs only where General American English allows a contraction ('He's tired').\n- **Zero third-person -s:** 'He walk to school.'\n- **Leveled was:** 'They was ready.'"
+    },
+    {
+     "h": "Register and style shifting",
+     "md": "Every speaker moves among **registers** (casual, consultative, formal) depending on audience, setting, and purpose. A student who says 'I totally bombed that test' at lunch and 'I had difficulty with the last section' to a teacher is showing sociolinguistic competence.\n\nFor dialect speakers and ELLs alike, the best practice is **contrastive analysis**: put home-variety and academic-English versions side by side ('He walk to school every day' / 'He walks to school every day'), name the pattern, and teach students to **choose** the form that fits the context. This adds to a student's repertoire without erasing anything. There are two wrong extremes: marking every feature as an error (deficit), or never teaching academic English (lower rigor and limited access)."
+    },
+    {
+     "h": "World Englishes",
+     "md": "English is now many Englishes. Kachru's three circles:\n\n- **Inner Circle:** English is the primary language (U.S., U.K., Australia).\n- **Outer Circle:** English is official or institutional alongside local languages (India, Nigeria, Singapore, the Philippines). These varieties have their own established norms ('discuss about,' 'I am having two sisters').\n- **Expanding Circle:** English is learned as a foreign language for international use (China, Brazil, Japan).\n\nA student from Lagos or Delhi may be a highly skilled English user whose forms are features of his variety, not beginner errors. Respect the variety, and teach shifting to U.S. academic conventions where the audience calls for it."
+    },
+    {
+     "h": "Language status: diglossia, creoles, Indigenous languages, accent",
+     "md": "- **Diglossia (Ferguson):** a community uses a 'high' variety for writing and formal uses and a 'low' variety for everyday speech. Arabic is the classic case: Modern Standard Arabic vs. colloquial varieties such as Egyptian or Levantine Arabic. A child fluent in Egyptian Arabic but not yet literate in MSA is a fluent Arabic speaker.\n- **Pidgin vs. creole:** a pidgin is a simplified contact language with no native speakers. A **creole** develops when a pidgin becomes a community's native language and grows into a full language. Haitian Creole has its own grammar (tense and aspect particles such as *te* and *ap*) and is an official language of Haiti. It is not 'broken French.'\n- **Indigenous languages:** many families from Guatemala and Mexico speak Q'anjob'al, K'iche', Mam, or Mixteco as their first language and Spanish as a second. Because of discrimination, they may report Spanish on forms. Ask about every home language before assuming Spanish supports fit.\n- **Accent:** everyone has one. Judging intelligence by accent is a language attitude. Pronunciation work should target **intelligibility** (for example, word stress), not accent elimination."
+    },
+    {
+     "h": "Bilingualism, identity, and heritage languages",
+     "md": "- **Additive bilingualism** (Lambert): a new language is added while the home language keeps developing. **Subtractive bilingualism:** English gradually replaces the home language, most often when the home language has low status at school and in society. A teen who is 'embarrassed' to speak Spanish with his grandparents shows a subtractive outcome.\n- **Language shift:** across generations, immigrant communities often move from the home language to English, typically over about three generations. Grandparents speak only the home language, parents are bilingual, and grandchildren are English-dominant, often with only receptive home-language skills.\n- **Heritage speakers** grew up with a home language. They often have strong oral skills and cultural knowledge but limited literacy and formal registers, so they need heritage-language courses that build literacy and academic registers, not Spanish 1. The NYS Seal of Biliteracy gives them a goal.\n- **Identity:** language choices signal who we are. Students' names, accents, address terms, and home languages are part of identity. A Korean newcomer who calls you 'Teacher' is transferring a respect norm (*seonsaengnim*), not being rude. CR-SE practice makes these languages visible and valued."
+    }
+   ],
+   "traps": [
+    "Exam trap: treating dialect features (habitual be, zero copula) as ELL interlanguage errors or 'slang.' They are rule-governed features of AAE.",
+    "Exam trap: choosing an option that never teaches academic English in the name of respecting dialects. The best answer validates the home variety and teaches style shifting.",
+    "Exam trap: diglossia vs. register. Diglossia is two distinct varieties with separate social functions across a community; register is one speaker adjusting formality.",
+    "Exam trap: pidgin vs. creole. Creoles have native speakers and full grammars.",
+    "Exam trap: assuming a Guatemalan or Mexican family's home language is Spanish because the form says so."
+   ],
+   "terms": [
+    {
+     "t": "Dialect",
+     "d": "A regional or social variety of a language; every dialect is fully rule-governed."
+    },
+    {
+     "t": "African American English",
+     "d": "A systematic, rule-governed variety of English with features such as habitual be and zero copula."
+    },
+    {
+     "t": "Habitual be",
+     "d": "AAE marker of recurring action: 'She be working' means she usually works."
+    },
+    {
+     "t": "Register",
+     "d": "A level of formality chosen to suit audience, setting, and purpose."
+    },
+    {
+     "t": "Style shifting",
+     "d": "A speaker's movement between registers or varieties to fit the context."
+    },
+    {
+     "t": "Contrastive analysis (dialect)",
+     "d": "Comparing home-variety and academic-English patterns side by side to teach choosing forms by context."
+    },
+    {
+     "t": "World Englishes",
+     "d": "The many legitimate varieties of English used around the world, each with its own norms."
+    },
+    {
+     "t": "Outer Circle",
+     "d": "Kachru: countries where English is official or institutional, e.g., India, Nigeria, Singapore."
+    },
+    {
+     "t": "Diglossia",
+     "d": "Ferguson: a community's 'high' variety for formal and written use and 'low' variety for everyday speech."
+    },
+    {
+     "t": "Pidgin",
+     "d": "A simplified contact language with no native speakers."
+    },
+    {
+     "t": "Creole",
+     "d": "A full language with native speakers that developed from a pidgin, e.g., Haitian Creole."
+    },
+    {
+     "t": "Additive bilingualism",
+     "d": "Lambert: a new language is added while the home language is maintained and developed."
+    },
+    {
+     "t": "Subtractive bilingualism",
+     "d": "Lambert: a new language replaces the home language, often when that language has low status."
+    },
+    {
+     "t": "Language shift",
+     "d": "A community's gradual move from its home language to the dominant language across generations."
+    },
+    {
+     "t": "Heritage speaker",
+     "d": "Someone raised with a home language other than English, often orally strong but with limited literacy in it."
+    },
+    {
+     "t": "Intelligibility",
+     "d": "Being understood by listeners; the realistic goal of pronunciation work, rather than sounding native."
+    }
+   ],
+   "tip": "When a stem describes language variation, choose the option that treats the variety as rule-governed and still gives the student access to academic English."
+  }
+ ]
+}

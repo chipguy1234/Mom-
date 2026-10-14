@@ -15,7 +15,7 @@ QUESTIONS = [
         "stem": "Based on the NYS definition, which student should be identified as a Student with Inconsistent/Interrupted Formal Education (SIFE)?",
         "options": ["Student 1", "Student 2", "Student 3", "Student 4"],
         "answer": 2,
-        "why": "NYS defines SIFE as ELLs who have attended U.S. schools for less than 12 months and who, on initial enrollment, are two or more years below grade level in home-language literacy and/or math because of interrupted or inadequate schooling. Student 3 meets every part: he is new to U.S. schools, his schooling was interrupted for three years, and his Arabic literacy is about four years below grade 8. Limited English alone never makes a student SIFE.",
+        "why": "NYS defines SIFE as ELLs who have attended U.S. schools for less than 12 months and who, on initial enrollment, are two or more years below grade level in home-language literacy and/or math because of interrupted or inadequate schooling. Student 3 meets every part (new to U.S. schools, a three-year interruption, Arabic literacy about four years below grade 8); limited English alone never makes a student SIFE.",
         "traps": [
             {"code": "TERM", "pair": "newcomer ↔ SIFE", "note": "Student 1 is a newcomer at the Entering level, but her schooling was continuous and her home-language literacy and math are on grade level. Limited English alone does not make a student SIFE."},
             {"code": "LITERAL", "note": "She is two years below grade level in Spanish reading, but she has attended U.S. schools for years. SIFE applies only to ELLs with under 12 months in U.S. schools whose gaps come from interrupted or inadequate schooling."},
@@ -85,7 +85,7 @@ QUESTIONS = [
             "Have the group sort the plants they chose into categories, then have each student complete and explain a chart",
         ],
         "answer": 3,
-        "why": "MALP (DeCapua & Marshall) asks teachers to meet SIFE partway. Teachers accept students' conditions for learning (immediate relevance, interconnectedness). They combine students' processes with school processes (shared responsibility with individual accountability, oral transmission with the written word). And they introduce new academic tasks, such as classification, through familiar language and content. Sorting the plants the group chose and then completing an individual chart does all three.",
+        "why": "MALP (DeCapua & Marshall) asks teachers to meet SIFE partway: accept students' conditions for learning (immediate relevance, interconnectedness); combine their processes with school processes (shared responsibility with individual accountability, oral transmission with the written word); and introduce new academic tasks, such as classification, through familiar language and content. Sorting the plants the group chose and then completing an individual chart does all three.",
         "traps": [
             {"code": "LOWER_RIGOR", "note": "MALP combines oral transmission with the written word; it does not drop writing. Removing written tasks lowers expectations and withholds the literacy practice SIFE need."},
             {"code": "DEFICIT", "note": "This expects only the students to adapt. MALP is mutually adaptive: the teacher bridges students' familiar ways of learning to school tasks instead of treating them as a problem."},
@@ -392,7 +392,7 @@ QUESTIONS += [
         "stem": "A grade 3 ELL whose home language is Mandarin is struggling in reading. Which observation would most strongly suggest that his difficulties may stem from a disability rather than from second-language acquisition?",
         "options": [
             "He mixes Mandarin and English words in the same sentence when talking with bilingual classmates",
-            "He leaves off past-tense -ed endings in English, a feature that Mandarin does not mark on verbs",
+            "He leaves off past-tense -ed endings in English; Mandarin verbs do not change form to show tense",
             "He said very little English during his first months in school, though he followed class routines",
             "His parents report the same trouble learning to read Chinese when he attended school in Shanghai",
         ],
@@ -400,7 +400,7 @@ QUESTIONS += [
         "why": "A disability affects learning in every language, so difficulties that also appeared during home-language schooling, as reported by parents or shown in home-language work, are a major warning sign. Code-switching, L1-transfer errors such as missing past-tense endings, and an early silent period are all normal features of second-language development.",
         "traps": [
             {"code": "TERM", "pair": "code-switching ↔ language disorder", "note": "Code-switching is a normal, rule-governed bilingual skill, not a sign of confusion or disorder."},
-            {"code": "MISREFERRAL", "note": "This is negative transfer from Mandarin, which signals time with words rather than verb endings. It's a predictable second-language error, not a disability marker."},
+            {"code": "MISREFERRAL", "note": "This is negative transfer from Mandarin, which signals time with time words and particles rather than verb endings. It's a predictable second-language error, not a disability marker."},
             {"code": "MISREFERRAL", "note": "A silent period while following routines is typical of beginners, who build comprehension before they speak."},
             None,
         ],
@@ -462,7 +462,7 @@ QUESTIONS += [
         "stimulus": "Note from a parent, translated from Haitian Creole: 'My son Jean is in grade 3. In Haiti his teacher said he could not learn his letters like the other children. Here he still cannot read in Kreyòl or English. Please test him to see if he needs special help.'",
         "stem": "The school's RTI team has just begun Tier 2 intervention for Jean. The assistant principal says that all RTI tiers must be completed before any evaluation, especially for an ELL. Which response by the ENL teacher is most appropriate?",
         "options": [
-            "Agree, since data from all three tiers are required to show that his difficulties are not due to limited English proficiency",
+            "Agree, since the team cannot rule out limited English proficiency until Jean has completed every RTI tier",
             "Suggest that the parent withdraw the request until Jean reaches the Transitioning level, when testing will be more reliable",
             "Ask the classroom teacher to give an informal English reading test to decide whether the parent's request is justified",
             "Explain that RTI cannot delay or deny an evaluation, so the referral should proceed with consent sought in Haitian Creole",
@@ -470,7 +470,7 @@ QUESTIONS += [
         "answer": 3,
         "why": "Federal guidance under IDEA is clear that RTI/MTSS cannot be used to delay or deny an evaluation, and parents may request an initial evaluation at any time. ELL status is not a reason to wait. Here the parent also reports difficulty learning letters in Haiti and reading Kreyòl, a cross-language red flag. The referral should go forward with communication and consent in the family's language, and interventions can continue at the same time.",
         "traps": [
-            {"code": "MISREFERRAL", "note": "RTI cannot be used to delay or deny an evaluation. Treating ELL status as a reason to wait delays an evaluation the parent requested, despite cross-language warning signs."},
+            {"code": "MISREFERRAL", "note": "RTI cannot be used to delay or deny an evaluation. A bilingual evaluation is itself how the team rules out limited English proficiency, and interventions can continue meanwhile; waiting ignores cross-language warning signs."},
             {"code": "FAMILY_BARRIER", "note": "Discouraging a parent from using the right to request an evaluation is inequitable, and no proficiency level is required before an evaluation."},
             {"code": "ASSESS_INVALID", "note": "An informal English reading test measures English, not whether a disability exists, and it can't override a parent's referral."},
             None,

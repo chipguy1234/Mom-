@@ -719,3 +719,151 @@ Don't confuse the ZPD with i+1. **i+1 is about input a learner can understand**;
  ],
  "tip": "Find the single piece of evidence in the scenario (comprehension, breakdown repair, production struggle, salience, faded help, anxiety) and match it to the theory that names that mechanism.",
 })
+
+LESSONS.append({
+ "skill": "1.6",
+ "title": "How a Second Language Develops",
+ "why": "The 116 shows a student's utterance, writing, or behavior and asks you to name the process behind it (transfer, overgeneralization, interlanguage, fossilization) or the stage the student is in, and to respond at the right level.",
+ "body": [
+  {"h": "Stages: the Natural Approach and the NYS levels",
+   "md": """Krashen and Terrell's stages describe typical oral development:
+
+- **Preproduction (silent period):** builds comprehension and responds by pointing, gesturing, and following directions. It can last weeks to months and is normal, not a reason for referral.
+- **Early Production:** one- and two-word answers and memorized chunks ('I don't know,' 'Can I go?').
+- **Speech Emergence:** simple sentences and short connected speech with many errors ('He want buy the apple').
+- **Intermediate Fluency:** longer, more complex sentences, opinions, and explanations, with fewer errors.
+- **Advanced Fluency:** near-native in many contexts, while academic language is still developing.
+
+New York describes its five NYSESLAT levels as a continuum from dependence to independence: **Entering** (great dependence on supports and structures), **Emerging** (some dependence), **Transitioning** (some independence), **Expanding** (great independence), and **Commanding** (proficient). Use the level to calibrate scaffolds: substantial at Entering, lighter at Expanding. Transitioning is not an exit level; exit requires Commanding, or Expanding plus the ELA-test criterion."""},
+  {"h": "Interlanguage, fossilization, errors and mistakes",
+   "md": """Selinker's **interlanguage** is the learner's own in-between system. It is neither the L1 nor English, but it is **systematic** (it has rules), **dynamic** (it keeps restructuring), and shaped by transfer, overgeneralization, and strategies. Errors are windows into that system.
+
+**Fossilization** happens when some interlanguage features stop developing and persist despite continued input and instruction. Example: a fluent Long-Term ELL who, after years of feedback, still writes 'Yesterday I walk to work.'
+
+Corder's **error vs. mistake** distinction:
+
+- **Mistake:** a performance slip. The learner knows the rule and can self-correct when prompted ('she don't' → 'doesn't').
+- **Error:** systematic, reflecting a gap in competence. The learner can't self-correct it ('more better' looks right to her).
+
+The implication: prompt self-editing for mistakes, and plan instruction for errors."""},
+  {"h": "Where errors come from: transfer vs. overgeneralization",
+   "md": """- **Negative transfer (interference):** an L1 pattern produces a nontarget English form. Spanish 'tengo nueve años' becomes 'I have nine years'; Russian has no articles, so 'She is very kind girl'; Bengali pronouns don't mark gender, so 'My aunt... he works.'
+- **Positive transfer:** similarities help. Spanish–English academic cognates (evaporación/evaporation), L1 reading strategies, and math knowledge all carry over. **False cognates** (embarazada is not 'embarrassed') are negative transfer.
+- **Overgeneralization (intralingual or developmental):** an English rule is stretched too far, as in 'catched,' 'childs,' and 'mouses.' No L1 explains it, and learners from every background do it.
+
+Quick test: *Does the error mirror the home language?* Then it's transfer. *Does it stretch an English rule?* Then it's overgeneralization."""},
+  {"h": "Developmental sequences",
+   "md": """Learners from many L1s pass through similar stages for structures like negation and questions. Instruction generally can't make them skip a stage, though input and feedback help them move along.
+
+- **Negation:** 'No go' → 'I no like / He don't eat' → 'I can't / She isn't' → 'He doesn't want.'
+- **Questions:** 'You like pizza?' (rising intonation) → 'Where you are going?' (wh- word fronted, no inversion) → 'Where are you going?'
+
+On the exam, a series of samples that change in this order over a year signals **growth through a sequence**. It is not fossilization, and the earlier forms were not mistakes."""},
+  {"h": "Code-switching and metalinguistic awareness",
+   "md": """**Code-switching** means alternating languages within a conversation or sentence ('They had no representation, ¿me entiendes?'). It is rule-governed and purposeful, used for emphasis, identity, solidarity, or the precise word. It is **not** evidence of confusion, and skilled bilinguals do it fluently. In the classroom it connects to translanguaging: let students use their full repertoire to make meaning, then help them produce an English version when the task calls for one.
+
+**Metalinguistic awareness** is the ability to think and talk about language as an object, as when a student says, 'Spanish lets me drop the subject, but English needs one.' Bilinguals often have heightened metalinguistic awareness, and contrastive mini-lessons and self-editing checklists build on it."""},
+  {"h": "Learner strategies (CALLA)",
+   "md": """Chamot and O'Malley's CALLA groups learning strategies into three families:
+
+- **Metacognitive (managing learning):** planning (setting a goal, previewing headings), monitoring (checking comprehension), and evaluating (checking results).
+- **Cognitive (working with the material):** note-taking, summarizing, grouping words, using imagery, inferencing, and using cognates.
+- **Social/affective (others and emotions):** asking for clarification, cooperating, and positive self-talk to lower anxiety.
+
+A useful test: if it's *about* learning (setting goals, checking), it's metacognitive; if it *does* something to the content, it's cognitive; if it involves people or feelings, it's social/affective. 'Compensation strategies' come from Oxford's taxonomy, not CALLA."""},
+ ],
+ "traps": [
+  "Exam trap: calling every persistent error 'fossilization.' If the forms are changing over months, it's development; fossilization means no change despite input.",
+  "Exam trap: labeling 'catched' as transfer. If no L1 explains it and it stretches an English rule, it's overgeneralization.",
+  "Exam trap: treating a silent period or code-switching as a problem calling for referral or English-only rules. Both are typical bilingual development.",
+  "Exam trap: classifying a strategy by one surface action. Rereading inside a plan-monitor-evaluate routine is part of a metacognitive process.",
+  "Exam trap: treating Transitioning (or Expanding alone) as ready to exit. Exit requires Commanding, or Expanding plus the ELA criterion.",
+ ],
+ "terms": [
+  {"t": "Silent period", "d": "Preproduction stage in which a newcomer builds comprehension before speaking; typical, not a disorder."},
+  {"t": "Speech Emergence", "d": "Natural Approach stage: simple sentences and short connected speech with frequent errors."},
+  {"t": "Interlanguage", "d": "Selinker: the learner's systematic, evolving system between the L1 and the target language."},
+  {"t": "Fossilization", "d": "Interlanguage forms that stabilize and persist despite continued input and instruction."},
+  {"t": "Error", "d": "Corder: systematic nontarget form reflecting a gap in competence; the learner can't self-correct."},
+  {"t": "Mistake", "d": "Corder: a performance slip the learner can self-correct because the rule is known."},
+  {"t": "Negative transfer", "d": "An L1 pattern produces a nontarget English form (interference)."},
+  {"t": "Positive transfer", "d": "L1–English similarities, such as cognates or literacy skills, make learning easier."},
+  {"t": "False cognate", "d": "Words that look alike across languages but differ in meaning (embarazada ≠ embarrassed)."},
+  {"t": "Overgeneralization", "d": "Applying an English rule too broadly ('catched,' 'childs'); intralingual, not from the L1."},
+  {"t": "Developmental sequence", "d": "Predictable stages learners pass through for a structure such as negation or questions."},
+  {"t": "Code-switching", "d": "Purposeful, rule-governed alternation between languages by bilingual speakers."},
+  {"t": "Metalinguistic awareness", "d": "The ability to reflect on and talk about language as an object of analysis."},
+  {"t": "Metacognitive strategy", "d": "CALLA: planning, monitoring, and evaluating one's own learning."},
+  {"t": "Cognitive strategy", "d": "CALLA: working directly with material, such as summarizing, note-taking, or grouping."},
+  {"t": "Social/affective strategy", "d": "CALLA: asking for clarification, cooperating, or using self-talk to manage anxiety."},
+ ],
+ "tip": "For any student error, ask: Does it mirror the L1 or stretch an English rule? Can the student self-correct it? Is it changing over time? The answers name the process.",
+})
+
+LESSONS.append({
+ "skill": "1.7",
+ "title": "Sociolinguistics: Language Variation, Status, and Identity",
+ "why": "The 116 tests whether you treat dialects, accents, and home languages as rule-governed resources and can respond to language variation without a deficit lens, often through a student sample or a colleague's comment.",
+ "body": [
+  {"h": "Every variety is rule-governed",
+   "md": """Linguists agree that all language varieties (dialects, creoles, regional and social varieties) are complete, systematic, and rule-governed. 'Standard' English has more **prestige**, but that prestige comes from its speakers' social power, not from better grammar. Whether a variety is called a 'language' or a 'dialect' is largely social and political. Swedish and Norwegian are largely mutually intelligible yet counted as separate languages, while spoken Mandarin and Cantonese are not mutually intelligible yet are often called dialects.
+
+**African American English (AAE)** is the most-tested example. Know a few features:
+
+- **Habitual be:** 'She be cooking every Sunday' means she regularly cooks. Changing it to 'is cooking' changes the meaning.
+- **Zero copula:** 'He tired.' It follows rules: it typically occurs only where General American English allows a contraction ('He's tired').
+- **Zero third-person -s:** 'He walk to school.'
+- **Leveled was:** 'They was ready.'"""},
+  {"h": "Register and style shifting",
+   "md": """Every speaker moves among **registers** (casual, consultative, formal) depending on audience, setting, and purpose. A student who says 'I totally bombed that test' at lunch and 'I had difficulty with the last section' to a teacher is showing sociolinguistic competence.
+
+For dialect speakers and ELLs alike, the best practice is **contrastive analysis**: put home-variety and academic-English versions side by side ('He walk to school every day' / 'He walks to school every day'), name the pattern, and teach students to **choose** the form that fits the context. This adds to a student's repertoire without erasing anything. There are two wrong extremes: marking every feature as an error (deficit), or never teaching academic English (lower rigor and limited access)."""},
+  {"h": "World Englishes",
+   "md": """English is now many Englishes. Kachru's three circles:
+
+- **Inner Circle:** English is the primary language (U.S., U.K., Australia).
+- **Outer Circle:** English is official or institutional alongside local languages (India, Nigeria, Singapore, the Philippines). These varieties have their own established norms ('discuss about,' 'I am having two sisters').
+- **Expanding Circle:** English is learned as a foreign language for international use (China, Brazil, Japan).
+
+A student from Lagos or Delhi may be a highly skilled English user whose forms are features of his variety, not beginner errors. Respect the variety, and teach shifting to U.S. academic conventions where the audience calls for it."""},
+  {"h": "Language status: diglossia, creoles, Indigenous languages, accent",
+   "md": """- **Diglossia (Ferguson):** a community uses a 'high' variety for writing and formal uses and a 'low' variety for everyday speech. Arabic is the classic case: Modern Standard Arabic vs. colloquial varieties such as Egyptian or Levantine Arabic. A child fluent in Egyptian Arabic but not yet literate in MSA is a fluent Arabic speaker.
+- **Pidgin vs. creole:** a pidgin is a simplified contact language with no native speakers. A **creole** develops when a pidgin becomes a community's native language and grows into a full language. Haitian Creole has its own grammar (tense and aspect particles such as *te* and *ap*) and is an official language of Haiti. It is not 'broken French.'
+- **Indigenous languages:** many families from Guatemala and Mexico speak Q'anjob'al, K'iche', Mam, or Mixteco as their first language and Spanish as a second. Because of discrimination, they may report Spanish on forms. Ask about every home language before assuming Spanish supports fit.
+- **Accent:** everyone has one. Judging intelligence by accent is a language attitude. Pronunciation work should target **intelligibility** (for example, word stress), not accent elimination."""},
+  {"h": "Bilingualism, identity, and heritage languages",
+   "md": """- **Additive bilingualism** (Lambert): a new language is added while the home language keeps developing. **Subtractive bilingualism:** English gradually replaces the home language, most often when the home language has low status at school and in society. A teen who is 'embarrassed' to speak Spanish with his grandparents shows a subtractive outcome.
+- **Language shift:** across generations, immigrant communities often move from the home language to English, typically over about three generations. Grandparents speak only the home language, parents are bilingual, and grandchildren are English-dominant, often with only receptive home-language skills.
+- **Heritage speakers** grew up with a home language. They often have strong oral skills and cultural knowledge but limited literacy and formal registers, so they need heritage-language courses that build literacy and academic registers, not Spanish 1. The NYS Seal of Biliteracy gives them a goal.
+- **Identity:** language choices signal who we are. Students' names, accents, address terms, and home languages are part of identity. A Korean newcomer who calls you 'Teacher' is transferring a respect norm (*seonsaengnim*), not being rude. CR-SE practice makes these languages visible and valued."""},
+ ],
+ "traps": [
+  "Exam trap: treating dialect features (habitual be, zero copula) as ELL interlanguage errors or 'slang.' They are rule-governed features of AAE.",
+  "Exam trap: choosing an option that never teaches academic English in the name of respecting dialects. The best answer validates the home variety and teaches style shifting.",
+  "Exam trap: diglossia vs. register. Diglossia is two distinct varieties with separate social functions across a community; register is one speaker adjusting formality.",
+  "Exam trap: pidgin vs. creole. Creoles have native speakers and full grammars.",
+  "Exam trap: assuming a Guatemalan or Mexican family's home language is Spanish because the form says so.",
+ ],
+ "terms": [
+  {"t": "Dialect", "d": "A regional or social variety of a language; every dialect is fully rule-governed."},
+  {"t": "African American English", "d": "A systematic, rule-governed variety of English with features such as habitual be and zero copula."},
+  {"t": "Habitual be", "d": "AAE marker of recurring action: 'She be working' means she usually works."},
+  {"t": "Register", "d": "A level of formality chosen to suit audience, setting, and purpose."},
+  {"t": "Style shifting", "d": "A speaker's movement between registers or varieties to fit the context."},
+  {"t": "Contrastive analysis (dialect)", "d": "Comparing home-variety and academic-English patterns side by side to teach choosing forms by context."},
+  {"t": "World Englishes", "d": "The many legitimate varieties of English used around the world, each with its own norms."},
+  {"t": "Outer Circle", "d": "Kachru: countries where English is official or institutional, e.g., India, Nigeria, Singapore."},
+  {"t": "Diglossia", "d": "Ferguson: a community's 'high' variety for formal and written use and 'low' variety for everyday speech."},
+  {"t": "Pidgin", "d": "A simplified contact language with no native speakers."},
+  {"t": "Creole", "d": "A full language with native speakers that developed from a pidgin, e.g., Haitian Creole."},
+  {"t": "Additive bilingualism", "d": "Lambert: a new language is added while the home language is maintained and developed."},
+  {"t": "Subtractive bilingualism", "d": "Lambert: a new language replaces the home language, often when that language has low status."},
+  {"t": "Language shift", "d": "A community's gradual move from its home language to the dominant language across generations."},
+  {"t": "Heritage speaker", "d": "Someone raised with a home language other than English, often orally strong but with limited literacy in it."},
+  {"t": "Intelligibility", "d": "Being understood by listeners; the realistic goal of pronunciation work, rather than sounding native."},
+ ],
+ "tip": "When a stem describes language variation, choose the option that treats the variety as rule-governed and still gives the student access to academic English.",
+})
+
+import json, pathlib
+pathlib.Path(__file__).with_name("c1b.json").write_text(json.dumps({"questions": QUESTIONS, "lessons": LESSONS}, ensure_ascii=False, indent=1))

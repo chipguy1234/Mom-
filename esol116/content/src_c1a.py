@@ -175,7 +175,8 @@ QUESTIONS += [
  "traps": [
   {"code": "TERM", "pair": "digraph ↔ consonant cluster", "note": "'Splash' begins with a three-consonant cluster, but sh is a single phoneme, /ʃ/, so the word is CCCVC."},
   {"code": "LITERAL", "note": "'Stamps' has five consonants, but they fall two before the vowel and three after (/s t æ m p s/), so it is CCVCCC, the mirror image."},
-  {"code": "TERM", "pair": "grapheme ↔ phoneme", "note": "'Thrown' looks consonant-heavy, but th = /θ/ and ow = /oʊ/, so it is /θ r oʊ n/, only CCVC."}
+  {"code": "TERM", "pair": "grapheme ↔ phoneme", "note": "'Thrown' looks consonant-heavy, but th = /θ/ and ow = /oʊ/, so it is /θ r oʊ n/, only CCVC."},
+  None
  ],
  "key": "Analyze syllables by phonemes: strict = /strɪkt/ = CCCVCC. Three-consonant onsets in English always begin with /s/."
 },
@@ -367,6 +368,137 @@ QUESTIONS += [
   None
  ],
  "key": "Clipping cuts a word but keeps its meaning and class: examination → exam, laboratory → lab."
+},
+{
+ "id": "1.2-08", "skill": "1.2", "type": "analysis", "difficulty": 2, "diag": 0,
+ "stimulus": "Writing sample, grade 5 (Emerging; home language Mandarin)\n“Yesterday my two brother play soccer in the park. My uncle car was very old, but it was fast.”",
+ "stem": "Which of the following best describes the morphological pattern in this sample?",
+ "options": [
+  "The student omits derivational suffixes, which points to limited depth of vocabulary knowledge.",
+  "The student omits inflectional endings for plural, past, and possession, a pattern consistent with the L1.",
+  "The student overgeneralizes regular inflections by adding them to irregular nouns and verbs.",
+  "The student shows a morphological processing weakness that warrants a special education referral."
+ ],
+ "answer": 1,
+ "why": "Plural -s, past -ed, and possessive -'s are all inflectional morphemes. Mandarin is an isolating language with little inflection: number, time, and possession are shown with numbers and measure words, time words and aspect particles, and the particle de (的). The student signals time with 'yesterday' and number with 'two,' so the meanings are there; the English inflectional endings are the instructional target.",
+ "traps": [
+  {"code": "TERM", "pair": "derivational ↔ inflectional", "note": "The missing endings (-s, -ed, -'s) are inflectional. They mark grammar, not new vocabulary."},
+  None,
+  {"code": "TERM", "pair": "omission ↔ overgeneralization", "note": "Overgeneralization would look like 'childs' or 'goed.' Here endings are left out, not over-applied."},
+  {"code": "MISREFERRAL", "note": "The omissions fit a predictable L1 pattern, and the student expresses the meanings with other words. That's typical acquisition, not evidence of a disability."}
+ ],
+ "key": "Missing -s, -ed, and -'s are inflectional omissions, common when the L1 (e.g., Mandarin) marks these meanings without endings."
+},
+{
+ "id": "1.2-09", "skill": "1.2", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stem": "A grade 7 Integrated ENL science class includes several Transitioning ELLs whose home language is Spanish. The unit introduces 'photosynthesis,' 'photograph,' and 'synthesize.' Which approach best uses morphology to build the students' vocabulary?",
+ "options": [
+  "Read each definition aloud while students copy it into vocabulary notebooks, then give a quiz at the end of the week.",
+  "Replace the technical terms in the reading with everyday phrases, such as 'how plants make food,' to reduce the load.",
+  "Have students split the words into parts (photo- 'light,' synthesis 'putting together') and link them to Spanish cognates.",
+  "Have students memorize a separate list of Greek and Latin roots before the unit, then begin the science content."
+ ],
+ "answer": 2,
+ "why": "Morphological analysis teaches students to break words into meaningful parts and use them to infer meaning, a strategy that transfers to new words such as photosensitive and synthetic. For Spanish speakers, many academic roots appear in cognates (fotosíntesis, fotografía, sintetizar), so linking the parts to the home language builds on an asset. The grade-level terms stay in place and are taught within the content.",
+ "traps": [
+  {"code": "PASSIVE", "note": "Copying definitions and taking a quiz is teacher-centered and gives students no strategy for working out related words."},
+  {"code": "LOWER_RIGOR", "note": "Removing the academic terms waters down the content; ELLs need these words to read and write grade-level science."},
+  None,
+  {"code": "ISOLATED", "note": "Studying roots as an unconnected list before the unit separates morphology from meaning and context, so it rarely transfers."}
+ ],
+ "key": "Teach morphological analysis in context (photo- + synthesis) and link word parts to home-language cognates."
+},
+{
+ "id": "1.2-10", "skill": "1.2", "type": "knowledge", "difficulty": 3, "diag": 0,
+ "stem": "Which statement about English morphology is accurate?",
+ "options": [
+  "Every English suffix is inflectional.",
+  "Derivational morphemes never change a word's part of speech.",
+  "Inflectional morphemes create new words with their own dictionary entries.",
+  "Every English prefix is derivational."
+ ],
+ "answer": 3,
+ "why": "All eight English inflectional morphemes (plural -s, possessive -'s, third-person -s, past -ed, past participle -en/-ed, -ing, comparative -er, superlative -est) are suffixes, so every prefix (un-, re-, pre-, mis-, dis-) must be derivational. Suffixes can be either kind: -ness and -ful are derivational. Derivational morphemes often change word class, and they are what create new dictionary entries.",
+ "traps": [
+  {"code": "TERM", "pair": "suffix ↔ inflectional", "note": "Many suffixes are derivational (-ness, -ful, -tion, -ly). Only eight English suffixes are inflectional."},
+  {"code": "TERM", "pair": "derivational ↔ inflectional", "note": "Derivational morphemes often change the class (teach → teacher, happy → happiness). Some don't (unhappy), but many do."},
+  {"code": "TERM", "pair": "inflectional ↔ derivational", "note": "That describes derivation. Inflection only produces grammatical forms of the same word (walk, walks, walked)."},
+  None
+ ],
+ "key": "English has eight inflectional morphemes, all suffixes, so every English prefix is derivational."
+},
+{
+ "id": "1.2-11", "skill": "1.2", "type": "application", "difficulty": 2, "diag": 0,
+ "stimulus": "A grade 8 student (Expanding; home language Bengali) reads aloud, “She jumped over the puddle and played outside,” pronouncing each -ed ending as an extra syllable: “jump-id,” “play-id.”",
+ "stem": "Which rule for pronouncing the past-tense ending should the teacher teach?",
+ "options": [
+  "/ɪd/ after verbs ending in /t/ or /d/; /t/ after other voiceless sounds; /d/ after other voiced sounds",
+  "/ɪd/ after any consonant and /d/ after vowels, since -ed adds a syllable to most regular verbs",
+  "/ɪd/ after verbs ending in /t/ or /d/; /d/ after other voiceless sounds; /t/ after other voiced sounds",
+  "/ɪd/ for every regular verb, since the -ed spelling represents one fixed pronunciation"
+ ],
+ "answer": 0,
+ "why": "The past-tense morpheme -ed has three allomorphs (predictable pronunciations), conditioned by the verb's final sound: /ɪd/ after /t/ or /d/ (wanted, needed), /t/ after other voiceless sounds (jumped, washed), and /d/ after other voiced sounds, including vowels (played, cleaned). The ending matches the voicing of the sound before it. Plural -s follows the same logic: /ɪz/, /s/, /z/.",
+ "traps": [
+  None,
+  {"code": "PARTIAL", "note": "It's right that -ed is /d/ after vowels (played), but /ɪd/ follows only /t/ and /d/. After other consonants -ed adds no syllable: jumped is one syllable."},
+  {"code": "TERM", "pair": "voiced ↔ voiceless", "note": "This reverses the voicing match. A voiceless sound like /p/ takes voiceless /t/ (jumped); a voiced sound takes /d/."},
+  {"code": "LITERAL", "note": "This is exactly the student's error: reading the spelling. One spelling, -ed, represents three different pronunciations."}
+ ],
+ "key": "-ed has three allomorphs: /ɪd/ after /t, d/; /t/ after voiceless sounds; /d/ after voiced (wanted, jumped, played)."
+},
+{
+ "id": "1.2-12", "skill": "1.2", "type": "analysis", "difficulty": 2, "diag": 0,
+ "stimulus": "Journal entry, grade 6 (Transitioning; home language Korean)\n“The math test was unpossible. My partner was unpolite to me, but later he said sorry.”",
+ "stem": "What do the words 'unpossible' and 'unpolite' best show about this student's morphological knowledge?",
+ "options": [
+  "The student is attaching an inflectional morpheme to the wrong class of words.",
+  "The student has learned that un- means 'not' and is extending it to stems that take im-.",
+  "The student does not yet understand that adding a prefix changes a word's meaning.",
+  "The student is making random slips that suggest a weak memory for word forms."
+ ],
+ "answer": 1,
+ "why": "un-, in-/im-, dis-, and non- are all derivational prefixes meaning 'not,' and which one a stem takes is partly unpredictable (unhappy, impossible, impolite, dishonest). 'Unpossible' and 'unpolite' are rule-based forms: the student has abstracted un- as a productive prefix and is applying it beyond its range. This overgeneralization is evidence of growing morphological knowledge; the next step is teaching the in- family (impossible, illegal, irregular).",
+ "traps": [
+  {"code": "TERM", "pair": "inflectional ↔ derivational", "note": "un- is a derivational prefix, and English has no inflectional prefixes. The error is choosing the wrong derivational prefix."},
+  None,
+  {"code": "LITERAL", "note": "The student used un- to mean 'not' exactly as intended, which shows clear understanding that prefixes change meaning."},
+  {"code": "TERM", "pair": "systematic error ↔ random mistake", "note": "Both forms follow the same rule (un- + adjective), so they are systematic developmental errors, not random slips."}
+ ],
+ "key": "'Unpossible' overgeneralizes productive un-, which shows rule learning. Teach which stems take im-, in-, il-, or ir-."
+},
+{
+ "id": "1.2-13", "skill": "1.2", "type": "knowledge", "difficulty": 3, "diag": 0,
+ "stem": "A teacher contrasts 'a GREENhouse' with 'a green HOUSE' (capitals show the stressed word). Which statement best explains the difference?",
+ "options": [
+  "Both are compound nouns, and speakers shift the stress freely with no change in meaning.",
+  "'Greenhouse' is a blend of two words, while 'green house' is a compound noun.",
+  "'Greenhouse' contains a derivational morpheme, while 'green house' contains an inflectional one.",
+  "'Greenhouse' is a compound stressed on its first part; 'green house' is an adjective + noun phrase."
+ ],
+ "answer": 3,
+ "why": "Compounding joins two free morphemes into one word, and English noun compounds typically stress the first element: GREENhouse, BLACKboard, the WHITE House. A compound's meaning is often more than the sum of its parts (a greenhouse needn't be green). In the phrase 'a green HOUSE,' green is an adjective describing a house, and the main stress falls on the noun.",
+ "traps": [
+  {"code": "TERM", "pair": "compound ↔ phrase", "note": "The stress isn't free. It marks the difference between a compound (GREENhouse) and a phrase (green HOUSE), and the meanings differ."},
+  {"code": "TERM", "pair": "blend ↔ compound", "note": "A blend fuses parts of words (smog). 'Greenhouse' keeps both whole words, so it's a compound, and 'green house' is a phrase, not a compound."},
+  {"code": "TERM", "pair": "compound ↔ derivation", "note": "Neither form contains an affix. Both are built from the free morphemes green and house."},
+  None
+ ],
+ "key": "Compounds usually stress the first part and may have special meanings (GREENhouse); phrases stress the noun (green HOUSE)."
+},
+{
+ "id": "1.2-14", "skill": "1.2", "type": "application", "difficulty": 3, "diag": 0,
+ "stem": "Which word is built on a bound root rather than a free root?",
+ "options": ["replay", "unkind", "receive", "helpful"],
+ "answer": 2,
+ "why": "A root is the core of a word. A free root can stand alone (play, kind, help); a bound root cannot. In 'receive,' the root -ceive (from Latin capere, 'to take') never appears as a word on its own but recurs in conceive, deceive, and perceive. Many academic words are built on bound Latin and Greek roots (-struct-, -rupt-, -dict-), which is why root study supports content vocabulary.",
+ "traps": [
+  {"code": "TERM", "pair": "free ↔ bound", "note": "'Play' stands alone as a word, so it's a free root; only the prefix re- is bound."},
+  {"code": "TERM", "pair": "free ↔ bound", "note": "'Kind' is a free root; the prefix un- is the bound part."},
+  None,
+  {"code": "TERM", "pair": "free ↔ bound", "note": "'Help' is a free root; only the suffix -ful is bound."}
+ ],
+ "key": "Bound roots can't stand alone (-ceive in receive, conceive); free roots can (play, help)."
 },
 ]
 

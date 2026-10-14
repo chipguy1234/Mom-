@@ -15,7 +15,7 @@
     "Student 4"
    ],
    "answer": 2,
-   "why": "NYS defines SIFE as ELLs who have attended U.S. schools for less than 12 months and who, on initial enrollment, are two or more years below grade level in home-language literacy and/or math because of interrupted or inadequate schooling. Student 3 meets every part: he is new to U.S. schools, his schooling was interrupted for three years, and his Arabic literacy is about four years below grade 8. Limited English alone never makes a student SIFE.",
+   "why": "NYS defines SIFE as ELLs who have attended U.S. schools for less than 12 months and who, on initial enrollment, are two or more years below grade level in home-language literacy and/or math because of interrupted or inadequate schooling. Student 3 meets every part (new to U.S. schools, a three-year interruption, Arabic literacy about four years below grade 8); limited English alone never makes a student SIFE.",
    "traps": [
     {
      "code": "TERM",
@@ -114,7 +114,7 @@
     "Have the group sort the plants they chose into categories, then have each student complete and explain a chart"
    ],
    "answer": 3,
-   "why": "MALP (DeCapua & Marshall) asks teachers to meet SIFE partway. Teachers accept students' conditions for learning (immediate relevance, interconnectedness). They combine students' processes with school processes (shared responsibility with individual accountability, oral transmission with the written word). And they introduce new academic tasks, such as classification, through familiar language and content. Sorting the plants the group chose and then completing an individual chart does all three.",
+   "why": "MALP (DeCapua & Marshall) asks teachers to meet SIFE partway: accept students' conditions for learning (immediate relevance, interconnectedness); combine their processes with school processes (shared responsibility with individual accountability, oral transmission with the written word); and introduce new academic tasks, such as classification, through familiar language and content. Sorting the plants the group chose and then completing an individual chart does all three.",
    "traps": [
     {
      "code": "LOWER_RIGOR",
@@ -534,7 +534,7 @@
    "stem": "A grade 3 ELL whose home language is Mandarin is struggling in reading. Which observation would most strongly suggest that his difficulties may stem from a disability rather than from second-language acquisition?",
    "options": [
     "He mixes Mandarin and English words in the same sentence when talking with bilingual classmates",
-    "He leaves off past-tense -ed endings in English, a feature that Mandarin does not mark on verbs",
+    "He leaves off past-tense -ed endings in English; Mandarin verbs do not change form to show tense",
     "He said very little English during his first months in school, though he followed class routines",
     "His parents report the same trouble learning to read Chinese when he attended school in Shanghai"
    ],
@@ -548,7 +548,7 @@
     },
     {
      "code": "MISREFERRAL",
-     "note": "This is negative transfer from Mandarin, which signals time with words rather than verb endings. It's a predictable second-language error, not a disability marker."
+     "note": "This is negative transfer from Mandarin, which signals time with time words and particles rather than verb endings. It's a predictable second-language error, not a disability marker."
     },
     {
      "code": "MISREFERRAL",
@@ -632,7 +632,7 @@
    "stimulus": "Note from a parent, translated from Haitian Creole: 'My son Jean is in grade 3. In Haiti his teacher said he could not learn his letters like the other children. Here he still cannot read in Kreyòl or English. Please test him to see if he needs special help.'",
    "stem": "The school's RTI team has just begun Tier 2 intervention for Jean. The assistant principal says that all RTI tiers must be completed before any evaluation, especially for an ELL. Which response by the ENL teacher is most appropriate?",
    "options": [
-    "Agree, since data from all three tiers are required to show that his difficulties are not due to limited English proficiency",
+    "Agree, since the team cannot rule out limited English proficiency until Jean has completed every RTI tier",
     "Suggest that the parent withdraw the request until Jean reaches the Transitioning level, when testing will be more reliable",
     "Ask the classroom teacher to give an informal English reading test to decide whether the parent's request is justified",
     "Explain that RTI cannot delay or deny an evaluation, so the referral should proceed with consent sought in Haitian Creole"
@@ -642,7 +642,7 @@
    "traps": [
     {
      "code": "MISREFERRAL",
-     "note": "RTI cannot be used to delay or deny an evaluation. Treating ELL status as a reason to wait delays an evaluation the parent requested, despite cross-language warning signs."
+     "note": "RTI cannot be used to delay or deny an evaluation. A bilingual evaluation is itself how the team rules out limited English proficiency, and interventions can continue meanwhile; waiting ignores cross-language warning signs."
     },
     {
      "code": "FAMILY_BARRIER",
