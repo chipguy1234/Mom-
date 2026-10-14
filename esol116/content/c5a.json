@@ -247,7 +247,7 @@
   {
    "id": "5.1-08",
    "skill": "5.1",
-   "type": "knowledge",
+   "type": "application",
    "difficulty": 3,
    "diag": 0,
    "stem": "At a high school, ELLs enroll in a mainstream biology course and, at the same time, in a linked ENL course. The ENL teacher uses the biology readings and assignments to teach the reading, writing, and note-taking skills the course demands, and the two teachers coordinate weekly. This arrangement best exemplifies which content-based instruction model?",
@@ -965,7 +965,7 @@
     null,
     {
      "code": "LITERAL",
-     "note": "The student chose subtraction, so she understood 'less.' It is also an everyday (Tier 1) word, not a Tier 3 technical term. The problem is the order of the terms, not the word's meaning."
+     "note": "The student chose subtraction, so she understood 'less,' an everyday (Tier 1) word rather than a Tier 3 term. The problem is the order of the terms, not the word's meaning."
     },
     {
      "code": "MISAPPLIED_THEORY",
@@ -997,7 +997,7 @@
    "traps": [
     {
      "code": "ISOLATED",
-     "note": "Key-word charts caused this error. 'More' appears, but the problem requires subtraction. Matching words to operations replaces making sense of the situation."
+     "note": "Key-word charts caused this error: 'more' appears, but the problem requires subtraction. Matching words to operations replaces making sense of the situation."
     },
     {
      "code": "LITERAL",
@@ -1869,5 +1869,397 @@
    "key": "Aim for cognitively demanding, context-embedded tasks: hands-on demos let ELLs reason at grade level with visual support."
   }
  ],
- "lessons": []
+ "lessons": [
+  {
+   "skill": "5.1",
+   "title": "Sheltered Instruction: SIOP, CALLA & Content-Based Instruction",
+   "why": "Expect items that describe a classroom move and ask which SIOP component or CALLA strategy it reflects, or which objective or text adaptation best integrates content and language.",
+   "body": [
+    {
+     "h": "Content and language, taught together",
+     "md": "Content-based instruction (CBI) rests on one idea: ELLs learn English best when they use it to learn something worth knowing, and they can't afford to put grade-level content on hold while their English catches up. **Sheltered instruction** is CBI inside a content class: grade-level concepts made comprehensible, **not watered down**.\n\nThree classic CBI models (Brinton, Snow & Wesche):\n- **Theme-based:** a language course organized around content themes (an ENL unit built around ecosystems).\n- **Sheltered:** a content course taught to ELLs with language-sensitive supports (a sheltered biology class).\n- **Adjunct:** students take a mainstream content course *and* a linked language course at the same time; the teachers coordinate so the language course targets the content course's demands.\n\nWhen planning, separate **content-obligatory** language from **content-compatible** language (Snow, Met & Genesee). Obligatory language is what students must have to learn the concept: *perimeter, length, width*, 'The perimeter is ___ because ___.' Compatible language fits naturally but isn't required, like the past tense in 'We measured each side.' Plan the obligatory language first, then add compatible targets as a bonus."
+    },
+    {
+     "h": "SIOP: 8 components, 30 features",
+     "md": "The SIOP Model (Echevarría, Vogt & Short) organizes sheltered instruction into eight components. Know what lives where:\n- **Lesson Preparation:** content and language objectives (defined, displayed, reviewed); concepts appropriate for age and background; supplementary materials; adaptation of content to all proficiency levels; meaningful activities that integrate content with language practice.\n- **Building Background:** concepts linked to students' experiences; links between past learning and new concepts; key vocabulary emphasized.\n- **Comprehensible Input:** speech appropriate to proficiency (rate, enunciation, simpler syntax); clear explanation of academic tasks; varied techniques (modeling, visuals, hands-on, gestures).\n- **Strategies:** opportunities to use learning strategies; consistent scaffolding (think-alouds); higher-order questions and tasks.\n- **Interaction:** frequent discussion with elaborated responses; grouping that supports the objectives; sufficient wait time; opportunities to clarify concepts in L1.\n- **Practice & Application:** hands-on materials and manipulatives; activities that apply content and language; activities that integrate all four skills.\n- **Lesson Delivery:** content and language objectives supported; students engaged about 90–100% of the period; appropriate pacing.\n- **Review & Assessment:** comprehensive review of key vocabulary and concepts; regular feedback on output; assessment of comprehension throughout the lesson."
+    },
+    {
+     "h": "The SIOP placements that trip people up",
+     "md": "Exam items love features that *feel* like they belong somewhere else:\n- **Wait time** → Interaction (not Comprehensible Input).\n- **Clarifying concepts in the home language** with a peer, aide, or L1 text → Interaction.\n- **Vocabulary** appears twice: *emphasized* when introduced (Building Background) vs. *comprehensively reviewed* at the end (Review & Assessment).\n- **Scaffolding and higher-order questions** → Strategies.\n- **Manipulatives and hands-on practice** → Practice & Application. **Supplementary materials** chosen during planning → Lesson Preparation.\n- **Students sitting idle, slow transitions** → Lesson Delivery (engagement and pacing).\n- **Adapting a text** (graphic organizer, leveled study guide) → Lesson Preparation.\n\nWhen an item asks which component a practice reflects, ask: is this about *planning, connecting, speaking clearly, thinking strategically, talking, practicing, delivering,* or *reviewing*?"
+    },
+    {
+     "h": "Writing content and language objectives",
+     "md": "A **content objective** says what students will learn about the subject. A **language objective** says how they will use language to learn or show it: a **function** (compare, explain, justify), a **domain** (orally, in writing), and the **forms** or vocabulary they'll need.\n\n- Content: *Students will compare plant and animal cells.*\n- Strong language objective: *Students will orally compare the two cell types using 'Both ___ and ___ have ___' and '___, whereas ___.'*\n- Weak 'language objectives' you'll see as distractors: a content fact in disguise ('identify the chloroplast'), an activity ('complete a Venn diagram'), or rote work ('copy ten definitions').\n\nSIOP expects objectives to be posted in student-friendly language, stated at the start, and revisited at the end so students can judge whether they met them. Objectives posted in technical wording and never mentioned don't count."
+    },
+    {
+     "h": "CALLA: teaching strategies as content",
+     "md": "Chamot and O'Malley's **Cognitive Academic Language Learning Approach** integrates three components: grade-level **content**, **academic language**, and explicit instruction in **learning strategies**. The strategy strand is what sets CALLA apart.\n\n- **Metacognitive** (managing your own learning): planning, previewing headings, selective attention ('I'll focus on what the questions ask'), monitoring comprehension, self-evaluation.\n- **Cognitive** (working with the material): note-taking, summarizing, grouping and classifying, using resources, making inferences, connecting to prior knowledge.\n- **Social/affective** (with others or with feelings): asking for clarification, cooperating, positive self-talk.\n\nCALLA lessons follow five phases: **Preparation** (find out what students know and which strategies they use) → **Presentation** (model and name the strategy) → **Practice** → **Self-evaluation** (students judge how well it worked; sometimes listed simply as Evaluation) → **Expansion** (transfer to new subjects and contexts)."
+    },
+    {
+     "h": "Adapting texts without lowering rigor",
+     "md": "When a content teacher says 'the textbook is too hard,' the sheltered-instruction answer is to change the **access**, not the **content**. Options include graphic organizers, outlines, leveled study guides, highlighted key passages, marginal notes, audio versions, jigsaw reading, and home-language texts or bilingual glossaries.\n\nWrong answers on the exam usually swap the grade-level text for a much younger one, excuse ELLs from the reading, or hand them a word search instead. All of those lower expectations, and NYS's Blueprint for ELL/MLL Success calls for rigorous, grade-level instruction for every ELL."
+    }
+   ],
+   "traps": [
+    "Exam trap: placing wait time under Comprehensible Input. In SIOP, wait time and L1 clarification are Interaction features.",
+    "Exam trap: choosing an activity ('complete a Venn diagram') or a content fact as a 'language objective.' A language objective names a function, a domain, and target forms.",
+    "Exam trap: confusing CALLA's metacognitive strategies (planning, monitoring, evaluating) with cognitive ones (working directly with the material).",
+    "Exam trap: 'sheltering' by replacing grade-level text with easier content. Sheltering means scaffolding access to the same concepts.",
+    "Exam trap: treating the theme-based, sheltered, and adjunct models as interchangeable. Adjunct = mainstream content course plus a linked language course."
+   ],
+   "terms": [
+    {
+     "t": "SIOP Model",
+     "d": "Sheltered Instruction Observation Protocol (Echevarría, Vogt & Short): 8 components and 30 features for planning and observing sheltered lessons."
+    },
+    {
+     "t": "Sheltered instruction",
+     "d": "Grade-level content taught with language supports that make it comprehensible to ELLs, without watering it down."
+    },
+    {
+     "t": "Content objective",
+     "d": "What students will learn about the subject in a lesson."
+    },
+    {
+     "t": "Language objective",
+     "d": "How students will use language (function, domain, and forms) to learn or show the content."
+    },
+    {
+     "t": "Building Background",
+     "d": "SIOP component: link to students' experiences and past learning; emphasize key vocabulary."
+    },
+    {
+     "t": "Interaction",
+     "d": "SIOP component: frequent discussion, purposeful grouping, sufficient wait time, and clarification in L1."
+    },
+    {
+     "t": "Lesson Delivery",
+     "d": "SIOP component: objectives supported, students engaged 90–100% of the period, and appropriate pacing."
+    },
+    {
+     "t": "Review & Assessment",
+     "d": "SIOP component: review of key vocabulary and concepts, feedback on output, and checks of comprehension throughout the lesson."
+    },
+    {
+     "t": "CALLA",
+     "d": "Chamot & O'Malley's approach integrating grade-level content, academic language, and explicit learning-strategy instruction."
+    },
+    {
+     "t": "Metacognitive strategy",
+     "d": "Managing one's own learning: planning, selective attention, monitoring, self-evaluation."
+    },
+    {
+     "t": "Cognitive strategy",
+     "d": "Working directly with the material: note-taking, summarizing, grouping, inferencing, using resources."
+    },
+    {
+     "t": "Social/affective strategy",
+     "d": "Learning with others or managing emotions: asking for clarification, cooperating, positive self-talk."
+    },
+    {
+     "t": "Content-based instruction (CBI)",
+     "d": "Teaching language through meaningful academic content rather than as a separate subject."
+    },
+    {
+     "t": "Adjunct model",
+     "d": "CBI model linking a language course to a mainstream content course that students take at the same time."
+    },
+    {
+     "t": "Content-obligatory language",
+     "d": "Language students must have to learn and express a lesson's concept."
+    },
+    {
+     "t": "Content-compatible language",
+     "d": "Language that fits naturally into a lesson but isn't required to master its content."
+    }
+   ],
+   "tip": "For 'which SIOP component' items, match the practice to the exact feature list, especially wait time (Interaction) and end-of-lesson vocabulary review (Review & Assessment)."
+  },
+  {
+   "skill": "5.2",
+   "title": "Co-Teaching and Collaboration in Integrated ENL",
+   "why": "Items describe a co-taught lesson or a teacher's goal and ask you to name or choose the co-teaching model, or to pick the best collaborative move for an ENL teacher working with content teachers.",
+   "body": [
+    {
+     "h": "Integrated ENL in New York",
+     "md": "In NYS, **Integrated ENL** means ELLs receive core content instruction (ELA, math, science, social studies) together with English language development. It is taught by a teacher **dually certified** in the content area and ESOL, or **co-taught** by a certified content teacher and a certified ESOL teacher. That's different from **Stand-alone ENL**, where an ESOL teacher provides English language development in a separate class.\n\nThe philosophy comes straight from the Blueprint for ELL/MLL Success: every teacher is a teacher of ELLs, and ESOL expertise should be leveraged across the school. In a co-taught class, both teachers share responsibility for **all** students' content and language learning. Talk of 'your kids' and 'my kids' is a red flag."
+    },
+    {
+     "h": "The six co-teaching models",
+     "md": "- **One teach, one observe:** one teacher leads; the other collects focused data (e.g., which ELLs use 'because' to explain). It is purposeful, with a tool and a focus.\n- **One teach, one assist:** one leads; the other circulates helping individuals. Easy but overused: when it becomes the default, the ENL teacher becomes an aide.\n- **Station teaching:** the content is divided into parts; each teacher leads a station (often with an independent station too) and groups rotate, so every student works with both teachers.\n- **Parallel teaching:** the class splits into two heterogeneous halves; each teacher teaches the same content at the same time. Halving the group means more talk per student.\n- **Alternative teaching:** one teacher takes a small group for a specific purpose (pre-teaching, re-teaching, enrichment, assessment) while the other leads the large group.\n- **Team teaching:** both teachers instruct the whole class together, sharing the lead: modeling a debate, a dialogue, or a think-aloud."
+    },
+    {
+     "h": "Pick the model from the goal",
+     "md": "Many items give you a goal and ask for the best fit. Match the purpose:\n- Pre-teach vocabulary and materials to newcomers before a lab → **alternative**.\n- Double each student's chances to talk about the same text → **parallel**.\n- Gather data on ELLs' academic language → **one teach, one observe**.\n- Every student gets small-group time with both teachers on different parts of the lesson → **station**.\n- Show what academic disagreement sounds like → **team**.\n- Quick, unobtrusive support during a short whole-class segment → **one teach, one assist** (sparingly).\n\nThe most common confusion is **station vs. parallel**. In station teaching, groups rotate through *different* content and see *both* teachers. In parallel teaching, each half gets the *same* content from *one* teacher."
+    },
+    {
+     "h": "Co-planning: who brings what",
+     "md": "Regular co-planning time is the most consistently cited condition for successful co-teaching. Without it, the ENL teacher walks in cold and slides into an assisting role.\n\n- **Content teacher:** standards, content objectives, the unit sequence, key concepts, labs and tasks.\n- **ENL teacher:** analysis of the lesson's **language demands** (vocabulary; sentence structures such as passive voice or cause–effect; discourse such as lab reports), **language objectives**, scaffolds matched to each student's **proficiency level**, and knowledge of students' schooling and home-language literacy.\n- **Both:** choose the model for each lesson segment and define each teacher's role. Write 'ENL teacher leads a small group on explanation frames,' not 'help ELLs.'\n\nMany schools use a collaborative cycle: **co-plan → co-teach → co-assess → reflect**."
+    },
+    {
+     "h": "Co-assessment and using student work",
+     "md": "Co-assessment means both teachers look at student work together, ideally with criteria that separate **content understanding** from **language use**. A response like 'People live near river. River give water for farm. Farm make food.' shows solid content understanding with Emerging-level grammar. Scoring the two separately keeps you from underestimating the student and points to a next step, such as a mini-lesson on 'because' and 'so.'\n\nUse the results to form **flexible groups** for upcoming lessons. Avoid splitting the work so that the ENL teacher 'grades the ELLs' and only marks grammar; that undercuts shared responsibility and measures the wrong thing."
+    },
+    {
+     "h": "Red flags and their fixes",
+     "md": "- **The ENL teacher always circulates** → co-plan and rotate models so the ENL teacher also leads instruction.\n- **The same ELLs are always pulled to the back table** → vary group membership and purpose, include non-ELLs and enrichment, and trade who leads the small group.\n- **ELLs are clustered at one table** → seat them with peers who can serve as language models.\n- **The plan has no language objective** → add one tied to the content task.\n- **Pull-out during content class** → this keeps ELLs from the grade-level instruction Integrated ENL is designed to deliver.\n- **A content teacher asks 'what should I know?'** → share each student's proficiency level, strengths across listening, speaking, reading, and writing, schooling, and home-language literacy, not cultural generalizations."
+    }
+   ],
+   "traps": [
+    "Exam trap: confusing station and parallel teaching. Station = rotate through different content with both teachers; parallel = same content, two halves, one teacher each.",
+    "Exam trap: accepting one teach, one assist as the default. Overuse turns the ENL teacher into an aide and leaves language instruction unplanned.",
+    "Exam trap: alternative teaching that always pulls the same ELLs. Groups should be flexible and data-based, with varied purposes.",
+    "Exam trap: thinking Integrated ENL can be staffed by a content teacher plus a teaching assistant. It requires a certified ESOL co-teacher or a dually certified teacher.",
+    "Exam trap: choosing options that split responsibility ('the ENL teacher grades the ELLs') over shared planning and co-assessment."
+   ],
+   "terms": [
+    {
+     "t": "Integrated ENL",
+     "d": "NYS service combining content and English development; co-taught by content and ESOL teachers or taught by a dually certified teacher."
+    },
+    {
+     "t": "Stand-alone ENL",
+     "d": "NYS service in which an ESOL teacher provides English language development to ELLs in a separate class."
+    },
+    {
+     "t": "One teach, one observe",
+     "d": "One teacher leads while the other gathers focused data on students to guide planning."
+    },
+    {
+     "t": "One teach, one assist",
+     "d": "One teacher leads while the other circulates helping individuals; useful briefly, harmful as a default."
+    },
+    {
+     "t": "Station teaching",
+     "d": "Content divided among stations; groups rotate, and each teacher leads a station, so students work with both."
+    },
+    {
+     "t": "Parallel teaching",
+     "d": "Class split into two heterogeneous halves; each teacher teaches the same content simultaneously."
+    },
+    {
+     "t": "Alternative teaching",
+     "d": "One teacher takes a small group for a specific purpose (pre-teach, re-teach, enrich, assess) while the other leads the rest."
+    },
+    {
+     "t": "Team teaching",
+     "d": "Both teachers co-deliver instruction to the whole class, sharing the lead."
+    },
+    {
+     "t": "Co-planning",
+     "d": "Scheduled joint planning to set content and language objectives, choose models, and define roles."
+    },
+    {
+     "t": "Co-assessment",
+     "d": "Both teachers analyze student work together, ideally separating content and language criteria, to plan next steps."
+    },
+    {
+     "t": "Parity",
+     "d": "Equal status and shared responsibility of co-teachers for all students' learning."
+    },
+    {
+     "t": "Language demands",
+     "d": "The vocabulary, sentence structures, and discourse a task requires students to understand and produce."
+    },
+    {
+     "t": "Flexible grouping",
+     "d": "Groups formed and re-formed from ongoing data and varied purposes rather than fixed by label."
+    }
+   ],
+   "tip": "Read the goal in the stem first (who needs what, in what group size), then pick the model whose purpose fits."
+  },
+  {
+   "skill": "5.3",
+   "title": "Teaching Mathematics to ELLs",
+   "why": "Math items test whether you can tell when language or notation, not the math itself, causes a student's error (word-problem phrasing, multiple-meaning words, number words, notation from other countries) and choose a scaffold that keeps the math rigorous.",
+   "body": [
+    {
+     "h": "Math is not language-free",
+     "md": "It's a myth that math is the 'easy' subject for ELLs because 'numbers are universal.' Word problems pack dense language into a few sentences, everyday words take on special meanings, symbols must be read aloud in English, and students are expected to explain and justify their reasoning.\n\nOn the exam, the right answer usually separates a student's **math knowledge** from **language needs**, credits the math, and scaffolds the language **without lowering the math**. Distractors tend to reteach basic computation, simplify the numbers, skip word problems, or refer the student for evaluation."
+    },
+    {
+     "h": "Word-problem language traps",
+     "md": "- **Reversals:** '8 less than n' is n − 8, and '7 subtracted from 10' is 10 − 7. Students who translate left to right write 8 − n.\n- **Comparison problems with 'inconsistent' language:** 'Amina has 12 stickers. She has 4 more than Luis. How many does Luis have?' The word *more* appears, but the operation is subtraction (12 − 4 = 8).\n- **Multiword phrases:** *at least* (≥), *at most* (≤), *no more than* (≤), *times as many*, *per*, *of* ('half of 12').\n- **Operation vocabulary:** *sum, difference, product, quotient*.\n\nWhy not teach key words? Key-word charts ('more = add') fail on exactly these problems. Instead, have students **model the situation** with drawings, bar models, or acting it out, and use a structured **multiple-reads** routine such as Three Reads: read once for the situation (no numbers), again for the quantities and relationships, and a third time for the question, talking with a partner after each read."
+    },
+    {
+     "h": "Words and numbers with two lives",
+     "md": "- **Multiple-meaning words:** *table, product, volume, odd, even, mean, range, mode, round, face, plane, degree, power, root, yard, foot, change*. ELLs may know the everyday meaning and apply it. Teach them with a two-column chart: everyday meaning / math meaning.\n- **Homophones:** *sum/some, whole/hole, eight/ate, pi/pie*.\n- **Teen and -ty numbers:** *fifteen/fifty* differ mainly in stress (fifTEEN vs. FIFty) and the final /n/. Pair spoken numbers with digits and have students say them back.\n- **Irregular English number words:** *eleven* and *twelve* don't show 'ten,' and *thirteen* says the ones first, which invites reversals like 31. Mandarin names numbers transparently ('ten-three' for 13, 'two-ten-three' for 23), a place-value asset to build on.\n- **Cognates and false cognates:** many math terms are Spanish cognates (*ecuación, perímetro, fracción*), but **billion/billón** is a false cognate: Spanish *un billón* = 10¹², while English *billion* = 10⁹."
+    },
+    {
+     "h": "Notation and algorithms from other countries",
+     "md": "Newcomers often arrive with strong math written in a different notation. Know the common ones:\n- **Decimal comma:** in Ukraine, Russia, Brazil, and much of Europe and South America, 2,5 means 2.5, and thousands are grouped with a period or space (1.000 or 1 000).\n- **Division layout:** in Brazil, Russia, France, Spain, and many other countries, the divisor sits to the right of the dividend, with the quotient written below the divisor.\n- **Symbols:** a raised dot (·) for multiplication and a colon (:) for division are common elsewhere.\n- **Measurement:** most of the world uses the metric system, so US customary units (inches, feet, pounds) may be new.\n\nThe best response is always the same pattern: **recognize the method as valid, ask the student to explain it, credit the math, and explicitly teach the US convention side by side.** Marking it wrong, referring the student for evaluation, or reteaching basics misreads a cultural difference as a deficit."
+    },
+    {
+     "h": "Reading a student-work stimulus like an expert",
+     "md": "When an item shows an ELL's math work, run three quick checks before choosing an answer:\n- **Is the computation right?** If yes, the problem is probably language (choosing the operation, reading a phrase) or notation, not math skill.\n- **Does the error follow a language pattern?** English word order ('8 less than n' written as 8 − n), a misheard number (fifteen written as 50), or a home-language meaning (billón) are all clues.\n- **What does the student's own explanation say?** 'Least means small, so it's less' tells you exactly what to teach.\n\nThen pick the response that credits what the student knows and targets that specific language, usually with a visual model, a number line, a frame, or a side-by-side comparison."
+    },
+    {
+     "h": "Making math comprehensible and talk-rich",
+     "md": "- **Concrete → representational → abstract (CRA):** fraction strips, then drawings, then symbols.\n- **Visuals and manipulatives:** base-ten blocks, algebra tiles, number lines, bar models (tape diagrams).\n- **Sentence frames for reasoning:** 'I know ___ because ___.' '___ is greater than ___ because ___.'\n- **Talk moves:** *revoicing* ('So you're saying that three-fourths is greater than one-half?') models precise language without interrupting, then invites reasoning. Add wait time, 'Who can restate that?', and partner talk.\n- **Familiar contexts:** if a problem hinges on unfamiliar culture (a Fourth of July tailgate), build background with a visual or swap in a familiar context while keeping the same math.\n- **Home language:** let students reason, draft, and check their work in the home language; it carries their math knowledge."
+    }
+   ],
+   "traps": [
+    "Exam trap: the key-word chart. 'More means add' fails on comparison problems; choose answers that have students model the situation.",
+    "Exam trap: treating a decimal comma or a different division layout as an error, a gap, or a disability. It's a valid notation from prior schooling.",
+    "Exam trap: 'use smaller numbers' or 'skip word problems.' The barrier is usually language or cultural context, so scaffold that and keep the math.",
+    "Exam trap: diagnosing a place-value problem when a student's errors follow English number words (fifteen/fifty, 13 written as 31)."
+   ],
+   "terms": [
+    {
+     "t": "Multiple-meaning word",
+     "d": "A word with an everyday meaning and a different math meaning, such as table, product, volume, odd, or mean."
+    },
+    {
+     "t": "Reversal phrase",
+     "d": "Wording like 'less than' or 'subtracted from' whose terms appear in the opposite order of the expression."
+    },
+    {
+     "t": "Comparison problem",
+     "d": "A word problem comparing two quantities; 'more' or 'fewer' may not signal the needed operation."
+    },
+    {
+     "t": "Key-word strategy",
+     "d": "Matching words to operations ('more' = add); unreliable because it bypasses understanding of the situation."
+    },
+    {
+     "t": "Three Reads",
+     "d": "Routine of reading a word problem three times: for the situation, the quantities, and the question, with discussion after each."
+    },
+    {
+     "t": "CRA sequence",
+     "d": "Concrete–representational–abstract: manipulatives, then drawings, then symbols."
+    },
+    {
+     "t": "Bar model",
+     "d": "A drawing of quantities as bars (tape diagram) that shows the relationship in a word problem."
+    },
+    {
+     "t": "Revoicing",
+     "d": "Talk move restating a student's idea in precise math language, checking meaning, and inviting further reasoning."
+    },
+    {
+     "t": "Decimal comma",
+     "d": "Using a comma as the decimal marker (2,5 = 2.5), standard in much of Europe and South America."
+    },
+    {
+     "t": "False cognate",
+     "d": "Look-alike words across languages with different meanings, such as English billion (10⁹) vs. Spanish billón (10¹²)."
+    },
+    {
+     "t": "Homophone",
+     "d": "Words that sound alike but differ in meaning and spelling, such as sum/some and whole/hole."
+    },
+    {
+     "t": "Manipulatives",
+     "d": "Concrete objects (base-ten blocks, fraction strips, algebra tiles) that make abstract math visible."
+    },
+    {
+     "t": "Customary vs. metric",
+     "d": "US units (inches, pounds) vs. the metric units (centimeters, kilograms) most newcomers learned at home."
+    }
+   ],
+   "tip": "Ask yourself: is the student's math wrong, or is the language or notation different? Credit the math, then scaffold the language."
+  },
+  {
+   "skill": "5.4",
+   "title": "Teaching Science to ELLs",
+   "why": "Science items ask how to make inquiry accessible: lab and report language (imperatives, passive voice, nominalization), hypothesis and CER frames matched to proficiency level, notebooks, visuals, safety, and building on students' experiences.",
+   "body": [
+    {
+     "h": "Hands-on science: demanding but context-embedded",
+     "md": "Inquiry science is one of the best settings for ELLs because it is **cognitively demanding but context-embedded** (Cummins): students see, touch, and test real phenomena while doing real reasoning. Hands-on work isn't a break from academic language; it gives that language something to attach to.\n\nThe **5E model** (Engage, Explore, Explain, Elaborate, Evaluate) puts **exploration before explanation**. For ELLs that order matters: after building a circuit, the terms *closed circuit* and *conductor* label an experience instead of an abstraction. Front-loading fifteen definitions before any experience is the classic wrong answer, and so is giving ELLs a coloring sheet while classmates do the lab."
+    },
+    {
+     "h": "Each science genre has its own language",
+     "md": "- **Procedure** (what to do): imperative verbs, numbered steps, exact amounts. '2. Pour 50 mL of water into the beaker.'\n- **Lab report** (what was done): past-tense **passive**. 'The water was heated for five minutes.'\n- **Hypothesis/prediction:** 'If ___, then ___ because ___.'\n- **Observation vs. inference:** 'I observe ___.' / 'I infer ___ because ___.'\n- **Data interpretation:** 'As ___ increases, ___ increases/decreases.'\n- **Conclusion/explanation:** claim–evidence–reasoning (CER). 'Ice melted fastest on black paper. The data show 6 minutes vs. 11 and 14. This is because dark colors absorb more light energy.'\n\nTeach each genre's features explicitly, with a model text and a frame. When a student writes 'The temperature is increase. The sugar is increase,' she sees the trend; what she needs is the relationship frame that links the two variables."
+    },
+    {
+     "h": "Passive voice and nominalization",
+     "md": "Science writing hides the actor. **Passive voice** (be + past participle: *was heated, were recorded*) keeps the focus on the process and results. When an ELL asks 'Who heated it?', that is noticing, a teachable moment. Have students turn their active lab notes ('We heated the solution') into report sentences ('The solution was heated').\n\n**Nominalization** turns processes into nouns: *destroy → destruction, reduce → reduction, evaporate → evaporation*. 'The destruction of rain forests results in a reduction in biodiversity' is short but dense, and students may know every word yet miss the meaning. **Unpack** it into clauses with actors and verbs ('People destroy rain forests, so fewer kinds of living things survive'), then **repack** it so students can read and write like scientists. Don't replace the sentence; teach students how it works."
+    },
+    {
+     "h": "Frames that fade as proficiency grows",
+     "md": "Match scaffolds to the student's NYS proficiency level, following the NLAP's logic of decreasing support:\n- **Entering:** point, sort, draw, and label; single words with picture support.\n- **Emerging:** short frames with a word bank: 'If a plant gets (more/less) light, then it will grow (taller/shorter) because ___.'\n- **Transitioning:** frames with connectors and more open slots: 'I predict ___ because ___.'\n- **Expanding:** complex frames ('Although ___, I predict that ___ because ___').\n- **Commanding:** independent writing, with models as needed.\n\nWrong-level distractors are common: a pointing task for an Emerging student, or an open-ended prompt for an Entering student."
+    },
+    {
+     "h": "Vocabulary: double meanings, roots, cognates",
+     "md": "- **Multiple-meaning words:** *matter, cell, mass, force, energy, solution, table, conductor, current, fault, plate*. An Emerging student who writes 'Matter is a problem' knows the everyday meaning; contrast everyday and science meanings in a two-column chart with visuals.\n- **Greek and Latin roots:** *thermo-* (heat), *hydro-* (water), *photo-* (light), *bio-* (life), *-meter* (measure), *-logy* (study of). Roots unlock whole families of terms.\n- **Cognates:** *fotosíntesis, evaporación, célula*. Science vocabulary is rich in Spanish, French, and Portuguese cognates, so invite students to hunt for them, and flag false cognates."
+    },
+    {
+     "h": "Reading a science stimulus on the exam",
+     "md": "When an item shows a student's science talk or writing, ask what the student already understands and which language feature is missing:\n- A correct trend written as two separate statements → a relationship frame ('As ___ increases, ___ ___').\n- A vague claim ('The black paper is the best') → a CER frame that requires data and a reason.\n- An everyday meaning in a science answer ('Matter is a problem') → contrast the two meanings explicitly.\n- A question like 'Who heated it?' → teach the passive voice and why scientists use it.\n- Every word known but the sentence still opaque → unpack the nominalizations.\n\nThe right answer almost always keeps the student in the real investigation and the real text and adds precise language support, rather than drilling forms in isolation or simplifying the science away."
+    },
+    {
+     "h": "Notebooks, visuals, safety, and students' experiences",
+     "md": "- **Science notebooks:** let newcomers record with labeled drawings, word banks, sentence starters, and their home language. The notebook then shows growth in both science and English.\n- **Visuals:** labeled diagrams, realia, demonstrations, anchor charts, and graphic organizers matched to the language function (a cycle diagram for a process, a T-chart for comparing).\n- **Safety:** demonstrate each rule with standard symbols and pictures, provide home-language versions, and check understanding (a picture sort). A signature on an English contract is not comprehension, and keeping ELLs out of labs is exclusion.\n- **Funds of knowledge:** a student whose family composted on a farm brings real expertise to a decomposition unit. Invite it (orally, in drawings, or in the home language) and connect it to the scientific terms."
+    }
+   ],
+   "traps": [
+    "Exam trap: front-loading long vocabulary lists before any hands-on experience. Explore first, then attach the terms.",
+    "Exam trap: 'simplifying' a dense science sentence away. Unpack nominalizations and passives instead, so students learn to read the real text.",
+    "Exam trap: picking a scaffold that fits a different level (pointing for Emerging, open prompts for Entering).",
+    "Exam trap: accepting a signed English safety contract, or sitting out labs, as adequate for newcomers.",
+    "Exam trap: mixing up genre features. Imperatives belong to procedures, past passive to lab reports, CER to conclusions."
+   ],
+   "terms": [
+    {
+     "t": "Inquiry-based science",
+     "d": "Learning science by investigating questions through hands-on observation, data collection, and explanation."
+    },
+    {
+     "t": "5E model",
+     "d": "Engage, Explore, Explain, Elaborate, Evaluate: an inquiry lesson cycle that puts exploration before explanation."
+    },
+    {
+     "t": "Context-embedded, cognitively demanding",
+     "d": "Cummins' ideal zone for ELL instruction: challenging thinking supported by visual and hands-on cues."
+    },
+    {
+     "t": "Passive voice",
+     "d": "be + past participle ('was heated'); common in lab reports because it foregrounds the process, not the actor."
+    },
+    {
+     "t": "Nominalization",
+     "d": "Turning verbs or adjectives into nouns (destroy → destruction), which packs processes into dense noun phrases."
+    },
+    {
+     "t": "Unpacking",
+     "d": "Rewriting a dense sentence into simpler clauses with actors and verbs, then repacking it."
+    },
+    {
+     "t": "Imperative mood",
+     "d": "Command form of verbs ('Pour,' 'Measure') used in written procedures."
+    },
+    {
+     "t": "Hypothesis frame",
+     "d": "Sentence scaffold such as 'If ___, then ___ because ___' for stating a testable prediction."
+    },
+    {
+     "t": "CER",
+     "d": "Claim–evidence–reasoning: a structure for scientific explanations and arguments built from data."
+    },
+    {
+     "t": "Observation vs. inference",
+     "d": "What is directly seen or measured vs. a conclusion drawn from observations."
+    },
+    {
+     "t": "Science notebook",
+     "d": "Student record of observations, data, drawings, and thinking; can include home language and frames."
+    },
+    {
+     "t": "Greek and Latin roots",
+     "d": "Word parts like thermo-, hydro-, photo-, -meter, and -logy that unlock families of science terms."
+    },
+    {
+     "t": "Cognate",
+     "d": "A word with similar form and meaning across languages, such as fotosíntesis/photosynthesis."
+    },
+    {
+     "t": "Funds of knowledge",
+     "d": "Knowledge and skills from students' homes and communities (Moll) that teachers can connect to the curriculum."
+    }
+   ],
+   "tip": "Choose answers that keep ELLs doing real, hands-on science while explicitly teaching the specific language of the task, never ones that remove the science or the language."
+  }
+ ]
 }

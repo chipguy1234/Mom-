@@ -7,12 +7,12 @@ QUESTIONS += [
 {
  "id": "1.1-01", "skill": "1.1", "type": "application", "difficulty": 1, "diag": 0,
  "stem": "Which of the following words contains exactly three phonemes?",
- "options": ["fox", "clap", "thought", "eight"],
+ "options": ["fox", "straight", "thought", "eight"],
  "answer": 2,
  "why": "Phonemes are counted by sound, not by letter. 'Thought' has seven letters but only three phonemes: /θ/ (spelled th), one vowel (spelled ough), and /t/, so /θɔt/. Digraphs and complex vowel spellings often stand for a single phoneme, while a single letter such as x can stand for two (/ks/).",
  "traps": [
   {"code": "TERM", "pair": "grapheme ↔ phoneme", "note": "Three letters, but x stands for two sounds, /k/ and /s/, so 'fox' has four phonemes: /f/ /ɑ/ /k/ /s/."},
-  {"code": "TERM", "pair": "consonant blend ↔ digraph", "note": "A blend like cl is two phonemes, not one, so 'clap' has four: /k/ /l/ /æ/ /p/. Only digraphs such as sh or th spell a single sound."},
+  {"code": "TERM", "pair": "consonant blend ↔ digraph", "note": "A blend like str is three phonemes, not one unit, and aigh spells one diphthong, so 'straight' has five: /s/ /t/ /r/ /eɪ/ /t/. Only digraphs such as sh or th spell a single sound."},
   None,
   {"code": "TERM", "pair": "diphthong ↔ two vowels", "note": "The diphthong /eɪ/ counts as one vowel phoneme and gh is silent, so 'eight' has only two phonemes: /eɪ/ and /t/."}
  ],
@@ -40,7 +40,7 @@ QUESTIONS += [
 {
  "id": "1.1-03", "skill": "1.1", "type": "knowledge", "difficulty": 1, "diag": 0,
  "stem": "In English, the /p/ in 'pin' is pronounced with a puff of air, [pʰ], while the /p/ in 'spin' has none, [p]. Native speakers hear them as the same sound. Which term best describes [pʰ] and [p] in English?",
- "options": ["a minimal pair", "allophones of one phoneme", "two contrasting phonemes", "sounds in free variation"],
+ "options": ["a minimal pair", "allophones of one phoneme", "two contrasting phonemes", "two sounds in free variation"],
  "answer": 1,
  "why": "Allophones are predictable variants of a single phoneme that never change a word's meaning. English voiceless stops are aspirated at the start of a stressed syllable (pin [pʰɪn]) and unaspirated after /s/ (spin [spɪn]), so the two never contrast. In Hindi, Urdu, Bengali, and Korean, aspiration does distinguish words, which shows that a difference that is 'invisible' in one language can be meaningful in another.",
  "traps": [
@@ -91,8 +91,8 @@ QUESTIONS += [
  "stimulus": "Teacher says | Student writes\nright | light\nload | road\ncollect | correct\nglass | grass",
  "stem": "A grade 7 Transitioning student whose home language is Korean produced these spellings on a dictation task. The pattern is most likely the result of which of the following?",
  "options": [
-  "In Korean, [l] and an r-like flap [ɾ] are variants of one phoneme, so the English /r/–/l/ contrast is hard to perceive.",
-  "Korean has neither an r-like nor an l-like sound, so the student is guessing between two unfamiliar sounds.",
+  "In Korean, [l] and a flap [ɾ] are variants of one phoneme, so the English /r/–/l/ contrast is hard to perceive.",
+  "Korean has neither an r-like nor an l-like sound, so the student is guessing between two completely unfamiliar sounds.",
   "The student is reversing letters while writing, which is an early sign of a visual-processing disability.",
   "English spelling is irregular, so the student cannot reliably predict which letter represents each sound."
  ],
@@ -113,7 +113,7 @@ QUESTIONS += [
  "options": [
   "Correct each mispronounced word immediately whenever the student speaks in discussions, so the model is heard often.",
   "Assign a daily list of forty words beginning with p for the student to read aloud until the sound becomes automatic.",
-  "Practice pairs like pea/bee and pack/back, show the burst of air for /p/ with a paper strip, then use the words in unit sentences.",
+  "Practice pairs like pea/bee and pack/back, show the puff of air for /p/ with a paper strip, then use them in sentences.",
   "Refer the student to the speech-language pathologist, since the substitution has continued for months despite modeling."
  ],
  "answer": 2,
@@ -134,7 +134,7 @@ QUESTIONS += [
   "intonation, because the student used a rising pitch at the end of a statement",
   "word stress, because stress placement can distinguish one English word from another",
   "vowel epenthesis, because the student added an extra syllable to the word",
-  "allophonic variation, because the final /t/ in the word was not fully released"
+  "allophonic variation, because the final /t/ in the word was not fully released by the speaker"
  ],
  "answer": 1,
  "why": "English has lexical (word) stress, and moving it can change the word: DEsert (dry land) vs. desSERT (sweet course), or noun–verb pairs like REcord/reCORD and PERmit/perMIT. Stress also changes vowel quality, because unstressed vowels often reduce to schwa /ə/. Listeners rely heavily on stress patterns to recognize words, so misplaced stress can block comprehension even when every individual sound is accurate.",
@@ -281,13 +281,13 @@ QUESTIONS += [
 {
  "id": "1.2-02", "skill": "1.2", "type": "application", "difficulty": 2, "diag": 1,
  "stem": "Which of the following words contains exactly four morphemes?",
- "options": ["caterpillars", "mistreatments", "unbreakable", "rewritten"],
+ "options": ["caterpillars", "mistreatments", "uncomfortable", "rewritten"],
  "answer": 1,
  "why": "A morpheme is the smallest unit of meaning. 'Mistreatments' = mis- ('wrongly') + treat (free root) + -ment (derivational, verb → noun) + -s (inflectional plural): four morphemes in only three syllables. Counting morphemes means finding meaningful parts, not counting beats or letters.",
  "traps": [
   {"code": "TERM", "pair": "syllable ↔ morpheme", "note": "'Caterpillars' has four syllables but only two morphemes: caterpillar (its pieces carry no meaning on their own) + plural -s."},
   None,
-  {"code": "TERM", "pair": "syllable ↔ morpheme", "note": "'Unbreakable' has four syllables but three morphemes: un- + break + -able."},
+  {"code": "TERM", "pair": "syllable ↔ morpheme", "note": "'Uncomfortable' has five syllables but only three morphemes: un- + comfort + -able."},
   {"code": "PARTIAL", "note": "Close, but 'rewritten' has three morphemes: re- + write + -en (past participle). The doubled t is spelling, not a separate morpheme."}
  ],
  "key": "Count morphemes by units of meaning: mis-treat-ment-s = 4, even though the word has only 3 syllables."
@@ -298,7 +298,7 @@ QUESTIONS += [
  "options": [
   "Yes. Both are derivational suffixes, because each one adds meaning to the base word.",
   "No. Comparative -er in taller is inflectional; agentive -er in teacher is derivational.",
-  "Yes. Both are inflectional suffixes, because both are added to the end of a base word.",
+  "Yes. Both are inflectional suffixes, because both of them are added to the end of a base word.",
   "No. The -er in taller is a free morpheme, but the -er in teacher is a bound morpheme."
  ],
  "answer": 1,
@@ -344,7 +344,7 @@ QUESTIONS += [
  "id": "1.2-06", "skill": "1.2", "type": "application", "difficulty": 3, "diag": 0,
  "stimulus": "A grade 11 student asks, “Did 'editor' come from 'edit,' the way 'teacher' came from 'teach'?” The teacher explains that 'editor' actually came first; 'edit' was created later when speakers removed what looked like the suffix -or.",
  "stem": "The teacher is describing which word-formation process?",
- "options": ["back-formation", "clipping", "derivation", "conversion"],
+ "options": ["back-formation", "clipping", "derivation", "conversion (zero derivation)"],
  "answer": 0,
  "why": "Back-formation creates a new word by removing what speakers take to be an affix, usually producing a verb from a noun: editor → edit, babysitter → babysit, donation → donate. Clipping also shortens words, but it keeps the same meaning and part of speech (laboratory → lab). Back-formation produces a different word, typically in a new class.",
  "traps": [
@@ -395,7 +395,7 @@ QUESTIONS += [
  "options": [
   "Read each definition aloud while students copy it into vocabulary notebooks, then give a quiz at the end of the week.",
   "Replace the technical terms in the reading with everyday phrases, such as 'how plants make food,' to reduce the load.",
-  "Have students split the words into parts (photo- 'light,' synthesis 'putting together') and link them to Spanish cognates.",
+  "Have students break the words into parts (photo- 'light,' synth- 'put together') and link them to Spanish cognates.",
   "Have students memorize a separate list of Greek and Latin roots before the unit, then begin the science content."
  ],
  "answer": 2,
@@ -499,6 +499,287 @@ QUESTIONS += [
   {"code": "TERM", "pair": "free ↔ bound", "note": "'Help' is a free root; only the suffix -ful is bound."}
  ],
  "key": "Bound roots can't stand alone (-ceive in receive, conceive); free roots can (play, help)."
+},
+]
+
+# ---------------- 1.3 Syntax & grammar ----------------
+QUESTIONS += [
+{
+ "id": "1.3-01", "skill": "1.3", "type": "analysis", "difficulty": 2, "diag": 1,
+ "stimulus": "Oral sample, grade 7 Integrated ENL social studies (Transitioning; home language Spanish)\n“I am agree with Kevin. The colonists were angry because the taxes were not fair.”",
+ "stem": "The error in the student's first sentence is most likely the result of which of the following?",
+ "options": [
+  "Negative transfer from Spanish, which expresses agreement with 'to be' plus a phrase (estoy de acuerdo).",
+  "A performance slip caused by speaking quickly, since the rest of the student's sample is grammatically accurate.",
+  "A gap in vocabulary knowledge, since the student is confusing the verb agree with the noun agreement.",
+  "Fossilization, since an error like this one shows that the student's interlanguage has stopped developing."
+ ],
+ "answer": 0,
+ "why": "In Spanish, agreement is expressed with estar plus a prepositional phrase: 'Estoy de acuerdo' ('I am in agreement'). The student maps that structure onto English, producing the copula am followed by agree as if it were an adjective. In English, agree is a verb that needs no be: 'I agree with Kevin.' Knowing the source tells the teacher exactly which contrast to teach.",
+ "traps": [
+  None,
+  {"code": "TERM", "pair": "error ↔ mistake", "note": "A slip is random and self-corrected. 'I am agree' is a well-known systematic pattern for Spanish speakers, so it's an error rooted in the L1."},
+  {"code": "LITERAL", "note": "The student uses agree with exactly the right meaning. The problem is the grammatical construction around the verb, not the vocabulary."},
+  {"code": "TERM", "pair": "developmental error ↔ fossilization", "note": "Fossilization means an error persists over a long period despite instruction. One sample can't show that; this is a transfer error that instruction can address."}
+ ],
+ "key": "'I am agree' transfers Spanish 'estoy de acuerdo' (be + phrase); in English, agree is a verb used without be."
+},
+{
+ "id": "1.3-02", "skill": "1.3", "type": "analysis", "difficulty": 1, "diag": 0,
+ "stimulus": "Writing sample, grade 9 (Emerging; home language Russian)\n“Yesterday I bought new phone. Phone is very fast, and camera takes good pictures.”",
+ "stem": "Which of the following best explains the pattern of errors in this sample?",
+ "options": [
+  "Russian has no articles, so the student is still learning to mark English nouns as definite or indefinite.",
+  "The student is treating phone and camera as noncount nouns, which do not take articles in English.",
+  "The student is omitting subject pronouns, a pattern common among speakers of pro-drop languages.",
+  "The student is translating word for word from Russian, a habit best stopped by banning bilingual dictionaries."
+ ],
+ "answer": 0,
+ "why": "Russian, like Polish, Mandarin, Korean, and Japanese, has no articles, so English a/an and the represent a brand-new grammatical category: marking a noun as new to the listener (a new phone) or already identifiable (the phone). The errors are systematic omissions before singular count nouns, exactly where English requires an article. Teaching first mention (a) vs. second mention (the) in the student's own writing is a high-leverage next step.",
+ "traps": [
+  None,
+  {"code": "TERM", "pair": "count/noncount ↔ articles", "note": "Phone and camera are being used as singular count nouns; countability isn't the issue. The missing articles are."},
+  {"code": "LITERAL", "note": "Every clause has a subject (I, Phone, camera). The missing words are articles, not pronouns."},
+  {"code": "DEFICIT", "note": "Treating the home language as a habit to stamp out ignores how L1 knowledge can help target instruction. Bilingual resources support learning."}
+ ],
+ "key": "Article omission is predictable when the L1 (Russian, Mandarin, Korean) has no articles; teach a (new) vs. the (known)."
+},
+{
+ "id": "1.3-03", "skill": "1.3", "type": "knowledge", "difficulty": 1, "diag": 0,
+ "stem": "Which sentence is in the passive voice?",
+ "options": [
+  "Amir was writing the lab report.",
+  "Amir has written the lab report.",
+  "The lab report is on Amir's desk.",
+  "The lab report was written by Amir."
+ ],
+ "answer": 3,
+ "why": "The passive voice is formed with a form of be plus a past participle (was written), and it makes the receiver of the action (the lab report) the subject. The agent can appear in a by-phrase or be left out entirely, which is common in science writing ('The solution was heated').",
+ "traps": [
+  {"code": "TERM", "pair": "progressive ↔ passive", "note": "'Was writing' is be + -ing, the progressive aspect. Amir is still the doer and the subject, so the sentence is active."},
+  {"code": "TERM", "pair": "perfect ↔ passive", "note": "'Has written' contains a past participle, but with have, not be. That's the present perfect in the active voice."},
+  {"code": "LITERAL", "note": "This sentence has a form of be, but no past participle and no action; is simply links the subject to a location."},
+  None
+ ],
+ "key": "Passive = be + past participle (was written); the receiver becomes the subject, and the agent is optional."
+},
+{
+ "id": "1.3-04", "skill": "1.3", "type": "analysis", "difficulty": 3, "diag": 0,
+ "stimulus": "Personal narrative, grade 6 (Transitioning; home language Haitian Creole)\n“Last summer my family go to Florida. We visit my aunt and we swim in the beach every day. My cousin show me her school. It was very big and have a library with computers.”",
+ "stem": "Which instructional focus would address the most significant pattern in this sample?",
+ "options": [
+  "subject–verb agreement with third-person singular subjects, as in 'my cousin shows' and 'it has'",
+  "prepositions of place, as in swimming 'at the beach' rather than swimming 'in the beach'",
+  "past-tense verb forms, regular and irregular, taught within narrative writing",
+  "sentence combining, to turn the short, simple sentences into longer complex ones"
+ ],
+ "answer": 2,
+ "why": "The dominant pattern is unmarked past tense: go, visit, swim, show, and have all need past forms in a narrative clearly set 'last summer,' and the student already uses was correctly. Haitian Creole marks time with preverbal particles (such as te for past) rather than verb endings, so English past inflection is a natural target. Teaching regular -ed and common irregular verbs in the student's own narrative addresses the most errors with the greatest effect on meaning.",
+ "traps": [
+  {"code": "LITERAL", "note": "'My cousin show' and 'have' look like agreement errors, but the story is set last summer, so the needed forms are showed and had: past tense, not shows and has."},
+  {"code": "PARTIAL", "note": "'In the beach' is a real error, but it occurs once, while missing past tense appears in nearly every sentence."},
+  None,
+  {"code": "PARTIAL", "note": "Sentence combining is useful, but the sample already includes compound sentences, and the missing past tense affects meaning far more."}
+ ],
+ "key": "Prioritize the most frequent, meaning-affecting pattern, and read errors in context: in a past narrative, 'show' needs 'showed,' not 'shows.'"
+},
+{
+ "id": "1.3-05", "skill": "1.3", "type": "knowledge", "difficulty": 3, "diag": 0,
+ "stem": "In the sentence “Mariam has been studying English for three years,” the verb phrase is best described as which of the following?",
+ "options": [
+  "past tense with perfect aspect, because the studying began in the past",
+  "present tense with perfect and progressive aspect",
+  "present tense with progressive aspect only, because of the -ing form",
+  "passive voice, because the main verb follows a form of be"
+ ],
+ "answer": 1,
+ "why": "Tense locates an event in time and is marked on the first verb: has is present tense. Aspect shows how the event unfolds: have + past participle (been) marks perfect aspect, linking the past to now, and be + -ing (studying) marks progressive aspect, showing an ongoing activity. Together they form the present perfect progressive, used for an activity that began in the past and continues now, which is why 'for three years' fits.",
+ "traps": [
+  {"code": "TERM", "pair": "time ↔ tense", "note": "The studying began in the past, but tense is marked on has, which is present. The perfect aspect is what connects the past to now."},
+  None,
+  {"code": "PARTIAL", "note": "Progressive aspect is there (been studying), but has + been also marks perfect aspect, so 'progressive only' is incomplete."},
+  {"code": "TERM", "pair": "progressive ↔ passive", "note": "Be + -ing is progressive. A passive needs be + past participle with the receiver as subject (English was studied by Mariam)."}
+ ],
+ "key": "Tense is marked on the first verb (has = present); aspect is perfect (have + participle) and/or progressive (be + -ing)."
+},
+{
+ "id": "1.3-06", "skill": "1.3", "type": "analysis", "difficulty": 2, "diag": 2,
+ "stimulus": "A grade 4 student (Expanding; home language Polish) stops the ENL teacher in the hallway and asks, “Do you know where is the nurse's office?”",
+ "stem": "Which of the following best describes the student's error?",
+ "options": [
+  "using direct-question word order, with the verb before the subject, inside an embedded question",
+  "omitting the auxiliary do, which English requires at the start of every question",
+  "attaching the possessive -'s to the wrong noun in the phrase 'the nurse's office'",
+  "using a yes/no question form in a situation that calls for a wh-question form"
+ ],
+ "answer": 0,
+ "why": "In a direct wh-question, English inverts the subject and verb: 'Where is the nurse's office?' When that question is embedded inside another sentence ('Do you know…'), English returns to statement order: 'Do you know where the nurse's office is?' Learners from many language backgrounds keep the inversion well into the higher proficiency levels, so polite question frames are worth modeling explicitly.",
+ "traps": [
+  None,
+  {"code": "TERM", "pair": "do-support ↔ embedded-question order", "note": "The main question already has do (Do you know…), and many questions need no do at all (Is it…?). The error is inverted word order inside the embedded clause."},
+  {"code": "LITERAL", "note": "'The nurse's office' is correct. The error is the position of is."},
+  {"code": "LITERAL", "note": "'Do you know where…?' is a correct and polite yes/no frame. The problem is the word order of the embedded part."}
+ ],
+ "key": "Embedded questions use statement order: 'Do you know where the office is?' not 'where is the office?'"
+},
+{
+ "id": "1.3-07", "skill": "1.3", "type": "knowledge", "difficulty": 2, "diag": 0,
+ "stem": "Which of the following is a complex sentence?",
+ "options": [
+  "It rained all morning, but the game started on time.",
+  "Running to the bus, Maria dropped her science notebook.",
+  "Although it rained all morning, the game started on time.",
+  "Maria ran to the bus and dropped her science notebook in a puddle."
+ ],
+ "answer": 2,
+ "why": "A complex sentence has one independent clause and at least one dependent (subordinate) clause. 'Although it rained all morning' has a subject and a verb but begins with a subordinating conjunction, so it can't stand alone. A compound sentence joins two independent clauses with a coordinating conjunction such as but, and a participial phrase like 'Running to the bus' has no subject–verb pair, so it isn't a clause at all.",
+ "traps": [
+  {"code": "TERM", "pair": "compound ↔ complex", "note": "Two independent clauses joined by but make a compound sentence, not a complex one."},
+  {"code": "TERM", "pair": "phrase ↔ clause", "note": "'Running to the bus' is a participial phrase with no subject or finite verb, so this is a simple sentence."},
+  None,
+  {"code": "TERM", "pair": "compound predicate ↔ compound sentence", "note": "One subject (Maria) with two verbs is a simple sentence with a compound predicate."}
+ ],
+ "key": "Complex = independent clause + dependent clause (Although…); compound = two independent clauses (…, but…)."
+},
+{
+ "id": "1.3-08", "skill": "1.3", "type": "analysis", "difficulty": 1, "diag": 0,
+ "stimulus": "Writing sample, grade 3 (Entering; home language Urdu)\n“I my homework finished. My brother cricket plays.”",
+ "stem": "The word order in these sentences most likely reflects which of the following?",
+ "options": [
+  "The student is placing adverbs in the wrong position within each sentence.",
+  "The subject–object–verb word order of Urdu is transferring to English.",
+  "The student is attempting the passive voice but leaving out the auxiliary be.",
+  "The student has a language disorder that affects how sentences are formulated."
+ ],
+ "answer": 1,
+ "why": "English is a subject–verb–object (SVO) language, while Urdu, like Hindi, Bengali, Pashto, Korean, and Japanese, is subject–object–verb (SOV). The student places the object before the verb ('homework finished,' 'cricket plays') exactly as in the L1. This predictable negative transfer responds well to sentence frames and color-coded subject–verb–object sentence building.",
+ "traps": [
+  {"code": "LITERAL", "note": "There are no adverbs in these sentences. The object (homework, cricket) comes before the verb."},
+  None,
+  {"code": "TERM", "pair": "passive ↔ word order", "note": "A passive needs be + past participle with the receiver as subject. These are active sentences in SOV order."},
+  {"code": "MISREFERRAL", "note": "Consistent SOV order from an Entering student is a textbook L1-transfer pattern, not a sign of a disorder."}
+ ],
+ "key": "SOV home languages (Urdu, Bengali, Korean, Japanese) can produce 'I my homework finished'; English is SVO."
+},
+{
+ "id": "1.3-09", "skill": "1.3", "type": "analysis", "difficulty": 2, "diag": 0,
+ "stimulus": "Science journal, grade 8 (Expanding; home language Ukrainian)\n“I did not know the word 'erosion,' so I looked up it in the glossary.”",
+ "stem": "Which explanation of the student's error is most accurate?",
+ "options": [
+  "'Look up' is an inseparable phrasal verb, so its object must be a noun rather than a pronoun.",
+  "'Look up' is a separable phrasal verb, and a pronoun object must go between the verb and particle.",
+  "'Up' is a preposition in this sentence, and the student chose the wrong preposition for the verb.",
+  "The student is transferring Ukrainian word order, which places object pronouns at the end of a clause."
+ ],
+ "answer": 1,
+ "why": "'Look up' (search for information) is a separable phrasal verb: the verb and particle form one unit of meaning. With a noun object either order works ('looked up the word' or 'looked the word up'), but a pronoun object must go between the verb and the particle: 'looked it up.' Inseparable phrasal verbs such as 'look after' and 'run into' never split ('look after her').",
+ "traps": [
+  {"code": "TERM", "pair": "separable ↔ inseparable", "note": "'Look up' (search) is separable: 'look the word up' is correct. Inseparable verbs like 'look after' keep the object after the particle, and any verb can take a pronoun object."},
+  None,
+  {"code": "TERM", "pair": "particle ↔ preposition", "note": "In 'look up' (search), up is a particle that belongs to the verb, and it is the right one. The problem is where the pronoun goes."},
+  {"code": "STEREOTYPE", "note": "Nothing in the sample points to L1 word order, and the claim about Ukrainian is unsupported. Learners from many backgrounds make this error because the rule is specific to English phrasal verbs."}
+ ],
+ "key": "Separable phrasal verbs put a pronoun object between verb and particle: 'look it up,' never 'look up it.'"
+},
+{
+ "id": "1.3-10", "skill": "1.3", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stimulus": "Grade 8 Integrated ENL science. The lab text reads: “The water samples were collected by the students and then tested by the lab technician.” An Emerging ELL summarizes it as: “The water samples collected the students.”",
+ "stem": "Which instructional response would best address this misunderstanding?",
+ "options": [
+  "Rewrite the lab text in the active voice so that ELLs at lower proficiency levels are not confused by passive sentences.",
+  "Assign a worksheet of twenty-five unrelated active sentences for the student to convert into the passive voice at home.",
+  "Explain that the passive voice is an advanced structure the student will study once she reaches the Expanding level.",
+  "Model how to find the doer in passive sentences from the text (be + past participle, by-phrase); pairs label doer and receiver."
+ ],
+ "answer": 3,
+ "why": "Learners often rely on a 'first noun = doer' strategy, which works for active sentences but reverses the meaning of passives. Science texts use the passive constantly to keep the focus on the process rather than the agent, so ELLs need explicit help noticing be + past participle and the by-phrase, practiced on the actual grade-level text. This scaffolds the real text instead of simplifying it, and the pair work adds interaction and output.",
+ "traps": [
+  {"code": "LOWER_RIGOR", "note": "Removing the passives simplifies away the very language students must learn to read in science."},
+  {"code": "ISOLATED", "note": "Converting unrelated sentences is decontextualized drill, and it practices production when the student's need is comprehension of the class text."},
+  {"code": "EXCLUSION", "note": "Passives are in the grade-level text now. Postponing instruction keeps the student from understanding current content."},
+  None
+ ],
+ "key": "Learners read the first noun as the doer; teach passive cues (be + past participle, by-phrase) using the real content text."
+},
+{
+ "id": "1.3-11", "skill": "1.3", "type": "analysis", "difficulty": 3, "diag": 0,
+ "stimulus": "Argument essay, grade 10 (Expanding; home language Spanish)\n“The education is very important for everyone. The science helps us understand the nature, and the music makes us happy.”",
+ "stem": "Which of the following best explains the student's use of articles?",
+ "options": [
+  "Spanish has no articles, so the student is guessing where English articles belong.",
+  "The student is confusing count and noncount nouns and adds the to every noncount noun.",
+  "The student is using the for emphasis, a stylistic feature of formal academic writing.",
+  "Spanish uses the definite article with abstract and generic nouns, where English uses none."
+ ],
+ "answer": 3,
+ "why": "Spanish requires the definite article with abstract nouns and with nouns used in a general sense: 'La educación es importante,' 'La música nos hace felices.' English uses the zero article in those cases ('Education is important,' 'Music makes us happy') and reserves the for specific, identifiable referents ('the music at the party'). This is transfer from an L1 that has articles with different rules, the opposite of the omission seen when the L1 has no articles.",
+ "traps": [
+  {"code": "TERM", "pair": "absent articles ↔ different article rules", "note": "Spanish has definite and indefinite articles (el, la, un, una). The issue is a different rule for using them, not their absence."},
+  {"code": "TERM", "pair": "countability ↔ generic reference", "note": "These nouns are noncount, but noncount nouns can still take the when specific (the music at the party). The rule at issue is generic vs. specific reference."},
+  {"code": "LITERAL", "note": "English doesn't use the for emphasis in academic writing. The pattern matches Spanish article rules, not a style choice."},
+  None
+ ],
+ "key": "Spanish uses the definite article for generic and abstract nouns ('la educación'); English uses none ('Education is…')."
+},
+{
+ "id": "1.3-12", "skill": "1.3", "type": "analysis", "difficulty": 1, "diag": 0,
+ "stimulus": "Email to a teacher, grade 11 (Transitioning; home language French)\n“Thank you for the advices. I found many informations for my project, and I finished all my homeworks.”",
+ "stem": "The student's errors involve which grammatical feature?",
+ "options": [
+  "treating noncount nouns as count nouns, with plural -s and many",
+  "using irregular plural forms with nouns that have regular plurals",
+  "omitting the definite article before abstract or general nouns",
+  "overusing derivational suffixes to form new nouns from verbs"
+ ],
+ "answer": 0,
+ "why": "Advice, information, and homework are noncount (mass) nouns in English: they take no plural -s and pair with much, a lot of, or some, or with a counter ('three pieces of advice'). Their French equivalents (des conseils, des informations, des devoirs) are count nouns that pluralize, so the student is transferring L1 countability. Countability is a grammatical property of how a language treats a noun, not a fact about the thing itself.",
+ "traps": [
+  None,
+  {"code": "TERM", "pair": "regular ↔ irregular plural", "note": "The -s endings are regular plural forms. The issue is that these nouns don't take a plural at all in English."},
+  {"code": "LITERAL", "note": "The student does use the (the advices), and article use isn't the pattern. Plural -s on noncount nouns is."},
+  {"code": "TERM", "pair": "inflectional ↔ derivational", "note": "Plural -s is inflectional, not derivational, and no new nouns are being formed."}
+ ],
+ "key": "Countability is language-specific: advice, information, and homework are noncount in English but count in French and Spanish."
+},
+{
+ "id": "1.3-13", "skill": "1.3", "type": "analysis", "difficulty": 2, "diag": 0,
+ "stimulus": "Oral sample, grade 4 (Emerging; home language Arabic)\n“My sister very smart. The library open now. My teacher from Egypt too.”",
+ "stem": "Which of the following best explains the pattern in these sentences?",
+ "options": [
+  "The student is leaving out the auxiliary do, which English requires in statements like these.",
+  "The student is producing telegraphic speech, which shows the student is in the preproduction stage.",
+  "Arabic does not use a present-tense form of 'be' in sentences like these, so the student omits is.",
+  "The student has an expressive language disorder, since small function words are missing from speech."
+ ],
+ "answer": 2,
+ "why": "In Arabic, present-tense equational sentences have no copula: the equivalent of 'My sister very smart' is fully grammatical. Each of the student's sentences lacks is exactly where English needs a linking verb before an adjective, adverb, or prepositional phrase. Russian and Haitian Creole also omit the present-tense copula in many sentences, so this transfer pattern is common in New York classrooms.",
+ "traps": [
+  {"code": "TERM", "pair": "do-support ↔ copula", "note": "English uses do in questions and negatives, not in affirmative statements like these. The missing word is is."},
+  {"code": "TERM", "pair": "preproduction ↔ early production", "note": "A student in preproduction produces little or no speech. These are complete thoughts missing one predictable word, which points to L1 transfer."},
+  None,
+  {"code": "MISREFERRAL", "note": "Only the copula is missing, systematically, and Arabic grammar predicts it. That's language transfer, not a disorder."}
+ ],
+ "key": "Arabic (also Russian) has no present-tense copula, so 'My sister very smart' reflects L1 transfer."
+},
+{
+ "id": "1.3-14", "skill": "1.3", "type": "analysis", "difficulty": 3, "diag": 0,
+ "stimulus": "Oral sample, grade 10 (Expanding; home language Spanish)\n“I live in the Bronx since 2022. Before that, I lived in Santo Domingo.”",
+ "stem": "Which of the following best describes the error in the first sentence and its likely source?",
+ "options": [
+  "'Since' should be 'for,' because 2022 names a length of time rather than a starting point.",
+  "The verb should be simple past ('lived'), because the action began at a point in the past.",
+  "The verb should be present progressive ('am living'), because the situation is still going on.",
+  "English uses the present perfect ('have lived') for past-to-now states; Spanish uses present + desde."
+ ],
+ "answer": 3,
+ "why": "For a state that began in the past and continues into the present, English uses the present perfect ('I have lived in the Bronx since 2022') or the present perfect progressive ('have been living'). Spanish ('Vivo en el Bronx desde 2022'), like French and many other languages, uses the simple present here. The student's second sentence shows control of the simple past, so the gap is specifically the present perfect's past-to-now meaning.",
+ "traps": [
+  {"code": "TERM", "pair": "since ↔ for", "note": "Since marks a starting point (since 2022); for marks a duration (for two years). The preposition is correct."},
+  {"code": "TERM", "pair": "simple past ↔ present perfect", "note": "The simple past would mean the student no longer lives there. The situation continues now, which calls for the present perfect."},
+  {"code": "PARTIAL", "note": "It's right that the situation is ongoing, but 'I am living here since 2022' is still ungrammatical; since + an ongoing situation needs the perfect."},
+  None
+ ],
+ "key": "Past-to-now with since/for needs the present perfect ('have lived since 2022'); Spanish uses the simple present + desde."
 },
 ]
 

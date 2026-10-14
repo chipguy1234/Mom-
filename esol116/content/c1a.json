@@ -9,7 +9,7 @@
    "stem": "Which of the following words contains exactly three phonemes?",
    "options": [
     "fox",
-    "clap",
+    "straight",
     "thought",
     "eight"
    ],
@@ -24,7 +24,7 @@
     {
      "code": "TERM",
      "pair": "consonant blend ↔ digraph",
-     "note": "A blend like cl is two phonemes, not one, so 'clap' has four: /k/ /l/ /æ/ /p/. Only digraphs such as sh or th spell a single sound."
+     "note": "A blend like str is three phonemes, not one unit, and aigh spells one diphthong, so 'straight' has five: /s/ /t/ /r/ /eɪ/ /t/. Only digraphs such as sh or th spell a single sound."
     },
     null,
     {
@@ -81,7 +81,7 @@
     "a minimal pair",
     "allophones of one phoneme",
     "two contrasting phonemes",
-    "sounds in free variation"
+    "two sounds in free variation"
    ],
    "answer": 1,
    "why": "Allophones are predictable variants of a single phoneme that never change a word's meaning. English voiceless stops are aspirated at the start of a stressed syllable (pin [pʰɪn]) and unaspirated after /s/ (spin [spɪn]), so the two never contrast. In Hindi, Urdu, Bengali, and Korean, aspiration does distinguish words, which shows that a difference that is 'invisible' in one language can be meaningful in another.",
@@ -183,8 +183,8 @@
    "stimulus": "Teacher says | Student writes\nright | light\nload | road\ncollect | correct\nglass | grass",
    "stem": "A grade 7 Transitioning student whose home language is Korean produced these spellings on a dictation task. The pattern is most likely the result of which of the following?",
    "options": [
-    "In Korean, [l] and an r-like flap [ɾ] are variants of one phoneme, so the English /r/–/l/ contrast is hard to perceive.",
-    "Korean has neither an r-like nor an l-like sound, so the student is guessing between two unfamiliar sounds.",
+    "In Korean, [l] and a flap [ɾ] are variants of one phoneme, so the English /r/–/l/ contrast is hard to perceive.",
+    "Korean has neither an r-like nor an l-like sound, so the student is guessing between two completely unfamiliar sounds.",
     "The student is reversing letters while writing, which is an early sign of a visual-processing disability.",
     "English spelling is irregular, so the student cannot reliably predict which letter represents each sound."
    ],
@@ -219,7 +219,7 @@
    "options": [
     "Correct each mispronounced word immediately whenever the student speaks in discussions, so the model is heard often.",
     "Assign a daily list of forty words beginning with p for the student to read aloud until the sound becomes automatic.",
-    "Practice pairs like pea/bee and pack/back, show the burst of air for /p/ with a paper strip, then use the words in unit sentences.",
+    "Practice pairs like pea/bee and pack/back, show the puff of air for /p/ with a paper strip, then use them in sentences.",
     "Refer the student to the speech-language pathologist, since the substitution has continued for months despite modeling."
    ],
    "answer": 2,
@@ -253,7 +253,7 @@
     "intonation, because the student used a rising pitch at the end of a statement",
     "word stress, because stress placement can distinguish one English word from another",
     "vowel epenthesis, because the student added an extra syllable to the word",
-    "allophonic variation, because the final /t/ in the word was not fully released"
+    "allophonic variation, because the final /t/ in the word was not fully released by the speaker"
    ],
    "answer": 1,
    "why": "English has lexical (word) stress, and moving it can change the word: DEsert (dry land) vs. desSERT (sweet course), or noun–verb pairs like REcord/reCORD and PERmit/perMIT. Stress also changes vowel quality, because unstressed vowels often reduce to schwa /ə/. Listeners rely heavily on stress patterns to recognize words, so misplaced stress can block comprehension even when every individual sound is accurate.",
@@ -525,7 +525,7 @@
    "options": [
     "caterpillars",
     "mistreatments",
-    "unbreakable",
+    "uncomfortable",
     "rewritten"
    ],
    "answer": 1,
@@ -540,7 +540,7 @@
     {
      "code": "TERM",
      "pair": "syllable ↔ morpheme",
-     "note": "'Unbreakable' has four syllables but three morphemes: un- + break + -able."
+     "note": "'Uncomfortable' has five syllables but only three morphemes: un- + comfort + -able."
     },
     {
      "code": "PARTIAL",
@@ -559,7 +559,7 @@
    "options": [
     "Yes. Both are derivational suffixes, because each one adds meaning to the base word.",
     "No. Comparative -er in taller is inflectional; agentive -er in teacher is derivational.",
-    "Yes. Both are inflectional suffixes, because both are added to the end of a base word.",
+    "Yes. Both are inflectional suffixes, because both of them are added to the end of a base word.",
     "No. The -er in taller is a free morpheme, but the -er in teacher is a bound morpheme."
    ],
    "answer": 1,
@@ -667,7 +667,7 @@
     "back-formation",
     "clipping",
     "derivation",
-    "conversion"
+    "conversion (zero derivation)"
    ],
    "answer": 0,
    "why": "Back-formation creates a new word by removing what speakers take to be an affix, usually producing a verb from a noun: editor → edit, babysitter → babysit, donation → donate. Clipping also shortens words, but it keeps the same meaning and part of speech (laboratory → lab). Back-formation produces a different word, typically in a new class.",
@@ -771,7 +771,7 @@
    "options": [
     "Read each definition aloud while students copy it into vocabulary notebooks, then give a quiz at the end of the week.",
     "Replace the technical terms in the reading with everyday phrases, such as 'how plants make food,' to reduce the load.",
-    "Have students split the words into parts (photo- 'light,' synthesis 'putting together') and link them to Spanish cognates.",
+    "Have students break the words into parts (photo- 'light,' synth- 'put together') and link them to Spanish cognates.",
     "Have students memorize a separate list of Greek and Latin roots before the unit, then begin the science content."
    ],
    "answer": 2,

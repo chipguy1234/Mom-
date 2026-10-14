@@ -54,7 +54,7 @@ QUESTIONS = [
   "Contact a local Yemeni American community organization to learn about families' priorities and to co-plan an Arabic-language welcome event",
   "Send home a detailed English-language newsletter that explains school expectations, the grading system, and dates of upcoming events",
   "Ask several bilingual eighth graders to interpret at a family night so that parents can hear directly from their children's teachers",
-  "Prepare a handout for teachers summarizing how Yemeni parents typically view schooling, based on an online overview of Yemeni culture"
+  "Prepare a handout for teachers summarizing how Yemeni parents typically view schooling, based on an online overview of Yemeni culture and customs"
  ],
  "answer": 0,
  "why": "Partnerships begin with listening and relationships. A community-based organization already has families' trust, shares their language, and understands their circumstances (work schedules, transportation, past experiences with schools). Co-planning with that partner, in Arabic, treats families as partners rather than as audiences for school messages. This is the Blueprint principle of partnering meaningfully with families.",
@@ -227,7 +227,7 @@ QUESTIONS = [
   "Encourage the parents to speak only English at home so that their children get more practice and the parents improve at the same time",
   "Give the parents a list of English-learning websites and apps that they can explore on their own whenever their work schedules allow",
   "Explain that homework is designed for students to complete independently, so parents do not need to be involved in it at all",
-  "Partner with a community adult education program to offer parent ESL classes and family learning nights with Nepali and Tibetan interpreters"
+  "Partner with a community adult education program to offer parent ESL classes and family nights with Nepali and Tibetan interpreters"
  ],
  "answer": 3,
  "why": "Partnering with community institutions such as adult education programs, community-based organizations, and public libraries extends what a school can offer. Adult ESL classes meet the parents' own goal, and family learning nights with Nepali and Tibetan interpreters show families how to support schoolwork, including through conversations in the home language. Families' desire to be involved is an asset to build on.",
@@ -325,7 +325,7 @@ QUESTIONS = [
  "stimulus": "Draft fall schedule for three newly enrolled grade 9 ELLs (Entering) whose transcripts show strong prior schooling in Bangladesh:\nPeriod 1: Stand-alone ENL\nPeriod 2: ENL Study Skills (no credit)\nPeriod 3: Lunch\nPeriod 4: Basic Skills Math (no credit)\nPeriod 5: Physical Education\nPeriod 6: Stand-alone ENL\nPeriod 7: Study Hall",
  "stem": "The counselor explains that the students \"need English before they can handle real classes.\" Which action by the ESOL teacher best advocates for these students?",
  "options": [
-  "Meet with the counselor and an administrator to review the transcripts and request credit-bearing science, math, and social studies with ENL support",
+  "Meet with the counselor and an administrator to review the transcripts and request credit-bearing core courses with ENL support",
   "Accept the schedule for the first semester and plan to revisit the students' course placements in the spring, once their English has improved",
   "Offer the students content tutoring during study hall so that they do not fall too far behind in the subjects they are not yet taking",
   "Ask the counselor to place the students in credit-bearing courses but excuse them from Stand-alone ENL so that their schedules have room"
@@ -404,7 +404,7 @@ QUESTIONS = [
  "options": [
   "Say nothing in the moment to avoid conflict, and later leave a short article about cultural differences in the colleague's mailbox",
   "Agree that attendance has been low, and suggest that the school send home more frequent conference reminders written in English",
-  "Respectfully question the assumption, note barriers such as work hours and language, and suggest flexible meetings with Haitian Creole interpreters",
+  "Respectfully challenge the assumption, note barriers such as work hours and language, and propose flexible meetings with interpreters",
   "Explain that Haitian parents tend to defer to teachers as experts, so their absence from conferences signals respect rather than disinterest"
  ],
  "answer": 2,
@@ -421,7 +421,7 @@ QUESTIONS = [
  "id": "6.5-07", "skill": "6.5", "type": "scenario", "difficulty": 2, "diag": 0,
  "stem": "A grade 7 newcomer whose home language is Arabic tells the ESOL teacher, through a translation app, that she feels sad most days and has trouble sleeping. When the ESOL teacher contacts the school counselor, the counselor says she cannot meet with the student because she does not speak Arabic and suggests waiting until the student's English improves. Which action by the ESOL teacher best advocates for the student?",
  "options": [
-  "Ask the counselor to meet with the student now with a qualified Arabic interpreter, and explore bilingual school or community mental health supports",
+  "Ask the counselor to meet with the student now with a qualified Arabic interpreter, and explore bilingual mental health supports",
   "Agree to wait, and in the meantime give the student a journal so that she can write about her feelings in Arabic whenever she needs to",
   "Arrange for a bilingual classmate to interpret during counseling sessions so that the student can begin receiving support right away",
   "Meet with the student herself each week to talk about her feelings, since she has the closest relationship with her of any staff member"
@@ -459,7 +459,7 @@ QUESTIONS = [
  "id": "6.5-09", "skill": "6.5", "type": "scenario", "difficulty": 1, "diag": 0,
  "stem": "An ESOL teacher works with grade 11 Long-Term ELLs who rarely ask for help, even when they are confused in class or do not receive their testing accommodations. Which approach would best build their capacity to advocate for themselves?",
  "options": [
-  "Teach students about their rights and supports, then have them role-play asking for clarification, accommodations, or a counselor meeting with frames",
+  "Teach students about their rights and supports, then have them role-play requesting clarification, accommodations, or a counselor meeting",
   "Handle all of the students' requests with their teachers personally so that the students do not risk embarrassment in front of their classmates",
   "Remind students often that speaking up is their responsibility, and lower their participation grades if they continue to stay silent in class",
   "Give students a printed list of their rights as English language learners, translated into their home languages, to keep in their binders"
@@ -519,7 +519,7 @@ QUESTIONS = [
  "options": [
   "Support retention, since another year in grade 2 would give Sofía extra time to build the English literacy skills she needs to succeed",
   "Recommend a special education evaluation before deciding, since a large gap between her math and reading may signal a learning disability",
-  "Oppose retention, since limited English proficiency alone is not a sound basis for it, and propose promotion with targeted ENL and literacy support",
+  "Oppose retention, since limited English proficiency alone is not a sound basis for it, and propose promotion with targeted support",
   "Suggest promoting Sofía but placing her in a grade 1 reading group for the full literacy block until her English reading catches up"
  ],
  "answer": 2,
@@ -536,10 +536,10 @@ QUESTIONS = [
  "id": "6.5-13", "skill": "6.5", "type": "scenario", "difficulty": 1, "diag": 0,
  "stem": "An ESOL teacher learns that several newcomers have received detention for \"ignoring directions\" in the cafeteria, where rules are announced only orally in English over a loudspeaker. Which action best addresses the equity concern?",
  "options": [
-  "Work with administrators to post visual, multilingual rules for all students, have staff model routines, and review the detentions already given",
+  "Work with administrators to post visual, multilingual rules for all, have staff model routines, and review the detentions",
   "Teach the newcomers cafeteria vocabulary in Stand-alone ENL so that they can understand the loudspeaker announcements in the future",
   "Ask that the newcomers be excused from cafeteria rules until they reach the Transitioning level and can understand the expectations",
-  "Arrange for the newcomers to eat lunch in the ENL classroom, where the ESOL teacher can explain expectations in a calmer setting"
+  "Arrange for the newcomers to eat lunch in the ENL classroom, where the ESOL teacher can explain the expectations in a calmer setting"
  ],
  "answer": 0,
  "why": "Students cannot follow rules they cannot understand. Disciplining newcomers for not responding to English-only oral announcements effectively punishes limited English proficiency, an equity issue with civil rights implications under Title VI. The systemic fix makes expectations comprehensible to everyone (visual and multilingual signs, modeling, peer buddies) and revisits the consequences already given. Excusing or isolating students are not equitable alternatives.",
@@ -557,7 +557,7 @@ QUESTIONS = [
  "options": [
   "Agree with the special education teacher, since students with IEPs receive their language support through special education instead of ENL",
   "Recommend that the Committee on Special Education end his IEP services so that his schedule has room for his required ENL services",
-  "Explain that Andrés is entitled to both ENL and IEP services, and propose coordinating them so his language and learning needs are met together",
+  "Explain that Andrés is entitled to both ENL and IEP services, and propose coordinating them so that both kinds of needs are met",
   "Suggest postponing ENL services until Andrés's next annual IEP review, when the team can decide whether he still needs language support"
  ],
  "answer": 2,
@@ -577,7 +577,7 @@ QUESTIONS = [
   "Skip the textbook's immigration chapters when teaching ELLs so that students are not exposed to negative portrayals of their communities",
   "Accept the textbook, since social studies texts are expected to present historical events objectively, regardless of how groups are portrayed",
   "Supplement the textbook in ENL classes only, so that ELLs see positive portrayals of immigrants even if their classmates do not",
-  "Share specific examples with the adoption committee and recommend materials that portray immigrant communities with depth and multiple perspectives"
+  "Share specific examples with the adoption committee and recommend materials with fuller, multi-perspective portrayals of immigrants"
  ],
  "answer": 3,
  "why": "The CR-SE Framework's principle of inclusive curriculum and assessment calls for materials that reflect students' identities and multiple perspectives, serving as mirrors and windows for every learner. A textbook that portrays immigrants only through a deficit lens reinforces stereotypes for all students, not just ELLs. Effective advocacy brings specific evidence to the place where the decision is made (the adoption committee) and proposes better alternatives.",
@@ -589,5 +589,304 @@ QUESTIONS = [
  ],
  "key": "Challenge biased materials at the decision point with specific evidence, and advocate for inclusive, multi-perspective curriculum for all students."
 },
+# ---------------------------------------------------------------------------
+# 6.6 Reflective practice, ethics & professional growth
+# ---------------------------------------------------------------------------
+{
+ "id": "6.6-01", "skill": "6.6", "type": "analysis", "difficulty": 2, "diag": 1,
+ "stimulus": "Reflection notes from an ESOL teacher after a grade 6 Integrated ENL social studies unit:\n- Partner talk: Transitioning students explained, in their own words, how the Nile's floods affected farming.\n- Content quiz (diagrams, matching): Transitioning students averaged 84%.\n- Written response, \"Explain how the Nile shaped life in ancient Egypt\": most Transitioning students wrote lists of facts (\"Nile floods. Good soil. Farming. Food.\") with few connecting words.",
+ "stem": "Which revision to the unit is best supported by the teacher's evidence?",
+ "options": [
+  "Replace the written explanation with an oral presentation, since the students have already shown that they understand the content",
+  "Reteach the unit's key content with additional visuals and videos, since the written responses reveal gaps in students' understanding",
+  "Add daily grammar worksheets on sentence fragments so that students learn to write complete sentences before the next unit test",
+  "Model and jointly construct a cause-and-effect paragraph with connectives such as because and as a result before students write alone"
+ ],
+ "answer": 3,
+ "why": "Reflective practice lets evidence point to the real problem. The quiz and partner talk show that students understood the content; the gap is in the written language of explanation, which links causes and effects with connectives and complex sentences. The best revision teaches that language explicitly and in context (modeling, joint construction, then independent writing, as in a teaching-learning cycle) while keeping the grade-level task. Reteaching content or assigning isolated grammar drills would target the wrong need.",
+ "traps": [
+  {"code": "LOWER_RIGOR", "note": "Dropping the writing task removes the very skill these students need to develop. Transitioning students can learn to write explanations with scaffolding."},
+  {"code": "LITERAL", "note": "The quiz and partner talk show the content was understood. Reading the written responses as content gaps misdiagnoses a language need."},
+  {"code": "ISOLATED", "note": "Decontextualized fragment drills do not teach how to link causes and effects in an explanation; that language should be taught within the genre and the content."},
+  None
+ ],
+ "key": "Use several data sources to locate the real gap (content or language), then revise instruction to target it in context."
+},
+{
+ "id": "6.6-02", "skill": "6.6", "type": "application", "difficulty": 2, "diag": 2,
+ "stem": "An ESOL teacher wants to find out whether daily dialogue journals improve the writing fluency of her grade 6 Emerging students, and she has written a focused research question. Which step should she take next in an action research cycle?",
+ "options": [
+  "Begin the journals right away and judge their effect at the end of the semester based on her overall impressions of students' growth",
+  "Decide how she will measure writing fluency and collect baseline writing samples from her students before starting the journals",
+  "Read the published research on dialogue journals and adopt them for the year if most of the studies report positive results with ELLs",
+  "Compare her students' end-of-year NYSESLAT results with those of a colleague's students who did not keep dialogue journals"
+ ],
+ "answer": 1,
+ "why": "Action research is a systematic cycle: identify a focused question; plan data collection by defining the measure (for example, words per entry or a fluency rubric) and gathering baseline data; implement the strategy; collect and analyze data; then reflect and adjust. Without a measure and a baseline, she cannot tell whether fluency changed. Impressions, published studies alone, or comparisons with non-equivalent groups cannot answer a question about her own students.",
+ "traps": [
+  {"code": "ASSESS_INVALID", "note": "Without a defined measure and baseline data, she cannot tell whether fluency changed. General impressions are subjective and unreliable."},
+  None,
+  {"code": "PARTIAL", "note": "Reviewing the literature is a useful part of planning, but action research answers a question about her own students with her own classroom data."},
+  {"code": "ASSESS_INVALID", "note": "An overall proficiency level does not isolate writing fluency, and two classes differ in many ways besides journals, so the comparison cannot answer her question."}
+ ],
+ "key": "Action research: focused question, then define measures and collect baseline, implement, analyze data, reflect and adjust."
+},
+{
+ "id": "6.6-03", "skill": "6.6", "type": "application", "difficulty": 2, "diag": 0,
+ "stem": "An ESOL teacher with a professional certificate reviews her Continuing Teacher and Leader Education (CTLE) log near the end of her five-year registration period. She has completed 175 hours: 70 on language acquisition and the needs of ELLs, 60 on instructional technology, and 45 on social-emotional learning. Which statement accurately describes her status?",
+ "options": [
+  "She has met the requirement, since more than 15 percent of her hours address language acquisition and the needs of ELLs",
+  "She has met the requirement, since she completed the full 175 hours and CTLE topics are left to each teacher's discretion",
+  "She has not met the requirement, since at least half of her 175 required hours must address language acquisition and ELL needs",
+  "She has not met the requirement, since every one of her CTLE hours must address language acquisition because of her certificate"
+ ],
+ "answer": 2,
+ "why": "Under NYS CTLE requirements, professional certificate holders complete 175 hours every five years. For teachers certified in ESOL or bilingual education, at least 50 percent (87.5 hours) must address language acquisition and ELL needs; for all other teachers the minimum is 15 percent. Her 70 hours (40 percent) fall short, so she should plan at least 18 more hours of ELL-focused learning that fit her growth goals.",
+ "traps": [
+  {"code": "NYS_POLICY", "note": "Fifteen percent is the minimum for teachers who are not certified in ESOL or bilingual education. Certified ESOL and bilingual teachers need at least 50 percent (87.5 of 175 hours)."},
+  {"code": "NYS_POLICY", "note": "The total is right, but CTLE has content requirements: a set share of hours must address language acquisition and ELL needs."},
+  None,
+  {"code": "NYS_POLICY", "note": "No rule requires every hour to focus on ELLs. At least half is required, which leaves room for other learning such as technology or SEL."}
+ ],
+ "key": "CTLE: 175 hours every 5 years; ESOL and bilingual teachers need at least 50% on language acquisition and ELL needs, other teachers at least 15%."
+},
+{
+ "id": "6.6-04", "skill": "6.6", "type": "knowledge", "difficulty": 1, "diag": 0,
+ "stem": "An ESOL teacher at a two-way dual language school wants to join a national professional organization whose primary mission is to advance bilingual education and the interests of bilingual learners. Which organization best fits her goal?",
+ "options": [
+  "TESOL International Association",
+  "National Association for Bilingual Education (NABE)",
+  "American Council on the Teaching of Foreign Languages (ACTFL)",
+  "National Council of Teachers of English (NCTE)"
+ ],
+ "answer": 1,
+ "why": "The National Association for Bilingual Education (NABE) focuses on bilingual and dual language education, research, and advocacy for bilingual learners. TESOL International Association, whose New York affiliate is NYS TESOL, serves English language teaching professionals; ACTFL serves world language educators; NCTE serves English language arts teachers. All can support an ESOL teacher's growth, but NABE matches a bilingual-education mission.",
+ "traps": [
+  {"code": "TERM", "pair": "TESOL International Association ↔ NABE", "note": "TESOL International Association (and its state affiliate, NYS TESOL) focuses on English language teaching broadly, not specifically on bilingual education."},
+  None,
+  {"code": "TERM", "pair": "ACTFL ↔ NABE", "note": "ACTFL serves teachers of world languages. It is not centered on bilingual education programs or bilingual learners."},
+  {"code": "TERM", "pair": "NCTE ↔ NABE", "note": "NCTE serves English language arts educators. It addresses multilingual students but is not focused on bilingual education."}
+ ],
+ "key": "NABE = bilingual education; TESOL International (NY affiliate: NYS TESOL) = English language teaching; ACTFL = world languages; NCTE = ELA."
+},
+{
+ "id": "6.6-05", "skill": "6.6", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stem": "While preparing for the spring NYSESLAT, a colleague tells the ESOL teacher that she kept a copy of last year's test booklet and suggests that they use it to give students practice with actual test items. What should the ESOL teacher do?",
+ "options": [
+  "Use the booklet for practice, since its items come from a previous year and students will see different items on this year's test",
+  "Use the booklet only to show students the test format and directions, without letting them answer any of the actual items",
+  "Decline, explain that secure test materials may not be kept or used, alert the testing coordinator, and use NYSED's sample items",
+  "Decline, and instead drill students daily with timed practice tests from commercial test-prep books throughout the spring"
+ ],
+ "answer": 2,
+ "why": "NYSESLAT materials are secure: educators may not keep, copy, or use them outside the official administration, and a retained booklet should be reported through the school's testing coordinator or principal. Ethical preparation familiarizes students with the format using NYSED's released sample materials and, above all, builds real listening, speaking, reading, and writing proficiency. Using actual items would compromise results that drive students' placement and services.",
+ "traps": [
+  {"code": "NYS_POLICY", "note": "NYSESLAT booklets are secure materials whether or not they are from the current year. Keeping or using them violates test-security rules."},
+  {"code": "NYS_POLICY", "note": "Any use of retained secure materials is a security breach, even just to show the format. Format can be taught with NYSED's released sample materials."},
+  None,
+  {"code": "ISOLATED", "note": "Declining is right, but daily drills replace meaningful language instruction with decontextualized test practice, and the retained booklet is never reported."}
+ ],
+ "key": "NYSESLAT materials are secure, so never keep or use them; prepare students with NYSED's published samples and strong instruction."
+},
+{
+ "id": "6.6-06", "skill": "6.6", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stem": "In a dialogue journal, a grade 8 ELL writes that his family is undocumented and that he worries about his father being deported. Later, a colleague who has heard rumors asks the ESOL teacher whether the student's family is \"legal.\" What is the most appropriate response?",
+ "options": [
+  "Share what the student wrote, since colleagues who understand the family's situation can be more sensitive to the student's stress",
+  "Decline to discuss the family's status, keep the journal private, and offer the student support, such as a counselor check-in",
+  "Inform the principal of the family's status so that the school can verify whether the student is still eligible to stay enrolled",
+  "Tell the colleague that schools must report undocumented families to immigration authorities, so the matter can't be discussed casually"
+ ],
+ "answer": 1,
+ "why": "A student's immigration status is private and has no bearing on his right to attend school (Plyler v. Doe); schools do not verify or report it. Ethical practice means protecting the trust a dialogue journal depends on, declining to share or speculate, and responding to the student's real need (his anxiety) by offering support through the counselor. A colleague can be kind to the student without knowing his family's status.",
+ "traps": [
+  {"code": "PARTIAL", "note": "Sensitivity is a worthy goal, but it does not require disclosing a student's private journal. Sharing breaks the trust that dialogue journals depend on."},
+  None,
+  {"code": "LAW_FACT", "note": "Under Plyler v. Doe, immigration status has no bearing on a child's right to attend public school, so there is nothing to verify."},
+  {"code": "LAW_FACT", "note": "Schools have no duty to report students' immigration status, and claiming one could frighten families away from school."}
+ ],
+ "key": "Keep students' personal disclosures and immigration status confidential; respond to the student's well-being, not to curiosity."
+},
+{
+ "id": "6.6-07", "skill": "6.6", "type": "application", "difficulty": 3, "diag": 0,
+ "stem": "Midway through a Stand-alone ENL lesson, an ESOL teacher notices puzzled expressions as she explains the word erosion. She stops, pours water over a tray of sand, and has students describe to a partner what they observe. Her adjustment best illustrates which concept?",
+ "options": [
+  "Reflection-in-action: monitoring students' responses and adjusting instruction while the lesson is still unfolding",
+  "Reflection-on-action: reviewing a lesson after it ends in order to analyze it and plan improvements for next time",
+  "Action research: systematically collecting and analyzing classroom data to answer a focused question over time",
+  "Metacognitive strategy instruction: modeling for students how to monitor their own comprehension as they learn"
+ ],
+ "answer": 0,
+ "why": "Donald Schön distinguished reflection-in-action (thinking on your feet: noticing and adjusting during teaching) from reflection-on-action (looking back after the lesson to analyze and plan). Here the teacher reads students' confusion in the moment and shifts to a concrete demonstration plus partner talk, adding comprehensible input and interaction. Both kinds of reflection matter; action research is a more systematic, data-based cycle carried out over time.",
+ "traps": [
+  None,
+  {"code": "TERM", "pair": "reflection-in-action ↔ reflection-on-action", "note": "Reflection-on-action happens after teaching. This teacher noticed and adjusted in the moment, during the lesson."},
+  {"code": "TERM", "pair": "reflection-in-action ↔ action research", "note": "Action research is planned, systematic inquiry with defined data collected over time, not a spontaneous mid-lesson adjustment."},
+  {"code": "TERM", "pair": "reflection-in-action ↔ metacognitive strategy instruction", "note": "Metacognitive strategy instruction (as in CALLA) teaches students to monitor their own thinking. Here the teacher is monitoring and adjusting her own instruction."}
+ ],
+ "key": "Schön: reflection-in-action means adjusting during the lesson; reflection-on-action means analyzing afterward to plan improvements."
+},
+{
+ "id": "6.6-08", "skill": "6.6", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stimulus": "Assistant principal's observation notes, grade 3 Stand-alone ENL (Emerging):\n- Teacher talk: about 80% of the lesson\n- Questions: mostly yes/no; average wait time under 2 seconds\n- Student talk: 3 of 9 students spoke more than once; responses were one or two words",
+ "stem": "Which response to this feedback best reflects reflective professional practice?",
+ "options": [
+  "Explain to the assistant principal that Emerging students need extensive teacher input before they are ready to produce much language",
+  "Increase the number of read-alouds and teacher demonstrations so that students receive more rich English input during each lesson",
+  "Ask students at the end of each lesson whether they enjoyed it, and use their answers to decide which activities to keep",
+  "Record upcoming lessons, analyze talk time and question types, set a specific goal, plan structured interaction, and seek follow-up"
+ ],
+ "answer": 3,
+ "why": "Reflective practitioners treat feedback as data. They verify it (video or audio recording, talk-time tallies), analyze patterns (question types, wait time), set a specific goal, try new strategies (open-ended questions with sentence frames, longer wait time, partner talk), and seek follow-up feedback. Emerging students need rich input and meaningful output; Swain's Output hypothesis and Long's Interaction hypothesis explain why speaking opportunities drive acquisition.",
+ "traps": [
+  {"code": "MISAPPLIED_THEORY", "note": "This uses Krashen's input hypothesis to dismiss the feedback. Emerging students can produce phrases and short sentences, and output and interaction (Swain, Long) are essential; input alone is not enough."},
+  {"code": "PASSIVE", "note": "More teacher-centered input widens the imbalance the observer documented. Students would still have few chances to speak."},
+  {"code": "PARTIAL", "note": "Student feedback is valuable, but enjoyment ratings do not address talk time, question types, or wait time, which are the specific issues identified."},
+  None
+ ],
+ "key": "Treat observation feedback as data: verify it, set a specific goal, change practice, and seek follow-up feedback."
+},
+{
+ "id": "6.6-09", "skill": "6.6", "type": "scenario", "difficulty": 1, "diag": 0,
+ "stem": "An ESOL teacher sets a professional goal of improving how she scaffolds academic conversations for her Entering and Emerging students. Which professional learning activity is most likely to produce lasting change in her teaching?",
+ "options": [
+  "Joining a peer observation cycle in which she and a colleague observe each other's lessons with shared look-fors and debrief",
+  "Attending a one-day conference session on academic conversations and saving the presenter's handouts for future reference",
+  "Reading a book on academic conversations over the summer and summarizing its key ideas in her own reflection journal",
+  "Watching videos of expert teachers leading academic conversations and listing the strategies that she would like to try someday"
+ ],
+ "answer": 0,
+ "why": "Professional learning changes practice when it is sustained, collaborative, embedded in one's own classroom, and includes feedback. A peer observation cycle (like lesson study, coaching, or a critical friends group) lets her try specific strategies, receive feedback on focused look-fors, and reflect with a colleague. Conferences, books, and videos supply valuable ideas, but without application and feedback they rarely produce lasting change.",
+ "traps": [
+  None,
+  {"code": "PARTIAL", "note": "Conferences can spark ideas, but a single session with no classroom application or feedback rarely changes practice."},
+  {"code": "PARTIAL", "note": "Reading and summarizing builds knowledge, but without trying strategies and getting feedback, the learning may never reach her classroom."},
+  {"code": "PASSIVE", "note": "Watching others with no plan for implementation or feedback keeps her in a spectator role; \"someday\" signals no actual change."}
+ ],
+ "key": "Lasting professional growth comes from sustained, collaborative, classroom-embedded learning with feedback, such as peer observation cycles."
+},
+{
+ "id": "6.6-10", "skill": "6.6", "type": "scenario", "difficulty": 3, "diag": 0,
+ "stimulus": "Entry from an ESOL teacher's reflection journal:\n\"I've noticed that I call on my Spanish-speaking students far more often than on my Mandarin-speaking students. I think I've been assuming the Mandarin speakers would rather not speak in front of the class, since that seems common in their culture.\"",
+ "stem": "Which next step would best reflect sound reflective practice?",
+ "options": [
+  "Continue the current pattern, since respecting students' cultural communication norms is a central principle of culturally responsive teaching",
+  "Recognize that the Mandarin speakers may still be in a silent period, and give them more time to listen before expecting them to participate",
+  "Tally whom she calls on for a week, ask students individually how they prefer to participate, and use structures that give everyone a turn",
+  "Call on the Mandarin-speaking students first in every discussion so that they get more speaking practice than the rest of their classmates"
+ ],
+ "answer": 2,
+ "why": "Good reflection surfaces assumptions and then tests them with evidence. The teacher's belief is a cultural generalization, and individual students vary widely. Collecting data on her own questioning pattern (a tally or seating-chart record), asking students directly, and adopting equitable participation structures (think-pair-share, response cards, structured turn-taking) turn a hunch into informed practice.",
+ "traps": [
+  {"code": "STEREOTYPE", "note": "Culturally responsive teaching means knowing students as individuals, not applying a group generalization that limits some students' chances to speak."},
+  {"code": "MISAPPLIED_THEORY", "note": "The silent period describes the earliest stage of acquisition for some individual learners, not a trait of a language group, and nothing in the entry suggests these students are new to English."},
+  None,
+  {"code": "ONE_SIZE", "note": "This swaps one group-level assumption for another. Calling on a group first can raise anxiety and still ignores individual students' needs and preferences."}
+ ],
+ "key": "Reflect on assumptions about groups, then test them with data and student voice before changing practice."
+},
+{
+ "id": "6.6-11", "skill": "6.6", "type": "scenario", "difficulty": 3, "diag": 0,
+ "stem": "A vendor presents a new software program to the ESOL department, claiming that it \"guarantees\" ELLs will reach the Commanding level within one school year. Which response best reflects evidence-based professional judgment?",
+ "options": [
+  "Adopt the program for all ELLs, since several neighboring districts already use it and teachers there report that their students enjoy it",
+  "Reject the program outright, since Cummins' research shows that academic language proficiency typically takes five to seven years to develop",
+  "Request independent research with comparable ELL populations and, if the evidence is promising, pilot the program with clear measures",
+  "Use the program in place of Integrated ENL time, since individualized software can adjust its instruction to each student's proficiency level"
+ ],
+ "answer": 2,
+ "why": "Evidence-based practice means evaluating claims rather than accepting or rejecting them by reflex. A guarantee of Commanding in one year conflicts with research on academic language development (Cummins: CALP typically takes 5–7 years), which justifies skepticism. The professional response is still to request independent, peer-reviewed evidence from similar students and, if warranted, pilot the program with clear measures. Testimonials are not evidence, and software cannot replace required ENL instruction from certified teachers.",
+ "traps": [
+  {"code": "ASSESS_INVALID", "note": "Popularity and student enjoyment are not evidence that a program improves language proficiency. Testimonials cannot substitute for outcome data."},
+  {"code": "MISAPPLIED_THEORY", "note": "Cummins' 5–7-year estimate makes the guarantee implausible, but it does not settle whether the program could be a useful supplement. Reflexive rejection skips the evidence."},
+  None,
+  {"code": "NYS_POLICY", "note": "Integrated ENL is instruction by certified teachers (an ESOL teacher co-teaching with a content teacher, or a dually certified teacher) within required units of study. Software cannot replace it."}
+ ],
+ "key": "Judge programs by independent evidence with similar ELLs and a measured pilot, not testimonials, hype, or reflexive rejection."
+},
+{
+ "id": "6.6-12", "skill": "6.6", "type": "analysis", "difficulty": 3, "diag": 0,
+ "stimulus": "Modality | Fall, Year 1 (average) | Spring, Year 2 (average)\nListening | 1.9 | 3.2\nSpeaking | 1.8 | 3.1\nReading | 1.7 | 2.6\nWriting | 1.6 | 1.9",
+ "stem": "An ESOL teacher summarizes two years of performance-rubric scores (1–4 scale) for the 18 grade 4–5 students she has taught continuously. Which conclusion and professional response are best supported by the data?",
+ "options": [
+  "Writing is developing as expected, because writing is typically the last modality to develop, so she should continue her current approach",
+  "Writing growth has lagged far behind the other modalities, so she should analyze writing samples, revise her writing instruction, and seek PD",
+  "The rubric is probably unreliable for writing, so she should stop using it and rely on NYSESLAT results alone to monitor students' writing",
+  "All four modalities improved over the two years, so her instruction is effective overall and she should share her approach with colleagues"
+ ],
+ "answer": 1,
+ "why": "Disaggregating by modality reveals what an overall picture hides. Listening and speaking rose about 1.3 points and reading about 0.9, but writing rose only 0.3 in two years. Productive written language often develops later, but a near-plateau signals a need to examine instruction. A reflective response analyzes actual writing samples to pinpoint needs (organization, sentence structure, vocabulary), revises instruction (modeling, joint construction, more writing across content areas), and seeks targeted professional learning.",
+ "traps": [
+  {"code": "MISAPPLIED_THEORY", "note": "Writing often develops later, but a near-flat trend (+0.3 in two years) while other modalities rose about a point or more signals an instructional gap, not a normal sequence."},
+  None,
+  {"code": "ASSESS_INVALID", "note": "Nothing suggests the rubric is unreliable. Dismissing inconvenient data avoids reflection, and a once-a-year proficiency test cannot guide day-to-day writing instruction."},
+  {"code": "LITERAL", "note": "Technically every average rose, but this reading ignores the key pattern: writing barely moved. Overall gains can hide a serious gap."}
+ ],
+ "key": "Disaggregate data by modality; a flat trend in one area is a cue to analyze student work and revise instruction."
+},
+{
+ "id": "6.6-13", "skill": "6.6", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stem": "A school asks the ESOL teacher, who speaks French at an intermediate level, to interpret at a Committee on Special Education (CSE) meeting for a family from the Democratic Republic of the Congo whose preferred language is French. What is the most ethical response?",
+ "options": [
+  "Agree to interpret, since a teacher who knows the student can explain educational terms better than an interpreter from outside the school",
+  "Agree to interpret, and ask the family to bring a bilingual older child who can help clarify any terms that she does not know",
+  "Suggest holding the meeting in English and sending the family a translated summary of the committee's decisions afterward",
+  "Explain that her French is not adequate for a high-stakes meeting, ask for a qualified interpreter, and attend in her own role"
+ ],
+ "answer": 3,
+ "why": "Professional ethics include knowing the limits of one's competence. A CSE meeting involves legal rights, evaluation results, and technical terminology, and parents need a qualified interpreter to participate meaningfully. Interpreting would also keep the ESOL teacher from contributing her own expertise about the student's language development. The ethical response is to decline the interpreting role, request a qualified interpreter, and participate in her professional capacity.",
+ "traps": [
+  {"code": "PARTIAL", "note": "Knowing the student is a reason to attend as a team member, not to interpret. Intermediate French is not adequate for legal and technical content, and the dual role divides her attention."},
+  {"code": "FAMILY_BARRIER", "note": "Children should not interpret at school meetings, especially about a sibling's disability services. It is inappropriate and unreliable."},
+  {"code": "FAMILY_BARRIER", "note": "Parents are members of the CSE process. An English-only meeting with a summary afterward denies them meaningful participation in the decisions."},
+  None
+ ],
+ "key": "Know the limits of your competence: decline to interpret in high-stakes meetings unless qualified, and secure a qualified interpreter."
+},
+{
+ "id": "6.6-14", "skill": "6.6", "type": "scenario", "difficulty": 1, "diag": 0,
+ "stem": "A district is enrolling many newly arrived students from Afghanistan who speak Pashto or Dari. The ESOL teacher has not worked with students from this region before. Which professional growth step would best prepare her?",
+ "options": [
+  "Apply the same strategies that worked with her Arabic-speaking students, since Pashto and Dari are written in scripts based on Arabic",
+  "Read a general online overview of Afghan culture so that she can anticipate how these students and their families are likely to behave",
+  "Wait until she has observed the students for a semester, so that her professional learning can be based on her own direct experience",
+  "Learn about students' languages, schooling histories, and experiences from families, community organizations, and professional resources"
+ ],
+ "answer": 3,
+ "why": "Professional growth is ongoing and responsive to the students in front of you. Pashto and Dari are distinct languages (Dari is a variety of Persian) written in Arabic-based scripts, and students' schooling histories vary widely: some may be SIFE, others highly educated. The best preparation combines learning from families and community organizations with professional resources (for example, NYS TESOL or research on newcomers) and then adapting plans.",
+ "traps": [
+  {"code": "ONE_SIZE", "note": "Pashto and Dari are Iranian languages, unrelated to Arabic despite the shared script family, and students' schooling histories differ. Reusing one group's approach ignores these differences."},
+  {"code": "STEREOTYPE", "note": "A generic overview invites assumptions about how \"Afghan families\" behave. Families vary by language, ethnicity, region, schooling, and migration experience."},
+  {"code": "PASSIVE", "note": "Waiting a semester delays preparation the students need now. Professional growth should anticipate needs, not only react to them."},
+  None
+ ],
+ "key": "Prepare for new student populations by learning from families, community partners, and professional resources, not from generic overviews."
+},
+{
+ "id": "6.6-15", "skill": "6.6", "type": "application", "difficulty": 1, "diag": 0,
+ "stem": "An ESOL teacher wants feedback from her grade 5 Entering and Emerging students about which classroom activities help them learn. Which approach would yield the most useful information?",
+ "options": [
+  "A short picture-based survey with a simple rating scale and space for comments in English or the home language",
+  "An open-ended written reflection in English in which students explain which activities helped them most and why",
+  "A whole-class discussion in which students raise their hands to share which of the activities they liked the most",
+  "A review of students' NYSESLAT scores from the past year to infer which classroom activities were most effective"
+ ],
+ "answer": 0,
+ "why": "Student voice is a valuable source of data for reflection, but the collection method must be accessible at students' proficiency levels. Visuals, simple rating scales, and permission to comment in the home language let Entering and Emerging students express real opinions. An English-only written reflection measures their writing rather than their views, and annual test scores cannot show which activities helped.",
+ "traps": [
+  None,
+  {"code": "WRONG_LEVEL", "note": "Extended English writing is beyond what most Entering and Emerging students can produce independently, so the reflection would measure their English, not their views."},
+  {"code": "PARTIAL", "note": "Discussion can surface ideas, but a hands-up format favors more fluent and confident students, so many voices would be missing."},
+  {"code": "ASSESS_INVALID", "note": "An annual proficiency test cannot show which specific classroom activities students found helpful."}
+ ],
+ "key": "Gather student feedback in level-appropriate, multilingual formats so it captures students' views, not their English proficiency."
+},
 # __CONTINUE__
 ]
+
+LESSONS = [
+# __LESSONS__
+]
+
+import json, pathlib
+pathlib.Path(__file__).with_name("c6b.json").write_text(json.dumps({"questions": QUESTIONS, "lessons": LESSONS}, ensure_ascii=False, indent=1))

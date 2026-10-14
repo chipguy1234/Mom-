@@ -10,7 +10,7 @@
    "options": [
     "Swain's Output Hypothesis, which holds that producing language pushes learners to notice gaps in what they can say",
     "Long's Interaction Hypothesis, which holds that negotiating meaning after a communication breakdown drives acquisition",
-    "Krashen's Input Hypothesis, which holds that understanding messages slightly beyond one's current level drives acquisition",
+    "Krashen's Input Hypothesis, which holds that understanding messages slightly beyond one's level drives acquisition",
     "Krashen's Monitor Hypothesis, which holds that consciously learned rules serve as an editor for learners' output"
    ],
    "answer": 2,
@@ -79,7 +79,7 @@
    "options": [
     "The Natural Order Hypothesis, because third-person -s is acquired late regardless of when it is taught",
     "The Input Hypothesis, because he has not yet received enough comprehensible input containing third-person -s",
-    "The Monitor Hypothesis, because learned rules are applied only when there is time, a focus on form, and rule knowledge",
+    "The Monitor Hypothesis, because learned rules are applied only with time, a focus on form, and rule knowledge",
     "The Affective Filter Hypothesis, because the timed debate made him anxious enough to forget a rule he knows well"
    ],
    "answer": 2,
@@ -112,7 +112,7 @@
     "Students acquire grammatical forms in the order the teacher presents them, so third-person -s should be retaught with more drills.",
     "Third-person -s is omitted because the students' home languages lack subject–verb agreement, so the pattern reflects transfer.",
     "The omission shows that the students' interlanguage has fossilized, so further instruction on this form is unlikely to help.",
-    "Grammatical morphemes tend to be acquired in a predictable order, and third-person -s typically comes late whenever it is taught."
+    "Grammatical morphemes tend to be acquired in a predictable order, and third-person -s typically comes late no matter when it is taught."
    ],
    "answer": 3,
    "why": "Morpheme-order studies, summarized in Krashen's Natural Order Hypothesis, found that learners from many language backgrounds acquire English grammatical morphemes in a broadly predictable order: -ing and plural -s early, third-person singular -s and possessive 's late. Teaching a form doesn't move it earlier in that order. The implication is to keep providing rich input and meaningful practice while expecting late-acquired forms to appear late in spontaneous speech.",
@@ -146,7 +146,7 @@
     "Cummins' distinction between BICS, which typically develops in 1–3 years, and CALP, which typically takes 5–7 years",
     "Cummins' Threshold Hypothesis, which suggests that limited Spanish proficiency is blocking his cognitive growth",
     "Krashen's Natural Order Hypothesis, which predicts that academic structures are acquired before social ones",
-    "A possible learning disability, because his social fluency shows his English is strong enough to rule out language"
+    "A possible learning disability, because his social fluency shows his English is strong enough to rule out language as the cause"
    ],
    "answer": 0,
    "why": "Cummins distinguished Basic Interpersonal Communicative Skills (BICS), context-embedded social language that usually develops in about 1–3 years, from Cognitive Academic Language Proficiency (CALP), the context-reduced, cognitively demanding language of textbooks and tests that typically takes 5–7 years or longer. After 18 months, conversational fluency with an academic gap is the expected profile. Mistaking BICS for full proficiency is a classic route to inappropriate special-education referral.",
@@ -179,7 +179,7 @@
     "Build students' social English first, since academic concepts can't be taught until conversational fluency develops",
     "Keep Arabic out of math class so English has room to grow, since each language draws on a separate store of proficiency",
     "Provide input slightly beyond students' current English level, since comprehensible input is the sole cause of acquisition",
-    "Have students discuss algebra problems in Arabic and link the ideas to English terms, since knowledge transfers across languages"
+    "Have students discuss algebra in Arabic and link the ideas to English terms, since knowledge transfers across languages"
    ],
    "answer": 3,
    "why": "Cummins' CUP (the 'dual iceberg') holds that two languages look separate on the surface but share an underlying base of concepts, literacy skills, and academic knowledge. What these students learned about algebra in Arabic isn't trapped in Arabic; it transfers once they have English labels for it. Using the home language to access and discuss content, then bridging to English, is the direct classroom application.",
@@ -211,7 +211,7 @@
     "Replace the lecture with a shorter, simplified reading about the war written at a lower grade level",
     "Add a visual timeline, a map of the alliances, and a partner task sorting cause cards during the lecture",
     "Give students a list of key terms with dictionary definitions to memorize the night before the lecture",
-    "Deliver the lecture more slowly and repeat it the next day so that students hear all of the content twice"
+    "Deliver the lecture more slowly and repeat it the next day so that students hear the content a second time"
    ],
    "answer": 1,
    "why": "Cummins' framework crosses two dimensions: contextual support (context-embedded ↔ context-reduced) and cognitive demand (undemanding ↔ demanding). A lecture with no visuals is context-reduced and demanding, the hardest quadrant for ELLs. Adding visuals, maps, cards to manipulate, and partner talk embeds the content in context while keeping the demanding analysis of causes, which is how to scaffold without watering down.",
@@ -311,7 +311,7 @@
     "Negotiation of meaning through a confirmation check and a clarification request, as in Long's Interaction Hypothesis",
     "Explicit correction, in which the teacher supplies the correct form and states that the student's form was wrong",
     "Premodified comprehensible input, as in Krashen's Input Hypothesis, in which language is simplified in advance",
-    "Pushed output, as in Swain's Output Hypothesis, in which the teacher requires complete sentences before moving on"
+    "Pushed output, as in Swain's Output Hypothesis, in which the teacher requires complete sentences before the class moves on"
    ],
    "answer": 0,
    "why": "Long's Interaction Hypothesis holds that acquisition is promoted when learners and their partners work through communication breakdowns, a process called negotiation of meaning. A confirmation check ('You mean he planted them in the soil?') verifies understanding while modeling target forms; a clarification request ('Sorry, they what?') signals a problem and pushes the learner to reformulate, as Karim does with 'grew.' The modified input and the learner's repair come from the interaction itself, not from pre-simplified materials.",
@@ -442,8 +442,8 @@
    "diag": 0,
    "stem": "A family from Nepal enrolls a 6-year-old daughter and a 15-year-old son in the same district. The parents ask the ENL teacher which child will learn English 'better.' Which response best reflects research related to the Critical Period Hypothesis and age in second-language acquisition?",
    "options": [
-    "The younger child is more likely to develop native-like pronunciation over time, while the teenager may progress faster at first by drawing on prior schooling.",
-    "The teenager has passed the critical period, so he is unlikely to reach a high level of English proficiency regardless of the support he receives.",
+    "The younger child is more likely to develop native-like pronunciation, while the teenager may progress faster at first by drawing on prior schooling.",
+    "The teenager has already passed the critical period, so he is unlikely to reach a high level of English proficiency regardless of the support he receives.",
     "Both children will follow the same timeline, because age has little effect on acquisition once the instruction is comprehensible.",
     "The younger child will reach grade-level academic English faster, because young children absorb academic vocabulary more easily."
    ],
@@ -578,7 +578,7 @@
    "diag": 0,
    "stem": "Tanvir, a grade 11 student whose home language is Bengali, has attended New York schools since grade 2 and is now a Long-Term ELL. He speaks fluently, but for years he has consistently omitted past-tense -ed in speech and writing ('Yesterday I walk to work'), even after explicit instruction and frequent feedback. Which term best describes this pattern?",
    "options": [
-    "Fossilization, in which certain interlanguage forms stabilize and persist despite continued instruction",
+    "Fossilization, in which certain interlanguage forms stabilize and persist despite instruction",
     "Overgeneralization, in which a learner extends a target-language rule to words where it does not apply",
     "Negative transfer, in which a grammar rule from the home language is carried directly into English",
     "Interlanguage restructuring, in which a learner's system is actively reorganizing around a new rule"
@@ -648,7 +648,7 @@
    "diag": 2,
    "stem": "Nusrat, a grade 6 Emerging-level student whose home language is Bengali, writes: 'My aunt is a doctor. He works at a hospital in Queens. He is very busy.' In both speech and writing, she uses 'he' and 'she' interchangeably for men and women. What is the most likely source of this pattern?",
    "options": [
-    "Negative transfer, because Bengali third-person pronouns don't mark gender, so the distinction is new to her",
+    "Negative transfer, because Bengali third-person pronouns don't mark gender, so the distinction is new",
     "Overgeneralization, because she has learned that 'he' is the default English pronoun and uses it everywhere",
     "Fossilization, because the confusion has become a permanent, unchanging feature of her English",
     "A mistake rather than an error, because she knows the right pronoun but writes too quickly to apply it"
@@ -791,7 +791,7 @@
     "Every form is an error, because any nontarget form in writing reveals a gap in the learner's competence.",
     "'More better' is a mistake caused by time pressure, while 'she don't' and 'he go' are errors needing reteaching.",
     "Every form is a mistake, because she is at the Transitioning level and has already been taught these rules.",
-    "'She don't' and 'he go' are mistakes she can self-correct, while 'more better' is an error from an unacquired rule."
+    "'She don't' and 'he go' are self-correctable mistakes, while 'more better' is an error from an unacquired rule."
    ],
    "answer": 3,
    "why": "Corder distinguished mistakes, performance slips a learner can self-correct because the rule is part of her competence, from errors, which are systematic and reflect what her interlanguage doesn't yet contain. Valentina fixes 'don't' and 'go' as soon as she's prompted (mistakes), but she judges 'more better' to be correct (an error, from a comparative rule not yet acquired). The implication: prompt self-editing for mistakes and plan targeted instruction for errors.",
@@ -927,7 +927,7 @@
     "The student depends heavily on supports and structures, such as visuals and home-language resources, to engage with academic language.",
     "The student shows some independence with academic language but still needs targeted supports, such as sentence frames, for complex tasks.",
     "The student independently meets the linguistic demands of grade-level work and qualifies to exit ELL status based on this score.",
-    "The student shows great independence with academic language and needs only light, occasional support for the most complex tasks."
+    "The student shows great independence with academic language and needs only light, occasional support for the most complex grade-level tasks."
    ],
    "answer": 1,
    "why": "New York describes its five levels as a continuum from dependence to independence: Entering students show great dependence on supports and structures, Emerging students some dependence, Transitioning students some independence, Expanding students great independence, and Commanding students meet the linguistic demands of grade-level work. A Transitioning student can do a good deal alone but still needs targeted scaffolds (sentence frames, graphic organizers, structured talk) for complex grade-level tasks. Matching support to level is what the NYS descriptors are for.",
@@ -991,7 +991,7 @@
    "stem": "A grade 7 ELA teacher notices that several students' essays include features of African American English, such as 'He walk to school every day' and 'They was ready.' Which approach is most consistent with current sociolinguistic research?",
    "options": [
     "Mark each feature as a grammatical error and have students rewrite their essays until the features disappear",
-    "Accept the features in all written work, since teaching academic English would devalue students' home language",
+    "Accept the features in written work without comment, since teaching academic English would devalue students' home language",
     "Use contrastive analysis to compare home and academic English patterns, teaching students to choose forms by context",
     "Refer the students for ENL services, since nonstandard grammar in their writing indicates limited English proficiency"
    ],
@@ -1059,7 +1059,7 @@
    "options": [
     "Chinedu's forms are interlanguage errors showing that he is still acquiring English and needs beginner-level instruction.",
     "Nigerian English is a pidgin, not a full variety of English, so Chinedu's academic English must be built from the ground up.",
-    "Chinedu's English should not be addressed at all, because any adjustment to U.S. norms would disrespect his variety.",
+    "Chinedu's English should be left as is, because adjusting it to U.S. norms would disrespect his variety.",
     "Nigerian English is an established variety with its own norms, and Chinedu can learn to adjust for U.S. academic contexts."
    ],
    "answer": 3,
@@ -1196,7 +1196,7 @@
     "Haitian Creole is a pidgin: a simplified contact language with no native speakers, used for limited purposes such as trade.",
     "Haitian Creole is a dialect of French, so students who speak it can easily understand French-language school materials.",
     "Haitian Creole is a simplified form of French, so it offers little foundation for transferring literacy and concepts to English.",
-    "Haitian Creole is a creole: a full, rule-governed language with native speakers and its own grammar, drawing much vocabulary from French."
+    "Haitian Creole is a creole: a full, rule-governed language with native speakers, its own grammar, and largely French vocabulary."
    ],
    "answer": 3,
    "why": "A pidgin is a simplified contact language with no native speakers; when a pidgin becomes a community's native language, it expands into a creole, a complete language with its own consistent grammar. Haitian Creole (Kreyòl) draws much of its vocabulary from French but has its own grammar (for example, tense and aspect are marked with particles such as 'te' and 'ap' before the verb), and it is an official language of Haiti. Calling it 'broken French' is a judgment about status, not a linguistic fact.",
@@ -1294,9 +1294,9 @@
    "stem": "Min-seo, a grade 6 newcomer whose home language is Korean, addresses her teacher as 'Teacher' ('Teacher, I finished!') instead of 'Ms. Ortiz.' Which explanation is most accurate?",
    "options": [
     "She is being casual, since using a job title instead of a name signals informality in Korean culture.",
-    "She is transferring a cultural norm, since Korean students address teachers with the respectful title 'seonsaengnim.'",
+    "She is transferring a cultural norm: Korean students address teachers with the respectful title 'seonsaengnim.'",
     "She has a vocabulary gap, since she hasn't yet learned the word 'Ms.' or how English surnames work.",
-    "She is in a developmental stage that all ELLs pass through, addressing adults by role before learning names."
+    "She is in a developmental stage ELLs commonly pass through, addressing adults by their role before learning their names."
    ],
    "answer": 1,
    "why": "Language carries culture: in Korean, students address teachers with the title 'seonsaengnim' (teacher plus the honorific -nim), often without a name, as a sign of respect; Mandarin speakers similarly use 'lǎoshī.' Min-seo is transferring a sociolinguistic norm of respect into English. The teacher can explain the U.S. convention ('Here we say Ms. Ortiz') while recognizing that her intent is polite.",
@@ -1312,7 +1312,7 @@
     },
     {
      "code": "TERM",
-     "note": "There is no universal stage of addressing adults by role. The form comes from a specific cultural norm, not a developmental sequence.",
+     "note": "There is no recognized developmental stage of addressing adults by role. The form comes from a specific cultural norm, not a developmental sequence.",
      "pair": "sociopragmatic transfer ↔ developmental sequence"
     }
    ],
@@ -1359,7 +1359,7 @@
    "diag": 0,
    "stem": "A colleague asks how linguists decide whether two varieties are separate languages or dialects of one language. Which response is most accurate?",
    "options": [
-    "The distinction is often social and political; 'languages' tend to have standardization and official status, not more complex grammar.",
+    "The distinction is often social and political; all varieties are rule-governed, but 'languages' tend to have standardization and official status.",
     "Varieties are separate languages whenever their speakers can't understand each other, and this test is applied consistently worldwide.",
     "A variety becomes a language once it develops a writing system, while varieties that remain unwritten are classified as dialects.",
     "Dialects are simplified versions of a standard language, so they follow fewer grammatical rules than the language itself does."
@@ -1392,7 +1392,7 @@
    "diag": 0,
    "stem": "Farhana, a grade 11 former ELL whose home language is Bengali, asks her ENL teacher to help her 'get rid of' her accent before a class presentation because she worries classmates will think she is less intelligent. Which response best reflects sociolinguistic research on accent?",
    "options": [
-    "Assure her that her accent doesn't matter, so she doesn't need any pronunciation support before her presentation.",
+    "Assure her that her accent doesn't matter, so she doesn't need pronunciation support before her presentation.",
     "Explain that she began English after early childhood, so the critical period makes pronunciation work pointless.",
     "Explain that everyone has an accent, and work on features that affect intelligibility, such as word stress.",
     "Plan daily accent-reduction drills with minimal pairs until her speech sounds identical to a native speaker's."
