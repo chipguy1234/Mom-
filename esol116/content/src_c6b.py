@@ -34,7 +34,7 @@ QUESTIONS = [
  "options": [
   "A single after-school workshop in which the ESOL teacher presents research on second-language acquisition and hands out a packet of fifty scaffolding strategies",
   "A shared online folder of scaffolded read-aloud plans curated by the ESOL teacher, with an open invitation for teachers to email her their questions at any time",
-  "A series of grade-team sessions in which the ESOL teacher models a scaffold with a coming read-aloud, teachers try it, and the team debriefs with student work",
+  "A series of grade-team sessions in which the ESOL teacher models a scaffold with an upcoming read-aloud, teachers try it, and they debrief with student work",
   "A revised schedule in which the ESOL teacher takes the ELLs to a separate room during read-alouds so that classroom teachers can maintain the lesson's pace"
  ],
  "answer": 2,
@@ -189,7 +189,7 @@ QUESTIONS = [
   "Give all three students the same set of sentence frames for the final argument so that expectations are consistent and grading is fair",
   "Plan oral rehearsal and an outline for Diego's writing, partner talk before discussions for Mei, and visuals with a word bank for Oumar",
   "Concentrate supports on Oumar, since Diego and Mei have reached the upper proficiency levels and can complete the work without scaffolds",
-  "Pair Mei with Oumar for every reading task, since Mei's reading is the strongest in the group and peer support lowers students' anxiety"
+  "Pair Mei with Oumar for reading tasks, since Mei's reading is the strongest in the group and peer support lowers students' anxiety"
  ],
  "answer": 1,
  "why": "Proficiency is rarely even across modalities: Diego's speaking outpaces his writing, Mei's reading outpaces her speaking, and Oumar needs substantial visual and lexical support. As a resource for colleagues, the ESOL teacher translates language data into specific scaffolds aimed at each student's weaker modality while keeping the grade-level task. Uniform supports, or withdrawing support from students at higher levels, ignore the evidence.",
@@ -284,7 +284,7 @@ QUESTIONS = [
  "options": [
   "Agree that Spanish communication will be sufficient, since Spanish is the official language of Guatemala and is widely used in its schools",
   "Recommend sending home communication in English, since K'iche' is used mostly orally and written translations are seldom available",
-  "Point out that the child's dominant language is K'iche', and work with a community organization to find an interpreter and ask the family's wishes",
+  "Point out that the child's dominant language is K'iche', and work with a community group to find a K'iche' interpreter and learn the family's wishes",
   "Recommend placing the student in a Spanish-English bilingual program, since instruction in Spanish will build on the child's strongest language"
  ],
  "answer": 2,
@@ -424,7 +424,7 @@ QUESTIONS = [
   "Ask the counselor to meet with the student now with a qualified Arabic interpreter, and explore bilingual mental health supports",
   "Agree to wait, and in the meantime give the student a journal so that she can write about her feelings in Arabic whenever she needs to",
   "Arrange for a bilingual classmate to interpret during counseling sessions so that the student can begin receiving support right away",
-  "Meet with the student herself each week to talk about her feelings, since she has the closest relationship with her of any staff member"
+  "Meet with the student herself each week to talk about her feelings, since no other staff member knows the student as well as she does"
  ],
  "answer": 0,
  "why": "ELLs are entitled to the same school services as their peers, including counseling. Language is a barrier the school must bridge, not a reason to withhold support, and persistent sadness and sleep problems need professional attention now. The ESOL teacher advocates by insisting on access through a qualified interpreter or bilingual counselor and by connecting with school-based or community mental health partners, while continuing her supportive relationship within her own role.",
@@ -460,7 +460,7 @@ QUESTIONS = [
  "stem": "An ESOL teacher works with grade 11 Long-Term ELLs who rarely ask for help, even when they are confused in class or do not receive their testing accommodations. Which approach would best build their capacity to advocate for themselves?",
  "options": [
   "Teach students about their rights and supports, then have them role-play requesting clarification, accommodations, or a counselor meeting",
-  "Handle all of the students' requests with their teachers personally so that the students do not risk embarrassment in front of their classmates",
+  "Handle the students' requests with their teachers personally so that the students do not risk embarrassment in front of their classmates",
   "Remind students often that speaking up is their responsibility, and lower their participation grades if they continue to stay silent in class",
   "Give students a printed list of their rights as English language learners, translated into their home languages, to keep in their binders"
  ],
@@ -501,7 +501,7 @@ QUESTIONS = [
   "Encourage the student to follow the counselor's advice, since working for a few years would give her time to improve her academic English",
   "Tell the student privately that the counselor is biased, and help her complete college applications without involving the counseling office",
   "Suggest that she enroll in an adult ESL program after graduation and apply to college once her writing approaches native-like proficiency",
-  "Work with the counselor to give the student full college guidance, including help with applications and financial aid and outreach to her family"
+  "Work with the counselor to give the student full college guidance, including application and financial aid help and outreach to her family"
  ],
  "answer": 3,
  "why": "Students who enter as SIFE and succeed academically deserve the same postsecondary counseling as their peers: college options, application support, financial aid information, and outreach to families in their preferred language. Low expectations from gatekeepers are a well-documented barrier for ELLs. The ESOL teacher advocates most effectively by collaborating with the counselor and sharing the student's record and strengths, so the student gets full access and counseling practice improves for future students.",
@@ -536,7 +536,7 @@ QUESTIONS = [
  "id": "6.5-13", "skill": "6.5", "type": "scenario", "difficulty": 1, "diag": 0,
  "stem": "An ESOL teacher learns that several newcomers have received detention for \"ignoring directions\" in the cafeteria, where rules are announced only orally in English over a loudspeaker. Which action best addresses the equity concern?",
  "options": [
-  "Work with administrators to post visual, multilingual rules for all, have staff model routines, and review the detentions",
+  "Work with administrators to post visual, multilingual rules, have staff model routines for everyone, and review the detentions",
   "Teach the newcomers cafeteria vocabulary in Stand-alone ENL so that they can understand the loudspeaker announcements in the future",
   "Ask that the newcomers be excused from cafeteria rules until they reach the Transitioning level and can understand the expectations",
   "Arrange for the newcomers to eat lunch in the ENL classroom, where the ESOL teacher can explain the expectations in a calmer setting"
@@ -675,7 +675,7 @@ QUESTIONS = [
  "options": [
   "Use the booklet for practice, since its items come from a previous year and students will see different items on this year's test",
   "Use the booklet only to show students the test format and directions, without letting them answer any of the actual items",
-  "Decline, explain that secure test materials may not be kept or used, alert the testing coordinator, and use NYSED's sample items",
+  "Decline, explain that secure test materials may never be kept or used, alert the testing coordinator, and use NYSED's samples",
   "Decline, and instead drill students daily with timed practice tests from commercial test-prep books throughout the spring"
  ],
  "answer": 2,
@@ -734,7 +734,7 @@ QUESTIONS = [
   "Explain to the assistant principal that Emerging students need extensive teacher input before they are ready to produce much language",
   "Increase the number of read-alouds and teacher demonstrations so that students receive more rich English input during each lesson",
   "Ask students at the end of each lesson whether they enjoyed it, and use their answers to decide which activities to keep",
-  "Record upcoming lessons, analyze talk time and question types, set a specific goal, plan structured interaction, and seek follow-up"
+  "Record upcoming lessons, analyze talk time and question types, set a specific goal, plan structured talk, and seek follow-up feedback"
  ],
  "answer": 3,
  "why": "Reflective practitioners treat feedback as data. They verify it (video or audio recording, talk-time tallies), analyze patterns (question types, wait time), set a specific goal, try new strategies (open-ended questions with sentence frames, longer wait time, partner talk), and seek follow-up feedback. Emerging students need rich input and meaningful output; Swain's Output hypothesis and Long's Interaction hypothesis explain why speaking opportunities drive acquisition.",
@@ -773,7 +773,7 @@ QUESTIONS = [
   "Continue the current pattern, since respecting students' cultural communication norms is a central principle of culturally responsive teaching",
   "Recognize that the Mandarin speakers may still be in a silent period, and give them more time to listen before expecting them to participate",
   "Tally whom she calls on for a week, ask students individually how they prefer to participate, and use structures that give everyone a turn",
-  "Call on the Mandarin-speaking students first in every discussion so that they get more speaking practice than the rest of their classmates"
+  "Call on the Mandarin-speaking students first during discussions so that they get more speaking practice than the rest of their classmates"
  ],
  "answer": 2,
  "why": "Good reflection surfaces assumptions and then tests them with evidence. The teacher's belief is a cultural generalization, and individual students vary widely. Collecting data on her own questioning pattern (a tally or seating-chart record), asking students directly, and adopting equitable participation structures (think-pair-share, response cards, structured turn-taking) turn a hunch into informed practice.",
@@ -789,7 +789,7 @@ QUESTIONS = [
  "id": "6.6-11", "skill": "6.6", "type": "scenario", "difficulty": 3, "diag": 0,
  "stem": "A vendor presents a new software program to the ESOL department, claiming that it \"guarantees\" ELLs will reach the Commanding level within one school year. Which response best reflects evidence-based professional judgment?",
  "options": [
-  "Adopt the program for all ELLs, since several neighboring districts already use it and teachers there report that their students enjoy it",
+  "Adopt the program districtwide, since several neighboring districts already use it and teachers there report that their students enjoy it",
   "Reject the program outright, since Cummins' research shows that academic language proficiency typically takes five to seven years to develop",
   "Request independent research with comparable ELL populations and, if the evidence is promising, pilot the program with clear measures",
   "Use the program in place of Integrated ENL time, since individualized software can adjust its instruction to each student's proficiency level"
@@ -881,11 +881,138 @@ QUESTIONS = [
  ],
  "key": "Gather student feedback in level-appropriate, multilingual formats so it captures students' views, not their English proficiency."
 },
-# __CONTINUE__
+
 ]
 
 LESSONS = [
-# __LESSONS__
+{
+ "skill": "6.4",
+ "title": "Collaboration, Community Partnerships & Serving as a Resource",
+ "why": "Competency 6 items put you in a hallway conversation, a team meeting, or a community partnership and ask for the most effective professional move. That is usually the one that builds other people's capacity.",
+ "body": [
+  {"h": "The big idea: you are a resource, not a rescue service",
+   "md": "The NYS Blueprint for ELL/MLL Success says **every teacher is a teacher of ELLs**, and it calls on schools to **leverage the expertise of ESOL and bilingual teachers** while growing their capacity. On the exam, the ESOL teacher's best move is usually the one that makes colleagues more skilled. It is rarely the one that quietly does the work for them or takes the ELLs away.\n\nAs you read the options, sort them into four piles:\n\n- **Builds capacity (usually the key):** co-plan, model a strategy in the colleague's own lesson, debrief with student work, gradually hand off responsibility.\n- **Does it for them (PARTIAL):** \"I'll rewrite your handouts every week.\" It's generous, but it creates dependency and can't fix lessons planned without language in mind.\n- **Hands off information (PASSIVE):** a list of websites, a packet of 50 strategies, a book to read. Information rarely changes practice by itself.\n- **Removes the student (EXCLUSION):** pull the ELLs out during the hard part of the lesson so the teacher doesn't have to change anything.\n\nThink of it as gradual release of responsibility for adults: I do (model), we do (co-plan and co-teach), you do (the colleague plans, with feedback)."},
+  {"h": "Responding to a frustrated colleague",
+   "md": "Many items open with a colleague's complaint. The best response takes the concern seriously, reframes it with evidence, and offers something concrete to do together.\n\n- **\"My ELLs won't participate.\"** Whole-class, hands-up questioning favors the fastest, most fluent speakers. Offer to co-plan structured talk: think-pair-share, partner talk with sentence frames matched to the lesson's language function, and brief home-language rehearsal before English output. Avoid answers that blame motivation (a participation grade) or misuse the silent period to excuse Emerging and Transitioning students from talking.\n- **\"English only in my lab.\"** Briefly share the research (Cummins' Common Underlying Proficiency; García's translanguaging work with CUNY-NYSIEB) and propose routines that use the home language strategically, such as planning in Arabic and writing the lab report in English. Escalating to the principal first, or limiting the home language to social chat, are weaker choices.\n- **\"I'll just give them a simpler assignment.\"** Keep the grade-level task and add scaffolds. Lowering rigor is the trap.\n\nBe ready to correct colleagues on facts, too. A student who scored Commanding is a **former ELL** who still receives two years of support (in grades K–8, 90 minutes per week of Integrated ENL or other approved services) plus testing accommodations."},
+  {"h": "Professional development that changes practice",
+   "md": "If a principal asks you to help the staff, the best plan is **sustained and job-embedded**. You model a scaffold with an upcoming lesson, teachers try it in their own classrooms, and the group debriefs with student work and refines. Coaching cycles, lesson study, and professional learning communities (PLCs) all follow this pattern.\n\nWeaker options look professional but run one way: a single after-school lecture, a shared folder of resources, an email of links. They aren't wrong, just incomplete, which makes them classic PARTIAL or PASSIVE distractors.\n\nWhen you share student data with colleagues, turn it into action. A profile that says \"Diego: Expanding, fluent in discussion, writing loosely organized\" should come with a matching scaffold (oral rehearsal plus an outline before writing). Proficiency is uneven across modalities, so one set of frames for everyone is a ONE_SIZE trap."},
+  {"h": "Teaming with specialists and staff",
+   "md": "- **MTSS and pre-referral teams:** the ESOL teacher contributes the student's English language trajectory, comparisons with **true peers** (similar language background and schooling), home-language literacy history gathered from the family, and data from a targeted, monitored intervention. Don't rush the referral, and don't invent a waiting period.\n- **Counselors, social workers, and nurses:** for a refugee newcomer who startles, misses school, or sleeps in class, convene the team and, with family consent, connect with the resettlement caseworker. That is wraparound, trauma-informed support.\n- **Bilingual paraprofessionals:** plan their role with them. A home-language preview before the lesson and support during partner talk (preview-view-review) beat concurrent translation at a back table or worksheets in the hallway. Paraprofessionals work under teacher direction.\n- **Librarians:** build bilingual and home-language collections chosen with students, families, and community members, instead of a shelf of \"ELL\" easy readers."},
+  {"h": "Community partnerships",
+   "md": "Community-based organizations (CBOs), refugee resettlement agencies, cultural and faith centers, public libraries, and adult education programs extend what a school can do. The exam rewards partnerships that are:\n\n- **Begun by listening.** With newly arrived Yemeni families, the first step is contacting a trusted Yemeni American organization to learn families' priorities and co-plan an Arabic-language welcome, not mailing an English newsletter.\n- **Reciprocal and connected to the curriculum.** For a homework-help program at a Senegalese community center, set up a two-way exchange: teachers share upcoming units and vocabulary, and tutors who speak Wolof, Pulaar, and French report what students found hard.\n- **Linguistically accurate.** Check the HLQ. A child from Guatemala may speak K'iche' at home, not Spanish, and a community partner can help find a qualified interpreter. Never rely on children to interpret.\n- **Asset-based.** Parents who want to learn English or help with homework are an asset. Connect them with adult ESL and family learning nights, and never advise English-only at home.\n- **Respectful of privacy.** Get family consent before sharing student information with outside partners."},
+  {"h": "How to pick the best answer",
+   "md": "Ask yourself:\n\n- Does this option keep the ELL in grade-level learning with peers?\n- Does it build a colleague's or partner's capacity instead of replacing it?\n- Is it collaborative and two-way, rather than a one-shot handout or announcement?\n- Does it use families' languages and community knowledge as assets?\n- Does it respond to this student's evidence, rather than a group generalization?\n\nThe option that earns the most yes answers is almost always the key."}
+ ],
+ "traps": [
+  "Exam trap: \"I'll adapt your materials for you\" sounds generous, but the best answer builds the colleague's capacity through co-planning, modeling, and gradual release.",
+  "Exam trap: Pulling ELLs out so the content teacher doesn't have to change anything is EXCLUSION dressed up as support.",
+  "Exam trap: One-shot workshops, strategy packets, and resource links are PASSIVE PD. Look for sustained, job-embedded learning tied to real lessons and student work.",
+  "Exam trap: A partnership that starts with an English flyer, a school-designed event, or a student interpreter skips the essential first step: listening to families through trusted community partners.",
+  "Exam trap: A staff handout on \"how Yemeni (or Haitian, or Afghan) families think\" is a STEREOTYPE. The best answer learns from the actual families."
+ ],
+ "terms": [
+  {"t": "Capacity building", "d": "Helping colleagues gain the skills to meet ELLs' needs themselves, rather than doing the work for them."},
+  {"t": "Job-embedded professional development", "d": "Learning built into teachers' daily work, with real lessons and students, practice, feedback, and reflection over time."},
+  {"t": "Coaching cycle", "d": "A repeated sequence of co-planning, modeling or observing, and debriefing with a teacher around a specific goal."},
+  {"t": "Lesson study", "d": "Teachers jointly plan a lesson, observe it taught, study student responses, and revise it together."},
+  {"t": "Professional learning community (PLC)", "d": "A team of educators who meet regularly to examine student work and data and improve instruction together."},
+  {"t": "Gradual release of responsibility", "d": "Moving from \"I do\" to \"we do\" to \"you do\"; applies to coaching colleagues as well as teaching students."},
+  {"t": "Community-based organization (CBO)", "d": "A local nonprofit, cultural, faith, or service group with trust and language access in a community."},
+  {"t": "Reciprocal partnership", "d": "A two-way relationship in which school and partner share information and decisions, not just school messages."},
+  {"t": "Wraparound support", "d": "Coordinated academic, health, social, and family services organized around one student's needs."},
+  {"t": "Cultural broker (liaison)", "d": "A person who bridges school and community, interpreting expectations and norms as well as language."},
+  {"t": "True peers", "d": "Students with similar language background, proficiency, and schooling; the right comparison group when considering a referral."},
+  {"t": "Preview-view-review", "d": "Preview content in the home language, teach the lesson in English, then review in the home language."},
+  {"t": "Former ELL", "d": "A student who has exited ELL status; receives two years of continued support and testing accommodations."},
+  {"t": "Blueprint: leverage expertise", "d": "Blueprint principle: schools use ESOL and bilingual teachers' expertise schoolwide while building their professional capacity."}
+ ],
+ "tip": "When a colleague or community partner is involved, choose the collaborative, capacity-building option that keeps ELLs in grade-level learning and treats families' languages as assets."
+},
+{
+ "skill": "6.5",
+ "title": "Advocacy & Equity for ELLs",
+ "why": "Competency 6 items show ELLs being quietly shut out of gifted screening, AP, credit-bearing courses, clubs, counseling, or fair discipline, and they ask for the advocate's most effective move.",
+ "body": [
+  {"h": "What advocacy looks like on this exam",
+   "md": "Advocacy means acting to secure ELLs' **equitable access** to rigorous courses, enrichment, services, and a fair school climate. Equity isn't identical treatment. It means removing the barriers that keep ELLs from opportunities their peers already have.\n\nThe best answer usually follows a professional sequence:\n\n- **Notice** the pattern (a schedule, a referral rate, a policy).\n- **Gather evidence** (transcripts, disaggregated data, specific examples).\n- **Go to the right channel** (the counselor, the scheduling team, the G&T committee, the textbook adoption committee, an administrator).\n- **Propose a concrete solution** that protects all of the student's rights.\n\nTwo kinds of options lose. **Silence or acceptance** (\"accept the schedule for now,\" \"wait until she exits\") leaves the inequity in place. **Confrontation first** (filing a complaint, publicly accusing a colleague) skips dialogue and rarely changes practice. Formal complaints exist, but they are rarely the first step in an exam answer.\n\nWhen you can, advocate on two levels: for this student **and** for the system, so the next student doesn't hit the same barrier."},
+  {"h": "Gifted programs, advanced coursework, and extracurriculars",
+   "md": "The 1970 OCR memo said ELLs may not be excluded from college-preparatory tracks and that language grouping must not become an \"educational dead end.\" The 2015 federal Dear Colleague Letter adds that ELLs must have equal opportunity to take part in gifted and talented programs, AP and IB courses, and extracurricular activities.\n\n- **Gifted screening:** If ELLs are 22% of a grade but 2% of G&T referrals, and screening relies on an English verbal test, fix the *screen*, not the students. Use multiple measures: nonverbal ability tests, performance or portfolio evidence, home-language assessment, and nominations by teachers and families who know how giftedness looks in a student still learning English. Translating one test, or waiting until students exit, are traps.\n- **AP and honors:** A policy requiring \"demonstrated English fluency\" gatekeeps by language. Support the student's enrollment with scaffolds and ask for the policy to change.\n- **A data clue:** If ELLs' state math proficiency is close to their peers' (41% vs. 52%) but their acceleration rate is far lower (3% vs. 31%), the problem is the placement criteria.\n- **Clubs and sports:** If information goes out only in English, use multilingual outreach, personal invitations, and peer ambassadors."},
+  {"h": "Placement, scheduling, and services",
+   "md": "- **Credit-bearing courses:** Newcomers with strong prior schooling don't belong in non-credit \"skills\" classes. Advocate for credit-bearing core courses with ENL support, since their content knowledge transfers from the home language.\n- **Valid placement evidence:** An English-only math placement test full of word problems measures English reading. Use transcripts and home-language or low-language-load assessments.\n- **Retention:** Limited English proficiency alone is not a sound reason to hold a student back. A newcomer who is on grade level in math and in home-language reading should be promoted, with targeted support.\n- **No trade-offs:** ELLs are entitled to their required ENL units of study **and** to core content. Don't drop ENL to make room for AP, and don't let Stand-alone ENL wipe out science labs. Bring a scheduling proposal that protects both.\n- **ELLs with disabilities:** A student with an IEP is still an ELL, entitled to both ENL services (CR Part 154) and special education services (IDEA). Coordinate them rather than choosing one."},
+  {"h": "Counseling and self-advocacy",
+   "md": "Low expectations from gatekeepers are among the most common barriers ELLs face. If a counselor tells a successful student who entered as a SIFE that college \"isn't realistic,\" work **with** the counselor so she gets full college guidance: applications, financial aid, and outreach to her family in their preferred language. Counseling access also covers well-being. A counselor who won't meet with an Arabic-speaking newcomer \"until her English improves\" should meet with her now, with a qualified interpreter, never a classmate.\n\nAlso teach students to advocate for themselves. Self-advocacy needs three things:\n\n- **Knowledge** of their supports, such as testing accommodations.\n- **Language** to ask for them: \"Could you explain what ___ means?\" \"May I use my bilingual glossary on this test?\"\n- **Rehearsal**, such as role-plays in a low-risk setting.\n\nHanding students a list of rights, or making the requests for them, doesn't build the skill."},
+  {"h": "Challenging bias in people, policies, and materials",
+   "md": "- **Colleagues:** When someone says \"those families don't value education,\" respectfully question the assumption, name likely barriers (work hours, language access, transportation), and propose solutions (flexible times, interpreters). Don't stay silent, and don't swap in a \"positive\" stereotype such as \"in their culture parents defer to teachers.\"\n- **Policies:** English-only hallway rules treat home languages as problems. That runs against the CR-SE Framework's welcoming and affirming environment and the Blueprint's call to value home language and culture. Detentions for \"ignoring\" English-only loudspeaker announcements punish language proficiency; fix the communication (visual, multilingual rules) and revisit the consequences.\n- **Materials:** If a textbook shows immigrants only in chapters on poverty and conflict, bring specific examples to the adoption committee and recommend inclusive, multi-perspective materials. That is the CR-SE principle of inclusive curriculum and assessment."},
+  {"h": "Know your legal footing",
+   "md": "Advocacy is stronger when you cite the right standard:\n\n- **Plyler v. Doe (1982):** schools may not deny K–12 enrollment because of immigration status, so they may not demand immigration documents or a Social Security number to enroll a child.\n- **Lau v. Nichols (1974):** identical instruction is not equal access. Schools must provide meaningful access, but the case did not prescribe a particular program.\n- **Castañeda v. Pickard (1981):** a program needs (1) a sound theory, (2) effective implementation with adequate resources and personnel, and (3) evaluation showing results.\n- **Title VI and the EEOA:** Title VI bans national-origin discrimination, and the EEOA requires appropriate action to overcome language barriers."}
+ ],
+ "traps": [
+  "Exam trap: \"Wait until the student exits ELL status\" (for gifted screening, AP, or clubs) sounds caring but is EXCLUSION.",
+  "Exam trap: Fixing the student instead of the system, such as vocabulary prep to pass an English-only gifted test, leaves the invalid gatekeeper in place.",
+  "Exam trap: Trading one entitlement for another (dropping ENL to fit AP, ending IEP services to fit ENL). ELLs are entitled to both.",
+  "Exam trap: Silence and confrontation-first both lose. The key pairs evidence with the right channel and a concrete solution.",
+  "Exam trap: Replacing a negative stereotype with a \"kinder\" one is still a STEREOTYPE."
+ ],
+ "terms": [
+  {"t": "Equity", "d": "Giving each student what they need to reach the same opportunities; not identical treatment."},
+  {"t": "Advocacy", "d": "Acting through appropriate channels, with evidence, to remove barriers to students' equitable access."},
+  {"t": "Gatekeeping", "d": "A criterion, such as English fluency, that screens ELLs out of opportunities without measuring what really matters."},
+  {"t": "Multiple measures", "d": "Several kinds of evidence (nonverbal, performance, home-language, nominations) used instead of a single test."},
+  {"t": "Underrepresentation", "d": "A group's share of a program is much smaller than its share of enrollment."},
+  {"t": "Disaggregated data", "d": "Data broken out by subgroup (ELLs, former ELLs, never-ELLs) to reveal patterns that averages hide."},
+  {"t": "Educational dead end", "d": "1970 OCR memo term for language grouping or tracking that keeps ELLs from the core curriculum and advancement."},
+  {"t": "Credit-bearing course", "d": "A course that counts toward graduation requirements."},
+  {"t": "Self-advocacy", "d": "A student's ability to understand and request needed supports; taught through knowledge, language frames, and rehearsal."},
+  {"t": "Deficit thinking", "d": "Blaming students' or families' language, culture, or values for outcomes actually caused by barriers."},
+  {"t": "Plyler v. Doe (1982)", "d": "Supreme Court ruling that states may not deny free public K–12 education to undocumented children."},
+  {"t": "Castañeda prong 2", "d": "An ELL program must be implemented effectively, with adequate resources and personnel."},
+  {"t": "2015 Dear Colleague Letter", "d": "Federal guidance on EL obligations, including equal access to gifted, AP/IB, and extracurricular programs."},
+  {"t": "Inclusive curriculum (CR-SE)", "d": "Materials and assessments that reflect students' identities and multiple perspectives."}
+ ],
+ "tip": "Pick the option that removes the barrier through the right channel, with evidence and a concrete fix, without making the ELL wait or give up another right."
+},
+{
+ "skill": "6.6",
+ "title": "Reflective Practice, Ethics & Professional Growth",
+ "why": "Competency 6 items ask how a professional uses evidence, feedback, and ethics to improve: revising a unit from student data, running action research, handling secure tests and confidential information, and planning professional learning.",
+ "body": [
+  {"h": "Reflection is a habit with evidence behind it",
+   "md": "Donald Schön distinguished two kinds of reflection, and the exam may test the difference:\n\n- **Reflection-in-action** is thinking on your feet. You see puzzled faces at the word *erosion*, so you pour water over sand and have partners describe what they see.\n- **Reflection-on-action** is looking back after the lesson to analyze what happened and plan changes.\n\nStrong reflection also surfaces **assumptions**. Suppose a teacher writes, \"I call on my Spanish speakers more because I assume my Mandarin speakers prefer not to talk; that's their culture.\" The reflective next step is not to keep the pattern (a stereotype) or to blame a silent period. She tests the hunch: she tallies whom she calls on, asks students individually how they like to participate, and adopts structures that give everyone a turn."},
+  {"h": "Using data to revise instruction",
+   "md": "The exam loves a stimulus with several data sources that point to one specific need. Your job is to find the **real gap**.\n\nExample: after a grade 6 unit, Transitioning students explained the Nile's effects well with partners and averaged 84% on a diagram quiz, but their written explanations were lists (\"Nile floods. Good soil. Farming.\"). The content is there; the gap is the **language of written explanation**. The best revision models and jointly constructs a cause-and-effect paragraph with connectives (*because*, *as a result*) before students write independently.\n\nThe traps in these items are predictable:\n\n- Reteaching the content (misreads the evidence).\n- Dropping the writing task (LOWER_RIGOR).\n- Isolated grammar worksheets (ISOLATED).\n\nAlso **disaggregate**. Suppose rubric averages over two years rose in listening (+1.3), speaking (+1.3), and reading (+0.9) but barely moved in writing (+0.3). That is a signal to analyze writing samples, change instruction, and seek targeted PD. Saying \"all scores went up\" is a LITERAL misreading, and \"writing just develops last\" misuses theory to excuse a plateau.\n\nUse more than one data source: student work, observation, student feedback, and assessments. Checking one source against another is called **triangulation**."},
+  {"h": "Action research, step by step",
+   "md": "Action research is systematic inquiry into your own classroom:\n\n- **1. Focused question:** \"Do daily dialogue journals increase the writing fluency of my grade 6 Emerging students?\"\n- **2. Plan data collection:** define the measure (words per entry, a fluency rubric) and collect **baseline** data *before* starting.\n- **3. Implement** the strategy.\n- **4. Collect and analyze** the data, ideally from several sources.\n- **5. Reflect, adjust, and share** with colleagues.\n\nIf an item asks what comes after writing the research question, the answer is to define measures and gather baseline data. The distractors (\"judge by my impressions,\" \"read studies and adopt,\" \"compare my NYSESLAT results with another class\") are subjective, not based on her own classroom, or compare groups that aren't equivalent."},
+  {"h": "Feedback, PD, and professional organizations",
+   "md": "- **Observation feedback is data.** If an observer notes 80% teacher talk, yes/no questions, and wait time under two seconds, don't explain it away (\"Emerging students need input first\"). Record lessons, analyze talk time and question types, set a specific goal, plan structured interaction, and invite a follow-up observation.\n- **Lasting growth** comes from sustained, collaborative, classroom-embedded learning with feedback: peer observation cycles, lesson study, coaching, and critical friends groups. Conferences, books, and videos are useful inputs but rarely enough on their own.\n- **Student voice counts.** For Entering and Emerging students, gather it with picture surveys, simple rating scales, and comments in the home language.\n- **CTLE:** professional certificate holders complete **175 hours every 5 years**. Certified ESOL and bilingual teachers must devote at least **50%** of them to language acquisition and ELL needs; all other teachers, at least **15%**.\n- **Organizations:** **TESOL International Association** serves English language teaching, and **NYS TESOL** is its New York affiliate. **NABE** (National Association for Bilingual Education) serves bilingual education. ACTFL serves world language teachers, and NCTE serves English/ELA teachers.\n- **New populations:** before Pashto- and Dari-speaking students arrive, learn about their languages and schooling histories from families, community organizations, and professional resources, not from generic culture overviews."},
+  {"h": "Ethics you must know",
+   "md": "- **Test security:** NYSESLAT materials are secure. A booklet kept from last year cannot be used for practice, not even to show the format. Decline, alert the testing coordinator, and use NYSED's published sample materials.\n- **Confidentiality:** Students' disclosures (in dialogue journals, for example) and immigration status stay private. Status has no bearing on enrollment (Plyler v. Doe), and schools don't verify or report it. Respond to the student's well-being, for example with a counselor check-in, not to a colleague's curiosity.\n- **Limits of competence:** An intermediate French speaker shouldn't interpret at a CSE meeting. Request a qualified interpreter and take part in your own professional role.\n- **Evidence-based judgment:** When a vendor \"guarantees\" Commanding in one year, don't adopt the program on testimonials, and don't reject it by reflex. Ask for independent evidence with similar ELLs and pilot it with clear measures. Software can't replace required ENL instruction."}
+ ],
+ "traps": [
+  "Exam trap: Reteaching content when the evidence shows a language gap (or the reverse). Read every data source to locate the real need.",
+  "Exam trap: Explaining feedback away with theory (\"Emerging students need input first\"). The reflective response verifies the feedback with data and changes practice.",
+  "Exam trap: Mixing up reflection-in-action (during the lesson) and reflection-on-action (after the lesson).",
+  "Exam trap: An old NYSESLAT booklet is still a secure test. Using it, even just to show the format, is a breach.",
+  "Exam trap: CTLE percentages. It is 50% for ESOL and bilingual teachers and 15% for everyone else, out of 175 hours every 5 years."
+ ],
+ "terms": [
+  {"t": "Reflection-in-action", "d": "Schön: noticing and adjusting instruction during the lesson."},
+  {"t": "Reflection-on-action", "d": "Schön: analyzing a lesson after it ends to plan improvements."},
+  {"t": "Action research", "d": "Systematic teacher inquiry: a focused question, baseline data, implementation, analysis, then reflection and adjustment."},
+  {"t": "Baseline data", "d": "Measurements collected before a change, so that growth can be compared."},
+  {"t": "Triangulation", "d": "Checking a conclusion against several data sources (student work, observation, assessment, student voice)."},
+  {"t": "Disaggregation", "d": "Breaking data out by modality or subgroup to reveal patterns hidden in overall averages."},
+  {"t": "Lesson study", "d": "Teachers co-plan, observe, and revise a lesson together, focusing on student learning."},
+  {"t": "Peer observation cycle", "d": "Colleagues observe each other with shared look-fors, then debrief and set next steps."},
+  {"t": "Critical friends group", "d": "A structured group of colleagues who give feedback on each other's practice and student work."},
+  {"t": "CTLE", "d": "Continuing Teacher and Leader Education: 175 hours per 5 years; at least 50% ELL-focused for ESOL and bilingual teachers."},
+  {"t": "TESOL International Association", "d": "Global organization for English language teaching professionals; NYS TESOL is its New York affiliate."},
+  {"t": "NABE", "d": "National Association for Bilingual Education: advocacy, research, and professional learning for bilingual education."},
+  {"t": "Test security", "d": "Rules requiring that secure assessments such as the NYSESLAT are never kept, copied, or used for practice."},
+  {"t": "Confidentiality", "d": "Protecting students' personal information, records (FERPA), and disclosures, including immigration status."},
+  {"t": "Evidence-based practice", "d": "Choosing methods supported by independent research and verified with your own students' data."}
+ ],
+ "tip": "For reflection and ethics items, pick the option that tests assumptions with data, answers feedback with a specific plan, and protects students' rights and privacy."
+},
 ]
 
 import json, pathlib

@@ -775,4 +775,870 @@ This will work because when students read books at their level, they understand 
     ],
 ))
 
-# @@APPEND@@
+# ===========================================================================
+# CR skill-builder questions (7.1–7.4), 8 per skill
+# ===========================================================================
+QUESTIONS = [
+    # ---------------- 7.1 Identifying significant strengths ----------------
+    dict(
+        id="7.1-01", skill="7.1", type="analysis", difficulty=1, diag=0,
+        stimulus=T("""
+Grade 3 ELL (Transitioning), personal narrative:
+First my famly and me went to Coney Island. Next we rode the Cyclone and my sister scream very loud. After that we ate hot dogs on the boardwalk. Finally we watch the fireworks and I felt happy and tired. It was the best day of the summer.
+"""),
+        stem="Which of the following is the most significant strength in this student's writing that a teacher could build on?",
+        options=[
+            "Consistent control of regular past-tense endings such as -ed throughout the whole piece",
+            "Correct capitalization of place names such as Coney Island and the Cyclone",
+            "Clear chronological organization signaled by sequence words and a closing sentence",
+            "A willingness to write about personal experiences from outside of school",
+        ],
+        answer=2,
+        why="The narrative moves in clear time order (First, Next, After that, Finally) and ends with a concluding sentence. Text organization is a significant, transferable writing skill that a teacher can build on, for example by adding detail or more varied transitions. On the CR, state strengths as language or literacy skills supported by evidence.",
+        traps=[
+            {"code": "LITERAL", "note": "Irregular past forms are correct (went, rode, ate), but regular endings are missing in 'scream' and 'watch,' so this is not a strength."},
+            {"code": "PARTIAL", "note": "The capitalization is accurate, but it is a minor surface feature, not a significant skill to build instruction on."},
+            None,
+            {"code": "PARTIAL", "note": "Willingness is a disposition, not a language or literacy skill. CR strengths should be stated as skills shown in the evidence."},
+        ],
+        key="State strengths as specific language or literacy skills visible in the evidence, not dispositions or minor surface features.",
+    ),
+    dict(
+        id="7.1-02", skill="7.1", type="analysis", difficulty=1, diag=0,
+        stimulus=T("""
+Grade 6 ELL, Spanish, 2 years in U.S. schools
+NYSESLAT (spring): Listening, Expanding; Speaking, Expanding; Reading, Emerging; Writing, Emerging
+Teacher note: Retells read-alouds in detail and explains her math reasoning aloud to her group; avoids independent reading.
+"""),
+        stem="Which of the following is the most significant strength the teacher could build on for this student?",
+        options=[
+            "Oral language: she understands spoken English well and explains her ideas aloud",
+            "Independent reading habits that support her comprehension of grade-level texts",
+            "Mathematical problem solving that is well above grade-level expectations",
+            "Balanced proficiency across all four modalities, as shown by her NYSESLAT results",
+        ],
+        answer=0,
+        why="Listening and Speaking are both Expanding, and the teacher sees detailed retellings and clear oral explanations, while Reading and Writing are Emerging. Her oral language is the significant strength, and it can be used to reach the literacy need, for example through oral rehearsal before writing or discussion before reading. NYSESLAT modality patterns often point to the strength (highest modality) and the need (lowest).",
+        traps=[
+            None,
+            {"code": "LITERAL", "note": "The note says she avoids independent reading, and her Reading level is Emerging. This option contradicts the evidence."},
+            {"code": "PARTIAL", "note": "She explains math reasoning aloud, but nothing shows above-grade-level math. The strength to build on is the oral language she uses to explain it."},
+            {"code": "LITERAL", "note": "Her scores show a clear gap (Expanding oral skills, Emerging literacy), not balance."},
+        ],
+        key="Compare NYSESLAT modalities: the highest often signals the strength to build on, and the lowest signals the need.",
+    ),
+    dict(
+        id="7.1-03", skill="7.1", type="analysis", difficulty=2, diag=1,
+        stimulus=T("""
+Grade 7 Integrated ENL science, small-group talk (two Spanish-speaking ELLs)
+Luis: The water goes up, like, it disappears?
+Marisol: No, no desaparece. It's evaporación, evaporation. The sun heats it and it changes to gas, vapor de agua. Then up high it gets cold and makes drops again. Condensation, condensación. That's the clouds.
+Luis: Ah, okay, so it comes back as rain.
+Marisol: Yes. Precipitation.
+"""),
+        stem="Which of the following is the most significant strength Marisol shows that the teacher could build on?",
+        options=[
+            "Her accurate pronunciation of multisyllabic English science terms",
+            "Her readiness to stop using Spanish now that she knows the English terms",
+            "Her patience and leadership in helping a classmate who becomes confused",
+            "Her understanding of the water cycle and strategic use of cognates to explain it",
+        ],
+        answer=3,
+        why="Marisol explains the whole water cycle accurately and moves between Spanish and English (evaporación/evaporation, condensación/condensation) to clarify meaning for Luis. That shows both content understanding and strategic translanguaging with cognates, which a teacher can build on with cognate charts and bilingual explanations that lead to English academic writing. Using two languages strategically is an asset, not a deficit.",
+        traps=[
+            {"code": "LITERAL", "note": "A written transcript can't show pronunciation. This latches onto a surface detail instead of what she actually demonstrates."},
+            {"code": "DEFICIT", "note": "Treating Spanish as something to drop treats the home language as a crutch. Her use of both languages is a strength."},
+            {"code": "PARTIAL", "note": "She is helpful, but that is a social trait. The CR asks for a strength related to language and literacy development."},
+            None,
+        ],
+        key="Strategic use of the home language and cognates to explain content is a strength (translanguaging), not evidence of weak English.",
+    ),
+    dict(
+        id="7.1-04", skill="7.1", type="analysis", difficulty=2, diag=0,
+        stimulus=T("""
+Student | Home language | Years in U.S. schools | Evidence from the exhibits
+Ahmed | Arabic | 2 | Reads Arabic at grade level; summarizes read-alouds accurately; neat handwriting
+Mei | Mandarin | 1 | Strong Chinese literacy; summarizes read-alouds accurately; top math scores
+Rosa | Spanish | 3 | Little prior schooling; summarizes read-alouds accurately; enthusiastic in class
+"""),
+        stem="A constructed-response prompt asks for one significant strength that all three students share. Which strength is best supported by the evidence?",
+        options=[
+            "Grade-level home-language literacy that can transfer to English reading",
+            "Listening comprehension of grade-level texts that are read aloud",
+            "Mathematical reasoning that can anchor academic vocabulary instruction",
+            "Enthusiasm and a positive attitude toward learning English in class",
+        ],
+        answer=1,
+        why="Only one strength appears for all three students: each summarizes read-alouds accurately, which shows listening comprehension of grade-level text. When a prompt says 'that the students share,' list each student's evidence beside the candidate strength. If one student has no evidence, the strength doesn't qualify. Home-language literacy is a real asset for two students, but not a shared one.",
+        traps=[
+            {"code": "PARTIAL", "note": "This is true for Ahmed and Mei, but Rosa had little prior schooling, so it isn't shared."},
+            None,
+            {"code": "LITERAL", "note": "Only Mei's top math scores are mentioned. This latches onto one student's detail."},
+            {"code": "PARTIAL", "note": "Enthusiasm is noted only for Rosa, and it is a disposition rather than a language skill."},
+        ],
+        key="A shared strength must have evidence for every student; check each name before you commit.",
+    ),
+    dict(
+        id="7.1-05", skill="7.1", type="analysis", difficulty=2, diag=2,
+        stimulus=T("""
+Grade 10 ELL, Karen home language; SIFE; 6 months in U.S. schools; NYSITELL: Entering
+Prior schooling: about 3 years at a school in a refugee camp in Thailand
+Teacher notes: Reads a few English sight words. Through a Karen-speaking peer, she explained to the class how her family grew vegetables in the camp, including how far apart to plant seedlings and when to water. During a math warm-up, she correctly estimated the area of the school garden plot in square meters.
+"""),
+        stem="Which of the following is the most significant strength the ENL teacher could build on in planning literacy instruction for this student?",
+        options=[
+            "Her knowledge of a few English sight words, which shows she is ready for grade-level novels",
+            "Her familiarity with U.S.-style school routines from her years of camp schooling",
+            "Her practical knowledge of gardening and measurement, which she can explain orally",
+            "Her reliance on a Karen-speaking peer, which shows strong social and collaborative skills",
+        ],
+        answer=2,
+        why="Her detailed explanation of gardening and her accurate area estimate show funds of knowledge (Moll): real-world expertise she can talk about. A teacher can build literacy on it, for example through Language Experience Approach texts about gardening, which give her comprehensible, meaningful material for learning to read. For SIFE, background knowledge from work and family life is often the most powerful strength in the exhibits.",
+        traps=[
+            {"code": "WRONG_LEVEL", "note": "A few sight words is an emerging skill. Treating it as readiness for grade-level novels mismatches her current literacy level."},
+            {"code": "LITERAL", "note": "Nothing in the notes says her camp school resembled U.S. routines. This assumes facts not in evidence."},
+            None,
+            {"code": "PARTIAL", "note": "Working through a peer shows resourcefulness, but it is a social behavior, not the literacy-related strength the task asks for."},
+        ],
+        key="For SIFE, look for funds of knowledge (work, family, or community expertise) as a strength to build literacy on.",
+    ),
+    dict(
+        id="7.1-06", skill="7.1", type="analysis", difficulty=1, diag=0,
+        stimulus=T("""
+Grade 2 ELL, Haitian Creole, reading a level-appropriate text aloud
+Text: The little dog ran to the park.
+Student: The little dog run... ran to the... the park.
+Text: He saw a big red ball.
+Student: He saw a big... bag... no, ball. Red ball.
+Summary: accuracy 94%; self-correction rate 1:2; retold the main events in order.
+"""),
+        stem="Which reading strength does this record most clearly show?",
+        options=[
+            "Fluent, expressive phrasing throughout the passage",
+            "Accurate decoding of every word on the first attempt",
+            "Inferential comprehension of the story's central theme and message",
+            "Self-monitoring: noticing when a word doesn't fit and fixing it",
+        ],
+        answer=3,
+        why="He self-corrects 'run' to 'ran' and 'bag' to 'ball,' and a 1:2 self-correction rate means he fixes about one of every two errors he makes. That is self-monitoring: checking that the reading looks right and makes sense. It is a significant strength that a teacher can build on by teaching more fix-up strategies.",
+        traps=[
+            {"code": "LITERAL", "note": "The pauses and repetitions ('to the... the park') show that the reading is not yet fluent or expressive."},
+            {"code": "LITERAL", "note": "He misread 'ran' and 'ball' at first. The strength is that he caught and fixed those errors."},
+            {"code": "PARTIAL", "note": "He retold the main events, which shows literal comprehension, but nothing shows inference about theme. Self-correction is the clearer pattern."},
+            None,
+        ],
+        key="A high self-correction rate signals self-monitoring, a strength to build on with explicit fix-up strategies.",
+    ),
+    dict(
+        id="7.1-07", skill="7.1", type="analysis", difficulty=3, diag=0,
+        stimulus=T("""
+Grade 10 ELL, Spanish; in U.S. schools since kindergarten (Long-Term ELL); NYSESLAT: Speaking, Commanding; Writing, Transitioning
+Class debate excerpt:
+Student: Okay, so I get what you're saying about the cost, but think about it. If the city doesn't fix the subway now, it's gonna cost way more later. That's literally what the article said about the old bridge upstate. So your point actually helps my side.
+"""),
+        stem="Which statement of this student's strength would be most useful for planning instruction in written argument?",
+        options=[
+            "Conversational fluency (BICS) developed through years of social interaction in English",
+            "Oral argumentation: conceding a point, rebutting it, and citing a text as evidence",
+            "Command of formal academic vocabulary and register in spoken English",
+            "A confident, persuasive personality that engages peers during debates",
+        ],
+        answer=1,
+        why="The student concedes ('I get what you're saying'), rebuts ('it's gonna cost way more later'), cites a source ('what the article said'), and turns the opponent's point into support. These are academic argument functions, and they map directly onto the parts of a written argument (claim, counterclaim, evidence, reasoning). Stating the strength this precisely points straight to a strategy, such as turning a discussion transcript into a formal paragraph.",
+        traps=[
+            {"code": "TERM", "pair": "BICS ↔ CALP", "note": "Calling this social fluency (BICS) undersells it. Conceding, rebutting, and citing evidence are academic language functions that map onto written argument."},
+            None,
+            {"code": "LITERAL", "note": "'Gonna' and 'literally' show an informal register. The strength is the argument structure, not formal vocabulary."},
+            {"code": "PARTIAL", "note": "Confidence may be real, but it describes personality, not a language skill a writing strategy can build on."},
+        ],
+        key="State strengths precisely, as specific language functions, so they point directly to a strategy.",
+    ),
+    dict(
+        id="7.1-08", skill="7.1", type="analysis", difficulty=3, diag=0,
+        stimulus=T("""
+Grade 4 Dual Language ELL, Spanish home language
+Spanish opinion piece (excerpt): Creo que los perros son las mejores mascotas. Primero, son leales. Por ejemplo, mi perra Luna me espera en la puerta todos los días. Segundo, nos ayudan a hacer ejercicio. En conclusión, los perros son los mejores amigos.
+English opinion piece (excerpt): I think cats is the best pets. First, they are very clean. For example my cat Tito wash himself all the days. Second they dont need walks so they are good for familys that work. In conclusion cats are the better pets.
+"""),
+        stem="Which of the following is the most significant strength to build on in this student's English writing?",
+        options=[
+            "Transfer of opinion-essay structure (claim, reasons, example, conclusion) from Spanish",
+            "Accurate subject–verb agreement in English, carried over from her Spanish writing",
+            "Use of a personal example to support a reason, which makes the opinion convincing",
+            "Keeping Spanish words out of her English writing, which shows the languages are separate",
+        ],
+        answer=0,
+        why="Both pieces follow the same opinion structure: a claim, reasons marked First and Second, a supporting example, and a conclusion. That is positive transfer of literacy skills from Spanish (Cummins' Common Underlying Proficiency), and it is the most significant strength because it frames the whole piece. A teacher can build on it, for example by using her Spanish piece to plan English reasons and transitions.",
+        traps=[
+            None,
+            {"code": "LITERAL", "note": "'Cats is' and 'Tito wash' show that subject–verb agreement is still developing in English."},
+            {"code": "PARTIAL", "note": "The personal example is real and effective, but it is one piece of the larger strength: the whole opinion structure transferred from Spanish."},
+            {"code": "DEFICIT", "note": "Treating the absence of Spanish as the strength implies the home language contaminates English. The key strength is the transferred structure."},
+        ],
+        key="Look for writing structures that transfer from the home language to English; they reflect Common Underlying Proficiency.",
+    ),
+
+    # ---------------- 7.2 Identifying significant needs ----------------
+    dict(
+        id="7.2-01", skill="7.2", type="analysis", difficulty=1, diag=0,
+        stimulus=T("""
+Grade 4 ELL, Mandarin, Emerging
+Journal entry: Yesterday I go park. Play ball with brother. Is fun. Then home, eat dinner.
+"""),
+        stem="Which of the following is the most significant need shown in this writing sample?",
+        options=[
+            "Spelling common one- and two-syllable words accurately",
+            "Adding figurative language to make the writing more vivid",
+            "Organizing the events of the day into a clear beginning, middle, and end",
+            "Producing complete sentences with subjects and past-tense verbs",
+        ],
+        answer=3,
+        why="Most sentences lack a subject ('Play ball,' 'Is fun') or a verb ('Then home'), and past events use the base form ('I go'). Mandarin does not mark tense on verbs and allows subjects to be dropped when they are clear from context, so these patterns are expected. Building complete sentences with subjects and past-tense verbs is the most significant need.",
+        traps=[
+            {"code": "LITERAL", "note": "Every word in the sample is spelled correctly. Spelling is not the issue."},
+            {"code": "WRONG_LEVEL", "note": "Figurative language is not a priority for an Emerging writer whose sentences lack subjects and verbs."},
+            {"code": "LITERAL", "note": "The entry already follows time order (Yesterday... Then). Organization is not the gap."},
+            None,
+        ],
+        key="Prioritize the need that most limits meaning; for Emerging writers this is often sentence-level structure.",
+    ),
+    dict(
+        id="7.2-02", skill="7.2", type="analysis", difficulty=1, diag=0,
+        stimulus=T("""
+Grade 5 ELL, Bengali, Transitioning
+Running record on a grade-level text: accuracy 98%; 112 words per minute; retelling: 2 of 6 key ideas
+Student comment: I can read all the words, but I don't know what some of them mean, like migrate and temporary.
+"""),
+        stem="Based on this evidence, which need should the teacher prioritize?",
+        options=[
+            "Decoding multisyllabic words with greater accuracy",
+            "Building academic vocabulary knowledge to support comprehension",
+            "Increasing reading rate through repeated timed readings",
+            "A special education evaluation, since comprehension lags behind decoding",
+        ],
+        answer=1,
+        why="She decodes accurately and at a good rate, but her retelling captures only 2 of 6 key ideas, and she names unknown words (migrate, temporary). The need is academic (Tier 2) vocabulary, which limits comprehension. Accurate decoding with weak comprehension is a common ELL profile and calls for vocabulary instruction, not more decoding practice.",
+        traps=[
+            {"code": "LITERAL", "note": "98% accuracy shows decoding is a strength, not a need."},
+            None,
+            {"code": "LITERAL", "note": "112 words per minute shows that rate is not the problem. This fixates on a number instead of the key evidence."},
+            {"code": "MISREFERRAL", "note": "A vocabulary gap in a Transitioning ELL is typical second-language development, not evidence of a disability."},
+        ],
+        key="Accurate decoding plus weak retelling usually points to a vocabulary and language need, not a decoding need.",
+    ),
+    dict(
+        id="7.2-03", skill="7.2", type="analysis", difficulty=2, diag=1,
+        stimulus=T("""
+Student | Response to: Why did the author include the map?
+Ana (Spanish) | The map is nice. It shows the river and the mountains and the city.
+Dmitri (Russian) | Author put map. Map show where is river and mountains.
+Farah (Urdu) | In the map there is river, mountain and city also. Is very colorful.
+"""),
+        stem="Which need do all three students share that is most significant for this task?",
+        options=[
+            "Explaining the author's purpose rather than describing what the map shows",
+            "Using the articles 'a' and 'the' correctly before singular nouns",
+            "Forming direct questions with correct English word order",
+            "Adding more descriptive adjectives to their sentences about the map",
+        ],
+        answer=0,
+        why="The question asks why the author included the map, but all three describe what the map shows. The shared, significant need is explaining the author's purpose, an academic language function (e.g., 'The author included the map to help readers see...'). Article errors are real for two students, but they are neither shared nor central to the task.",
+        traps=[
+            None,
+            {"code": "PARTIAL", "note": "Dmitri and Farah omit articles (Russian and Urdu have no articles), but Ana uses them correctly, so this need isn't shared."},
+            {"code": "LITERAL", "note": "No one is asking a question. 'Where is river' is an embedded clause, and it appears only in Dmitri's response."},
+            {"code": "LITERAL", "note": "More description would move them further from the task. They need to explain purpose, not describe."},
+        ],
+        key="A shared need must appear in every student's evidence and matter for the task, not just be the most visible error.",
+    ),
+    dict(
+        id="7.2-04", skill="7.2", type="scenario", difficulty=2, diag=0,
+        stimulus=T("""
+Grade 3 ELL, Pashto, 11 months in U.S. schools, Emerging
+Home-language literacy: reads and writes Pashto at about grade level (confirmed with an interpreter)
+English: knows 30 sight words; decodes consonant-vowel-consonant words slowly; retells read-alouds accurately in Pashto and in simple English
+Classroom teacher: He's still not reading English after almost a year. Should we refer him for special education?
+"""),
+        stem="Which statement most accurately identifies this student's primary need?",
+        options=[
+            "A special education evaluation, because slow English decoding after a year suggests a reading disability",
+            "Intensive oral English practice, with English reading postponed until he speaks English more fluently",
+            "Explicit instruction in English decoding and print conventions that builds on his Pashto literacy",
+            "More English reading at home in place of Pashto reading, so that he gets additional English practice",
+        ],
+        answer=2,
+        why="He reads at grade level in Pashto, so he already understands how reading works. What is new is English letter–sound correspondences and left-to-right print (Pashto uses an Arabic-based script written right to left). His need is explicit English decoding instruction that builds on that foundation. Nothing in the evidence suggests a disability; his oral comprehension is strong in both languages.",
+        traps=[
+            {"code": "MISREFERRAL", "note": "Grade-level Pashto literacy and accurate retellings show strong underlying ability. Slow English decoding after 11 months is typical second-language development."},
+            {"code": "EXCLUSION", "note": "Postponing reading until oral fluency develops withholds literacy instruction he is ready for, given his home-language literacy."},
+            None,
+            {"code": "DEFICIT", "note": "Replacing Pashto reading discards the literacy foundation that supports English through transfer."},
+        ],
+        key="Strong home-language literacy with slow early English decoding signals a second-language decoding need, not a disability.",
+    ),
+    dict(
+        id="7.2-05", skill="7.2", type="analysis", difficulty=2, diag=2,
+        stimulus=T("""
+Grade 8 Integrated ENL science; Expanding ELL, Polish home language; oral explanation of photosynthesis:
+So the plant, it takes the light from the sun and the air stuff, the CO2, and the water from the roots, and it makes, like, food for itself, sugar, and then it gives out the oxygen thing.
+"""),
+        stem="Which of the following best describes this student's most significant need?",
+        options=[
+            "Understanding the basic inputs and outputs of photosynthesis",
+            "Using precise disciplinary vocabulary and structures to explain the process",
+            "Pronouncing multisyllabic scientific terms such as 'photosynthesis' clearly",
+            "Relying less on Polish when he discusses science content in class",
+        ],
+        answer=1,
+        why="The science is right, but the language is everyday: 'the air stuff,' 'gives out the oxygen thing,' 'makes, like, food.' His need is academic language, meaning precise terms (absorbs, carbon dioxide, glucose, releases) and structures such as 'Plants use light energy to convert...'. This is a CALP need, not a content gap.",
+        traps=[
+            {"code": "LITERAL", "note": "He correctly names light, carbon dioxide, water, sugar, and oxygen. He understands the concept."},
+            None,
+            {"code": "LITERAL", "note": "Nothing in the evidence concerns pronunciation. This invents a problem the transcript doesn't show."},
+            {"code": "DEFICIT", "note": "He doesn't use Polish here, and treating the home language as something to reduce is a deficit view."},
+        ],
+        key="When the concept is right but the wording is everyday, the need is academic (disciplinary) language, not content.",
+    ),
+    dict(
+        id="7.2-06", skill="7.2", type="analysis", difficulty=1, diag=0,
+        stimulus=T("""
+Grade 11 ELL; Mixteco and Spanish; SIFE; 3 months in U.S. schools; Entering
+Prior schooling: 2 years of primary school in Oaxaca, Mexico
+Home-language literacy: recognizes some Spanish letters; does not yet read connected text
+Observations: speaks Spanish fluently and some Mixteco; participates eagerly in oral activities; has worked in construction with his uncle
+"""),
+        stem="Which need is most significant for this student's literacy instruction?",
+        options=[
+            "Analyzing complex sentence structures in grade-level novels",
+            "Learning U.S. holidays and customs before academic work begins",
+            "Building his conversational Spanish so that it can support English learning",
+            "Foundational literacy: print concepts, letter sounds, and decoding",
+        ],
+        answer=3,
+        why="With two years of schooling and no connected reading in any language, his most significant need is foundational literacy, taught with age-respectful materials. His fluent oral Spanish and work experience are strengths to build on, for example through Language Experience Approach texts about construction. SIFE need foundational literacy alongside, not instead of, meaningful content.",
+        traps=[
+            {"code": "WRONG_LEVEL", "note": "Analyzing complex syntax in novels assumes reading skills he hasn't developed yet."},
+            {"code": "PARTIAL", "note": "Cultural orientation can help newcomers, but it isn't a literacy need, and academic work shouldn't wait for it."},
+            {"code": "LITERAL", "note": "He already speaks Spanish fluently. That is a strength, not a need."},
+            None,
+        ],
+        key="For SIFE with limited literacy in any language, the priority need is foundational literacy taught with age-appropriate materials.",
+    ),
+    dict(
+        id="7.2-07", skill="7.2", type="analysis", difficulty=3, diag=0,
+        stimulus=T("""
+Grade 3 Dual Language ELL, Spanish home language, Transitioning
+Spanish narrative: Ayer fuimos a la playa. Mi hermano encontró un cangrejo y lo puso en un balde.
+English narrative: Yesterday we go to the beach. My brother find a crab and he put it in a bucket.
+Teacher note: Reads English past-tense verbs correctly; explains that she wrote 'fuimos' because it already happened.
+"""),
+        stem="Which statement most accurately identifies this student's need and its likely source?",
+        options=[
+            "English past-tense forms; a developmental pattern, since she controls the past in Spanish",
+            "English past-tense forms; negative transfer, since Spanish does not mark past tense on verbs",
+            "The concept of past time, which she has not yet developed in either of her languages",
+            "English past-tense forms; a possible language disability, since the errors appear in every sentence",
+        ],
+        answer=0,
+        why="She uses the Spanish preterite accurately and can explain why, so she understands past time. What she hasn't acquired is the English forms (went, found). Leaving verbs in the base form is a common developmental interlanguage pattern, not negative transfer, since Spanish marks past tense. Identifying the source correctly matters, because it points to a strategy that uses her Spanish as a resource (a cross-linguistic bridge) rather than suppressing it.",
+        traps=[
+            None,
+            {"code": "MISAPPLIED_THEORY", "note": "Spanish marks past tense clearly (fuimos, encontró, puso), so Contrastive Analysis would not predict this error. It is developmental."},
+            {"code": "LITERAL", "note": "She uses Spanish past forms accurately and explains that the events already happened, so she understands past time."},
+            {"code": "MISREFERRAL", "note": "Unmarked past tense is a typical interlanguage stage for ELLs, not evidence of a disability."},
+        ],
+        key="Before blaming transfer, check whether the home language actually lacks the feature; many errors are developmental.",
+    ),
+    dict(
+        id="7.2-08", skill="7.2", type="analysis", difficulty=3, diag=0,
+        stimulus=T("""
+Grade 8 ELL, Russian, Expanding; argument essay excerpt:
+Schools should start later in the morning. Teenagers need more sleep. Article says that 70 percent of students sleep less than eight hours. Also, many students take bus at 6:30. In conclusion, schools should start later.
+Rubric (1–4): Claim 3; Evidence 3; Reasoning (explains how evidence supports the claim) 1; Conventions 2
+"""),
+        stem="Which need is most significant to address first in this student's argument writing?",
+        options=[
+            "Using articles correctly, as in 'The article says' and 'take the bus'",
+            "Adding more statistics so that the evidence is stronger and more varied",
+            "Explaining how each piece of evidence supports the claim",
+            "Acknowledging and responding to an opposing claim",
+        ],
+        answer=2,
+        why="The essay lists facts after the claim but never explains how they support it (for example, 'Because 70 percent sleep less than eight hours, a later start would...'). The rubric confirms that reasoning (1) is the weakest criterion. Article errors are frequent but local, and they don't block meaning. Prioritize the need that most limits the purpose of the task.",
+        traps=[
+            {"code": "PARTIAL", "note": "Article errors are common for Russian speakers (Russian has no articles), but they don't block meaning, and reasoning is the weakest criterion."},
+            {"code": "LITERAL", "note": "Evidence already scores 3. Adding more facts without explanation would repeat the real problem."},
+            None,
+            {"code": "PARTIAL", "note": "Addressing counterclaims is a grade 8 expectation, but reasoning is the weakest area, and a counterclaim also depends on reasoning."},
+        ],
+        key="Prioritize global needs that limit the task's purpose (e.g., reasoning) over frequent local errors that don't block meaning.",
+    ),
+
+    # ---------------- 7.3 Selecting a strategy ----------------
+    dict(
+        id="7.3-01", skill="7.3", type="scenario", difficulty=1, diag=0,
+        stimulus="Grade 2 ELLs (Transitioning) tell detailed, well-sequenced stories about their weekends during morning meeting. Their written stories are only one or two sentences long.",
+        stem="Which strategy would best build on the students' strength to address their need?",
+        options=[
+            "Having students copy a model story from the board to practice sentence structure",
+            "Having partners tell their stories aloud, sketch each part, and then write from the sketches",
+            "Assigning daily grammar worksheets on sentence structure before any story writing",
+            "Reducing the writing requirement to a single sentence so that every student experiences success",
+        ],
+        answer=1,
+        why="Telling the story aloud uses the students' oral strength, and sketching each part creates a plan that keeps the detail and sequence they already produce orally. Writing from the sketches bridges oral to written language. This talk-to-write sequence gives pushed output and a scaffold that can later be removed.",
+        traps=[
+            {"code": "PASSIVE", "note": "Copying is passive. Students produce none of their own language and don't use their storytelling strength."},
+            None,
+            {"code": "ISOLATED", "note": "Decontextualized worksheets separate grammar from meaningful writing and ignore the oral strength."},
+            {"code": "LOWER_RIGOR", "note": "Shrinking the task lowers expectations instead of scaffolding students toward fuller writing."},
+        ],
+        key="Bridge an oral strength to a writing need with talk-to-write: rehearse aloud, plan visually, then write.",
+    ),
+    dict(
+        id="7.3-02", skill="7.3", type="scenario", difficulty=2, diag=1,
+        stimulus="Grade 6 Integrated ENL science. Three Spanish-speaking ELLs (Transitioning) had strong schooling in Spanish, read science texts in Spanish at grade level, and explain concepts well in Spanish. On English unit quizzes, they miss items containing words such as evaporation, transparent, and conclusion.",
+        stem="Which instructional strategy would best build on the students' strength to address their need?",
+        options=[
+            "Requiring English-only discussion during science so the students stop translating everything in their heads",
+            "Assigning lists of English science definitions to memorize for weekly vocabulary quizzes",
+            "Teaching students to find Spanish–English cognates in science texts and record them on a bilingual chart",
+            "Providing simplified English summaries of each unit that leave out technical vocabulary",
+        ],
+        answer=2,
+        why="Academic English vocabulary in science is largely Latin-based, so many terms have Spanish cognates (evaporación, transparente, conclusión). Because these students already know the concepts and words in Spanish, cognate study turns their home-language literacy into immediate English vocabulary. This reflects Cummins' Common Underlying Proficiency and positive transfer.",
+        traps=[
+            {"code": "DEFICIT", "note": "Banning Spanish discards the strong literacy and content knowledge that are the students' greatest asset."},
+            {"code": "ISOLATED", "note": "Memorizing definition lists is decontextualized and doesn't use the students' Spanish knowledge."},
+            None,
+            {"code": "LOWER_RIGOR", "note": "Removing technical vocabulary lowers rigor. The students need access to these words, not less exposure."},
+        ],
+        key="For students literate in a Romance language, cognate instruction turns home-language academic vocabulary into English vocabulary.",
+    ),
+    dict(
+        id="7.3-03", skill="7.3", type="scenario", difficulty=2, diag=0,
+        stimulus="Grade 7 Integrated ENL science. Two ELLs (Emerging) conduct investigations carefully, record accurate data, and correctly predict outcomes. Their written lab conclusions are single sentences such as: The ice melt fast in hot water.",
+        stem="Which activity would best build on the students' strength to address their need?",
+        options=[
+            "Having students copy the teacher's model conclusion into their science notebooks after each lab",
+            "Excusing the students from written lab conclusions until their English proficiency improves",
+            "Teaching a separate grammar lesson on past-tense verbs before the next lab begins",
+            "Using a claim–evidence–reasoning frame that cites their own data, rehearsed orally first",
+        ],
+        answer=3,
+        why="The students' accurate data and predictions are the raw material for a strong conclusion. A claim–evidence–reasoning frame shows them how to turn that data into a scientific explanation, and oral rehearsal with a partner lets them try the language before writing. The strategy moves them from context-embedded lab work toward context-reduced academic writing, with scaffolds.",
+        traps=[
+            {"code": "PASSIVE", "note": "Copying the teacher's conclusion gives students no chance to explain their own data in their own words."},
+            {"code": "EXCLUSION", "note": "Excusing them from writing removes them from the grade-level task instead of scaffolding it."},
+            {"code": "ISOLATED", "note": "A stand-alone grammar lesson doesn't use their lab strength or teach the language of scientific explanation."},
+            None,
+        ],
+        key="Use students' own data and hands-on knowledge as evidence in scaffolded claim–evidence–reasoning writing.",
+    ),
+    dict(
+        id="7.3-04", skill="7.3", type="scenario", difficulty=2, diag=2,
+        stimulus="Grade 9 SIFE newcomers (Entering) with two to three years of prior schooling. Both have extensive work experience (one repaired motorcycles, the other cooked in a family restaurant) and describe their work eagerly in their home languages and simple English. Both are just beginning to decode English.",
+        stem="Which strategy would best build on the students' strength to address their literacy need?",
+        options=[
+            "Language Experience Approach texts the students dictate about their work, used for rereading and word study",
+            "Kindergarten decodable books about family pets, read independently every day to build reading fluency",
+            "Postponing reading instruction until the students have built more oral English vocabulary",
+            "Daily phonics worksheets on letter sounds, completed silently at their desks during class",
+        ],
+        answer=0,
+        why="In the Language Experience Approach, students' own oral accounts become their first reading texts. Because the texts come from their work experience (funds of knowledge), the content is familiar and comprehensible, so they can focus on decoding and word study. LEA also respects their age and expertise, which matters for adolescent SIFE.",
+        traps=[
+            None,
+            {"code": "WRONG_LEVEL", "note": "Kindergarten books about pets are not age-appropriate for adolescents and ignore their experience."},
+            {"code": "EXCLUSION", "note": "Delaying literacy instruction withholds what they most need. Oral and written English can develop together."},
+            {"code": "ISOLATED", "note": "Silent worksheets drill sounds out of context and don't draw on the students' rich oral knowledge."},
+        ],
+        key="For SIFE with rich life experience, LEA turns their oral accounts into comprehensible, age-respectful reading texts.",
+    ),
+    dict(
+        id="7.3-05", skill="7.3", type="scenario", difficulty=1, diag=0,
+        stimulus="Grade 9 Long-Term ELLs (Expanding) argue persuasively during class discussions, giving reasons and rebutting peers. Their essays use conversational language such as gonna, like, and stuff, and they score 1 of 4 on formal style.",
+        stem="Which activity would best build on the students' strength to address their need?",
+        options=[
+            "Circling every informal word in red on their drafts and returning the drafts to be recopied neatly",
+            "Assigning more independent reading of novels at home so that students absorb a formal style",
+            "Rewriting points from their own discussion transcripts in formal register, using a mentor text",
+            "Moving the students into a beginning-level grammar class to review the basics of English",
+        ],
+        answer=2,
+        why="Their oral arguments already contain claims, reasons, and rebuttals. Rewriting their own spoken points in formal register, guided by a mentor text, makes the gap between talk and academic writing visible (noticing) and gives them a model to aim for. This uses the strength directly to address the written-register need typical of Long-Term ELLs.",
+        traps=[
+            {"code": "OVERCORRECT", "note": "Marking every informal word focuses on errors without teaching the register shift, and it can raise anxiety."},
+            {"code": "PARTIAL", "note": "Wide reading helps over time, but it doesn't use their oral strength or explicitly teach the register shift."},
+            None,
+            {"code": "WRONG_LEVEL", "note": "These are Expanding students. A beginning-level grammar class doesn't match their proficiency and is demotivating."},
+        ],
+        key="For Long-Term ELLs, turn strong oral argument into formal writing by explicitly shifting register with mentor texts.",
+    ),
+    dict(
+        id="7.3-06", skill="7.3", type="scenario", difficulty=2, diag=0,
+        stimulus="Grade 10 Integrated ENL global history. Two ELLs (Reading: Expanding; Speaking: Emerging) annotate and analyze primary sources accurately but rarely speak in discussions. One says: I know the answer, but I need time to say it.",
+        stem="Which strategy would best build on the students' strength to address their need?",
+        options=[
+            "A structured discussion in which students prepare talk cards from their annotations and rehearse with a partner",
+            "Cold-calling the students often during whole-class discussion so they practice speaking under real conditions",
+            "Letting the students submit written responses instead of participating in class discussions",
+            "Assigning pronunciation drills with minimal pairs to build the students' confidence in speaking",
+        ],
+        answer=0,
+        why="Their document annotations give them something worth saying, and preparing talk cards and rehearsing with a partner gives them the time and language they say they need. The structure lowers the affective filter while still requiring academic speaking, and peer interaction creates negotiation of meaning. The frames and rehearsal can be faded as they gain confidence.",
+        traps=[
+            None,
+            {"code": "WRONG_LEVEL", "note": "Unprepared, high-pressure speaking doesn't match an Emerging speaker's needs and raises anxiety."},
+            {"code": "EXCLUSION", "note": "Replacing discussion with writing avoids the need instead of addressing it and removes the students from academic talk."},
+            {"code": "ISOLATED", "note": "Minimal-pair drills are decontextualized and don't build the academic discussion language the students need."},
+        ],
+        key="Turn a reading strength into prepared talk: plan from texts, rehearse with frames, then discuss.",
+    ),
+    dict(
+        id="7.3-07", skill="7.3", type="scenario", difficulty=3, diag=0,
+        stimulus="Kindergarten Stand-alone ENL. Four ELLs (Emerging) love chants and rhyming songs. On a screener they identify rhymes (8–9 of 10) and clap syllables (9–10 of 10), but they segment three-sound words into phonemes at only 0–2 of 10.",
+        stem="Which activity would best build on the students' strength to address their need?",
+        options=[
+            "Reading aloud more rhyming picture books each day to deepen the students' enjoyment of rhyme",
+            "Reviewing alphabet flashcards daily, with students naming each letter and its sound in turn",
+            "Assigning lists of decodable nonsense words for students to blend independently at their seats",
+            "Taking rhyming words from a familiar chant and segmenting them into sounds with Elkonin boxes",
+        ],
+        answer=3,
+        why="Phonological awareness develops from larger units (syllables, rhymes) to smaller ones (phonemes). Starting with rhyming words from a chant the children already love, then segmenting those words with Elkonin boxes, moves them along that continuum and keeps phoneme work in their zone of proximal development. Reading more rhyming books is enjoyable but stays at the level they have already mastered.",
+        traps=[
+            {"code": "PARTIAL", "note": "This builds on the strength but stays at the rhyme level. It doesn't move students to the phoneme-level need."},
+            {"code": "ISOLATED", "note": "Flashcard drills are decontextualized and target letter knowledge, not the phoneme segmenting the screener shows is weak."},
+            {"code": "WRONG_LEVEL", "note": "Independent nonsense-word blending assumes phonemic awareness and letter–sound skills these kindergartners don't yet have."},
+            None,
+        ],
+        key="Move along the phonological-awareness continuum: use mastered rhyme and syllable skills as a springboard to phoneme segmenting.",
+    ),
+    dict(
+        id="7.3-08", skill="7.3", type="scenario", difficulty=3, diag=0,
+        stimulus="Grade 4 Stand-alone ENL. Three ELLs (Transitioning) whose home languages are Arabic, Bengali, and Haitian Creole read grade-level text with 96–98% accuracy and flag unknown words with sticky notes. When stuck, they only reread or skip, and they miss questions that depend on words like scarce and gather.",
+        stem="Which strategy would best build on the students' strength to address their need?",
+        options=[
+            "Teaching all three to rely on English–home-language cognates as their main word-learning strategy",
+            "Teaching fix-up strategies for the words they flag, along with explicit instruction in key Tier 2 words",
+            "Pre-teaching every unfamiliar word in the text by having students copy the definitions from a dictionary",
+            "Moving the students to texts at their independent level so that fewer words need to be flagged",
+        ],
+        answer=1,
+        why="The students already monitor comprehension by flagging unknown words. Teaching fix-up strategies (context clues, word parts, home-language connections, asking a peer) turns that habit into a complete strategy (CALLA metacognitive strategies). Explicit instruction in high-utility Tier 2 words (Beck, McKeown & Kucan) addresses the vocabulary gap directly. Cognates help only some learners, and easier texts avoid the problem.",
+        traps=[
+            {"code": "ONE_SIZE", "note": "Haitian Creole shares many cognates with English through French, but Arabic and Bengali share few, so this won't work for all three."},
+            None,
+            {"code": "ISOLATED", "note": "Copying dictionary definitions is decontextualized, and pre-teaching every word is less effective than focusing on high-utility Tier 2 words."},
+            {"code": "LOWER_RIGOR", "note": "Easier texts avoid the vocabulary students need for grade-level learning instead of scaffolding it."},
+        ],
+        key="Build on self-monitoring by adding fix-up strategies and explicit Tier 2 instruction, with supports matched to each home language.",
+    ),
+
+    # ---------------- 7.4 Explaining effectiveness ----------------
+    dict(
+        id="7.4-01", skill="7.4", type="application", difficulty=1, diag=0,
+        stimulus="An ENL teacher lets grade 5 ELLs with strong Spanish literacy brainstorm and outline in Spanish before they write an English essay. Their English essays become more detailed and better organized.",
+        stem="Which principle best explains why this strategy is effective?",
+        options=[
+            "Cummins' Common Underlying Proficiency: skills learned in one language support the other",
+            "Lenneberg's Critical Period Hypothesis: language is acquired most easily before puberty",
+            "Behaviorism: language is learned through habit formation and the reinforcement of responses",
+            "Krashen's Natural Order Hypothesis: grammatical morphemes are acquired in a set order",
+        ],
+        answer=0,
+        why="Cummins' Common Underlying Proficiency (the 'iceberg' model) holds that concepts and literacy skills developed in one language are available in another. Planning in Spanish lets students use their full reasoning and organizational skills, which then transfer to English writing. On the CR, CUP is the go-to rationale for any strategy that uses home-language literacy.",
+        traps=[
+            None,
+            {"code": "MISAPPLIED_THEORY", "note": "The critical period concerns age and ultimate attainment. It doesn't explain why planning in Spanish improves English writing."},
+            {"code": "MISAPPLIED_THEORY", "note": "Behaviorism explains learning through drill and reinforcement, not transfer of ideas and organization across languages."},
+            {"code": "MISAPPLIED_THEORY", "note": "The Natural Order Hypothesis describes the sequence of grammar acquisition, not cross-language transfer of literacy skills."},
+        ],
+        key="Use Cummins' Common Underlying Proficiency to explain strategies that let students think, plan, or read in the home language.",
+    ),
+    dict(
+        id="7.4-02", skill="7.4", type="analysis", difficulty=2, diag=0,
+        stimulus="A candidate's CR identifies the shared strength as sequential oral retelling (all three students scored 5/5 on a sequencing listening check in Exhibit 2) and the shared need as explaining in writing why a character changes. The strategy is partner oral rehearsal with 'because' frames before writing.",
+        stem="Which sentence from the candidate's explanation would best demonstrate Depth of Support?",
+        options=[
+            "This strategy will be effective because ELLs need scaffolding and comprehensible input in order to succeed in school.",
+            "Research shows that oral rehearsal is a best practice that works well for all students in every grade and content area.",
+            "Krashen, Cummins, Vygotsky, and Swain all support the use of oral language with English Language Learners in classrooms.",
+            "Since all three already sequence events accurately (Exhibit 2), rehearsal frees them to focus on causal language, within their ZPD.",
+        ],
+        answer=3,
+        why="Depth of Support means appropriate examples and details that show sound reasoning. The keyed sentence links an exhibit-based fact (5/5 sequencing) to a mechanism (attention is freed for new language) and to a named principle (ZPD). Generic or name-only explanations earn less credit because they don't show why the strategy fits these students.",
+        traps=[
+            {"code": "PARTIAL", "note": "True but generic. It could be pasted into any response and isn't tied to these students' evidence."},
+            {"code": "ONE_SIZE", "note": "Claiming it works for all students ignores the specific profile. Scorers reward reasoning about these learners."},
+            {"code": "PARTIAL", "note": "Naming four theorists without explaining any connection shows recall, not reasoning."},
+            None,
+        ],
+        key="Explain effectiveness by linking exhibit evidence to a named principle and to how it works for these students.",
+    ),
+    dict(
+        id="7.4-03", skill="7.4", type="application", difficulty=2, diag=1,
+        stimulus="Before writing, each ELL explains her claim aloud to a partner. Partway through, one student stops: Wait, I said she feel sad, but I need to say why. She felt lonely because she had no friends. She then revises her written plan.",
+        stem="Which theory best explains the benefit shown in this moment?",
+        options=[
+            "Krashen's Input Hypothesis, because she received comprehensible input from her partner",
+            "Swain's Output Hypothesis, because producing language led her to notice a gap and revise",
+            "Krashen's Affective Filter Hypothesis, because partner talk lowered her level of anxiety",
+            "Schumann's Acculturation Model, because peer interaction reduced her social distance",
+        ],
+        answer=1,
+        why="Swain's Output Hypothesis holds that producing language pushes learners to notice gaps between what they want to say and what they can say, to test hypotheses, and to reflect on form. The student noticed that 'she feel sad' didn't express her reasoning and reformulated it with the past tense and 'because.' That is the noticing function of output.",
+        traps=[
+            {"code": "TERM", "pair": "Input Hypothesis ↔ Output Hypothesis", "note": "The benefit came from her own speaking, not from input. This confuses input with output."},
+            None,
+            {"code": "PARTIAL", "note": "Partner talk may lower anxiety, but that doesn't explain the key moment: she noticed a gap in her own language and fixed it."},
+            {"code": "MISAPPLIED_THEORY", "note": "Acculturation concerns social and psychological distance from the target-language group, not self-correction during a task."},
+        ],
+        key="When speaking or writing leads learners to notice and fix gaps, cite Swain's Output Hypothesis.",
+    ),
+    dict(
+        id="7.4-04", skill="7.4", type="analysis", difficulty=2, diag=2,
+        stimulus=T("""
+Candidate's claim: All three students need to support their ideas with text evidence in writing.
+Exhibit 2 (observation): All three students point to the correct page when asked where an event happened.
+Exhibit 3 (rubric, 'Supports ideas with text evidence,' scale 1–4): Ana 1, Bao 1, Chidi 2.
+Exhibit 4 (writing): Ana: Mia is brave. Bao: She was happy at the end. Chidi: Mia is nicer because she made a friend.
+"""),
+        stem="Which sentence would provide the strongest support for the candidate's claim?",
+        options=[
+            "In Exhibit 2, all three students point to the correct page when asked where an event happened.",
+            "Chidi writes, 'Mia is nicer because she made a friend,' which shows that he does not use evidence.",
+            "In Exhibit 3, all three score 1–2 on using text evidence, and in Exhibit 4 none quotes or cites the text.",
+            "Their writing suggests that they were probably never taught how to find text evidence in the earlier grades.",
+        ],
+        answer=2,
+        why="The keyed sentence names two exhibits, gives exact data for all three students, and shows the pattern in both scores and work samples (triangulation). That is what Depth of Support looks like when citing a need. Exhibit 2 is still useful, but as evidence of a strength the strategy can build on: they can locate information.",
+        traps=[
+            {"code": "LITERAL", "note": "This is evidence of a strength (locating information), not of the need. It could support the strategy, but it doesn't prove the claim."},
+            {"code": "PARTIAL", "note": "It cites only one student, and Chidi does give a reason. A shared need requires evidence for all three."},
+            None,
+            {"code": "LITERAL", "note": "This is speculation about past instruction that appears nowhere in the exhibits. Scorers credit evidence, not guesses."},
+        ],
+        key="Support a shared need with exhibit-labeled evidence covering every student, ideally from more than one source.",
+    ),
+    dict(
+        id="7.4-05", skill="7.4", type="application", difficulty=1, diag=0,
+        stimulus="A grade 10 ELL with strong document-reading skills rarely speaks in discussions and says, I need time to say it. The teacher plans a Structured Academic Controversy: pairs prepare claims from documents, rehearse with sentence frames, and paraphrase each other before responding.",
+        stem="Which explanation best supports the effectiveness of this strategy for this student?",
+        options=[
+            "It respects her silent period, so she will not have to speak until she feels completely ready.",
+            "It replaces discussion with reading, which is the student's strongest language modality.",
+            "It lets the teacher correct every grammatical error she makes while she is speaking.",
+            "Preparation lowers her affective filter, and paraphrasing creates negotiation of meaning.",
+        ],
+        answer=3,
+        why="Preparation and rehearsal give her the time she asks for, which lowers the affective filter (Krashen). Paraphrasing and responding to peers create negotiation of meaning, with clarification requests and confirmation checks, which Long's Interaction Hypothesis links to acquisition. Both explanations are tied directly to her profile.",
+        traps=[
+            {"code": "MISAPPLIED_THEORY", "note": "The silent period describes early beginners. This student needs structured speaking practice, and the activity requires her to speak."},
+            {"code": "LITERAL", "note": "This misreads the strategy. Reading is the preparation, but the purpose of the activity is academic speaking."},
+            {"code": "OVERCORRECT", "note": "Correcting every error during discussion raises anxiety and shifts the focus from meaning to form."},
+            None,
+        ],
+        key="Justify structured discussion with the affective filter (preparation) and Long's Interaction Hypothesis (negotiation of meaning).",
+    ),
+    dict(
+        id="7.4-06", skill="7.4", type="application", difficulty=2, diag=0,
+        stimulus="A high school ENL teacher uses the Language Experience Approach with two SIFE newcomers. They dictate sentences about their work as a mechanic and a cook, the teacher writes the sentences on chart paper, and the group rereads them and does word study with words from the text.",
+        stem="Which statement best explains why this approach supports the students' literacy development?",
+        options=[
+            "It teaches phonics in a fixed sequence that is independent of the students' own oral language.",
+            "The text comes from the students' own words and experience, so they know the meaning and can focus on print.",
+            "It prevents errors, because the teacher converts their dictation into polished standard written English.",
+            "It uses simplified texts with fewer ideas, which lowers the expectations to match the students' level.",
+        ],
+        answer=1,
+        why="In LEA, students read texts made from their own spoken language and experience, so the content is fully comprehensible (Krashen's i+1), and they can devote their attention to decoding and word recognition. Using their work experience also draws on funds of knowledge and respects their age, which lowers the affective filter for adolescent beginning readers.",
+        traps=[
+            {"code": "MISAPPLIED_THEORY", "note": "This misdescribes LEA, which is built on students' own oral language, not a fixed phonics sequence."},
+            None,
+            {"code": "OVERCORRECT", "note": "LEA's value comes from recording the students' own language closely. Polishing it into standard prose distances the text from what they can read."},
+            {"code": "LOWER_RIGOR", "note": "LEA isn't about lowering expectations. It supplies comprehensible text drawn from rich experience."},
+        ],
+        key="LEA works because students read their own language and experiences, so the text is comprehensible and they can focus on print.",
+    ),
+    dict(
+        id="7.4-07", skill="7.4", type="application", difficulty=3, diag=0,
+        stimulus="A first-grade ENL teacher builds on students' strong rhyming and syllable skills (in English, Spanish, and Wolof) by moving from chant rhymes to onset–rime splitting and then to segmenting words into phonemes with Elkonin boxes.",
+        stem="Which rationale most accurately explains why this sequence is effective?",
+        options=[
+            "Rhyming skill guarantees phoneme awareness, so the boxes mainly add some variety to the lesson.",
+            "Children must master all letter names before they can benefit from phonological awareness work.",
+            "Phonological awareness moves from larger to smaller units and transfers across languages.",
+            "Songs and chants lower the affective filter, which is the main reason children learn to segment.",
+        ],
+        answer=2,
+        why="Phonological awareness generally develops from larger units (words, syllables, rhymes) to smaller ones (onsets and rimes, then phonemes), so each step builds on the last within the children's ZPD. Phonological awareness also transfers across languages, so rhyming skill developed in Spanish or Wolof counts as a foundation. Both facts explain why starting from their strength works.",
+        traps=[
+            {"code": "PARTIAL", "note": "Rhyme awareness is a real foundation, but it doesn't guarantee phoneme awareness. The boxes are the core instruction, not variety."},
+            {"code": "MISAPPLIED_THEORY", "note": "Phonological awareness is oral and can develop alongside letter knowledge. It doesn't require mastery of letter names first."},
+            None,
+            {"code": "PARTIAL", "note": "A low affective filter helps, but it is a supporting condition, not the reason the sequence builds phoneme segmenting."},
+        ],
+        key="Explain phonological-awareness sequences with the larger-to-smaller continuum and cross-language transfer.",
+    ),
+    dict(
+        id="7.4-08", skill="7.4", type="application", difficulty=3, diag=0,
+        stimulus="A grade 3 Dual Language teacher works with a Spanish-dominant ELL who uses the past tense accurately in Spanish but writes 'Yesterday we go' in English. The student builds a side-by-side chart matching the past-tense verbs in her own Spanish story to their English equivalents.",
+        stem="Which explanation most accurately grounds this strategy in theory?",
+        options=[
+            "Comparing the languages helps her notice how English marks the past, drawing on her Spanish knowledge.",
+            "Contrastive analysis predicts that her errors come from Spanish, so the chart shows which habits to suppress.",
+            "Strict separation of languages is essential in Dual Language, and the chart keeps Spanish out of English.",
+            "Translanguaging means she may write English assignments in Spanish when the English forms are difficult.",
+        ],
+        answer=0,
+        why="Side-by-side comparison draws her attention to the specific English forms she lacks (Schmidt's Noticing Hypothesis), while her accurate Spanish past tense provides the conceptual anchor (Cummins' Common Underlying Proficiency). This planned cross-linguistic bridge is an established Dual Language practice that leverages the home language, as the Blueprint recommends.",
+        traps=[
+            None,
+            {"code": "MISAPPLIED_THEORY", "note": "Spanish marks past tense clearly, so her error isn't transfer, and the chart uses Spanish as a resource, not something to suppress."},
+            {"code": "DEFICIT", "note": "The chart deliberately connects the languages. Treating Spanish as interference to keep out misreads both the strategy and the biliteracy goals of Dual Language."},
+            {"code": "MISAPPLIED_THEORY", "note": "Translanguaging pedagogy uses all of a student's languages to build meaning and skills. It doesn't mean avoiding English output on English tasks."},
+        ],
+        key="Ground cross-linguistic comparison in noticing (Schmidt) and CUP; it uses the home language as a resource, not interference.",
+    ),
+]
+
+# ===========================================================================
+# Guide: How to Write the 116 Constructed Response (lesson schema, skill 7.1)
+# ===========================================================================
+GUIDE = dict(
+    skill="7.1",
+    title="How to Write the 116 Constructed Response",
+    why="The single constructed response is 20% of your score: an analysis of about 400–600 words of exhibits about ELLs, scored on completeness, accuracy, and depth of support.",
+    body=[
+        dict(h="What the scorers are looking for", md=T("""
+The constructed response is scored on a 4-point scale against three performance characteristics. Know them cold, because everything you put on the page should serve one of them.
+
+- **Completeness:** Did you do every bulleted task? Usually that means one strength, one need, one strategy, and an explanation of why the strategy works. Skip one and a 4 is off the table. Watch the qualifiers: if the prompt says the strength and need must be ones "that the students share," one student's strength does not count.
+- **Accuracy:** Is what you say true to the exhibits and to the field? Use correct terms (Transitioning, not "intermediate"; Integrated ENL, not "push-in"), describe theories correctly, and choose a strategy that fits the students' proficiency levels and ages.
+- **Depth of Support:** Do you prove it? Name exhibits, quote short phrases, give scores, describe the strategy in concrete steps, and explain *why* it works for *these* students.
+
+Think of the score points this way:
+
+- **4 (thorough command):** a precise strength and need, evidence from several exhibits, a concrete strategy that clearly connects the strength to the need, and theory tied to the evidence.
+- **3 (general command):** all parts present and mostly accurate, but the evidence or explanation is thinner or more general.
+- **2 (partial command):** a part is vague, missing, or not shared, such as a personality "strength," a list of strategies, or theory names with no connection.
+- **1 (little or no command):** off-task, inaccurate, or largely missing.
+
+Scorers don't reward fancy prose. They reward a response that is easy to check: each task in its own paragraph, evidence labeled by exhibit, and reasoning spelled out.
+""")),
+        dict(h="A 60-minute time plan", md=T("""
+Protect a full 60 minutes for the constructed response, and don't let the multiple-choice section eat into it.
+
+- **Minutes 0–5: Read the prompt first.** Underline the task words: *one* strength, *one* need, *share*, and the domain (*writing*, *oral language*, *literacy*). Now you know what to hunt for.
+- **Minutes 5–15: Read and annotate the exhibits.** On scratch paper, make a two-column chart labeled Strength and Need, with a row for each student. Jot evidence with its exhibit number ("Ex 2: 5/5 sequencing"). Look at the NYSESLAT modalities: the highest often suggests the strength, and the lowest the need.
+- **Minutes 15–20: Decide and outline.** Choose the strength–need pair you can prove for every student, then pick ONE strategy that uses the strength to reach the need. Jot two or three theory links.
+- **Minutes 20–50: Write.** Follow the five-paragraph structure below and aim for about 500 words.
+- **Minutes 50–57: Check against the prompt.** Is every bullet answered? Is each claim tied to an exhibit? Does the explanation mention these students, not just ELLs in general?
+- **Minutes 57–60: Proofread.** Fix names, proficiency levels, and typos.
+""")),
+        dict(h="Choosing a shared strength and need", md=T("""
+This decision drives your whole score. Run each candidate through four tests:
+
+- **Is it a language or literacy skill?** "Motivated," "hardworking," and "friendly" are dispositions, not strengths you can build instruction on. "Retells events in sequence," "reads grade-level text accurately," and "strong Spanish literacy" are.
+- **Does every student show it?** Write each student's name next to the evidence. If one student has none, choose another strength or need. A need that only two of three students show (for example, article errors) is a classic trap.
+- **Is it significant?** It should matter for grade-level learning. Handwriting, one misspelling, or a single tense error is not significant. A pattern that shows up across exhibits is.
+- **Can one strategy connect them?** The best pairs connect naturally: an oral strength with a writing need, home-language literacy with English writing, hands-on knowledge with academic text, or a reading strength with a speaking need.
+
+Be precise. "Writing" is too broad for a need. "Moving from retelling to explaining how and why, using causal language such as *because* and *as a result*" is precise, and it points straight to a strategy. Use asset-based phrasing: the need is what students are *ready to learn next*, not what is "wrong" with them.
+
+Also say what the evidence rules out. If students retell well but can't explain, the need is not comprehension. Writing "the issue is not understanding the plot; it is the language of explanation" shows a scorer that you analyzed rather than skimmed.
+""")),
+        dict(h="Citing evidence", md=T("""
+Every claim gets evidence, and every piece of evidence gets a label. The pattern is **exhibit + specific detail + what it shows.**
+
+- "In Exhibit 2, all three students scored 5/5 on the sequencing check, which shows strong listening comprehension."
+- "Bilal's answer in Exhibit 2, 'Because... I don't know how to say it,' shows that he has the idea but not the language to explain it."
+- "Exhibit 1 shows that Writing is the lowest NYSESLAT modality for all three students."
+
+Tips:
+
+- Use at least two exhibits for the strength and two for the need. Triangulation (test data plus observation plus a work sample) is persuasive.
+- Quote short phrases; don't copy whole samples.
+- Give numbers exactly as shown ("3 of 10," "Transitioning").
+- When you show a shared pattern, name each student: "Daniela..., Bilal..., and Yuxin..."
+- Never invent data or assume facts the exhibits don't give.
+""")),
+        dict(h="A reusable five-paragraph structure", md=T("""
+Use the same structure every time; it makes each performance characteristic easy to see. Word targets are approximate.
+
+- **Paragraph 1 (about 50 words), thesis:** "These students share a significant strength in ___ and a significant need in ___."
+- **Paragraph 2 (about 100 words), evidence for the strength:** "This strength is evident across the exhibits. In Exhibit 1,... In Exhibit 3,... Together, this shows that..."
+- **Paragraph 3 (about 100 words), evidence for the need:** "However, the students share a need in ___. In Exhibit 2,... Exhibit 4 confirms this:... The problem is not ___; it is ___."
+- **Paragraph 4 (about 150 words), the strategy:** "To build on ___ to address ___, I would use ___. First,... Next,... Then,... Finally,... For [student], I would adjust this by..."
+- **Paragraph 5 (about 120 words), why it works:** "This strategy would be effective for several reasons. First, because it begins with ___,... (theory plus evidence). Second,... Finally,..."
+
+Two upgrades separate a 4 from a 3: say what the scaffold is and how it will be faded, and tie each theory to something a student actually did in the exhibits.
+""")),
+        dict(h="Strategy bank: high-value strategies and the theory behind them", md=T("""
+Know each of these well enough to describe it in four or five concrete steps.
+
+- **Oral rehearsal (talk-to-write):** partners say it before they write it. Oral strength → writing need. Theory: Swain's Output Hypothesis; Vygotsky's ZPD.
+- **Sentence frames and a graphic organizer with gradual release:** strong ideas, weak structure. Theory: scaffolding (Wood, Bruner & Ross); ZPD.
+- **Shared or interactive writing:** emergent or developing writers. Theory: scaffolding; Vygotsky.
+- **Language Experience Approach:** oral language or life experience → early reading (SIFE, young learners). Theory: comprehensible input (Krashen); funds of knowledge (Moll).
+- **Cognate study with a bilingual glossary or concept chart:** literacy in a language that shares many cognates with English (e.g., Spanish, French) → academic vocabulary. Theory: Cummins' CUP; positive transfer.
+- **The Bridge (cross-linguistic comparison):** strong home-language literacy → a specific English form. Theory: CUP; Schmidt's Noticing Hypothesis; translanguaging (García).
+- **Home-language brainstorming and planning:** strong reasoning in the home language → English writing. Theory: CUP; Developmental Interdependence.
+- **Claim–evidence–reasoning with students' own data:** hands-on content knowledge → academic writing. Theory: CALP; Cummins' quadrants (context-embedded to context-reduced).
+- **Sentence unpacking ("juicy sentences"):** content knowledge → dense academic text. Theory: noticing; CALP.
+- **Structured academic conversation or Structured Academic Controversy:** reading or content strength → speaking need. Theory: Long's Interaction Hypothesis; affective filter; output.
+- **Mentor-text deconstruction and register shifting:** oral argument (often Long-Term ELLs) → formal writing. Theory: BICS vs. CALP; noticing the gap.
+- **Explicit Tier 2 vocabulary routine:** decoding or self-monitoring strength → vocabulary need. Theory: Beck, McKeown & Kucan; i+1.
+- **Fix-up strategies (click and clunk) or reciprocal teaching:** self-monitoring → comprehension need. Theory: CALLA metacognitive strategies.
+- **Elkonin boxes along the phonological-awareness continuum:** rhyme and syllable strength → phoneme need. Theory: phonological awareness transfers across languages; ZPD.
+- **Dialogue journals:** willingness to communicate → writing fluency. Theory: affective filter; meaning-focused output.
+
+Pick the one that best connects your specific strength and need. One well-described strategy beats five listed ones.
+""")),
+        dict(h="Common mistakes that cost points", md=T("""
+- **Personality as the strength:** "She is motivated" is not a language skill.
+- **A need that isn't shared or significant:** article errors in one student, or a single spelling slip.
+- **The laundry list:** "I would use visuals, frames, groups, and technology." Scorers want one strategy, fully developed.
+- **A strategy that ignores the strength:** if paragraph 4 never mentions the strength, the bridge is missing.
+- **Name-dropping theory:** "According to Vygotsky..." with no link to the students earns little. Say what the theory predicts *for these students*.
+- **Lowering rigor:** easier texts or shorter assignments instead of scaffolds for grade-level work.
+- **Deficit or English-only moves:** banning the home language, blaming it for every error, or telling families to speak English at home.
+- **One size fits all:** ignoring that one student is Emerging and another Expanding, or recommending cognates for a language that shares few with English.
+- **Misreferral:** suggesting a disability evaluation for typical second-language development.
+- **No exhibit labels or invented facts:** if a scorer can't trace a claim to an exhibit, it doesn't count as support.
+""")),
+    ],
+    traps=[
+        "Exam trap: choosing a strength that only one or two students show when the prompt says \"that the students share.\"",
+        "Exam trap: naming a disposition (\"motivated,\" \"hardworking\") instead of a language or literacy skill as the strength.",
+        "Exam trap: listing several strategies instead of describing one, in concrete steps, that connects the strength to the need.",
+        "Exam trap: citing theory names without connecting them to specific evidence in the exhibits.",
+        "Exam trap: \"fixing\" the need by lowering rigor (a simpler text or shorter task) or by removing the home language.",
+    ],
+    terms=[
+        {"t": "Completeness", "d": "Performance characteristic: the degree to which the response addresses every part of the assignment."},
+        {"t": "Accuracy", "d": "Performance characteristic: the degree to which the response shows relevant knowledge and skills accurately and effectively."},
+        {"t": "Depth of Support", "d": "Performance characteristic: the degree to which the response gives appropriate examples and details that show sound reasoning."},
+        {"t": "Shared strength or need", "d": "A strength or need that every student in the scenario shows, with evidence for each student."},
+        {"t": "Significant", "d": "Important for grade-level learning and visible as a pattern across exhibits, not a one-time surface error."},
+        {"t": "Triangulation", "d": "Supporting a claim with more than one kind of evidence, such as test data, observation notes, and work samples."},
+        {"t": "Asset-based framing", "d": "Describing students by what they can do and are ready to learn next, with home language and culture as resources."},
+        {"t": "Talk-to-write", "d": "Oral rehearsal of ideas with a partner before writing, so spoken language becomes the bridge to written language."},
+        {"t": "Gradual release", "d": "Moving from teacher modeling to guided practice to independent work as scaffolds are removed."},
+        {"t": "Common Underlying Proficiency", "d": "Cummins: concepts and literacy skills learned in one language are available in another, which supports transfer."},
+        {"t": "Pushed output", "d": "Swain: producing language makes learners notice gaps, test hypotheses, and reflect on form."},
+        {"t": "Negotiation of meaning", "d": "Long: clarification requests, confirmation checks, and comprehension checks during interaction that make input comprehensible."},
+        {"t": "Funds of knowledge", "d": "Moll: the knowledge and skills students gain from family, community, and work, used as instructional resources."},
+        {"t": "Register", "d": "A variety of language suited to a context or audience, such as casual conversation versus formal academic writing."},
+        {"t": "Context-embedded vs. context-reduced", "d": "Cummins: tasks with rich visual and situational support versus tasks that depend mainly on language itself."},
+    ],
+    tip="Before you write, test your pair: Is it a language skill? Does every student show it? Can I cite two exhibits? Does my ONE strategy connect them?",
+)
+
+pathlib.Path(__file__).with_name("cr.json").write_text(
+    json.dumps({"scenarios": SCENARIOS, "questions": QUESTIONS, "guide": GUIDE, "lessons": []},
+               ensure_ascii=False, indent=1),
+    encoding="utf-8",
+)

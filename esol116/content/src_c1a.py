@@ -550,7 +550,7 @@ QUESTIONS += [
  "options": [
   "Amir was writing the lab report.",
   "Amir has written the lab report.",
-  "The lab report is on Amir's desk.",
+  "The finished lab report is on Amir's desk.",
   "The lab report was written by Amir."
  ],
  "answer": 3,
@@ -607,7 +607,7 @@ QUESTIONS += [
  "stimulus": "A grade 4 student (Expanding; home language Polish) stops the ENL teacher in the hallway and asks, “Do you know where is the nurse's office?”",
  "stem": "Which of the following best describes the student's error?",
  "options": [
-  "using direct-question word order, with the verb before the subject, inside an embedded question",
+  "keeping question word order (verb before subject) inside an embedded question",
   "omitting the auxiliary do, which English requires at the start of every question",
   "attaching the possessive -'s to the wrong noun in the phrase 'the nurse's office'",
   "using a yes/no question form in a situation that calls for a wh-question form"
@@ -689,7 +689,7 @@ QUESTIONS += [
   "Rewrite the lab text in the active voice so that ELLs at lower proficiency levels are not confused by passive sentences.",
   "Assign a worksheet of twenty-five unrelated active sentences for the student to convert into the passive voice at home.",
   "Explain that the passive voice is an advanced structure the student will study once she reaches the Expanding level.",
-  "Model how to find the doer in passive sentences from the text (be + past participle, by-phrase); pairs label doer and receiver."
+  "Model how to find the doer in the text's passive sentences (be + participle, by-phrase), then have pairs label each one."
  ],
  "answer": 3,
  "why": "Learners often rely on a 'first noun = doer' strategy, which works for active sentences but reverses the meaning of passives. Science texts use the passive constantly to keep the focus on the process rather than the agent, so ELLs need explicit help noticing be + past participle and the by-phrase, practiced on the actual grade-level text. This scaffolds the real text instead of simplifying it, and the pair work adds interaction and output.",
@@ -780,6 +780,278 @@ QUESTIONS += [
   None
  ],
  "key": "Past-to-now with since/for needs the present perfect ('have lived since 2022'); Spanish uses the simple present + desde."
+},
+]
+
+# ---------------- 1.4 Semantics, pragmatics & discourse ----------------
+QUESTIONS += [
+{
+ "id": "1.4-01", "skill": "1.4", "type": "knowledge", "difficulty": 3, "diag": 0,
+ "stem": "Which pair of uses best illustrates polysemy rather than homonymy?",
+ "options": [
+  "a baseball bat / a bat flying at night",
+  "the mouth of a river / a person's mouth",
+  "flour for baking / a flower in the garden",
+  "a lead pipe / to lead the class"
+ ],
+ "answer": 1,
+ "why": "Polysemy is one word with several related meanings that grew from a shared core, often by metaphor: a river's mouth is where it opens, like a person's mouth. Homonyms are unrelated words that happen to share a form; bat the animal and bat the club have different origins. Content classes are full of polysemous words (a table in math, a cell in science), and students can use the core meaning to infer the new sense.",
+ "traps": [
+  {"code": "TERM", "pair": "homonymy ↔ polysemy", "note": "The two bats are unrelated words that share a spelling and sound. That's homonymy, not one word with related senses."},
+  None,
+  {"code": "TERM", "pair": "homophones ↔ polysemy", "note": "Flour and flower are different words that only sound alike (homophones), with different spellings and meanings."},
+  {"code": "TERM", "pair": "homographs ↔ polysemy", "note": "The two leads are spelled alike but pronounced differently (/lɛd/, /lid/) and are unrelated words: homographs."}
+ ],
+ "key": "Polysemy = one word with related senses (the mouth of a river); homonymy = unrelated words sharing a form (bat)."
+},
+{
+ "id": "1.4-02", "skill": "1.4", "type": "analysis", "difficulty": 2, "diag": 1,
+ "stimulus": "During a grade 3 lesson, the teacher says to a newcomer (Entering; home language Wolof), “Can you close the door?” The student smiles, says “Yes,” and stays seated.",
+ "stem": "Which of the following best explains the student's response?",
+ "options": [
+  "The student responded to the literal form, a question about ability, rather than to its function as a request.",
+  "The student does not yet know the verb close and answered 'Yes' simply to avoid seeming confused.",
+  "The student was being deliberately uncooperative and needs a clearer behavioral expectation from the classroom teacher.",
+  "The student is in the silent period and so could not yet produce a full verbal response to the teacher."
+ ],
+ "answer": 0,
+ "why": "A speech act is what an utterance does: request, apologize, invite, refuse. 'Can you close the door?' is a question in form but a request in function, an indirect speech act. A newcomer may process the literal meaning (Are you able to?) and answer it accurately. Interpreting indirect speech acts is part of pragmatic competence and develops with explicit modeling ('When a teacher asks Can you…?, it means Please do it').",
+ "traps": [
+  None,
+  {"code": "LITERAL", "note": "Nothing shows a vocabulary gap; 'Yes' is an accurate answer to the literal question. The gap is in interpreting the utterance's function."},
+  {"code": "DEFICIT", "note": "Reading a pragmatic misunderstanding as defiance blames the student for a normal stage in learning English conventions."},
+  {"code": "MISAPPLIED_THEORY", "note": "A student in the silent period typically doesn't speak, but this student answered. The issue is pragmatic interpretation, not readiness to produce speech."}
+ ],
+ "key": "'Can you close the door?' is an indirect speech act: question form, request function. Newcomers may answer the literal form."
+},
+{
+ "id": "1.4-03", "skill": "1.4", "type": "analysis", "difficulty": 3, "diag": 0,
+ "stimulus": "A grade 10 Expanding student reads this exchange in a novel:\nDaniela: “So, is the new coach any good?”\nMarcus: “Well, he's always on time.”\nThe student writes: “Marcus thinks the coach is good because he is on time.”",
+ "stem": "The student's interpretation shows difficulty with which aspect of meaning?",
+ "options": [
+  "connotation, because the phrase 'on time' carries a negative emotional association in English",
+  "implicature, because Marcus's limited answer implies a negative opinion of the coach",
+  "idiom, because the phrase 'on time' cannot be understood from the meanings of its words",
+  "polysemy, because the word 'good' has several related meanings in English"
+ ],
+ "answer": 1,
+ "why": "Implicature is meaning a speaker implies beyond the literal words. Grice's Cooperative Principle predicts that listeners assume a reply is relevant and as informative as needed, so when Marcus answers a question about quality with only a minor positive detail, readers infer he has nothing better to say. Literary dialogue relies heavily on implicature, and 'What does the character say? What does the character mean?' charts help ELLs read between the lines.",
+ "traps": [
+  {"code": "TERM", "pair": "connotation ↔ implicature", "note": "'On time' has a positive or neutral association. The hidden meaning comes from what Marcus chooses not to say."},
+  None,
+  {"code": "TERM", "pair": "idiom ↔ implicature", "note": "'On time' is transparent, and the student understood it correctly. The missed meaning is implied, not idiomatic."},
+  {"code": "TERM", "pair": "polysemy ↔ implicature", "note": "The student understood 'good' correctly. The misreading is about what Marcus's reply implies, not about a word's multiple senses."}
+ ],
+ "key": "Implicature is meaning implied beyond the words (faint praise = criticism). Teach 'says vs. means' with dialogue."
+},
+{
+ "id": "1.4-04", "skill": "1.4", "type": "analysis", "difficulty": 2, "diag": 0,
+ "stimulus": "Personal essay, grade 7 (Transitioning; home language Nepali)\n“My grandfather is very stubborn. He never gave up learning English, even at 65 years old, and our whole family admires him.”",
+ "stem": "Which aspect of word meaning should the teacher address in feedback on this sample?",
+ "options": [
+  "denotation, because 'stubborn' does not refer to a person who refuses to change course",
+  "register, because 'stubborn' is too informal a word to use in a written essay",
+  "connotation, because 'stubborn' has a negative association that clashes with the admiring tone",
+  "collocation, because the intensifier 'very' cannot be used to modify 'stubborn'"
+ ],
+ "answer": 2,
+ "why": "Denotation is a word's literal meaning; connotation is the emotional or evaluative association it carries. 'Stubborn' and 'determined' share a similar denotation (unwilling to give up), but stubborn sounds critical, which clashes with 'our whole family admires him.' Shades-of-meaning work, such as placing synonyms on a negative-to-positive scale, helps ELLs choose words that match their intent.",
+ "traps": [
+  {"code": "TERM", "pair": "denotation ↔ connotation", "note": "The literal meaning fits: the grandfather refused to give up. The problem is the negative feeling the word carries."},
+  {"code": "TERM", "pair": "register ↔ connotation", "note": "'Stubborn' is a standard, neutral-register word that appears in formal writing. Its issue is evaluative tone, not formality."},
+  None,
+  {"code": "TERM", "pair": "collocation ↔ connotation", "note": "'Very stubborn' is a natural English collocation. The problem is the word's negative association."}
+ ],
+ "key": "Denotation = literal meaning; connotation = emotional association (stubborn vs. determined). Teach shades of meaning."
+},
+{
+ "id": "1.4-05", "skill": "1.4", "type": "application", "difficulty": 1, "diag": 0,
+ "stimulus": "During a partner task, a grade 5 Emerging student needs a stapler but doesn't know the word. She says, “Can I borrow the… the thing you push to put papers together?”",
+ "stem": "The student is demonstrating which component of communicative competence, as defined by Canale and Swain?",
+ "options": ["grammatical competence", "sociolinguistic competence", "discourse competence", "strategic competence"],
+ "answer": 3,
+ "why": "Strategic competence is the ability to keep communication going when knowledge runs out, using strategies such as circumlocution (describing the word), gesture, approximation, or asking for help. Canale and Swain's model has four components: grammatical (rules of words, sentences, and sounds), sociolinguistic (appropriateness to context), discourse (connecting sentences into cohesive, coherent text), and strategic. This student's circumlocution is a strength worth naming.",
+ "traps": [
+  {"code": "TERM", "pair": "grammatical ↔ strategic competence", "note": "Grammatical competence is knowledge of vocabulary, morphology, syntax, and pronunciation. The student is compensating for a missing word, not displaying grammatical knowledge."},
+  {"code": "TERM", "pair": "sociolinguistic ↔ strategic competence", "note": "Sociolinguistic competence is adjusting language to the setting and listener (politeness, register). The key move here is talking around a vocabulary gap."},
+  {"code": "TERM", "pair": "discourse ↔ strategic competence", "note": "Discourse competence is connecting ideas across sentences. This is a single repair strategy within one utterance."},
+  None
+ ],
+ "key": "Strategic competence = repairing breakdowns (circumlocution, gesture, asking). Canale & Swain: grammatical, sociolinguistic, discourse, strategic."
+},
+{
+ "id": "1.4-06", "skill": "1.4", "type": "scenario", "difficulty": 2, "diag": 2,
+ "stimulus": "A grade 11 student (Expanding; home language Pashto) sends this email to the assistant principal:\n“hey!! wats up? i need u to sign my form 4 the trip asap. thx”",
+ "stem": "Which response by the ENL teacher would best develop the student's sociolinguistic competence?",
+ "options": [
+  "Have the student compare the email with a version for an administrator, noting greeting, word choice, and tone, then revise.",
+  "Return the email with every spelling and capitalization error circled so that the student can correct each one before sending it again.",
+  "Tell the student that texting language is incorrect English and that it should be avoided in every setting, including with friends.",
+  "Give the student a list of formal vocabulary words to memorize and use in all school writing, starting with the next email."
+ ],
+ "answer": 0,
+ "why": "Sociolinguistic competence, one of Canale and Swain's four components, is the ability to match language to audience, setting, and purpose. The student's texting register (hey!!, u, asap) works with friends but not with an administrator. Contrasting the same message for two audiences lets the student notice register features and revise, treating informal English as a resource with its own place rather than as an error.",
+ "traps": [
+  None,
+  {"code": "OVERCORRECT", "note": "Marking every surface error treats the email as a spelling problem and misses the real issue, register. It also tends to raise anxiety without teaching audience awareness."},
+  {"code": "DEFICIT", "note": "Informal registers are legitimate and useful; labeling them 'incorrect' devalues the student's language. The goal is choosing the right register for the setting."},
+  {"code": "ISOLATED", "note": "A memorized word list doesn't teach how greetings, requests, and tone shift with audience, and 'use in all school writing' ignores context."}
+ ],
+ "key": "Teach register by contrasting the same message for different audiences; informal English is a resource with its own place."
+},
+{
+ "id": "1.4-07", "skill": "1.4", "type": "scenario", "difficulty": 1, "diag": 0,
+ "stimulus": "During a grade 5 read-aloud, the class reads: “Right before the spelling bee, Ana got cold feet and almost went home.” A Transitioning student whose home language is Haitian Creole asks, “Why were her feet cold? Was it winter?”",
+ "stem": "Which teacher response would best support the student's comprehension?",
+ "options": [
+  "Give the meaning in a few words and keep reading, so that the class does not lose the thread of the story at an exciting moment.",
+  "Name 'got cold feet' as an idiom meaning 'got too nervous,' point to story clues, and invite similar home-language expressions.",
+  "Skip idioms during read-alouds, since figurative language is beyond what students at the Transitioning level can understand.",
+  "Have the student look up 'cold' and 'feet' in a picture dictionary so that the student can work out the meaning independently."
+ ],
+ "answer": 1,
+ "why": "An idiom is a fixed expression whose meaning can't be worked out from its individual words; the student's question shows a literal reading of 'cold feet.' Naming the expression as an idiom, giving its meaning, and tying it to context clues ('almost went home') teaches a strategy, not just a definition. Inviting home-language equivalents treats students' languages as a resource and deepens the class's understanding of figurative language.",
+ "traps": [
+  {"code": "PASSIVE", "note": "A quick gloss fixes this one phrase but gives no strategy for recognizing idioms and no chance for students to engage with the language."},
+  None,
+  {"code": "LOWER_RIGOR", "note": "Figurative language is part of grade-level texts, and Transitioning students can learn idioms with support. Skipping them lowers expectations."},
+  {"code": "LITERAL", "note": "Idioms are non-compositional, so looking up each word produces the literal reading that confused the student in the first place."}
+ ],
+ "key": "Idioms are non-compositional: name them, explain them in context, and connect them to home-language expressions."
+},
+{
+ "id": "1.4-08", "skill": "1.4", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stimulus": "In a grade 9 Integrated ENL English class, the teacher notices that during whole-class discussions, a Transitioning student (home language Tibetan) begins to speak only after a long pause, by which time classmates have already jumped in. She rarely gets a turn, though her written responses show strong ideas.",
+ "stem": "Which of the following would be the most effective response?",
+ "options": [
+  "Explain to the student that American classrooms reward speaking up quickly, and encourage her to interrupt as her classmates do.",
+  "Reduce the weight of discussion in her participation grade, since her written work already shows strong understanding of the text.",
+  "Use structured turn-taking, such as think-pair-share, talking chips, or set wait time, so every student has a protected turn.",
+  "Refer the student to the school counselor, since her hesitation in discussions suggests she may have significant social anxiety."
+ ],
+ "answer": 2,
+ "why": "Turn-taking norms, such as how long a pause signals that someone else may speak and whether overlapping talk is friendly or rude, vary across speech communities and individuals. Fast, overlapping discussion favors students whose norms match it. Structured protocols and deliberate wait time give every student a turn and processing time, increasing ELL output without asking anyone to abandon their own norms.",
+ "traps": [
+  {"code": "DEFICIT", "note": "Telling her to imitate classmates treats her conversational norms as the problem. Changing the discussion structure equalizes access instead."},
+  {"code": "LOWER_RIGOR", "note": "Lowering oral expectations removes practice she needs. The goal is access to discussion, not exemption from it."},
+  None,
+  {"code": "MISREFERRAL", "note": "A longer pause before speaking, together with strong written work, fits different turn-taking norms and processing time, not a clinical concern."}
+ ],
+ "key": "Turn-taking norms vary; use structured talk protocols and wait time so every ELL gets a protected turn."
+},
+{
+ "id": "1.4-09", "skill": "1.4", "type": "analysis", "difficulty": 2, "diag": 0,
+ "stimulus": "Writing sample, grade 4 (Transitioning; home language Uzbek)\n“My family came to New York in 2023. My family lived with my uncle first. My uncle has a small apartment. The small apartment is in Brooklyn. My family moved to a new apartment in June.”",
+ "stem": "Which instructional focus would most improve the flow of this paragraph?",
+ "options": [
+  "verb tense consistency, so that every sentence in the paragraph uses the simple past tense",
+  "cohesive devices, such as pronoun reference (we, it, there), to link sentences without repeating nouns",
+  "more precise and vivid vocabulary, such as replacing 'small' with a word like 'cramped' or 'tiny'",
+  "capitalization of proper nouns, such as the place names New York and Brooklyn in the paragraph"
+ ],
+ "answer": 1,
+ "why": "Cohesion is created by explicit links between sentences: reference (pronouns such as we, it, there), conjunctions and transitions (first, then), substitution, ellipsis, and lexical ties. The student repeats full noun phrases (my family, the small apartment) where English would usually switch to pronouns, so the paragraph is accurate but choppy. Teaching reference ties and simple sequence transitions builds discourse competence.",
+ "traps": [
+  {"code": "LITERAL", "note": "The tense shifts are logical: has and is describe what is still true. Tense isn't what makes the paragraph choppy."},
+  None,
+  {"code": "PARTIAL", "note": "Richer vocabulary can help, but it doesn't fix the repeated nouns that break the flow between sentences."},
+  {"code": "LITERAL", "note": "New York and Brooklyn are already capitalized, so this focus doesn't match the evidence."}
+ ],
+ "key": "Cohesion comes from explicit ties: pronoun reference, transitions, substitution, lexical links. Repeated nouns signal a need for reference."
+},
+{
+ "id": "1.4-10", "skill": "1.4", "type": "analysis", "difficulty": 3, "diag": 0,
+ "stimulus": "Science paragraph, grade 8 (Expanding; home language Bengali)\n“Plants need sunlight. Furthermore, my cousin has a garden. Therefore, the sun is a star. In addition, some stars are very far away. As a result, we watered the plants.”",
+ "stem": "Which statement best describes this paragraph?",
+ "options": [
+  "It lacks cohesion, because it contains no words that connect one sentence to the next.",
+  "It is coherent, because transition words link each sentence to the one before it.",
+  "It uses many cohesive devices but lacks coherence, because its ideas are not logically related.",
+  "It is coherent but lacks cohesion, because its ideas are logical but poorly linked together."
+ ],
+ "answer": 2,
+ "why": "Cohesion is the surface linking of sentences through explicit devices such as transitions, pronouns, and repetition. Coherence is the underlying logical sense of the whole that a reader can follow. This paragraph is full of transitions (Furthermore, Therefore, As a result), but they signal relationships that don't exist between the ideas, so it is cohesive on the surface yet incoherent. ELLs sometimes add transitions from a list without matching their meaning, so teach what each one signals.",
+ "traps": [
+  {"code": "LITERAL", "note": "The paragraph is packed with transition words (Furthermore, Therefore, In addition). Their absence isn't the problem."},
+  {"code": "TERM", "pair": "cohesion ↔ coherence", "note": "Transitions create surface cohesion, but they can't make unrelated ideas logical. Coherence depends on meaningful connections."},
+  None,
+  {"code": "TERM", "pair": "coherence ↔ cohesion", "note": "This reverses the terms. The ideas are what's illogical; the linking words are plentiful."}
+ ],
+ "key": "Cohesion = surface ties (transitions, pronouns); coherence = logical sense. A text can be cohesive yet incoherent."
+},
+{
+ "id": "1.4-11", "skill": "1.4", "type": "application", "difficulty": 1, "diag": 0,
+ "stimulus": "A grade 6 student (Emerging; home language Spanish) writes: “It was raining very hard. However, the soccer game was canceled.”",
+ "stem": "What is the most accurate description of the problem in the second sentence?",
+ "options": [
+  "The discourse marker signals contrast, but the ideas have a cause-and-effect relationship.",
+  "The second sentence is a fragment, because it begins with a transition word and a comma.",
+  "The verb 'was canceled' should be changed to the active voice to make the sentence clearer to readers.",
+  "The marker 'however' is too informal a choice for written academic English."
+ ],
+ "answer": 0,
+ "why": "Discourse markers (transitions) signal how ideas relate: however and on the other hand signal contrast; therefore, as a result, and so signal cause and effect; in addition signals addition. Heavy rain causing a cancellation is cause and effect, so the sentence needs 'As a result' or 'Therefore.' Teaching markers grouped by function, with examples, prevents this kind of mismatch.",
+ "traps": [
+  None,
+  {"code": "TERM", "pair": "fragment ↔ complete sentence", "note": "'However, the soccer game was canceled' has a subject and a finite verb, so it's a complete sentence. The marker's meaning is the problem."},
+  {"code": "LITERAL", "note": "The passive is natural here, since who canceled the game doesn't matter. Voice doesn't affect the logic between the sentences."},
+  {"code": "TERM", "pair": "register ↔ discourse function", "note": "'However' is standard, even formal, written English. It simply signals the wrong relationship."}
+ ],
+ "key": "Match discourse markers to the relationship: contrast (however), cause–effect (therefore, as a result), addition (in addition)."
+},
+{
+ "id": "1.4-12", "skill": "1.4", "type": "analysis", "difficulty": 2, "diag": 0,
+ "stimulus": "A grade 8 Transitioning student (home language Dari) walks up to a substitute teacher's desk and says, in a calm and friendly tone, “Give me the paper for homework.” The substitute later reports that the student was “rude.”",
+ "stem": "Which of the following best explains this interaction?",
+ "options": [
+  "The student made a grammatical error, since English imperatives require a stated subject such as 'you.'",
+  "The student's culture places little value on politeness toward teachers, which the school should address.",
+  "The student is still learning English ways to soften requests (Could I please…?), so the imperative sounded abrupt.",
+  "The student probably used a rising intonation, which made the request sound like a challenge to the substitute teacher."
+ ],
+ "answer": 2,
+ "why": "English usually softens requests to teachers and other adults with modals and indirect forms ('Could I have…?', 'May I please…?'). A bare imperative is grammatically correct, but the student is still acquiring these pragmatic conventions, so the request sounds more direct than intended. Misreading such gaps as rudeness is common; teaching request forms explicitly through role plays with different listeners builds pragmatic competence.",
+ "traps": [
+  {"code": "TERM", "pair": "grammatical ↔ pragmatic competence", "note": "English imperatives normally omit 'you' (Give me…, Open your books), so the sentence is grammatical. The issue is social appropriateness."},
+  {"code": "STEREOTYPE", "note": "Nothing supports a claim about the student's culture, and the friendly tone shows no intent to be disrespectful. The gap is in English request conventions."},
+  None,
+  {"code": "LITERAL", "note": "The scenario describes the tone as calm and friendly and says nothing about intonation. The bare imperative explains the reaction."}
+ ],
+ "key": "Pragmatic gaps such as unsoftened requests aren't rudeness; explicitly teach polite request forms like 'Could I please…?'"
+},
+{
+ "id": "1.4-13", "skill": "1.4", "type": "knowledge", "difficulty": 1, "diag": 0,
+ "stimulus": "A grade 3 teacher builds a concept map for a science unit: TREE at the top, with branches leading to OAK, MAPLE, and PINE.",
+ "stem": "The relationship between 'oak' and 'tree' is an example of which semantic relation?",
+ "options": ["synonymy", "antonymy", "meronymy", "hyponymy"],
+ "answer": 3,
+ "why": "A hyponym is a more specific word included in a broader category word, its hypernym: oak, maple, and pine are hyponyms of tree. Meronymy, by contrast, is a part–whole relation (branch, root, and leaf are parts of a tree). Organizing vocabulary by semantic relations in concept maps helps ELLs learn words in connected networks instead of isolated lists.",
+ "traps": [
+  {"code": "TERM", "pair": "synonymy ↔ hyponymy", "note": "Synonyms have nearly the same meaning (big/large). An oak is a kind of tree, not another word for tree."},
+  {"code": "TERM", "pair": "antonymy ↔ hyponymy", "note": "Antonyms are opposites (hot/cold). Oak and tree aren't opposites."},
+  {"code": "TERM", "pair": "meronymy ↔ hyponymy", "note": "Meronymy is part to whole (branch → tree). An oak isn't part of a tree; it's a type of tree."},
+  None
+ ],
+ "key": "Hyponymy = 'kind of' (oak → tree); meronymy = 'part of' (branch → tree)."
+},
+{
+ "id": "1.4-14", "skill": "1.4", "type": "knowledge", "difficulty": 3, "diag": 0,
+ "stem": "Which statement best describes Dell Hymes's contribution to the concept of communicative competence?",
+ "options": [
+  "He divided communicative competence into four components: grammatical, sociolinguistic, discourse, and strategic.",
+  "He proposed that comprehensible input slightly beyond the learner's current level is what drives acquisition.",
+  "He argued that an innate language acquisition device explains how every child acquires grammar.",
+  "He argued that knowing a language includes knowing when, where, and to whom to say what, not only grammar."
+ ],
+ "answer": 3,
+ "why": "Dell Hymes coined 'communicative competence' as a response to Chomsky's narrower notion of linguistic competence (knowledge of grammar). Hymes argued that speakers also know how to use language appropriately in social context: when to speak, what to say, to whom, and how. Canale and Swain later defined its components, and the concept underlies Communicative Language Teaching.",
+ "traps": [
+  {"code": "MISAPPLIED_THEORY", "note": "Right idea, wrong theorists: the four-part breakdown comes from Canale and Swain, who built on Hymes's concept."},
+  {"code": "MISAPPLIED_THEORY", "note": "This is Krashen's Input Hypothesis (i+1), a theory of how acquisition happens, not a definition of communicative competence."},
+  {"code": "TERM", "pair": "linguistic competence ↔ communicative competence", "note": "The innate LAD is Chomsky's idea. Hymes's point was that Chomsky's grammar-only view of competence leaves out social use."},
+  None
+ ],
+ "key": "Hymes coined communicative competence (appropriate use, not just grammar); Canale & Swain named its four components."
 },
 ]
 

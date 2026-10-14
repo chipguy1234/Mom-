@@ -549,7 +549,7 @@ Q62 = [
   "No orientation is needed, because the district places ELLs in ENL and informs parents of the placement afterward."
  ],
  "answer": 0,
- "why": "Part 154 requires an orientation that explains the program options (Transitional Bilingual Education, Dual Language, and ENL) so parents can make an informed choice, and parents are entitled to that information in a language they understand. Federal civil-rights guidance also directs schools to provide qualified interpreters rather than relying on children or untrained relatives. Pushing interpretation onto families defeats the purpose of the orientation.",
+ "why": "Part 154 requires an orientation that explains the program options (Transitional Bilingual Education, Dual Language, and ENL) so parents can make an informed choice, and parents are entitled to that information in a language they understand. Federal civil-rights guidance also directs schools to provide qualified interpreters rather than relying on children, siblings, friends, or untrained staff. Pushing interpretation onto families defeats the purpose of the orientation.",
  "traps": [
   None,
   {"code": "NYS_POLICY", "note": "Orientation happens at identification, before placement, so parents can choose a program. Waiting until spring would leave the child without an informed placement for most of the year."},
@@ -739,7 +739,7 @@ Q63 = [
  "answer": 2,
  "why": "Effective communication matches each family's preferred language and preferred mode. Speakers of Indigenous languages such as K'iche' and Mixteco may have limited Spanish, and these families have said they prefer spoken communication, so written Spanish misses them twice. Oral communication through qualified interpreters in K'iche' and Mixteco, supported by visuals, gives them real access.",
  "traps": [
-  {"code": "STEREOTYPE", "note": "This assumes that everyone from Guatemala or Mexico is Spanish-dominant. Many Indigenous-language speakers are not, and these families have already shown that written Spanish is not reaching them."},
+  {"code": "STEREOTYPE", "note": "This assumes that speakers of K'iche' and Mixteco, Indigenous languages of Guatemala and Mexico, are Spanish-dominant. Many are not, and these families have already shown that written Spanish is not reaching them."},
   {"code": "FAMILY_BARRIER", "note": "Relying on children to relay school information turns them into interpreters and leaves families with incomplete or inaccurate messages."},
   None,
   {"code": "FAMILY_BARRIER", "note": "Simplified English is still English, and it is still written. It ignores both the families' languages and their stated preference for spoken communication."}
@@ -857,7 +857,7 @@ Q63 = [
   "Recommend that she enroll in an adult English class so that she will be able to help with her daughter's homework in the future.",
   "Tell her not to worry about homework, since homework is not very important for ELLs at this early stage.",
   "Suggest that an older sibling sit with the daughter each night and complete the homework together with her.",
-  "Say she can help by discussing the topics in Arabic and asking her daughter to explain her work; also scaffold the homework."
+  "Explain that she can help by discussing the topics in Arabic and having her daughter explain her work, and adapt the homework."
  ],
  "answer": 3,
  "why": "Parents do not need English to support learning. Discussing ideas in Arabic, asking the child to explain what she is doing, and keeping a calm homework routine all build understanding that transfers to English. The teacher also owns part of the problem: homework that brings a student to tears needs scaffolds (bilingual glossaries, models, or home-language options) so she can do it with reasonable independence.",
@@ -874,7 +874,7 @@ Q63 = [
  "id": "6.3-13", "skill": "6.3", "type": "scenario", "difficulty": 2, "diag": 0,
  "stem": "After local news reports about immigration enforcement, a Q'anjob'al-speaking family stops attending school events and returning forms. The mother tells the family liaison she fears the school will share information about the family's immigration status. What is the most appropriate response?",
  "options": [
-  "Through the liaison and a qualified interpreter, explain that attendance does not depend on immigration status, and offer safe ways to meet.",
+  "Through the liaison and a qualified interpreter, explain that a child's schooling does not depend on immigration status, and offer safe ways to meet.",
   "Ask the family to bring their immigration documents to the main office so that the school can confirm that the whole family is fully protected.",
   "Respect the family's privacy by pausing all outreach until the mother feels ready to contact the school again on her own.",
   "Send home a detailed letter in English explaining the district's privacy policies and the federal laws that protect student records."
@@ -950,7 +950,7 @@ LESSONS = [
          "- **May 25, 1970 OCR Memorandum**: districts must take **affirmative steps** to open instruction to language-minority students. They may not assign students to special education because of their English skills or keep them out of college-preparatory courses, and they must notify parents in a language the parents understand. The Supreme Court quoted this memo in Lau.\n\n"
          "When an item describes ELLs barred from college-prep classes or parent notices sent only in English, the 1970 memo is a strong candidate."},
   {"h": "The big three: Lau, Castañeda, Plyler",
-   "md": "Learn these as *situation → case*, because that is how the exam asks.\n\n"
+   "md": "Learn these as **situation → case**, because that is how the exam asks.\n\n"
          "**Lau v. Nichols (1974), U.S. Supreme Court.** Chinese-speaking students in San Francisco received the same teachers, books, and classes as everyone else and no language help. Under **Title VI**, the Court held that the same facilities, textbooks, teachers, and curriculum do not give equal opportunity to students who do not understand English. Districts must take affirmative steps. Lau did **not** prescribe a method: teaching English was one choice, instruction in Chinese was another, and “there may be others.”\n\n"
          "- Exam cue: ELLs placed in mainstream classes with no support, or a district arguing “we treat everyone identically.”\n\n"
          "**Castañeda v. Pickard (1981), Fifth Circuit Court of Appeals.** Interpreting the EEOA's “appropriate action,” the court created a **three-prong test**: (1) the program is based on sound educational theory; (2) it is implemented effectively, with adequate resources and personnel; (3) after a trial period, it is evaluated and shown to be effective.\n\n"
@@ -1041,7 +1041,7 @@ LESSONS = [
          "Translation and interpretation rights in practice:\n\n"
          "- Notices and orientations must reach parents **in a language they understand**. An English-only letter to a Wolof-speaking family is a compliance problem even when it arrives on time.\n"
          "- The district provides interpretation. A flyer telling families to “bring a relative or older child to translate” shifts the district's responsibility onto the family.\n"
-         "- Federal civil-rights law backs this up: Title VI and the 2015 Dear Colleague Letter direct schools to use qualified interpreters, not children or untrained staff."},
+         "- Federal civil-rights law backs this up: under Title VI, as the 2015 Dear Colleague Letter explains, schools must communicate with parents in a language they understand and should use qualified interpreters, not children or untrained staff."},
   {"h": "The Blueprint for ELL/MLL Success",
    "md": "Eight principles, and what each looks like in a school:\n\n"
          "- **Every teacher is a teacher of ELLs:** the science teacher plans language objectives too.\n"
@@ -1104,7 +1104,7 @@ LESSONS = [
    "md": "Every family-communication item starts here. Families of ELLs are entitled to information in a language they understand, and the school, not the family, arranges it.\n\n"
          "- **Qualified interpreters, never children.** Federal civil-rights guidance tells schools not to rely on students, siblings, friends, or untrained staff. A child interpreter is put in an adult role, may not know terms like “Integrated ENL” or “evaluation,” and may soften bad news about herself or a sibling.\n"
          "- **Translation is written; interpretation is spoken.** A family may need both.\n"
-         "- **Ask about language *and* mode.** Some families read their home language; others prefer phone calls, voice messages, or face-to-face meetings. Speakers of Indigenous languages such as K'iche', Mixteco, or Q'anjob'al may not be reached by Spanish translations.\n"
+         "- **Ask about both language and mode.** Some families read their home language; others prefer phone calls, voice messages, or face-to-face meetings. Speakers of Indigenous languages such as K'iche', Mixteco, or Q'anjob'al may not be reached by Spanish translations.\n"
          "- **Machine translation** is a stopgap at best. It can be inaccurate, and it assumes the family reads that language.\n"
          "- **Special education:** under IDEA, parents must understand IEP proceedings, so the school arranges an interpreter for the meeting and provides notices in the parents' language."},
   {"h": "Working well with an interpreter",
