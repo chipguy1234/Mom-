@@ -548,7 +548,134 @@ Q("4.2-14", "analysis", 3,
 
 # ---------------------------------------------------------------- 4.3
 QUESTIONS += [
-#@43a
+Q("4.3-01", "scenario", 2, diag=1,
+  stim="Word-reading check, grade 1 (Mateo, home language Spanish)\nTarget word | Mateo read\nship | 'sheep'\nbit | 'beat'\npen | 'pen'\ncap | 'cop'\nhut | 'hot'",
+  stem="Based on Mateo's reading, which instructional response is most appropriate?",
+  opts=[
+    "Refer Mateo for a speech-language evaluation, since he is unable to produce several of the basic vowel sounds that English requires.",
+    "Postpone phonics instruction until Mateo's oral English is fluent enough for him to hear the vowel differences on his own.",
+    "Have Mateo practice flashcards of nonsense words for each short vowel every day until he can read all of them quickly and accurately.",
+    "Teach the short-vowel contrasts explicitly with picture minimal pairs (ship/sheep), mouth-position cues, and sorts, then apply them in text.",
+  ],
+  ans=3,
+  why="Spanish has five vowel phonemes; English has many more, including short (lax) vowels such as /ɪ/, /æ/, and /ʌ/ that Spanish lacks. Mateo is mapping these English vowels onto the nearest Spanish vowels, which is predictable cross-linguistic transfer, not a disorder. Explicit, contrastive instruction with meaningful picture words, articulation cues, and word sorts, followed by reading in connected text, helps him hear and produce the distinctions.",
+  traps=[
+    ("MISREFERRAL", "Substituting the closest home-language vowel is a typical transfer pattern for Spanish speakers, not evidence of a speech disorder."),
+    ("EXCLUSION", "Delaying phonics withholds instruction he needs now. Explicit contrast work is how he will learn to hear the differences."),
+    ("ISOLATED", "Nonsense-word flashcards drill speed without meaning or contrast. He needs to hear and see the vowel pairs side by side in real words."),
+    None,
+  ],
+  key="Spanish has 5 vowels; teach the English short-vowel contrasts explicitly with minimal pairs, pictures, articulation cues, and connected text."),
+
+Q("4.3-02", "analysis", 2,
+  stim="Journal entry, grade 2 (Valeria, literate in Spanish)\n'Mai bes dei. Ai laik tu plei wit mai frend. Wi jav fan in di park.'",
+  stem="Valeria's spellings most likely indicate that she",
+  opts=[
+    "has a visual-processing difficulty that causes her to confuse letters, and she should be referred for an evaluation",
+    "is applying Spanish letter-sound correspondences to English, showing she can segment sounds and use the alphabetic principle",
+    "has not yet developed phonological awareness and is guessing at the letters in each word based on their shapes",
+    "has fossilized errors in her interlanguage that will be very difficult to change through classroom instruction",
+  ],
+  ans=1,
+  why="Valeria's spellings are systematic: 'ai' for /aɪ/ (mai, laik), 'ei' for /eɪ/ (dei, plei), 'j' for /h/ (jav), and 'i' for /i/ (wi, di) are all regular Spanish spellings. She hears each sound and represents it with the Spanish grapheme she knows, which is strong evidence of phonemic awareness and alphabetic knowledge transferred from Spanish. The next step is explicit instruction in the English spellings for these sounds, contrasted with Spanish.",
+  traps=[
+    ("MISREFERRAL", "The spellings follow consistent Spanish patterns, so this is logical transfer, not a perceptual disability."),
+    None,
+    ("LITERAL", "Every sound in every word is represented in order. That reflects strong phonological awareness, not guessing."),
+    ("TERM", "transfer ↔ fossilization", "Fossilization describes persistent errors that stop responding to input over time. A second grader's Spanish-based spellings are developmental transfer that responds well to instruction."),
+  ],
+  key="Systematic Spanish-based invented spellings show phonemic awareness and alphabetic knowledge that transferred; teach English spellings by contrast."),
+
+Q("4.3-03", "application", 1,
+  stem="A kindergarten ENL teacher says the word 'ship,' and students push a chip into a box for each sound they hear: /ʃ/ /ɪ/ /p/. No letters are used. Which skill are the students practicing?",
+  opts=[
+    "Phonics",
+    "Morphological awareness",
+    "Phonemic awareness",
+    "Reading fluency",
+  ],
+  ans=2,
+  why="Phonemic awareness is the ability to hear and manipulate the individual phonemes in spoken words. It is an oral skill, with no print involved. Segmenting 'ship' into three sounds (even though it has four letters) with Elkonin boxes is a classic phonemic-awareness task. Phonics connects those sounds to letters; it begins when letters replace the chips.",
+  traps=[
+    ("TERM", "phonemic awareness ↔ phonics", "Phonics links sounds to letters in print. This task is purely oral, with chips standing for sounds."),
+    ("TERM", "phonemic awareness ↔ morphological awareness", "Morphological awareness concerns meaningful word parts (prefixes, roots, suffixes), not individual sounds."),
+    None,
+    ("TERM", "phonemic awareness ↔ fluency", "Fluency is accurate, appropriately paced, expressive reading of connected text. No text is being read here."),
+  ],
+  key="Phonemic awareness is oral manipulation of individual sounds (no print); phonics maps those sounds to letters."),
+
+Q("4.3-04", "scenario", 2,
+  stem="Yousef, a grade 5 newcomer, was reading and writing on grade level in Arabic before moving to New York. Which aspect of English literacy will most likely require explicit instruction rather than transferring from his Arabic literacy?",
+  opts=[
+    "Writing from left to right and representing vowel sounds with letters in every word",
+    "Understanding that written symbols represent the sounds of the spoken language",
+    "Using strategies such as predicting, rereading, and summarizing to understand a text",
+    "Recognizing that texts are organized differently for purposes such as telling stories or reporting facts",
+  ],
+  ans=0,
+  why="Arabic is written right to left in a consonant-based script (an abjad) in which short vowels are usually left unwritten. Directionality and consistent vowel spelling are therefore new, and Arabic-literate learners often omit vowels when spelling English words. By contrast, Yousef's understanding that print represents speech, his comprehension strategies, and his knowledge of text purposes belong to the common underlying proficiency (Cummins) and transfer to English.",
+  traps=[
+    None,
+    ("MISAPPLIED_THEORY", "Arabic is also written with letters that stand for sounds, so the basic alphabetic insight transfers. Re-teaching it ignores Cummins's common underlying proficiency."),
+    ("DEFICIT", "Treating a literate student's comprehension strategies as absent undervalues his Arabic literacy. These strategies transfer and should be activated."),
+    ("PARTIAL", "Some English genre conventions may need attention, but the core understanding that texts serve different purposes already exists in Arabic and transfers."),
+  ],
+  key="Arabic literacy transfers concepts and strategies; teach explicitly what differs: left-to-right directionality and written vowels."),
+
+Q("4.3-05", "application", 3,
+  stem="Mei, a grade 4 student from mainland China, reads and writes Chinese at grade level and learned Pinyin in school. Which statement best describes what her teacher can expect as Mei learns to read English?",
+  opts=[
+    "Little will transfer, because Chinese characters are so different from English letters that Mei must learn to read as if for the first time.",
+    "Her comprehension strategies and familiarity with Latin letters will help, but she will need explicit teaching of English phoneme-letter mapping.",
+    "She will decode English easily, because Pinyin uses the same letters as English and assigns each of them the same sound values as English spelling.",
+    "She should learn English words as whole visual shapes, because memorizing whole words matches the way she originally learned to read Chinese.",
+  ],
+  ans=1,
+  why="Chinese characters mainly represent morphemes and syllables rather than individual phonemes, so the English alphabetic code, especially phoneme-level letter-sound mapping, needs explicit teaching. Mei still brings a great deal: she knows how reading works, has comprehension strategies, and recognizes Latin letters from Pinyin. Some Pinyin letters, however, stand for different sounds than in English (x, q, and c, for example). Whole-word memorization alone would not give her the decoding tools English requires.",
+  traps=[
+    ("DEFICIT", "Grade-level Chinese literacy is a major asset. Concepts about reading, comprehension strategies, and study skills transfer even across very different scripts."),
+    None,
+    ("LITERAL", "Pinyin shares the letters but not all the sound values (Pinyin x, q, and c differ from English), and English spelling is far less regular."),
+    ("MISAPPLIED_THEORY", "Matching instruction to her L1 script misreads transfer theory. English requires phonological decoding, which she must be taught explicitly."),
+  ],
+  key="Logographic L1 readers bring strong literacy concepts but need explicit instruction in English phoneme-grapheme correspondences."),
+
+Q("4.3-06", "analysis", 2,
+  stim="Grade 3 reading data (Andrés, home language Spanish, Transitioning)\nMeasure | Result\nWords correct per minute (grade-level passage) | At the grade-level benchmark\nAccuracy | 97%\nOral retell | Names two characters; cannot explain the main events\nVocabulary check | Did not know 'harvest,' 'stubborn,' or 'barn'",
+  stem="Which conclusion and next step are best supported by these data?",
+  opts=[
+    "Andrés needs additional phonics intervention, since weak decoding is the most common reason that a student's retelling is incomplete.",
+    "Andrés should practice reading faster to free up attention for meaning, so timed repeated readings should be his top instructional priority.",
+    "Andrés should be moved to easier texts until his retelling improves, since the grade-level passage is clearly too difficult for him.",
+    "Andrés decodes accurately, but limited vocabulary and oral language are holding back comprehension, so he needs vocabulary and background building.",
+  ],
+  ans=3,
+  why="Andrés's word-level skills (accuracy and rate) are on target, but his text-level comprehension is not, and he lacks key vocabulary. This is a common ELL profile. The National Literacy Panel on Language-Minority Children and Youth (August & Shanahan, 2006) found that ELLs often develop decoding skills comparable to native speakers' while comprehension lags because of vocabulary and oral language. Instruction should build vocabulary, background knowledge, and discussion of grade-level texts, and fluency checks should always include comprehension.",
+  traps=[
+    ("LITERAL", "The data show 97% accuracy at benchmark rate, so decoding is not the problem. This option ignores the key evidence."),
+    ("MISAPPLIED_THEORY", "Automaticity theory applies when decoding is slow. His rate is already at benchmark; speed won't fix missing word meanings."),
+    ("LOWER_RIGOR", "Easier texts would not build the vocabulary and background knowledge he needs. He can access grade-level text with vocabulary support."),
+    None,
+  ],
+  key="ELLs often decode well but lag in comprehension; strong fluency scores with weak retell signal a vocabulary/oral language need."),
+
+Q("4.3-07", "knowledge", 3,
+  stem="In the literacy-background categories commonly used in ESL literacy instruction (preliterate, nonliterate, semiliterate, and so on), which term best describes a 15-year-old newcomer who speaks Q'anjob'al, a language with an established written form, but who never attended school and cannot read or write in any language?",
+  opts=[
+    "Nonliterate",
+    "Preliterate",
+    "Semiliterate",
+    "Non-Roman alphabet literate",
+  ],
+  ans=0,
+  why="In this framework, 'preliterate' describes learners whose home language has no written form or is rarely written; 'nonliterate' describes learners whose language has a written form but who have had no access to literacy instruction; 'semiliterate' describes learners with some limited literacy. Because Q'anjob'al has a written form and the student has had no schooling, 'nonliterate' fits. The distinction matters because it points to a lack of opportunity, not a lack of ability.",
+  traps=[
+    None,
+    ("TERM", "nonliterate ↔ preliterate", "'Preliterate' applies when the home language itself has no written form or is rarely written. Q'anjob'al has an established writing system."),
+    ("TERM", "nonliterate ↔ semiliterate", "'Semiliterate' describes learners with some basic literacy. This student cannot read or write in any language."),
+    ("TERM", "nonliterate ↔ non-Roman alphabet literate", "That category describes students literate in another alphabet (e.g., Cyrillic, Arabic). This student has no literacy to transfer."),
+  ],
+  key="Preliterate: L1 not (commonly) written. Nonliterate: L1 is written but no access to schooling. Semiliterate: limited literacy."),
 ]
 QUESTIONS += [
 #@43b

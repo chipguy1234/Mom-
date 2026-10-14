@@ -619,7 +619,7 @@
     "'I have two book and three pencil in my bag.' (home language: Mandarin)"
    ],
    "answer": 2,
-   "why": "Overgeneralization is an intralingual (developmental) process in which the learner applies a productive English rule too broadly. 'Catched' extends regular past -ed to an irregular verb, a form no English speaker models and that has nothing to do with Arabic. The other three sentences mirror home-language patterns, so they are examples of negative transfer.",
+   "why": "Overgeneralization is an intralingual (developmental) process in which the learner applies a productive English rule too broadly. 'Catched' extends regular past -ed to an irregular verb, a form the student is unlikely to have heard from proficient speakers and that has nothing to do with Arabic. The other three sentences mirror home-language patterns, so they are examples of negative transfer.",
    "traps": [
     {
      "code": "TERM",

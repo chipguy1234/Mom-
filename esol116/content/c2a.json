@@ -113,11 +113,11 @@
     "Kasia's status cannot be reviewed this year; she can leave ELL status only by meeting the NYSESLAT exit criteria in the spring."
    ],
    "answer": 1,
-   "why": "NYS allows a re-identification review within 45 school days of enrollment. It may be requested by the parent/guardian, by the student, or by a teacher with the parent's consent. This safeguard exists because a single test score can misidentify a student, as may have happened here.",
+   "why": "NYS allows a re-identification review within 45 school days of enrollment. It may be requested by the parent/guardian, by a teacher with the parent's consent, or by the student if the student is 18 or older. This safeguard exists because a single test score can misidentify a student, as may have happened here.",
    "traps": [
     {
      "code": "NYS_POLICY",
-     "note": "Parents can request a review, but they are not the only ones: a teacher (with parent consent) or the student may also initiate it."
+     "note": "Parents can request a review, but they are not the only ones: a teacher (with parent consent), or a student who is 18 or older, may also initiate it."
     },
     null,
     {
@@ -129,7 +129,7 @@
      "note": "Outside the 45-school-day window this would be true, but day 25 is within it, so re-identification is available."
     }
    ],
-   "key": "Re-identification: requested within 45 school days by a parent, the student, or a teacher with parent consent."
+   "key": "Re-identification: requested within 45 school days by a parent, a teacher with parent consent, or a student 18 or older."
   },
   {
    "id": "2.1-05",
@@ -1730,7 +1730,7 @@
    "id": "2.4-11",
    "skill": "2.4",
    "type": "analysis",
-   "difficulty": 2,
+   "difficulty": 3,
    "diag": 0,
    "stimulus": "Comments at a grade 4 data meeting about Jun, a newcomer at the Emerging level whose home language is Mandarin\nTeacher A: \"He basically has no language yet, so we have to start from zero.\"\nTeacher B: \"Let's give him easier books until his English catches up.\"\nTeacher C: \"He'll be fine in math at least. Chinese students are always strong in math.\"\nTeacher D: \"He reads chapter books in Mandarin, so he already knows how to infer and summarize. Let's have him annotate in Mandarin and English.\"",
    "stem": "Which teacher's comment best reflects an asset-based perspective?",
@@ -1880,7 +1880,7 @@
     },
     {
      "h": "Special cases: IEPs, re-identification, SIFE",
-     "md": "**Students with IEPs.** When a newly enrolled student has an IEP, a **Language Proficiency Team (LPT)** looks at the evidence, including whether the disability rather than limited English is the determining factor, and decides whether the student should take the NYSITELL. Its recommendation goes to the **superintendent**. A disability never automatically rules out ELL status.\n\n**Re-identification.** Within **45 school days** of enrollment, a review can be requested by the **parent/guardian**, the **student**, or a **teacher with parent consent**. A teacher cannot start it alone, and parents are not the only ones who can ask.\n\n**SIFE.** Students with interrupted/inconsistent formal education are ELLs who have been in U.S. schools **less than 12 months** and who, on enrollment, are **two or more years below grade level in home-language literacy and/or math** because of interrupted or inadequate schooling. Status is determined within **30 school days** using an **oral interview questionnaire** and, for certain languages, the **MLS (Multilingual Literacy SIFE Screener)**. Gaps caused by missed school are an opportunity-to-learn issue, not evidence of a disability."
+     "md": "**Students with IEPs.** When a newly enrolled student has an IEP, a **Language Proficiency Team (LPT)** looks at the evidence, including whether the disability rather than limited English is the determining factor, and decides whether the student should take the NYSITELL. Its recommendation goes to the **superintendent**. A disability never automatically rules out ELL status.\n\n**Re-identification.** Within **45 school days** of enrollment, a review can be requested by the **parent/guardian**, a **teacher with parent consent**, or the **student if 18 or older**. A teacher cannot start it alone, and parents are not the only ones who can ask.\n\n**SIFE.** Students with interrupted/inconsistent formal education are ELLs who have been in U.S. schools **less than 12 months** and who, on enrollment, are **two or more years below grade level in home-language literacy and/or math** because of interrupted or inadequate schooling. Status is determined within **30 school days** using an **oral interview questionnaire** and, for certain languages, the **MLS (Multilingual Literacy SIFE Screener)**. Gaps caused by missed school are an opportunity-to-learn issue, not evidence of a disability."
     },
     {
      "h": "ELL subgroups",
@@ -1925,7 +1925,7 @@
     },
     {
      "t": "Re-identification",
-     "d": "Review of ELL status requested within 45 school days by a parent, the student, or a teacher with parent consent."
+     "d": "Review of ELL status requested within 45 school days by a parent, a teacher with parent consent, or a student 18+."
     },
     {
      "t": "Language Proficiency Team (LPT)",
@@ -1965,7 +1965,7 @@
    "body": [
     {
      "h": "Why individual factors matter",
-     "md": "Two students at the same NYSESLAT level can be very different learners. The exam wants you to look past the level to the **person**: their age, motivation, personality, anxiety, aptitude, preferences, and especially their **prior schooling and home-language literacy**. The right answer usually responds to the specific factor in the scenario without lowering expectations or reaching for a referral."
+     "md": "Two students at the same NYSESLAT level can be very different learners. The exam wants you to look past the level to the **person**: their age, motivation, personality, anxiety, aptitude, preferences, and especially their **prior schooling and home-language literacy**. The right answer usually responds to the specific factor in the scenario without lowering expectations or reaching for a referral.\n\nA useful habit: before reading the options, say to yourself which factor the stem is really about. If the student talks well with a partner but freezes in front of the class, it's anxiety. If she reads at grade level in Nepali, it's transferable literacy. If he wants to pass the Regents, it's instrumental motivation. Then eliminate options that address a different factor."
     },
     {
      "h": "Age: rate versus ultimate attainment",

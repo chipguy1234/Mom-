@@ -543,7 +543,7 @@
      "note": "'Uncomfortable' has five syllables but only three morphemes: un- + comfort + -able."
     },
     {
-     "code": "PARTIAL",
+     "code": "LITERAL",
      "note": "Close, but 'rewritten' has three morphemes: re- + write + -en (past participle). The doubled t is spelling, not a separate morpheme."
     }
    ],
@@ -1376,7 +1376,7 @@
      "note": "Plural -s is inflectional, not derivational, and no new nouns are being formed."
     }
    ],
-   "key": "Countability is language-specific: advice, information, and homework are noncount in English but count in French and Spanish."
+   "key": "Countability is language-specific: advice, information, and homework are noncount in English but count nouns in French (des conseils, des informations, des devoirs)."
   },
   {
    "id": "1.3-13",
@@ -1489,7 +1489,7 @@
    "type": "analysis",
    "difficulty": 2,
    "diag": 1,
-   "stimulus": "During a grade 3 lesson, the teacher says to a newcomer (Entering; home language Wolof), “Can you close the door?” The student smiles, says “Yes,” and stays seated.",
+   "stimulus": "In the morning, a grade 3 newcomer (Entering; home language Wolof) closes the classroom door right away when the teacher says, “Please close the door.” That afternoon the teacher asks, “Can you close the door?” The student smiles, says “Yes,” and stays seated.",
    "stem": "Which of the following best explains the student's response?",
    "options": [
     "The student responded to the literal form, a question about ability, rather than to its function as a request.",
@@ -1503,7 +1503,7 @@
     null,
     {
      "code": "LITERAL",
-     "note": "Nothing shows a vocabulary gap; 'Yes' is an accurate answer to the literal question. The gap is in interpreting the utterance's function."
+     "note": "The student closed the door when asked directly that morning, so the verb is known, and 'Yes' accurately answers the literal question. The gap is in interpreting the utterance's function."
     },
     {
      "code": "DEFICIT",
@@ -2156,7 +2156,7 @@
     },
     {
      "h": "Articles and countability",
-     "md": "Articles are among the last features ELLs master, and the source of errors differs by L1:\n- **No articles in the L1** (Russian, Polish, Mandarin, Korean, Japanese): omission. 'I bought new phone. Phone is fast.'\n- **Articles with different rules** (Spanish, French): overuse with generic and abstract nouns. 'The education is important' mirrors 'La educación es importante.' English uses the **zero article** for generic plurals and noncount nouns: 'Education is important,' 'Dogs are loyal.'\n\nCore English rules: a/an for a singular count noun that is new or nonspecific; the when the listener can identify which one (second mention, something unique, or a noun specified by a phrase).\n\n**Countability** is a grammatical property, not a fact about the world. Advice, information, homework, furniture, and equipment are noncount in English (no plural -s; much, not many; 'a piece of advice'), though their equivalents are count nouns in French and Spanish. Expect 'many informations' and 'advices.'"
+     "md": "Articles are among the last features ELLs master, and the source of errors differs by L1:\n- **No articles in the L1** (Russian, Polish, Mandarin, Korean, Japanese): omission. 'I bought new phone. Phone is fast.'\n- **Articles with different rules** (Spanish, French): overuse with generic and abstract nouns. 'The education is important' mirrors 'La educación es importante.' English uses the **zero article** for generic plurals and noncount nouns: 'Education is important,' 'Dogs are loyal.'\n\nCore English rules: a/an for a singular count noun that is new or nonspecific; the when the listener can identify which one (second mention, something unique, or a noun specified by a phrase).\n\n**Countability** is a grammatical property, not a fact about the world. Advice, information, homework, furniture, and equipment are noncount in English (no plural -s; much, not many; 'a piece of advice'), though their equivalents are often count nouns in other languages (French des conseils, des informations; Spanish consejos, muebles). Expect 'many informations' and 'advices.'"
     },
     {
      "h": "Verbs that trip up ELLs",

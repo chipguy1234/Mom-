@@ -26,7 +26,7 @@ Ms. Okafor is the ENL teacher in a co-taught grade 5 Integrated ENL/ELA class. I
     exhibits=[
         dict(title="Exhibit 1: Student Background (NYSESLAT results from spring of grade 4)", content=T("""
 Student | Age | Home language | Years in U.S. schools | Prior schooling and home-language literacy | Listening | Speaking | Reading | Writing
-Daniela | 10 | Spanish | 2 (arrived in grade 3) | Attended school in the Dominican Republic, K–2; reads chapter books in Spanish at home | Expanding | Transitioning | Transitioning | Emerging
+Daniela | 10 | Spanish | 2 (arrived in grade 3) | Attended school in the Dominican Republic, K–2; reads chapter books in Spanish at home | Expanding | Transitioning | Transitioning | Transitioning
 Bilal | 10 | Urdu | 3 (arrived in grade 2) | Attended school in Pakistan, K–1; reads simple Urdu texts with his father | Expanding | Expanding | Transitioning | Transitioning
 Yuxin | 11 | Mandarin | 1 (arrived in grade 4) | Uninterrupted schooling in China through grade 3; strong Chinese literacy; math above grade level | Transitioning | Emerging | Transitioning | Emerging
 """)),
@@ -92,8 +92,8 @@ This strategy will be effective because ELLs need scaffolding. According to Kras
 """),
     weakNotes=[
         "Completeness: The \"strength\" (hardworking, likes the book) is a disposition, not a language or literacy skill, so the first task is only partly met.",
-        "Accuracy: Past-tense grammar is not the most significant shared need, and it is not fully shared: Bilal writes \"was scared\" and \"got lost.\" The response misses the real pattern, which is that all three retell instead of explaining (rubric scores of 1 in Exhibit 4).",
-        "Depth of Support: The evidence is a few quoted errors with no exhibit numbers. Exhibits 2 and 4, including the 5/5 listening scores, are ignored.",
+        "Accuracy: Past-tense errors appear in all three samples, but they are not the most significant shared need: Bilal already uses \"was scared\" and \"got lost,\" and correct verbs would not fix the real pattern, which is that all three retell instead of explaining (rubric scores of 1 in Exhibit 4).",
+        "Depth of Support: The evidence is a few quoted errors with no exhibit numbers. Exhibit 2 is used only for classroom behaviors, and the 5/5 listening scores and the Exhibit 4 rubric are ignored.",
         "Completeness: The \"strategy\" is a list (organizers, frames, groups, worksheets, visuals, peers), not one activity, and none of it builds on a named strength.",
         "Accuracy: Daily grammar worksheets are isolated practice that does not fit a need for explaining ideas in meaningful writing.",
         "Depth of Support: Krashen, Vygotsky, and the affective filter are named without any link to what these students said or wrote.",
@@ -165,9 +165,9 @@ Mykola: Drawing of himself and his mother on a slide. Wrote MOM AND (copied from
     model=T("""
 Valeria, Abdoulaye, and Mykola share a significant strength in phonological awareness at the level of larger sound units, rhyme and syllables, supported by a real love of rhythmic language in English and in their home languages. Their shared need is phoneme-level awareness: hearing, blending, and segmenting the individual sounds in words, which they need in order to connect sounds to letters when they read and write.
 
-The strength shows up across the exhibits. In Exhibit 2, all three recognize rhyming pairs (9, 8, and 8 of 10), produce rhymes (4, 4, and 3 of 5), and clap syllables almost perfectly (10, 10, and 9 of 10). Exhibit 3 confirms this in authentic settings: all three chimed in on the big-book refrain by the second reading, each produced a correct rhyme for "man," and each performed a rhyme or song in Spanish, Wolof, or Ukrainian while keeping the beat. Exhibit 1 shows that rhymes, songs, and stories are part of all three homes.
+The strength shows up across the exhibits. In Exhibit 2, all three recognize rhyming pairs (9, 8, and 8 of 10), produce rhymes (4, 4, and 3 of 5), and clap syllables almost perfectly (10, 10, and 9 of 10). Exhibit 3 confirms this in authentic settings: all three chimed in on the big-book refrain by the second reading, each produced a correct rhyme for "man," and each performed a rhyme or song in Spanish, Wolof, or Ukrainian while keeping the beat. Exhibit 1 shows that all three homes are rich in language: Spanish rhymes, Wolof stories and songs, and Ukrainian picture books.
 
-The need is equally consistent. In Exhibit 2, scores drop sharply at the phoneme level: blending (3, 2, and 2 of 10) and segmenting (1, 0, and 1 of 10). Letter-sound knowledge (9, 7, and 6 of 26) lags well behind letter names. In Exhibit 3, when asked for the sounds in "map," Valeria produced only the first sound, while Abdoulaye and Mykola repeated the whole word. Exhibit 4 shows the effect on writing: each child tells a rich oral message but records only a few letters, such as "B W" for "Big wave" and the random string "KTPAOS."
+The need is equally consistent. In Exhibit 2, scores drop sharply at the phoneme level: blending (3, 2, and 2 of 10) and segmenting (1, 0, and 1 of 10). Letter-sound knowledge (9, 7, and 6 of 26) lags well behind letter names. In Exhibit 3, when asked for the sounds in "map," Valeria produced only the first sound, while Abdoulaye and Mykola repeated the whole word. Exhibit 4 shows the effect on writing: each child's oral message is fuller than what the letters record. Valeria captures only some sounds ("BRDA" for birthday, "KK" for cake), Abdoulaye writes only first sounds ("B W" for "Big wave"), and Mykola adds a string ("KTPAOS") with little sound–letter match.
 
 I would build on the strength with a daily 10- to 15-minute "from rhyme to sounds" routine tied to the chants the children love. First, we chant a familiar verse and clap its syllables. Next, I pull out rhyming words from the chant, such as "man," "can," and "ran," and we split each into onset and rime with hand motions (/m/... /an/). Then, using Elkonin sound boxes, the children say a word slowly and push one counter into a box for each sound: /m/ /a/ /n/. Once they can segment orally, they replace the counters with magnetic letters for sounds they know. Finally, we use interactive writing to compose a new line for the chant, and each child "shares the pen," stretching a word into the boxes before writing it. I would also invite families to send rhymes and would point out that Mykola's Cyrillic Р says /r/, while English P says /p/.
 
@@ -175,7 +175,7 @@ This routine works because phonological awareness develops from larger units to 
 """),
     modelNotes=[
         "Completeness: It names one shared strength (rhyme and syllable awareness) and one shared need (phoneme-level awareness), then gives one routine and a separate explanation.",
-        "Accuracy: The need is set at the right grain size. Letter names are fairly strong, so the response targets phoneme segmenting and sound–letter mapping, where every child scores lowest.",
+        "Accuracy: The need is set at the right grain size. Letter names are a relative strength (14–21 of 26), so the response targets phoneme segmenting and sound–letter mapping, where every child scores lowest.",
         "Depth of Support: It uses exact screening numbers from Exhibit 2 and links them to authentic behavior in Exhibits 3 and 4 (chants, \"map,\" \"B W\").",
         "Depth of Support: The routine moves step by step along the phonological-awareness continuum (syllable, onset–rime, phoneme, letter) and ends in meaningful interactive writing.",
         "Accuracy: It treats the home-language rhymes as assets, explains cross-linguistic transfer correctly, and notes the specific Cyrillic look-alike that affects Mykola.",
@@ -191,7 +191,7 @@ This is effective because young children learn language easily, and repetition h
 """),
     weakNotes=[
         "Completeness: \"They like to sing and draw\" is an interest, not an early literacy skill. The response never names the rhyme and syllable awareness documented in Exhibit 2, even though concepts about print is a reasonable partial point.",
-        "Accuracy: The need is framed as letter knowledge in general, but the sharper shared need is phoneme awareness (segmenting scores of 1, 0, and 1 of 10). Letter names are actually fairly strong.",
+        "Accuracy: The need is framed as letter knowledge in general, but the sharper shared need is phoneme awareness (segmenting scores of 1, 0, and 1 of 10). Letter names (14–21 of 26) are already well ahead of letter sounds.",
         "Accuracy: Telling parents to read in English is deficit-oriented and throws away the strong home-language rhyme and story practices in Exhibit 1.",
         "Depth of Support: Flashcards and circle-the-picture worksheets are isolated drills. The alphabet song is the only link to the strength, and it does not build phoneme awareness.",
         "Depth of Support: \"Young children learn easily\" and \"phonics is the most important part\" are generalizations, not principles tied to these children's data.",
@@ -214,15 +214,15 @@ This is effective because young children learn language easily, and repetition h
 SCENARIOS.append(dict(
     id="cr3",
     title="Grade 7 Integrated ENL Science: From Lab Bench to Textbook",
-    setting="Grade 7 Integrated ENL science (co-taught), unit on physical and chemical changes",
+    setting="Grade 7 Integrated ENL science (co-taught), unit on physical and chemical changes, February",
     intro=T("""
 Ms. Haddad, an ENL teacher, co-teaches a grade 7 Integrated ENL science class. The class has just finished a set of hands-on investigations of physical and chemical changes and is now reading the textbook section on the same topic. Ms. Haddad has gathered information about two English Language Learners in the class.
 """),
     exhibits=[
         dict(title="Exhibit 1: Student Background (NYSESLAT results from spring of grade 6)", content=T("""
 Student | Age | Home language | Time in U.S. schools | Prior schooling | Listening | Speaking | Reading | Writing
-Aziz | 12 | Uzbek (also reads Russian) | 1½ years (arrived midway through grade 6) | Uninterrupted schooling in Tashkent in Uzbek; strong science and math background | Transitioning | Emerging | Emerging | Emerging
-Valentina | 12 | Spanish | 2 years (arrived at the start of grade 6) | Uninterrupted schooling in Medellín, Colombia; top grades in science | Expanding | Transitioning | Transitioning | Transitioning
+Aziz | 12 | Uzbek (also reads Russian) | 1 year (arrived midway through grade 6) | Uninterrupted schooling in Tashkent in Uzbek; strong science and math background | Transitioning | Emerging | Emerging | Emerging
+Valentina | 12 | Spanish | 1½ years (arrived at the start of grade 6) | Uninterrupted schooling in Medellín, Colombia; top grades in science | Expanding | Transitioning | Transitioning | Transitioning
 """)),
         dict(title="Exhibit 2: Lab Observation Notes", content=T("""
 Station 1 (baking soda + vinegar): Both students followed the written procedure, which had picture steps, without help. Before mixing, Aziz predicted, "Gas will come," and he wrote "CO2" on his diagram from memory. Valentina told her partner in Spanish, "Es una reacción química porque se forma una sustancia nueva, el gas."
@@ -292,7 +292,7 @@ This will be effective because vocabulary is very important for reading. If stud
     weakNotes=[
         "Completeness: \"Good at science labs\" points toward the strength but never states the conceptual understanding the lab shows (8/8 card sorts, Valentina's explanation of melting), so it cannot be used later in the strategy.",
         "Accuracy: \"Vocabulary\" is too broad. The exhibits point to sentence-level features such as passive voice, nominalization, and long sentences (\"When I get to the end, I forget the beginning\"), not just unknown words.",
-        "Completeness: The response adds a second, unsupported need (complete sentences in writing) instead of one focused need.",
+        "Completeness: The response adds a second need (complete sentences in writing) that only Aziz shows, instead of one focused, shared need.",
         "Depth of Support: The strategy is isolated (dictionary definitions and a Friday quiz) and lowers rigor with a simplified text instead of scaffolding the grade-level passage.",
         "Depth of Support: The strategy never uses the students' lab knowledge, and \"because of Vygotsky\" is a name with no explanation.",
     ],
@@ -389,7 +389,7 @@ This would be effective because students need to know correct grammar to be good
         "Completeness: The strength (\"speak English well and are confident\") is vague and partly social. It never names oral argumentation, so the strategy has nothing specific to build on.",
         "Accuracy: The spelling and grammar errors are real but surface-level. The response misses the shared, significant need, which is written academic register (1s on formal style in Exhibit 4).",
         "Accuracy: Calling \"the kids was\" simply a mistake ignores register and language variety, and correcting everything in red pen is overcorrection that can raise anxiety.",
-        "Depth of Support: The evidence is a list of errors with no exhibit numbers. The seminar notes and the NYSESLAT speaking–writing gap are ignored.",
+        "Depth of Support: The evidence is a list of errors with no exhibit numbers. The seminar notes are used only to show participation, and the NYSESLAT speaking–writing gap is ignored.",
         "Depth of Support: The strategy (red pen, grammar packet, reading at home) is isolated and does not use the students' oral strength at all.",
         "Depth of Support: Krashen is cited to justify homework reading, which does not address the identified need.",
     ],
@@ -452,13 +452,13 @@ Samira (drew a detailed dress with measurements in centimeters and Arabic labels
     model=T("""
 Esteban and Samira share a significant strength in the funds of knowledge they bring from work and family responsibilities, especially practical numeracy and measurement, which they eagerly describe orally. Their shared need is foundational English literacy: decoding words and reading simple connected text.
 
-The strength appears throughout the exhibits. Exhibit 1 shows that both students worked for years after their schooling was interrupted, Esteban on a farm and at a market stall and Samira sewing and selling clothing, and both placed higher in math than in home-language reading. In Exhibit 2, Esteban calculated change in his head faster than any classmate, and Samira measured fabric to the half-centimeter and explained, "This one more long, 75." Both talked eagerly about their work in emerging English ("I sell in the market. Saturday, many people"). Exhibit 4 shows the same knowledge on paper: Samira's drawing includes measurements and "3 meter cloth," and Esteban's sample is entirely about his work.
+The strength appears throughout the exhibits. Exhibit 1 shows that both students worked for years after their schooling was interrupted, Esteban on a farm and at a market stall and Samira sewing and selling clothing, and both placed higher in math than in home-language reading. In Exhibit 2, Esteban calculated change in his head faster than any classmate, and Samira measured fabric to the half-centimeter and explained, "This one more long, 75." Both talked eagerly about their work in emerging English ("I sell in the market. Saturday, many people"). Exhibit 4 shows the same knowledge on paper: Samira labels her dress drawing with measurements in centimeters and dictates "3 meter cloth," and Esteban's sample is entirely about his work.
 
 The need is equally clear. Both are SIFE at the Entering level, with home-language reading at about grades 1 to 2 (Exhibit 1). In Exhibit 3, Esteban reads 12 of 50 high-frequency words and decodes 6 of 10 simple words, while Samira reads 3 and decodes 1. In Exhibit 2, Samira turned a printed paragraph face-down and Esteban stopped after two words. Esteban's spellings ("cofi," "sel," "pipol") show that he applies Spanish letter-sound knowledge, which helps him but leaves English vowel patterns to learn.
 
 I would use the Language Experience Approach (LEA), built on their work. First, each student would demonstrate a real task, such as Samira measuring and pricing cloth or Esteban making change at a market, while I introduce key English words with realia and photographs. Second, each student would dictate sentences about the task, and I would write them on chart paper close to how they were spoken ("Samira measures the cloth. She needs 3 meters."). Third, we would read the chart through echo and choral reading while I track the print, and we would reread it daily. Fourth, I would use the text for word work: cutting sentence strips into words to rebuild, highlighting high-frequency words such as "the" and "she," and decoding words from the text such as "cut," "sell," and "red." For Esteban, I would contrast English and Spanish vowel sounds; for Samira, whose first script runs right to left, I would add letter formation and left-to-right tracking. Finally, the typed stories would become a class book, "Our Work," which later supplies math word problems.
 
-LEA is effective because the reading material comes from the students' own language and experience, so it is fully comprehensible, input at Krashen's i+1. Because they already know what the text means, they can focus on decoding. Drawing on their funds of knowledge (Moll) affirms them as capable young adults, which lowers the affective filter for adolescents who may feel embarrassed by beginning reading and reflects the CR-SE Framework. Esteban's Spanish letter-sound knowledge transfers, consistent with Cummins' Common Underlying Proficiency, so instruction can target only what is new. Finally, my scribing and our shared rereading are scaffolds within each student's zone of proximal development that I gradually release as they read and write more independently.
+LEA is effective because the reading material comes from the students' own language and experience, so the meaning is already known and only the print is new, which keeps the input at Krashen's i+1. Because they already know what the text means, they can focus on decoding. Drawing on their funds of knowledge (Moll) affirms them as capable young adults, which lowers the affective filter for adolescents who may feel embarrassed by beginning reading and reflects the CR-SE Framework. Esteban's Spanish letter-sound knowledge transfers, consistent with Cummins' Common Underlying Proficiency, so instruction can target only what is new. Finally, my scribing and our shared rereading are scaffolds within each student's zone of proximal development that I gradually release as they read and write more independently.
 """),
     modelNotes=[
         "Completeness: It names one shared strength (work-based funds of knowledge, especially numeracy and measurement) and one shared need (foundational English literacy), then gives one strategy and its rationale.",
@@ -480,7 +480,7 @@ This would work because students have to learn the basics before they can learn 
         "Completeness: \"Good at math\" is close to the strength but is stated generally and is never connected to literacy. The strength is not used in the strategy.",
         "Accuracy: Kindergarten books and alphabet worksheets ignore that these students are 16. Age-inappropriate, isolated materials can embarrass adolescents and reduce engagement.",
         "Accuracy: Delaying math and science until reading improves excludes the students from content learning, and suggesting a disability evaluation after four months confuses typical SIFE literacy development with a disability.",
-        "Depth of Support: The response uses a few numbers from Exhibit 3 but never cites an exhibit, and it ignores the oral and work evidence in Exhibits 2 and 4.",
+        "Depth of Support: The response never cites an exhibit by number. It uses one score from Exhibit 3 and a few misspellings from Exhibit 4, and it mentions the money and measuring evidence in Exhibit 2 only in passing, without the details that show the students' expertise.",
         "Depth of Support: The Cummins 5–7 years figure is accurate but does not explain why this strategy would work, and \"phonics books give comprehensible input\" is unsupported.",
     ],
     checklist=[
@@ -551,7 +551,7 @@ Camila has a significant strength in Spanish literacy: strong narrative writing 
 
 Her strength is documented in Exhibits 1, 2, and 4. She reads independently at grade level in Spanish and meets grade-level expectations in Spanish writing (Exhibit 1). Her Spanish narrative in Exhibit 2 is well organized, uses correctly punctuated dialogue, and ends with a reflection ("¡Fue el mejor día del otoño!"). It uses past tenses accurately and with variety, including the preterite ("fuimos," "trajo," "se cayó") and the imperfect ("estaba"). In Exhibit 4, she explained that "fuimos" is used "because it already happened," which shows that she understands past time and can reflect on language. Exhibit 4 also notes that her English narrative follows the same organization as her Spanish one, so this strength is already transferring.
 
-Her need is just as clear. In Exhibit 3, nearly every past event is written in the present: "I go," "my dad make," "my aunt bring," "he fall," "we eat." Only "was" is correct. The same pattern appears in her speech in Exhibit 4 ("Yesterday I play... we watch"), where she self-corrects only occasionally and after a pause ("go... went"). Because she reads past-tense verbs correctly and knows the events "already happened," the issue is not understanding past time. She has not yet acquired the English forms for producing it. This is a typical interlanguage pattern, not interference from Spanish, which marks the past clearly.
+Her need is just as clear. In Exhibit 3, nearly every past event is written in the present: "I go," "my dad make," "my aunt bring," "he fall," "we eat." Only "was" is clearly marked for the past. The same pattern appears in her speech in Exhibit 4 ("Yesterday I play... we watch"), where she self-corrects only occasionally and after a pause ("go... went"). Because she reads past-tense verbs correctly and knows the events "already happened," the issue is not understanding past time. She has not yet acquired the English forms for producing it. This is a typical interlanguage pattern, not interference from Spanish, which marks the past clearly.
 
 I would use a Spanish–English "Bridge," a planned cross-linguistic comparison that fits the Dual Language model. First, Camila and a partner would highlight the past-tense verbs in her Spanish narrative. Second, we would build a chart matching each Spanish verb to the verb she wrote for the same event in English and then to the English past form: "fuimos / go / went," "jugamos / play / played," "se cayó / fall / fell." Third, we would discuss the difference: Spanish changes the verb ending, while English adds -ed to regular verbs and uses a new form for irregular ones. She would sort her verbs into "add -ed" and "new word" columns and keep the chart as a personal bilingual reference. Fourth, she would revise her English narrative with a partner, reading it aloud and checking each verb against the chart. Finally, in later drafts, she would underline time words such as "last Saturday" as a cue to check her verbs.
 
@@ -576,7 +576,7 @@ This would be effective because separating the languages helps students not conf
     weakNotes=[
         "Completeness: \"She can write in two languages\" is true but vague. It never identifies her specific Spanish strengths (organization, accurate past tense, talking about language), so the strategy cannot build on them.",
         "Accuracy: It blames Spanish for her verb errors, but Spanish marks past tense clearly. The pattern is developmental, and her Spanish knowledge is actually a resource.",
-        "Accuracy: Keeping Spanish out of her thinking during English time treats the home language as a problem and works against Dual Language biliteracy goals and the Blueprint's call to leverage home language.",
+        "Accuracy: Dual Language programs do allocate time by language, but banning any use of Spanish \"so the two languages do not get mixed up\" treats the home language as a source of confusion. It rules out planned cross-linguistic connections, which work toward Dual Language biliteracy goals and the Blueprint's call to leverage home language.",
         "Depth of Support: Spelling and capitalization are minor, scattered issues. The most significant pattern, past events written in the present, is mentioned only in passing and without evidence.",
         "Depth of Support: Contrastive Analysis is misapplied to justify separating the languages, and the strategy (spelling list, checklist) is generic and isolated.",
     ],
