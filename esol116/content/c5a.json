@@ -708,8 +708,8 @@
      "note": "Ending small-group work gives every student identical whole-class instruction regardless of proficiency. Targeted small-group support is valuable; the problem is the fixed membership."
     },
     {
-     "code": "PARTIAL",
-     "note": "Grouping by need can be appropriate for a specific purpose, but a fixed, permanent group of the same ELLs is what produced the 'slow table' label. Groups should change with the data."
+     "code": "ONE_SIZE",
+     "note": "Grouping by proficiency label treats the six students as interchangeable and ignores ongoing data about each one. A fixed, permanent group of the same ELLs is what produced the 'slow table' label; groups should change with the data."
     }
    ],
    "key": "Don't always pull the same ELLs in alternative teaching; use flexible, data-based groups with varied purposes."
@@ -1136,7 +1136,7 @@
      "note": "Confusing -teen and -ty is a common L2 listening difficulty. With no other evidence, a referral for hearing loss is premature."
     },
     {
-     "code": "PARTIAL",
+     "code": "LITERAL",
      "note": "Slower speech might help a little, but blaming attention misreads a consistent pattern, and louder speech doesn't teach the stress contrast."
     },
     null
@@ -1431,7 +1431,7 @@
     },
     {
      "code": "PARTIAL",
-     "note": "Active voice is acceptable in some science writing, but avoiding the passive won't help the student read and write the textbook and lab-report language he meets constantly."
+     "note": "Active voice is common and widely accepted in science writing, but avoiding the passive won't help the student read and write the textbook and lab-report language he meets constantly."
     },
     null,
     {
@@ -1459,8 +1459,8 @@
    "why": "Science texts rely on nominalization, turning verbs and adjectives into nouns ('destroy' → 'destruction,' 'reduce' → 'reduction') to pack whole processes into compact noun phrases. The result is dense and abstract, hiding the actors and the cause–effect link. Unpacking nominalizations into clauses with actors and verbs, and then repacking them, shows ELLs how the sentence works and how to write like a scientist.",
    "traps": [
     {
-     "code": "PARTIAL",
-     "note": "The students already know the words. The difficulty is that processes have been turned into nouns, hiding who does what and how the ideas connect, and definitions alone won't unpack that."
+     "code": "LITERAL",
+     "note": "The stem says the students already know the words. The difficulty is that processes have been turned into nouns, hiding who does what and how the ideas connect, and definitions alone won't unpack that."
     },
     null,
     {

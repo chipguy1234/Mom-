@@ -1221,8 +1221,8 @@
      "note": "A worked example next to each item shows students how to solve it, so the test no longer measures whether they can do it on their own."
     },
     {
-     "code": "PARTIAL",
-     "note": "This reduces the language load but drops the real-world problem-solving part of the standard. The better approach scaffolds the language of the word problems rather than deleting them."
+     "code": "ASSESS_INVALID",
+     "note": "This reduces the language load but drops the real-world problem-solving part of the standard, so the test no longer measures the full construct. Scaffold the language of the word problems rather than deleting them."
     }
    ],
    "key": "Valid adaptations remove language barriers but keep the construct; don't lower the math, give away steps, or delete word problems."
@@ -1248,8 +1248,8 @@
      "note": "A single English test would mostly measure Samuel's reading. Objectivity does not equal validity for a student at the Entering level."
     },
     {
-     "code": "PARTIAL",
-     "note": "A portfolio is a sound format, but vocabulary worksheets document language practice, not his understanding of the geography of the Americas."
+     "code": "ASSESS_INVALID",
+     "note": "A portfolio is a sound format, but vocabulary worksheets measure English language practice, not the construct being reported: his understanding of the geography of the Americas."
     },
     null,
     {
