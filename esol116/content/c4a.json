@@ -911,6 +911,467 @@
     }
    ],
    "key": "Break the IRE pattern with open questions, wait time, follow-up prompts, and turn-and-talk to extend ELLs' academic talk."
+  },
+  {
+   "id": "4.3-01",
+   "skill": "4.3",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 1,
+   "stimulus": "Word-reading check, grade 1 (Mateo, home language Spanish)\nTarget word | Mateo read\nship | 'sheep'\nbit | 'beat'\npen | 'pen'\ncap | 'cop'\nhut | 'hot'",
+   "stem": "Based on Mateo's reading, which instructional response is most appropriate?",
+   "options": [
+    "Refer Mateo for a speech-language evaluation, since he is unable to produce several of the basic vowel sounds that English requires.",
+    "Postpone phonics instruction until Mateo's oral English is fluent enough for him to hear the vowel differences on his own.",
+    "Have Mateo practice flashcards of nonsense words for each short vowel every day until he can read all of them quickly and accurately on his own.",
+    "Teach the short-vowel contrasts explicitly with picture minimal pairs (ship/sheep), mouth-position cues, and sorts, then apply them in text."
+   ],
+   "answer": 3,
+   "why": "Spanish has five vowel phonemes; English has many more, including short (lax) vowels such as /ɪ/, /æ/, and /ʌ/ that Spanish lacks. Mateo is mapping these English vowels onto the nearest Spanish vowels, which is predictable cross-linguistic transfer, not a disorder. Explicit, contrastive instruction with meaningful picture words, articulation cues, and word sorts, followed by reading in connected text, helps him hear and produce the distinctions.",
+   "traps": [
+    {
+     "code": "MISREFERRAL",
+     "note": "Substituting the closest home-language vowel is a typical transfer pattern for Spanish speakers, not evidence of a speech disorder."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "Delaying phonics withholds instruction he needs now. Explicit contrast work is how he will learn to hear the differences."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Nonsense-word flashcards drill speed without meaning or contrast. He needs to hear and see the vowel pairs side by side in real words."
+    },
+    null
+   ],
+   "key": "Spanish has 5 vowels; teach the English short-vowel contrasts explicitly with minimal pairs, pictures, articulation cues, and connected text."
+  },
+  {
+   "id": "4.3-02",
+   "skill": "4.3",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Journal entry, grade 2 (Valeria, literate in Spanish)\n'Mai bes dei. Ai laik tu plei wit mai frend. Wi jav fan in di park.'",
+   "stem": "Valeria's spellings most likely indicate that she",
+   "options": [
+    "has a visual-processing difficulty that causes her to confuse and reverse letters, and she should be referred for a formal evaluation",
+    "is applying Spanish letter-sound correspondences to English, showing she can segment sounds and use the alphabetic principle",
+    "has not yet developed phonological awareness and is guessing at the letters in each word based on their shapes",
+    "has fossilized errors in her interlanguage that will be very difficult to change through classroom instruction"
+   ],
+   "answer": 1,
+   "why": "Valeria's spellings are systematic: 'ai' for /aɪ/ (mai, laik), 'ei' for /eɪ/ (dei, plei), 'j' for /h/ (jav), and 'i' for /i/ (wi, di) are all regular Spanish spellings. She hears each sound and represents it with the Spanish grapheme she knows, which is strong evidence of phonemic awareness and alphabetic knowledge transferred from Spanish. The next step is explicit instruction in the English spellings for these sounds, contrasted with Spanish.",
+   "traps": [
+    {
+     "code": "MISREFERRAL",
+     "note": "The spellings follow consistent Spanish patterns, so this is logical transfer, not a perceptual disability."
+    },
+    null,
+    {
+     "code": "LITERAL",
+     "note": "Every sound in every word is represented in order. That reflects strong phonological awareness, not guessing."
+    },
+    {
+     "code": "TERM",
+     "pair": "transfer ↔ fossilization",
+     "note": "Fossilization describes persistent errors that stop responding to input over time. A second grader's Spanish-based spellings are developmental transfer that responds well to instruction."
+    }
+   ],
+   "key": "Systematic Spanish-based invented spellings show phonemic awareness and alphabetic knowledge that transferred; teach English spellings by contrast."
+  },
+  {
+   "id": "4.3-03",
+   "skill": "4.3",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A kindergarten ENL teacher says the word 'ship,' and students push a chip into a box for each sound they hear: /ʃ/ /ɪ/ /p/. No letters are used. Which skill are the students practicing?",
+   "options": [
+    "Phonics",
+    "Morphological awareness",
+    "Phonemic awareness",
+    "Reading fluency"
+   ],
+   "answer": 2,
+   "why": "Phonemic awareness is the ability to hear and manipulate the individual phonemes in spoken words. It is an oral skill, with no print involved. Segmenting 'ship' into three sounds (even though it has four letters) with Elkonin boxes is a classic phonemic-awareness task. Phonics connects those sounds to letters; it begins when letters replace the chips.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "phonemic awareness ↔ phonics",
+     "note": "Phonics links sounds to letters in print. This task is purely oral, with chips standing for sounds."
+    },
+    {
+     "code": "TERM",
+     "pair": "phonemic awareness ↔ morphological awareness",
+     "note": "Morphological awareness concerns meaningful word parts (prefixes, roots, suffixes), not individual sounds."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "phonemic awareness ↔ fluency",
+     "note": "Fluency is accurate, appropriately paced, expressive reading of connected text. No text is being read here."
+    }
+   ],
+   "key": "Phonemic awareness is oral manipulation of individual sounds (no print); phonics maps those sounds to letters."
+  },
+  {
+   "id": "4.3-04",
+   "skill": "4.3",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "Yousef, a grade 5 newcomer, was reading and writing on grade level in Arabic before moving to New York. Which aspect of English literacy will most likely require explicit instruction rather than transferring from his Arabic literacy?",
+   "options": [
+    "Writing from left to right and representing vowel sounds with letters in every word",
+    "Understanding that written symbols represent the sounds of the spoken language",
+    "Using strategies such as predicting, rereading, and summarizing to understand a text",
+    "Recognizing that texts are organized differently for purposes such as telling stories or reporting facts"
+   ],
+   "answer": 0,
+   "why": "Arabic is written right to left in a consonant-based script (an abjad) in which short vowels are usually left unwritten. Directionality and consistent vowel spelling are therefore new, and Arabic-literate learners often omit vowels when spelling English words. By contrast, Yousef's understanding that print represents speech, his comprehension strategies, and his knowledge of text purposes belong to the common underlying proficiency (Cummins) and transfer to English.",
+   "traps": [
+    null,
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Arabic is also written with letters that stand for sounds, so the basic alphabetic insight transfers. Re-teaching it ignores Cummins's common underlying proficiency."
+    },
+    {
+     "code": "DEFICIT",
+     "note": "Treating a literate student's comprehension strategies as absent undervalues his Arabic literacy. These strategies transfer and should be activated."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Some English genre conventions may need attention, but the core understanding that texts serve different purposes already exists in Arabic and transfers."
+    }
+   ],
+   "key": "Arabic literacy transfers concepts and strategies; teach explicitly what differs: left-to-right directionality and written vowels."
+  },
+  {
+   "id": "4.3-05",
+   "skill": "4.3",
+   "type": "application",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "Mei, a grade 4 student from mainland China, reads and writes Chinese at grade level and learned Pinyin in school. Which statement best describes what her teacher can expect as Mei learns to read English?",
+   "options": [
+    "Little will transfer, because Chinese characters are so different from English letters that Mei must learn to read as if for the first time.",
+    "Her comprehension strategies and familiarity with Latin letters will help, but she will need explicit teaching of English phoneme-letter mapping.",
+    "She will decode English easily, because Pinyin uses the same letters as English and assigns each of them the same sound values as English spelling.",
+    "She should learn English words as whole visual shapes, because memorizing whole words matches the way she originally learned to read Chinese."
+   ],
+   "answer": 1,
+   "why": "Chinese characters mainly represent morphemes and syllables rather than individual phonemes, so the English alphabetic code, especially phoneme-level letter-sound mapping, needs explicit teaching. Mei still brings a great deal: she knows how reading works, has comprehension strategies, and recognizes Latin letters from Pinyin. Some Pinyin letters, however, stand for different sounds than in English (x, q, and c, for example). Whole-word memorization alone would not give her the decoding tools English requires.",
+   "traps": [
+    {
+     "code": "DEFICIT",
+     "note": "Grade-level Chinese literacy is a major asset. Concepts about reading, comprehension strategies, and study skills transfer even across very different scripts."
+    },
+    null,
+    {
+     "code": "LITERAL",
+     "note": "Pinyin shares the letters but not all the sound values (Pinyin x, q, and c differ from English), and English spelling is far less regular."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Matching instruction to her L1 script misreads transfer theory. English requires phonological decoding, which she must be taught explicitly."
+    }
+   ],
+   "key": "Logographic L1 readers bring strong literacy concepts but need explicit instruction in English phoneme-grapheme correspondences."
+  },
+  {
+   "id": "4.3-06",
+   "skill": "4.3",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Grade 3 reading data (Andrés, home language Spanish, Transitioning)\nMeasure | Result\nWords correct per minute (grade-level passage) | At the grade-level benchmark\nAccuracy | 97%\nOral retell | Names two characters; cannot explain the main events\nVocabulary check | Did not know 'harvest,' 'stubborn,' or 'barn'",
+   "stem": "Which conclusion and next step are best supported by these data?",
+   "options": [
+    "Andrés needs additional phonics intervention, since weak decoding is the most common reason that a student's retelling is incomplete.",
+    "Andrés should practice reading faster to free up more attention for meaning, so daily timed repeated readings should be his top instructional priority.",
+    "Andrés should be moved to easier texts until his retelling improves, since the grade-level passage is clearly too difficult for him.",
+    "Andrés decodes accurately, but limited vocabulary and oral language are holding back comprehension, so he needs vocabulary and background building."
+   ],
+   "answer": 3,
+   "why": "Andrés's word-level skills (accuracy and rate) are on target, but his text-level comprehension is not, and he lacks key vocabulary. This is a common ELL profile. The National Literacy Panel on Language-Minority Children and Youth (August & Shanahan, 2006) found that ELLs often develop decoding skills comparable to native speakers' while comprehension lags because of vocabulary and oral language. Instruction should build vocabulary, background knowledge, and discussion of grade-level texts, and fluency checks should always include comprehension.",
+   "traps": [
+    {
+     "code": "LITERAL",
+     "note": "The data show 97% accuracy at benchmark rate, so decoding is not the problem. This option ignores the key evidence."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Automaticity theory applies when decoding is slow. His rate is already at benchmark; speed won't fix missing word meanings."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Easier texts would not build the vocabulary and background knowledge he needs. He can access grade-level text with vocabulary support."
+    },
+    null
+   ],
+   "key": "ELLs often decode well but lag in comprehension; strong fluency scores with weak retell signal a vocabulary/oral language need."
+  },
+  {
+   "id": "4.3-07",
+   "skill": "4.3",
+   "type": "knowledge",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "In the literacy-background categories commonly used in ESL literacy instruction (preliterate, nonliterate, semiliterate, and so on), which term best describes a 15-year-old newcomer who speaks Q'anjob'al, a language with an established written form, but who never attended school and cannot read or write in any language?",
+   "options": [
+    "Nonliterate",
+    "Preliterate",
+    "Semiliterate",
+    "Non-Roman alphabet literate"
+   ],
+   "answer": 0,
+   "why": "In this framework, 'preliterate' describes learners whose home language has no written form or is rarely written; 'nonliterate' describes learners whose language has a written form but who have had no access to literacy instruction; 'semiliterate' describes learners with some limited literacy. Because Q'anjob'al has a written form and the student has had no schooling, 'nonliterate' fits. The distinction matters because it points to a lack of opportunity, not a lack of ability.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "pair": "nonliterate ↔ preliterate",
+     "note": "'Preliterate' applies when the home language itself has no written form or is rarely written. Q'anjob'al has an established writing system."
+    },
+    {
+     "code": "TERM",
+     "pair": "nonliterate ↔ semiliterate",
+     "note": "'Semiliterate' describes learners with some basic literacy. This student cannot read or write in any language."
+    },
+    {
+     "code": "TERM",
+     "pair": "nonliterate ↔ non-Roman alphabet literate",
+     "note": "That category describes students literate in another alphabet (e.g., Cyrillic, Arabic). This student has no literacy to transfer."
+    }
+   ],
+   "key": "Preliterate: L1 not (commonly) written. Nonliterate: L1 is written but no access to schooling. Semiliterate: limited literacy."
+  },
+  {
+   "id": "4.3-08",
+   "skill": "4.3",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 2,
+   "stem": "Ousmane, a 14-year-old SIFE whose home language is Wolof, is a skilled oral storyteller but has had little experience with print in any language because of interrupted schooling. Which approach would best begin his English literacy development?",
+   "options": [
+    "Use kindergarten picture books and nursery rhymes, since his literacy development is at the same stage as a young child's.",
+    "Have him complete alphabet-tracing worksheets daily until he knows every letter, before he reads any connected text at all.",
+    "Use the Language Experience Approach: he dictates his own experiences, and the transcribed text becomes his reading and phonics material.",
+    "Keep him out of his content classes until he can read independently, so that he can focus all of his energy on building basic literacy skills."
+   ],
+   "answer": 2,
+   "why": "The Language Experience Approach turns a student's own oral language and experiences into reading material, so the text is meaningful, age-appropriate, and built on Ousmane's strength in oral storytelling. From his dictated text, the teacher can explicitly teach concepts about print, sight words, and letter-sound patterns. Adolescent SIFE need literacy instruction that respects their age and life experience, not materials designed for young children.",
+   "traps": [
+    {
+     "code": "WRONG_LEVEL",
+     "note": "Materials for young children ignore his age, interests, and life experience. Beginning literacy does not have to mean childish content."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Letter knowledge matters, but tracing worksheets in isolation, with connected text postponed, strips literacy of meaning and delays real reading."
+    },
+    null,
+    {
+     "code": "EXCLUSION",
+     "note": "Removing a SIFE from content classes denies grade-level learning. Literacy can develop alongside scaffolded content instruction."
+    }
+   ],
+   "key": "For preliterate or nonliterate teens, use age-respectful, meaningful text built on their own oral language (Language Experience Approach) plus explicit skills."
+  },
+  {
+   "id": "4.3-09",
+   "skill": "4.3",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "In a Spanish–English Dual Language kindergarten, Camila can rhyme, clap syllables, and identify beginning sounds in Spanish words, but she is just beginning to learn English. What is the most accurate expectation about her phonological awareness in English?",
+   "options": [
+    "Her Spanish phonological skills will interfere with English, so the teacher should focus all of her phonological work on English only.",
+    "She will need to develop phonological awareness again from the beginning in English, because it is a language-specific skill.",
+    "Because she is still learning English vocabulary, phonological awareness instruction in English should wait until her oral English is stronger.",
+    "Much of her phonological awareness will transfer to English, so the teacher can build on it and teach the English sounds that differ."
+   ],
+   "answer": 3,
+   "why": "Research on bilingual children (e.g., Durgunoğlu and colleagues) shows that phonological awareness transfers across languages. A child who can rhyme, segment syllables, and isolate initial sounds in Spanish can apply that awareness to English, which reflects Cummins's common underlying proficiency. The teacher builds on what Camila already knows and explicitly teaches English sounds that Spanish lacks.",
+   "traps": [
+    {
+     "code": "DEFICIT",
+     "note": "Treating Spanish skills as interference is a deficit view. Her Spanish phonological awareness is an asset that supports English."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Phonological awareness is largely a shared, transferable skill (common underlying proficiency). It does not restart from zero in each language."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "Waiting delays instruction she can benefit from now, especially since she already has the underlying skill in Spanish."
+    },
+    null
+   ],
+   "key": "Phonological awareness transfers across languages; build on L1 skills and explicitly teach the new-language sounds that differ."
+  },
+  {
+   "id": "4.3-10",
+   "skill": "4.3",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Reading words on a capital-letter word wall (Taras, grade 6, literate in Ukrainian)\nPrinted word | Taras read\nHOT | 'not'\nPEN | 'ren'\nBAT | 'vat'",
+   "stem": "Which explanation best accounts for Taras's errors?",
+   "options": [
+    "Negative transfer from Cyrillic, in which letters that look like Latin letters (H, P, B) represent different sounds (/n/, /r/, /v/)",
+    "A visual-perceptual difficulty that causes him to reverse letters and misread letters that look similar to one another",
+    "Limited phonemic awareness, which prevents him from hearing and blending the individual sounds in short, simple words",
+    "Interference from Ukrainian vocabulary, since he is substituting familiar Ukrainian words that look or sound like the English words on the wall"
+   ],
+   "answer": 0,
+   "why": "In Cyrillic, Н stands for /n/, Р for /r/, and В for /v/, so a Ukrainian reader who sees capital H, P, and B applies his Ukrainian letter-sound knowledge. This is a predictable negative transfer of grapheme-phoneme correspondences, and it shows he is decoding systematically. The teacher should explicitly contrast these look-alike letters in English and Ukrainian.",
+   "traps": [
+    null,
+    {
+     "code": "MISREFERRAL",
+     "note": "The errors follow Cyrillic letter values exactly, so this is transfer, not a perceptual disability; referral is unwarranted."
+    },
+    {
+     "code": "LITERAL",
+     "note": "He blends three sounds correctly in every word. The problem is which sound he assigns to certain letters, not phonemic awareness."
+    },
+    {
+     "code": "TERM",
+     "pair": "orthographic transfer ↔ lexical transfer",
+     "note": "'Not,' 'ren,' and 'vat' are produced by decoding with Cyrillic letter values; he is not substituting Ukrainian words."
+    }
+   ],
+   "key": "Look-alike letters in other alphabets (Cyrillic H = /n/, P = /r/, B = /v/) cause predictable decoding transfer; contrast them explicitly."
+  },
+  {
+   "id": "4.3-11",
+   "skill": "4.3",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A grade 3 ENL teacher wants to build reading fluency (accuracy, appropriate rate, and expression) for a group of Transitioning students. Which approach is most effective?",
+   "options": [
+    "Daily timed readings of isolated word lists, with the goal of increasing the number of words each student reads per minute",
+    "Repeated readings of a familiar, meaningful text with teacher modeling and echo or choral reading, ending in readers' theater",
+    "Round-robin reading, in which each student takes a turn reading a paragraph aloud to the group without having practiced it",
+    "Independent silent reading of challenging chapter books, since spending more time reading on their own will automatically build fluency"
+   ],
+   "answer": 1,
+   "why": "Repeated reading of meaningful text with a fluent model is one of the best-supported fluency practices. Echo and choral reading let ELLs hear and imitate phrasing and expression, and readers' theater gives an authentic reason to reread. Because the text is understood, students practice prosody tied to meaning. Speed drills on word lists ignore expression and comprehension, and round-robin reading gives each student little practice while raising anxiety.",
+   "traps": [
+    {
+     "code": "ISOLATED",
+     "note": "Word-list speed drills build rate without phrasing, expression, or meaning, which are the parts of fluency tied to comprehension."
+    },
+    null,
+    {
+     "code": "PASSIVE",
+     "note": "In round-robin reading most students just wait their turn. Each reads very little, and cold reading in public raises anxiety."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Wide reading helps over time, but unsupported silent reading of hard text gives no model or feedback for building fluency."
+    }
+   ],
+   "key": "Build ELL fluency with modeled, repeated reading of meaningful text (echo, choral, readers' theater), not speed drills."
+  },
+  {
+   "id": "4.3-12",
+   "skill": "4.3",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "The mother of a first grader whose home language is Bengali tells the ENL teacher, 'We read Bengali storybooks together every night. Should we stop so that she learns English faster?' Which response is best?",
+   "options": [
+    "'Yes. Switching to English at home will give her more practice and help her catch up to her classmates more quickly.'",
+    "'You can continue, but please also read English books with her each night, even if you are not confident reading in English.'",
+    "'Please keep reading and talking about books in Bengali; the literacy skills and knowledge she builds will carry over to English.'",
+    "'Continue for now, but switch to English once she starts reading chapter books in school, so that the two languages do not get mixed up.'"
+   ],
+   "answer": 2,
+   "why": "Cummins's Common Underlying Proficiency and Developmental Interdependence hypotheses explain why home-language literacy supports English literacy. Concepts about print, comprehension strategies, background knowledge, and a love of reading all transfer across languages. Reading in Bengali also maintains family bonds and the child's bilingualism. Advising families to abandon the home language is a deficit view that research does not support.",
+   "traps": [
+    {
+     "code": "DEFICIT",
+     "note": "Replacing the home language at home treats Bengali as an obstacle and cuts off rich language interaction the family can provide."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Continuing is right, but pressing a parent to read in a language she isn't comfortable in can weaken the quality of their shared reading."
+    },
+    null,
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "The languages share an underlying proficiency; continued Bengali literacy supports English rather than 'mixing them up.'"
+    }
+   ],
+   "key": "Encourage families to keep reading and talking in the home language; literacy skills and knowledge transfer to English."
+  },
+  {
+   "id": "4.3-13",
+   "skill": "4.3",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 1 ENL teacher is planning a phonics lesson on short-a CVC words (mat, fan, bag, ham, rag) for students at the Entering level. Which modification would best support these students?",
+   "options": [
+    "Confirm each word's meaning with pictures, gestures, or objects, and use the words in short oral sentences before and after decoding.",
+    "Replace the real words with nonsense words (zat, mab) so that students focus on decoding without being distracted by meaning.",
+    "Postpone the phonics lesson until the students know many more English words, since decoding words they don't yet understand is pointless.",
+    "Teach the lesson exactly as written for native English speakers, since the short-a pattern works the same way for all learners."
+   ],
+   "answer": 0,
+   "why": "ELLs benefit from the same explicit, systematic phonics instruction as their peers, but they may not know the meanings of the words they decode. Connecting each word to a picture, gesture, or object and using it orally makes decoding meaningful and builds vocabulary at the same time. Delaying phonics is unnecessary, and nonsense-word practice cannot build the link between decoding and meaning.",
+   "traps": [
+    null,
+    {
+     "code": "ISOLATED",
+     "note": "Nonsense words can be useful for assessment, but for ELLs they remove the connection between decoding and meaning."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "Phonics need not wait for a large vocabulary. Teaching meaning alongside decoding develops both."
+    },
+    {
+     "code": "ONE_SIZE",
+     "note": "The pattern is the same, but ELLs may not know the words. Ignoring that makes decoding meaningless for them."
+    }
+   ],
+   "key": "Teach ELLs systematic phonics with real words whose meanings are made clear through pictures, gestures, and oral use."
+  },
+  {
+   "id": "4.3-14",
+   "skill": "4.3",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Oral reading notes (Sofía, grade 3, literate in Spanish)\nText word | Sofía read\nsaid | 'sa-eed'\nknow | 'k-now'\nbread | 'bre-ad'\ncat, map, sit | read correctly",
+   "stem": "Which explanation best accounts for Sofía's reading?",
+   "options": [
+    "She has not yet learned the alphabetic principle and is guessing at each word from its first letter and overall shape.",
+    "She has a phonological processing weakness, shown by her inability to blend the sounds in longer or less familiar words.",
+    "She relies on picture and context clues instead of the print, a habit that is common among students who first learned to read in Spanish.",
+    "She is applying Spanish's consistent letter-sound mapping to English, whose spelling is far less predictable (a deeper orthography)."
+   ],
+   "answer": 3,
+   "why": "Spanish has a shallow (transparent) orthography: nearly every letter is pronounced, and letters map consistently to sounds. Sofía decodes regular CVC words but sounds out every letter in 'said,' 'know,' and 'bread,' just as she would in Spanish. English has a deep orthography, with silent letters, vowel teams, and irregular high-frequency words, so she needs explicit instruction in these patterns and in high-frequency words such as 'said.'",
+   "traps": [
+    {
+     "code": "LITERAL",
+     "note": "She sounds out every letter in order and reads CVC words correctly. That is applying the alphabetic principle, not guessing."
+    },
+    {
+     "code": "MISREFERRAL",
+     "note": "She blends sounds successfully; she just pronounces letters English leaves silent or combines. That is transfer, not a processing weakness."
+    },
+    {
+     "code": "STEREOTYPE",
+     "note": "This assumes something about how Spanish speakers learn to read. Her errors show letter-by-letter decoding, the opposite of guessing from context."
+    },
+    null
+   ],
+   "key": "Spanish spelling is shallow (consistent); English is deep. Teach English vowel teams, silent letters, and irregular high-frequency words explicitly."
   }
  ],
  "lessons": []

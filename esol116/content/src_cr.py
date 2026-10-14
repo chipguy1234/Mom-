@@ -576,7 +576,7 @@ This would be effective because separating the languages helps students not conf
     weakNotes=[
         "Completeness: \"She can write in two languages\" is true but vague. It never identifies her specific Spanish strengths (organization, accurate past tense, talking about language), so the strategy cannot build on them.",
         "Accuracy: It blames Spanish for her verb errors, but Spanish marks past tense clearly. The pattern is developmental, and her Spanish knowledge is actually a resource.",
-        "Accuracy: Dual Language programs do allocate time by language, but banning any use of Spanish \"so the two languages do not get mixed up\" treats the home language as a source of confusion. It rules out planned cross-linguistic connections, which work toward Dual Language biliteracy goals and the Blueprint's call to leverage home language.",
+        "Accuracy: Dual Language programs do allocate time by language, but banning any use of Spanish \"so the two languages do not get mixed up\" treats the home language as a source of confusion. It also rules out planned cross-linguistic connections, which support Dual Language biliteracy goals and the Blueprint's call to leverage home language.",
         "Depth of Support: Spelling and capitalization are minor, scattered issues. The most significant pattern, past events written in the present, is mentioned only in passing and without evidence.",
         "Depth of Support: Contrastive Analysis is misapplied to justify separating the languages, and the strategy (spelling list, checklist) is generic and isolated.",
     ],
@@ -598,15 +598,15 @@ This would be effective because separating the languages helps students not conf
 SCENARIOS.append(dict(
     id="cr7",
     title="Grade 10 Global History: Strong Readers, Quiet Voices",
-    setting="Grade 10 Integrated ENL Global History and Geography (co-taught), unit on the Industrial Revolution",
+    setting="Grade 10 Integrated ENL Global History and Geography (co-taught), unit on the Industrial Revolution, November",
     intro=T("""
 Mr. Lindqvist, an ENL teacher, co-teaches a grade 10 Integrated ENL Global History and Geography class. The class is analyzing primary-source documents to answer the question "Did the Industrial Revolution improve life for working people?" The co-teachers have gathered information about two English Language Learners.
 """),
     exhibits=[
         dict(title="Exhibit 1: Student Background (NYSESLAT results from spring of grade 9)", content=T("""
 Student | Age | Home language | Time in U.S. schools | Prior schooling | Listening | Speaking | Reading | Writing
-Oksana | 15 | Ukrainian (also reads Russian) | 1½ years | Uninterrupted schooling in Kharkiv; studied world history through grade 8 | Transitioning | Emerging | Expanding | Transitioning
-Tahmid | 16 | Bengali | 2 years | Uninterrupted Bangla-medium schooling in Dhaka through grade 8; studied history, and English as a subject | Expanding | Transitioning | Expanding | Transitioning
+Oksana | 15 | Ukrainian (also reads Russian) | 1 year (arrived at the start of grade 9) | Uninterrupted schooling in Kharkiv through grade 8; studied world history, and English as a subject | Transitioning | Emerging | Expanding | Transitioning
+Tahmid | 16 | Bengali | 2 years (arrived at the start of grade 8) | Uninterrupted Bangla-medium schooling in Dhaka through grade 7; studied history, and English as a subject | Expanding | Transitioning | Expanding | Transitioning
 """)),
         dict(title="Exhibit 2: Document Analysis Worksheets (Document 2: excerpt from 1832 testimony by a former child mill worker to a committee of the British Parliament)", content=T("""
 Question | Oksana | Tahmid
@@ -643,13 +643,13 @@ Oksana: [shakes head slightly; does not speak]
     model=T("""
 Oksana and Tahmid share a significant strength in reading and analyzing primary-source documents, supported by strong prior knowledge of history. Their shared need is oral academic language for discussion: stating a claim, citing evidence, and responding to peers, especially disagreeing politely and with reasons, in real time.
 
-The strength is evident in Exhibits 1, 2, and 3. Both had uninterrupted schooling that included history, and Reading is their highest NYSESLAT modality (Expanding) (Exhibit 1). Both earned a 4 on the document analysis in Exhibit 2. They described the historical context accurately, identified the main idea, and evaluated the source: Oksana noted that the speaker "was a victim, so his view is very negative," and Tahmid checked reliability against Documents 3 and 4. Exhibit 3 describes Oksana's heavily annotated documents and Tahmid's notes listing five well-chosen pieces of evidence. Oksana's exit ticket even builds a nuanced argument that weighs Documents 2 and 4 against rising wages.
+The strength is evident in Exhibits 1, 2, and 3. Both had uninterrupted schooling that included history, and Reading is Expanding for both, their highest NYSESLAT level (Exhibit 1). Both earned a 4 on the document analysis in Exhibit 2. They described the historical context accurately, identified the main idea, and evaluated the source: Oksana noted that the speaker "was a victim, so his view is very negative," and Tahmid checked reliability against Documents 3 and 4. Exhibit 3 describes Oksana's heavily annotated documents and Tahmid's notes listing five well-chosen pieces of evidence. Oksana's exit ticket even builds a nuanced argument that weighs Documents 2 and 4 against rising wages.
 
-Their need appears when they must speak. Speaking is the lowest modality for both (Emerging and Transitioning). In Exhibit 4, Tahmid answered in fragments ("The children... work long") and could not respond when Marcus raised wages. Oksana said "I agree... maybe" and then let Marcus misstate her view, although her exit ticket shows she partly disagrees. Her comment in Exhibit 3, "I know the answer, but when I speak I need time," and Tahmid's long discussion in Bangla show that the problem is not ideas or content knowledge. It is the English language of academic discussion under time pressure.
+Their need appears when they must speak. Speaking is Oksana's lowest modality (Emerging) and tied for Tahmid's lowest (Transitioning). In Exhibit 4, Tahmid answered in fragments ("The children... work long") and could not respond when Marcus raised wages. Oksana said "I agree... maybe" and then let Marcus misstate her view, although her exit ticket shows she partly disagrees. Her comment in Exhibit 3, "I know the answer, but when I speak I need time," and Tahmid's long discussion in Bangla show that the problem is not ideas or content knowledge. It is the English language of academic discussion under time pressure.
 
 I would use a document-based Structured Academic Controversy (SAC). First, I would form groups of four, made up of two pairs, and assign each pair a position: the Industrial Revolution improved, or worsened, life for workers. Second, pairs would prepare a "talk card" from their annotated documents: a claim, two pieces of evidence with document numbers, and a sentence explaining each. They could draft in Ukrainian or Bangla first. Third, partners would rehearse aloud with frames such as "According to Document __,...", "This shows that...", and "I partly agree with __, but...". Fourth, each pair would present while the other pair listened, paraphrased ("What I heard you say is..."), and then responded. Fifth, pairs would switch positions and argue the other side. Finally, the group would drop the assigned roles and write a consensus statement. I would build in wait time and assess speaking with a short checklist.
 
-The SAC is effective because it turns their reading strength into the content of their talk. Preparing from their own documents gives them something worth saying, and rehearsal with frames lowers the affective filter (Krashen) that Oksana describes. The paraphrase-and-respond structure creates negotiation of meaning, with clarification requests and confirmation checks, which Long's Interaction Hypothesis links to acquisition. Presenting and arguing both sides provides repeated pushed output (Swain) in academic functions such as citing, conceding, and rebutting. Drafting in the home language draws on Cummins' Common Underlying Proficiency, since their historical reasoning already exists in Ukrainian and Bangla. Finally, the structure is a scaffold that can be faded as they gain confidence in open discussion.
+The SAC is effective because it turns their reading strength into the content of their talk. Preparing from their own documents gives them something worth saying, and rehearsal with frames gives the processing time Oksana asks for while lowering the affective filter (Krashen). The paraphrase-and-respond structure creates negotiation of meaning, with clarification requests and confirmation checks, which Long's Interaction Hypothesis links to acquisition. Presenting and arguing both sides provides repeated pushed output (Swain) in academic functions such as citing, conceding, and rebutting. Drafting in the home language draws on Cummins' Common Underlying Proficiency, since their historical reasoning already exists in Ukrainian and Bangla. Finally, the structure is a scaffold that can be faded as they gain confidence in open discussion.
 """),
     modelNotes=[
         "Completeness: It names one shared strength (document reading and analysis) and one shared need (oral academic discussion), then gives one strategy and its rationale.",
@@ -677,7 +677,7 @@ This would help because practice makes perfect, and the more they speak, the bet
     checklist=[
         "I named the strength as reading and analyzing documents (not \"writing\") and supported it with the Exhibit 2 scores.",
         "I named the need as oral academic language for discussion, not \"shyness\" or \"confidence.\"",
-        "I used the NYSESLAT pattern from Exhibit 1 (Reading highest, Speaking lowest).",
+        "I used the NYSESLAT pattern from Exhibit 1 (Reading Expanding for both; Speaking at or tied for the bottom).",
         "I quoted the transcript (Exhibit 4) and contrasted it with the exit ticket or Oksana's comment.",
         "My strategy uses the students' document annotations as preparation for speaking.",
         "My strategy includes rehearsal, frames, and wait time instead of cold-calling.",
@@ -699,9 +699,9 @@ Ms. Kowalski teaches a grade 4 Stand-alone ENL group whose members speak differe
     exhibits=[
         dict(title="Exhibit 1: Student Background (NYSESLAT results from spring of grade 3)", content=T("""
 Student | Age | Home language | Time in U.S. schools | Prior schooling and home-language literacy | Listening | Speaking | Reading | Writing
-Yousef | 9 | Arabic | 2 years | Attended school in Egypt, grades 1–2; reads and writes Arabic at about grade level | Transitioning | Transitioning | Transitioning | Emerging
-Nusrat | 9 | Bengali | 2 years | Attended school in Bangladesh, grades 1–2; reads Bangla with her mother | Expanding | Transitioning | Transitioning | Transitioning
-Jean-Marc | 10 | Haitian Creole (also some French) | 3 years | Attended grade 1 in Haiti, with instruction in French and Haitian Creole | Expanding | Expanding | Transitioning | Transitioning
+Yousef | 9 | Arabic | 1 year, 4 months (arrived at the start of grade 3) | Attended school in Egypt, grades 1–2; reads and writes Arabic at about grade level | Transitioning | Transitioning | Transitioning | Emerging
+Nusrat | 9 | Bengali | 1 year, 4 months (arrived at the start of grade 3) | Attended school in Bangladesh, grades 1–2; reads Bangla with her mother | Expanding | Transitioning | Transitioning | Transitioning
+Jean-Marc | 10 | Haitian Creole (also some French) | 2 years, 4 months (arrived at the start of grade 2) | Attended grade 1 in Haiti, with instruction in French and Haitian Creole | Expanding | Expanding | Transitioning | Transitioning
 """)),
         dict(title="Exhibit 2: Running Records on \"How Animals Survive Winter\" (grade 4 informational text)", content=T("""
 Student | Accuracy | Self-correction rate | Words per minute | Retelling (key ideas, of 6) | Words flagged with a "?" sticky note
@@ -713,7 +713,7 @@ Jean-Marc | 97% | 1:3 | 108 | 2 | survive, scarce, store, hibernate
 Yousef (reading "Food is scarce in winter"): "Scarce... I don't know this word. I read it again... 'scarce in winter.' Scary? Food is scary? No, that doesn't make sense." [puts a "?" sticky note on the word and keeps reading]
 Nusrat (reading "Some animals gather food in the fall"): "Gather... like together? I'm not sure. I'll skip it." [Her retelling later leaves out that animals store food.]
 Jean-Marc (reading "Animals must survive the cold"): "Survive... in French, survivre? Maybe it means stay alive? I'm not sure, so I'll ask my partner."
-Teacher note: All three stop when meaning breaks down and mark the word. Their only fix-up strategies are rereading, skipping, or asking a partner.
+Teacher note: All three stop when meaning breaks down and mark the word. Then they reread, skip, or ask a partner; even when Jean-Marc thinks of a French cognate, he does not check his guess against the sentence. None of them uses context clues or word parts to work out a meaning.
 """)),
         dict(title="Exhibit 4: Vocabulary and Comprehension Check", content=T("""
 Measure | Yousef | Nusrat | Jean-Marc
@@ -734,7 +734,7 @@ Yousef, Nusrat, and Jean-Marc share a significant strength in accurate decoding 
 
 The strength is documented in Exhibits 2 and 3. All three read the grade 4 text with 96–98% accuracy and self-corrected at rates of 1:3 or 1:4, so they catch many of their own errors. Each flagged unfamiliar words with sticky notes. The think-alouds in Exhibit 3 show genuine monitoring: Yousef rejected "scary" because "Food is scary? No, that doesn't make sense," and Jean-Marc stopped at "survive" to test a French connection. The teacher notes that all three stop when meaning breaks down. These are the habits of active readers.
 
-The need is equally consistent. Their retellings captured only 2 or 3 of 6 key ideas (Exhibit 2), and they flagged the same high-utility words: "scarce" (all three) and "survive" and "store" (two each). In Exhibit 4, they matched only 3 or 4 of 10 Tier 2 words. Most tellingly, they answered 4 or 5 of 5 questions that did not depend on a key word but only 1 or 2 of 5 that did. Exhibit 3 explains why: their only fix-up strategies are rereading, skipping, or asking a partner, so Nusrat skipped "gather" and lost the idea that animals store food. They know when they don't understand; they don't yet know what to do next.
+The need is equally consistent. Their retellings captured only 2 or 3 of 6 key ideas (Exhibit 2), and they flagged the same high-utility words: "scarce" (all three) and "survive" and "store" (two each). In Exhibit 4, they matched only 3 or 4 of 10 Tier 2 words. Most tellingly, they answered 4 or 5 of 5 questions that did not depend on a key word but only 1 or 2 of 5 that did. Exhibit 3 explains why: they reread, skip, or ask a partner, but none uses context clues or word parts to work out a meaning, so Nusrat skipped "gather" and lost the idea that animals store food. They know when they don't understand; they don't yet know what to do next.
 
 I would use a "click and clunk" vocabulary routine, adapted from Collaborative Strategic Reading, that builds directly on their habit of flagging words. First, before reading, I would teach four high-utility Tier 2 words from the text (survive, scarce, gather, store) with student-friendly definitions, pictures, gestures, and examples. Students would add home-language equivalents using bilingual glossaries or family help, and Jean-Marc would also note French cognates such as "survivre." Second, during reading, students would keep flagging "clunks," now with a fix-up card: reread the sentence and the ones around it for clues, look for a familiar word part, think of a home-language connection, and then ask a partner or check the glossary. Third, after reading, each student would share one clunk and explain how he or she fixed it, and we would use the target words orally in frames such as "In winter, food is scarce, so animals ___." Finally, we would revisit the words all week through word sorts and quick discussions.
 
@@ -743,7 +743,7 @@ This routine is effective because it turns an existing metacognitive habit into 
     modelNotes=[
         "Completeness: Every bullet is answered, and the strength and need are stated as a matched pair: they notice the problem but lack the words and the fix-up strategies.",
         "Accuracy: It pins the need precisely on Tier 2 vocabulary by using Exhibit 4's contrast between questions that depend on a key word and those that do not, rather than calling it \"comprehension\" in general.",
-        "Depth of Support: It uses exact running-record data, the flagged-word lists, and quotations from each think-aloud.",
+        "Depth of Support: It uses exact running-record data, the flagged-word lists, and evidence from each think-aloud.",
         "Depth of Support: The strategy builds on what the students already do (flagging words) and is laid out step by step with multiple exposures to the target words.",
         "Accuracy: It differentiates home-language support correctly. Cognates help the French and Haitian Creole speaker, while glossaries serve the Arabic and Bengali speakers, avoiding a one-size-fits-all cognate strategy.",
     ],
@@ -822,7 +822,7 @@ Teacher note: Retells read-alouds in detail and explains her math reasoning alou
         traps=[
             None,
             {"code": "LITERAL", "note": "The note says she avoids independent reading, and her Reading level is Emerging. This option contradicts the evidence."},
-            {"code": "PARTIAL", "note": "She explains math reasoning aloud, but nothing shows above-grade-level math. The strength to build on is the oral language she uses to explain it."},
+            {"code": "LITERAL", "note": "She explains math reasoning aloud, but nothing shows above-grade-level math. The strength to build on is the oral language she uses to explain it."},
             {"code": "LITERAL", "note": "Her scores show a clear gap (Expanding oral skills, Emerging literacy), not balance."},
         ],
         key="Compare NYSESLAT modalities: the highest often signals the strength to build on, and the lowest signals the need.",
@@ -857,9 +857,9 @@ Marisol: Yes. Precipitation.
         id="7.1-04", skill="7.1", type="analysis", difficulty=2, diag=0,
         stimulus=T("""
 Student | Home language | Years in U.S. schools | Evidence from the exhibits
-Ahmed | Arabic | 2 | Reads Arabic at grade level; summarizes read-alouds accurately; neat handwriting
-Mei | Mandarin | 1 | Strong Chinese literacy; summarizes read-alouds accurately; top math scores
-Rosa | Spanish | 3 | Little prior schooling; summarizes read-alouds accurately; enthusiastic in class
+Ahmed | Arabic | 2 | Reads Arabic at grade level; summarizes grade-level read-alouds accurately; neat handwriting
+Mei | Mandarin | 1 | Strong Chinese literacy; summarizes grade-level read-alouds accurately; top math scores
+Rosa | Spanish | 3 | Little prior schooling; summarizes grade-level read-alouds accurately; enthusiastic in class
 """),
         stem="A constructed-response prompt asks for one significant strength that all three students share. Which strength is best supported by the evidence?",
         options=[
