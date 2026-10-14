@@ -21,9 +21,9 @@ QUESTIONS = [
  "answer": 1,
  "why": "Whole-class, hands-up questioning rewards the fastest, most fluent speakers and is a high-risk setting for ELLs. Structured interaction (think-pair-share, partner talk with sentence frames matched to the lesson's language function, home-language rehearsal before English output) lowers the affective filter and guarantees every student a turn to talk. By co-planning and modeling rather than just giving advice, the ESOL teacher acts as a resource who builds the content teacher's capacity, which is what the Blueprint means by leveraging ESOL expertise.",
  "traps": [
-  {"code": "MISAPPLIED_THEORY", "note": "The silent (preproduction) period belongs to the earliest stage of acquisition. It is not a reason to postpone speaking for Emerging and Transitioning students, who can produce phrases and sentences with support. Waiting for Expanding denies them the output and interaction that drive acquisition."},
+  {"code": "MISAPPLIED_THEORY", "note": "The silent (preproduction) period belongs to the earliest stage of acquisition, not to Emerging and Transitioning students, who can produce phrases and sentences with support. Waiting for Expanding denies them the output and interaction that drive acquisition."},
   None,
-  {"code": "DEFICIT", "note": "This assumes the problem is the students' motivation or interest. The real barrier is unstructured, hands-up questioning. A participation grade adds pressure, raises the affective filter, and leaves that structure unchanged."},
+  {"code": "DEFICIT", "note": "This blames the students' motivation, when the real barrier is unstructured, hands-up questioning. A participation grade adds pressure, raises the affective filter, and leaves that structure unchanged."},
   {"code": "EXCLUSION", "note": "Pulling students out of grade-level science discussion denies them content-area discourse and lets the classroom practice stay the same. Stand-alone ENL is not a substitute for participating in the content class."}
  ],
  "key": "When colleagues say ELLs \"won't participate,\" change the participation structure: co-plan and model structured, scaffolded talk."
@@ -73,7 +73,7 @@ QUESTIONS = [
  "options": [
   "Limit enrollment to students at the Expanding level so that tutors can focus on preparing them to score Commanding on the NYSESLAT",
   "Require tutors to use English only during sessions so that students get as much practice as possible in the language of instruction",
-  "Add a weekly English grammar worksheet so that every session follows a consistent structure regardless of students' homework",
+  "Add a weekly English grammar worksheet so that sessions follow a consistent structure regardless of students' homework",
   "Set up a regular exchange in which teachers share upcoming units and key vocabulary and tutors report what students found difficult"
  ],
  "answer": 3,
@@ -169,7 +169,7 @@ QUESTIONS = [
   "Seat the Spanish-speaking ELLs together at a back table, where the paraprofessional translates each part of the lesson into Spanish as it happens",
   "Have the paraprofessional take the ELLs into the hallway during the mini-lesson to complete simplified worksheets on the same topic",
   "Plan with the paraprofessional to preview key concepts in Spanish before lessons and to support partner talk during them, under teacher direction",
-  "Ask the paraprofessional to translate every handout into Spanish so that the ELLs can complete each assignment entirely in their home language"
+  "Ask the paraprofessional to translate the handouts into Spanish so that the ELLs can complete their assignments entirely in their home language"
  ],
  "answer": 2,
  "why": "Bilingual paraprofessionals are most effective when their role is planned with the teachers and used strategically. Previewing concepts in the home language builds background so students can engage with the English lesson (a preview-view-review approach), and supporting partner talk increases interaction and output. Paraprofessionals work under the direction of certified teachers, and clear, jointly planned roles keep ELLs inside the grade-level lesson.",
@@ -226,7 +226,7 @@ QUESTIONS = [
  "options": [
   "Encourage the parents to speak only English at home so that their children get more practice and the parents improve at the same time",
   "Give the parents a list of English-learning websites and apps that they can explore on their own whenever their work schedules allow",
-  "Explain that homework is designed for students to complete independently, so parents do not need to be involved in it at all",
+  "Explain that homework is designed for students to complete independently, so parents do not need to be involved in it",
   "Partner with a community adult education program to offer parent ESL classes and family nights with Nepali and Tibetan interpreters"
  ],
  "answer": 3,
@@ -264,7 +264,7 @@ QUESTIONS = [
  "options": [
   "Continue adapting the handouts each week, since consistent, well-scaffolded materials are the most direct way to give the ELLs access to science",
   "Co-plan with the teacher, thinking aloud about the language demands of upcoming lessons, and gradually shift the adapting to her with feedback",
-  "Prepare one set of simplified science worksheets for the whole unit so that the ELLs always have work at their level, whatever the lesson",
+  "Prepare one set of simplified science worksheets for the whole unit so that the ELLs have work at their level, whatever the lesson",
   "Give the teacher a published guide to scaffolding for ELLs and ask her to read it before requesting any further adaptations of materials"
  ],
  "answer": 1,

@@ -852,7 +852,7 @@
    "traps": [
     null,
     {
-     "code": "PASSIVE",
+     "code": "ASSESS_INVALID",
      "note": "A yes/no comprehension question yields almost no evidence. Students may nod to be polite or to avoid attention, so the teacher cannot tell who actually understands."
     },
     {
@@ -946,10 +946,10 @@
     "Testing with extended time, such as time and a half",
     "Testing in a separate location or in a small group",
     "Using a word-to-word English–Bengali bilingual glossary",
-    "Having the listening passage read aloud to her a third time"
+    "Having a staff member explain test questions in Bengali"
    ],
    "answer": 2,
-   "why": "Some ELL accommodations, such as extended time and a separate location, apply to every state test. Bilingual glossaries, translated editions, oral translation, and home-language responses apply to content tests such as math, science, and social studies; none of the translation or glossary supports apply to ELA tests, because those tests measure English itself. A third reading of a listening passage, by contrast, is an ELA-specific accommodation.",
+   "why": "Some ELL accommodations, such as extended time and a separate location, apply to every state test. Bilingual glossaries, translated editions, oral translation, and home-language responses apply to content tests such as math, science, and social studies; none of the translation or glossary supports apply to ELA tests, because those tests measure English itself. No state test permits anyone to explain the questions; even oral translation must translate without clarifying.",
    "traps": [
     {
      "code": "LITERAL",
@@ -962,7 +962,7 @@
     null,
     {
      "code": "NYS_POLICY",
-     "note": "A third reading of the listening passage is an ELA-test accommodation for ELA tests that include a listening passage, not a science accommodation, so this reverses the contrast."
+     "note": "No state test, science or ELA, allows anyone to explain or clarify the questions. Oral translation, where permitted on content tests, translates the test without explaining it, so this support is unavailable on both exams."
     }
    ],
    "key": "Glossaries and translations: content tests only, never ELA. Extended time and a separate location: all state tests."
@@ -1043,7 +1043,7 @@
    "options": [
     "Extended time and a separate location, but no home-language support, since that support requires a state translated edition",
     "Oral translation of the test by a qualified translator, along with extended time and testing in a separate location",
-    "Written responses in Wolof, with test items presented in English, since oral translation is reserved for ELA listening passages",
+    "Written responses in Wolof, with test items presented in English, since oral translation is permitted only on ELA tests",
     "Seating beside a Wolof-speaking classmate who can explain any test questions the student finds confusing as she works"
    ],
    "answer": 1,
@@ -1608,7 +1608,7 @@
     },
     {
      "h": "NYS ELL testing accommodations: the list",
-     "md": "Available to **ELLs and to former ELLs for two years after exit**:\n\n- **Extended time** (for example, time and a half): all state tests.\n- **Separate location or small group**: all state tests.\n- **Bilingual glossaries**: **word-to-word only, with no definitions or explanations**, on content tests.\n- **Translated editions** of math, science, and social studies tests, or **oral translation** by a qualified translator for **lower-incidence languages** that have no translated edition.\n- **Writing responses in the home language** on content tests.\n- **A third reading of the listening passage** on ELA tests that include one.\n\n**None of the translation or glossary supports apply to ELA tests.** These accommodations come from ELL or former-ELL status, not from an IEP or a 504 plan."
+     "md": "Available to **ELLs and to former ELLs for two years after exit**:\n\n- **Extended time** (for example, time and a half): all state tests.\n- **Separate location or small group**: all state tests.\n- **Bilingual glossaries**: **word-to-word only, with no definitions or explanations**, on content tests.\n- **Translated editions** of math, science, and social studies tests, or **oral translation** by a qualified translator for **lower-incidence languages** that have no translated edition.\n- **Writing responses in the home language** on content tests.\n\n**None of the translation or glossary supports apply to ELA tests.** These accommodations come from ELL or former-ELL status, not from an IEP or a 504 plan."
     },
     {
      "h": "Related testing rules the exam likes",
@@ -1672,8 +1672,8 @@
      "d": "ELLs may write answers to content-test items in their home language. Not permitted on ELA tests."
     },
     {
-     "t": "Third reading of the listening passage",
-     "d": "ELA-test accommodation in which a listening passage is read aloud a third time."
+     "t": "Construct",
+     "d": "The knowledge or skill a test is designed to measure. A valid accommodation removes barriers without changing it."
     },
     {
      "t": "First-year ELA exemption",

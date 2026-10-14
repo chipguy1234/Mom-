@@ -414,7 +414,7 @@ QUESTIONS = [
   None,
   {"code": "EXCLUSION", "note": "A separate room makes the separation more visible and removes the ELLs even further from the integrated class, which deepens the stigma rather than ending it."},
   {"code": "ONE_SIZE", "note": "Ending small-group work gives every student identical whole-class instruction regardless of proficiency. Targeted small-group support is valuable; the problem is the fixed membership."},
-  {"code": "PARTIAL", "note": "Grouping by need can be appropriate for a specific purpose, but a fixed, permanent group of the same ELLs is what produced the 'slow table' label. Groups should change with the data."}
+  {"code": "ONE_SIZE", "note": "Grouping by proficiency label treats the six students as interchangeable and ignores ongoing data about each one. A fixed, permanent group of the same ELLs is what produced the 'slow table' label; groups should change with the data."}
  ],
  "key": "Don't always pull the same ELLs in alternative teaching; use flexible, data-based groups with varied purposes."
 },
@@ -670,7 +670,7 @@ QUESTIONS = [
  "traps": [
   {"code": "LITERAL", "note": "The student writes two-digit numbers in standard form, and every error follows one pattern: -teen heard as -ty. That pattern points to listening, not place value."},
   {"code": "MISREFERRAL", "note": "Confusing -teen and -ty is a common L2 listening difficulty. With no other evidence, a referral for hearing loss is premature."},
-  {"code": "PARTIAL", "note": "Slower speech might help a little, but blaming attention misreads a consistent pattern, and louder speech doesn't teach the stress contrast."},
+  {"code": "LITERAL", "note": "Slower speech might help a little, but blaming attention misreads a consistent pattern, and louder speech doesn't teach the stress contrast."},
   None
  ],
  "key": "Teen/-ty confusions (fifteen/fifty) are a stress-based listening issue; teach the stress contrast and pair spoken numbers with digits."
@@ -848,7 +848,7 @@ QUESTIONS = [
  "why": "Scientific writing often uses the passive voice (be + past participle: 'was heated,' 'was recorded') to keep the focus on the process and results rather than on who did the work, so the agent is usually left out. The student has noticed this feature, which makes it a perfect teaching moment. Turning the class's active lab notes ('We heated the solution') into report sentences helps ELLs both understand and produce the genre.",
  "traps": [
   {"code": "MISAPPLIED_THEORY", "note": "Relying on exposure alone ignores that the student has already noticed the form. Schmidt's noticing hypothesis suggests building on that moment with explicit attention, rather than hoping input will do the work."},
-  {"code": "PARTIAL", "note": "Active voice is acceptable in some science writing, but avoiding the passive won't help the student read and write the textbook and lab-report language he meets constantly."},
+  {"code": "PARTIAL", "note": "Active voice is common and widely accepted in science writing, but avoiding the passive won't help the student read and write the textbook and lab-report language he meets constantly."},
   None,
   {"code": "ISOLATED", "note": "Memorizing participles out of context doesn't explain why science writing uses the passive or when to use it."}
  ],
@@ -867,7 +867,7 @@ QUESTIONS = [
  "answer": 1,
  "why": "Science texts rely on nominalization, turning verbs and adjectives into nouns ('destroy' → 'destruction,' 'reduce' → 'reduction') to pack whole processes into compact noun phrases. The result is dense and abstract, hiding the actors and the cause–effect link. Unpacking nominalizations into clauses with actors and verbs, and then repacking them, shows ELLs how the sentence works and how to write like a scientist.",
  "traps": [
-  {"code": "PARTIAL", "note": "The students already know the words. The difficulty is that processes have been turned into nouns, hiding who does what and how the ideas connect, and definitions alone won't unpack that."},
+  {"code": "LITERAL", "note": "The stem says the students already know the words. The difficulty is that processes have been turned into nouns, hiding who does what and how the ideas connect, and definitions alone won't unpack that."},
   None,
   {"code": "LOWER_RIGOR", "note": "Replacing the sentence removes exactly the academic language students need to learn to read. Unpack it with them, then repack it."},
   {"code": "ISOLATED", "note": "Repeated oral reading builds fluency, not understanding of how the sentence is built. Students can read it smoothly and still miss the meaning."}

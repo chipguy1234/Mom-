@@ -424,7 +424,7 @@
     "Russian has no voiced consonants, so the student substitutes voiceless ones in every position.",
     "The student is still in the silent period and is not yet ready for pronunciation instruction.",
     "The student cannot hear voicing differences in any position, which suggests an auditory processing problem.",
-    "Russian makes voiced consonants voiceless at the end of a word, and the student is transferring that rule."
+    "Russian devoices voiced stops and fricatives at the end of a word, and the student is transferring that rule."
    ],
    "answer": 3,
    "why": "Russian, like Polish and German, has final devoicing: voiced consonants such as /b d g z v/ become voiceless at the end of a word, so Russian хлеб ('bread') ends in [p]. Because this student voices consonants correctly at the beginning and middle of words, the issue is a positional L1 rule transferred to English. It can merge pairs like bag/back and his/hiss, so it's worth targeting with final-position minimal pairs.",
@@ -464,7 +464,7 @@
    "traps": [
     {
      "code": "LITERAL",
-     "note": "The student consistently writes ch, the spelling of the sound she hears. That points to a perception pattern, not a random gap in letter-sound knowledge."
+     "note": "The student consistently writes ch, the spelling of the sound actually heard. That points to a perception pattern, not a random gap in letter-sound knowledge."
     },
     {
      "code": "TERM",
@@ -769,9 +769,9 @@
    "diag": 0,
    "stem": "A grade 7 Integrated ENL science class includes several Transitioning ELLs whose home language is Spanish. The unit introduces 'photosynthesis,' 'photograph,' and 'synthesize.' Which approach best uses morphology to build the students' vocabulary?",
    "options": [
-    "Read each definition aloud while students copy it into vocabulary notebooks, then give a quiz at the end of the week.",
+    "Read each definition aloud while students copy it into their vocabulary notebooks, then give a quiz at the end of the week.",
     "Replace the technical terms in the reading with everyday phrases, such as 'how plants make food,' to reduce the load.",
-    "Have students break the words into parts (photo- 'light,' synth- 'put together') and link them to Spanish cognates.",
+    "Have students break the words into parts (photo- 'light,' synthesis 'putting together') and link them to Spanish cognates.",
     "Have students memorize a separate list of Greek and Latin roots before the unit, then begin the science content."
    ],
    "answer": 2,
@@ -1046,7 +1046,7 @@
    "options": [
     "Amir was writing the lab report.",
     "Amir has written the lab report.",
-    "The finished lab report is on Amir's desk.",
+    "The lab report is on the desk in Amir's room.",
     "The lab report was written by Amir."
    ],
    "answer": 3,
@@ -1286,7 +1286,7 @@
    "options": [
     "Rewrite the lab text in the active voice so that ELLs at lower proficiency levels are not confused by passive sentences.",
     "Assign a worksheet of twenty-five unrelated active sentences for the student to convert into the passive voice at home.",
-    "Explain that the passive voice is an advanced structure the student will study once she reaches the Expanding level.",
+    "Explain that the passive voice is an advanced structure the student will study after reaching the Expanding level.",
     "Model how to find the doer in the text's passive sentences (be + participle, by-phrase), then have pairs label each one."
    ],
    "answer": 3,
@@ -1930,5 +1930,421 @@
    "key": "Hymes coined communicative competence (appropriate use, not just grammar); Canale & Swain named its four components."
   }
  ],
- "lessons": []
+ "lessons": [
+  {
+   "skill": "1.1",
+   "title": "Phonology & Pronunciation for ESOL Teachers",
+   "why": "Field 116 shows you an ELL's pronunciation or spelling pattern and asks you to name the sound-system concept behind it and choose a fitting instructional response.",
+   "body": [
+    {
+     "h": "Phonemes, allophones, and minimal pairs",
+     "md": "A **phoneme** is a sound that changes meaning in a language. Swap /p/ for /b/ and pin becomes bin, so /p/ and /b/ are separate English phonemes. Phonemes go in slashes (/p/); actual pronunciations go in square brackets ([pʰ]).\n\nCount phonemes by sound, never by letters:\n- thought = /θ/ + one vowel + /t/ = **3** (seven letters)\n- fox = /f/ /ɑ/ /k/ /s/ = **4** (x is two sounds)\n- eight = /eɪ/ /t/ = **2** (a diphthong is one vowel phoneme)\n- clap = /k/ /l/ /æ/ /p/ = **4** (a blend is two sounds; a digraph like sh is one)\n\nA **minimal pair** is two words that differ in exactly one phoneme in the same position: ship/sheep, pea/bee, share/chair, teeth/teethe. Minimal pairs prove that two sounds are separate phonemes, and they are the go-to tool for pronunciation practice.\n\n**Allophones** are predictable variants of one phoneme that never change meaning. English /p/ is aspirated at the start of a stressed syllable (pin [pʰɪn]) but not after /s/ (spin [spɪn]). Here's the exam insight: when two sounds are allophones in the student's L1 but separate phonemes in English, the student will struggle to hear the difference. Korean speakers' right/light confusion happens because Korean [l] and [ɾ] are variants of one phoneme."
+    },
+    {
+     "h": "Describing consonants and vowels",
+     "md": "Consonants are described by **voicing** (do the vocal folds vibrate?), **place** (lips, teeth, tongue tip, roof of the mouth), and **manner** (stop, fricative, affricate, nasal, liquid, glide).\n\n- /θ/ (think) and /ð/ (this): same place and manner; only voicing differs.\n- /ʃ/ (share) and /tʃ/ (chair): /tʃ/ is an affricate, a stop released into a fricative.\n- /p/ and /b/: both made with the lips. Word-initial /p/ is voiceless and aspirated, which is why a paper strip held in front of the lips moves for pea but not for bee.\n\nEnglish has an unusually rich vowel system, with far more vowel phonemes than Spanish's five. Spanish speakers therefore often merge /ɪ/ and /i/ (live/leave, ship/sheep), and the vowels in cat, cut, and cot may all drift toward Spanish /a/. The **schwa** /ə/, the most common English vowel, occurs only in unstressed syllables."
+    },
+    {
+     "h": "Syllable structure and phonotactics",
+     "md": "Every language has **phonotactic** rules about which sound sequences are allowed and where. Don't confuse a missing sound (phoneme inventory) with a forbidden sequence (phonotactics); the exam tests exactly that difference.\n\nEnglish syllables can be complex: up to three consonants at the start (strict = CCCVCC, and three-consonant onsets always begin with /s/) and up to four at the end (texts). Many languages are simpler, and learners repair English clusters in predictable ways:\n- **Epenthesis (adding a vowel):** Spanish has /s/ but no word-initial /s/ + consonant, so speak → 'espeak' and school → 'eschool.' Japanese syllables are mostly consonant + vowel, so desk may become 'desuku.'\n- **Deletion (dropping consonants):** Mandarin syllables end only in a vowel, /n/, or /ŋ/, so friend → 'frien' and walked → 'walk.' Check the student's writing: if -ed appears correctly there, the oral omission is phonological, not grammatical.\n- **Final devoicing:** Russian and Polish make word-final voiced consonants voiceless, so bag sounds like back and his like hiss.\n\nIn every case the pattern is systematic and predicted by the L1. That is transfer, not a disability and not a decoding problem."
+    },
+    {
+     "h": "Stress, rhythm, and intonation",
+     "md": "Features that stretch over syllables and phrases are called **suprasegmentals**, and they often matter more for intelligibility than individual sounds.\n\n- **Word (lexical) stress** can change the word: DEsert vs. desSERT; the noun REcord vs. the verb reCORD; PREsent vs. preSENT.\n- **Compound vs. phrase stress:** a GREENhouse (a building for plants) vs. a green HOUSE (a house painted green).\n- **Rhythm:** English is often described as stress-timed. Stressed syllables are long and strong, and unstressed vowels shrink to schwa, so banana is /bəˈnænə/. Spanish is syllable-timed, giving each syllable similar length and a full vowel; transferring that rhythm makes English sound choppy.\n- **Sentence (contrastive) stress** highlights the key word: 'I said the RED folder' (not the blue one).\n- **Intonation** is the pitch pattern across an utterance. Statements and wh-questions usually fall; yes/no questions usually rise. With tag questions, a falling tag ('You finished, didn't you?' with falling pitch) expects agreement, while a rising tag asks for real information.\n\nKeep the three straight: word stress = which syllable; sentence stress = which word; intonation = the pitch melody of the whole utterance."
+    },
+    {
+     "h": "L1 transfer quick reference",
+     "md": "These patterns are common, not universal, and individuals vary. Use them to form a hypothesis, then check it against the student's own speech and writing.\n\n- **Spanish:** epenthesis before s-clusters (espeak); /ɪ/–/i/ merger (ship/sheep); /ʃ/ heard as /tʃ/ in most varieties (shoe → 'choo'); /b/ and /v/ are one phoneme (berry/very); final clusters may be simplified.\n- **Arabic:** no /p/ (park → 'bark'); no /v/ (very → 'fery'); vowels inserted to break up clusters.\n- **Korean and Japanese:** /r/ and /l/ not distinguished; Korean lacks /f/ and /v/ (coffee → 'copy'); Japanese adds vowels after final consonants.\n- **Mandarin:** few final consonants (only /n/ and /ŋ/), so endings drop; no /θ/ or /ð/.\n- **Russian and Polish:** final devoicing (bag → 'back'); no /θ/ or /ð/; Russian has no /w/ (wine → 'vine')."
+    },
+    {
+     "h": "What effective pronunciation teaching looks like",
+     "md": "The exam rewards responses that are targeted, meaningful, and low-anxiety:\n- **Perception before production.** Students must hear a contrast before they can make it: minimal-pair listening first ('Which word did I say, pea or bee?'), then production.\n- **Physical cues.** A mirror for lip and tongue position, a paper strip for aspiration, a hand on the throat for voicing, tapping or clapping for stress.\n- **Context quickly.** Move from pairs into sentences from the current unit ('Put the pea plant by the window').\n- **Intelligibility over accent.** The goal is being understood, not sounding native. Prioritize features that block meaning, such as word stress and key vowel contrasts.\n- **Gentle feedback.** Recasts or brief targeted practice beat stopping a student mid-discussion for every sound.\n- **Don't misread transfer.** A sound pattern that matches the L1 is not by itself a reason for a speech-language referral; difficulty with the same sounds in the home language would be a different story."
+    }
+   ],
+   "traps": [
+    "Exam trap: counting letters instead of sounds. 'Thought' has 3 phonemes; 'fox' has 4.",
+    "Exam trap: calling a systematic L1-transfer pattern (espeak, right/light, dropped final consonants) a disability or a decoding problem.",
+    "Exam trap: mixing up phoneme inventory (a missing sound) with phonotactics (where a sound may occur). Spanish has /s/; it lacks word-initial /s/ + consonant.",
+    "Exam trap: confusing word stress (which syllable), sentence stress (which word), and intonation (the pitch of the whole utterance).",
+    "Exam trap: choosing constant correction or repetitive word lists over minimal pairs practiced in meaningful context."
+   ],
+   "terms": [
+    {
+     "t": "phoneme",
+     "d": "The smallest sound unit that changes meaning in a language; written in slashes, e.g., /p/ vs. /b/ in pin/bin."
+    },
+    {
+     "t": "allophone",
+     "d": "A predictable variant of one phoneme that never changes meaning, e.g., aspirated [pʰ] in pin vs. [p] in spin."
+    },
+    {
+     "t": "minimal pair",
+     "d": "Two words that differ in exactly one phoneme in the same position, e.g., ship/sheep, pea/bee."
+    },
+    {
+     "t": "phonotactics",
+     "d": "A language's rules for which sound sequences may occur and where, e.g., no word-initial /s/ + consonant in Spanish."
+    },
+    {
+     "t": "epenthesis",
+     "d": "Inserting a sound, usually a vowel, to break up a cluster, e.g., 'espeak' for speak."
+    },
+    {
+     "t": "voicing",
+     "d": "Whether the vocal folds vibrate: /b, d, g, z, v, ð/ are voiced; /p, t, k, s, f, θ/ are voiceless."
+    },
+    {
+     "t": "aspiration",
+     "d": "The puff of air after /p, t, k/ at the start of a stressed English syllable, as in pin [pʰɪn]."
+    },
+    {
+     "t": "syllable structure",
+     "d": "The pattern of consonants (C) and vowels (V) in a syllable, e.g., strict = CCCVCC."
+    },
+    {
+     "t": "final devoicing",
+     "d": "An L1 rule (Russian, Polish, German) that makes word-final voiced consonants voiceless, so bag sounds like back."
+    },
+    {
+     "t": "lexical (word) stress",
+     "d": "The prominent syllable in a word; it can change the word: DEsert vs. desSERT, REcord vs. reCORD."
+    },
+    {
+     "t": "schwa",
+     "d": "The reduced, unstressed vowel /ə/, the most frequent English vowel, as in the first and last syllables of banana."
+    },
+    {
+     "t": "stress-timed rhythm",
+     "d": "Rhythm in which stressed syllables are prominent and unstressed syllables shrink, as in English; contrasts with syllable-timed Spanish."
+    },
+    {
+     "t": "intonation",
+     "d": "The rise and fall of pitch across an utterance, signaling questions, statements, certainty, or attitude."
+    },
+    {
+     "t": "suprasegmentals",
+     "d": "Pronunciation features that span more than one sound: stress, rhythm, and intonation."
+    },
+    {
+     "t": "intelligibility",
+     "d": "How easily listeners understand a speaker; the realistic goal of pronunciation teaching, rather than a native-like accent."
+    }
+   ],
+   "tip": "When a stem shows a sound pattern, ask: is it a missing sound, a missing contrast, or an L1 syllable rule? Then pick the option that names it precisely."
+  },
+  {
+   "skill": "1.2",
+   "title": "Morphology & Word Formation",
+   "why": "Expect to count morphemes, sort inflectional from derivational endings, name word-formation processes, and interpret what a student's errors with word parts reveal.",
+   "body": [
+    {
+     "h": "Morphemes: the meaningful pieces",
+     "md": "A **morpheme** is the smallest unit of meaning. A word can be one morpheme (cat, elephant, caterpillar) or several (un-break-able). Count meaning, never syllables or letters:\n- caterpillars = caterpillar + -s = **2** morphemes (4 syllables)\n- mistreatments = mis- + treat + -ment + -s = **4** morphemes (3 syllables)\n- unbreakable = un- + break + -able = **3**\n- rewritten = re- + write + -en = **3**\n\n**Free morphemes** stand alone as words (book, case, help). **Bound morphemes** must attach to something: affixes (un-, -ness, -s) and bound roots (-ceive in receive, conceive, deceive; -struct in construct, structure). A **root** is the core that carries the main meaning; an **affix** attaches to it as a prefix (before) or a suffix (after)."
+    },
+    {
+     "h": "The eight inflectional morphemes (memorize them)",
+     "md": "English has only eight inflectional morphemes, and every one is a suffix:\n- -s plural (cats)\n- -'s possessive (the teacher's)\n- -s third-person singular present (she walks)\n- -ed past tense (walked)\n- -en / -ed past participle (has eaten, has walked)\n- -ing present participle / progressive (is walking)\n- -er comparative (taller)\n- -est superlative (tallest)\n\n**Inflectional vs. derivational at a glance:**\n- **Inflectional:** marks grammar (number, tense, comparison); doesn't change the part of speech; doesn't create a new dictionary entry; always a suffix in English; comes last in the word (teach-er-**s**).\n- **Derivational:** creates a new word; often changes the part of speech (teach → teacher, happy → happiness) and sometimes only the meaning (happy → unhappy); can be a prefix or a suffix; sits closer to the root.\n\nTwo consequences the exam loves: every English prefix is derivational (because no inflection is a prefix), and identical-sounding suffixes can be different morphemes. The -er in taller is inflectional (comparative); the -er in teacher is derivational (verb → noun)."
+    },
+    {
+     "h": "Allomorphs: one morpheme, several pronunciations",
+     "md": "Some morphemes change pronunciation depending on the sound before them. These variants are **allomorphs**, and the rules follow voicing:\n- **Past -ed:** /ɪd/ after /t/ or /d/ (wanted, needed); /t/ after other voiceless sounds (jumped, washed); /d/ after other voiced sounds, including vowels (played, cleaned).\n- **Plural and third-person -s:** /ɪz/ after sibilants such as /s, z, ʃ, ʒ, tʃ, dʒ/ (buses, watches); /s/ after other voiceless sounds (cats); /z/ after other voiced sounds (dogs, bees).\n- **Negative in-:** im- before p, b, m (impossible), il- before l (illegal), ir- before r (irregular).\n\nELLs who read by spelling often pronounce every -ed as an extra syllable ('jump-id'). Teach the three sounds with sorting activities that use verbs from the current text."
+    },
+    {
+     "h": "How English makes new words",
+     "md": "Know each process and one example cold:\n- **Derivation:** adding affixes (teach → teacher, kind → kindness).\n- **Compounding:** joining two free words (notebook, classroom, bookcase). Noun compounds usually stress the first part (GREENhouse) and often mean more than their parts.\n- **Blending:** fusing parts of two words (brunch = breakfast + lunch; smog; motel; Spanglish).\n- **Clipping:** shortening a word without changing its meaning or class (examination → exam, laboratory → lab, influenza → flu).\n- **Acronym:** initial letters pronounced as a word (laser, scuba). An **initialism** is said letter by letter (FBI, ELL).\n- **Back-formation:** removing what looks like an affix to create a new word, often a verb from a noun (editor → edit, babysitter → babysit, donation → donate).\n- **Conversion (zero derivation):** changing word class without changing form (a text → to text).\n- **Borrowing:** taking words from other languages (taco, kindergarten, algebra).\n\nThe classic confusion is back-formation vs. clipping. Clipping just shortens the same word (exam still means examination). Back-formation produces a different word, usually in a new class (the verb edit from the noun editor)."
+    },
+    {
+     "h": "Reading students' morphology",
+     "md": "Errors with word parts tell you what a learner already knows:\n- **Omitted inflections** ('two brother,' 'yesterday I play,' 'my uncle car') are common when the L1 expresses these meanings without endings. Mandarin and Vietnamese are isolating languages with little inflection, and Haitian Creole marks tense with particles. The meaning is often present ('yesterday,' 'two'); the English endings are the target.\n- **Overgeneralization** ('goed,' 'childs,' 'unpossible,' 'unpolite') shows the learner has extracted a rule and is applying it too widely. It is a sign of progress, not a problem to punish. The fix for 'unpossible' is teaching which stems take im-, in-, il-, or ir-.\n- **Spelling-based pronunciation** of endings ('jump-id') calls for teaching allomorphs.\n\nNone of these patterns is evidence of a disability; they are predictable stages of acquisition and L1 influence."
+    },
+    {
+     "h": "Morphology as a vocabulary engine",
+     "md": "**Morphological analysis**, breaking an unfamiliar word into meaningful parts, is one of the most powerful academic vocabulary strategies, especially in content classes:\n- photosynthesis = photo- ('light') + synthesis ('putting together'); the same parts unlock photograph, photosensitive, and synthesize.\n- Spanish speakers can use cognate suffix correspondences: -tion/-ción (nation/nación), -ty/-dad (university/universidad), -ous/-oso (famous/famoso), -ly/-mente (rapidly/rápidamente).\n\nTeach morphology in context, using the text students are reading; have students predict meanings and check them; and connect word parts to home-language cognates. Memorizing root lists in isolation and replacing academic words with simpler ones are both weaker choices on the exam."
+    }
+   ],
+   "traps": [
+    "Exam trap: counting syllables instead of morphemes. Caterpillars has 4 syllables but 2 morphemes; mistreatments has 3 syllables but 4 morphemes.",
+    "Exam trap: assuming every suffix is inflectional. Only eight are; -ness, -ful, -ly, -tion, and agentive -er are derivational.",
+    "Exam trap: mixing up back-formation (editor → edit, a new word) with clipping (examination → exam, the same word shortened).",
+    "Exam trap: calling a compound a blend. Compounds keep whole words (notebook); blends fuse parts (smog).",
+    "Exam trap: reading 'goed' or 'unpossible' as a problem. Overgeneralization shows the learner has acquired a rule."
+   ],
+   "terms": [
+    {
+     "t": "morpheme",
+     "d": "The smallest unit of meaning, e.g., mis-, treat, -ment, and -s in mistreatments."
+    },
+    {
+     "t": "free morpheme",
+     "d": "A morpheme that can stand alone as a word, e.g., book, help, kind."
+    },
+    {
+     "t": "bound morpheme",
+     "d": "A morpheme that must attach to another, e.g., un-, -ness, -s, or a bound root such as -ceive."
+    },
+    {
+     "t": "root",
+     "d": "The core morpheme carrying a word's main meaning; free (help) or bound (-struct in construct)."
+    },
+    {
+     "t": "affix",
+     "d": "A bound morpheme attached to a root: a prefix before it (re-) or a suffix after it (-ful)."
+    },
+    {
+     "t": "inflectional morpheme",
+     "d": "One of eight English suffixes marking grammar (-s, -'s, -s, -ed, -en, -ing, -er, -est); never creates a new word."
+    },
+    {
+     "t": "derivational morpheme",
+     "d": "A prefix or suffix that creates a new word, often changing its part of speech (teach → teacher)."
+    },
+    {
+     "t": "allomorph",
+     "d": "A predictable pronunciation variant of one morpheme, e.g., -ed as /t/, /d/, or /ɪd/."
+    },
+    {
+     "t": "compounding",
+     "d": "Joining two free morphemes into one word, e.g., notebook, greenhouse; usually stressed on the first part."
+    },
+    {
+     "t": "blending",
+     "d": "Fusing parts of two words into one, e.g., brunch (breakfast + lunch), smog (smoke + fog)."
+    },
+    {
+     "t": "clipping",
+     "d": "Shortening a word without changing its meaning or class, e.g., exam, lab, flu."
+    },
+    {
+     "t": "acronym",
+     "d": "A word formed from initial letters and pronounced as a word, e.g., laser, scuba (unlike initialisms such as FBI)."
+    },
+    {
+     "t": "back-formation",
+     "d": "Creating a word by removing a supposed affix, e.g., edit from editor, babysit from babysitter."
+    },
+    {
+     "t": "conversion",
+     "d": "Changing a word's class without changing its form, e.g., a text → to text."
+    },
+    {
+     "t": "isolating language",
+     "d": "A language with little or no inflection, such as Mandarin or Vietnamese, relying on word order and separate words."
+    },
+    {
+     "t": "morphological analysis",
+     "d": "Working out a word's meaning from its parts, e.g., photo- + synthesis; a key academic vocabulary strategy."
+    }
+   ],
+   "tip": "Split the word into meaningful parts first; then, for each ending, ask: does it make a new word (derivational) or just tag grammar (inflectional)?"
+  },
+  {
+   "skill": "1.3",
+   "title": "Syntax & Grammar for ESOL Teachers",
+   "why": "Field 116 gives you student sentences and asks you to name the grammatical pattern, explain its likely source, and decide what to teach first.",
+   "body": [
+    {
+     "h": "Word order: the skeleton of the sentence",
+     "md": "English is a **subject–verb–object (SVO)** language with fairly fixed word order. Many home languages differ:\n- **SOV languages** (Urdu, Hindi, Bengali, Pashto, Korean, Japanese) put the verb last, so early learners may write 'I my homework finished.'\n- **Adjective placement:** Spanish, French, and Haitian Creole usually put adjectives after the noun (la casa blanca), so learners may write 'the house white.'\n- **Questions:** English inverts the subject and an auxiliary (Is she…? Where is the office?) and adds **do** when there is no other auxiliary (Do you like…? Where does she live?).\n- **Embedded questions** return to statement order: 'Do you know where the office **is**?' not 'where is the office?' Learners from almost every background keep the inversion for a long time, so this error is developmental as well as L1-related."
+    },
+    {
+     "h": "Clauses and sentence types",
+     "md": "A **clause** has a subject and a finite verb. An **independent clause** can stand alone; a **dependent (subordinate) clause** begins with a subordinator (because, although, when, if, which, that) and can't. A **phrase** lacks a subject–verb pair ('Running to the bus').\n- **Simple:** one independent clause. 'Maria ran to the bus and dropped her notebook' is simple: one subject with a compound predicate.\n- **Compound:** two independent clauses joined by a coordinating conjunction (for, and, nor, but, or, yet, so) or a semicolon.\n- **Complex:** an independent clause plus at least one dependent clause ('Although it rained, the game started').\n- **Compound-complex:** at least two independent clauses plus at least one dependent clause.\n\nA dependent clause punctuated as a sentence ('Because the water was polluted.') is a **fragment**. ELLs need complex sentences to express academic relationships such as cause, contrast, and condition, so teach them with sentence frames rather than avoiding them."
+    },
+    {
+     "h": "Tense and aspect",
+     "md": "**Tense** locates an event in time and is marked on the first verb. English marks two tenses on the verb itself, present (walk/walks) and past (walked), and expresses future with will, be going to, and other forms. **Aspect** shows how an event unfolds:\n- **Progressive** (be + -ing): ongoing. 'She is studying.'\n- **Perfect** (have + past participle): connected to a later reference point. 'She has studied.'\n- **Perfect progressive:** 'She has been studying English for three years' = present tense + perfect + progressive aspect.\n\nThe **present perfect** is a top trouble spot. English requires it for situations that began in the past and continue now: 'I have lived in the Bronx since 2022.' Spanish (vivo… desde), French, and many other languages use the simple present there, producing 'I live here since 2022.' Learners whose L1 marks time with separate words or particles rather than verb endings (Mandarin; Haitian Creole, with te for past) often leave verbs unmarked: 'Last summer my family go to Florida.'"
+    },
+    {
+     "h": "Articles and countability",
+     "md": "Articles are among the last features ELLs master, and the source of errors differs by L1:\n- **No articles in the L1** (Russian, Polish, Mandarin, Korean, Japanese): omission. 'I bought new phone. Phone is fast.'\n- **Articles with different rules** (Spanish, French): overuse with generic and abstract nouns. 'The education is important' mirrors 'La educación es importante.' English uses the **zero article** for generic plurals and noncount nouns: 'Education is important,' 'Dogs are loyal.'\n\nCore English rules: a/an for a singular count noun that is new or nonspecific; the when the listener can identify which one (second mention, something unique, or a noun specified by a phrase).\n\n**Countability** is a grammatical property, not a fact about the world. Advice, information, homework, furniture, and equipment are noncount in English (no plural -s; much, not many; 'a piece of advice'), though their equivalents are count nouns in French and Spanish. Expect 'many informations' and 'advices.'"
+    },
+    {
+     "h": "Verbs that trip up ELLs",
+     "md": "- **Copula omission:** Arabic and Russian use no present-tense 'be' in sentences like 'My sister (is) smart,' and Haitian Creole omits it before adjectives, so is and are drop out.\n- **Construction transfer:** 'I am agree' maps Spanish 'estoy de acuerdo' (be + phrase) onto English, where agree is a plain verb.\n- **Phrasal verbs** (verb + particle) often have non-literal meanings (give up, run into, figure out). With separable ones, a pronoun object must go in the middle: 'look it up,' never 'look up it.' Inseparable ones never split: 'look after her,' 'run into him.'\n- **Passive voice** = be + past participle ('The samples were collected'). The receiver becomes the subject and the agent is optional, which is why science writing uses it so often. Learners tend to read the first noun as the doer, so 'The samples were collected by the students' can be misread. Don't confuse passive with progressive (was collecting: be + -ing) or perfect (has collected: have + participle)."
+    },
+    {
+     "h": "Analyzing a writing sample the way the exam does",
+     "md": "When a stem shows student writing and asks what to teach, work through it systematically:\n- **Read for meaning first.** What is the student communicating successfully?\n- **List the error patterns and count them.** A pattern in every sentence outranks a one-time slip.\n- **Check the context.** 'My cousin show me her school' looks like an agreement error, but in a narrative set 'last summer' the target is showed: tense, not agreement.\n- **Consider the source.** Is it L1 transfer, developmental overgeneralization, or a mistake? A mistake is a slip the student can self-correct; an error is systematic and reflects the current interlanguage.\n- **Choose one high-impact target** and teach it in context, using the student's own text, mentor sentences, and guided revision.\n\nThe exam steers away from answers that drill isolated sentences, rewrite grade-level texts to remove difficult structures, or treat L1-based patterns as disabilities."
+    }
+   ],
+   "traps": [
+    "Exam trap: picking the error that appears once (a preposition) over the pattern that appears in nearly every sentence (past tense).",
+    "Exam trap: confusing passive (be + past participle) with progressive (be + -ing) or perfect (have + past participle).",
+    "Exam trap: assuming every article error has the same source. Russian speakers omit articles (no articles in the L1); Spanish speakers overuse 'the' (different rules).",
+    "Exam trap: choosing decontextualized grammar drills or simplified texts over teaching the structure in the real grade-level text."
+   ],
+   "terms": [
+    {
+     "t": "SVO / SOV",
+     "d": "Basic word orders: English is subject–verb–object; Urdu, Bengali, Korean, and Japanese are subject–object–verb."
+    },
+    {
+     "t": "independent clause",
+     "d": "A clause with a subject and finite verb that can stand alone as a sentence."
+    },
+    {
+     "t": "dependent clause",
+     "d": "A clause introduced by a subordinator (because, although, which) that cannot stand alone."
+    },
+    {
+     "t": "compound sentence",
+     "d": "Two or more independent clauses joined by a coordinating conjunction or a semicolon."
+    },
+    {
+     "t": "complex sentence",
+     "d": "One independent clause plus at least one dependent clause: 'Although it rained, the game started.'"
+    },
+    {
+     "t": "tense",
+     "d": "Grammatical marking of time on the verb; English verbs inflect for present and past."
+    },
+    {
+     "t": "aspect",
+     "d": "How an event unfolds in time: progressive (be + -ing), perfect (have + past participle), or both."
+    },
+    {
+     "t": "present perfect",
+     "d": "have/has + past participle; used for past-to-now situations: 'I have lived here since 2022.'"
+    },
+    {
+     "t": "copula",
+     "d": "A linking verb, chiefly be, connecting a subject to a description: 'She is smart.'"
+    },
+    {
+     "t": "do-support",
+     "d": "Inserting do in questions and negatives when no other auxiliary is present: 'Do you know?' 'She doesn't know.'"
+    },
+    {
+     "t": "embedded question",
+     "d": "A question inside another sentence; it uses statement word order: 'Do you know where the office is?'"
+    },
+    {
+     "t": "count vs. noncount noun",
+     "d": "Count nouns pluralize (books); noncount nouns don't (advice, information) and take much, some, or 'a piece of.'"
+    },
+    {
+     "t": "zero article",
+     "d": "Using no article, as English does with generic plurals and noncount nouns: 'Education is important.'"
+    },
+    {
+     "t": "phrasal verb",
+     "d": "A verb + particle with a unified, often idiomatic meaning: look up, give up, run into."
+    },
+    {
+     "t": "separable phrasal verb",
+     "d": "A phrasal verb whose object can go between verb and particle; a pronoun object must: 'look it up.'"
+    },
+    {
+     "t": "passive voice",
+     "d": "be + past participle with the receiver as subject; the agent is optional: 'The samples were tested.'"
+    }
+   ],
+   "tip": "Before labeling an error, read the whole sample and its context; time words, a correct form elsewhere, or the L1 usually rule out the tempting wrong answer."
+  },
+  {
+   "skill": "1.4",
+   "title": "Semantics, Pragmatics & Discourse",
+   "why": "Field 116 presents misunderstandings and 'odd' word choices that are grammatically fine and asks you to name the meaning, pragmatic, or discourse concept behind them.",
+   "body": [
+    {
+     "h": "Word meaning: semantics",
+     "md": "**Denotation** is a word's literal meaning; **connotation** is the feeling or judgment it carries. Stubborn and determined denote similar persistence, but stubborn criticizes and determined praises. ELLs often choose a dictionary-correct word with the wrong connotation, so shades-of-meaning work (stubborn/determined, nosy/curious, cheap/thrifty) is worth the time.\n\nOne form, several meanings:\n- **Polysemy:** one word with related senses that grew from a shared core (the mouth of a river / a person's mouth; a math table / a kitchen table).\n- **Homonymy:** unrelated words that happen to share a form (bat the animal / bat for baseball).\n- **Homophones** sound alike (flour/flower); **homographs** are spelled alike (a lead pipe / lead the class).\n\nContent classes are full of polysemous words (product, volume, cell, solution), and students can use the core meaning to infer the new one.\n\n**Semantic relations** build vocabulary networks: synonyms (big/large), antonyms (hot/cold), **hyponyms** (an oak is a kind of tree), and **meronyms** (a branch is part of a tree). **Idioms** (got cold feet, a piece of cake) mean something you can't work out from the individual words, so word-by-word translation fails."
+    },
+    {
+     "h": "Pragmatics: what speakers do with words",
+     "md": "Pragmatics is meaning in context: what a speaker intends, not just what the words say.\n\n- **Speech acts** are actions performed with language: requesting, apologizing, refusing, complimenting, promising. In an **indirect speech act**, form and function differ. 'Can you close the door?' is a question in form but a request in function; a newcomer who answers 'Yes' and stays seated has understood the words, not the act.\n- **Implicature** is meaning implied beyond the words. Grice's **Cooperative Principle** says listeners assume speakers are being informative (quantity), truthful (quality), relevant (relation), and clear (manner). When Marcus answers 'Is the coach good?' with 'Well, he's always on time,' the too-thin answer implies criticism. Literature and humor run on implicature, so 'says vs. means' charts help.\n- **Politeness conventions** differ across languages. English softens requests to adults with modals and indirect forms ('Could I please have…?'). A student who says 'Give me the paper' in a friendly tone isn't being rude; the student hasn't yet acquired the softeners. That is a pragmatic gap, taught through modeling and role plays, not discipline.\n\nOn the exam, when a student's English is grammatical but the interaction goes wrong, look for a pragmatic explanation, and reject options that blame character or culture."
+    },
+    {
+     "h": "Register and audience",
+     "md": "**Register** is the variety of language suited to a situation: a text to a friend, a conversation with the principal, a lab report. Register changes vocabulary (kids/children/students), grammar (gonna/going to; the passive in science writing), and tone.\n\nAn email to an assistant principal that says 'hey!! i need u to sign my form asap' has a register problem, not a grammar problem. The strongest response treats registers as tools: compare the same message written for a friend and for an administrator, notice the differences in greeting, word choice, and tone, and revise. Labeling informal English 'wrong' is a deficit move; the goal is choosing the right register for the audience and purpose."
+    },
+    {
+     "h": "Discourse: cohesion, coherence, and markers",
+     "md": "Discourse is language beyond the single sentence.\n\n- **Cohesion** is the set of explicit links between sentences. Halliday and Hasan describe reference (pronouns and demonstratives: she, it, this), substitution (one, do so), ellipsis (leaving words out: 'I can swim, and she can too'), conjunction (however, then), and lexical cohesion (repetition, synonyms, related words). A paragraph that keeps repeating 'my family… my family… the small apartment' needs reference ties.\n- **Coherence** is the logical sense of the whole that a reader can follow. A paragraph stuffed with 'Furthermore… Therefore… As a result' can be cohesive on the surface and still incoherent if the ideas don't connect.\n- **Discourse markers** signal relationships, so teach them by function: addition (in addition, also), contrast (however, on the other hand), cause and effect (therefore, as a result, so), sequence (first, next, finally), and example (for example, such as). 'It was raining hard. However, the game was canceled' uses a contrast marker for a cause-and-effect relationship.\n\nConversation has its own structure. **Turn-taking** norms, such as how long a pause means 'your turn' and whether overlapping talk is friendly or rude, vary across communities and individuals. Fast, overlapping discussion favors some students; think-pair-share, talking chips, and planned wait time give everyone a turn."
+    },
+    {
+     "h": "Communicative competence",
+     "md": "**Dell Hymes** coined 'communicative competence' to challenge Chomsky's narrower 'linguistic competence' (knowledge of grammar). Hymes argued that knowing a language means knowing what to say, to whom, when, and how. **Canale and Swain** then broke it into components (Canale's later revision separated out discourse competence):\n- **Grammatical:** vocabulary, word formation, sentence structure, pronunciation, spelling.\n- **Sociolinguistic:** appropriateness to setting, audience, and purpose (register, politeness).\n- **Discourse:** combining sentences into cohesive, coherent spoken or written texts.\n- **Strategic:** keeping communication going despite gaps, through circumlocution ('the thing you push to put papers together'), gesture, or asking for repetition.\n\nThe exam typically describes a student and asks which component is shown or needed. Strategic = repair; sociolinguistic = appropriateness; discourse = connecting ideas; grammatical = accuracy of form."
+    },
+    {
+     "h": "Classroom moves the exam rewards",
+     "md": "- **Name the idiom and use context:** 'got cold feet' + 'almost went home' = nervous; invite home-language equivalents.\n- **Says vs. means charts** for dialogue, advertisements, and poetry to teach implicature.\n- **Shades-of-meaning scales** for connotation.\n- **Register contrasts:** the same message written for two audiences.\n- **Request and apology role plays** with different listeners to build pragmatic competence.\n- **Discourse markers grouped by function**, practiced in students' own writing.\n- **Structured turn-taking** and wait time so every ELL gets a protected turn.\n\nThe common thread: treat these as learnable conventions of English, build on what students already do in their home languages, and never read a pragmatic gap as a character flaw."
+    }
+   ],
+   "traps": [
+    "Exam trap: reading a pragmatic gap (a literal 'Yes,' an unsoftened request) as defiance, rudeness, or a cultural flaw.",
+    "Exam trap: confusing cohesion (surface links like however, it, this) with coherence (whether the ideas make logical sense).",
+    "Exam trap: mixing up Canale & Swain components, especially strategic (repairing breakdowns) and sociolinguistic (appropriateness to audience).",
+    "Exam trap: crediting Canale & Swain with coining 'communicative competence.' Hymes coined it; they named its components.",
+    "Exam trap: confusing polysemy (related senses: the mouth of a river) with homonymy (unrelated words: bat)."
+   ],
+   "terms": [
+    {
+     "t": "denotation",
+     "d": "A word's literal, dictionary meaning."
+    },
+    {
+     "t": "connotation",
+     "d": "The emotional or evaluative association a word carries, e.g., stubborn (negative) vs. determined (positive)."
+    },
+    {
+     "t": "polysemy",
+     "d": "One word with several related senses, e.g., the mouth of a river and a person's mouth."
+    },
+    {
+     "t": "homonymy",
+     "d": "Unrelated words that share a spelling and/or sound, e.g., bat (animal) and bat (baseball)."
+    },
+    {
+     "t": "hyponymy",
+     "d": "A 'kind of' relation: oak and maple are hyponyms of tree (contrast meronymy, 'part of')."
+    },
+    {
+     "t": "idiom",
+     "d": "A fixed expression whose meaning can't be worked out from its individual words, e.g., got cold feet."
+    },
+    {
+     "t": "speech act",
+     "d": "An action performed through language, such as requesting, apologizing, refusing, or promising."
+    },
+    {
+     "t": "indirect speech act",
+     "d": "An utterance whose form differs from its function, e.g., 'Can you close the door?' used as a request."
+    },
+    {
+     "t": "implicature",
+     "d": "Meaning a speaker implies beyond the literal words, inferred from context, e.g., faint praise suggesting criticism."
+    },
+    {
+     "t": "Cooperative Principle",
+     "d": "Grice's idea that conversation assumes speakers are informative, truthful, relevant, and clear (quantity, quality, relation, manner)."
+    },
+    {
+     "t": "register",
+     "d": "The variety of language suited to a situation, audience, and purpose, from casual texting to formal academic writing."
+    },
+    {
+     "t": "cohesion",
+     "d": "Explicit links between sentences: reference, substitution, ellipsis, conjunction, and lexical ties."
+    },
+    {
+     "t": "coherence",
+     "d": "The logical sense of a whole text that a reader can follow; possible to lack even with many transitions."
+    },
+    {
+     "t": "discourse marker",
+     "d": "A word or phrase signaling how ideas relate, e.g., however (contrast), therefore (cause and effect)."
+    },
+    {
+     "t": "communicative competence",
+     "d": "Hymes's term for knowing how to use language appropriately in context, not just knowing its grammar."
+    },
+    {
+     "t": "strategic competence",
+     "d": "Canale & Swain's component for repairing communication breakdowns, e.g., circumlocution, gesture, asking for repetition."
+    }
+   ],
+   "tip": "If the student's English is grammatical but communication still broke down, look for a meaning, pragmatic, register, or discourse explanation, not a grammar one."
+  }
+ ]
 }
