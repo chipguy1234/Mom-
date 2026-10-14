@@ -25,11 +25,11 @@ QUESTIONS = [
 },
 {
  "id": "4.5-02", "skill": "4.5", "type": "analysis", "difficulty": 3, "diag": 0,
- "stimulus": "Original sentence from a grade 8 class novel:\n“Despite the drought that had withered the crops, the farmers refused to abandon the land their families had worked for generations.”\n\nVersion 1:\n“There was no rain. The crops died. The farmers did not leave their land.”\n\nVersion 2:\n“Despite the drought (a long time with no rain) that had withered (dried up and killed) the crops, the farmers refused to abandon (leave forever) the land. Their families had worked that land for generations, so it was very important to them.”",
+ "stimulus": "Original sentence from a grade 8 class novel:\n“Despite the drought that had withered the crops, the farmers refused to abandon the land their families had worked for generations.”\n\nVersion 1:\n“There was no rain. The crops died. The farmers did not leave their land.”\n\nVersion 2:\n“Despite the drought (a long time with no rain) that had withered (dried up and killed) the crops, the farmers refused to abandon (leave forever) the land their families had worked for generations. The land mattered to them because their families had farmed it for so long.”",
  "stem": "An ENL teacher prepares two versions of a sentence from a grade-level novel for a group of Transitioning ELLs. Which of the following best evaluates the two versions?",
  "options": [
   "Version 1 is the stronger scaffold, because short, simple sentences lower the cognitive load and let students focus on the main idea of the passage.",
-  "Version 2 is a simplified text, because it splits the original sentence in two and therefore reduces the overall linguistic complexity for students.",
+  "Version 2 is a simplified text, because its glosses and added sentence reduce the linguistic demands that the original sentence places on students.",
   "Version 2 is an elaborated text: it keeps the original wording and structure but adds glosses and makes the implied reason explicit.",
   "Version 1 suits Transitioning students best, and Version 2 should be saved for Expanding students who are ready to handle longer, denser text."
  ],
@@ -37,7 +37,7 @@ QUESTIONS = [
  "why": "Walqui's principle “amplify, don't simplify” separates elaboration from simplification. An elaborated text keeps the original vocabulary and sentence structures and adds redundancy—glosses, paraphrases, explicit links—so students get comprehensible input and still meet the academic language they must learn. Version 1 strips out “despite,” “refused,” and the generational reason, so the very relationships a reader has to understand disappear.",
  "traps": [
   {"code": "LOWER_RIGOR", "note": "Simplification deletes the concessive connector “despite” and the farmers' reason for staying. Without those links the text can actually be harder to understand, and students never practice the academic structures."},
-  {"code": "TERM", "pair": "elaborated ↔ simplified text", "note": "Version 2 keeps the full original sentence, including the relative clause and “despite.” It adds support rather than taking language away, which is what makes it elaborated."},
+  {"code": "TERM", "pair": "elaborated ↔ simplified text", "note": "Simplification removes language. Version 2 keeps the entire original sentence—“despite,” the relative clauses, “refused to abandon”—and adds glosses and a restatement, which is elaboration."},
   None,
   {"code": "WRONG_LEVEL", "note": "Transitioning students can work with authentic grade-level sentences when glosses and explicit links are added. Holding back the real language until Expanding delays access to the very structures they need."}
  ],
@@ -127,12 +127,12 @@ QUESTIONS = [
  "stem": "A grade 10 ENL teacher is about to begin a grade-level novel set during the Dust Bowl of the 1930s. Her class includes recent arrivals from Yemen, Ecuador, and Uzbekistan who have strong home-language schooling but little knowledge of U.S. history. Which pre-reading activity would best build the background knowledge the novel requires?",
  "options": [
   "Deliver a detailed lecture on the economic causes of the Great Depression so that students have accurate historical information before they read.",
-  "Show photographs and a short video of the Dust Bowl, then have pairs discuss how drought or hard times affected people they know, adding ideas to a concept web.",
+  "Show photographs and a short video of the Dust Bowl, then have pairs discuss what they notice and any similar events they know of, adding ideas to a concept web.",
   "Skip the historical context and begin reading right away, since the novel's central themes of family loyalty and survival are universal and familiar to all students.",
   "Have students read an encyclopedia entry on the Dust Bowl independently and answer the comprehension questions before beginning the novel."
  ],
  "answer": 1,
- "why": "Schema theory holds that readers understand new text by connecting it to existing knowledge, which is why Building Background is a SIOP component. Visuals make the unfamiliar setting comprehensible without depending on English, and pair talk links that setting to students' own experiences—their funds of knowledge. The concept web then gives them a shared reference and key vocabulary to carry into the novel.",
+ "why": "Schema theory holds that readers understand new text by connecting it to existing knowledge, which is why Building Background is a SIOP component. Visuals make the unfamiliar setting comprehensible without depending on English, and pair talk links that setting to what students already know from their own lives and countries—their funds of knowledge. The concept web then gives them a shared reference and key vocabulary to carry into the novel.",
  "traps": [
   {"code": "PASSIVE", "note": "A detailed lecture is one-way, language-heavy input with no visuals, interaction, or link to students' experiences, so recent arrivals are likely to understand little of it."},
   None,
@@ -143,12 +143,12 @@ QUESTIONS = [
 },
 {
  "id": "4.5-08", "skill": "4.5", "type": "scenario", "difficulty": 3, "diag": 0,
- "stem": "A grade 3 Integrated ENL/ELA class includes four Entering ELLs whose home language is Bengali. A Bengali-speaking paraprofessional is available for 15 minutes just before and just after the ELA block, when the class will read a grade-level folktale in English. Which use of the paraprofessional would best support both comprehension and English development?",
+ "stem": "A grade 3 Integrated ENL/ELA class includes four Entering ELLs whose home language is Bengali. A Bengali-speaking paraprofessional is in the room for the full ELA block, during which the class will read a grade-level folktale in English. Which use of the paraprofessional would best support both comprehension and English development?",
  "options": [
-  "During the lesson, she sits beside the students and translates each of the teacher's sentences into Bengali as the teacher reads aloud and explains the story.",
-  "During the ELA block, she takes the students to a separate room to read a Bengali folktale and answer comprehension questions about it in Bengali.",
-  "Before the lesson, she drills the students on English vocabulary flash cards with pictures, using words the teacher has selected from the folktale.",
-  "Before the lesson, she previews the story's main events in Bengali; the teacher teaches in English; afterward, she reviews the story with them in Bengali."
+  "During the read-aloud, she sits beside the students and translates each of the teacher's sentences into Bengali as the teacher reads and explains the story.",
+  "For the whole block, she takes the students to a separate room to read a Bengali folktale and answer comprehension questions about it in Bengali.",
+  "At the start of the block, she drills the students on English vocabulary flash cards with pictures, using words the teacher has selected from the folktale.",
+  "At the start of the block, she previews the story's main events in Bengali; the teacher teaches in English; at the end, she reviews the story in Bengali."
  ],
  "answer": 3,
  "why": "In the preview-view-review model, the home language frames an English lesson: the preview gives students the gist and key concepts so the English input becomes comprehensible, and the review consolidates and checks understanding. Unlike concurrent translation, it keeps students attending to English because they are not waiting for a sentence-by-sentence translation. It uses the home language as a resource, consistent with the Blueprint and Cummins's Common Underlying Proficiency.",
@@ -170,11 +170,11 @@ QUESTIONS = [
   "Readability formula results"
  ],
  "answer": 0,
- "why": "The text complexity model used with the NYS standards has three dimensions: quantitative measures (Lexile, sentence length, word frequency), qualitative measures (structure, levels of meaning, language conventionality, knowledge demands), and reader and task considerations (these particular students' knowledge, language, and motivation, plus what the task asks them to do). The ENL teacher is weighing these readers and this task, which is where ESOL expertise usually points to the scaffolds a text will need rather than to rejecting it.",
+ "why": "The standard three-part model of text complexity weighs quantitative measures (Lexile, sentence length, word frequency), qualitative measures (structure, levels of meaning, language conventionality, knowledge demands), and reader and task considerations (these particular students' knowledge, language, and motivation, plus what the task asks them to do). The ENL teacher is weighing these readers and this task, which is where ESOL expertise usually points to the scaffolds a text will need rather than to rejecting it.",
  "traps": [
   None,
   {"code": "TERM", "pair": "quantitative ↔ reader-and-task", "note": "Quantitative measures, such as the Lexile the ELA teacher already checked, are computed from word and sentence features. They say nothing about these students or this task."},
-  {"code": "TERM", "pair": "qualitative ↔ reader-and-task", "note": "Qualitative measures describe features of the text itself, like structure and meaning, which the ELA teacher already reviewed. The ENL teacher is describing the readers and the task."},
+  {"code": "TERM", "pair": "qualitative ↔ reader-and-task", "note": "Qualitative measures describe the text itself, including what knowledge it assumes. What these particular students know, and what the task asks of them, are reader and task considerations."},
   {"code": "TERM", "pair": "readability formula ↔ reader-and-task", "note": "Readability formulas are a kind of quantitative measure based on sentence and word length, not a separate dimension, and they ignore readers and tasks."}
  ],
  "key": "Text complexity has three dimensions: quantitative, qualitative, and reader and task. ELLs' background and the assigned task fall under reader and task."
@@ -294,7 +294,7 @@ QUESTIONS = [
  "why": "The sample shows real narrative competence: a time-ordered sequence signaled by “Last winter,” “First,” “Then,” and “At the end of the day,” plus a closing reflection. The most pervasive need is past-tense marking (go, drive, make, was), and “Is very cold” shows a dropped subject consistent with Spanish, which allows subjects to be omitted (“Está nevando” = “It is snowing”). Strong analysis names an asset to build on and a patterned, teachable need—the same thinking the constructed response requires.",
  "traps": [
   {"code": "LITERAL", "note": "This reverses the evidence. The sentences are mostly short and simple, and the sequence of events is already one of the clearest strengths."},
-  {"code": "PARTIAL", "note": "The strength is accurate and details would enrich the story, but the need overlooks the verb-tense pattern that runs through every sentence, which is the priority for a Transitioning writer."},
+  {"code": "PARTIAL", "note": "The strength is accurate and details would enrich the story, but the need overlooks the verb-tense pattern that runs through most of the sample, which is the priority for a Transitioning writer."},
   None,
   {"code": "MISREFERRAL", "note": "The errors are systematic and typical of second-language development, partly shaped by Spanish. Nothing in the sample suggests a language disorder."}
  ],
@@ -374,7 +374,7 @@ QUESTIONS = [
   None,
   {"code": "LITERAL", "note": "There are no agreement errors here (“She is,” “She tells” are correct). This option doesn't match the evidence in the sample."},
   {"code": "PARTIAL", "note": "It targets the right symptom, short sentences, but gives the student no strategy. Arbitrary length rules tend to produce run-ons rather than well-built complex sentences."},
-  {"code": "ISOLATED", "note": "Labeling parts of textbook sentences is decontextualized analysis. It does not teach the student to build longer sentences in her own writing."}
+  {"code": "ISOLATED", "note": "Labeling parts of textbook sentences is decontextualized analysis. It does not teach the student to build longer sentences in the student's own writing."}
  ],
  "key": "Choppy but accurate simple sentences call for sentence combining, using the student's own writing."
 },
@@ -394,7 +394,7 @@ QUESTIONS = [
   {"code": "DEFICIT", "note": "The essay has a deliberate, coherent structure that the student can explain. It reflects a different convention, not an inability to think logically."},
   {"code": "STEREOTYPE", "note": "Contrastive rhetoric has been criticized for exactly this kind of overgeneralization. Writers vary, and the evidence here is one student's own account."},
   None,
-  {"code": "LOWER_RIGOR", "note": "Withholding the conventions the student will be judged on, such as on the Regents exam, lowers expectations. Adding a new convention does not erase the old one."}
+  {"code": "LOWER_RIGOR", "note": "Withholding the conventions the student will be judged on, on assessments such as the ELA Regents exam, lowers expectations. Adding a new convention does not erase the old one."}
  ],
  "key": "Unfamiliar essay organization may reflect learned rhetorical conventions; teach the U.S. academic structure explicitly without treating it as a deficit."
 },
@@ -461,13 +461,13 @@ QUESTIONS = [
  "stimulus": "Writing sample (grade 6, Transitioning, home language Mandarin; recount):\n“Last Saturday my father take me to the library. We borrow three book about animal. I read one book on the train. It is about a panda who lose her baby. At the end the panda find baby and I feel happy.”",
  "stem": "Which conclusion about this student's writing is best supported by the sample?",
  "options": [
-  "The student consistently omits past-tense and plural endings, a pattern consistent with Mandarin, which does not use word endings for tense or plurals.",
+  "The student consistently omits past-tense and plural endings, likely influenced by Mandarin, which has no tense inflection and no required plural marking.",
   "The errors are random slips that the student will correct easily once reminded to proofread the recount carefully before turning it in for a grade.",
   "The student's limited English vocabulary prevents him from describing the events of the recount clearly and in a logical order.",
   "The repeated grammatical omissions suggest a language-based learning disability that should be formally evaluated by the school's evaluation team."
  ],
  "answer": 0,
- "why": "Every past-tense verb (take, borrow, lose, find, feel) and the plurals “book” and “animal” lack endings, which makes this a systematic error pattern rather than random mistakes (Corder's error/mistake distinction). Mandarin expresses time with time words and particles rather than verb endings and does not require plural marking on nouns, so negative transfer is a likely contributor. The sample also shows strengths—clear sequence and accurate content vocabulary—so instruction can target inflectional endings in the student's own recounts.",
+ "why": "Every verb that needs an ending lacks one (take, borrow, lose, find, feel), as do the plurals “book” and “animal,” which makes this a systematic error pattern rather than random mistakes (Corder's error/mistake distinction). Mandarin expresses time with time words and particles rather than by changing the verb, and it does not require plural marking on nouns, so negative transfer is a likely contributor. The sample also shows strengths—clear sequence and accurate content vocabulary—so instruction can target inflectional endings in the student's own recounts.",
  "traps": [
   None,
   {"code": "TERM", "pair": "error ↔ mistake", "note": "Corder distinguished errors (systematic gaps in the learner's current system) from mistakes (occasional slips). A pattern this consistent is an error, so a proofreading reminder won't fix it."},
@@ -527,7 +527,7 @@ QUESTIONS = [
  "answer": 2,
  "why": "Cummins's Common Underlying Proficiency suggests that the composing skills Hana built in Arabic—generating ideas, organizing a narrative—can transfer to English. Planning in her strongest language lets her bring that expertise to the grade-level task, and partner talk plus frames help her carry the ideas into English. This is a purposeful translanguaging scaffold within the writing process, not a lowered expectation.",
  "traps": [
-  {"code": "DEFICIT", "note": "Banning Arabic treats her strongest literacy as an obstacle. Planning in Arabic lets her use skills that transfer, so it speeds rather than slows her English writing."},
+  {"code": "DEFICIT", "note": "Banning Arabic treats her strongest literacy as an obstacle. Planning in Arabic lets her use skills that transfer, so it supports rather than slows her English writing."},
   {"code": "LOWER_RIGOR", "note": "A list of foods replaces the narrative task with a much simpler one and underestimates a strong writer."},
   None,
   {"code": "PARTIAL", "note": "A bilingual dictionary is a useful tool, but looking up every word before writing stalls idea generation and ignores the composing skills she already has."}
@@ -658,7 +658,7 @@ QUESTIONS = [
  "stem": "An ENL teacher sends home dual-language (Bengali–English) editions of the picture books her grade 2 class reads and encourages families to read and talk about the stories in Bengali. A colleague worries that this will slow the children's progress in English reading. Which principle provides the strongest response to the colleague's concern?",
  "options": [
   "Lowering the affective filter at home is the main benefit, since reading with family makes children feel relaxed and confident.",
-  "Children acquire conversational English within one to three years, so home reading in Bengali mostly builds social language.",
+  "Conversational English develops within one to three years regardless of home practices, so home reading cannot affect English reading.",
   "Comprehension skills and concepts developed in the home language transfer to English through a common underlying proficiency.",
   "Contrastive analysis shows that reading in the home language helps children avoid errors caused by first-language interference."
  ],
@@ -666,7 +666,7 @@ QUESTIONS = [
  "why": "Cummins's Common Underlying Proficiency (the “iceberg”) and Developmental Interdependence hypothesis hold that literacy concepts and comprehension skills learned in one language—predicting, sequencing, understanding story structure, knowing what words mean—are available in the other. Rich home-language reading therefore supports, rather than delays, English reading, which answers the colleague's concern directly. Dual-language books also bring families in as literacy partners and affirm the home language, as the Blueprint calls for.",
  "traps": [
   {"code": "PARTIAL", "note": "Comfort and family connection are real benefits, but they don't answer the concern about English reading. Transfer of comprehension skills does."},
-  {"code": "TERM", "pair": "BICS ↔ CALP", "note": "Reading and discussing stories builds literacy and academic language (CALP), not just social language. The BICS timeline is beside the point here."},
+  {"code": "TERM", "pair": "BICS ↔ CALP", "note": "This confuses conversational fluency (BICS) with academic literacy (CALP). Home reading builds CALP-type comprehension, and it does affect English reading, positively, through transfer."},
   None,
   {"code": "MISAPPLIED_THEORY", "note": "Lado's contrastive analysis predicts errors from differences between two languages. It is not a rationale for home-language reading and says nothing about transfer of comprehension."}
  ],
@@ -741,7 +741,7 @@ QUESTIONS = [
   "Krashen's affective filter hypothesis"
  ],
  "answer": 1,
- "why": "Django Paris proposed culturally sustaining pedagogy, which aims to perpetuate and foster linguistic, literate, and cultural pluralism—treating students' languages and practices as worth sustaining, not only as bridges to dominant English. It builds on Ladson-Billings's culturally relevant pedagogy (academic success, cultural competence, critical consciousness) and Gay's culturally responsive teaching. NYS's Culturally Responsive-Sustaining Education Framework carries the word “sustaining” from this line of work.",
+ "why": "Django Paris proposed culturally sustaining pedagogy, which aims to perpetuate and foster linguistic, literate, and cultural pluralism—treating students' languages and practices as worth sustaining, not only as bridges to dominant English. It builds on Ladson-Billings's culturally relevant pedagogy (academic success, cultural competence, critical consciousness) and Gay's culturally responsive teaching. The word “sustaining” in NYS's Culturally Responsive-Sustaining Education Framework reflects this line of work.",
  "traps": [
   {"code": "TERM", "pair": "culturally relevant ↔ culturally sustaining", "note": "Ladson-Billings's framework centers academic success, cultural competence, and critical consciousness. Paris extended it with the explicit goal of sustaining students' languages and cultures."},
   None,
@@ -830,7 +830,260 @@ QUESTIONS = [
 
 ]
 
-LESSONS = []
+LESSONS = [
+
+# ---------------------------------------------------------------- Lesson 4.5
+{
+ "skill": "4.5",
+ "title": "Reading Comprehension & Complex Texts for ELLs",
+ "why": "Expect scenario items where the best answer keeps the grade-level text and adds scaffolds (background, chunking, text-dependent questions, a home-language preview) instead of substituting an easier book.",
+ "body": [
+  {"h": "The big idea: amplify, don't simplify", "md": """New York's Blueprint for ELL/MLL Success says instruction for ELLs is **rigorous and grade-level**. On the exam that becomes one reliable pattern: when ELLs struggle with a complex text, the best answer **keeps the text and adds support**. The trap answer swaps in a leveled reader, a summary, or a kindergarten picture book (LOWER_RIGOR).
+
+Aída Walqui's phrase for this is **amplify, don't simplify**. Compare two ways to adapt one sentence:
+
+- **Simplified:** “There was no rain. The crops died.” The connector “despite,” the verb “refused,” and the reason behind the farmers' choice all disappear, and students can't learn language they never see.
+- **Elaborated (amplified):** The original sentence stays, with glosses in parentheses, such as “withered (dried up and killed),” plus an added sentence that makes the implied reason explicit. Students get comprehensible input **and** the academic language.
+
+Supplementary texts are fine as an **on-ramp**: a short article, a video, or a home-language text that builds background before the anchor text. They are wrong when they **replace** it."""},
+  {"h": "Before reading: build the schema the text assumes", "md": """**Schema theory** says we understand new text by connecting it to what we already know. Many ELL “comprehension problems” are really missing background. A newcomer who has never heard of the Dust Bowl will misread events even if she decodes every word.
+
+Strong pre-reading moves:
+
+- **Visuals, video, and realia** make an unfamiliar setting concrete without relying on English.
+- **Anticipation guides** are agree/disagree statements about the themes (“It is always wrong to break a promise”). They activate opinions and set a purpose, and students revisit them with text evidence after reading.
+- **KWL charts and concept webs** bring prior knowledge to the surface.
+- **Selective vocabulary front-loading** means a few essential words taught with visuals and student-friendly definitions. A 30-word dictionary list is ISOLATED.
+- **Home-language preview:** in the **preview-view-review** model, the teacher previews the gist in the home language, teaches the lesson in English, and reviews in the home language. Contrast it with **concurrent translation** (sentence by sentence), which teaches students to tune out the English."""},
+  {"h": "During reading: chunk, question, model", "md": """- **Chunking:** reread short sections, each with a clear purpose.
+- **Text-dependent questions** cannot be answered without the text. “What does comparing closing doors to setting down a sleeping baby suggest about the family?” is text-dependent. “Has anyone in your family worked nights?” is a personal connection: a fine warm-up, but not text-dependent.
+- **Close reading:** multiple reads that move from what the text says, to how it works, to what it means.
+- **Think-alouds:** the teacher says her thinking out loud. (“Hmm, I don't know dwindled… the factory closed, people left… it must mean got smaller… the next line confirms it.”) The purpose is to **make invisible strategies visible**, not to pre-teach the word.
+- **Reciprocal teaching** (Palincsar & Brown): students rotate four roles: **predict, question, clarify, summarize**. Clarifying means repairing a breakdown, such as an unknown word.
+- **Sentence deconstruction** (Wong Fillmore's “juicy sentences”): when students know the words but misread who did what, chunk one dense sentence into clauses and ask who did what in each chunk. Rewriting the sentences is LOWER_RIGOR, and an unrelated grammar workbook is ISOLATED."""},
+  {"h": "After reading: organize and question", "md": """**Match the graphic organizer to the text structure:**
+
+- Cause and effect → flow chart with arrows
+- Compare and contrast → Venn diagram or T-chart
+- Sequence or chronology → timeline
+- Problem and solution → problem/solution chart
+- Narrative → story map
+
+**QAR (Question-Answer Relationships, Raphael)** teaches students where answers come from:
+
+- **In the Book:** Right There (stated in one place) and Think and Search (stated, but spread across several places)
+- **In My Head:** Author and Me (text clues plus your own knowledge, as in predictions and inferences) and On My Own (your own knowledge alone)
+
+Post-reading talk with **sentence frames** (“The author shows ___ when ___”) gives ELLs a way to produce academic language about the text, not just listen to others discuss it."""},
+  {"h": "Scaffolds by proficiency level", "md": """The NLAP keep the **same grade-level standard** at every level; only the support changes, decreasing from substantial at Entering toward independence at Commanding.
+
+- **Entering:** home-language preview, visuals, labeled diagrams, word banks, a same-language partner, one-sentence frames
+- **Emerging:** partially completed organizers, phrase-level frames, bilingual glossaries
+- **Transitioning:** frames for connected sentences, guided chunk-by-chunk rereading
+- **Expanding and Commanding:** sentence deconstruction, discussion protocols, lighter frames, growing independence
+
+An Entering fourth grader who is literate in Uzbek doesn't need a kindergarten weather book. She needs an Uzbek preview of the water cycle, a diagram to label from a word bank, and a frame to explain it to a partner. Same concept as her classmates, different scaffolds."""},
+  {"h": "Reading the data and the text", "md": """- **Fluent decoding + weak retell = a comprehension need.** 98% accuracy at benchmark rate with a 1-out-of-4 retell points to vocabulary, background knowledge, and inferencing (CALP). It is **not** a phonics problem, and it is **not** grounds for a disability referral.
+- **Text complexity** has three dimensions: **quantitative** (Lexile, sentence length, word frequency), **qualitative** (structure, levels of meaning, language conventionality, knowledge demands), and **reader and task** (these students' background and proficiency, plus what the task asks them to do). ESOL teachers speak mostly to reader and task, and they use it to plan scaffolds, not to reject texts.
+
+Exam habit: before you choose, ask what the evidence says the real barrier is. Is it background, vocabulary, syntax, or strategy? Then pick the scaffold that targets that barrier inside the grade-level text."""}
+ ],
+ "traps": [
+  "Exam trap: choosing the leveled reader, summary, or easier book. An option that replaces the grade-level text is almost always LOWER_RIGOR.",
+  "Exam trap: concurrent (sentence-by-sentence) translation looks supportive, but preview-view-review is the better use of the home language.",
+  "Exam trap: confusing a personal-connection question with a text-dependent one. If you can answer it without reading, it isn't text-dependent.",
+  "Exam trap: treating weak comprehension as a phonics or disability issue when the data show accurate, fluent decoding.",
+  "Exam trap: pre-teaching every unfamiliar word. Front-loading should be selective and should build the background the text assumes."
+ ],
+ "terms": [
+  {"t": "schema", "d": "Organized background knowledge a reader uses to interpret text; missing cultural or historical schema causes misreadings."},
+  {"t": "amplify, don't simplify", "d": "Walqui's principle: add support (glosses, visuals, paraphrase) around authentic text instead of removing its language."},
+  {"t": "elaborated text", "d": "An adaptation that keeps the original language and adds glosses, restatements, and explicit links."},
+  {"t": "text-dependent question", "d": "A question that can be answered only with evidence from the text."},
+  {"t": "close reading", "d": "Repeated, careful reading of a short complex passage to analyze what it says, how it works, and what it means."},
+  {"t": "think-aloud", "d": "The teacher voices her thinking while reading to model comprehension strategies such as monitoring and using context."},
+  {"t": "reciprocal teaching", "d": "Palincsar & Brown's small-group routine rotating four strategies: predicting, questioning, clarifying, summarizing."},
+  {"t": "preview-view-review", "d": "Home-language preview, English lesson, home-language review."},
+  {"t": "concurrent translation", "d": "Translating each sentence as it is spoken; students tend to tune out the English."},
+  {"t": "anticipation guide", "d": "Agree/disagree statements about themes, used before reading to activate opinions and set a purpose, then revisited."},
+  {"t": "QAR", "d": "Raphael's Question-Answer Relationships: Right There, Think and Search (in the book); Author and Me, On My Own (in my head)."},
+  {"t": "sentence deconstruction", "d": "Unpacking one dense sentence from the text, clause by clause, to clarify who did what (Wong Fillmore's “juicy sentences”)."},
+  {"t": "text complexity", "d": "Judged on three dimensions: quantitative, qualitative, and reader and task."},
+  {"t": "chunking", "d": "Breaking a text into short sections, each read with a clear purpose or question."}
+ ],
+ "tip": "When ELLs struggle with a text, choose the answer that keeps the grade-level text and adds the most targeted, interactive scaffold."
+},
+
+# ---------------------------------------------------------------- Lesson 4.6
+{
+ "skill": "4.6",
+ "title": "Writing Development & Analyzing ELL Writing",
+ "why": "Expect writing samples: you'll name a strength and a patterned need, explain an error's likely source, or pick the next step (journals, mentor texts, sentence combining, focused feedback).",
+ "body": [
+  {"h": "A continuum of writing support", "md": """Think of writing support as a gradual release from teacher to student:
+
+- **Modeled writing:** the teacher writes and thinks aloud.
+- **Shared writing:** the class composes together and **the teacher holds the pen**.
+- **Interactive writing:** the class composes together and **students share the pen**. They write the letters and words they can, while the teacher writes the rest and teaches conventions on the spot. It is especially powerful in K–2.
+- **Language Experience Approach (LEA):** students **dictate** an account of a shared experience, and the teacher writes their words. The text then becomes their reading material.
+- **Guided writing:** students write their own pieces in a small group while the teacher coaches.
+- **Independent writing.**
+
+The exam loves the shared vs. interactive distinction. Ask yourself: **who holds the marker?**"""},
+  {"h": "Process, genre, and mentor texts", "md": """**The writing process:** prewriting → drafting → **revising** (content, organization, clarity: “Where could you add an example?”) → **editing** (conventions: spelling, punctuation, grammar) → publishing. Revising vs. editing is a classic TERM trap.
+
+**Prewriting in the home language** is a smart scaffold for literate ELLs. Under Cummins's Common Underlying Proficiency, composing skills such as generating and organizing ideas transfer. Let a strong Arabic writer outline in Arabic and talk it through, then draft in English with frames.
+
+**Genre-based pedagogy (the teaching-learning cycle):** building the field (topic knowledge) → deconstruction (analyzing a model text's stages and language) → **joint construction** (teacher and class write one together) → independent construction. If a scenario jumps from the model straight to independent writing, the missing step is joint construction.
+
+**Mentor texts** let students read like writers. Pick one move, such as introducing and rebutting a counterclaim. Find it in a mentor essay, chart its language (“Some argue that…; however…”), and have students try it in their own drafts. Copying the model is PASSIVE; a worksheet of transitions in unrelated sentences is ISOLATED."""},
+  {"h": "Dialogue journals and sentence combining", "md": """**Dialogue journals** are ongoing written conversations between a student and the teacher. The teacher:
+
+- responds to the **message**, not the errors
+- **models** correct forms naturally (student: “She make rice for my birthday.” Teacher: “Your aunt made rice for you? My sister made soup for me!”)
+- writes **just above** the student's level, so no “pulled out all the stops” for an Emerging writer
+- asks a **question** to keep the conversation going
+
+Correcting the entry or demanding a rewrite turns the journal into a test (OVERCORRECT).
+
+**Sentence combining** suits writers whose sentences are accurate but choppy. “My grandmother lives in Dhaka. She is old. She is kind. She tells stories.” becomes “My kind, elderly grandmother, who lives in Dhaka, tells stories.” Work from the student's own sentences, using adjectives, conjunctions (and, but, because), and relative clauses (who, that). Arbitrary length rules and textbook diagramming are weaker choices."""},
+  {"h": "Reading an ELL writing sample like an examiner", "md": """Always name a **strength** first, then a **patterned need**. It's the same move the constructed response rewards.
+
+- **Look for patterns, not single errors.** Corder distinguished **errors** (systematic, reflecting the learner's current system) from **mistakes** (occasional slips). A student who leaves off every past-tense ending has an error pattern, so a proofreading reminder won't fix it.
+- **Consider transfer as a hypothesis, not a stereotype.** Spanish allows dropped subjects (“Está nevando”), so you may see “Is very cold.”
+- Spelling like “laik,” “mai,” and “famili” follows Spanish letter-sound rules. It shows positive transfer of phonemic awareness, not a spelling disability.
+- Mandarin doesn't change verbs for tense or require plural marking, so you may see “Yesterday my father take me… three book.”
+- Russian, Mandarin, and Korean have no articles, so you may see “She is very brave person.” Haitian Creole verbs don't change form for tense (“She make…”).
+- **Home-language words** in a draft (“arroz,” “nani”) are translanguaging, a resource, not confusion.
+- **Long-Term ELLs** often write fluently but in a **conversational register** (“cuz,” “like nothing,” “and stuff”). The need is academic register (CALP), not basic grammar.
+- **L1 rhetorical patterns** (Kaplan's contrastive rhetoric, now called intercultural rhetoric): a student may delay the thesis or open with a proverb because that is what prior schooling valued. Teach the U.S. early-thesis convention explicitly as an addition. Don't call the essay illogical, and don't assume all writers from one background write this way."""},
+  {"h": "Feedback that actually helps", "md": """- **Focused (selective) feedback:** praise the ideas, then target **one or two** high-frequency patterns. Mark a couple of examples and have the student find and fix the rest; self-correction builds noticing.
+- **Global before local:** content and organization first, conventions later in the process.
+- **Avoid both extremes:** marking every error in red overwhelms the writer (OVERCORRECT), while never addressing form can let patterns fossilize (PARTIAL).
+- **Rewriting it for the student** teaches nothing (PASSIVE).
+- **Conferences** let you ask “What did you want to say here?” and give a mini-lesson at the point of need."""},
+  {"h": "Differentiating writing by proficiency level", "md": """Same task, different support:
+
+- **Entering:** drawing and labeling, an illustrated organizer, a word bank, sentence frames (“I think ___ because ___”), home-language brainstorming
+- **Emerging:** frames for several connected sentences, a partially completed organizer
+- **Transitioning:** a paragraph frame with transitions
+- **Expanding:** a mentor paragraph, a self-check list, fewer frames
+- **Commanding:** near-independent writing with targeted feedback
+
+If an option gives Entering students the least help, or has them only copy, it's wrong. If it gives everyone the identical frame, it's ONE_SIZE."""}
+ ],
+ "traps": [
+  "Exam trap: calling shared writing “interactive.” In interactive writing, the students share the pen.",
+  "Exam trap: correcting a dialogue journal. The teacher responds to meaning and models correct forms instead.",
+  "Exam trap: treating systematic, L1-influenced errors or Spanish-patterned spelling as signs of a disability.",
+  "Exam trap: choosing “mark every error” or “ignore grammar completely” when a focused-feedback option is available.",
+  "Exam trap: calling a delayed-thesis essay illogical (DEFICIT) or typical of a whole group (STEREOTYPE) instead of a learned convention."
+ ],
+ "terms": [
+  {"t": "shared writing", "d": "The class composes a text together while the teacher acts as scribe."},
+  {"t": "interactive writing", "d": "Teacher and students compose together and share the pen; students write the parts they can."},
+  {"t": "Language Experience Approach", "d": "Students dictate an account of a shared experience; the teacher writes it down and it becomes reading material."},
+  {"t": "dialogue journal", "d": "An ongoing written conversation in which the teacher responds to content and models language without correcting."},
+  {"t": "mentor text", "d": "A model text studied for a specific writing move that students then try in their own writing."},
+  {"t": "sentence combining", "d": "Joining short related sentences with modifiers, conjunctions, or relative clauses to build syntactic complexity."},
+  {"t": "teaching-learning cycle", "d": "Genre pedagogy sequence: building the field, deconstruction, joint construction, independent construction."},
+  {"t": "joint construction", "d": "Teacher and students write a text in the target genre together before students write independently."},
+  {"t": "revising", "d": "Improving a draft's content, organization, and clarity."},
+  {"t": "editing", "d": "Correcting conventions: spelling, punctuation, capitalization, and grammar."},
+  {"t": "focused feedback", "d": "Corrective feedback that targets one or two patterned errors instead of every error."},
+  {"t": "error vs. mistake", "d": "Corder: errors are systematic gaps in the learner's system; mistakes are occasional performance slips."},
+  {"t": "contrastive (intercultural) rhetoric", "d": "Kaplan's idea that writers may carry organizational conventions from prior schooling; criticized for overgeneralizing."},
+  {"t": "register", "d": "A language variety suited to its context; academic writing calls for a formal rather than conversational register."}
+ ],
+ "tip": "For any writing sample: name the strength, find the pattern, and choose the most targeted next step in context. Never “correct everything” or “refer.”"
+},
+
+# ---------------------------------------------------------------- Lesson 4.7
+{
+ "skill": "4.7",
+ "title": "Literature, Culture & Home Language in ELA",
+ "why": "Items test whether you choose authentic, rigorous, culturally relevant texts, read misunderstandings as missing cultural schema rather than deficits, and use translanguaging and identity texts to build English literacy.",
+ "body": [
+  {"h": "Choosing texts: mirrors, windows, and rigor", "md": """Rudine Sims Bishop described books as **mirrors** (students see their own lives), **windows** (they see others' lives), and **sliding glass doors** (they step into those worlds). ELLs deserve all three, in **complex, grade-level** texts.
+
+When you evaluate a multicultural text, check for:
+
+- **Authenticity:** an insider author, or careful research and consultation
+- **Accurate, varied, present-day portrayals:** not every Mexican character in a sombrero in a village
+- **Agency:** characters from the culture who solve their own problems, not an outsider hero
+- **Rigor:** relevance comes with complexity, not instead of it
+
+Choosing a book because “Dominican students like baseball” is STEREOTYPE. Chimamanda Ngozi Adichie calls a narrow, repeated portrayal the danger of a **single story**.
+
+**Banks's approaches to multicultural curriculum reform**, from shallow to deep:
+
+- **Contributions:** heroes, holidays, food fairs
+- **Additive:** adding a multicultural book or unit without changing the curriculum's structure
+- **Transformation:** restructuring the curriculum so students study issues from multiple perspectives
+- **Social action:** students analyze an issue and act on it"""},
+  {"h": "Cultural schema and figurative language", "md": """Readers interpret texts through cultural background knowledge. An Expanding student from Nepal reads “After the homecoming game… he still didn't have a date” and concludes that Marcus's family forgot him at the stadium. She is **inferring from a different cultural frame**. She has no reading disability, and her culture does not keep her from inferring.
+
+What to do:
+
+- Build the specific background: photos, a short explanation, a classmate who can explain homecoming.
+- Invite comparisons: “What school celebrations do you know?”
+- Before teaching, flag culturally loaded elements such as holidays, school rituals, sports, food, dating, and historical allusions.
+
+**Figurative language** works the same way. Idioms are **non-compositional**: “cold feet” isn't about temperature. Teach idioms **in context** (“practiced for weeks… almost stayed home” → nervous) and compare them with idioms from students' home languages. Teach metaphor by mapping the image's traits onto the idea. In “‘Hope’ is the thing with feathers,” a bird perches, sings, and never stops, so what does that say about hope? Use frames and partner talk. Don't replace the poem, assign lists of idioms to memorize, or postpone figurative language until Commanding."""},
+  {"h": "Translanguaging in the ELA classroom", "md": """**Translanguaging** (Ofelia García; CUNY-NYSIEB) treats a bilingual's languages as **one integrated repertoire**. Translanguaging pedagogy plans for students to use all of it to think, learn, and build English. Examples:
+
+- Small groups discuss a novel's theme in Spanish, jot bilingual notes, then **rehearse in English with frames** before sharing with the class.
+- Students read a home-language text on the same theme to build background before the English anchor text.
+- Students draft a bilingual response, then a polished English paragraph.
+
+Compare it with the near-miss terms:
+
+- **Concurrent translation** (sentence by sentence): students tune out the English. Not translanguaging.
+- **A deficit view of code-switching:** using the home language only to patch gaps. Translanguaging is purposeful.
+- **Strict language separation:** a program design choice, as in some dual language models.
+
+On the exam, “English-only” rules are DEFICIT, and excusing students from sharing until they are proficient is EXCLUSION."""},
+  {"h": "Identity texts, bilingual books, and family funds of knowledge", "md": """- **Identity texts** (Cummins & Early) are student creations, often bilingual or multimodal, into which students invest their identities and which they share with real audiences. Examples include family-history books read at a family celebration, or a “Where I'm From” poem with Urdu words like “nani” and “beta.” Affirm the home-language words as **craft choices**, then push revision with sensory detail and context clues. Asking the student to replace them is DEFICIT.
+- **Dual-language books** sent home let families read and talk in the home language. The rationale is Cummins's **Common Underlying Proficiency**: comprehension skills such as predicting, sequencing, and grasping story structure transfer, so home reading supports English literacy rather than slowing it.
+- **Funds of knowledge** (Moll) are the skills and knowledge found in households. If grandparents tell folktales in Wolof, Fulani, or Haitian Creole, invite them to tell a tale, with an interpreter if needed, and have students compare its story elements with a grade-level folktale. Don't make children translate at home, and don't limit each child to tales from “their own” culture."""},
+  {"h": "Relevant, responsive, sustaining: who said what", "md": """- **Ladson-Billings, culturally relevant pedagogy:** academic success, cultural competence, and critical (sociopolitical) consciousness.
+- **Gay, culturally responsive teaching:** using students' cultural knowledge, experiences, and frames of reference to make learning more relevant and effective.
+- **Paris, culturally sustaining pedagogy:** goes further, aiming to sustain students' languages and cultural practices as valuable in their own right, not just as bridges to English. Examples include a heritage-language book club and bilingual poetry publishing.
+- **Moll, funds of knowledge:** household and community knowledge used as instructional resources.
+- **NYS CR-SE Framework (2019):** a welcoming and affirming environment; high expectations and rigorous instruction; inclusive curriculum and assessment; ongoing professional learning.
+
+Quick cue: “sustain” points to **Paris**; “critical consciousness” points to **Ladson-Billings**; “household knowledge” points to **Moll**."""},
+  {"h": "Assessing literary understanding", "md": """First decide what you are measuring. If the goal is **understanding of theme**, an Entering student who is literate in Dari can show it best in Dari, with a short framed English summary and a Dari-speaking colleague's help reviewing it. Grading her English essay on the class rubric measures **English proficiency** instead (ASSESS_INVALID). A vocabulary quiz lowers the demand (LOWER_RIGOR), and “wait until Transitioning” is EXCLUSION.
+
+One boundary to remember: on **NYS ELA tests**, translated editions and glossaries are **not** allowed. Home-language responses are a classroom assessment practice, not a state ELA test accommodation."""}
+ ],
+ "traps": [
+  "Exam trap: treating a “heroes and holidays” activity (food fair, flags, famous people) as deep multicultural curriculum. That is Banks's contributions level.",
+  "Exam trap: reading a culturally based misinterpretation as weak inferencing or a disability instead of missing cultural schema.",
+  "Exam trap: confusing translanguaging with concurrent translation, or accepting an English-only “more practice” rule.",
+  "Exam trap: mixing up Ladson-Billings (relevant), Gay (responsive), Paris (sustaining), and Moll (funds of knowledge).",
+  "Exam trap: choosing a stereotyped or low-rigor “relevant” text over an authentic, complex text by an insider author."
+ ],
+ "terms": [
+  {"t": "mirrors and windows", "d": "Bishop's metaphor: texts reflect readers' own lives (mirrors) and reveal others' lives (windows, sliding glass doors)."},
+  {"t": "single story", "d": "Adichie's term for a narrow, repeated portrayal that reduces a group to stereotypes."},
+  {"t": "contributions approach", "d": "Banks's shallowest level: heroes, holidays, foods, and discrete cultural elements, with the curriculum unchanged."},
+  {"t": "transformation approach", "d": "Banks's level that restructures the curriculum so students examine issues from multiple perspectives."},
+  {"t": "cultural schema", "d": "Culturally shaped background knowledge that readers use to interpret texts and situations."},
+  {"t": "idiom", "d": "A fixed expression whose meaning cannot be predicted from its individual words (non-compositional)."},
+  {"t": "translanguaging", "d": "García's view of bilinguals' languages as one repertoire; pedagogy that purposefully leverages that whole repertoire."},
+  {"t": "concurrent translation", "d": "Translating each sentence as it is spoken; discouraged because students tune out the English."},
+  {"t": "identity text", "d": "Cummins & Early: student-created, often multilingual work reflecting the student's identity, shared with authentic audiences."},
+  {"t": "dual-language book", "d": "A book with the same text in two languages, used to connect home-language and English literacy."},
+  {"t": "funds of knowledge", "d": "Moll's term for household and community knowledge that teachers can draw on in instruction."},
+  {"t": "culturally relevant pedagogy", "d": "Ladson-Billings: academic success, cultural competence, and critical consciousness."},
+  {"t": "culturally sustaining pedagogy", "d": "Paris: teaching that maintains and fosters linguistic and cultural pluralism, not just bridges to English."},
+  {"t": "Common Underlying Proficiency", "d": "Cummins: concepts and literacy skills learned in one language are available in another."}
+ ],
+ "tip": "Favor answers that pair students' cultural and linguistic assets with grade-level rigor, and reject both stereotypes and English-only rules."
+},
+
+]
 
 import json, pathlib
 pathlib.Path(__file__).with_name("c4b.json").write_text(json.dumps({"questions": QUESTIONS, "lessons": LESSONS}, ensure_ascii=False, indent=1))

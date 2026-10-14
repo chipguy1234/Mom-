@@ -1,0 +1,1484 @@
+{
+ "questions": [
+  {
+   "id": "6.1-01",
+   "skill": "6.1",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 1,
+   "stimulus": "Excerpt from a district's written response to a parent complaint:\n“All students in our district, including those who speak little or no English, are placed in the same grade-level classrooms, use the same textbooks, and are taught by the same certified teachers. No supplemental language instruction is provided. Because every student receives identical resources, our district provides equal educational opportunity.”",
+   "stem": "The parent's advocate replies that the U.S. Supreme Court has already rejected this reasoning. Which ruling most directly supports the advocate's position?",
+   "options": [
+    "Plyler v. Doe (1982)",
+    "Lau v. Nichols (1974)",
+    "Castañeda v. Pickard (1981)",
+    "Keyes v. School District No. 1 (1973)"
+   ],
+   "answer": 1,
+   "why": "In Lau v. Nichols (1974), a case brought on behalf of Chinese-speaking students in San Francisco, the Supreme Court held under Title VI of the Civil Rights Act that the same facilities, textbooks, teachers, and curriculum do not give students who do not understand English an equal educational opportunity. The district's “identical resources” argument is exactly the position the Court rejected: districts must take affirmative steps to open instruction to ELLs. When a stem describes ELLs left in mainstream classes with no support, think Lau.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "Lau v. Nichols ↔ Plyler v. Doe",
+     "note": "Plyler concerns whether undocumented children can be denied a free public education at all. It does not address whether identical instruction is adequate for students who do not understand English."
+    },
+    null,
+    {
+     "code": "LAW_FACT",
+     "note": "Castañeda is a 1981 Fifth Circuit appeals decision, not a Supreme Court ruling. It built on Lau's principle by creating a test for judging programs; it did not originate the “same is not equal” holding."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "Keyes was a Denver school desegregation case. It did not hold that identical resources deny equal opportunity to students who do not understand English."
+    }
+   ],
+   "key": "Lau v. Nichols (1974): the same teachers, textbooks, and curriculum are not equal opportunity for ELLs; districts must take affirmative steps (Title VI)."
+  },
+  {
+   "id": "6.1-02",
+   "skill": "6.1",
+   "type": "application",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "At a school board meeting, a board member states: “Under Lau v. Nichols, the Supreme Court requires every district to provide bilingual education to students who speak other languages.”",
+   "stem": "Which of the following most accurately corrects the board member's statement?",
+   "options": [
+    "Lau required affirmative steps so that ELLs could participate meaningfully, but it did not prescribe a method such as bilingual education.",
+    "Lau required bilingual education for Chinese-speaking students in particular, since the case was brought on their behalf in San Francisco.",
+    "Lau required English-only instruction, holding that full-time placement in mainstream classrooms is the surest route to equal educational opportunity.",
+    "Lau required a bilingual program wherever 20 or more ELLs who share a home language are enrolled in the same grade."
+   ],
+   "answer": 0,
+   "why": "Lau v. Nichols held that a district violates Title VI when ELLs cannot participate meaningfully in instruction, and it required affirmative steps. But the Court left the remedy open: teaching English to the students was one choice, giving instruction in Chinese was another, and “there may be others.” Later sources filled in the how: the 1975 Lau Remedies offered compliance guidelines, and Castañeda v. Pickard (1981) gave courts a test for judging whether a district's chosen program is adequate.",
+   "traps": [
+    null,
+    {
+     "code": "LITERAL",
+     "note": "This latches onto who the plaintiffs were. Lau's Title VI reasoning protects all national-origin minority students who cannot understand English instruction, and it did not mandate bilingual education for anyone."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "This reverses the holding. Placing ELLs in mainstream classes with no support is precisely what Lau found unlawful."
+    },
+    {
+     "code": "TERM",
+     "pair": "Lau v. Nichols ↔ NYS Part 154 bilingual trigger",
+     "note": "The 20-student, same-language, same-grade threshold is a New York State Part 154 requirement, not part of the federal Lau decision."
+    }
+   ],
+   "key": "Lau required affirmative steps so ELLs can participate meaningfully but did not mandate a particular program; the method was left to districts."
+  },
+  {
+   "id": "6.1-03",
+   "skill": "6.1",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A consultant reviewing a district's ENL program organizes her report around three questions: Is the program based on sound educational theory? Is it implemented effectively, with adequate resources and personnel? After a trial period, has it been evaluated and shown to work? The consultant's framework comes from which of the following?",
+   "options": [
+    "Lau v. Nichols (1974)",
+    "Plyler v. Doe (1982)",
+    "Castañeda v. Pickard (1981)",
+    "The Bilingual Education Act (1968)"
+   ],
+   "answer": 2,
+   "why": "Castañeda v. Pickard (1981), a Fifth Circuit decision interpreting the EEOA's requirement of “appropriate action to overcome language barriers,” created the three-prong test: (1) the program is grounded in sound educational theory, (2) it is implemented effectively with adequate resources and personnel, and (3) after a trial period it is evaluated and shown to be effective. Courts and federal civil-rights agencies use this standard to judge whether an ELL program is legally adequate.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "Lau v. Nichols ↔ Castañeda v. Pickard",
+     "note": "Lau established that districts must take affirmative steps for ELLs, but it gave no test for judging whether a program is adequate. Castañeda supplied that three-part standard seven years later."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "Plyler addresses undocumented children's right to a free public K–12 education, not the quality of language programs."
+    },
+    null,
+    {
+     "code": "LAW_FACT",
+     "note": "The Bilingual Education Act (Title VII of ESEA) provided federal funding for bilingual programs. It did not set a legal test for evaluating them."
+    }
+   ],
+   "key": "Castañeda's three prongs: sound theory, effective implementation with adequate resources and staff, and proven results after a trial period."
+  },
+  {
+   "id": "6.1-04",
+   "skill": "6.1",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Program review summary (the district is in the second year of a new ENL program)\n- Design: a Stand-alone and Integrated ENL model drawn from published second-language acquisition research; formally adopted by the Board of Education.\n- Staffing: one certified ESOL teacher serves 140 ELLs across three buildings; most Integrated ENL classes are taught by content teachers with no ESOL certification and no co-teacher.\n- Materials: no leveled texts, bilingual glossaries, or home-language resources have been purchased.\n- Evaluation: the district will analyze NYSESLAT growth and course grades at the end of the third year.",
+   "stem": "Applying the Castañeda v. Pickard standard, on which ground is the program most vulnerable?",
+   "options": [
+    "Prong 1, because the design of the program is not grounded in sound educational theory",
+    "Prong 2, because the district has not provided the staff and resources needed to carry out the design",
+    "Prong 3, because the district has not yet produced evidence showing that the program is actually working",
+    "No prong applies, because the Castañeda standard governs bilingual programs rather than ENL programs"
+   ],
+   "answer": 1,
+   "why": "Castañeda's second prong asks whether a district actually implements its chosen program effectively, with adequate resources and qualified personnel. A research-based design (prong 1) means little if one ESOL teacher serves 140 students, Integrated ENL runs without ESOL-certified staff, and no materials exist. (In NYS, Integrated ENL must be taught by a dually certified teacher or co-taught with a certified ESOL teacher.) The results evaluation (prong 3) is planned and the trial period has not ended, so implementation is the clear weak point.",
+   "traps": [
+    {
+     "code": "LITERAL",
+     "note": "The summary says the design comes from published second-language acquisition research and was formally adopted, so prong 1 is the prong most likely to be satisfied."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Results matter, but Castañeda allows a reasonable trial period, and this district has an evaluation planned for the end of year three. The deficiency documented right now is implementation."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "Castañeda applies to whatever program a district chooses to overcome language barriers, including ENL. It is not limited to bilingual education."
+    }
+   ],
+   "key": "Castañeda prong 2 fails when a sound program design lacks the qualified staff and materials needed to implement it."
+  },
+  {
+   "id": "6.1-05",
+   "skill": "6.1",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 2,
+   "stem": "A family that recently arrived from Honduras comes to enroll their 9-year-old daughter. The registrar tells the ENL teacher that the parents have no immigration documents and suggests holding off on enrollment until the family's legal status is resolved. Which ruling is most relevant to the ENL teacher's response?",
+   "options": [
+    "Lau v. Nichols, because the girl will need language support so that she can participate meaningfully once she enrolls",
+    "Meyer v. Nebraska, because the family has a constitutional right to have their daughter taught in Spanish",
+    "Castañeda v. Pickard, because a district's enrollment procedures must be grounded in sound educational theory",
+    "Plyler v. Doe, because a state may not deny children a free public K–12 education because they are undocumented"
+   ],
+   "answer": 3,
+   "why": "Plyler v. Doe (1982) held, under the Equal Protection Clause of the Fourteenth Amendment, that states may not deny undocumented children a free public K–12 education. Holding off enrollment until immigration status is “resolved” keeps the child out of school, which is exactly what Plyler forbids, so the teacher should advocate for immediate enrollment. A child's right to attend school does not depend on immigration status.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "Lau v. Nichols ↔ Plyler v. Doe",
+     "note": "Lau will matter once she is enrolled, but it addresses language services for enrolled students, not whether a child can be kept out of school because of immigration status."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "Meyer v. Nebraska struck down a ban on teaching foreign languages to young children. It did not create a right to instruction in a particular language, and it does not address enrollment."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "Castañeda's three-prong test evaluates ELL programs, not enrollment eligibility, and it is a federal appeals decision rather than the controlling Supreme Court precedent here."
+    },
+    null
+   ],
+   "key": "Plyler v. Doe (1982): undocumented children have the right to a free public K–12 education (Fourteenth Amendment, Equal Protection)."
+  },
+  {
+   "id": "6.1-06",
+   "skill": "6.1",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "At a high school, counselors keep ELLs out of college-preparatory courses until they exit ENL, and notices about school activities go home only in English. An advocate cites a federal Office for Civil Rights memorandum, issued before Lau v. Nichols and quoted in that decision, that identified both practices as discriminatory. Which document is the advocate citing?",
+   "options": [
+    "The OCR May 25, 1970 Memorandum",
+    "The Lau Remedies",
+    "The Equal Educational Opportunities Act",
+    "Title III of No Child Left Behind"
+   ],
+   "answer": 0,
+   "why": "The May 25, 1970 OCR Memorandum told federally funded districts to take affirmative steps to open instruction to language-minority students. It barred assigning those students to special education on the basis of English skills, barred keeping them out of college-preparatory courses because of English proficiency, and required that parent notices be given in a language parents understand. The Supreme Court quoted this guidance in Lau v. Nichols (1974).",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "pair": "1970 OCR Memo ↔ 1975 Lau Remedies",
+     "note": "The Lau Remedies were compliance guidelines issued in 1975, after the Lau decision, so they could not have been quoted in it."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "The EEOA is a 1974 statute passed by Congress, not an OCR memorandum. Its key phrase is “appropriate action to overcome language barriers.”"
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "Title III of NCLB dates from 2001, decades after Lau, and it is a funding and accountability statute rather than an OCR memorandum."
+    }
+   ],
+   "key": "1970 OCR Memo: affirmative steps; no special-education placement or college-prep exclusion based on English; notices in a language parents understand."
+  },
+  {
+   "id": "6.1-07",
+   "skill": "6.1",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A lawsuit claims that a district “failed to take appropriate action to overcome language barriers that impede equal participation by its students in its instructional programs.” This wording comes from which federal law?",
+   "options": [
+    "Title VI of the Civil Rights Act of 1964",
+    "The Individuals with Disabilities Education Act",
+    "The Equal Educational Opportunities Act",
+    "The Bilingual Education Act of 1968"
+   ],
+   "answer": 2,
+   "why": "The Equal Educational Opportunities Act (EEOA) of 1974 wrote Lau's principle into federal statute: an educational agency may not deny equal educational opportunity by failing to take “appropriate action to overcome language barriers.” Because the EEOA does not define “appropriate action,” the Fifth Circuit in Castañeda v. Pickard (1981) created its three-prong test to interpret it.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "Title VI ↔ EEOA",
+     "note": "Title VI prohibits discrimination based on race, color, or national origin in federally funded programs and was the basis for Lau, but the “appropriate action to overcome language barriers” wording belongs to the EEOA."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "IDEA governs special education and requires native-language evaluation. It does not contain this language-barrier provision."
+    },
+    null,
+    {
+     "code": "LAW_FACT",
+     "note": "The Bilingual Education Act funded bilingual programs. It did not create this enforceable duty."
+    }
+   ],
+   "key": "EEOA (1974): districts must take “appropriate action to overcome language barriers”; Castañeda later defined what counts as appropriate."
+  },
+  {
+   "id": "6.1-08",
+   "skill": "6.1",
+   "type": "application",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A parent files a complaint with the U.S. Department of Education's Office for Civil Rights. She alleges that her son's school, which receives federal funds, has given him no language support, so he cannot meaningfully take part in instruction. Which legal authority most directly prohibits this national-origin discrimination in federally funded programs and served as the basis for the Supreme Court's decision in Lau v. Nichols?",
+   "options": [
+    "The Equal Protection Clause of the Fourteenth Amendment",
+    "The Every Student Succeeds Act of 2015",
+    "The Bilingual Education Act of 1968",
+    "Title VI of the Civil Rights Act of 1964"
+   ],
+   "answer": 3,
+   "why": "Title VI of the Civil Rights Act of 1964 bars discrimination based on race, color, or national origin in any program receiving federal financial assistance, and OCR enforces it in schools. In Lau v. Nichols the Supreme Court rested its decision on Title VI, treating the denial of meaningful access to students who do not understand English as national-origin discrimination. The Court did not decide Lau on constitutional grounds.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "Title VI ↔ Equal Protection Clause",
+     "note": "The Equal Protection Clause was the basis for Plyler v. Doe. Lau was decided under Title VI, and the Court did not reach the constitutional claim."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "ESSA is an accountability and funding law, not the civil-rights statute that prohibits national-origin discrimination, and it came four decades after Lau."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "The Bilingual Education Act provided grant funding. It does not prohibit discrimination and was not the basis for Lau."
+    },
+    null
+   ],
+   "key": "Title VI (1964) bans national-origin discrimination in federally funded programs; it was the legal basis for Lau v. Nichols."
+  },
+  {
+   "id": "6.1-09",
+   "skill": "6.1",
+   "type": "knowledge",
+   "difficulty": 1,
+   "diag": 0,
+   "stimulus": "Year | Federal milestone for English learners\n1964 | Title VI of the Civil Rights Act\n1968 | ________\n1970 | OCR May 25 Memorandum\n1974 | Lau v. Nichols; Equal Educational Opportunities Act\n1981 | Castañeda v. Pickard\n1982 | Plyler v. Doe",
+   "stem": "Which milestone belongs in the blank in the timeline?",
+   "options": [
+    "The Lau Remedies",
+    "The Bilingual Education Act",
+    "Title III of No Child Left Behind",
+    "Meyer v. Nebraska"
+   ],
+   "answer": 1,
+   "why": "The Bilingual Education Act of 1968, Title VII of the Elementary and Secondary Education Act, was the first federal law to address the needs of students with limited English proficiency. It offered federal grants for bilingual programs but did not require districts to offer them. No Child Left Behind (2001) later replaced it with Title III.",
+   "traps": [
+    {
+     "code": "LAW_FACT",
+     "note": "The Lau Remedies were OCR compliance guidelines issued in 1975, after the Lau decision, not in 1968."
+    },
+    null,
+    {
+     "code": "LAW_FACT",
+     "note": "Title III arrived with No Child Left Behind in 2001, when it replaced the Bilingual Education Act."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "Meyer v. Nebraska was decided in 1923. It struck down a state ban on teaching foreign languages to young children."
+    }
+   ],
+   "key": "Bilingual Education Act (1968), Title VII of ESEA: first federal law for LEP students; it funded bilingual programs but did not mandate them."
+  },
+  {
+   "id": "6.1-10",
+   "skill": "6.1",
+   "type": "knowledge",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A district data coordinator is explaining how the Every Student Succeeds Act (ESSA, 2015) changed federal accountability for English learners. Which statement accurately describes a change ESSA made?",
+   "options": [
+    "It moved accountability for progress in English-language proficiency into Title I, the accountability system that covers all schools.",
+    "It placed accountability for English proficiency under Title III, with annual objectives for districts that receive Title III funds.",
+    "It allowed each district to set its own criteria for identifying students as English learners and for exiting them.",
+    "It required districts to remove students from the English-learner subgroup as soon as they exit EL status."
+   ],
+   "answer": 0,
+   "why": "ESSA moved English-language proficiency accountability into Title I, so progress toward English proficiency counts in every state's main school accountability system. ESSA also requires standardized statewide entry and exit procedures and reporting on long-term ELs and ELs with disabilities, and it lets states keep former ELs in the EL subgroup for up to four years for accountability. Under NCLB (2001), English-proficiency accountability had sat in Title III.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "pair": "ESSA ↔ NCLB",
+     "note": "Housing English-proficiency accountability in Title III describes No Child Left Behind (2001), the system ESSA replaced."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "ESSA did the opposite: it requires standardized statewide entry and exit procedures so that EL status means the same thing in every district of a state."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "ESSA allows former ELs to stay in the EL subgroup for up to four years after exit for accountability purposes."
+    }
+   ],
+   "key": "ESSA (2015) moved English-proficiency accountability into Title I and required standardized statewide EL entry and exit procedures."
+  },
+  {
+   "id": "6.1-11",
+   "skill": "6.1",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Findings from a district self-audit\n- At the middle school, ELLs spend the entire day in a separate wing, including art, physical education, and lunch, for an average of three years.\n- Several ELLs were referred for special-education evaluation with no consideration of their English proficiency.\n- The district has never evaluated whether its ENL program is effective.\n- Report cards and notices go home only in English.",
+   "stem": "District leaders want one federal guidance document that addresses every one of these findings as a civil-rights obligation toward English learners and their families. Which source is most appropriate?",
+   "options": [
+    "Plyler v. Doe, the 1982 Supreme Court decision on schooling for undocumented children",
+    "The Bilingual Education Act, the 1968 law that first funded bilingual programs",
+    "The 2015 DOJ/OCR Dear Colleague Letter on English learner students and LEP parents",
+    "Lau v. Nichols, the 1974 Supreme Court decision requiring affirmative steps for ELLs"
+   ],
+   "answer": 2,
+   "why": "The 2015 joint Dear Colleague Letter from the Department of Justice and the Department of Education's Office for Civil Rights spells out districts' specific obligations to English learners: identification, sound programs, qualified staff, avoiding unnecessary segregation, appropriate special-education evaluation, students who opt out, monitoring, program evaluation, and meaningful communication with parents who have limited English proficiency. The four audit findings map directly onto segregation, special-education evaluation, program evaluation, and parent communication.",
+   "traps": [
+    {
+     "code": "LAW_FACT",
+     "note": "Plyler guarantees undocumented children access to free public K–12 schooling. It does not address segregation, program evaluation, or parent communication."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "The Bilingual Education Act was a funding statute. It does not set out districts' civil-rights obligations."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Lau establishes the underlying duty to take affirmative steps, but it does not spell out specific obligations such as avoiding unnecessary segregation or evaluating program effectiveness. The 2015 letter does."
+    }
+   ],
+   "key": "The 2015 DOJ/OCR Dear Colleague Letter lists EL duties: identification, programs, staff, no needless segregation, special education, monitoring, evaluation, parent communication."
+  },
+  {
+   "id": "6.1-12",
+   "skill": "6.1",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A school psychologist plans to evaluate a second-grade ELL whose home language is Bengali for a possible learning disability, using only English-language cognitive and achievement tests. Which federal requirement most directly governs how this evaluation must be conducted?",
+   "options": [
+    "Lau v. Nichols, which requires schools to postpone any special-education evaluation until an ELL reaches the Commanding level",
+    "ESSA, which requires that an ELL's English proficiency be tested before any other kind of assessment may be given",
+    "Castañeda v. Pickard, which requires that each individual student's evaluation be grounded in sound educational theory",
+    "IDEA, which requires native-language evaluation and bars a disability finding that results from limited English proficiency"
+   ],
+   "answer": 3,
+   "why": "The Individuals with Disabilities Education Act requires that evaluations be given in the child's native language (or the form most likely to yield accurate information), and that a child not be found to have a disability when the determining factor is limited English proficiency. An English-only battery for a Bengali-speaking second grader risks measuring English proficiency instead of ability. The ENL teacher should press for home-language assessment and a careful look at language-acquisition factors.",
+   "traps": [
+    {
+     "code": "MISREFERRAL",
+     "note": "No law requires waiting until an ELL is proficient, and delaying a warranted evaluation can deny needed services. The issue is how the evaluation is conducted, not whether it may happen."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "ESSA governs state accountability, including annual English-proficiency testing. It does not set rules for special-education evaluations or impose this sequence."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "Castañeda's three-prong test judges a district's language program, not an individual student's disability evaluation."
+    },
+    null
+   ],
+   "key": "IDEA: evaluate in the child's native language; no disability finding when limited English proficiency is the determining factor."
+  },
+  {
+   "id": "6.1-13",
+   "skill": "6.1",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A state legislator proposes a bill that would make it illegal for any school, public or private, to teach a language other than English to children who have not completed eighth grade. Which Supreme Court decision struck down a similar law and would most likely be cited against the bill?",
+   "options": [
+    "Keyes v. School District No. 1 (1973)",
+    "Meyer v. Nebraska (1923)",
+    "Lau v. Nichols (1974)",
+    "Plyler v. Doe (1982)"
+   ],
+   "answer": 1,
+   "why": "In Meyer v. Nebraska (1923), the Supreme Court struck down a Nebraska law that banned teaching languages other than English to young children, finding that it violated the liberty protected by the Fourteenth Amendment's Due Process Clause. It is the earliest major Supreme Court protection for teaching languages other than English in schools.",
+   "traps": [
+    {
+     "code": "LAW_FACT",
+     "note": "Keyes was a Denver school desegregation case. It did not address bans on language instruction."
+    },
+    null,
+    {
+     "code": "LAW_FACT",
+     "note": "Lau requires districts to help ELLs access instruction. It did not consider a ban on teaching other languages."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "Plyler protects undocumented children's access to public schooling. It does not concern which languages may be taught."
+    }
+   ],
+   "key": "Meyer v. Nebraska (1923) struck down a state ban on teaching foreign languages to young children."
+  },
+  {
+   "id": "6.1-14",
+   "skill": "6.1",
+   "type": "knowledge",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Between 1998 and 2002, voters approved three state ballot measures on the education of English learners: Proposition 227 (California, 1998), Proposition 203 (Arizona, 2000), and Question 2 (Massachusetts, 2002).",
+   "stem": "Which statement best describes these measures?",
+   "options": [
+    "They were federal court rulings that applied the Castañeda three-prong test to each state's ELL programs.",
+    "They required districts to open a bilingual program wherever 20 or more ELLs shared a home language and grade.",
+    "They restricted bilingual education in favor of English-only immersion; California repealed its measure in 2016.",
+    "They expanded dual language programs and created state seals of biliteracy for multilingual high school graduates."
+   ],
+   "answer": 2,
+   "why": "California's Proposition 227, Arizona's Proposition 203, and Massachusetts' Question 2 were English-only initiatives: they sharply restricted bilingual education and made English immersion the default for English learners. California voters repealed Proposition 227 with Proposition 58 in 2016. On the exam, these measures stand for the English-only movement, the opposite of New York's approach of offering bilingual programs and recognizing biliteracy.",
+   "traps": [
+    {
+     "code": "LAW_FACT",
+     "note": "These were voter-approved state ballot initiatives, not court decisions."
+    },
+    {
+     "code": "TERM",
+     "pair": "English-only initiatives ↔ NYS Part 154 bilingual trigger",
+     "note": "The 20-student bilingual program requirement is a New York State Part 154 rule. These measures moved in the opposite direction."
+    },
+    null,
+    {
+     "code": "LAW_FACT",
+     "note": "This reverses their effect. They restricted bilingual instruction; the growth of dual language programs and seals of biliteracy came from very different policies."
+    }
+   ],
+   "key": "CA Prop 227, AZ Prop 203, MA Question 2: English-only initiatives restricting bilingual education; CA's Prop 58 repealed 227 in 2016."
+  },
+  {
+   "id": "6.1-15",
+   "skill": "6.1",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A veteran New York City bilingual teacher tells new colleagues that the city's bilingual instruction for Spanish-speaking students traces back to a 1974 agreement that settled a lawsuit brought against the Board of Education by a Puerto Rican and Latino advocacy organization. Which is she describing?",
+   "options": [
+    "The Aspira Consent Decree",
+    "Lau v. Nichols",
+    "Serna v. Portales",
+    "Keyes v. School District No. 1"
+   ],
+   "answer": 0,
+   "why": "The Aspira Consent Decree (1974) settled a lawsuit brought by ASPIRA of New York against the New York City Board of Education and established bilingual instruction for Spanish-speaking students in NYC public schools. It is New York's own landmark, and it came the same year as Lau v. Nichols, which is why the two are easy to confuse.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "pair": "Aspira Consent Decree ↔ Lau v. Nichols",
+     "note": "Lau (also 1974) was a Supreme Court decision about Chinese-speaking students in San Francisco, not a settlement with New York City."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "Serna v. Portales (1974) also involved Spanish-speaking students and bilingual instruction, but it was a New Mexico case, not a New York City agreement."
+    },
+    {
+     "code": "LAW_FACT",
+     "note": "Keyes was a 1973 Denver school desegregation case."
+    }
+   ],
+   "key": "Aspira Consent Decree (1974): settled a NYC lawsuit and established bilingual instruction for Spanish-speaking students in NYC schools."
+  },
+  {
+   "id": "6.2-01",
+   "skill": "6.2",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 1,
+   "stem": "At a grade 8 team meeting, a social studies teacher says, “The ENL teacher takes care of the ELLs' language. My job is to cover the content.” Which principle of the NYS Blueprint for ELL/MLL Success does this statement most directly contradict?",
+   "options": [
+    "All teachers are teachers of ELLs and plan for their language development as well as their content learning.",
+    "District and school leaders are responsible for ensuring that the academic and linguistic needs of ELLs are addressed.",
+    "Schools leverage the expertise of ESOL and bilingual educators to support the learning of ELLs.",
+    "Schools engage ELLs in grade-level instruction that is academically rigorous and aligned with standards."
+   ],
+   "answer": 0,
+   "why": "The Blueprint's principle that every teacher is a teacher of ELLs means each teacher plans for both content and language. Language develops in social studies, science, and math as much as in ENL, because each discipline has its own vocabulary, text structures, and ways of explaining and arguing. A content teacher who hands all language work to the ENL teacher is rejecting that shared responsibility.",
+   "traps": [
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Leaders' responsibility is a genuine Blueprint principle, but the statement is about a classroom teacher's own role, not about school or district leadership."
+    },
+    {
+     "code": "LITERAL",
+     "note": "This latches onto the mention of the ENL teacher. Leveraging ESOL expertise means collaborating with ENL teachers, not handing them sole responsibility for ELLs' language."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Rigorous grade-level instruction is a Blueprint principle, but this teacher is committed to covering content. What she rejects is responsibility for language."
+    }
+   ],
+   "key": "Blueprint: every teacher is a teacher of ELLs and plans for both content and language, not just the ENL teacher."
+  },
+  {
+   "id": "6.2-02",
+   "skill": "6.2",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A new principal makes ELL progress a standing item at every cabinet meeting, adds ELL outcomes to the school's improvement goals, and reallocates the budget to hire an additional certified ESOL teacher. These actions most directly reflect which Blueprint principle?",
+   "options": [
+    "All teachers are teachers of ELLs and plan for both language and content.",
+    "Schools use diverse and valid assessment practices to inform instruction for ELLs.",
+    "School and district leaders are responsible for meeting ELLs' needs.",
+    "Schools create a welcoming and affirming environment for every student and family."
+   ],
+   "answer": 2,
+   "why": "The Blueprint holds school boards and district and school leaders responsible for ensuring that ELLs' academic, linguistic, social, and emotional needs are addressed. Putting ELL data on the leadership agenda, writing ELL outcomes into school goals, and funding ESOL staff are leadership actions that build accountability for ELLs into how the school is run.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "This principle concerns how each teacher plans instruction. The scenario describes administrative decisions about goals, agendas, and budget."
+    },
+    {
+     "code": "LITERAL",
+     "note": "Reviewing ELL progress data here is a leadership accountability practice, not a change in how ELLs are assessed."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "Blueprint ↔ CR-SE Framework",
+     "note": "“Welcoming and affirming environment” is one of the four CR-SE principles, and the principal's actions concern leadership accountability rather than school climate."
+    }
+   ],
+   "key": "Blueprint: leaders are responsible for ELLs' academic, linguistic, social, and emotional needs, through goals, data review, staffing, and budget."
+  },
+  {
+   "id": "6.2-03",
+   "skill": "6.2",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A school's CR-SE team makes several changes: front-office staff greet families in the school's most common home languages, hallway signs appear in those languages, teachers make a point of pronouncing every student's name correctly, and a hallway display features student-made family portraits. These changes most directly address which principle of the NYS Culturally Responsive-Sustaining Education Framework?",
+   "options": [
+    "Inclusive curriculum and assessment",
+    "Welcoming and affirming environment",
+    "High expectations and rigorous instruction",
+    "Ongoing professional learning"
+   ],
+   "answer": 1,
+   "why": "The CR-SE Framework (2019) has four principles: a welcoming and affirming environment; high expectations and rigorous instruction; inclusive curriculum and assessment; and ongoing professional learning. Multilingual greetings and signs, correctly pronounced names, and displays that reflect students' families tell students and families that they belong. That sense of belonging is the core of a welcoming and affirming environment.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "welcoming and affirming environment ↔ inclusive curriculum and assessment",
+     "note": "Inclusive curriculum and assessment concerns what is taught and how learning is measured. These changes are about the school's climate and physical space."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "High expectations are essential in CR-SE, but nothing in these changes involves instructional rigor."
+    },
+    {
+     "code": "LITERAL",
+     "note": "None of these changes is a professional learning activity for educators. They change how the school greets and represents students and families."
+    }
+   ],
+   "key": "CR-SE welcoming and affirming environment: names pronounced correctly, multilingual signs and greetings, spaces that reflect students' families."
+  },
+  {
+   "id": "6.2-04",
+   "skill": "6.2",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Grade 7 ELA unit revision notes\nOriginal unit: four novels, all by authors from one cultural background; the final assessment is a single timed essay.\nRevised unit: the text set adds works by Dominican, Bangladeshi, and Haitian American authors; students trace a common theme across these perspectives; for the final assessment, students choose an argumentative essay, a recorded podcast, or a multimedia presentation, all scored with the same standards-based rubric.",
+   "stem": "The revision most directly enacts which CR-SE principle?",
+   "options": [
+    "Welcoming and affirming environment",
+    "High expectations and rigorous instruction",
+    "Ongoing professional learning",
+    "Inclusive curriculum and assessment"
+   ],
+   "answer": 3,
+   "why": "Inclusive curriculum and assessment means students see themselves and multiple perspectives in what they study, and they have varied, valid ways to show what they have learned. The revised unit broadens whose voices are in the text set and offers several assessment formats held to the same standards-based rubric. Rigor is preserved, but what changed is the curriculum and the assessment.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "inclusive curriculum and assessment ↔ welcoming and affirming environment",
+     "note": "A welcoming environment concerns climate, relationships, and physical space. This revision changes the texts students read and how they are assessed."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Using the same rubric keeps expectations high, which is a strength, but the revision's main moves are diversifying the texts and the assessment options."
+    },
+    {
+     "code": "LITERAL",
+     "note": "The notes describe a unit plan for students, not a professional learning activity for teachers."
+    },
+    null
+   ],
+   "key": "CR-SE inclusive curriculum and assessment: diverse perspectives in texts plus multiple valid ways to show learning, held to the same standards."
+  },
+  {
+   "id": "6.2-05",
+   "skill": "6.2",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 9 teacher tells an instructional coach, “My newcomers from Afghanistan have been through so much. I don't want to stress them with grade-level texts this year, so I'm giving them picture books and coloring activities.” Which response from the coach best reflects the NYS CR-SE Framework?",
+   "options": [
+    "Agree, because Krashen's affective filter hypothesis means academic demands should wait until newcomers feel fully settled.",
+    "Agree, because a welcoming and affirming environment is the first CR-SE priority and must come before academic demands.",
+    "Affirm her care, then co-plan scaffolds, such as home-language texts and visuals, so the students can tackle grade-level work.",
+    "Suggest moving the students to a lower grade for the year, until their English is strong enough to handle the grade-level texts."
+   ],
+   "answer": 2,
+   "why": "The CR-SE Framework pairs care with high expectations and rigorous instruction: supporting students' well-being does not mean lowering the bar. The coach should honor the teacher's concern and then help her scaffold grade-level work with home-language resources, visuals, and structured support. Replacing grade-level work with coloring tells newcomers they are not seen as capable.",
+   "traps": [
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "A low affective filter comes from supportive, meaningful instruction, not from withholding academic content. Krashen's hypothesis does not call for postponing grade-level work."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "A welcoming environment is one CR-SE principle, but the framework treats it as working together with high expectations, not as a substitute for rigorous instruction."
+    },
+    null,
+    {
+     "code": "EXCLUSION",
+     "note": "Moving students down a grade removes them from age-appropriate, grade-level learning and treats limited English as a reason to exclude them."
+    }
+   ],
+   "key": "CR-SE pairs care with high expectations: scaffold grade-level work for newcomers instead of replacing it with easier tasks."
+  },
+  {
+   "id": "6.2-06",
+   "skill": "6.2",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "CTLE record: Ms. Okafor, certified ESOL teacher holding a professional certificate (current five-year registration period)\nActivity | Hours | Focus\nNYS TESOL conference sessions on academic language | 30 | Language acquisition and ELL needs\nDistrict training on a new math curriculum | 45 | General\nGraduate course: Assessing ELLs with disabilities | 45 | Language acquisition and ELL needs\nSchool safety and technology workshops | 55 | General\nTotal | 175 | —",
+   "stem": "Which conclusion about Ms. Okafor's CTLE record is accurate?",
+   "options": [
+    "She has met the requirement, because she completed all 175 hours within her five-year registration period.",
+    "She has not met it yet, because at least half of her hours (87.5) must address language acquisition and ELLs, and she has 75.",
+    "She has met the requirement, because well over 15 percent of her hours addressed language acquisition and the needs of her ELLs.",
+    "She has not met it, because every one of her 175 hours must address language acquisition and ELLs as an ESOL teacher."
+   ],
+   "answer": 1,
+   "why": "Teachers with professional certificates need 175 CTLE hours every five years. For certified ESOL and bilingual teachers, at least 50 percent (87.5 hours) must address language acquisition and the needs of ELLs; for other teachers the minimum is 15 percent. Ms. Okafor has 30 + 45 = 75 ELL-focused hours, so she is 12.5 hours short even though her total reaches 175.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "The 175-hour total is met, but the language-acquisition portion is not. Both conditions apply."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "15% (all teachers) ↔ 50% (ESOL/bilingual teachers)",
+     "note": "The 15 percent minimum applies to other teachers. As a certified ESOL teacher, Ms. Okafor needs at least 50 percent."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "The requirement for ESOL and bilingual teachers is at least 50 percent of their hours, not 100 percent."
+    }
+   ],
+   "key": "CTLE: 175 hours per 5 years; at least 50% on language acquisition and ELLs for ESOL/bilingual teachers, 15% for others."
+  },
+  {
+   "id": "6.2-07",
+   "skill": "6.2",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A fourth-grade general education teacher who holds a professional certificate asks the ENL teacher whether the state's ELL-related CTLE requirement applies to her. Which response is accurate?",
+   "options": [
+    "Yes. At least 15 percent of your 175 CTLE hours in each five-year period must address language acquisition and ELLs' needs.",
+    "No. The ELL-related requirement applies to certified ESOL and bilingual teachers, not to general education teachers.",
+    "Yes. At least 50 percent of your CTLE hours must address the needs of ELLs, which is the same minimum that applies to ESOL teachers.",
+    "It depends on your roster: it applies in any year when ELLs make up 20 percent or more of the students in your class."
+   ],
+   "answer": 0,
+   "why": "New York's CTLE rules require 175 hours every five years for professional certificate holders, and every teacher, not just ESOL specialists, must devote at least 15 percent of those hours to language acquisition and the needs of ELLs. Certified ESOL and bilingual teachers carry a higher minimum of 50 percent. The rule puts into practice the Blueprint idea that every teacher is a teacher of ELLs.",
+   "traps": [
+    null,
+    {
+     "code": "NYS_POLICY",
+     "note": "The 15 percent requirement covers all teachers. What applies specifically to ESOL and bilingual teachers is the higher 50 percent minimum."
+    },
+    {
+     "code": "TERM",
+     "pair": "15% (all teachers) ↔ 50% (ESOL/bilingual teachers)",
+     "note": "Fifty percent is the minimum for certified ESOL and bilingual teachers. General education teachers need at least 15 percent."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "No roster condition exists. The requirement follows the teacher's certificate, not the number of ELLs in a given class."
+    }
+   ],
+   "key": "All certified teachers: at least 15% of 175 CTLE hours on language acquisition and ELLs; ESOL and bilingual teachers: at least 50%."
+  },
+  {
+   "id": "6.2-08",
+   "skill": "6.2",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A high school junior who arrived from Ukraine three years ago reads and writes Ukrainian at an advanced level and scored Expanding on the most recent NYSESLAT. Her counselor says the NYS Seal of Biliteracy “is for English speakers who study a world language, not for ELLs.” Which response best reflects NYS policy and the asset-based thinking behind the Seal?",
+   "options": [
+    "The counselor is correct, because the Seal rewards world-language coursework, and ELLs already have the NYSESLAT to document progress.",
+    "She will become eligible after two years as a former ELL, the same period during which former ELLs keep their services.",
+    "She should set the Seal aside for now, because building advanced Ukrainian literacy could slow her progress in English.",
+    "The Seal recognizes graduates with high proficiency in English and another language, so she can work toward it in Ukrainian."
+   ],
+   "answer": 3,
+   "why": "The NYS Seal of Biliteracy, placed on a graduate's diploma and transcript, recognizes high school graduates who demonstrate a high level of proficiency in English and in one or more other languages. ELLs and heritage speakers are eligible and are often strong candidates: their home language can be the other language once they also meet the English criteria. The Seal expresses the view, shared by the Blueprint, that bilingualism and biliteracy are assets.",
+   "traps": [
+    {
+     "code": "NYS_POLICY",
+     "note": "The Seal is not limited to students who studied a world language as a course. It recognizes proficiency in English plus another language, which can be a home language."
+    },
+    {
+     "code": "TERM",
+     "pair": "Seal of Biliteracy ↔ former-ELL two-year services",
+     "note": "The two-year period is when former ELLs keep support and testing accommodations. It is not a waiting period for the Seal."
+    },
+    {
+     "code": "DEFICIT",
+     "note": "This treats the home language as competition for English. Strong home-language literacy supports English development, and the Seal is designed to honor it."
+    },
+    null
+   ],
+   "key": "The NYS Seal of Biliteracy recognizes graduates proficient in English plus another language; ELLs can earn it, including through their home language."
+  },
+  {
+   "id": "6.2-09",
+   "skill": "6.2",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 2,
+   "stimulus": "Intake record: grade 4 student, home language Wolof\nSchool day 1: Student enrolls; HLQ and individual interview completed with a qualified Wolof interpreter\nSchool day 4: NYSITELL administered\nSchool day 6: Student identified as an ELL (Entering level)\nSchool day 15: Notification of ELL status mailed to the family, written in English only",
+   "stem": "Which statement best describes the district's compliance with CR Part 154?",
+   "options": [
+    "It complied, because the student's ELL identification was completed within 10 school days of initial enrollment.",
+    "It did not comply: notice was due within 5 school days of identification and in the family's preferred language.",
+    "It did not comply, because the NYSITELL must be administered on the same school day that the student first enrolls.",
+    "It complied, because Part 154 gives schools up to 30 school days after identification to notify families of ELL status."
+   ],
+   "answer": 1,
+   "why": "Part 154 requires identification within 10 school days of enrollment, which this district met, and written notification of ELL status within 5 school days of the determination, in the parents' preferred language. The student was identified on school day 6, so notice was due by school day 11. It went out on day 15, and only in English. Meeting one timeline does not excuse missing another.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "The 10-school-day identification deadline was met, but the separate notification requirements were not."
+    },
+    null,
+    {
+     "code": "NYS_POLICY",
+     "note": "Part 154 does not require the NYSITELL on the first day. Identification, including the NYSITELL, must be finished within 10 school days of enrollment."
+    },
+    {
+     "code": "TERM",
+     "pair": "5-school-day parent notification ↔ 30-school-day SIFE determination",
+     "note": "Thirty school days is the window for determining SIFE status. Parent notification of ELL status is due within 5 school days of identification."
+    }
+   ],
+   "key": "Part 154: identify within 10 school days of enrollment; notify parents within 5 school days of the determination, in their preferred language."
+  },
+  {
+   "id": "6.2-10",
+   "skill": "6.2",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Grade | Home language | ELLs districtwide | Most in any one building\nK | Urdu | 9 | 6\n1 | Urdu | 8 | 5\n2 | Urdu | 7 | 7\n3 | Spanish | 22 | 9\n5 | Arabic | 16 | 16\n6 | Bengali | 19 | 11",
+   "stem": "Under the CR Part 154 bilingual program requirement, for which group must the district provide a bilingual education program (while parents keep the option of choosing ENL)?",
+   "options": [
+    "Urdu-speaking ELLs in kindergarten through grade 2, because together they number 24 students",
+    "Arabic-speaking ELLs in grade 5, because all 16 of them are enrolled in the same building",
+    "Spanish-speaking ELLs in grade 3, because 22 share that home language and grade districtwide",
+    "Bengali-speaking ELLs in grade 6, because the requirement is triggered at 15 students in a grade"
+   ],
+   "answer": 2,
+   "why": "Part 154 requires a district to provide a bilingual education program when there are 20 or more ELLs with the same home language in the same grade level districtwide. Grade 3 Spanish speakers number 22 across the district, so the threshold is met even though no single building has 20 of them. Parents still choose: they may opt for ENL instead.",
+   "traps": [
+    {
+     "code": "NYS_POLICY",
+     "note": "The count must be within a single grade level. Combining kindergarten, grade 1, and grade 2 does not meet the requirement."
+    },
+    {
+     "code": "LITERAL",
+     "note": "Concentration in one building is not the test. Sixteen students is below the threshold of 20 in a grade."
+    },
+    null,
+    {
+     "code": "NYS_POLICY",
+     "note": "The threshold is 20, not 15, so 19 Bengali-speaking sixth graders do not trigger the requirement."
+    }
+   ],
+   "key": "Part 154 bilingual trigger: 20 or more ELLs, same home language, same grade, districtwide; parents may still choose ENL."
+  },
+  {
+   "id": "6.2-11",
+   "skill": "6.2",
+   "type": "knowledge",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "An ELL coordinator is assembling a welcome packet for families of newly identified ELLs. She wants a NYSED document, provided in many languages, that tells families about their rights, such as receiving information in their preferred language, learning about all program options, and choosing a program for their child. Which document should she include?",
+   "options": [
+    "The Blueprint for ELL/MLL Success",
+    "The Culturally Responsive-Sustaining Education Framework",
+    "The NYS Seal of Biliteracy criteria",
+    "The Parents' Bill of Rights for New York State's ELLs"
+   ],
+   "answer": 3,
+   "why": "The Parents' Bill of Rights for New York State's English Language Learners summarizes, for families, the rights that Part 154 and civil-rights law give them. These include information in their preferred language, an orientation on program options (TBE, Dual Language, and ENL), and a voice in program placement. NYSED provides it in translation so families can read it in their home languages.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "Blueprint ↔ Parents' Bill of Rights",
+     "note": "The Blueprint sets out eight guiding principles for educators and leaders. It is not a statement of family rights."
+    },
+    {
+     "code": "TERM",
+     "pair": "CR-SE Framework ↔ Parents' Bill of Rights",
+     "note": "The CR-SE Framework guides culturally responsive practice for all students. It does not list ELL families' rights."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "The Seal of Biliteracy criteria describe how graduates earn biliteracy recognition, not families' rights at identification and placement."
+    },
+    null
+   ],
+   "key": "The Parents' Bill of Rights for NYS ELLs tells families, in their language, about their rights to information, program options, and program choice."
+  },
+  {
+   "id": "6.2-12",
+   "skill": "6.2",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A district plans one evening orientation, in English, for parents of newly identified ELLs. The flyer reads, “Families who do not speak English may bring a relative or older child to translate.” Which statement best identifies the problem with this plan under NYS and federal requirements?",
+   "options": [
+    "Parents must learn about TBE, Dual Language, and ENL in a language they understand, with interpretation the district provides.",
+    "The orientation should be held after the spring NYSESLAT, so that parents can review their child's scores before choosing a program.",
+    "The plan is acceptable, because families who need interpretation can arrange it themselves, as the flyer suggests.",
+    "No orientation is needed, because the district places ELLs in ENL and informs parents of the placement afterward."
+   ],
+   "answer": 0,
+   "why": "Part 154 requires an orientation that explains the program options (Transitional Bilingual Education, Dual Language, and ENL) so parents can make an informed choice, and parents are entitled to that information in a language they understand. Federal civil-rights guidance also directs schools to provide qualified interpreters rather than relying on children or untrained relatives. Pushing interpretation onto families defeats the purpose of the orientation.",
+   "traps": [
+    null,
+    {
+     "code": "NYS_POLICY",
+     "note": "Orientation happens at identification, before placement, so parents can choose a program. Waiting until spring would leave the child without an informed placement for most of the year."
+    },
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "Language access is the district's responsibility. Asking families to bring relatives or children shifts that duty onto them and risks inaccurate, incomplete interpretation."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "Part 154 requires an orientation on all program options and gives parents a choice. Placing students first and informing parents afterward takes that choice away."
+    }
+   ],
+   "key": "ELL parent orientations must explain TBE, Dual Language, and ENL in a language parents understand, with district-provided interpretation."
+  },
+  {
+   "id": "6.2-13",
+   "skill": "6.2",
+   "type": "application",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A seventh grader scored Commanding on the spring NYSESLAT and exited ELL status. In September, his new team assumes he no longer needs any language support. Which statement reflects CR Part 154?",
+   "options": [
+    "He keeps testing accommodations for two years after exiting, but Part 154 requires no further instructional support.",
+    "As a former ELL, he receives continued support (90 minutes a week in grades K–8) and testing accommodations for two years.",
+    "He continues to receive 180 minutes a week of Integrated ENL until he scores Level 3 or higher on the grade 8 ELA test.",
+    "He can remain in the ELL subgroup for up to four years after exiting, so he keeps receiving full ENL services throughout that period."
+   ],
+   "answer": 1,
+   "why": "Under Part 154, students who exit ELL status become former ELLs and receive two years of continued support (90 minutes per week in grades K–8, through Integrated ENL or other approved former-ELL services) plus testing accommodations. Exiting is a milestone, not the end of the school's responsibility. The four-year figure is a separate ESSA accountability rule about reporting, not a service entitlement.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "Testing accommodations do continue for two years, but Part 154 also requires continued instructional support for former ELLs."
+    },
+    null,
+    {
+     "code": "NYS_POLICY",
+     "note": "180 minutes a week is the requirement for Transitioning and Expanding students. Former ELLs receive 90 minutes, and those services end after two years."
+    },
+    {
+     "code": "TERM",
+     "pair": "ESSA four-year accountability subgroup ↔ Part 154 two-year former-ELL services",
+     "note": "ESSA lets states count former ELs in the EL subgroup for up to four years for accountability. That is a reporting rule, not a guarantee of services."
+    }
+   ],
+   "key": "Former ELLs get two years of continued support (90 minutes a week in K–8) and testing accommodations under Part 154."
+  },
+  {
+   "id": "6.2-14",
+   "skill": "6.2",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Draft intake procedures\nStep 1: At registration, families complete the Home Language Questionnaire, followed by an individual interview in English and the home language conducted by qualified personnel.\nStep 2: If the HLQ and interview indicate a language other than English, the student takes the NYSITELL.\nStep 3: ELL identification is completed within 30 school days of initial enrollment.\nStep 4: For a student with an IEP, the Language Proficiency Team determines whether the student takes the NYSITELL, and its recommendation goes to the superintendent.",
+   "stem": "Which step must be revised to comply with CR Part 154?",
+   "options": [
+    "Step 1, because the interview should be conducted in English so all students are evaluated in the same language",
+    "Step 2, because the NYSITELL is given after a student has completed a full semester of school in the United States",
+    "Step 3, because ELL identification must be completed within 10 school days of initial enrollment",
+    "Step 4, because students with IEPs are excluded from the ELL identification process altogether"
+   ],
+   "answer": 2,
+   "why": "Part 154 requires that ELL identification, including the HLQ, the individual interview in English and the home language, and the NYSITELL when indicated, be completed within 10 school days of initial enrollment. Thirty school days is the window for determining SIFE status, a common mix-up. Steps 1, 2, and 4 describe the regulation correctly, including the Language Proficiency Team's role for students with IEPs.",
+   "traps": [
+    {
+     "code": "DEFICIT",
+     "note": "Part 154 requires the interview in English and the home language. An English-only interview would shut out what the family can share in its own language."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "The NYSITELL is part of initial identification, which must be finished within 10 school days of enrollment, not after a semester."
+    },
+    null,
+    {
+     "code": "NYS_POLICY",
+     "note": "Students with IEPs are not excluded. The Language Proficiency Team decides whether such a student takes the NYSITELL."
+    }
+   ],
+   "key": "Part 154: complete ELL identification (HLQ, bilingual interview, NYSITELL) within 10 school days; the 30-day window is for SIFE determination."
+  },
+  {
+   "id": "6.2-15",
+   "skill": "6.2",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "Three weeks after enrolling her son in grade 3, a parent tells the ENL teacher he was identified as an ELL by mistake. She marked Spanish on the Home Language Questionnaire because his grandparents speak it, but he has been raised speaking English. What should the teacher tell her?",
+   "options": [
+    "The identification is final; he can leave ELL status by meeting the NYSESLAT exit criteria in the spring.",
+    "She can sign a waiver at any time that removes his ELL status and excuses him from annual NYSESLAT testing.",
+    "She should ask the classroom teacher to refer the case to the Language Proficiency Team, which reviews disputes.",
+    "She may request a re-identification review, which can be initiated within 45 school days of enrollment."
+   ],
+   "answer": 3,
+   "why": "Part 154 includes a re-identification process: within 45 school days of enrollment, a parent or guardian, a teacher (with the parent's consent), or the student may ask for a review of ELL status. Three weeks is well inside that window, so the teacher should explain the process and help the parent start it. Families have a real voice in identification decisions.",
+   "traps": [
+    {
+     "code": "NYS_POLICY",
+     "note": "Identification is not final yet. A re-identification review is available within 45 school days of enrollment, so she need not wait for the NYSESLAT."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "A parent cannot waive ELL status or the annual NYSESLAT. Questioning the identification goes through the re-identification review."
+    },
+    {
+     "code": "TERM",
+     "pair": "re-identification review ↔ Language Proficiency Team",
+     "note": "The LPT decides whether a student with an IEP takes the NYSITELL. It is not the process for a parent who believes her child was misidentified."
+    },
+    null
+   ],
+   "key": "Part 154 re-identification: a parent, a teacher (with consent), or the student can request a review of ELL status within 45 school days of enrollment."
+  },
+  {
+   "id": "6.3-01",
+   "skill": "6.3",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 1,
+   "stem": "An ENL teacher has a conference scheduled with the Haitian Creole-speaking father of a fourth grader who is struggling in reading. When the father arrives, the student's 11-year-old sister offers to interpret, explaining that she does it for the family all the time. What is the teacher's best course of action?",
+   "options": [
+    "Accept the sister's offer, since the family trusts her and she already knows her brother's situation well.",
+    "Hold the conference in English, speaking slowly and simply, and send a written summary home afterward.",
+    "Thank the sister, then use a qualified Haitian Creole interpreter, by phone now or at a rescheduled time.",
+    "Ask the school's bilingual secretary to step away from the front desk and interpret between phone calls."
+   ],
+   "answer": 2,
+   "why": "Families have the right to communicate with the school through qualified interpreters, and federal civil-rights guidance warns schools not to rely on children, siblings, friends, or untrained staff. A child interpreter is put in an adult role, may not know academic terms, may soften hard news about her own brother, and shifts the family's dynamics. A phone interpretation line or a rescheduled conference with a trained interpreter lets the father take part fully and confidentially.",
+   "traps": [
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "Using a child, even a capable one, puts her in an adult role and risks inaccurate or filtered information about her own brother. The school must provide a qualified interpreter."
+    },
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "Speaking slowly in English does not give the father meaningful access, and an English summary repeats the same barrier."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "An adult bilingual staff member is better than a child, but an untrained interpreter who is also covering the front desk cannot ensure accuracy or confidentiality."
+    }
+   ],
+   "key": "Use qualified interpreters for family conferences, never children; reschedule or use phone interpretation when no interpreter is present."
+  },
+  {
+   "id": "6.3-02",
+   "skill": "6.3",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stimulus": "Teacher's note after Literacy Night (held at 6:00 p.m., at school, in English):\n“Only 6 of our 48 ELL families came. I guess these parents just aren't that invested in their kids' education.”",
+   "stem": "Which next step would most effectively increase family engagement?",
+   "options": [
+    "Survey families in their home languages about times, places, and topics, then plan events with interpreters, childcare, and their input.",
+    "Send a firmly worded English reminder before the next event explaining that attendance shows support for children's learning.",
+    "Accept that cultural norms in many immigrant families discourage school involvement, and shift attention to the students instead.",
+    "Offer a workshop that teaches parents how American schools expect families to help, since many lack the skills to support their children's learning."
+   ],
+   "answer": 0,
+   "why": "Low turnout usually signals barriers, not a lack of caring: work schedules, transportation, childcare, an event held only in English, or unfamiliarity with U.S. school customs. Asking families in their own languages what would work, and then building in interpreters, childcare, flexible times, and family-chosen topics, treats families as partners. Attendance at one English-only evening event is not a measure of how much families value education.",
+   "traps": [
+    null,
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "An English-only reminder repeats the original barrier, and its tone implies that families who did not attend do not care."
+    },
+    {
+     "code": "STEREOTYPE",
+     "note": "This overgeneralizes about “immigrant families” and uses culture as an excuse for not removing real barriers."
+    },
+    {
+     "code": "DEFICIT",
+     "note": "This assumes families lack skills instead of recognizing what they know and do. A workshop planned without family input rarely builds partnership."
+    }
+   ],
+   "key": "Low turnout signals barriers, not disinterest: ask families in their languages, then adjust times, places, interpreters, childcare, and topics."
+  },
+  {
+   "id": "6.3-03",
+   "skill": "6.3",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "At a conference with an interpreter, the parents of a sixth grader who recently arrived from South Korea listen politely and nod. When asked for their thoughts, they say, “You are the teacher. Whatever you decide is best.” They raise no questions or concerns. Which response by the teacher is most appropriate?",
+   "options": [
+    "Conclude that the parents are satisfied with their child's progress and have no concerns, and continue making instructional decisions on her own.",
+    "Plan for daily homework and strict classroom discipline, since Korean families generally expect a traditional approach.",
+    "Explain that this kind of deference is not appropriate in U.S. schools and that the parents need to take a more active role.",
+    "Recognize that the reply may show respect for teachers, and ask specific questions about the child's strengths, interests, and home life."
+   ],
+   "answer": 3,
+   "why": "In many educational cultures, teachers are regarded as experts and questioning them can feel disrespectful, so deference may signal respect rather than agreement or disinterest. The teacher should not assume either way. She can explain that the school values family input and draw it out with concrete, open questions about the child at home, which builds a two-way partnership without stereotyping the family or judging its norms.",
+   "traps": [
+    {
+     "code": "LITERAL",
+     "note": "This takes polite agreement at face value. Deference may reflect respect for teachers, not an absence of concerns or ideas."
+    },
+    {
+     "code": "STEREOTYPE",
+     "note": "This assumes what “Korean families” want instead of asking these parents. Families within any culture vary widely."
+    },
+    {
+     "code": "DEFICIT",
+     "note": "This treats the family's norm as a problem to correct. The school's job is to invite partnership in ways the family is comfortable with, not to demand a different style."
+    },
+    null
+   ],
+   "key": "Parents' deference may signal respect for teachers; invite their input with specific questions rather than assuming agreement or disinterest."
+  },
+  {
+   "id": "6.3-04",
+   "skill": "6.3",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "The Bengali-speaking mother of a kindergartner asks the ENL teacher whether the family should stop speaking Bengali at home so that her daughter will learn English faster. Which response is best?",
+   "options": [
+    "Yes. Using English at home, even if it is limited, will give her more practice and speed up her English learning.",
+    "Keep using Bengali richly at home, through talk, books, and stories, because what she learns in Bengali transfers to English.",
+    "Use English for homework and Bengali for everyday conversation, so that the school language and home language stay separate.",
+    "It makes no real difference which language you use at home, since she will learn English at school either way."
+   ],
+   "answer": 1,
+   "why": "Cummins' Common Underlying Proficiency and interdependence hypothesis hold that concepts, background knowledge, and literacy skills developed in one language support development in another. Rich conversation, storytelling, and reading in Bengali build the foundation her English will draw on. Switching to limited English at home lowers the quality of language input and can weaken family communication and identity.",
+   "traps": [
+    {
+     "code": "DEFICIT",
+     "note": "This treats Bengali as an obstacle. Limited English at home offers less rich input than fluent Bengali, and losing the home language carries academic and family costs."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "It keeps Bengali at home, but walling Bengali off from schoolwork misses a key benefit: talking through school concepts in Bengali deepens understanding that transfers to English."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "This misreads the research. Home-language development actively supports English learning, so the language used at home does matter."
+    }
+   ],
+   "key": "Encourage families to keep using the home language richly; concepts and literacy transfer to English (Cummins' Common Underlying Proficiency)."
+  },
+  {
+   "id": "6.3-05",
+   "skill": "6.3",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 2,
+   "stimulus": "Excerpt from a parent orientation for a newly identified ELL, conducted with an interpreter:\nCoordinator: “We have three programs: Transitional Bilingual Education, Dual Language, and ENL. Honestly, most families pick ENL, because the faster your child is in English, the better. Bilingual classes tend to hold kids back. So I'd recommend you sign here for ENL.”",
+   "stem": "Which aspect of this orientation is most problematic?",
+   "options": [
+    "The coordinator steers the family toward ENL with misleading claims instead of presenting every option fairly for an informed choice.",
+    "The coordinator should not have mentioned Dual Language, since those programs are designed mainly for English speakers learning a new language.",
+    "The orientation should have been conducted in English, so that the parents could begin hearing the language their child will be learning.",
+    "The coordinator should have waited until the student's spring NYSESLAT scores were available before discussing the program options."
+   ],
+   "answer": 0,
+   "why": "Part 154 gives parents of ELLs the right to an orientation on all program options (TBE, Dual Language, and ENL) and the right to choose among them. Because the purpose is an informed choice, each option must be presented accurately and without pressure. The claim that bilingual classes “hold kids back” also contradicts long-term research, such as Thomas and Collier's, showing strong outcomes for well-implemented bilingual and dual language programs.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "pair": "one-way ↔ two-way Dual Language",
+     "note": "Dual Language programs serve ELLs. Two-way programs combine ELLs with English-proficient students, and one-way programs serve mainly ELLs; either way, ELLs are central."
+    },
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "Parents need the information in a language they understand to make an informed choice. An English-only orientation would deny them that."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "Orientation takes place at identification, before placement, so the child can begin services in the program the family chooses."
+    }
+   ],
+   "key": "Orientations must present TBE, Dual Language, and ENL accurately and neutrally so parents can make an informed program choice."
+  },
+  {
+   "id": "6.3-06",
+   "skill": "6.3",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "An elementary school enrolls several families who speak K'iche' and Mixteco. Intake interviews show that some parents had limited access to formal schooling and prefer spoken communication. Notices translated into Spanish have gone unanswered. Which approach would most improve communication with these families?",
+   "options": [
+    "Keep sending the Spanish translations, since Spanish is widely spoken in the families' home countries and is the most practical choice.",
+    "Send notices home in English with the students, who can explain the important points to their parents in their home language.",
+    "Use phone calls, recorded voice messages, and in-person meetings with qualified interpreters in the families' languages, plus visuals.",
+    "Rewrite the notices as short, simple English sentences with clip art so that families with limited literacy can still follow them."
+   ],
+   "answer": 2,
+   "why": "Effective communication matches each family's preferred language and preferred mode. Speakers of Indigenous languages such as K'iche' and Mixteco may have limited Spanish, and these families have said they prefer spoken communication, so written Spanish misses them twice. Oral communication through qualified interpreters in K'iche' and Mixteco, supported by visuals, gives them real access.",
+   "traps": [
+    {
+     "code": "STEREOTYPE",
+     "note": "This assumes that everyone from Guatemala or Mexico is Spanish-dominant. Many Indigenous-language speakers are not, and these families have already shown that written Spanish is not reaching them."
+    },
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "Relying on children to relay school information turns them into interpreters and leaves families with incomplete or inaccurate messages."
+    },
+    null,
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "Simplified English is still English, and it is still written. It ignores both the families' languages and their stated preference for spoken communication."
+    }
+   ],
+   "key": "Match each family's language and preferred mode; for Indigenous-language, oral-preference families, use interpreters in their own language and spoken channels."
+  },
+  {
+   "id": "6.3-07",
+   "skill": "6.3",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Ms. Rivera's plan for a conference with an Urdu-speaking mother, using a district interpreter:\nStep 1: Meet with the interpreter for a few minutes beforehand to preview the meeting's purpose and terms such as “NYSESLAT” and “Integrated ENL.”\nStep 2: Seat the interpreter beside the mother, and look at the interpreter while speaking so the interpreter can follow easily.\nStep 3: Speak in short segments, pausing so each part can be interpreted completely.\nStep 4: Bring samples of the student's work to show his progress concretely.",
+   "stem": "Which step of Ms. Rivera's plan should be revised?",
+   "options": [
+    "Step 1, because briefing the interpreter in advance undermines the interpreter's neutrality during the meeting",
+    "Step 2, because the teacher should look at and speak directly to the mother, not to the interpreter",
+    "Step 3, because frequent pauses slow the meeting down; the interpreter should summarize at the end instead",
+    "Step 4, because work samples may embarrass a parent who does not read English"
+   ],
+   "answer": 1,
+   "why": "With an interpreter, best practice is to address the parent directly: look at her, speak in the first person (“How does Imran do with homework?”), and let the interpreter render the words. Talking to the interpreter sidelines the parent and makes the conversation about her rather than with her. The other steps (a pre-briefing on terms, short segments, and concrete work samples) are all recommended practices.",
+   "traps": [
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "A brief pre-meeting is recommended because it lets the interpreter prepare accurate renderings of technical terms. Neutrality concerns what the interpreter does during the meeting, not preparation."
+    },
+    null,
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "Summaries lose detail and nuance. Interpreting short segments completely gives the parent full access to everything that is said."
+    },
+    {
+     "code": "DEFICIT",
+     "note": "This assumes the parent cannot engage with her child's work. Work samples make progress concrete, and the interpreter can explain them."
+    }
+   ],
+   "key": "With an interpreter, look at and speak directly to the parent in the first person; pre-brief the interpreter and pause often."
+  },
+  {
+   "id": "6.3-08",
+   "skill": "6.3",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "Through conversations with families, a grade 5 ENL teacher learns that one student's family runs a bakery, another student's parents farmed in Nepal before arriving, and a third student's grandmother is a skilled seamstress. How can the teacher best use this information?",
+   "options": [
+    "Note the information in student files, since it helps explain why some families may have little time to help with homework.",
+    "Hold a yearly multicultural fair where families share traditional foods and clothing from their home countries.",
+    "Keep family occupations out of lessons, since students' home lives are private and separate from academic content.",
+    "Invite family members to share their expertise in a measurement unit, and build lessons on recipes, planting, and sewing."
+   ],
+   "answer": 3,
+   "why": "Moll and colleagues' funds of knowledge research shows that households hold rich, practical knowledge, here baking, farming, and sewing, that teachers can bring into the curriculum. Connecting a measurement unit to recipes, crop spacing, and pattern-making makes grade-level math meaningful, positions families as experts, and builds partnership. This is asset-based engagement rather than a one-time cultural display.",
+   "traps": [
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "This turns family strengths into an assumption that families are unavailable, missing the chance to partner with them."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "A cultural fair can build community, but a once-a-year “food and festivals” event does not bring families' knowledge into the curriculum."
+    },
+    {
+     "code": "DEFICIT",
+     "note": "This treats home knowledge as irrelevant to school. Asset-based teaching deliberately connects academic content to students' lives."
+    },
+    null
+   ],
+   "key": "Funds of knowledge (Moll): bring families' practical expertise into grade-level curriculum and invite family members in as experts."
+  },
+  {
+   "id": "6.3-09",
+   "skill": "6.3",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Note from Mr. Diallo, father of a third grader, written in French and translated by the district:\n“Every morning at breakfast I ask my daughter to tell me in Fulani what she learned at school, and her grandmother tells her stories from our village. I work evenings, so I cannot come to school meetings. Please tell me how I can help her more.”",
+   "stem": "Which response by the teacher best builds a partnership with this family?",
+   "options": [
+    "Explain that coming to school meetings is the most important way to show support, and encourage him to adjust his work schedule.",
+    "Affirm that the Fulani talk and storytelling build her language and learning, suggest ways to extend them, and offer phone meetings.",
+    "Suggest that the family speak English at breakfast instead, so that his daughter can practice the language she is learning at school.",
+    "Thank him and suggest the after-school homework club for his daughter, since the school can take care of her academic support."
+   ],
+   "answer": 1,
+   "why": "Family involvement includes far more than attending school events. Mr. Diallo's daily conversations about school and the grandmother's storytelling are powerful home-based involvement that builds oral language, narrative skill, and content knowledge that transfer to English. The teacher should name and affirm these practices, suggest ways to extend them (for example, asking his daughter to retell a story or explain a math strategy in Fulani), and offer phone or flexible-time meetings that fit his schedule.",
+   "traps": [
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "This defines involvement narrowly as attending events and asks the father to bear the cost. Offering flexible meeting options is the school's responsibility."
+    },
+    null,
+    {
+     "code": "DEFICIT",
+     "note": "Replacing rich Fulani conversation with limited English weakens both home-language development and the family connection that supports learning."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "A homework club may help, but this response ignores what the father is already doing and his request to be involved."
+    }
+   ],
+   "key": "Home-based involvement, such as talking about school and storytelling in the home language, is real engagement; affirm it and offer flexible ways to meet."
+  },
+  {
+   "id": "6.3-10",
+   "skill": "6.3",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "The parents of a first-grade ELL in a two-way Spanish–English Dual Language program worry that he is “falling behind,” because his English reading scores are lower than those of a cousin in an ENL program at another school. Which response is best supported by program-effectiveness research?",
+   "options": [
+    "Share his progress in both languages and explain that long-term studies (Thomas and Collier) show dual language students often catch up and excel later.",
+    "Agree that the concern is valid and recommend switching him to ENL, since learning to read in Spanish first is slowing down his English reading development.",
+    "Reassure them that dual language students usually reach full academic parity in English within one year, so he should catch up by second grade.",
+    "Tell them that first-grade reading scores are not meaningful at this stage, so there is no need to look at his progress until the later grades."
+   ],
+   "answer": 0,
+   "why": "Thomas and Collier's long-term research found that students in well-implemented dual language programs may score lower in English in the early grades but often reach grade-level parity, and frequently outperform peers in English-only programs, by the upper grades. A strong response explains this and shares honest data on the child's progress in both languages, which respects the parents' concern and supports their informed choice.",
+   "traps": [
+    null,
+    {
+     "code": "DEFICIT",
+     "note": "This treats Spanish literacy as a threat to English. Literacy skills transfer across languages, and early English scores in a dual language program do not predict long-term results."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "This misstates the research. Reaching academic parity takes years (Cummins estimates about 5–7 for academic language), not one year."
+    },
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "Dismissing the parents' concern and withholding progress information undermines partnership. Families deserve clear, honest data."
+    }
+   ],
+   "key": "Early English scores in dual language programs can lag; long-term research (Thomas & Collier) shows strong outcomes by the upper grades."
+  },
+  {
+   "id": "6.3-11",
+   "skill": "6.3",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A school is scheduling an initial IEP meeting for a second-grade ELL whose parents speak Pashto. The special education coordinator plans to send the procedural safeguards notice in English and hold the meeting in English, saying the student's 15-year-old cousin can explain everything to the parents afterward. What should the ENL teacher advocate for?",
+   "options": [
+    "Postponing the IEP meeting until the student reaches the Transitioning level, so that language no longer clouds the decision",
+    "Having the cousin attend the meeting and interpret, since he is a family member whom the parents already trust",
+    "A qualified Pashto interpreter at the meeting, and notices in a language the parents understand",
+    "Sending the parents a Pashto summary of the decisions after the meeting, in place of having an interpreter during it"
+   ],
+   "answer": 2,
+   "why": "Under IDEA, parents are full members of the IEP team. The school must take steps to ensure they understand the proceedings, including arranging an interpreter for parents whose native language is not English, and must provide notices in their native language. A qualified Pashto interpreter during the meeting is what makes informed consent and real participation possible; a teenager relaying information afterward is neither accurate nor appropriate.",
+   "traps": [
+    {
+     "code": "MISREFERRAL",
+     "note": "Delaying a warranted special-education process until the student is more proficient can deny needed services. The solution is language access for the family, not postponement."
+    },
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "A teenage relative is not a trained interpreter, and IEP discussions involve technical, sensitive information that the parents must hear accurately and directly."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Translated written information helps, but parents must be able to take part in the discussion and decisions as they happen, not just learn the outcome afterward."
+    }
+   ],
+   "key": "IEP meetings require a qualified interpreter and notices in the parents' language so they can participate as full team members (IDEA)."
+  },
+  {
+   "id": "6.3-12",
+   "skill": "6.3",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stimulus": "Note from the mother of a fourth grader, translated from Arabic:\n“My daughter cries over her homework because it is all in English. I do not read English, so I feel I cannot help her. What should I do?”",
+   "stem": "Which response from the teacher is most appropriate?",
+   "options": [
+    "Recommend that she enroll in an adult English class so that she will be able to help with her daughter's homework in the future.",
+    "Tell her not to worry about homework, since homework is not very important for ELLs at this early stage.",
+    "Suggest that an older sibling sit with the daughter each night and complete the homework together with her.",
+    "Say she can help by discussing the topics in Arabic and asking her daughter to explain her work; also scaffold the homework."
+   ],
+   "answer": 3,
+   "why": "Parents do not need English to support learning. Discussing ideas in Arabic, asking the child to explain what she is doing, and keeping a calm homework routine all build understanding that transfers to English. The teacher also owns part of the problem: homework that brings a student to tears needs scaffolds (bilingual glossaries, models, or home-language options) so she can do it with reasonable independence.",
+   "traps": [
+    {
+     "code": "DEFICIT",
+     "note": "This frames the mother's lack of English as the obstacle and postpones her involvement, overlooking the support she can give right now in Arabic."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "This dismisses homework for ELLs instead of making it accessible, which lowers expectations for the student."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "A sibling's help can be useful, but this sidesteps the mother's role and leaves an inaccessible assignment unchanged."
+    },
+    null
+   ],
+   "key": "Parents can support learning in the home language; affirm that, and make homework accessible to ELLs instead of excusing them from it."
+  },
+  {
+   "id": "6.3-13",
+   "skill": "6.3",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "After local news reports about immigration enforcement, a Q'anjob'al-speaking family stops attending school events and returning forms. The mother tells the family liaison she fears the school will share information about the family's immigration status. What is the most appropriate response?",
+   "options": [
+    "Through the liaison and a qualified interpreter, explain that attendance does not depend on immigration status, and offer safe ways to meet.",
+    "Ask the family to bring their immigration documents to the main office so that the school can confirm that the whole family is fully protected.",
+    "Respect the family's privacy by pausing all outreach until the mother feels ready to contact the school again on her own.",
+    "Send home a detailed letter in English explaining the district's privacy policies and the federal laws that protect student records."
+   ],
+   "answer": 0,
+   "why": "Under Plyler v. Doe (1982), a child's right to a free public K–12 education does not depend on immigration status. Families who fear enforcement need personal, trusted outreach in their own language, here Q'anjob'al, that addresses the fear directly and offers safe, flexible ways to stay connected, such as phone calls or meetings at a community location. Building trust protects both the child's education and the family partnership.",
+   "traps": [
+    null,
+    {
+     "code": "LAW_FACT",
+     "note": "Schools do not need families' immigration documents for a child to attend. Requesting them would deepen the family's fear and could discourage attendance."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Respecting the family's comfort matters, but withdrawing contact leaves them isolated with their fear. Gentle, trusted outreach is still needed."
+    },
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "An English letter does not reach a Q'anjob'al-speaking family, and a written policy document will not ease fear the way personal contact through a trusted interpreter can."
+    }
+   ],
+   "key": "When families fear immigration enforcement, reassure them through trusted interpreters that school access does not depend on status, and offer safe ways to connect."
+  },
+  {
+   "id": "6.3-14",
+   "skill": "6.3",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "At the start of the year, an ENL teacher wants to set up communication that works for all 22 of her students' families, who speak eight different languages. Which first step is most effective?",
+   "options": [
+    "Write one English newsletter each month and run it through a free online translation tool for each of the eight languages.",
+    "Group the families by country of origin and use the communication style that is typical of each culture.",
+    "Ask each family, through interpreters or translated forms, about their preferred language, contact method, and best times.",
+    "Use the school's messaging app for every family, since a single standard channel keeps all communication clear and consistent."
+   ],
+   "answer": 2,
+   "why": "Effective family communication starts by asking each family how they want to communicate: preferred language (spoken and written), preferred mode (phone, text, app, paper, or in person), and convenient times. Families who share a language or a country still differ in literacy, technology access, and work schedules, so asking about individual preferences beats both assumptions and one-size-fits-all channels.",
+   "traps": [
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "Machine translation can be inaccurate, and it assumes every family reads that language and wants written communication."
+    },
+    {
+     "code": "STEREOTYPE",
+     "note": "Country of origin does not predict an individual family's language, literacy, or communication preferences."
+    },
+    null,
+    {
+     "code": "ONE_SIZE",
+     "note": "A single channel ignores differences in technology access, literacy, and language. Consistency is not the same as access."
+    }
+   ],
+   "key": "Begin family communication by asking each family about its preferred language, mode, and times instead of assuming."
+  },
+  {
+   "id": "6.3-15",
+   "skill": "6.3",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Grade 6 student, home language Uzbek\nNYSESLAT overall level: Emerging (spring 2025) → Transitioning (spring 2026)\nClassroom notes: participates actively in small-group discussions; reads grade-level texts with a glossary and a graphic organizer; written responses are brief and use few transition words.",
+   "stem": "The ENL teacher will share these results with the student's parents at a conference with an Uzbek interpreter. Which approach is most appropriate?",
+   "options": [
+    "Hand the parents the official score report and explain that their son is still not proficient in English and must continue ENL.",
+    "Explain the levels in everyday terms, celebrate his growth, show work samples, name a writing goal, and suggest ways to help in Uzbek.",
+    "Focus the conference on his writing weaknesses, since writing is the area that is most likely to keep him from exiting ELL status soon.",
+    "Show where his scores rank compared with the other ELLs in the class so the parents can judge how he is doing."
+   ],
+   "answer": 1,
+   "why": "Sharing assessment results with families should be clear, asset-based, and actionable. Parents need the levels explained in plain language, recognition of real growth (Emerging to Transitioning in one year), concrete evidence from work samples, one or two specific next goals such as writing with transitions, and ways they can help in the home language. That approach is honest about needs without framing the child as a deficit.",
+   "traps": [
+    {
+     "code": "DEFICIT",
+     "note": "Opening with “not proficient” frames a year of real growth as failure, and handing over a technical report does not help the parents understand it."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Writing is the right next goal, but a conference only about weaknesses ignores his growth and strengths and leaves the family discouraged rather than equipped."
+    },
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "Ranking a child against classmates shares other students' information and does not tell the parents what their son can do or how to help."
+    }
+   ],
+   "key": "Share NYSESLAT results in plain language: celebrate growth, show evidence, set a clear next goal, and suggest home-language support."
+  }
+ ],
+ "lessons": []
+}

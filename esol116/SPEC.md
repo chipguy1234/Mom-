@@ -84,7 +84,6 @@ Use these terms throughout:
   - **Bilingual glossaries** (word-to-word, no definitions) on content tests.
   - Translated editions of math, science, and social studies tests, or oral translation for lower-incidence languages.
   - Writing responses to content-test items in the home language.
-  - A **third reading of the listening passage** on ELA tests.
   - **None of the translation or glossary supports apply to ELA tests.**
 - **First-year exemption:** ELLs in their first year in U.S. schools may be exempted once from the Grades 3–8 ELA test (they take the NYSESLAT instead).
 - **Professional development (CTLE):** teachers need 175 hours every 5 years.

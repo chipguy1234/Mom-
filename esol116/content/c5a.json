@@ -84,7 +84,7 @@
     "compensation strategies, because the student is making up for gaps in her English vocabulary knowledge"
    ],
    "answer": 0,
-   "why": "CALLA (Chamot & O'Malley) groups learning strategies into three types. Metacognitive strategies are planning, selective attention, monitoring, and self-evaluation. Cognitive strategies work directly with the material: note-taking, summarizing, grouping, inferencing, using resources. Social/affective strategies are asking for clarification, cooperating, and self-talk. Previewing headings to plan, and deciding in advance what to focus on, are planning and selective attention. The student is managing her own learning, so these are metacognitive strategies.",
+   "why": "CALLA (Chamot & O'Malley) sorts learning strategies into three types: metacognitive (planning, selective attention, monitoring, self-evaluation), cognitive (working directly with the material: note-taking, summarizing, grouping, inferencing, using resources), and social/affective (asking for clarification, cooperating, self-talk). Previewing headings to plan, and deciding in advance what to focus on, are planning and selective attention. The student is managing her own learning, so these are metacognitive strategies.",
    "traps": [
     null,
     {
@@ -189,7 +189,7 @@
     "Expansion"
    ],
    "answer": 2,
-   "why": "CALLA's instructional sequence has five phases. Preparation finds out what students know and which strategies they already use. Presentation models and names the strategy. Practice applies it. Self-evaluation (sometimes listed simply as Evaluation) has students judge their own learning and how useful the strategy was. Expansion transfers the strategy to new contexts. Asking 'How well did underlining work for me?' is self-evaluation, which builds metacognitive awareness.",
+   "why": "CALLA's five-phase sequence is Preparation (find out what students know and which strategies they already use), Presentation (model and name the strategy), Practice (apply it), Self-evaluation (students judge their own learning and the strategy's usefulness; sometimes listed simply as Evaluation), and Expansion (transfer to new contexts). Asking 'How well did underlining work for me?' is self-evaluation, which builds metacognitive awareness.",
    "traps": [
     {
      "code": "TERM",
@@ -223,7 +223,7 @@
     "The language 'add all the sides,' which students need to describe how to find perimeter"
    ],
    "answer": 1,
-   "why": "Snow, Met, and Genesee distinguish content-obligatory language from content-compatible language. Content-obligatory language is the vocabulary, structures, and functions students must have to learn and express the concept. Content-compatible language fits naturally into the lesson and can be practiced there, but it isn't required to master the content. The perimeter terms and the language for explaining and computing perimeter are obligatory. The past tense in a group report is compatible: a good extra target once the obligatory language is planned.",
+   "why": "Snow, Met, and Genesee distinguish content-obligatory language (the vocabulary, structures, and functions students must have to learn and express a concept) from content-compatible language (language that fits naturally into the lesson but isn't required to master the content). The perimeter terms and the language for explaining and computing perimeter are obligatory. The past tense in a group report is compatible, a good extra target once the obligatory language is planned.",
    "traps": [
     {
      "code": "TERM",
@@ -321,8 +321,8 @@
    "options": [
     "Remove the language objective from the board so students can concentrate on the content objective",
     "Have students copy the objectives into their notebooks at the start of each lesson as handwriting practice",
-    "Restate both objectives in student-friendly language at the start, and revisit them at the end of the lesson",
-    "Post the objectives in each student's home language so that families can read them during the week"
+    "Restate both objectives in student-friendly terms at the start, and revisit them at the end of the lesson",
+    "Post the objectives in each student's home language so that families can read them at home during the week"
    ],
    "answer": 2,
    "why": "SIOP's first two features call for content and language objectives that are clearly defined, displayed, and reviewed with students. Posting them isn't enough. The teacher should state them in student-friendly language at the start, refer to them during the lesson, and review them at the end so students can judge whether they met them.",
@@ -351,7 +351,7 @@
    "diag": 0,
    "stem": "A sheltered grade 6 math teacher speaks quickly, uses idioms such as 'ballpark figure,' and gives multistep directions orally. Several Emerging ELLs often start the task incorrectly. Which adjustment best addresses SIOP's Comprehensible Input component?",
    "options": [
-    "Speak more loudly, and repeat the same directions word for word until all students begin working",
+    "Speak more loudly, and repeat the same directions word for word until the students begin working",
     "Give the Emerging ELLs a shorter set of easier problems so that they can finish the task on time",
     "Have the Emerging ELLs wait until bilingual classmates finish their work and can explain the directions",
     "Slow down, replace idioms with plain terms, and model the steps while also posting them in writing"
@@ -756,7 +756,7 @@
    "options": [
     "A class in which an ESOL-certified teacher provides English language development instruction to ELLs",
     "A content class taught by a content-certified teacher, with an ESOL teaching assistant for the ELLs",
-    "A content class co-taught by a content-certified and an ESOL-certified teacher, or by one dually certified teacher",
+    "A content class co-taught by certified content and ESOL teachers, or taught by one dually certified teacher",
     "A class in which ELLs learn content in their home language and in English, with English increasing over time"
    ],
    "answer": 2,
@@ -859,7 +859,7 @@
     "Each student's proficiency level, modality strengths, prior schooling, and home-language literacy",
     "A summary of the learning styles and classroom behaviors typical of each student's home culture",
     "A list of the chapters each ELL can skip until he or she scores Commanding on the NYSESLAT",
-    "Each student's overall proficiency level, so she can give all five ELLs the same modified assignments"
+    "Each student's overall proficiency level, so she can give the five ELLs one set of modified assignments"
    ],
    "answer": 0,
    "why": "Effective collaboration starts with sharing actionable information about each ELL: proficiency level, strengths and needs in listening, speaking, reading, and writing, educational background (including any interrupted schooling), and home-language literacy, which can be leveraged with bilingual glossaries or home-language texts. This lets the content teacher plan scaffolds for individuals instead of treating ELLs as one group.",
@@ -890,7 +890,7 @@
    "stem": "Which revision would most strengthen this plan?",
    "options": [
     "Assign the ENL teacher to lead the opening each day so that both teachers get equal time at the front",
-    "Add the ELLs' names to each section so that the ENL teacher knows which students to sit beside",
+    "Add the ELLs' names to each section of the plan so that the ENL teacher knows which students to sit beside",
     "Add a language objective and define the ENL teacher's role in each segment, such as leading a small group",
     "Move the language work to a separate Stand-alone ENL period so this lesson can focus on science content"
    ],
@@ -924,7 +924,7 @@
     "Assigning both teachers to the same grade level for several consecutive years",
     "Regular, scheduled co-planning time with shared goals and clearly defined roles",
     "Requiring the ENL teacher to hold certification in the co-taught content area",
-    "Seating the ELLs together at one table so the ENL teacher can support them"
+    "Seating the ELLs together at one table so the ENL teacher can quickly support them"
    ],
    "answer": 1,
    "why": "Across the co-teaching literature (for example, Honigsfeld and Dove), regular co-planning time is the most consistently cited condition for success. Without it, the ENL teacher learns the lesson as it unfolds and slips into an assistant role. With it, the two teachers can set content and language objectives, choose co-teaching models, divide roles, and plan co-assessment.",
@@ -944,6 +944,929 @@
     }
    ],
    "key": "Regular co-planning with shared goals and defined roles is the foundation of effective co-teaching."
+  },
+  {
+   "id": "5.3-01",
+   "skill": "5.3",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 1,
+   "stimulus": "Grade 6 Integrated ENL math, Transitioning ELL (home language: Spanish).\nTask: Write an expression for each phrase.\n1. a number n increased by 8 → n + 8\n2. the product of 8 and a number n → 8n\n3. 8 less than a number n → 8 − n",
+   "stem": "The student's error in item 3 most likely results from",
+   "options": [
+    "writing the terms in the order they appear in English, though 'less than' reverses that order",
+    "not knowing the meaning of 'less,' a Tier 3 word whose meaning is specific to mathematics",
+    "negative transfer from Spanish, a language that usually places adjectives after nouns",
+    "a gap in conceptual understanding of subtraction that calls for reteaching basic computation"
+   ],
+   "answer": 0,
+   "why": "The student chose the correct operation but wrote the terms in English word order. In '8 less than n,' 8 is subtracted from n, so the expression is n − 8. Phrases such as 'less than' and 'subtracted from' reverse the order of the terms, a common trap for ELLs (and native speakers) who translate word by word, so teach them explicitly with concrete examples ('3 less than 10 is 7').",
+   "traps": [
+    null,
+    {
+     "code": "LITERAL",
+     "note": "The student chose subtraction, so she understood 'less.' It is also an everyday (Tier 1) word, not a Tier 3 technical term. The problem is the order of the terms, not the word's meaning."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Spanish adjective placement has nothing to do with this phrase. The error follows English word order exactly, and native English speakers make the same mistake, so not every ELL error is L1 transfer."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "The student picked the right operation and handled the other items correctly. Reteaching basic computation misdiagnoses a language issue and lowers the level of work."
+    }
+   ],
+   "key": "'Less than' and 'subtracted from' reverse word order: '8 less than n' = n − 8."
+  },
+  {
+   "id": "5.3-02",
+   "skill": "5.3",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Grade 3 word problem: 'Amina has 12 stickers. She has 4 more stickers than Luis. How many stickers does Luis have?'\nAnswer from an Emerging ELL (home language: Wolof): 12 + 4 = 16",
+   "stem": "Which instructional response best addresses the reasoning behind this error?",
+   "options": [
+    "Post a key-word chart showing that 'more' signals addition and 'left' signals subtraction",
+    "Assign extra addition and subtraction fact practice to improve the student's computational accuracy",
+    "Have students act out or draw a bar model of the two amounts, then restate who has fewer stickers",
+    "Translate the problem into Wolof so that the student can understand each individual word in it"
+   ],
+   "answer": 2,
+   "why": "This is a comparison problem with 'inconsistent' language: the word 'more' appears, but because Amina has more, Luis has fewer, so the operation is 12 − 4 = 8. Students taught to hunt for key words fall right into this trap. Modeling the relationship with a drawing, a bar model, or role play and restating it ('Luis has 4 fewer than Amina') builds understanding of the situation, which a key-word list can't.",
+   "traps": [
+    {
+     "code": "ISOLATED",
+     "note": "Key-word charts caused this error. 'More' appears, but the problem requires subtraction. Matching words to operations replaces making sense of the situation."
+    },
+    {
+     "code": "LITERAL",
+     "note": "12 + 4 = 16 is computed correctly. The problem is choosing the operation, not fact fluency."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Home-language support can help, but the student understood the words, including 'more,' and applied them literally. The difficulty is the relationship between the quantities, which a word-for-word translation doesn't fix."
+    }
+   ],
+   "key": "Key words mislead in comparison problems; have students model the relationship (bar model, drawing) instead of hunting for words."
+  },
+  {
+   "id": "5.3-03",
+   "skill": "5.3",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 2,
+   "stimulus": "Quiz answers from a grade 5 newcomer from Ukraine (Entering):\n2,5 + 1,75 = 4,25\n3,6 × 2 = 7,2\nThe classroom teacher marked both answers wrong.",
+   "stem": "What should the ENL teacher explain to the classroom teacher?",
+   "options": [
+    "The student is confusing commas with decimal points, which signals a place-value gap that requires reteaching",
+    "The student's work suggests a visual-processing disability, so a referral for evaluation should be considered",
+    "The student should be told that comma notation is a mistake and should redo both problems with decimal points",
+    "Both answers are correct; many countries use a decimal comma, so the US convention should be taught explicitly"
+   ],
+   "answer": 3,
+   "why": "In Ukraine and many other countries (much of Europe and South America, for example), a comma marks the decimal and a period or space groups thousands, so 2,5 means two and five tenths. The student's computations are correct. The ENL teacher should help the classroom teacher credit the math and then teach the US decimal point (and the comma for thousands) explicitly, comparing the two conventions side by side.",
+   "traps": [
+    {
+     "code": "LITERAL",
+     "note": "The computations are exactly right, which shows solid place-value understanding. The comma is a notation convention, not a conceptual error."
+    },
+    {
+     "code": "MISREFERRAL",
+     "note": "Using a valid notation from prior schooling is an educational and cultural difference, not evidence of a disability."
+    },
+    {
+     "code": "DEFICIT",
+     "note": "Calling standard notation from much of the world 'a mistake' devalues the student's schooling. She needs to learn when each convention is used, not that hers is wrong."
+    },
+    null
+   ],
+   "key": "Many countries use a decimal comma (2,5 = 2.5); credit the math and explicitly teach the US convention side by side."
+  },
+  {
+   "id": "5.3-04",
+   "skill": "5.3",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "A grade 6 newcomer from Brazil (Emerging, home language Portuguese) solves 156 ÷ 12 by writing 156 on the left and 12 on the right, separated by an L-shaped bracket. She writes the quotient, 13, under the 12 and records her subtraction steps under 156. Her answer is correct, but classmates say she 'did it backwards.'",
+   "stem": "What is the ENL teacher's best response?",
+   "options": [
+    "Require her to switch to the US long-division layout so her work matches her classmates' and the textbook",
+    "Invite her to explain her method, affirm it as valid, and compare it side by side with the US layout",
+    "Reteach long division from the beginning, starting with single-digit divisors and basic division facts",
+    "Allow her to keep using her method privately, but avoid discussing it with the class to prevent confusion"
+   ],
+   "answer": 1,
+   "why": "Division layouts differ across countries. In Brazil and many other countries in Latin America and Europe, the divisor is written to the right of the dividend and the quotient below the divisor, and the math is identical. Having the student explain her method affirms her prior schooling, gives her a real reason to use academic language, and lets the class compare algorithms while she adds the US layout as another tool.",
+   "traps": [
+    {
+     "code": "DEFICIT",
+     "note": "Requiring an immediate switch treats a valid algorithm from her prior schooling as wrong and throws away an asset. She can learn the US layout by comparing it to the one she knows."
+    },
+    null,
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Her answer is correct. Reteaching from single-digit divisors ignores her demonstrated skill and wastes instructional time."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Allowing her method is better than banning it, but hiding it misses the chance to validate her knowledge and deepen everyone's understanding by comparing algorithms."
+    }
+   ],
+   "key": "Different division layouts are valid algorithms; have students explain and compare them rather than forcing an immediate switch."
+  },
+  {
+   "id": "5.3-05",
+   "skill": "5.3",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A grade 6 math teacher is planning a statistics unit for a class that includes Emerging and Transitioning ELLs. Which set of words most needs explicit instruction that contrasts each word's everyday and mathematical meanings?",
+   "options": [
+    "mean, range, table, mode",
+    "histogram, quartile, percentile, interquartile",
+    "survey, collect, compare, organize",
+    "first, next, then, finally"
+   ],
+   "answer": 0,
+   "why": "Multiple-meaning words are tricky because ELLs may already know the everyday meaning and apply it in math: mean (unkind), range (a stove or a mountain range), table (furniture), mode (a way of doing something). Teach them explicitly with a two-column 'everyday meaning / math meaning' chart and examples in context. Technical terms like quartile have one meaning, so they're less likely to be misread.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "pair": "technical (Tier 3) term ↔ multiple-meaning word",
+     "note": "These are technical terms with one meaning. They need teaching, but students won't confuse them with a familiar everyday meaning."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "These general academic (Tier 2) verbs are worth teaching across subjects, but their meanings don't change between everyday and math use."
+    },
+    {
+     "code": "LITERAL",
+     "note": "Sequence words appear often in math explanations, but they mean the same thing in and out of math class. The stem asks about words with conflicting meanings."
+    }
+   ],
+   "key": "Explicitly contrast everyday and math meanings of words like mean, range, table, mode, product, volume, and odd."
+  },
+  {
+   "id": "5.3-06",
+   "skill": "5.3",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Number dictation, grade 2. The teacher says, 'Write fifteen… now fifty… now thirteen.'\nA newcomer (Entering, home language Mandarin) writes: 50, 50, 30",
+   "stem": "Which explanation and response are most appropriate?",
+   "options": [
+    "The student lacks place-value understanding; reteach tens and ones with base-ten blocks before going on",
+    "The student may have a hearing impairment; refer the student for an audiological evaluation right away",
+    "The student is not paying attention; seat the student closer and repeat each number slowly and loudly",
+    "The -teen/-ty contrast is hard to hear; teach the stress difference (fifTEEN, FIFty) and pair words with digits"
+   ],
+   "answer": 3,
+   "why": "English -teen and -ty numbers (fifteen/fifty, thirteen/thirty) differ mainly in word stress and the final /n/, a contrast many ELLs find hard to hear. Every error here follows that pattern, which points to listening, not place value. Teach the stress difference explicitly (fifTEEN vs. FIFty), pair spoken numbers with written digits or cards, and have students say the numbers back.",
+   "traps": [
+    {
+     "code": "LITERAL",
+     "note": "The student writes two-digit numbers in standard form, and every error follows one pattern: -teen heard as -ty. That pattern points to listening, not place value."
+    },
+    {
+     "code": "MISREFERRAL",
+     "note": "Confusing -teen and -ty is a common L2 listening difficulty. With no other evidence, a referral for hearing loss is premature."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Slower speech might help a little, but blaming attention misreads a consistent pattern, and louder speech doesn't teach the stress contrast."
+    },
+    null
+   ],
+   "key": "Teen/-ty confusions (fifteen/fifty) are a stress-based listening issue; teach the stress contrast and pair spoken numbers with digits."
+  },
+  {
+   "id": "5.3-07",
+   "skill": "5.3",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Grade 8 math, Expanding ELL (home language Spanish; schooled in Colombia through grade 6). A problem says a country's budget is '3 billion dollars.' The student writes the amount with twelve zeros and explains, 'In Spanish, un billón is a million millions.'",
+   "stem": "What best explains the student's answer?",
+   "options": [
+    "The student is overgeneralizing an English place-value rule to very large numbers",
+    "The student does not yet understand how powers of ten represent place value",
+    "Spanish billón means a million millions, so English 'billion' is a false cognate",
+    "The student is translating literally because of limited English reading comprehension"
+   ],
+   "answer": 2,
+   "why": "Spanish uses the 'long scale': un billón = 1,000,000,000,000 (10¹²), and a thousand million is 'mil millones.' English 'billion' (short scale) = 1,000,000,000 (10⁹). Billion/billón is a false cognate (similar form, different meaning), so the student's math is right for the Spanish word; teach the difference explicitly and point out the student's precise number sense.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "overgeneralization ↔ negative transfer",
+     "note": "Overgeneralization applies an English rule too broadly. This error comes from the meaning of a look-alike Spanish word, which is transfer."
+    },
+    {
+     "code": "LITERAL",
+     "note": "Writing a million millions with exactly twelve zeros shows strong place-value knowledge. The issue is what the word means."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "The student is drawing on Spanish, but this Expanding student understood the problem. The specific cause is the false cognate, not general reading comprehension."
+    }
+   ],
+   "key": "Spanish billón = 10¹² but English billion = 10⁹, a false cognate; teach it explicitly when large numbers appear."
+  },
+  {
+   "id": "5.3-08",
+   "skill": "5.3",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A grade 4 Integrated ENL teacher is introducing equivalent fractions to a group that includes several Entering ELLs. Which sequence best supports both concept and language development?",
+   "options": [
+    "State the rule for multiplying numerator and denominator, then assign practice with symbols",
+    "Use fraction strips, then drawings, then symbols, as students describe each step with a frame",
+    "Have students copy the definition of 'equivalent fractions' and memorize textbook examples",
+    "Give the Entering ELLs whole-number problems until they know enough English to discuss fractions"
+   ],
+   "answer": 1,
+   "why": "The concrete–representational–abstract (CRA) sequence moves from manipulatives (fraction strips) to drawings to symbols, which makes abstract math context-embedded and comprehensible for ELLs. Pairing each step with a frame ('___ is equal to ___ because ___') builds the academic language at the same time. Hands-on materials lower the language barrier without lowering the math.",
+   "traps": [
+    {
+     "code": "ISOLATED",
+     "note": "Starting with an abstract rule and symbol drills skips concrete understanding and offers no language support, so students learn a procedure without meaning."
+    },
+    null,
+    {
+     "code": "PASSIVE",
+     "note": "Copying and memorizing definitions involves no hands-on experience and no meaningful talk about fractions."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "Holding Entering ELLs back from grade-level fraction content until their English improves denies them the curriculum. Concrete materials make the content accessible now."
+    }
+   ],
+   "key": "Use the concrete–representational–abstract sequence with sentence frames so ELLs learn math concepts and language together."
+  },
+  {
+   "id": "5.3-09",
+   "skill": "5.3",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "Grade 7 Transitioning ELLs in an Integrated ENL math class compute accurately but often solve the wrong problem when a task is written as a multi-sentence word problem. Which strategy is most likely to help?",
+   "options": [
+    "Replace word problems with equivalent numerical expressions until the students reach the Commanding level",
+    "Give students a list of key words matched to operations to underline before they solve each problem",
+    "Read each word problem aloud to the students once, then have them solve it independently and quietly",
+    "Read the problem several times for different purposes (situation, quantities, question) and discuss each"
+   ],
+   "answer": 3,
+   "why": "A structured multiple-reads routine (such as Three Reads) has students read first for the situation (often without numbers), then for the quantities and relationships, and then for the question, talking with a partner after each read. This builds comprehension of the problem's language and the math situation before anyone computes. These students' computation is fine; their difficulty is understanding what the problem is asking.",
+   "traps": [
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Removing word problems lowers rigor. Interpreting mathematical situations in language is part of grade-level standards, so students need support doing it, not a way around it."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Key-word lists are decontextualized shortcuts that often mislead (as with 'more' in comparison problems) and don't build comprehension of the situation."
+    },
+    {
+     "code": "PASSIVE",
+     "note": "One read-aloud followed by silent work gives no structured sense-making and no discussion, which is exactly where these students break down."
+    },
+    null
+   ],
+   "key": "Have ELLs read word problems several times for different purposes and discuss each, rather than hunting for key words."
+  },
+  {
+   "id": "5.3-10",
+   "skill": "5.3",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Transcript, grade 5 Integrated ENL math:\nStudent (Emerging, home language Haitian Creole): 'This one bigger… three-four more big than one-two.'\nTeacher: 'So you're saying that three-fourths is greater than one-half? How do you know?'\nStudent: 'Yes, three-fourths is greater… because the pieces…'",
+   "stem": "The teacher's response best illustrates which practice?",
+   "options": [
+    "Revoicing, which models precise math language while confirming the idea and inviting more reasoning",
+    "Explicit correction, which tells the student the statement was wrong and supplies the correct form",
+    "Metalinguistic feedback, which gives the student grammatical information about comparative adjectives",
+    "Elicitation, which pauses so that the student can complete the teacher's sentence with the right term"
+   ],
+   "answer": 0,
+   "why": "Revoicing ('So you're saying that…?') is a math talk move: the teacher restates a student's idea in precise academic language (three-fourths, greater than), checks that she understood, and asks for reasoning. For ELLs it works like a recast, modeling the target form without interrupting or embarrassing the student while keeping the focus on mathematical meaning. The student's next turn shows uptake of 'greater.'",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "pair": "explicit correction ↔ revoicing",
+     "note": "The teacher never says the student was wrong. She restates the idea in precise language and accepts it, with no explicit signal of an error."
+    },
+    {
+     "code": "TERM",
+     "pair": "metalinguistic feedback ↔ revoicing",
+     "note": "Metalinguistic feedback comments on the form (e.g., 'We use greater than to compare'). The teacher gives no grammatical information."
+    },
+    {
+     "code": "TERM",
+     "pair": "elicitation ↔ revoicing",
+     "note": "Elicitation pauses so the student completes the utterance ('Three-fourths is ___ than one-half?'). Here the teacher supplies the full reformulation herself."
+    }
+   ],
+   "key": "Revoicing restates a student's idea in precise math language, confirms meaning, and invites reasoning; it is an implicit, meaning-focused model."
+  },
+  {
+   "id": "5.3-11",
+   "skill": "5.3",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A grade 5 word problem asks how many hot dogs a family needs for a Fourth of July tailgate party. A student with interrupted schooling who recently arrived from Guatemala (home language: Q'anjob'al) can multiply but is confused by the problem. What is the most effective adjustment?",
+   "options": [
+    "Give the student a version of the problem with smaller numbers so it can be solved more quickly",
+    "Have the student skip word problems and do computation practice until his English improves",
+    "Briefly build background with a picture, or use a familiar context while keeping the same math",
+    "Explain that knowing American holidays is necessary for doing well on state math assessments"
+   ],
+   "answer": 2,
+   "why": "The barrier is cultural background knowledge, not math: 'Fourth of July' and 'tailgate' are unfamiliar. Briefly building background with a visual, or swapping in a context the student knows (such as a family celebration), removes the cultural load while keeping the mathematical demand the same. A word problem should test the math, not knowledge of US customs.",
+   "traps": [
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Smaller numbers lower the math demand and don't touch the real barrier, which is the unfamiliar cultural context."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "Skipping word problems removes the student from grade-level problem solving and from the math language he needs to learn."
+    },
+    null,
+    {
+     "code": "DEFICIT",
+     "note": "This puts the burden on the student and treats his background as the problem instead of adjusting instruction so he can reach the math now."
+    }
+   ],
+   "key": "When a word problem's cultural context is unfamiliar, build background or use a familiar context, and keep the math the same."
+  },
+  {
+   "id": "5.3-12",
+   "skill": "5.3",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Grade 7 task: 'To go on the trip, the club must sell at least 40 tickets. Write an inequality for t, the number of tickets the club must sell.'\nResponse from a Transitioning ELL (home language Urdu): t ≤ 40\nAsked to explain, the student says, 'Least means small, so it's less.'",
+   "stem": "What does this response most likely show, and what should the teacher do?",
+   "options": [
+    "A gap in understanding inequality symbols; reteach < and > with simple numerical examples",
+    "A misreading of 'least' as 'less'; teach 'at least' and 'at most' as phrases with a number line",
+    "Word-for-word translation from Urdu; ask the student to stop using Urdu during math lessons",
+    "A careless error; mark it wrong and have the student copy the correct inequality three times"
+   ],
+   "answer": 1,
+   "why": "The student's explanation shows he connected 'least' to 'less,' which reversed the meaning. 'At least 40' means 40 or more (t ≥ 40), and 'at most 40' means 40 or fewer (t ≤ 40). Their meaning can't be built from the individual words, so teach them as chunks with a number line and everyday examples ('You must be at least 12 to ride: 12, 13, 14… can ride').",
+   "traps": [
+    {
+     "code": "LITERAL",
+     "note": "The student used the symbol correctly for the meaning he understood. His own explanation shows the problem is the phrase 'at least,' not the symbols."
+    },
+    null,
+    {
+     "code": "DEFICIT",
+     "note": "The explanation is about the English word 'least,' so nothing points to Urdu. Banning the home language removes a resource for reasoning."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Copying the answer three times is rote, and calling it careless ignores the student's explanation, which reveals a specific misunderstanding."
+    }
+   ],
+   "key": "'At least' means ≥ and 'at most' means ≤; teach these as phrases with number lines, not word by word."
+  },
+  {
+   "id": "5.3-13",
+   "skill": "5.3",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "A grade 1 newcomer (Entering, home language Mandarin) counts quickly to 100 in Mandarin and builds teen numbers easily with base-ten blocks. In English, she hesitates on 'eleven' and 'twelve' and sometimes writes 31 when she hears 'thirteen.'",
+   "stem": "Which explanation best accounts for these observations?",
+   "options": [
+    "She has a place-value misconception that work with base-ten blocks has not yet corrected",
+    "She shows signs of a visual-processing difficulty that is causing her digit reversals",
+    "She is overgeneralizing Mandarin grammar rules to the English counting sequence",
+    "English teen words are irregular or say the ones first; Mandarin says 'ten-one,' 'ten-three'"
+   ],
+   "answer": 3,
+   "why": "Mandarin number words follow base ten transparently: 11 is 'ten-one' (shí yī), 13 is 'ten-three,' and 23 is 'two-ten-three.' English 11 and 12 are irregular, and 13–19 say the ones before the ten ('thir-teen'), which invites reversals like 31. Her Mandarin counting is an asset: connect 'ten-three' to 13 with blocks and teach the irregular English forms explicitly.",
+   "traps": [
+    {
+     "code": "LITERAL",
+     "note": "She builds teen numbers easily with blocks and counts fluently in Mandarin, which shows solid place-value understanding. The trouble appears only with English number words."
+    },
+    {
+     "code": "MISREFERRAL",
+     "note": "Writing 31 for 'thirteen' follows the spoken English order (thir-teen: three, then ten). It's a common language-based error, not evidence of a disability."
+    },
+    {
+     "code": "TERM",
+     "pair": "overgeneralization ↔ transfer",
+     "note": "Overgeneralization means applying a target-language (English) rule too broadly. Besides, Mandarin's regular number names are helping her, not interfering."
+    },
+    null
+   ],
+   "key": "English teen numbers are irregular and say the ones first; languages like Mandarin name them transparently ('ten-three'), an asset to build on."
+  },
+  {
+   "id": "5.3-14",
+   "skill": "5.3",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A grade 7 newcomer from Ecuador who was a strong math student at home estimates measurements easily in centimeters and kilograms but is confused by problems using inches, feet, and pounds. What is the most effective approach?",
+   "options": [
+    "Build on her metric knowledge with benchmarks for US customary units and explicit comparisons",
+    "Have her memorize the customary conversion table before she continues with measurement problems",
+    "Let her convert each problem into metric units, since metric is the standard used in science",
+    "Move her to a lower-level math group until she becomes familiar with the units used in the US"
+   ],
+   "answer": 0,
+   "why": "Measurement systems are a cultural difference in math: most countries use the metric system, while the US uses customary units in daily life and in parts of the math curriculum. A strong student's metric sense is an asset. Connect the new units to familiar benchmarks (an inch is about the width of a thumb; a kilogram is a little more than 2 pounds) and compare the systems explicitly so she can reason in both.",
+   "traps": [
+    null,
+    {
+     "code": "ISOLATED",
+     "note": "Memorizing a conversion table before any problems is rote and disconnected from use. Benchmarks and comparisons build real measurement sense."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Her metric sense is an asset, but she also needs to reason with customary units, which appear in grade-level standards and daily life. Converting everything avoids that learning."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Unfamiliar units don't mean weaker math ability. Moving a strong student to a lower group lowers expectations and removes her from grade-level work."
+    }
+   ],
+   "key": "Build on newcomers' metric knowledge with benchmarks and explicit comparisons when teaching US customary units."
+  },
+  {
+   "id": "5.4-01",
+   "skill": "5.4",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 1,
+   "stimulus": "Model lab-report sentence, grade 8 Integrated ENL science:\n'The solution was heated for five minutes, and the temperature was recorded every minute.'\nAn Expanding ELL (home language Korean) asks, 'Who heated it? It doesn't say.'",
+   "stem": "What is the most effective way for the teacher to respond?",
+   "options": [
+    "Say that the person doesn't matter and move on, since the student will absorb the pattern by reading more reports",
+    "Have the student rewrite the sentence with 'we,' because first-person active voice makes a procedure clearer",
+    "Explain that reports often use passive voice to focus on the process, then practice turning active notes into passive",
+    "Give the student a list of irregular past participles to memorize so he can form passive verbs on future lab reports"
+   ],
+   "answer": 2,
+   "why": "Scientific writing often uses the passive voice (be + past participle: 'was heated,' 'was recorded') to keep the focus on the process and results rather than on who did the work, so the agent is usually left out. The student has noticed this feature, which makes it a perfect teaching moment. Turning the class's active lab notes ('We heated the solution') into report sentences helps ELLs both understand and produce the genre.",
+   "traps": [
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Relying on exposure alone ignores that the student has already noticed the form. Schmidt's noticing hypothesis suggests building on that moment with explicit attention, rather than hoping input will do the work."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Active voice is acceptable in some science writing, but avoiding the passive won't help the student read and write the textbook and lab-report language he meets constantly."
+    },
+    null,
+    {
+     "code": "ISOLATED",
+     "note": "Memorizing participles out of context doesn't explain why science writing uses the passive or when to use it."
+    }
+   ],
+   "key": "Science writing uses passive voice to foreground the process; teach it explicitly by converting active lab notes into passive sentences."
+  },
+  {
+   "id": "5.4-02",
+   "skill": "5.4",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Grade 9 biology textbook sentence:\n'The destruction of rain forests results in a reduction in biodiversity.'",
+   "stem": "Transitioning ELLs can define every word in this sentence but can't explain what it means. Which scaffold best targets the source of their difficulty?",
+   "options": [
+    "Preteach glossary definitions of 'destruction,' 'reduction,' and 'biodiversity' before reading",
+    "Unpack the nouns into clauses: 'People destroy rain forests, so fewer kinds of life survive.'",
+    "Replace the sentence with a simplified summary that removes the technical terms and abstract nouns",
+    "Have students read the sentence aloud several times to build fluency with the academic vocabulary"
+   ],
+   "answer": 1,
+   "why": "Science texts rely on nominalization, turning verbs and adjectives into nouns ('destroy' → 'destruction,' 'reduce' → 'reduction') to pack whole processes into compact noun phrases. The result is dense and abstract, hiding the actors and the cause–effect link. Unpacking nominalizations into clauses with actors and verbs, and then repacking them, shows ELLs how the sentence works and how to write like a scientist.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "The students already know the words. The difficulty is that processes have been turned into nouns, hiding who does what and how the ideas connect, and definitions alone won't unpack that."
+    },
+    null,
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Replacing the sentence removes exactly the academic language students need to learn to read. Unpack it with them, then repack it."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Repeated oral reading builds fluency, not understanding of how the sentence is built. Students can read it smoothly and still miss the meaning."
+    }
+   ],
+   "key": "Nominalization packs processes into nouns; unpack them into clauses (who did what, with what effect), then repack."
+  },
+  {
+   "id": "5.4-03",
+   "skill": "5.4",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 2,
+   "stimulus": "Grade 6 Integrated ENL science investigation: Does the amount of light a bean plant gets affect how tall it grows?",
+   "stem": "Which scaffold for writing a hypothesis is best matched to an Emerging ELL?",
+   "options": [
+    "An open prompt: 'Write a hypothesis about how light affects plant growth and justify it with scientific reasoning.'",
+    "Two pictures of plants and the direction to point to the one that will grow taller, with no writing required",
+    "A multi-clause frame: 'Although ___, I predict that ___ will ___ because ___, which suggests that ___.'",
+    "A frame with a word bank: 'If a plant gets (more / less) light, then it will grow (taller / shorter) because ___.'"
+   ],
+   "answer": 3,
+   "why": "Emerging students can produce phrases and short sentences when given structured support such as frames and word banks. An if–then–because frame with choices supplies the structure of a hypothesis and the key vocabulary while leaving room for the student's own reasoning. Following the NLAP's logic, scaffolds fade as proficiency grows: pointing and labeling (Entering), short frames with word banks (Emerging), complex frames (Expanding), independent writing (Commanding).",
+   "traps": [
+    {
+     "code": "WRONG_LEVEL",
+     "note": "An unsupported open prompt suits Expanding or Commanding students, who can produce extended academic writing independently."
+    },
+    {
+     "code": "WRONG_LEVEL",
+     "note": "Pointing with no writing fits an Entering student. Emerging students can produce short phrases and simple sentences with support, so this underestimates them."
+    },
+    {
+     "code": "WRONG_LEVEL",
+     "note": "A frame with concession and embedded clauses suits an Expanding student. It overloads an Emerging writer."
+    },
+    null
+   ],
+   "key": "Match hypothesis scaffolds to level: pictures and labels (Entering), frames with word banks (Emerging), complex frames (Expanding), independent writing (Commanding)."
+  },
+  {
+   "id": "5.4-04",
+   "skill": "5.4",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A grade 4 teacher is planning a unit on simple circuits for a class that includes Entering and Emerging ELLs. Which sequence is most effective for these students?",
+   "options": [
+    "Let students explore with batteries, wires, and bulbs, then connect key terms to what they observed",
+    "Begin with fifteen definitions to memorize so that students know the vocabulary before the lab",
+    "Have students read the textbook chapter on circuits independently, then answer the review questions",
+    "Show a video about electricity, then give ELLs a circuit coloring sheet while the others do the lab"
+   ],
+   "answer": 0,
+   "why": "Inquiry models such as the 5E (Engage, Explore, Explain, Elaborate, Evaluate) put hands-on exploration before formal explanation. For ELLs, exploring first makes cognitively demanding content context-embedded: they see and handle the circuit, so terms like 'closed circuit' and 'conductor' label an experience instead of an abstraction.",
+   "traps": [
+    null,
+    {
+     "code": "ISOLATED",
+     "note": "Memorizing a long list of definitions before any experience is decontextualized. The words have nothing concrete to attach to."
+    },
+    {
+     "code": "PASSIVE",
+     "note": "Independent textbook reading first is the most language-dependent entry point, with no hands-on context and no interaction."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "A coloring sheet while classmates do the lab shuts ELLs out of inquiry, the most comprehensible part of science."
+    }
+   ],
+   "key": "Explore before explain: hands-on experience first gives ELLs concrete referents for science vocabulary."
+  },
+  {
+   "id": "5.4-05",
+   "skill": "5.4",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A newly arrived grade 7 student from Afghanistan (Entering, literate in Dari) joins a science class that keeps interactive science notebooks. How should the teacher structure the student's notebook use?",
+   "options": [
+    "Have her copy the teacher's notes from the board each day to practice English handwriting and spelling",
+    "Wait to start the notebook until she can write complete English sentences about the investigations",
+    "Encourage labeled drawings, a word bank, sentence starters, and notes in Dari alongside her new English",
+    "Require entries in English and correct each spelling error so that her mistakes don't become habits"
+   ],
+   "answer": 2,
+   "why": "Science notebooks let students record observations, data, and thinking in several modes. For an Entering student who is literate in her home language, labeled drawings, a word bank, sentence starters ('I see ___,' 'It is ___'), and notes in Dari let her capture real scientific thinking now and shift it into English over time. The notebook then documents growth in both content and language.",
+   "traps": [
+    {
+     "code": "PASSIVE",
+     "note": "Copying from the board is transcription. She isn't recording her own observations or thinking, which is the point of a science notebook."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "Delaying the notebook denies her a key learning tool now. Drawings and home-language notes let her take part from day one."
+    },
+    null,
+    {
+     "code": "OVERCORRECT",
+     "note": "An English-only rule plus correcting every spelling error raises anxiety and puts form ahead of science thinking. It also wastes her Dari literacy."
+    }
+   ],
+   "key": "For Entering ELLs, science notebooks should allow drawings, labels, home language, word banks, and sentence starters."
+  },
+  {
+   "id": "5.4-06",
+   "skill": "5.4",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Grade 5 investigation: ice cubes were placed on black, white, and silver paper in the sun.\nMinutes to melt: black paper 6, white paper 11, silver paper 14.\nWritten conclusion from a Transitioning ELL (home language Spanish): 'The black paper is the best.'",
+   "stem": "Which next step would best help this student construct a scientific explanation?",
+   "options": [
+    "Model a more academic version of her sentence, and have her copy it neatly into her science notebook",
+    "Use a claim–evidence–reasoning frame: 'Ice melted fastest on ___. The data show ___. This is because ___.'",
+    "Ask her to repeat the investigation to make sure the data are accurate before she writes any conclusion",
+    "Accept the response as complete, since she correctly identified the paper that produced the best result"
+   ],
+   "answer": 1,
+   "why": "The student's statement is a vague claim with no evidence or reasoning. A claim–evidence–reasoning (CER) frame scaffolds the structure of a scientific explanation: a precise claim (ice melted fastest on black paper), evidence from the data (6 minutes vs. 11 and 14), and reasoning (dark colors absorb more light energy). Frames like this build both content understanding and the language of scientific argument.",
+   "traps": [
+    {
+     "code": "PASSIVE",
+     "note": "Copying the teacher's model gives her no chance to build her own explanation from the data. She needs to supply the evidence and reasoning herself."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Replication is good science, but these data are already clear. What she needs is help turning the data into an explanation."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "'Best' is vague and offers no evidence or reasoning. Accepting it lowers expectations for a Transitioning student who can produce claim, evidence, and reasoning with support."
+    }
+   ],
+   "key": "Use claim–evidence–reasoning frames to help ELLs turn data into scientific explanations."
+  },
+  {
+   "id": "5.4-07",
+   "skill": "5.4",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "During a grade 3 investigation of owl pellets, students' statements mix what they see with what they conclude (for example, 'The owl ate a mouse'). The teacher wants ELLs to distinguish observations from inferences. Which language support is most effective?",
+   "options": [
+    "A list of science words (pellet, bone, skull, digest) for students to copy into their notebooks",
+    "A rule that ELLs record observations and leave inferences until they reach the Expanding level",
+    "A worksheet asking students to label pre-written sentences about owls as 'true' or 'false'",
+    "A two-column chart with the frames 'I observe ___' and 'I infer ___ because ___,' with modeling"
+   ],
+   "answer": 3,
+   "why": "Observation (what you can see, hear, or measure) and inference (a conclusion drawn from observations) are distinct scientific language functions. A two-column chart with 'I observe ___' and 'I infer ___ because ___' makes the distinction visible and gives ELLs the language for both, with 'because' tying each inference to evidence. Modeling with the owl pellets shows students how each frame sounds.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "The words are useful, but a vocabulary list doesn't help students separate observation from inference, the language function the lesson targets."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Inferring from evidence is grade-level science thinking. Holding ELLs to observations until Expanding lowers expectations instead of scaffolding the language of inference."
+    },
+    {
+     "code": "TERM",
+     "pair": "true/false ↔ observation/inference",
+     "note": "True vs. false is a different distinction. An inference can be true and still not be an observation."
+    },
+    null
+   ],
+   "key": "Teach observation vs. inference with paired frames: 'I observe ___' and 'I infer ___ because ___.'"
+  },
+  {
+   "id": "5.4-08",
+   "skill": "5.4",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Grade 6 science exit ticket: 'What is matter?'\nResponse from an Emerging ELL (home language Haitian Creole): 'Matter is a problem. Like what is the matter with you.'",
+   "stem": "What is the most effective instructional response?",
+   "options": [
+    "Contrast the everyday and science meanings of 'matter' with examples, visuals, and a two-column chart",
+    "Tell the student the answer is wrong, and give her the textbook definition to copy and memorize",
+    "Avoid the word 'matter' with ELLs, and use the word 'stuff' in the unit's lessons and assessments",
+    "Translate 'matter' into Haitian Creole, and add it to the student's personal bilingual glossary"
+   ],
+   "answer": 0,
+   "why": "'Matter' is a multiple-meaning word: in everyday English it means a problem or concern ('What's the matter?'), but in science it means anything that has mass and takes up space. The student's answer shows she knows the everyday meaning, which is something to build on. A two-column 'everyday meaning / science meaning' chart with examples and visuals helps ELLs sort out words like matter, cell, mass, force, and solution.",
+   "traps": [
+    null,
+    {
+     "code": "ISOLATED",
+     "note": "Copying and memorizing a definition doesn't address the clash between the two meanings or connect the science meaning to examples."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Avoiding the term denies students the academic vocabulary of the unit, which they will meet in texts and on assessments."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "A bilingual glossary can help, but the student needs to see that one English word has two distinct meanings and when each applies. A single translation may not show that."
+    }
+   ],
+   "key": "Explicitly contrast everyday and science meanings of multiple-meaning words like matter, cell, mass, force, and solution."
+  },
+  {
+   "id": "5.4-09",
+   "skill": "5.4",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A grade 8 ENL teacher wants students to work out the meanings of new science terms such as thermometer, hydrology, and photosynthesis. Which strategy is most effective?",
+   "options": [
+    "Have students look up each term in an English dictionary and write the full definition three times",
+    "Substitute everyday phrases, such as 'heat measurer,' for the scientific terms in class materials",
+    "Teach common Greek and Latin roots (thermo-, hydro-, photo-, -meter, -logy) and how they combine",
+    "Ask students to guess each meaning from the surrounding sentence alone, without analyzing word parts"
+   ],
+   "answer": 2,
+   "why": "Much scientific vocabulary is built from Greek and Latin roots and affixes: thermo- (heat), hydro- (water), photo- (light), -meter (measure), -logy (study of). Teaching these morphemes gives ELLs a transferable way to unlock new terms. Many of these words also have cognates in Spanish, French, and Portuguese (Spanish fotosíntesis, termómetro), a further bridge for those speakers.",
+   "traps": [
+    {
+     "code": "ISOLATED",
+     "note": "Copying dictionary definitions is rote, and it builds no strategy students can transfer to the next unfamiliar term."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Replacing scientific terms with everyday phrases withholds the academic vocabulary students must read, write, and be tested on."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Context clues are useful, but science texts often don't define terms in context. Ignoring word parts throws away a powerful, transferable strategy."
+    }
+   ],
+   "key": "Teach Greek and Latin roots (thermo-, hydro-, photo-, -meter, -logy) so ELLs can unlock science terms and spot cognates."
+  },
+  {
+   "id": "5.4-10",
+   "skill": "5.4",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "Before the first chemistry lab of the year, a high school teacher learns that several of her students are Entering ELLs whose home languages are Spanish, Bengali, and Uzbek. Which approach best ensures that these students understand the lab safety rules?",
+   "options": [
+    "Have the students sign the English safety contract after the teacher reads it aloud to the class",
+    "Demonstrate each rule with safety symbols and visuals, then check understanding with a picture sort",
+    "Have the ELLs observe the first labs from their desks until they can read the safety contract",
+    "Send the English safety contract home so that parents can sign it and explain the rules to them"
+   ],
+   "answer": 1,
+   "why": "Safety rules must be understood, not just signed. Demonstrating each rule, pairing it with standard safety symbols and pictures, providing home-language versions where available, and checking comprehension with a nonverbal task (sorting safe and unsafe pictures, acting out procedures) gives Entering students real access. It also signals that hands-on labs are open to ELLs from day one.",
+   "traps": [
+    {
+     "code": "PASSIVE",
+     "note": "Hearing dense English read aloud and signing it doesn't show that Entering students understand the rules. A signature isn't comprehension."
+    },
+    null,
+    {
+     "code": "EXCLUSION",
+     "note": "Keeping ELLs out of labs until they can read English denies them hands-on science, one of the most comprehensible parts of the curriculum."
+    },
+    {
+     "code": "FAMILY_BARRIER",
+     "note": "An English-only form sent home shifts the teacher's job onto families who may not read English. Documents should be in the families' languages, and safety must be taught in class."
+    }
+   ],
+   "key": "Teach lab safety with demonstrations, symbols, visuals, and comprehension checks; a signature on an English form is not understanding."
+  },
+  {
+   "id": "5.4-11",
+   "skill": "5.4",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Grade 7 science graph: the x-axis shows water temperature (°C); the y-axis shows grams of sugar dissolved. The line rises steadily from left to right.\nWritten interpretation from an Emerging ELL (home language Arabic): 'The temperature is increase. The sugar is increase.'",
+   "stem": "Which scaffold would best help this student express what the graph shows?",
+   "options": [
+    "A relationship frame: 'As the ___ increases, the amount of ___ that dissolves ___.'",
+    "A list of verb forms to drill: increase, increases, increased, increasing, has increased",
+    "A new graph with fewer data points so that the trend is easier for her to describe",
+    "Corrections of each verb error in her two sentences, returned to her for a rewrite"
+   ],
+   "answer": 0,
+   "why": "The student correctly notices that both quantities rise but writes them as two unconnected statements. Interpreting a scientific graph requires language that relates the variables: 'As the temperature increases, the amount of sugar that dissolves increases.' A relationship frame supplies that structure and the correct verb form in a meaningful context, which a drill or error correction alone can't.",
+   "traps": [
+    null,
+    {
+     "code": "ISOLATED",
+     "note": "Drilling verb forms might fix 'is increase,' but she would still produce two separate statements. She needs language that links the variables."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "She already sees the trend, since both statements say 'increase.' Simplifying the graph lowers the demand without addressing the language need."
+    },
+    {
+     "code": "OVERCORRECT",
+     "note": "Correcting each verb focuses on form and leaves the real gap untouched: expressing how one variable changes with the other."
+    }
+   ],
+   "key": "Teach relationship frames ('As ___ increases, ___ increases/decreases') so ELLs can interpret graphs, not just describe each variable."
+  },
+  {
+   "id": "5.4-12",
+   "skill": "5.4",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "In a grade 6 unit on decomposition and soil, a student who recently arrived from Guatemala (home language K'iche') tells the ENL teacher in Spanish that his family made compost on their farm. What is the most effective way to use this information?",
+   "options": [
+    "Note it privately but keep the lesson on the textbook, since home farming practices aren't scientific evidence",
+    "Assume that the other Central American students also have farming experience, and group them together",
+    "Invite him to describe or draw his family's composting, and connect it to decomposers and nutrients",
+    "Ask him to translate the textbook chapter into Spanish for the other Spanish-speaking students"
+   ],
+   "answer": 2,
+   "why": "The student's composting experience is a fund of knowledge (Moll): practical knowledge from home that connects directly to decomposers, nutrient cycling, and soil. Inviting him to share it (by talking, drawing, or using Spanish or K'iche' with support) builds on his experience, positions him as knowledgeable, and gives the class a concrete example that anchors the scientific vocabulary.",
+   "traps": [
+    {
+     "code": "DEFICIT",
+     "note": "Dismissing family knowledge as unscientific devalues a real fund of knowledge. Experience with composting is exactly the kind of observation science builds on."
+    },
+    {
+     "code": "STEREOTYPE",
+     "note": "Assuming every Central American student has farmed overgeneralizes from one student. Each student's experiences must be learned individually."
+    },
+    null,
+    {
+     "code": "LITERAL",
+     "note": "This latches onto his Spanish ability rather than his composting knowledge, and it puts an inappropriate translation burden on a newcomer."
+    }
+   ],
+   "key": "Connect students' home experiences (funds of knowledge) to science concepts; this builds understanding and positions ELLs as experts."
+  },
+  {
+   "id": "5.4-13",
+   "skill": "5.4",
+   "type": "knowledge",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "Which set of language features is most characteristic of a written lab procedure (the steps students follow during an investigation)?",
+   "options": [
+    "Past-tense passive verbs, as in 'The water was heated,' with the agent left out",
+    "Imperative verbs, numbered steps, and exact amounts, as in '2. Pour 50 mL of water.'",
+    "A claim with evidence and reasoning, linked by connectors such as 'therefore'",
+    "Prediction language, as in 'If the temperature rises, then the sugar will dissolve faster'"
+   ],
+   "answer": 1,
+   "why": "Each science genre has typical language. Procedures are instructions: imperative verbs (pour, measure, record), numbered or sequenced steps, and precise quantities and equipment. Lab reports recount what was done in the past-tense passive ('was heated'), hypotheses use if–then frames, and conclusions use claim–evidence–reasoning; teaching these features helps ELLs read and write each part.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "procedure ↔ lab report",
+     "note": "Past-tense passive belongs to the methods and results of a lab report, written after the investigation. A procedure tells the reader what to do."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "procedure ↔ conclusion",
+     "note": "Claim–evidence–reasoning language characterizes the conclusion or explanation, where students argue from their data."
+    },
+    {
+     "code": "TERM",
+     "pair": "procedure ↔ hypothesis",
+     "note": "If–then prediction language belongs to the hypothesis, written before the procedure is carried out."
+    }
+   ],
+   "key": "Procedures use imperatives, steps, and exact amounts; reports use past passive; hypotheses use if–then; conclusions use CER."
+  },
+  {
+   "id": "5.4-14",
+   "skill": "5.4",
+   "type": "application",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A grade 8 science teacher demonstrates density by placing objects in water while students predict, observe, and record which objects sink or float, and then explain why. In terms of Cummins' framework, why is this activity especially effective for ELLs?",
+   "options": [
+    "It is cognitively undemanding and context-embedded, so students can rely on their BICS",
+    "It is cognitively demanding and context-reduced, so it pushes students to develop CALP fast",
+    "It is cognitively undemanding and context-reduced, so it lowers newcomers' affective filter",
+    "It is cognitively demanding but context-embedded, so visual cues support academic reasoning"
+   ],
+   "answer": 3,
+   "why": "Cummins' framework crosses context (embedded ↔ reduced) with cognitive demand (undemanding ↔ demanding). Instruction for ELLs should be cognitively demanding but context-embedded: the demonstration supplies visual, hands-on cues (seeing objects sink or float) while students do real scientific reasoning about density. Over time, teachers move students toward demanding, context-reduced tasks, such as reading and writing explanations without supports.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "cognitively undemanding ↔ cognitively demanding",
+     "note": "Explaining density is cognitively demanding academic work. The hands-on context makes it accessible, not easy."
+    },
+    {
+     "code": "TERM",
+     "pair": "context-reduced ↔ context-embedded",
+     "note": "The demonstration supplies rich visual, hands-on context. Context-reduced tasks, like reading a textbook explanation, lack those cues."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "This mixes Cummins' quadrants with Krashen's affective filter, and it misdescribes the activity, which is neither undemanding nor context-reduced."
+    },
+    null
+   ],
+   "key": "Aim for cognitively demanding, context-embedded tasks: hands-on demos let ELLs reason at grade level with visual support."
   }
  ],
  "lessons": []

@@ -1,0 +1,2290 @@
+{
+ "questions": [
+  {
+   "id": "3.1-01",
+   "skill": "3.1",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 1,
+   "stem": "A grade 3 student whose home language is Wolof enrolls in a New York State school district. Her parents choose an ENL program, and her NYSITELL results place her at the Entering level. Which weekly schedule meets the minimum CR Part 154 requirement for her ENL services?",
+   "options": [
+    "180 minutes of Stand-alone ENL and 180 minutes of Integrated ENL/ELA",
+    "360 minutes of Stand-alone ENL, delivered as daily pull-out sessions",
+    "90 minutes of Stand-alone ENL, 180 of Integrated ENL/ELA, and 90 of Integrated ENL/science",
+    "180 minutes of Integrated ENL in ELA or in another core content area"
+   ],
+   "answer": 0,
+   "why": "For grades K–8, CR Part 154 requires an Entering student to receive 360 minutes of ENL per week: 180 minutes of Stand-alone ENL plus 180 minutes of Integrated ENL/ELA. The Stand-alone time builds English with a certified ESOL teacher, and the Integrated ENL/ELA time develops English inside grade-level ELA. Required minutes then decrease as proficiency rises (360, 360, 180, 180, 90).",
+   "traps": [
+    null,
+    {
+     "code": "EXCLUSION",
+     "note": "An all pull-out schedule leaves out the required 180 minutes of Integrated ENL/ELA. Part 154 deliberately keeps even Entering students in grade-level ELA with ESOL support instead of separating them full time."
+    },
+    {
+     "code": "TERM",
+     "pair": "Entering ↔ Emerging units of study",
+     "note": "This 360-minute pattern has only 90 Stand-alone minutes, which is the Emerging configuration (with its flexible 90 used as Integrated). Entering students need a full 180 minutes of Stand-alone ENL."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "180 minutes of Integrated ENL in ELA or another content area is the Expanding requirement. An Entering student needs twice as many minutes, including Stand-alone ENL."
+    }
+   ],
+   "key": "K–8 Entering = 360 min/week: 180 Stand-alone ENL + 180 Integrated ENL/ELA."
+  },
+  {
+   "id": "3.1-02",
+   "skill": "3.1",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 2,
+   "stimulus": "Excerpt from a district program guide:\n\"About half of the students in this program are ELLs whose home language is Spanish, and about half are English-proficient students. All students learn grade-level content in both Spanish and English, and they stay in the program for several years. Our goals are bilingualism, biliteracy, academic achievement, and cross-cultural understanding for every student.\"",
+   "stem": "The program described is best identified as which of the following?",
+   "options": [
+    "Transitional Bilingual Education",
+    "One-way Dual Language",
+    "Two-way Dual Language",
+    "Integrated ENL"
+   ],
+   "answer": 2,
+   "why": "A two-way Dual Language program enrolls both ELLs and English-proficient students and teaches grade-level content in both languages for several years, with bilingualism and biliteracy as goals for every student. A one-way program serves students who are mostly from one language group. TBE also uses two languages, but its goal is to transition ELLs to English-only instruction.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "TBE ↔ Dual Language",
+     "note": "TBE also teaches in two languages, but it serves ELLs and aims to move them into English-only instruction. It does not enroll English-proficient students or aim for biliteracy for all."
+    },
+    {
+     "code": "TERM",
+     "pair": "one-way ↔ two-way Dual Language",
+     "note": "One-way Dual Language serves students who are mostly from one language group. A program that deliberately mixes ELLs with English-proficient students is two-way."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "bilingual program ↔ ENL program",
+     "note": "Integrated ENL is part of an ENL program: content and English development taught in English. It does not teach grade-level content in Spanish or aim for biliteracy."
+    }
+   ],
+   "key": "Two-way Dual Language = ELLs + English-proficient peers in two languages, biliteracy for all; one-way = mainly one language group."
+  },
+  {
+   "id": "3.1-03",
+   "skill": "3.1",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Principal's memo:\n\"To give our grade 1 Entering students their Integrated ENL/ELA minutes, our bilingual paraprofessional will sit with them during the ELA block, which is taught by the classroom teacher. The ESOL teacher will continue to provide their Stand-alone ENL.\"",
+   "stem": "Which response to the principal's plan best reflects CR Part 154?",
+   "options": [
+    "It works, provided that the bilingual paraprofessional speaks the students' home language and attends every ELA lesson.",
+    "It works, if the classroom teacher has completed the required ELL-focused CTLE hours for the cycle.",
+    "It falls short, because Entering students must receive all of their ENL minutes in Stand-alone classes.",
+    "It falls short, because Integrated ENL must be taught by a dually certified teacher or co-taught with an ESOL teacher."
+   ],
+   "answer": 3,
+   "why": "Under Part 154, Integrated ENL is delivered either by one teacher certified in both the content area and ESOL, or by a certified content teacher and a certified ESOL teacher co-teaching. A bilingual paraprofessional can be a valuable home-language support, but paraprofessional time does not count toward the required units of study.",
+   "traps": [
+    {
+     "code": "NYS_POLICY",
+     "note": "A bilingual paraprofessional is a valuable support, but paraprofessional time does not count toward ENL units of study, which must be delivered by appropriately certified teachers."
+    },
+    {
+     "code": "TERM",
+     "pair": "ELL-focused CTLE hours ↔ ESOL certification",
+     "note": "The CTLE rule (at least 15% of PD hours on language acquisition and ELL needs) is professional development for all teachers. It does not qualify a content teacher to deliver Integrated ENL alone."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "Right conclusion, wrong reason. K–8 Entering students need 180 Stand-alone minutes AND 180 Integrated ENL/ELA minutes, not all Stand-alone."
+    },
+    null
+   ],
+   "key": "Integrated ENL = a dually certified teacher, or a certified content teacher co-teaching with a certified ESOL teacher; paraprofessional time doesn't count."
+  },
+  {
+   "id": "3.1-04",
+   "skill": "3.1",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "District ELL enrollment, October\nGrade | Home language | ELLs districtwide | Most in any one school\nK | Spanish | 19 | 19\n2 | Bengali | 22 | 9\n3 | Arabic | 9 | 6\n4 | Arabic | 9 | 5\n5 | Arabic | 9 | 6\n4 | Urdu, Nepali, Polish, Karen (combined) | 24 | 10",
+   "stem": "Based on CR Part 154, for which group is the district required to provide a bilingual education program?",
+   "options": [
+    "The kindergarten Spanish speakers, because all of them attend the same school",
+    "The grade 2 Bengali speakers, even though they are spread across several schools",
+    "The Arabic speakers in grades 3–5, because together they number more than 20",
+    "The grade 4 ELLs who speak Urdu, Nepali, Polish, or Karen, because there are more than 20"
+   ],
+   "answer": 1,
+   "why": "Part 154 requires a bilingual education program when 20 or more ELLs in the same grade level share the same home language, counted districtwide. The 22 Bengali-speaking second graders meet that threshold even though no single school has 20. The kindergarten group has only 19, the Arabic speakers are spread across three grades, and the grade 4 group does not share one home language. Parents of the Bengali speakers may still choose ENL.",
+   "traps": [
+    {
+     "code": "LITERAL",
+     "note": "Attending one building is a surface detail. Nineteen is below the threshold of 20, so this group does not trigger a required bilingual program."
+    },
+    null,
+    {
+     "code": "NYS_POLICY",
+     "note": "The count must be within the same grade level. Nine Arabic speakers in each of three grades does not reach 20 in any grade."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "The 20 students must share the same home language. Twenty-four ELLs who speak four different languages do not trigger a bilingual program in any one language."
+    }
+   ],
+   "key": "Bilingual trigger: 20+ ELLs with the same home language in the same grade, counted districtwide (not per school)."
+  },
+  {
+   "id": "3.1-05",
+   "skill": "3.1",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 1 student whose home language is Spanish is identified as an ELL at the Entering level. The district has a two-way Dual Language program in his grade. At the parent orientation, his parents say they would prefer an ENL program. What should the district do?",
+   "options": [
+    "Place him in Dual Language, since Part 154 requires bilingual placement for Entering students when a program exists",
+    "Place him in a general education class without ENL, since his parents have declined the bilingual program",
+    "Honor the parents' choice and place him in ENL with the required Stand-alone and Integrated ENL/ELA minutes",
+    "Place him in ENL, but in Stand-alone classes only until he reaches the Transitioning level"
+   ],
+   "answer": 2,
+   "why": "At orientation, parents learn about TBE, Dual Language, and ENL in their preferred language and then choose. If they choose ENL, the student is placed in ENL and receives the units of study for his level. For an Entering student in grades K–8, that is 180 minutes of Stand-alone ENL and 180 minutes of Integrated ENL/ELA each week. Declining a bilingual program is not the same as declining ELL services.",
+   "traps": [
+    {
+     "code": "NYS_POLICY",
+     "note": "Parents choose among the program options. Part 154 does not require bilingual placement at any proficiency level when parents prefer ENL."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "Declining a bilingual program is not declining ELL services. The child is still an ELL and must receive ENL at the units required for his level."
+    },
+    null,
+    {
+     "code": "EXCLUSION",
+     "note": "A K–8 Entering student needs 180 minutes of Integrated ENL/ELA as well as Stand-alone ENL. Keeping him out of integrated grade-level ELA withholds required access to grade-level instruction."
+    }
+   ],
+   "key": "Parents choose TBE, Dual Language, or ENL; if they decline bilingual, the student still gets full ENL services."
+  },
+  {
+   "id": "3.1-06",
+   "skill": "3.1",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Weekly ENL schedules (grades K–8)\nStudent | Grade | NYSESLAT level | Weekly ENL schedule\nAmira | 2 | Entering | 180 min Stand-alone ENL + 180 min Integrated ENL/ELA\nJean-Pierre | 6 | Transitioning | 90 min Integrated ENL/ELA + 90 min Stand-alone ENL\nOksana | 8 | Expanding | 180 min Integrated ENL/science (co-taught)\nTenzin | 3 | Emerging | 180 min Stand-alone ENL + 180 min Integrated ENL/math",
+   "stem": "An ENL coordinator reviews the weekly schedules above. Which student's schedule falls short of the CR Part 154 minimum?",
+   "options": [
+    "Amira",
+    "Jean-Pierre",
+    "Oksana",
+    "Tenzin"
+   ],
+   "answer": 3,
+   "why": "A K–8 Emerging student needs 360 minutes a week: 90 minutes of Stand-alone ENL, 180 minutes of Integrated ENL/ELA, and 90 flexible minutes. Tenzin has 360 minutes, but none of his Integrated time is in ELA, so the 180-minute Integrated ENL/ELA requirement is unmet. Amira matches the Entering requirement, Jean-Pierre's flexible 90 may be Stand-alone, and an Expanding student's 180 Integrated minutes may be in ELA or another core content area.",
+   "traps": [
+    {
+     "code": "NYS_POLICY",
+     "note": "Amira's schedule is exactly the Entering requirement: 180 minutes of Stand-alone ENL plus 180 minutes of Integrated ENL/ELA."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "A Transitioning student needs 90 minutes of Integrated ENL/ELA plus 90 flexible minutes, and the flexible minutes may be Stand-alone. Jean-Pierre's schedule complies."
+    },
+    {
+     "code": "TERM",
+     "pair": "Integrated ENL/ELA ↔ Integrated ENL in any content area",
+     "note": "At the Expanding level, the 180 Integrated minutes may be in ELA or another core content area, so co-taught science is acceptable."
+    },
+    null
+   ],
+   "key": "Check each component, not just the total: Entering and Emerging students need 180 Integrated ENL minutes specifically in ELA."
+  },
+  {
+   "id": "3.1-07",
+   "skill": "3.1",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 6 student scored at the Transitioning level on the spring NYSESLAT. Which weekly ENL schedule for the next school year meets the CR Part 154 minimum?",
+   "options": [
+    "90 minutes of Integrated ENL/ELA and 90 minutes of Integrated ENL in social studies",
+    "180 minutes of Stand-alone ENL, with no Integrated ENL in any of his classes",
+    "90 minutes of Integrated ENL/ELA, with no other ENL services during the week",
+    "90 minutes of Stand-alone ENL and 90 minutes of Integrated ENL in mathematics"
+   ],
+   "answer": 0,
+   "why": "In grades K–8, a Transitioning student receives 180 minutes a week: 90 minutes of Integrated ENL/ELA plus 90 flexible minutes that may be Stand-alone ENL or Integrated ENL in any content area. The first schedule meets both parts. Schedules without Integrated ENL/ELA, or with only 90 total minutes, fall short.",
+   "traps": [
+    null,
+    {
+     "code": "NYS_POLICY",
+     "note": "The total is right, but 90 of a Transitioning student's minutes must be Integrated ENL/ELA. Only the flexible 90 may be Stand-alone."
+    },
+    {
+     "code": "TERM",
+     "pair": "Transitioning ↔ former-ELL service minutes",
+     "note": "Ninety minutes a week is the former-ELL (Commanding) service level. A Transitioning student still needs 180 minutes."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "The flexible 90 can be Stand-alone, but the other 90 must be Integrated ENL in ELA specifically. Integrated ENL in math does not substitute for it."
+    }
+   ],
+   "key": "K–8 Transitioning = 180 min: 90 Integrated ENL/ELA + 90 flexible (Stand-alone or Integrated)."
+  },
+  {
+   "id": "3.1-08",
+   "skill": "3.1",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 4 student scored Commanding on the spring NYSESLAT. Which description of his services for the following school year is consistent with NYS requirements?",
+   "options": [
+    "He exits ELL status and no longer receives ENL support or testing accommodations of any kind.",
+    "He continues to receive 180 minutes of ENL until he also scores Level 3 on the Grades 3–8 ELA test.",
+    "He receives 90 minutes a week of Integrated ENL or other approved former-ELL services for two years.",
+    "He receives former-ELL services for four years, because ESSA keeps former ELs in the subgroup that long."
+   ],
+   "answer": 2,
+   "why": "Scoring Commanding on the NYSESLAT exits a student from ELL status, but former ELLs in NYS continue to receive 90 minutes a week of Integrated ENL (or other approved former-ELL services) for two years. They also keep ELL testing accommodations for two years after exit. ESSA's four-year figure concerns accountability reporting, not services.",
+   "traps": [
+    {
+     "code": "NYS_POLICY",
+     "note": "Exiting ELL status doesn't end support. Former ELLs receive continued services and keep testing accommodations for two years after exit."
+    },
+    {
+     "code": "TERM",
+     "pair": "Commanding exit ↔ Expanding + ELA exit route",
+     "note": "The ELA-test condition applies only to students who score Expanding. A Commanding score exits a student on its own."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "ESSA 4-year accountability ↔ NYS 2-year former-ELL services",
+     "note": "ESSA lets states keep former ELs in the EL subgroup for up to four years for accountability reporting. NYS former-ELL services last two years."
+    }
+   ],
+   "key": "Former ELL (Commanding) = 90 min/week of Integrated ENL or approved services, plus accommodations, for 2 years."
+  },
+  {
+   "id": "3.1-09",
+   "skill": "3.1",
+   "type": "knowledge",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "Which of the following best describes the goal of a Transitional Bilingual Education (TBE) program in New York State?",
+   "options": [
+    "Developing bilingualism and biliteracy for ELLs and English-proficient students who learn together in two languages",
+    "Using the home language for literacy and content as English increases, so students can move to English-only classes",
+    "Providing English language development with a certified ESOL teacher while all content is taught in English",
+    "Placing ELLs in English-only content classes and using the home language only as a last resort when students are completely lost"
+   ],
+   "answer": 1,
+   "why": "TBE combines home language arts, content instruction in the home language and English, and ENL. The share of English increases over time, and the goal is to transition students to English-only instruction. Dual Language, by contrast, aims for long-term bilingualism and biliteracy and does not phase out the home language.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "TBE ↔ two-way Dual Language",
+     "note": "This describes two-way Dual Language, which aims for biliteracy for all students. TBE serves ELLs and aims to transition them to English-only instruction."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "TBE ↔ ENL program",
+     "note": "This describes an ENL program. TBE includes ENL, but it also provides home language arts and content instruction in the home language."
+    },
+    {
+     "code": "DEFICIT",
+     "note": "This treats the home language as an emergency crutch in an English-only setting. That is the opposite of TBE, which uses the home language systematically to build literacy and content knowledge."
+    }
+   ],
+   "key": "TBE: home language + English, with English growing; goal = transition to English-only. Dual Language: goal = bilingualism and biliteracy."
+  },
+  {
+   "id": "3.1-10",
+   "skill": "3.1",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Principal's description at a family open house:\n\"Our program serves only Spanish-speaking ELLs and former ELLs. Students learn to read and write in both Spanish and English, and science and social studies are taught in both languages. Spanish instruction continues through grade 5 even after students test Commanding, because our goal is for every student to become bilingual and biliterate.\"",
+   "stem": "Which program model does the principal's description best match?",
+   "options": [
+    "Transitional Bilingual Education, since all of the students in the program share the same home language",
+    "Two-way Dual Language, since grade-level content is taught in both English and Spanish",
+    "Integrated ENL, since former ELLs continue to receive language support in the same classes",
+    "One-way Dual Language, since it serves one language group and aims for biliteracy"
+   ],
+   "answer": 3,
+   "why": "A one-way Dual Language program serves students who are predominantly from one language group and keeps both languages for literacy and content over the long term, because its goal is bilingualism and biliteracy. TBE also serves one language group, but it phases out the home language as English grows. Two-way programs deliberately combine ELLs with English-proficient students.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "TBE ↔ one-way Dual Language",
+     "note": "TBE also serves one language group, but it phases out the home language as English grows. Continuing Spanish after students test Commanding, with a biliteracy goal, signals Dual Language."
+    },
+    {
+     "code": "TERM",
+     "pair": "one-way ↔ two-way Dual Language",
+     "note": "Both Dual Language models teach in two languages. Two-way programs deliberately include English-proficient students, but this program serves only Spanish-speaking ELLs and former ELLs."
+    },
+    {
+     "code": "LITERAL",
+     "note": "Including former ELLs is a surface detail. Integrated ENL teaches content in English with language support; it does not provide Spanish literacy or aim for biliteracy."
+    },
+    null
+   ],
+   "key": "One language group + home language kept for biliteracy = one-way Dual Language; home language phased out = TBE."
+  },
+  {
+   "id": "3.1-11",
+   "skill": "3.1",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "An ESOL teacher is planning Stand-alone ENL for grade 5 Entering students whose class is starting a science unit on ecosystems. Which plan best reflects the purpose of Stand-alone ENL in New York State?",
+   "options": [
+    "Follow a separate grammar workbook so students master basic structures before they work with science content",
+    "Use the period to help the students finish homework assigned in their general education science class",
+    "Replace the ecosystems unit with simpler picture books about animals until the students reach Emerging",
+    "Teach the English the students need for the unit, such as key vocabulary and patterns for describing food chains"
+   ],
+   "answer": 3,
+   "why": "In Stand-alone ENL, a certified ESOL teacher provides English language development so that students acquire the English they need to succeed in core content. The strongest Stand-alone lessons are anchored in the content students are studying. Here that means building the vocabulary, sentence structures, and language functions they will use in the ecosystems unit.",
+   "traps": [
+    {
+     "code": "ISOLATED",
+     "note": "A grammar sequence detached from content delays access to grade-level learning. Stand-alone ENL should build the English students need for their content classes."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Homework help is useful but reactive. It is not the systematic English language development that Stand-alone ENL exists to provide."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Swapping grade-level science for easier, unrelated texts lowers expectations. NYS expects ELLs to work with grade-level content, with scaffolds."
+    },
+    null
+   ],
+   "key": "Stand-alone ENL builds the English students need for grade-level content; it is linked to content, not a separate grammar track."
+  },
+  {
+   "id": "3.1-12",
+   "skill": "3.1",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A middle school plans to provide the required ENL minutes for its grade 7 Expanding students through a social studies class co-taught by a certified social studies teacher and a certified ESOL teacher. Which statement about this plan is accurate under CR Part 154?",
+   "options": [
+    "It is acceptable, because an Expanding student's 180 minutes may be Integrated ENL in ELA or another core content area.",
+    "It is not acceptable, because Integrated ENL minutes for students at every proficiency level must take place in the ELA class.",
+    "It is not acceptable, because Expanding students must also receive at least 90 minutes of Stand-alone ENL.",
+    "It is acceptable only if the social studies teacher also holds ESOL certification and teaches the class alone."
+   ],
+   "answer": 0,
+   "why": "For K–8 Expanding students, Part 154 requires 180 minutes a week of Integrated ENL, which may be delivered in ELA or another core content area such as social studies. Co-teaching by a certified content teacher and a certified ESOL teacher is one of the two approved ways to deliver Integrated ENL; a single teacher certified in both areas is the other.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "pair": "Expanding ↔ Entering/Emerging ENL/ELA requirement",
+     "note": "Entering and Emerging students need Integrated ENL/ELA specifically, and Transitioning students need 90 minutes of it. Expanding students' Integrated ENL may be in any core content area."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "There is no Stand-alone minimum at the Expanding level; the required 180 minutes are Integrated ENL."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "Co-teaching by a certified content teacher and a certified ESOL teacher is an approved way to deliver Integrated ENL. Dual certification is the other option, not a requirement."
+    }
+   ],
+   "key": "K–8 Expanding = 180 min of Integrated ENL in ELA OR another core content area; no Stand-alone minimum."
+  },
+  {
+   "id": "3.1-13",
+   "skill": "3.1",
+   "type": "knowledge",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A grade 2 Entering student whose home language is Chinese is enrolled in a Transitional Bilingual Education (TBE) program. Which statement about her instruction is accurate?",
+   "options": [
+    "She receives no ENL, because part of her content instruction is delivered in her home language.",
+    "She receives home language arts, content instruction in both languages, and ENL for her level.",
+    "She receives all of her instruction in Chinese until she reaches the Expanding level in English.",
+    "She receives content instruction only in English, and Chinese is used mainly for parent meetings."
+   ],
+   "answer": 1,
+   "why": "NYS bilingual programs (TBE and Dual Language) combine three parts: home language arts, content instruction in both the home language and English, and ENL. Students in a bilingual program still receive ENL units of study for their proficiency level, so the program develops both languages from the start.",
+   "traps": [
+    {
+     "code": "NYS_POLICY",
+     "note": "Students in bilingual programs still receive ENL for their proficiency level. Home-language content instruction does not replace English language development."
+    },
+    null,
+    {
+     "code": "NYS_POLICY",
+     "note": "TBE develops both languages from the start. It is not home-language-only instruction until the student reaches a set English level."
+    },
+    {
+     "code": "TERM",
+     "pair": "TBE ↔ ENL program",
+     "note": "English-only content instruction describes an ENL program, not TBE, which teaches content in the home language as well as English."
+    }
+   ],
+   "key": "Bilingual programs (TBE, Dual Language) = home language arts + content in both languages + ENL."
+  },
+  {
+   "id": "3.1-14",
+   "skill": "3.1",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A district enrolls six Pashto-speaking ELLs in grade 5 and no other Pashto speakers in that grade. A parent asks the district to create a Pashto bilingual class. Which response is accurate under CR Part 154?",
+   "options": [
+    "A bilingual program is required only when 20 or more same-grade ELLs share a home language districtwide, so the student receives ENL.",
+    "The district must open a Pashto bilingual class, because a parent has formally requested one in writing.",
+    "The student should attend general education classes without ENL until enough Pashto speakers enroll to form a bilingual program.",
+    "The student should receive ENL, and teachers should avoid Pashto in class so she is not confused by two languages."
+   ],
+   "answer": 0,
+   "why": "A bilingual program is mandated when 20 or more ELLs in the same grade share a home language districtwide. Six students do not reach that threshold, so the student receives ENL at the units required for her level. ENL teachers can still use Pashto as an asset through bilingual glossaries, home-language texts, and translanguaging.",
+   "traps": [
+    null,
+    {
+     "code": "NYS_POLICY",
+     "note": "A parent request alone doesn't trigger a required bilingual program. The trigger is 20 or more ELLs with the same home language in the same grade, districtwide."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "Every identified ELL must be served now. Withholding ENL while waiting for a bilingual program denies the student required instruction."
+    },
+    {
+     "code": "DEFICIT",
+     "note": "Two languages don't confuse learners; the home language is a resource. ENL teachers can use Pashto texts, glossaries, and translanguaging even without a bilingual program."
+    }
+   ],
+   "key": "Fewer than 20 same-language, same-grade ELLs districtwide: provide ENL, and still use the home language as an asset."
+  },
+  {
+   "id": "3.2-01",
+   "skill": "3.2",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stimulus": "Observation notes, grade 1 Stand-alone ENL (Entering students):\nThe teacher says, \"Stand up,\" stands up herself, and the students copy her. \"Touch your nose. Touch your knees. Walk to the door.\" After several rounds she gives the commands without modeling them, then in new combinations: \"Walk to the window and touch your nose.\" The students respond only with actions; no one is asked to speak.",
+   "stem": "The teacher's lesson best reflects which method?",
+   "options": [
+    "The Silent Way",
+    "Total Physical Response",
+    "The Audiolingual Method",
+    "The Direct Method"
+   ],
+   "answer": 1,
+   "why": "Total Physical Response (James Asher) links language to movement. The teacher gives commands and models them, and students show comprehension through physical action before they are asked to speak. Recombining commands in new ways keeps students listening for meaning. Because it builds listening comprehension with low anxiety, it suits Entering students and young learners.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "Silent Way ↔ TPR",
+     "note": "In the Silent Way the teacher says as little as possible and students do the talking, prompted by rods and charts. Here the teacher talks constantly and students respond only with actions."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "Audiolingual ↔ TPR",
+     "note": "Audiolingual lessons require students to repeat and drill spoken patterns. These students never speak; they show comprehension through movement."
+    },
+    {
+     "code": "TERM",
+     "pair": "Direct Method ↔ TPR",
+     "note": "The Direct Method also stays in English and uses demonstration, but students answer questions in full sentences. Commands answered with physical actions are TPR's signature."
+    }
+   ],
+   "key": "Commands + physical responses + no forced speech = Total Physical Response (Asher)."
+  },
+  {
+   "id": "3.2-02",
+   "skill": "3.2",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 1,
+   "stimulus": "Classroom transcript, grade 9 Stand-alone ENL:\nT: Listen and repeat. \"I am going to the store.\"\nSs: I am going to the store.\nT: Good! \"She.\"\nSs: She is going to the store.\nT: Excellent! \"They.\"\nSs: They is going—\nT: No. They ARE going. Again.\nSs: They are going to the store.\nT: Very good! \"The library.\"\nSs: They are going to the library.",
+   "stem": "This exchange most clearly reflects which method?",
+   "options": [
+    "Communicative Language Teaching",
+    "The Direct Method",
+    "The Audiolingual Method",
+    "Grammar-Translation"
+   ],
+   "answer": 2,
+   "why": "The Audiolingual Method uses substitution drills, choral repetition, immediate correction, and praise to build accurate habits. It rests on Skinner's behaviorism (stimulus, response, reinforcement) and on structural linguistics, so language is practiced as habit formation. No real message is communicated; students manipulate a pattern.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "CLT ↔ Audiolingual",
+     "note": "CLT centers on meaningful communication and negotiation of meaning. These students exchange no real information; they manipulate a sentence pattern."
+    },
+    {
+     "code": "TERM",
+     "pair": "Direct Method ↔ Audiolingual",
+     "note": "The Direct Method is also oral and English-only, but it builds language through question-and-answer exchanges about objects and pictures, not mechanical substitution drills reinforced with praise."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "Grammar-Translation ↔ Audiolingual",
+     "note": "Grammar-Translation relies on written translation and explicit rule explanation, often in the home language. This lesson is entirely oral drilling."
+    }
+   ],
+   "key": "Substitution drills + repetition + immediate reinforcement = Audiolingual Method, rooted in behaviorism."
+  },
+  {
+   "id": "3.2-03",
+   "skill": "3.2",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A high school ESOL teacher says that her instruction follows Communicative Language Teaching (CLT). Which activity is most consistent with that approach?",
+   "options": [
+    "Students repeat a model dialogue about ordering food until they can say it without any errors.",
+    "Students translate a news article into their home language and list its new grammar structures.",
+    "Students copy the rules for the present perfect and complete a fill-in-the-blank worksheet.",
+    "Students plan a weekend outing in pairs, using real event listings, and explain their choice."
+   ],
+   "answer": 3,
+   "why": "CLT grows out of Hymes's concept of communicative competence: the goal is using language appropriately for real purposes. Activities use authentic materials and require students to exchange information, negotiate, and make decisions. Fluency is valued, and grammar is taught in service of communication. Planning an outing from real listings requires all of this.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "CLT ↔ Audiolingual",
+     "note": "Memorizing and repeating a dialogue until it is error-free is Audiolingual habit formation; no real information is exchanged."
+    },
+    {
+     "code": "TERM",
+     "pair": "CLT ↔ Grammar-Translation",
+     "note": "Translating and listing structures is Grammar-Translation. It builds knowledge about English, not the ability to communicate in it."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Copying rules and filling in blanks practices form in isolation, with no communicative purpose or audience."
+    },
+    null
+   ],
+   "key": "CLT = real communicative purpose, information exchange, negotiation, and fluency, not drills, translation, or rule copying."
+  },
+  {
+   "id": "3.2-04",
+   "skill": "3.2",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 3 ENL teacher fills her lessons with comprehensible input: pictures, gestures, and slow, clear stories. She does not require newer students to speak until they are ready. She asks them yes/no and either/or questions (\"Is this an apple or a banana?\"), and she responds to the meaning of their one-word answers without correcting their form. Which approach does her practice best reflect?",
+   "options": [
+    "The Natural Approach",
+    "Total Physical Response",
+    "The Direct Method",
+    "Suggestopedia"
+   ],
+   "answer": 0,
+   "why": "The Natural Approach (Krashen & Terrell) puts Krashen's hypotheses into practice. It floods students with comprehensible input, allows a silent (preproduction) period, and keeps the affective filter low by not correcting errors in early stages. Questions are matched to the stage, such as yes/no and either/or questions for students moving into early production. TPR activities may be used within it, but these features define the Natural Approach.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "pair": "Natural Approach ↔ TPR",
+     "note": "TPR also delays speech, but its core is commands answered with physical actions. Stories, stage-matched questions, and tolerance of errors define the Natural Approach, which may borrow TPR activities."
+    },
+    {
+     "code": "TERM",
+     "pair": "Natural Approach ↔ Direct Method",
+     "note": "The Direct Method stays in English but expects full-sentence answers and accurate pronunciation from the start. It does not build in a silent period."
+    },
+    {
+     "code": "TERM",
+     "pair": "Natural Approach ↔ Suggestopedia",
+     "note": "Suggestopedia lowers anxiety with music, comfortable surroundings, and positive suggestion while presenting long dialogues. None of those features appears here."
+    }
+   ],
+   "key": "Comprehensible input + no forced speech + stage-matched questions + tolerance of errors = Natural Approach (Krashen & Terrell)."
+  },
+  {
+   "id": "3.2-05",
+   "skill": "3.2",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Observation notes, grade 10 Stand-alone ENL:\nThe teacher says almost nothing. She points to colored wooden rods of different lengths and to a wall chart of color-coded sounds. When a student says, \"Take a red rod,\" she nods. When another student mispronounces \"rod,\" she silently points to the vowel on the chart and waits; a classmate helps him correct it.",
+   "stem": "Which method is the teacher using?",
+   "options": [
+    "Total Physical Response",
+    "Suggestopedia",
+    "Community Language Learning",
+    "The Silent Way"
+   ],
+   "answer": 3,
+   "why": "In Gattegno's Silent Way, the teacher stays mostly silent so that students do most of the talking. She uses Cuisenaire rods and color-coded sound charts as prompts. Learning is treated as discovery and problem solving: students are expected to self-correct and help one another instead of imitating a teacher model.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "TPR ↔ Silent Way",
+     "note": "TPR teachers talk constantly, giving commands that students act out. Here the teacher is nearly silent and the students produce the language."
+    },
+    {
+     "code": "TERM",
+     "pair": "Suggestopedia ↔ Silent Way",
+     "note": "Suggestopedia uses music, relaxation, and long dialogues read by the teacher. It is input-rich and teacher-voiced, the opposite of a silent teacher."
+    },
+    {
+     "code": "TERM",
+     "pair": "CLL ↔ Silent Way",
+     "note": "In CLL the teacher actively supplies English versions of what learners want to say. The Silent Way teacher withholds models so that learners discover and self-correct."
+    },
+    null
+   ],
+   "key": "Mostly silent teacher + Cuisenaire rods + color-coded charts + self-correction = Silent Way (Gattegno)."
+  },
+  {
+   "id": "3.2-06",
+   "skill": "3.2",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "In a teacher's ESOL class, students spend most of their time translating literary passages between English and their home languages and memorizing grammar rules and bilingual vocabulary lists. What is the most significant limitation of this approach for ELLs in U.S. schools?",
+   "options": [
+    "It gives students little practice using English orally to communicate and to learn in content classes.",
+    "It relies too heavily on the home language, which delays the students' acquisition of English.",
+    "It focuses on literary texts instead of the grammar that students need to pass their tests.",
+    "It teaches grammar inductively, so students never learn the rules of English explicitly."
+   ],
+   "answer": 0,
+   "why": "This is Grammar-Translation: grammar is taught deductively through explicit rules and applied in written translation, with emphasis on reading and writing accuracy. It builds knowledge about the language but gives almost no practice in listening, speaking, or using English to communicate, which is exactly what ELLs need for social and academic success. Using the home language is not itself the problem.",
+   "traps": [
+    null,
+    {
+     "code": "DEFICIT",
+     "note": "Using the home language is not the problem; it can be a powerful resource. The weakness is that translation work leaves little time for communicative English."
+    },
+    {
+     "code": "LITERAL",
+     "note": "Grammar-Translation is grammar-heavy and teaches rules explicitly. Latching onto 'literary passages' misses its real limitation."
+    },
+    {
+     "code": "TERM",
+     "pair": "deductive ↔ inductive grammar",
+     "note": "Grammar-Translation is deductive: the rule comes first, then practice. Inductive grammar (discovering rules from examples) belongs to methods such as the Direct Method."
+    }
+   ],
+   "key": "Grammar-Translation = deductive rules + translation + reading and writing; its major gap is oral, communicative use."
+  },
+  {
+   "id": "3.2-07",
+   "skill": "3.2",
+   "type": "application",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Observation notes, grade 8 Stand-alone ENL:\nThe teacher uses only English and never translates. She holds up a pencil and asks, \"What is this?\" A student answers, \"It is a pencil.\" \"Is it a book?\" \"No, it is not a book. It is a pencil.\" She places the pencil on, under, and next to a desk, asking questions so that students work out how the prepositions are used; she never states a rule. She insists on full-sentence answers and correct pronunciation. Later, students write short sentences about the objects.",
+   "stem": "Which method do these practices most closely reflect?",
+   "options": [
+    "The Audiolingual Method",
+    "The Direct Method",
+    "The Natural Approach",
+    "Total Physical Response"
+   ],
+   "answer": 1,
+   "why": "The Direct Method teaches only in the target language through demonstration, realia, and question-and-answer exchanges. Grammar is taught inductively, and accurate pronunciation and full-sentence answers are emphasized; writing follows oral work. The Audiolingual Method also avoids translation, but it relies on memorized dialogues and mechanical pattern drills reinforced by praise, not Q&A about real objects.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "Audiolingual ↔ Direct Method",
+     "note": "ALM also avoids translation, but it relies on dialogue memorization and pattern drills reinforced by praise. Q&A about real objects, inductive grammar, and follow-up writing point to the Direct Method."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "Natural Approach ↔ Direct Method",
+     "note": "The Natural Approach accepts one-word answers and avoids correcting form in early stages. Insisting on full sentences and correct pronunciation is not Natural Approach practice."
+    },
+    {
+     "code": "LITERAL",
+     "note": "Moving a pencil around a desk is a surface detail. In TPR, students carry out commands physically; here the teacher manipulates the objects and students answer questions."
+    }
+   ],
+   "key": "English-only Q&A with objects and pictures + inductive grammar + full-sentence accuracy = Direct Method."
+  },
+  {
+   "id": "3.2-08",
+   "skill": "3.2",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A department chair proposes that ELLs complete a sequence of English grammar courses before they take grade-level science and social studies. Which response best reflects the principles of Content-Based Instruction (CBI)?",
+   "options": [
+    "ELLs can develop academic English and content knowledge at the same time, because content gives language a real purpose.",
+    "ELLs should take the grammar courses first, with lists of science and history vocabulary added to each grammar lesson.",
+    "ELLs should begin content courses once they reach Transitioning, when they can follow lectures in English.",
+    "ELLs should take content courses right away, using simplified materials from earlier grade levels."
+   ],
+   "answer": 0,
+   "why": "Content-Based Instruction integrates language and content: students acquire English while learning grade-level subject matter, because content provides meaningful, cognitively engaging input and real reasons to use language. Sheltered models such as SIOP, and CALLA, build on this principle. Postponing content until English is 'ready' costs ELLs years of academic learning.",
+   "traps": [
+    null,
+    {
+     "code": "ISOLATED",
+     "note": "Adding word lists to a grammar sequence still teaches language apart from content. CBI teaches language through meaningful content."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "Waiting for a proficiency level withholds years of grade-level content. CBI's premise is that language develops through content, not before it."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "CBI keeps grade-level concepts and scaffolds access to them. Lower-grade materials water down the content."
+    }
+   ],
+   "key": "CBI: learn English through grade-level content; language and content develop together, so don't wait for English first."
+  },
+  {
+   "id": "3.2-09",
+   "skill": "3.2",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Observation notes, grade 11 Stand-alone ENL:\nStudents sit in a circle around an audio recorder. A student quietly says in Ukrainian what she wants to tell the group. The teacher, standing behind her, gives the English version, and the student repeats it into the recorder. After the conversation, the class listens to the recording, the teacher writes the English sentences on the board for discussion, and students talk about how they felt during the activity.",
+   "stem": "Which method is the teacher using?",
+   "options": [
+    "Suggestopedia",
+    "The Grammar-Translation Method",
+    "Community Language Learning",
+    "The Silent Way"
+   ],
+   "answer": 2,
+   "why": "In Curran's Community Language Learning, the teacher acts as a counselor or 'knower' who translates what learners want to say. Learners repeat the English version, the conversation is recorded and transcribed for analysis, and students reflect on their feelings. Drawing on humanistic counseling, it builds trust, reduces anxiety, and lets learners control the content.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "Suggestopedia ↔ CLL",
+     "note": "Both are humanistic methods that aim to reduce anxiety, but Suggestopedia uses music, relaxation, and teacher-presented dialogues. Learner-generated talk translated by a teacher-counselor and then recorded is CLL."
+    },
+    {
+     "code": "TERM",
+     "pair": "Grammar-Translation ↔ CLL",
+     "note": "Translation appears here, but it is oral, on demand, and serves the learners' own messages. Grammar-Translation translates written texts and teaches rules."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "Silent Way ↔ CLL",
+     "note": "The Silent Way teacher withholds language. This teacher supplies the English version of everything the learner wants to say."
+    }
+   ],
+   "key": "Learner says it in the home language, teacher-counselor gives the English, talk is recorded and transcribed, then reflection = CLL (Curran)."
+  },
+  {
+   "id": "3.2-10",
+   "skill": "3.2",
+   "type": "application",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A grade 9 ENL teacher builds a unit around one outcome: small groups use real bus and subway schedules and a fixed budget to produce a workable itinerary for a class trip. First, students listen to a model planning conversation. After the groups present their itineraries, the class studies language they needed, such as modals for making suggestions. Which approach does this unit most specifically reflect?",
+   "options": [
+    "Communicative Language Teaching",
+    "Task-Based Language Teaching",
+    "Content-Based Instruction",
+    "The Language Experience Approach"
+   ],
+   "answer": 1,
+   "why": "Task-Based Language Teaching organizes instruction around meaningful tasks with a non-linguistic outcome, here a workable itinerary. A typical cycle is pre-task (a model or preparation), the task itself in groups, a report, and then a language focus on forms students needed. TBLT is a strong version of CLT, but the task-and-outcome structure is what identifies it specifically.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "TBLT is a form of CLT, so CLT isn't wrong, but it is the broad umbrella. A unit built on a task with a concrete outcome, followed by a language focus, is specifically TBLT."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "TBLT ↔ CBI",
+     "note": "CBI teaches language through academic subject matter such as science or history. Planning a trip itinerary is a real-world task, not a content course."
+    },
+    {
+     "code": "TERM",
+     "pair": "TBLT ↔ LEA",
+     "note": "In the LEA, students' dictated account of a shared experience becomes their reading material. Nothing here turns students' words into a text to read."
+    }
+   ],
+   "key": "A unit built around a real-world task with an outcome, followed by a language focus = Task-Based Language Teaching."
+  },
+  {
+   "id": "3.2-11",
+   "skill": "3.2",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Lesson-plan excerpt, grade 6 Integrated ENL science (SIOP):\n- Ask students to describe how their families kept food cold or fresh without a refrigerator; connect their answers to today's topic, heat transfer.\n- Display last week's anchor chart on conduction and have partners explain how it connects to today's lesson.\n- Introduce and post the key terms insulator, conductor, and transfer, each with a picture.",
+   "stem": "These planned activities most directly address which SIOP component?",
+   "options": [
+    "Lesson Preparation",
+    "Comprehensible Input",
+    "Building Background",
+    "Review & Assessment"
+   ],
+   "answer": 2,
+   "why": "SIOP's Building Background component has three features: linking concepts to students' background experiences, explicitly linking past learning to new concepts, and emphasizing key vocabulary. All three appear here: the family food-storage connection, last week's anchor chart, and the posted key terms. Comprehensible Input is about how the teacher speaks, explains tasks, and uses techniques such as modeling during instruction.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "Lesson Preparation ↔ Building Background",
+     "note": "Lesson Preparation covers writing content and language objectives, choosing appropriate concepts, and adapting materials. It is the planning itself, not linking to students' experiences and prior learning."
+    },
+    {
+     "code": "TERM",
+     "pair": "Comprehensible Input ↔ Building Background",
+     "note": "Visuals appear here, but Comprehensible Input concerns how the teacher speaks, explains tasks, and uses techniques during instruction. Connecting to experiences, past learning, and key vocabulary is Building Background."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "Review & Assessment ↔ Building Background",
+     "note": "Review & Assessment comes at the end of a lesson: reviewing today's vocabulary and concepts, giving feedback, and checking learning. Using last week's chart to launch new learning is Building Background."
+    }
+   ],
+   "key": "SIOP Building Background = connect to students' experiences + link past learning to new + emphasize key vocabulary."
+  },
+  {
+   "id": "3.2-12",
+   "skill": "3.2",
+   "type": "application",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Unit overview, grade 8 Integrated ENL math:\nPreparation: Students discuss how they usually attack word problems.\nPresentation: The teacher names and models the strategy \"selective attention,\" thinking aloud as she underlines the question and the key quantities.\nPractice: Partners apply the strategy to grade-level problems.\nSelf-evaluation: Students rate whether the strategy helped them and explain why.\nExpansion: Students identify other classes where the strategy could help them.",
+   "stem": "This unit design most specifically reflects which approach?",
+   "options": [
+    "The SIOP Model",
+    "Task-Based Language Teaching",
+    "The Language Experience Approach",
+    "CALLA"
+   ],
+   "answer": 3,
+   "why": "Chamot and O'Malley's Cognitive Academic Language Learning Approach (CALLA) integrates grade-level content, academic language, and explicit instruction in learning strategies (metacognitive, cognitive, and social/affective). Its five-phase sequence of preparation, presentation, practice, self-evaluation, and expansion appears here exactly. SIOP includes a Strategies component, but SIOP is a broader eight-component planning and observation model.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "CALLA ↔ SIOP",
+     "note": "SIOP does include a Strategies component, but it is an eight-component lesson-planning and observation model. An explicit five-phase strategy-instruction cycle is CALLA's signature."
+    },
+    {
+     "code": "TERM",
+     "pair": "CALLA ↔ TBLT",
+     "note": "TBLT is organized around a task with a real-world outcome. This unit is organized around explicitly teaching, practicing, and evaluating a learning strategy."
+    },
+    {
+     "code": "TERM",
+     "pair": "CALLA ↔ LEA",
+     "note": "The LEA turns students' dictated experiences into reading text. It doesn't involve explicit strategy instruction in a content area."
+    },
+    null
+   ],
+   "key": "Content + academic language + explicit strategy instruction in five phases (prepare, present, practice, self-evaluate, expand) = CALLA."
+  },
+  {
+   "id": "3.2-13",
+   "skill": "3.2",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 2,
+   "stem": "A grade 9 ENL teacher works with SIFE who are beginning to read in English. After a class visit to a community garden, she wants reading material that the students can understand and that builds on their own words and experiences. Which approach best fits her goal?",
+   "options": [
+    "Total Physical Response: students act out the steps of planting as the teacher gives commands",
+    "The Audiolingual Method: students repeat garden vocabulary chorally until pronunciation is accurate",
+    "The Language Experience Approach: students tell about the visit as the teacher writes their words to read",
+    "Grammar-Translation: students translate a published article about gardens into their home languages"
+   ],
+   "answer": 2,
+   "why": "In the Language Experience Approach, a shared experience becomes text. Students describe it, the teacher writes their words (often on a chart), and the class reads, rereads, and works with that text. Because it uses the students' own language and experiences, the text is highly comprehensible and motivating, which makes it an effective bridge to literacy for SIFE and beginning readers of any age.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "TPR can build oral comprehension of garden vocabulary, but it produces no reading material, which is the teacher's stated goal."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Choral vocabulary drills are decontextualized and don't create a comprehensible text built from the students' experience."
+    },
+    null,
+    {
+     "code": "WRONG_LEVEL",
+     "note": "Translating a published article demands strong literacy in two languages, which beginning readers with interrupted schooling may not yet have, and it doesn't use their own words."
+    }
+   ],
+   "key": "Shared experience → students dictate → teacher writes → the text becomes reading material = Language Experience Approach."
+  },
+  {
+   "id": "3.2-14",
+   "skill": "3.2",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A grade 5 Integrated ENL/ELA class includes students whose home languages are Spanish, Bengali, and Arabic; the two co-teachers speak English and Spanish. They want to apply translanguaging pedagogy during a unit on a grade-level novel. Which plan best reflects this approach?",
+   "options": [
+    "Allow students to use their home languages only when they are completely lost, and then redirect them back to English right away.",
+    "Have students discuss chapters in same-language pairs, take notes in any language, and then draft responses in English.",
+    "Give students the novel in their home languages so they can read those editions in place of the English text.",
+    "Use Spanish with the Spanish speakers only, since the teachers cannot support Bengali or Arabic in class."
+   ],
+   "answer": 1,
+   "why": "Translanguaging pedagogy (Ofelia García; CUNY-NYSIEB) treats students' languages as one linguistic repertoire and deliberately plans for them to use all of it to learn: discussing, note-taking, and drafting. Students can then engage grade-level texts more deeply and produce in English. Teachers do not need to speak every home language; they design structures such as same-language partners and multilingual resources.",
+   "traps": [
+    {
+     "code": "DEFICIT",
+     "note": "Treating the home language as an emergency crutch to be phased out is the opposite of translanguaging, which plans home-language use as a resource for learning."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Home-language editions can be a useful support, but replacing the English text removes the grade-level English reading students need. Translanguaging uses the languages together."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Translanguaging doesn't require teachers to speak every language. Teachers design structures, such as same-language partners and multilingual resources, that let all students use their full repertoires."
+    }
+   ],
+   "key": "Translanguaging = planned use of students' full linguistic repertoire for learning; teachers needn't speak every language."
+  },
+  {
+   "id": "3.3-01",
+   "skill": "3.3",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 1,
+   "stimulus": "Lesson plan, grade 4 Integrated ENL science (Emerging to Expanding students)\nContent objective: Students will describe the four stages of a butterfly's life cycle.\nActivities: Students watch a time-lapse video, sort picture cards into order, and explain the cycle to a partner.",
+   "stem": "Which of the following is the most appropriate language objective for this lesson?",
+   "options": [
+    "Students will learn the stages of a butterfly's life cycle by watching a time-lapse video.",
+    "Students will orally sequence the life cycle stages using first, next, then, and finally.",
+    "Students will complete a picture-sorting activity about the life cycle with a partner.",
+    "Students will spell egg, larva, pupa, and adult correctly on a vocabulary quiz."
+   ],
+   "answer": 1,
+   "why": "A language objective names the language function students will use (here, sequencing), the domain (speaking), and the forms that support it (sequence words). That makes it observable and directly tied to the content objective. Strong language objectives state how students will use language to learn and show the content; activities and restated content goals do not.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "content objective ↔ language objective",
+     "note": "This restates the content goal and adds an activity. It says nothing about the language students will use to show their learning."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "objective ↔ activity",
+     "note": "Sorting cards is an activity, not an objective. It doesn't name the language function or forms students will learn."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Spelling words on a quiz is language-related, but it is isolated from the lesson's real language demand (explaining a sequence) and from meaningful use."
+    }
+   ],
+   "key": "Language objective = function + domain + supporting forms (e.g., orally sequence using first/next/then), tied to the content objective."
+  },
+  {
+   "id": "3.3-02",
+   "skill": "3.3",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A teacher writes this language objective: \"Students will compare two habitats in writing, using comparative adjectives (-er than, more … than) and the conjunction whereas.\" Which element of the objective is the language function?",
+   "options": [
+    "compare",
+    "comparative adjectives and whereas",
+    "two habitats",
+    "in writing"
+   ],
+   "answer": 0,
+   "why": "A language function is the purpose for which language is used: describe, compare, explain, sequence, argue. Language forms are the grammatical structures and vocabulary that carry out the function, here comparative adjectives and whereas. Writing is the domain, and habitats are the content.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "pair": "language function ↔ language form",
+     "note": "Comparative adjectives and whereas are forms: the structures students use to carry out the function."
+    },
+    {
+     "code": "LITERAL",
+     "note": "Habitats are the content topic, not what students do with language."
+    },
+    {
+     "code": "TERM",
+     "pair": "language function ↔ language domain",
+     "note": "Writing is the domain (along with listening, speaking, and reading), not the function."
+    }
+   ],
+   "key": "Function = purpose (compare, explain); forms = structures and vocabulary that do it; domain = listening, speaking, reading, or writing."
+  },
+  {
+   "id": "3.3-03",
+   "skill": "3.3",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Writing task, grade 8 Integrated ENL social studies:\n\"Were the colonists justified in protesting the Stamp Act? Write a paragraph that states your claim and supports it with evidence from Documents A and B.\"",
+   "stem": "As she plans, the ESOL co-teacher analyzes the language demands of this task. Which analysis is most complete?",
+   "options": [
+    "Students must read Documents A and B, so the main demand is the readability level of the two sources.",
+    "Students need the words justified, protest, and Stamp Act, so the main demand is at the word level.",
+    "Students must argue: state a claim, cite evidence from each document, and connect it to the claim.",
+    "Students must spell and punctuate correctly, so the main demand is formal paragraph conventions."
+   ],
+   "answer": 2,
+   "why": "Analyzing language demands means looking beyond vocabulary to the function and the discourse- and sentence-level structures a task requires. This task calls for argument: a claim, cited evidence ('According to Document A…'), and reasoning that links them with connectors such as because and therefore. Vocabulary and readability matter, but they are only parts of the demand; the teacher should plan supports for the argument structure itself.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "Readability matters for the reading part, but it ignores what students must produce: a written argument with claim, evidence, and reasoning."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Key vocabulary is one layer of the demand, but word-level analysis misses the discourse and sentence structures that argument requires."
+    },
+    null,
+    {
+     "code": "LITERAL",
+     "note": "Conventions are surface features. Focusing on spelling and punctuation misses the function (argue) and the structures the task demands."
+    }
+   ],
+   "key": "Analyze language demands at the word, sentence, and discourse levels, starting with the function (e.g., argue) the task requires."
+  },
+  {
+   "id": "3.3-04",
+   "skill": "3.3",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 2,
+   "stem": "In a grade 6 Integrated ENL/ELA class, all students will write a paragraph explaining how a character changes in a grade-level short story. Which plan best matches supports to an Emerging student and an Expanding student?",
+   "options": [
+    "Both: the same paragraph frame and the same word bank, so that the task is equally fair for each of them",
+    "Emerging: copy a model paragraph from the board; Expanding: write with no supports",
+    "Emerging: partly completed organizer, word bank, and frames; Expanding: complex-sentence starters",
+    "Emerging: an easier story with a different character; Expanding: the grade-level story"
+   ],
+   "answer": 2,
+   "why": "The NYS New Language Arts Progressions describe the same grade-level task at each level, with support that decreases as proficiency rises. An Emerging student can explain character change with substantial support: an organizer, a word bank, and sentence frames. An Expanding student needs lighter, targeted support to produce complex, cohesive sentences. Both work with the same grade-level text and standard.",
+   "traps": [
+    {
+     "code": "ONE_SIZE",
+     "note": "Identical supports ignore the difference in proficiency: the Expanding student is under-challenged, and the Emerging student may need more."
+    },
+    {
+     "code": "PASSIVE",
+     "note": "Copying a model produces no original thinking or language, and Expanding students still benefit from targeted support for complex language."
+    },
+    null,
+    {
+     "code": "LOWER_RIGOR",
+     "note": "An easier, different text removes the Emerging student's access to the grade-level text and standard. Scaffold the same text instead."
+    }
+   ],
+   "key": "Same grade-level task; heavier supports (frames, word banks, organizers) for Emerging and lighter, targeted supports for Expanding."
+  },
+  {
+   "id": "3.3-05",
+   "skill": "3.3",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A grade 7 Entering student whose home language is Dari has just joined a social studies class that is studying ancient Mesopotamia. Which plan for his first weeks best supports his access to the grade-level content?",
+   "options": [
+    "Give him coloring pages of animals to complete while the class works, until he learns basic English.",
+    "Have him complete the same essay assignment as his classmates, so that he is not singled out.",
+    "Schedule extra Stand-alone ENL for him during social studies until he reaches the Transitioning level.",
+    "Provide a labeled map, visuals, a bilingual glossary, home-language resources, and a partner for sorts."
+   ],
+   "answer": 3,
+   "why": "Entering students can engage with grade-level concepts when the language load is supported. Visuals, labeled maps, home-language resources, bilingual glossaries, and structured partner work let him build content knowledge and English at the same time. Unrelated busywork or removal from the class delays learning, and an unsupported essay ignores his proficiency level.",
+   "traps": [
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Unrelated busywork withholds grade-level content and signals low expectations."
+    },
+    {
+     "code": "WRONG_LEVEL",
+     "note": "The same unsupported essay ignores his Entering level. He needs scaffolds to show what he understands."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "Pulling him out of social studies removes him from grade-level content. Entering students learn content and English together, with support."
+    },
+    null
+   ],
+   "key": "Entering students: keep the grade-level content and add heavy visual, home-language, and partner supports."
+  },
+  {
+   "id": "3.3-06",
+   "skill": "3.3",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Lesson plan, grade 3 Integrated ENL/ELA (Emerging and Transitioning students)\n1. Teacher thinks aloud while writing a summary of a short informational text.\n2. Students independently write a summary of a new text.\n3. Teacher collects and grades the summaries.",
+   "stem": "Based on the gradual release of responsibility model, which revision would most strengthen this plan?",
+   "options": [
+    "Add a second teacher think-aloud so students see two complete models before writing on their own.",
+    "Add a summary written jointly with the class, then partner practice, before students write alone.",
+    "Replace the summary with a vocabulary-matching worksheet, which is more manageable for Emerging students.",
+    "Add a spelling test on the text's key words before students begin to write their summaries."
+   ],
+   "answer": 1,
+   "why": "Gradual release moves from 'I do' (teacher modeling) to 'we do' (guided, shared practice) to 'you do together' (collaborative practice) to 'you do alone' (independent work). This plan jumps from modeling straight to independent writing, skipping the guided and collaborative stages where ELLs rehearse the language and get feedback. More modeling alone still leaves that gap.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "Another model can help, but the plan would still jump from 'I do' to 'you do alone' with no guided or collaborative practice."
+    },
+    null,
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Swapping summarizing for matching lowers the cognitive demand. Scaffold the summary instead."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "A spelling test is decontextualized and does nothing to build the skill of summarizing."
+    }
+   ],
+   "key": "Gradual release: I do → we do → you do together → you do alone. Don't jump from modeling to independence."
+  },
+  {
+   "id": "3.3-07",
+   "skill": "3.3",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "An ESOL teacher and a grade 5 teacher are co-planning a unit using backward design (Understanding by Design). What should they do first?",
+   "options": [
+    "Identify the desired results: the standards-based content and language goals for the unit",
+    "Choose engaging activities and materials that will keep the ELLs motivated across the unit",
+    "Give a pretest to group the students by proficiency level before choosing any unit goals",
+    "Select the textbook chapters to be covered and pace them across the unit calendar"
+   ],
+   "answer": 0,
+   "why": "Backward design (Wiggins & McTighe) has three stages: (1) identify desired results, (2) determine acceptable evidence of learning, and (3) plan learning experiences and instruction. For ELLs, the desired results include both the content goals and the language students need to reach them, so language objectives grow out of stage 1.",
+   "traps": [
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Engagement matters, but in backward design activities are chosen last, after the goals and the assessment evidence are set."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Pre-assessment data helps with differentiation, but backward design begins with the goals, not with grouping."
+    },
+    {
+     "code": "TERM",
+     "pair": "backward design ↔ coverage-based planning",
+     "note": "Planning by textbook coverage is the 'forward' habit that backward design was created to replace."
+    }
+   ],
+   "key": "Backward design: (1) desired results → (2) assessment evidence → (3) learning activities."
+  },
+  {
+   "id": "3.3-08",
+   "skill": "3.3",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 7 science teacher's language objective is \"Students will orally explain the causes of the seasons to a partner using because and as a result.\" Which assessment is best aligned with this objective?",
+   "options": [
+    "A multiple-choice quiz on the causes of the seasons, given at the end of the lesson",
+    "A matching activity that pairs season vocabulary words with their definitions",
+    "A written paragraph about the seasons, graded for spelling and punctuation",
+    "A partner explanation, checked against a list for accuracy and the target phrases"
+   ],
+   "answer": 3,
+   "why": "In backward design, the assessment evidence must match the objective. This objective names a domain (speaking), a function (explaining causes), and forms (because, as a result), so the evidence should be an oral explanation checked against those criteria. A quiz, a matching task, or a paragraph graded for conventions measures something else.",
+   "traps": [
+    {
+     "code": "ASSESS_INVALID",
+     "note": "A multiple-choice quiz checks recognition of content, not the oral explanation or the target forms named in the objective."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Matching words to definitions tests isolated vocabulary, not explaining causes orally with because and as a result."
+    },
+    {
+     "code": "ASSESS_INVALID",
+     "note": "This measures writing conventions, a different domain and different criteria from the speaking objective."
+    },
+    null
+   ],
+   "key": "Assess what the objective names: the same domain, the same function, and the same target forms."
+  },
+  {
+   "id": "3.3-09",
+   "skill": "3.3",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 10 ESOL teacher co-teaches a global history class. The content teacher suggests replacing the grade-level reading on the causes of World War I with a short, simplified summary for the Emerging students. Which response best reflects effective scaffolding for ELLs?",
+   "options": [
+    "Keep the grade-level text, but chunk it, pre-teach key concepts, add glosses and visuals, and pose guiding questions.",
+    "Agree to the plan, because simplified texts let Emerging students learn the content without becoming frustrated by it.",
+    "Keep the grade-level text, and have the Emerging students reread it silently until they can understand it.",
+    "Give the Emerging students a summary in their home languages, so they do not need to read the English text."
+   ],
+   "answer": 0,
+   "why": "Effective scaffolding amplifies rather than simplifies (Walqui): students keep access to complex, grade-level text while the teacher adds temporary supports such as chunking, pre-teaching key concepts, glosses, visuals, and guiding questions. Simplified summaries often strip out the connectors and academic language students need to learn, which lowers rigor.",
+   "traps": [
+    null,
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Simplified summaries often strip out the connectors and academic language students need to learn, and they lower expectations."
+    },
+    {
+     "code": "WRONG_LEVEL",
+     "note": "Unsupported rereading assumes an independence Emerging students don't yet have. They need substantial, planned scaffolds."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Home-language resources are a valuable bridge, but replacing the English text removes the grade-level English reading students need to develop."
+    }
+   ],
+   "key": "Scaffold, don't simplify: keep the grade-level text and add temporary supports (chunking, glosses, visuals, guiding questions)."
+  },
+  {
+   "id": "3.3-10",
+   "skill": "3.3",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "Since September, a grade 4 teacher has given her Expanding students the same fill-in frame (\"The character felt ___ because ___.\") for every written response. In January, their responses are accurate but nearly identical, and they rarely go beyond the frame. What is the best next step?",
+   "options": [
+    "Keep using the same frame, since the students are now producing accurate sentences with it.",
+    "Remove all supports at once, so that the students are pushed to write fully on their own.",
+    "Switch to a longer frame that has more blanks, so that the students produce more writing.",
+    "Fade the frame: offer open starters and a menu of connectors, then move toward independence."
+   ],
+   "answer": 3,
+   "why": "Scaffolds are temporary by design. As proficiency grows, the teacher gradually releases responsibility, moving from fill-in frames to open starters and connector banks and then to independent writing. A frame that never changes can cap students' production, while removing all support at once leaves them without a bridge.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "Accuracy within a frame is good, but a scaffold that never changes caps growth. Expanding students need to move toward varied, independent writing."
+    },
+    {
+     "code": "WRONG_LEVEL",
+     "note": "Abrupt removal skips the bridge. Expanding students still benefit from light, targeted support while it fades."
+    },
+    {
+     "code": "LITERAL",
+     "note": "More blanks produce longer responses, but students are still filling in someone else's sentence. The issue is independence, not length."
+    },
+    null
+   ],
+   "key": "Scaffolds are temporary: fade them gradually as proficiency grows (frame → starters → connector bank → independent)."
+  },
+  {
+   "id": "3.3-11",
+   "skill": "3.3",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 2 class is learning to identify and describe two-dimensional shapes. Which language objective is most appropriate for the Entering students in the class?",
+   "options": [
+    "Students will write a paragraph comparing triangles and squares using complex sentences.",
+    "Students will name shapes and tell how many sides each has, using \"It has __ sides\" and pictures.",
+    "Students will listen quietly as classmates describe shapes, so they can absorb the vocabulary.",
+    "Students will copy the names of ten two-dimensional shapes from the board into notebooks."
+   ],
+   "answer": 1,
+   "why": "Language objectives should target the same grade-level content while matching expectations to proficiency. Entering students can name and describe using words, short phrases, and simple frames with visual support. A paragraph of complex comparisons is beyond the Entering level, while silent listening or copying offers no meaningful output.",
+   "traps": [
+    {
+     "code": "WRONG_LEVEL",
+     "note": "A paragraph of complex comparative sentences fits Expanding or Commanding students, not Entering students."
+    },
+    null,
+    {
+     "code": "PASSIVE",
+     "note": "Listening matters, but an objective with no output gives Entering students no chance to use the new language."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Copying words is rote and decontextualized; students never use language to describe the shapes."
+    }
+   ],
+   "key": "Entering language objectives: same content, words and phrases with frames and visuals; meaningful output, not copying or silence."
+  },
+  {
+   "id": "3.3-12",
+   "skill": "3.3",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Text excerpt, grade 8 science:\n\"Because wolves were removed from the park, the elk population, which had previously been kept in check, grew rapidly, resulting in the overgrazing of willow trees along the rivers.\"",
+   "stem": "When planning, the ESOL teacher wants to address the sentence-level language demands of this excerpt. Which demand should she prioritize?",
+   "options": [
+    "The technical word overgrazing, which many students may not know or be able to define",
+    "A cause-and-effect chain packed into an embedded clause and a participial phrase",
+    "The past tense verbs were and grew, which signal a narrative",
+    "The phrase kept in check, which students may read literally"
+   ],
+   "answer": 1,
+   "why": "Sentence-level demands come from how ideas are packaged grammatically. This sentence embeds a relative clause (which had previously been kept in check) and ends with a participial phrase (resulting in…) that carries a chain of causes and effects. Teachers can scaffold by unpacking it into shorter sentences and then rebuilding it, so students learn to read and eventually write such sentences.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "Overgrazing is a real word-level demand, but the question asks about the sentence level: how ideas are packaged grammatically."
+    },
+    null,
+    {
+     "code": "LITERAL",
+     "note": "The simple past verbs aren't the challenge, and the excerpt is a cause-and-effect explanation, not a narrative."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Kept in check is a phrase-level (idiomatic) demand worth teaching, but the larger sentence-level challenge is the clause structure."
+    }
+   ],
+   "key": "Sentence-level demands = complex structures (embedded clauses, participial phrases). Unpack them, then repack them."
+  },
+  {
+   "id": "3.3-13",
+   "skill": "3.3",
+   "type": "knowledge",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "What is the primary reason for writing a language objective in addition to a content objective for a lesson that includes ELLs?",
+   "options": [
+    "To make explicit the language students need to learn the content, so that it is taught and assessed",
+    "To give ELLs a separate and easier objective in place of the grade-level content objective",
+    "To satisfy a lesson-plan format requirement for formal observations by administrators",
+    "To identify the grammar rules that students will practice in isolation after the content part of the lesson"
+   ],
+   "answer": 0,
+   "why": "Language objectives make the language of the lesson visible: the functions, forms, and vocabulary students need in order to understand and demonstrate the content. Naming them ensures that this language is deliberately taught, practiced, and assessed alongside the content rather than assumed. Every student benefits, not only ELLs.",
+   "traps": [
+    null,
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Language objectives accompany the grade-level content objective; they don't replace it with an easier one."
+    },
+    {
+     "code": "LITERAL",
+     "note": "Format compliance is a surface reason. The real purpose is to make language teaching deliberate."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Language objectives are tied to the lesson's content and tasks, not to grammar practice in isolation."
+    }
+   ],
+   "key": "Language objectives make lesson-specific language explicit so that it is taught and assessed alongside (not instead of) content."
+  },
+  {
+   "id": "3.3-14",
+   "skill": "3.3",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "During the collaborative (\"you do it together\") stage of a grade 5 lesson on opinion paragraphs, an ESOL teacher notices that three Emerging students cannot yet state a reason using because, while the rest of the class is working well. What is the most effective response?",
+   "options": [
+    "Move the whole class back to teacher modeling so that everyone hears the explanation again.",
+    "Let the three students skip the reason and write only their opinion, to keep the task manageable.",
+    "Pull the three into a brief guided group to build reasons with because, then return them to partners.",
+    "Let the three keep working with partners, since struggling at this stage builds independence."
+   ],
+   "answer": 2,
+   "why": "Gradual release is recursive, not a one-way march. When formative evidence shows that some students aren't ready, the teacher temporarily returns those students to guided instruction while the others continue. A targeted small group keeps the Emerging students working toward the full grade-level task (opinion plus reason) within their zone of proximal development.",
+   "traps": [
+    {
+     "code": "ONE_SIZE",
+     "note": "Reteaching everyone wastes time for students who are ready. The evidence points to a targeted group."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Dropping the reason removes the core of opinion writing. Scaffold the reason instead."
+    },
+    null,
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Productive struggle helps only within the zone of proximal development. These students lack the language they need even with peers, so they need more guided support."
+    }
+   ],
+   "key": "Gradual release is recursive: re-teach students who aren't ready in a guided small group while the others continue."
+  },
+  {
+   "id": "3.4-01",
+   "skill": "3.4",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 1,
+   "stimulus": "Grade 4 Integrated ENL/ELA, morning share:\nStudent (Emerging; home language Haitian Creole): Yesterday I go to the library with my brother.\nTeacher: Oh, you went to the library with your brother yesterday? What did you find there?\nStudent: I find—I found a book about sharks!",
+   "stem": "The teacher's response is an example of which type of corrective feedback?",
+   "options": [
+    "Explicit correction",
+    "Elicitation",
+    "Metalinguistic feedback",
+    "Recast"
+   ],
+   "answer": 3,
+   "why": "A recast reformulates all or part of a student's utterance correctly (go → went) without saying that an error occurred, so the focus stays on meaning. Lyster and Ranta found that recasts are the most frequent type of teacher feedback. They are unobtrusive, though students don't always notice them. Here the student does notice and self-corrects, which is called uptake.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "recast ↔ explicit correction",
+     "note": "Explicit correction clearly signals the error and gives the correct form ('Not go: went'). This teacher gives no signal; she simply reformulates."
+    },
+    {
+     "code": "TERM",
+     "pair": "recast ↔ elicitation",
+     "note": "Elicitation pushes the student to produce the form himself, by pausing or asking. This teacher supplies the correct form."
+    },
+    {
+     "code": "TERM",
+     "pair": "recast ↔ metalinguistic feedback",
+     "note": "Metalinguistic feedback comments on the grammar ('Yesterday means past tense'). No grammatical information is given here."
+    },
+    null
+   ],
+   "key": "Recast = the teacher reformulates the error correctly, with no explicit signal that an error occurred."
+  },
+  {
+   "id": "3.4-02",
+   "skill": "3.4",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Grade 6 Stand-alone ENL:\nStudent (Transitioning; home language Mandarin): My sister have two cats.\nTeacher: My sister …? (pauses and waits)\nStudent: My sister has two cats.",
+   "stem": "Which type of corrective feedback did the teacher use?",
+   "options": [
+    "Repetition",
+    "Elicitation",
+    "Recast",
+    "Clarification request"
+   ],
+   "answer": 1,
+   "why": "Elicitation prompts students to produce the correct form themselves. The teacher may pause so the student completes the utterance ('My sister …?'), ask 'How do we say that?', or ask the student to reformulate. Repetition, by contrast, repeats the student's error, usually with rising intonation ('My sister have?'). Elicitation tends to lead to student-generated repair.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "elicitation ↔ repetition",
+     "note": "Repetition repeats the student's error, usually with rising intonation ('My sister have?'). This teacher stops just before the error and waits for the student to complete it."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "elicitation ↔ recast",
+     "note": "A recast supplies the correct form. Here the teacher withholds it so the student must produce it."
+    },
+    {
+     "code": "TERM",
+     "pair": "elicitation ↔ clarification request",
+     "note": "A clarification request ('Pardon?') signals a breakdown without pinpointing the problem. Pausing right at the error invites the student to complete it correctly."
+    }
+   ],
+   "key": "Elicitation = the teacher pauses or asks so the student supplies the correct form (e.g., 'My sister …?')."
+  },
+  {
+   "id": "3.4-03",
+   "skill": "3.4",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Grade 8 Integrated ENL/ELA:\nStudent (Expanding; home language Polish): Last summer my family has visited Ecuador.\nTeacher: \"Last summer\" is a finished time in the past, so we need the simple past here, not the present perfect.\nStudent: Oh—my family visited Ecuador.",
+   "stem": "The teacher's response is best classified as which type of corrective feedback?",
+   "options": [
+    "Metalinguistic feedback",
+    "Explicit correction",
+    "Recast",
+    "Repetition"
+   ],
+   "answer": 0,
+   "why": "Metalinguistic feedback gives comments, information, or questions about the form of the student's utterance without supplying the correct form. Here the teacher explains the rule (a finished past time takes the simple past) and leaves the student to produce visited. Explicit correction would both mark the error and give the correct form ('Not has visited: visited'). Like elicitation, metalinguistic feedback pushes students to repair their own errors.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "pair": "metalinguistic feedback ↔ explicit correction",
+     "note": "Explicit correction signals the error AND provides the correct form. This teacher explains the rule but leaves the form for the student to produce."
+    },
+    {
+     "code": "TERM",
+     "pair": "metalinguistic feedback ↔ recast",
+     "note": "A recast quietly reformulates the sentence correctly, with no grammar talk. This teacher gives grammatical information instead of a model."
+    },
+    {
+     "code": "TERM",
+     "pair": "metalinguistic feedback ↔ repetition",
+     "note": "Repetition would echo the error with emphasis ('Has visited?'). The teacher instead names the tense that is needed."
+    }
+   ],
+   "key": "Metalinguistic feedback = a grammatical comment or clue about the error, without giving the correct form."
+  },
+  {
+   "id": "3.4-04",
+   "skill": "3.4",
+   "type": "analysis",
+   "difficulty": 1,
+   "diag": 0,
+   "stimulus": "Grade 2 science center:\nStudent (Entering; home language Arabic): Teacher, I need the … the cut thing.\nTeacher: Sorry, what do you need?\nStudent: The scissors! For cut the paper.",
+   "stem": "The teacher's question \"Sorry, what do you need?\" is an example of which move?",
+   "options": [
+    "Recast",
+    "Confirmation check",
+    "Clarification request",
+    "Metalinguistic feedback"
+   ],
+   "answer": 2,
+   "why": "A clarification request ('Pardon?' 'What do you mean?') signals that the listener did not understand and asks the speaker to repeat or reformulate. In Long's Interaction Hypothesis, this kind of negotiation of meaning pushes learners to modify their output, as this student does by producing scissors. A confirmation check would instead offer the listener's interpretation ('The scissors?').",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "clarification request ↔ recast",
+     "note": "A recast supplies a corrected version. This teacher doesn't offer any word; she asks the student to say it again."
+    },
+    {
+     "code": "TERM",
+     "pair": "clarification request ↔ confirmation check",
+     "note": "A confirmation check offers the listener's interpretation for the speaker to confirm ('The scissors?'). The teacher offers none; she asks what the student needs."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "clarification request ↔ metalinguistic feedback",
+     "note": "Metalinguistic feedback gives information about language form. The teacher's question is about meaning, not grammar."
+    }
+   ],
+   "key": "Clarification request = 'What do you mean?': the listener asks the speaker to repeat or reformulate."
+  },
+  {
+   "id": "3.4-05",
+   "skill": "3.4",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A grade 9 Expanding student often says \"more better\" even though her teacher has recast the error many times; she shows no sign of noticing the recasts. The teacher wants her to produce the correct form herself. Which feedback is most likely to accomplish this goal?",
+   "options": [
+    "Keep recasting the error (\"Yes, it's better\") consistently every time it occurs in class.",
+    "Write better on her paper and have her copy the correct form ten times for homework.",
+    "Prompt her with \"Can you say that another way?\" and give her time to reformulate it.",
+    "Ignore the error, since errors at the Expanding level resolve on their own with more input."
+   ],
+   "answer": 2,
+   "why": "Lyster and Ranta found that recasts, though the most common type of feedback, lead to less learner-generated repair than prompts such as elicitation and metalinguistic feedback, which push students to retrieve and produce the correct form themselves. For a persistent error that recasts haven't fixed, a prompt that makes her reformulate is the better choice.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "Recasts are the most common type of feedback, but they often go unnoticed and lead to less self-repair, as has already happened with this student."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Copying a word in isolation doesn't make her retrieve the form during communication, and it can feel punitive."
+    },
+    null,
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Input alone may not fix a persistent error. Without prompts that help her notice the gap, the error risks fossilizing."
+    }
+   ],
+   "key": "For self-repair of persistent errors, use prompts (elicitation, metalinguistic feedback) rather than more recasts."
+  },
+  {
+   "id": "3.4-06",
+   "skill": "3.4",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "During a whole-class sharing circle, a grade 3 Emerging student excitedly tells about her new baby brother, making several errors in verb tense. What is the most effective teacher response?",
+   "options": [
+    "Stop her after each error and have her repeat the corrected sentence before she goes on.",
+    "Ignore the tense errors entirely, since grammar instruction does not help Emerging students.",
+    "Suggest that she write the story first so she can check her verbs before she shares aloud.",
+    "Respond to her news, recast one key form in passing, and note the pattern for a mini-lesson."
+   ],
+   "answer": 3,
+   "why": "In a meaning-focused activity the goal is fluency and communication. The teacher responds to the message, models a correct form unobtrusively with a recast, and records error patterns to teach later in a focused mini-lesson. Interrupting repeatedly raises the affective filter and shifts attention from meaning to form.",
+   "traps": [
+    {
+     "code": "OVERCORRECT",
+     "note": "Interrupting after every error shifts attention from meaning to form and raises her affective filter in front of the class."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Krashen's ideas don't mean that form never matters. Focused instruction on the tense pattern later is helpful; ignoring it entirely misses the chance."
+    },
+    {
+     "code": "OVERCORRECT",
+     "note": "Making accuracy a precondition for sharing turns a fluency activity into an accuracy exercise and puts form ahead of meaning."
+    },
+    null
+   ],
+   "key": "In meaning-focused talk, respond to the message, recast lightly, and save error patterns for later focused instruction."
+  },
+  {
+   "id": "3.4-07",
+   "skill": "3.4",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "Which adjustment to teacher talk is most likely to make a grade 5 science explanation comprehensible to Emerging students?",
+   "options": [
+    "Using a slightly slower rate, shorter sentences, paraphrase, and gestures or visuals for key ideas",
+    "Speaking more loudly and repeating each sentence word for word until the students nod",
+    "Avoiding academic vocabulary and using only everyday words for the science concepts",
+    "Reading the textbook passage aloud at a normal pace so students hear authentic academic English"
+   ],
+   "answer": 0,
+   "why": "Comprehensible input depends on speech suited to students' proficiency: a slightly slower rate, clear enunciation, shorter and less complex sentences, pauses, paraphrase and repetition, and gestures and visuals. This is SIOP's Comprehensible Input component. Academic vocabulary stays in the lesson but is made understandable; volume and watered-down content don't help.",
+   "traps": [
+    null,
+    {
+     "code": "LITERAL",
+     "note": "Volume doesn't create understanding, and nodding isn't evidence of comprehension. Rewording and visuals do the work."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "ELLs need academic vocabulary. Make it comprehensible with visuals and paraphrase instead of removing it."
+    },
+    {
+     "code": "PASSIVE",
+     "note": "Unmodified reading aloud is authentic, but for Emerging students it isn't comprehensible input; there is no adjustment or support."
+    }
+   ],
+   "key": "Comprehensible teacher talk: slower rate, shorter sentences, paraphrase, pauses, gestures and visuals, with academic vocabulary kept."
+  },
+  {
+   "id": "3.4-08",
+   "skill": "3.4",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 2,
+   "stem": "A grade 7 social studies teacher asks a question and calls on the first student who raises a hand, usually within a second or two. Her ELLs rarely participate. Which change would most likely increase their participation?",
+   "options": [
+    "Ask the ELLs only yes/no questions so that they can respond quickly and successfully.",
+    "Extend the wait time and have students rehearse answers with a partner before calling on anyone.",
+    "Call on the ELLs first, before other students have a chance to raise their hands, to hold them accountable.",
+    "Have the ELLs write their answers silently while the rest of the class discusses aloud."
+   ],
+   "answer": 1,
+   "why": "ELLs need extra processing time to understand a question, form an answer, and find the English to express it. Extending wait time and using structures such as think-pair-share let students rehearse with a partner first. That lowers anxiety and increases both the number and the quality of responses.",
+   "traps": [
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Limiting ELLs to yes/no questions lowers expectations. They need time and support to answer higher-level questions."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Including ELLs is the right goal, but calling on them instantly gives no processing time and can raise anxiety."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "Separating ELLs from the oral discussion removes their chance to practice academic talk."
+    }
+   ],
+   "key": "Extend wait time and let students rehearse with a partner (think-pair-share) before calling on anyone."
+  },
+  {
+   "id": "3.4-09",
+   "skill": "3.4",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 4 teacher is introducing the concept of erosion to a class that includes several Emerging students. Which approach would make the concept most comprehensible?",
+   "options": [
+    "Give students a dictionary definition of erosion to copy into their notebooks and memorize",
+    "Explain erosion slowly and clearly, offering several synonyms to clarify the term's meaning",
+    "Demonstrate with a tray of soil and running water while naming the process, then label photos",
+    "Translate the word erosion into each home language and then move on to the next concept"
+   ],
+   "answer": 2,
+   "why": "Hands-on demonstrations, realia, and visuals make abstract concepts concrete: students see erosion happen while they hear the language that names it, so the input is context-embedded (Cummins). Labeling photos of real erosion afterward connects the model to the world and supports later talk and writing.",
+   "traps": [
+    {
+     "code": "ISOLATED",
+     "note": "A copied definition is abstract, decontextualized language. It doesn't show students what erosion is."
+    },
+    {
+     "code": "PASSIVE",
+     "note": "Clear talk helps, but words alone keep the concept abstract and context-reduced. Students need to see it."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "A translation can help, but a label doesn't build the concept, especially if students don't know it in their home language either."
+    }
+   ],
+   "key": "Make concepts comprehensible with demonstrations, realia, and visuals paired with the language, not words alone."
+  },
+  {
+   "id": "3.4-10",
+   "skill": "3.4",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A teacher divides a grade 8 article on renewable energy into four sections. Each student in a home group reads one section, meets with classmates from other groups who read the same section, and then returns to teach it to the home group. Which cooperative learning structure is this?",
+   "options": [
+    "Think-Pair-Share",
+    "Numbered Heads Together",
+    "Jigsaw",
+    "Inside-Outside Circle"
+   ],
+   "answer": 2,
+   "why": "In a Jigsaw, each member of a home group becomes an 'expert' on one part of the material in an expert group and then teaches it to the home group. Because every student holds information the others need, Jigsaw builds positive interdependence and individual accountability, and it gives ELLs authentic reasons to speak and listen.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "Jigsaw ↔ Think-Pair-Share",
+     "note": "Think-Pair-Share has students think alone, discuss with a partner, and share. No one becomes an expert on a separate section."
+    },
+    {
+     "code": "TERM",
+     "pair": "Jigsaw ↔ Numbered Heads Together",
+     "note": "In Numbered Heads Together, group members discuss a question together, and the teacher calls a number to choose who answers."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "Jigsaw ↔ Inside-Outside Circle",
+     "note": "Inside-Outside Circle arranges students in two circles that rotate so that each student talks with a series of partners."
+    }
+   ],
+   "key": "Jigsaw: home group → expert group on one section → return to teach. It builds interdependence and accountability."
+  },
+  {
+   "id": "3.4-11",
+   "skill": "3.4",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Transcript, grade 10 Integrated ENL/ELA small group (Expanding students):\nS1: I think the narrator is brave.\nS2: I agree.\nS3: Me too.\nS1: OK. Next question.",
+   "stem": "The teacher wants discussions like this one to become more extended and academic. Which instructional step would be most effective?",
+   "options": [
+    "Model and practice moves like elaborating, citing evidence, and building on ideas, with frames and roles.",
+    "Replace small-group talk with teacher-led questioning so that the teacher can control the quality of answers.",
+    "Give the groups more discussion time, since deeper conversations will develop naturally with practice.",
+    "Record the discussions and grade each student's speech for grammatical accuracy to raise expectations."
+   ],
+   "answer": 0,
+   "why": "Structured academic talk has to be taught. Students learn conversation moves (elaborate and clarify, support with evidence, paraphrase, build on or challenge ideas) through modeling, frames such as 'Building on what you said…' or 'What in the text makes you think that?', and assigned roles. Adding time rarely changes the pattern, and teacher-led questioning or grammar grading reduces student talk.",
+   "traps": [
+    null,
+    {
+     "code": "PASSIVE",
+     "note": "Teacher-led questioning reduces student talk. ELLs need structured opportunities to talk with peers."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Time helps, but without explicit instruction in conversation moves, the 'I agree / me too' pattern usually continues."
+    },
+    {
+     "code": "OVERCORRECT",
+     "note": "Grading speech for grammar puts form ahead of meaning and discourages risk-taking in discussion."
+    }
+   ],
+   "key": "Teach academic conversation moves explicitly: model, frame, and practice elaborating, supporting, and building on ideas."
+  },
+  {
+   "id": "3.4-12",
+   "skill": "3.4",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Grade 5 partner task (giving directions for a plant experiment):\nS1 (Transitioning; home language Bengali): Then you put the seeds in the … the small glass.\nS2 (Emerging; home language Urdu): The small glass? You mean the jar?\nS1: Yes, the jar. Then you add water.",
+   "stem": "S2's response (\"The small glass? You mean the jar?\") is best described as which negotiation-of-meaning move?",
+   "options": [
+    "Comprehension check",
+    "Clarification request",
+    "Elicitation",
+    "Confirmation check"
+   ],
+   "answer": 3,
+   "why": "In Long's Interaction Hypothesis, negotiation of meaning involves three moves. A confirmation check is the listener's attempt to confirm understanding by repeating or rephrasing what was heard, usually with rising intonation ('The small glass? You mean the jar?'). A clarification request asks the speaker to explain ('What do you mean?'), and a comprehension check is the speaker asking whether the listener understood ('Do you know what I mean?').",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "confirmation check ↔ comprehension check",
+     "note": "A comprehension check comes from the speaker, checking that the listener understood ('Do you know what I mean?'). S2 is the listener checking her own understanding."
+    },
+    {
+     "code": "TERM",
+     "pair": "confirmation check ↔ clarification request",
+     "note": "A clarification request asks the speaker to explain ('What do you mean?') without offering an interpretation. S2 offers her guess, the jar, for confirmation."
+    },
+    {
+     "code": "TERM",
+     "pair": "confirmation check ↔ elicitation",
+     "note": "Elicitation is a teacher feedback move that prompts a student to produce a correct form. S2 is a peer confirming meaning, not prompting a correction."
+    },
+    null
+   ],
+   "key": "Confirmation check = the listener repeats or rephrases to confirm ('You mean the jar?'); comprehension check = the speaker asks 'Understand?'"
+  },
+  {
+   "id": "3.4-13",
+   "skill": "3.4",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A grade 6 ESOL teacher wants an activity that will require her Emerging and Transitioning students to negotiate meaning and push their spoken output, in line with Long's and Swain's research. Which activity best fits this purpose?",
+   "options": [
+    "Think-pair-share on a question about a story, with a sentence frame for students' answers",
+    "Choral reading of a dialogue about public transportation, followed by comprehension questions",
+    "A video about city transportation, followed by a cloze passage that students complete alone",
+    "A two-way information gap in which partners combine halves of a bus map to plan a route"
+   ],
+   "answer": 3,
+   "why": "In a two-way information gap, each partner holds information the other needs, so communication is required. Breakdowns trigger negotiation of meaning (clarification requests, confirmation checks), which Long links to acquisition, and students must produce comprehensible output, which Swain argues helps them notice gaps. Think-pair-share is valuable interaction, but partners share the same question and information.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "Think-pair-share is valuable interaction, but partners share the same question and information, so they aren't required to negotiate meaning."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Choral reading produces scripted speech, not the learners' own output, and nothing has to be negotiated."
+    },
+    {
+     "code": "PASSIVE",
+     "note": "Watching a video and filling in a cloze alone involves no interaction or spoken output."
+    },
+    null
+   ],
+   "key": "Two-way information gaps require exchanging unknown information, which maximizes negotiation of meaning and pushed output."
+  },
+  {
+   "id": "3.4-14",
+   "skill": "3.4",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "After giving multistep directions for a lab, a grade 7 teacher wants to check whether her Emerging students understood. Which approach gives her the most reliable information?",
+   "options": [
+    "Asking the class, \"Does everybody understand?\" and watching for students to nod",
+    "Having students point to each step on an illustrated card and retell the steps to a partner",
+    "Repeating the directions a second time, more slowly, so that everyone in the room has heard them",
+    "Asking the most proficient student to summarize the directions aloud for the class"
+   ],
+   "answer": 1,
+   "why": "General questions like 'Do you understand?' are unreliable, because students may nod to be polite or may not realize what they missed. Effective comprehension checks require every student to show understanding by pointing, sequencing, demonstrating, or retelling. That gives the teacher real evidence and shows exactly which steps to reteach.",
+   "traps": [
+    {
+     "code": "ASSESS_INVALID",
+     "note": "Yes/no checks are unreliable: students may nod to be polite or may not realize what they missed."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Repetition can aid comprehension, but it gives the teacher no evidence of who understood."
+    },
+    {
+     "code": "PASSIVE",
+     "note": "One strong student's summary says nothing about whether the Emerging students understood; they only listen."
+    }
+   ],
+   "key": "Check comprehension by having students show or retell (point, demonstrate, sequence), not by asking 'Do you understand?'"
+  }
+ ],
+ "lessons": [
+  {
+   "skill": "3.1",
+   "title": "NYS Program Models & Part 154 Service Requirements",
+   "why": "Expect items that ask you to name a program model from a description, check a student's weekly ENL schedule against Part 154, and apply the bilingual-program trigger and parent choice.",
+   "body": [
+    {
+     "h": "The three program options parents choose from",
+     "md": "Under CR Part 154, every identified ELL is served in one of three program types. Parents learn about all three at an orientation, in their preferred language, before they choose.\n\n- **ENL (English as a New Language):** English language development delivered in English, through **Stand-alone ENL** and **Integrated ENL**. Home languages can and should still be used as supports.\n- **Transitional Bilingual Education (TBE):** home language arts, content taught in the home language and in English, and ENL. English instruction increases over time, and the goal is to **transition** students to English-only instruction.\n- **Dual Language (DL):** literacy and content in two languages over many years, with the goal of **bilingualism and biliteracy**, academic achievement, and cross-cultural understanding.\n\nDual Language comes in two forms:\n\n- **One-way:** students come mostly from one language group (for example, Spanish-speaking ELLs and former ELLs).\n- **Two-way:** ELLs and English-proficient students learn together, ideally in a balanced mix, each group learning the other's language.\n\nThe quick sort: if the home language is phased out, it's TBE. If the home language is kept for biliteracy, it's Dual Language. If English-proficient students are deliberately mixed in, it's two-way. Note that bilingual programs still include ENL: a TBE student gets home language arts, bilingual content, **and** ENL units for her level."
+    },
+    {
+     "h": "Stand-alone vs. Integrated ENL",
+     "md": "**Stand-alone ENL** is taught by a certified ESOL teacher to ELLs. Its purpose is to build the English students need to succeed in their core content classes. The best Stand-alone lessons are anchored in what students are studying (the vocabulary, sentence patterns, and language functions of this month's science or ELA unit), not a separate grammar track or homework help.\n\n**Integrated ENL** delivers core content and English language development at the same time, in a class with English-proficient peers. It must be taught by either:\n\n- one teacher **dually certified** in the content area and ESOL, or\n- a certified content teacher and a certified ESOL teacher **co-teaching**.\n\nA bilingual paraprofessional is a valuable support, and so is a content teacher with plenty of ELL-focused CTLE hours. Neither one counts toward Integrated ENL minutes."
+    },
+    {
+     "h": "Units of study, grades K–8 (memorize this)",
+     "md": "One unit of study is 180 minutes per week. Required minutes go down as proficiency goes up, and the Stand-alone portion shrinks first.\n\n- **Entering:** 360 min = 180 Stand-alone + 180 Integrated ENL/ELA\n- **Emerging:** 360 min = 90 Stand-alone + 180 Integrated ENL/ELA + 90 flexible (Stand-alone or Integrated)\n- **Transitioning:** 180 min = 90 Integrated ENL/ELA + 90 flexible\n- **Expanding:** 180 min of Integrated ENL in ELA **or another core content area**\n- **Commanding (former ELL):** 90 min of Integrated ENL or other approved former-ELL services, for 2 years\n\nPatterns worth noticing:\n\n- The totals run 360 → 360 → 180 → 180 → 90.\n- Integrated ENL in **ELA** is required for Entering, Emerging, and Transitioning. Only at Expanding may the Integrated minutes be in science, math, or social studies instead.\n- Beginning at Transitioning there is no required Stand-alone time; Stand-alone is optional through the flexible 90.\n\nHigh school Entering students receive more time (540 minutes), but you won't need the 9–12 breakdown."
+    },
+    {
+     "h": "Exit and former-ELL services",
+     "md": "A student exits ELL status by scoring **Commanding** on the NYSESLAT, or by scoring **Expanding** plus Level 3 or higher on the Grades 3–8 ELA test (or 65 or higher on the Regents ELA exam). Exit is not the end of support. Former ELLs get **90 minutes a week** of Integrated ENL (or other approved former-ELL services) for **two years**, and they keep ELL testing accommodations for two years.\n\nDon't confuse this with ESSA, which lets states keep former ELs in the EL subgroup for up to **four** years for accountability. That is a reporting rule, not a service rule."
+    },
+    {
+     "h": "The bilingual trigger and parent choice",
+     "md": "A district **must** provide a bilingual education program when there are **20 or more ELLs with the same home language in the same grade level, counted districtwide**. All three conditions are required:\n\n- **Same home language:** 24 grade 4 ELLs who speak four different languages don't count.\n- **Same grade:** nine Arabic speakers in each of grades 3, 4, and 5 don't count.\n- **Districtwide:** 22 Bengali-speaking second graders spread across three schools **do** count, even though no building has 20.\n\nParents still choose. If parents decline a bilingual program, the student goes into **ENL** with the full units of study for his or her level; declining bilingual is not declining services. When numbers fall below the trigger (say, six Pashto-speaking fifth graders), the student is served in ENL. Teachers can still use the home language through bilingual glossaries, home-language texts, and translanguaging."
+    },
+    {
+     "h": "How these items look on the exam",
+     "md": "Most Part 154 items are applied, not pure recall:\n\n- **Schedule check:** a table of students, levels, and minutes; find the one out of compliance. Check each **component** before the total. A student can have 360 minutes and still fall short if the Integrated time isn't in ELA.\n- **Program ID:** a brochure or principal's description. Decide among TBE, one-way DL, two-way DL, and ENL from the goal (transition or biliteracy) and the student mix.\n- **Policy response:** a principal's proposal or a parent's request. Choose the response that is both compliant and good for kids.\n\nWhen two options look right, prefer the one that keeps the ELL in grade-level instruction with qualified teachers and honors the parents' choice."
+    }
+   ],
+   "traps": [
+    "Exam trap: The total minutes match but a component is wrong. Entering and Emerging students need 180 minutes of Integrated ENL in ELA specifically.",
+    "Exam trap: Counting the bilingual trigger per school. It is 20+ ELLs with the same home language in the same grade, districtwide.",
+    "Exam trap: Treating a declined bilingual program as declined services. The student is placed in ENL with full units of study.",
+    "Exam trap: Calling a one-language-group program TBE when its goal is biliteracy. That is one-way Dual Language.",
+    "Exam trap: Counting paraprofessional support, or a content teacher with ELL-focused PD hours, as Integrated ENL."
+   ],
+   "terms": [
+    {
+     "t": "ENL",
+     "d": "English as a New Language: a program of English language development delivered through Stand-alone and Integrated ENL."
+    },
+    {
+     "t": "Stand-alone ENL",
+     "d": "ELL class taught by a certified ESOL teacher to build the English students need for core content success."
+    },
+    {
+     "t": "Integrated ENL",
+     "d": "Content plus English development, taught by a dually certified teacher or co-taught by certified content and ESOL teachers."
+    },
+    {
+     "t": "Integrated ENL/ELA",
+     "d": "Integrated ENL delivered in the ELA class; required for Entering, Emerging, and Transitioning students in K–8."
+    },
+    {
+     "t": "TBE",
+     "d": "Transitional Bilingual Education: home language arts, bilingual content, and ENL; the goal is transition to English-only instruction."
+    },
+    {
+     "t": "One-way Dual Language",
+     "d": "Two-language program serving mainly one language group, aiming for bilingualism and biliteracy."
+    },
+    {
+     "t": "Two-way Dual Language",
+     "d": "Two-language program combining ELLs and English-proficient students, aiming for biliteracy for all."
+    },
+    {
+     "t": "Unit of study",
+     "d": "180 minutes of instruction per week."
+    },
+    {
+     "t": "Flexible minutes",
+     "d": "Emerging and Transitioning minutes that may be delivered as either Stand-alone or Integrated ENL."
+    },
+    {
+     "t": "Bilingual program trigger",
+     "d": "20+ ELLs with the same home language in the same grade, districtwide: the district must provide a bilingual program."
+    },
+    {
+     "t": "Former-ELL services",
+     "d": "90 minutes a week of Integrated ENL or approved services for 2 years after exit, plus testing accommodations."
+    },
+    {
+     "t": "Parent orientation",
+     "d": "Session where parents learn about TBE, Dual Language, and ENL in their preferred language before choosing."
+    },
+    {
+     "t": "Home Language Arts",
+     "d": "Literacy instruction in the home language; a core component of bilingual programs."
+    },
+    {
+     "t": "CR Part 154",
+     "d": "NYS Commissioner's Regulations governing ELL identification, program options, units of study, and services."
+    }
+   ],
+   "tip": "On schedule questions, check each required component (Stand-alone, Integrated ENL/ELA, flexible) before you look at the total."
+  },
+  {
+   "skill": "3.2",
+   "title": "Approaches & Methods: Recognize Them, Evaluate Them",
+   "why": "The exam describes a classroom or a transcript and asks which method it reflects, what theory underlies it, or which approach best fits a goal.",
+   "body": [
+    {
+     "h": "Read the fingerprint, not the label",
+     "md": "Method items give you a short vignette and four method names. Each method has one or two **fingerprint** features. Find them, and ignore surface details such as objects on a desk, a moment of translation, or an audio recorder.\n\nAsk three questions:\n\n- **What does the teacher do?** Talk constantly, stay silent, translate, drill, counsel, or design tasks?\n- **What do the students do?** Move, repeat, answer in full sentences, dictate, complete a task, or apply a strategy?\n- **What is the goal?** Accurate habits, comprehension first, communication, content learning, or strategic learning?"
+    },
+    {
+     "h": "Structural and early methods",
+     "md": "- **Grammar-Translation:** translate written texts, memorize bilingual word lists, and learn rules **deductively** (rule first, then practice). It builds knowledge *about* English but little oral communication, which is its big limitation for ELLs.\n- **Direct Method:** English only, never translate. Meaning comes through demonstration, realia, and pictures in **question-and-answer** exchanges. Grammar is learned **inductively**, and full-sentence answers and good pronunciation are expected.\n- **Audiolingual Method (ALM):** memorized dialogues and **pattern drills** (substitution, repetition, chain), immediate correction, and praise as reinforcement. It is rooted in **Skinner's behaviorism** and structural linguistics: language as habit formation.\n\nDirect Method vs. ALM is a favorite trap, because both are oral and English-only. Q&A about objects points to the Direct Method; drilling a pattern and rewarding the correct response points to ALM.\n\nA typical ALM drill: T: \"I am going to the store. She.\" Ss: \"She is going to the store.\" T: \"Good! They.\""
+    },
+    {
+     "h": "Comprehension-first and humanistic methods",
+     "md": "- **Total Physical Response (TPR, Asher):** the teacher gives commands and students respond with actions; speech is not forced. It is excellent for Entering students and young learners but limited for abstract language.\n- **Natural Approach (Krashen & Terrell):** abundant comprehensible input, a silent (preproduction) period, questions matched to the stage (yes/no and either/or, then open-ended), and no correction of errors in early stages, to keep the affective filter low.\n- **Silent Way (Gattegno):** the teacher is mostly silent and uses Cuisenaire rods and color-coded sound charts; students discover rules and self-correct.\n- **Suggestopedia (Lozanov):** a relaxed setting, comfortable chairs, baroque music, long dialogues, and positive suggestion to remove mental barriers.\n- **Community Language Learning (Curran):** students sit in a circle and say what they want in the home language. The teacher-counselor (the \"knower\") gives the English, students repeat it, the talk is recorded and transcribed, and students reflect on their feelings.\n\nTPR vs. the Natural Approach: both delay speech, but commands answered with actions is TPR. The Natural Approach is a broader input-based approach that may *include* TPR activities."
+    },
+    {
+     "h": "The communicative family",
+     "md": "- **Communicative Language Teaching (CLT):** grounded in Hymes's communicative competence. It features real purposes, information exchange, negotiation of meaning, fluency and appropriateness, and grammar taught in service of communication. It is an umbrella approach.\n- **Task-Based Language Teaching (TBLT):** units built around a task with a real, non-linguistic **outcome** (an itinerary, a decision, a product), often in a cycle of pre-task, task, report, and language focus. It is a specific, strong form of CLT, so if the stem says \"most specifically,\" choose TBLT.\n- **Content-Based Instruction (CBI):** English is learned through academic subject matter, so language and content develop together. Sheltered instruction, SIOP, and CALLA all build on it.\n- **Language Experience Approach (LEA):** students share an experience and dictate an account, the teacher writes it, and the text becomes their reading material. It is ideal for beginning readers and for SIFE of any age."
+    },
+    {
+     "h": "Sheltered and strategy models: SIOP and CALLA",
+     "md": "**SIOP (Echevarría, Vogt & Short)** has **8 components** and 30 features: Lesson Preparation, Building Background, Comprehensible Input, Strategies, Interaction, Practice & Application, Lesson Delivery, and Review & Assessment. Know what goes where:\n\n- **Building Background:** link to students' experiences, link past learning to new learning, and emphasize key vocabulary.\n- **Comprehensible Input:** speech suited to proficiency, clear explanation of tasks, modeling, visuals, and gestures.\n- **Lesson Preparation:** content and language objectives, adapted materials, and meaningful activities.\n\n**CALLA (Chamot & O'Malley)** integrates grade-level content, academic language, and **explicit learning-strategy instruction** (metacognitive, cognitive, social/affective) in five phases: **preparation, presentation, practice, self-evaluation, expansion**. A teacher who names a strategy, models it, has students practice it, and then asks whether it helped is doing CALLA."
+    },
+    {
+     "h": "Translanguaging pedagogy",
+     "md": "Translanguaging (Ofelia García; CUNY-NYSIEB) treats a bilingual student's languages as **one integrated repertoire** and plans for students to use all of it to learn. Students might discuss in same-language pairs, take notes in any language, and read related home-language texts, then produce in English or in more than one language.\n\nKey points for the exam:\n\n- It is **planned**, not a last-resort crutch.\n- Teachers do **not** need to speak every home language; they design the structures.\n- It complements grade-level English texts and tasks rather than replacing them."
+    },
+    {
+     "h": "Evaluating methods",
+     "md": "Some items ask which method best fits a goal or what a method's limitation is. Match the method to the need:\n\n- Newcomers who need low-anxiety listening: TPR, the Natural Approach.\n- Beginning readers, including older SIFE: LEA.\n- Academic content together with language: CBI, SIOP, CALLA.\n- Authentic communication: CLT, TBLT.\n\nMethods that put form before meaning (ALM, Grammar-Translation) are rarely the best answer for building ELLs' communicative and academic English, although a short drill or some explicit grammar can play a small role inside a meaningful lesson."
+    }
+   ],
+   "traps": [
+    "Exam trap: Direct Method vs. Audiolingual. Both are oral and English-only; Q&A with objects and inductive grammar = Direct Method, while pattern drills with reinforcement = ALM.",
+    "Exam trap: TPR vs. Natural Approach. Commands answered with actions = TPR; stage-matched questions and abundant input = Natural Approach.",
+    "Exam trap: Choosing CLT when the stem asks for the most specific approach for a unit built on a task with a real outcome (TBLT).",
+    "Exam trap: Calling any lesson that teaches a strategy SIOP. The five-phase explicit strategy cycle is CALLA.",
+    "Exam trap: Assuming translanguaging requires the teacher to speak every home language."
+   ],
+   "terms": [
+    {
+     "t": "Grammar-Translation",
+     "d": "Deductive rule learning, translation of written texts, and vocabulary lists; little oral communication."
+    },
+    {
+     "t": "Direct Method",
+     "d": "Target language only; Q&A with objects and pictures; inductive grammar; full-sentence, accurate answers."
+    },
+    {
+     "t": "Audiolingual Method",
+     "d": "Dialogue memorization and pattern drills with reinforcement; based on behaviorism and structural linguistics."
+    },
+    {
+     "t": "Total Physical Response",
+     "d": "Asher: students respond to commands with physical actions before being asked to speak."
+    },
+    {
+     "t": "Natural Approach",
+     "d": "Krashen & Terrell: comprehensible input, a silent period, stage-matched questions, low affective filter."
+    },
+    {
+     "t": "Silent Way",
+     "d": "Gattegno: mostly silent teacher, Cuisenaire rods, color-coded charts, discovery, and self-correction."
+    },
+    {
+     "t": "Suggestopedia",
+     "d": "Lozanov: relaxed setting, music, long dialogues, and positive suggestion to lower barriers to learning."
+    },
+    {
+     "t": "Community Language Learning",
+     "d": "Curran: teacher-counselor translates learners' messages; talk is recorded, transcribed, and reflected on."
+    },
+    {
+     "t": "CLT",
+     "d": "Communicative Language Teaching: real communication, negotiation of meaning, fluency and appropriateness."
+    },
+    {
+     "t": "TBLT",
+     "d": "Task-Based Language Teaching: instruction built around tasks with real outcomes, followed by a language focus."
+    },
+    {
+     "t": "CBI",
+     "d": "Content-Based Instruction: English learned through grade-level academic content."
+    },
+    {
+     "t": "Language Experience Approach",
+     "d": "Students dictate an account of a shared experience; the teacher-written text becomes their reading material."
+    },
+    {
+     "t": "SIOP",
+     "d": "Sheltered instruction model with 8 components and 30 features for planning, teaching, and observing."
+    },
+    {
+     "t": "CALLA",
+     "d": "Chamot & O'Malley: content, academic language, and explicit strategy instruction in five phases."
+    },
+    {
+     "t": "Translanguaging pedagogy",
+     "d": "García: planned use of students' full linguistic repertoire as a resource for learning."
+    }
+   ],
+   "tip": "Find the single fingerprint feature (commands, silence, drills, task outcome, dictated text, strategy cycle) and match it; ignore surface details."
+  },
+  {
+   "skill": "3.3",
+   "title": "Planning: Objectives, Language Demands & Scaffolding by Level",
+   "why": "Planning items ask you to pick the best language objective, analyze a task's language demands, match scaffolds to a proficiency level, or fix a lesson sequence.",
+   "body": [
+    {
+     "h": "Content objectives vs. language objectives",
+     "md": "A **content objective** states what students will learn about the subject: *Students will describe the four stages of a butterfly's life cycle.*\n\nA **language objective** states how students will use language to learn and show that content. A strong one names:\n\n- the **function** (the purpose: describe, sequence, compare, explain, argue),\n- the **domain** (listening, speaking, reading, writing), and\n- the supporting **forms** (structures and vocabulary).\n\nExample: *Students will orally sequence the life-cycle stages using first, next, then, and finally.*\n\nWatch for imposters on the exam:\n\n- An **activity** (\"complete a picture sort\") is not an objective.\n- A restated **content goal** (\"learn the stages\") is not a language objective.\n- An **isolated skill** (\"spell four words on a quiz\") is language-related but disconnected from the lesson's real language demand.\n\nLanguage objectives sit **alongside** grade-level content objectives. They make the lesson's language visible so it gets taught and assessed; they don't replace content goals with easier ones."
+    },
+    {
+     "h": "Analyzing language demands",
+     "md": "Before teaching, look at what the text or task demands at three levels:\n\n- **Word/phrase:** Tier 2 and Tier 3 vocabulary, idioms (*kept in check*), multiple-meaning words.\n- **Sentence:** complex structures such as embedded clauses, passive voice, nominalization, and participial phrases (*…grew rapidly, resulting in overgrazing*).\n- **Discourse:** how a whole text or response is organized, such as an argument (claim → evidence → reasoning), an explanation, or a narrative.\n\nThe task matters as much as the text. \"Were the colonists justified? Support your claim with evidence from Documents A and B\" is an **argue** task. Students need claim language, citation language (*According to Document A…*), and connectors (*because, therefore*). Vocabulary and readability are part of the demand, but they are rarely the most complete analysis.\n\nFor dense sentences, unpack them into short sentences, then repack them, so students learn to read and eventually write such sentences."
+    },
+    {
+     "h": "Scaffolding by proficiency level",
+     "md": "The NYS New Language Arts Progressions show the same grade-level standard at all five levels, with support decreasing from Entering (substantial) to Commanding (independent). The task stays the same while the support changes:\n\n- **Entering:** visuals, realia, labeled diagrams, home-language resources and bilingual glossaries, partner work, words and short phrases, simple frames (*It has __ sides.*).\n- **Emerging:** word banks, sentence frames, partly completed graphic organizers, models.\n- **Transitioning:** sentence starters, organizers, more open tasks, peer support.\n- **Expanding:** targeted support for complex sentences, transitions, and precise vocabulary; feedback on cohesion.\n- **Commanding:** largely independent, with occasional support for advanced academic language.\n\n**Amplify, don't simplify** (Walqui). Keep the grade-level text and add temporary supports: chunking, pre-teaching key concepts, glosses, visuals, and guiding questions. A simplified summary or a lower-grade text lowers rigor and strips out the language students need to learn."
+    },
+    {
+     "h": "Gradual release, and fading scaffolds",
+     "md": "Gradual release of responsibility moves through four stages:\n\n- **I do:** the teacher models and thinks aloud.\n- **We do:** guided, shared practice (for example, a summary written together).\n- **You do together:** collaborative practice with peers.\n- **You do alone:** independent work.\n\nTwo exam patterns:\n\n- **Missing stages:** a plan that jumps from modeling straight to independent work needs guided and collaborative practice added, not just more modeling.\n- **Recursive release:** when formative evidence shows that a few students aren't ready, pull them into a brief guided group while the others continue. Don't reteach everyone, and don't drop the hard part of the task.\n\nScaffolds are **temporary**. A frame used unchanged from September to January caps growth, so fade it to open starters and connector banks, then to independence."
+    },
+    {
+     "h": "Backward design and alignment",
+     "md": "Backward design (Wiggins & McTighe) plans in three stages:\n\n- **Identify desired results:** the standards-based content and language goals.\n- **Determine acceptable evidence:** how students will show they met the goals.\n- **Plan learning experiences:** activities, materials, and scaffolds.\n\nFor ELLs, the key idea is alignment: the assessment must match the objective's domain, function, and forms. If the language objective is *orally explain the causes of the seasons using because and as a result*, the evidence is an oral explanation checked against those criteria. A multiple-choice quiz or a paragraph graded for spelling measures something else."
+    },
+    {
+     "h": "Exam strategy for planning items",
+     "md": "When choosing among plans, prefer the one that:\n\n- keeps **grade-level content and standards** for every student,\n- matches **support to the stated proficiency level** instead of one-size-fits-all,\n- gets students **using language** (speaking and writing), not just copying or listening, and\n- includes a clear path to **independence**.\n\nWrong answers usually water down the content, pull the student out of the content class, give everyone identical supports, or demand unsupported work beyond the student's level."
+    }
+   ],
+   "traps": [
+    "Exam trap: Choosing an activity or a restated content goal as the 'language objective.'",
+    "Exam trap: Treating vocabulary as the whole language demand; argument and explanation tasks also carry sentence- and discourse-level demands.",
+    "Exam trap: Simplifying or swapping the text for Emerging students instead of scaffolding the grade-level text.",
+    "Exam trap: Adding more modeling when the plan is missing guided and collaborative practice.",
+    "Exam trap: Keeping the same scaffold all year; scaffolds should fade as proficiency grows."
+   ],
+   "terms": [
+    {
+     "t": "Content objective",
+     "d": "What students will learn about the subject in the lesson."
+    },
+    {
+     "t": "Language objective",
+     "d": "How students will use language (function, domain, forms) to learn and show the content."
+    },
+    {
+     "t": "Language function",
+     "d": "The purpose of language use: describe, sequence, compare, explain, argue."
+    },
+    {
+     "t": "Language form",
+     "d": "The grammatical structures and vocabulary used to carry out a function."
+    },
+    {
+     "t": "Language domain",
+     "d": "Listening, speaking, reading, or writing."
+    },
+    {
+     "t": "Language demands",
+     "d": "The word-, sentence-, and discourse-level language a text or task requires."
+    },
+    {
+     "t": "Scaffolding",
+     "d": "Temporary, planned support that lets students do grade-level work they can't yet do alone."
+    },
+    {
+     "t": "Amplify, don't simplify",
+     "d": "Walqui: keep complex grade-level text and add supports rather than watering it down."
+    },
+    {
+     "t": "Gradual release of responsibility",
+     "d": "I do → we do → you do together → you do alone."
+    },
+    {
+     "t": "Backward design",
+     "d": "Wiggins & McTighe: desired results → acceptable evidence → learning activities."
+    },
+    {
+     "t": "NLAP",
+     "d": "New Language Arts Progressions: grade-level standards shown at five proficiency levels with decreasing support."
+    },
+    {
+     "t": "Sentence frame",
+     "d": "A partly written sentence that models the target structure (e.g., 'It has __ sides')."
+    },
+    {
+     "t": "Fading",
+     "d": "Gradually reducing a scaffold as students gain independence."
+    },
+    {
+     "t": "Unpacking a sentence",
+     "d": "Breaking a dense sentence into short ones to reveal its meaning, then rebuilding it."
+    }
+   ],
+   "tip": "For planning items, pick the option that keeps grade-level content and matches supports to the named proficiency level, with a path toward independence."
+  },
+  {
+   "skill": "3.4",
+   "title": "Comprehensible Input, Interaction & Corrective Feedback",
+   "why": "Expect transcripts that ask you to name a feedback type or negotiation move, plus scenarios on making input comprehensible, increasing participation, and structuring talk.",
+   "body": [
+    {
+     "h": "Making input comprehensible",
+     "md": "Krashen's i+1 is input slightly beyond students' current level, made understandable through context. In class that looks like:\n\n- **Teacher talk:** a slightly slower rate, clear enunciation, shorter sentences, pauses, paraphrase and repetition, and fewer idioms. Keep academic vocabulary and make it understandable rather than removing it. Volume doesn't help.\n- **Visuals, realia, demonstrations:** show erosion with a tray of soil and running water while naming it, then label photos. This makes the language **context-embedded** (Cummins).\n- **Gestures and modeling:** act it out, point, show a finished example.\n\n**Comprehension checks** must produce evidence. \"Does everybody understand?\" invites polite nods. Instead, have every student point to the step on an illustrated card, demonstrate, sequence, or retell to a partner."
+    },
+    {
+     "h": "Wait time and participation",
+     "md": "ELLs have to understand the question, form an answer, and find the English to say it, and all of that takes time. When a teacher calls on the first raised hand within a second or two, ELLs drop out.\n\nBetter moves:\n\n- **Extend wait time** (several seconds or more) after asking a question.\n- Use **think-pair-share:** think alone, rehearse with a partner, then share.\n- Let students **rehearse** with frames or in the home language before speaking to the whole class.\n\nAvoid fixes that lower rigor (only yes/no questions for ELLs) or exclude ELLs (they write silently while others talk)."
+    },
+    {
+     "h": "Interaction: why talk drives acquisition",
+     "md": "**Long's Interaction Hypothesis:** when communication breaks down, learners **negotiate meaning**, and those adjustments make input comprehensible and drive acquisition. The three moves:\n\n- **Clarification request:** \"Sorry, what do you need?\" The listener asks the speaker to explain.\n- **Confirmation check:** \"The small glass? You mean the jar?\" The listener offers an interpretation to confirm.\n- **Comprehension check:** \"Do you know what I mean?\" The speaker checks the listener.\n\n**Swain's Output Hypothesis:** producing language makes learners notice gaps, test hypotheses, and reflect on form.\n\nThe activity that maximizes both is a **two-way information gap**: each partner holds information the other needs (two halves of a bus map), so they must exchange and negotiate. Think-pair-share is good interaction, but partners share the same information.\n\nCooperative structures to know:\n\n- **Jigsaw:** home group → expert group on one section → return to teach it.\n- **Numbered Heads Together:** the group discusses; the teacher calls a number to choose who answers.\n- **Inside-Outside Circle:** two circles rotate so students talk with a series of partners.\n- **Think-Pair-Share:** think, pair, share."
+    },
+    {
+     "h": "Structured academic talk",
+     "md": "\"I agree.\" \"Me too.\" \"Next question.\" Unstructured group talk often stays shallow, so academic conversation has to be taught:\n\n- Model **conversation moves**: elaborate and clarify, support with text evidence, paraphrase, build on or challenge an idea.\n- Provide **frames**: *Building on what ___ said…*, *What in the text makes you think that?*, *I see it differently because…*\n- Assign **roles** (questioner, evidence finder, summarizer) and use a protocol.\n\nMore time alone rarely changes the pattern, and replacing peer talk with teacher-led Q&A reduces student output."
+    },
+    {
+     "h": "The six corrective feedback types (Lyster & Ranta)",
+     "md": "Student: *Yesterday I go to the library.*\n\n- **Explicit correction:** \"Not *go*. Say *went*.\" Signals the error and gives the form.\n- **Recast:** \"Oh, you *went* to the library yesterday?\" Reformulates correctly with no signal of error. It is the most common type; it is unobtrusive but often goes unnoticed.\n- **Clarification request:** \"Sorry?\" or \"What do you mean?\"\n- **Metalinguistic feedback:** \"*Yesterday* is a finished time, so we need the past tense.\" Gives grammatical information but not the form.\n- **Elicitation:** \"Yesterday I…?\" (pause), \"How do we say that?\", or \"Can you say that another way?\" The student supplies the form.\n- **Repetition:** \"I *GO*?\" Repeats the error, usually with rising intonation.\n\nTwo distinctions decide most items:\n\n- Explicit correction vs. metalinguistic feedback: **was the correct form given?** If yes, it's explicit correction.\n- Elicitation vs. repetition: **did the teacher repeat the error?** If yes, it's repetition. If she stopped before the error or asked for the form, it's elicitation."
+    },
+    {
+     "h": "Choosing the right feedback",
+     "md": "- **Meaning-focused activity** (a sharing circle, a discussion): respond to the message first, recast lightly, and **note error patterns** for a later mini-lesson. Constant interruption raises the affective filter.\n- **Form-focused moment or persistent error** (*more better* after many recasts): use **prompts** such as elicitation and metalinguistic feedback. Lyster and Ranta found that prompts lead to more **learner-generated repair** than recasts.\n- **Level matters:** Entering students need low-anxiety feedback focused on meaning; Expanding students can handle, and benefit from, prompts that push accuracy.\n\nIgnoring every error is not the answer either. Without noticing (Schmidt), persistent errors can fossilize."
+    }
+   ],
+   "traps": [
+    "Exam trap: Calling any teacher reformulation 'explicit correction.' If there is no signal of error, it is a recast.",
+    "Exam trap: Mixing up metalinguistic feedback (rule or clue, no form given) with explicit correction (form given).",
+    "Exam trap: Confusing confirmation checks (the listener offers an interpretation) with clarification requests and comprehension checks.",
+    "Exam trap: Choosing more recasts when the goal is self-repair; prompts (elicitation, metalinguistic feedback) work better.",
+    "Exam trap: Interrupting a meaning-focused activity to correct every error."
+   ],
+   "terms": [
+    {
+     "t": "Comprehensible input",
+     "d": "Krashen: input slightly beyond the learner's level (i+1), made understandable through context and support."
+    },
+    {
+     "t": "Teacher talk",
+     "d": "Adjusted teacher speech: slower rate, shorter sentences, paraphrase, pauses, gestures."
+    },
+    {
+     "t": "Realia",
+     "d": "Real objects used to make language and concepts concrete."
+    },
+    {
+     "t": "Wait time",
+     "d": "Pause after a question that gives students time to process and formulate an answer."
+    },
+    {
+     "t": "Comprehension check",
+     "d": "A speaker's check that the listener understood; in teaching, a task that makes students show understanding."
+    },
+    {
+     "t": "Negotiation of meaning",
+     "d": "Long: interactional adjustments (clarifying, confirming, checking) when communication breaks down."
+    },
+    {
+     "t": "Clarification request",
+     "d": "'What do you mean?' The listener asks the speaker to repeat or reformulate."
+    },
+    {
+     "t": "Confirmation check",
+     "d": "'You mean the jar?' The listener repeats or rephrases to confirm understanding."
+    },
+    {
+     "t": "Information gap",
+     "d": "Task in which each partner holds information the other needs, forcing real exchange."
+    },
+    {
+     "t": "Jigsaw",
+     "d": "Students master one section in expert groups, then teach it to their home group."
+    },
+    {
+     "t": "Explicit correction",
+     "d": "Feedback that signals the error and provides the correct form."
+    },
+    {
+     "t": "Recast",
+     "d": "Implicit correct reformulation of the student's utterance, with no signal that an error occurred."
+    },
+    {
+     "t": "Metalinguistic feedback",
+     "d": "Comments or questions about the form of an utterance, without giving the correct form."
+    },
+    {
+     "t": "Elicitation",
+     "d": "Prompting the student to supply the correct form: a pause, a question, or a request to reformulate."
+    },
+    {
+     "t": "Repetition",
+     "d": "Teacher repeats the student's error, usually with rising intonation, to highlight it."
+    },
+    {
+     "t": "Uptake",
+     "d": "The student's immediate response to feedback, ideally a repair of the error."
+    }
+   ],
+   "tip": "For feedback transcripts, ask: Did the teacher give the correct form? Did she signal an error? Did she repeat the error? Those answers identify the type."
+  }
+ ]
+}

@@ -1,0 +1,1687 @@
+{
+ "questions": [
+  {
+   "id": "5.5-01",
+   "skill": "5.5",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Sentence from a grade 7 U.S. history textbook:\n“Thousands of families settled in western New York after the Erie Canal had opened in 1825; before that, most of the region's crops had been hauled overland by wagon.”\n\nTimeline drawn by Ahmad, a Transitioning ELL whose home language is Pashto:\n1. Families settle in western New York\n2. Erie Canal opens (1825)\n3. Crops are hauled by wagon",
+   "stem": "Ahmad's timeline most likely reflects difficulty with which of the following?",
+   "options": [
+    "Understanding that after, before that, and the past perfect signal a time order that differs from the order of mention.",
+    "Recalling the date on which the Erie Canal opened, which he needs in order to anchor the other events correctly on the timeline.",
+    "Transfer of Pashto word order, which leads him to rearrange the parts of English sentences in his mind as he reads them.",
+    "A sequencing weakness that suggests he should be screened for a learning disability before the unit continues."
+   ],
+   "answer": 0,
+   "why": "Ahmad listed the events in the order they appear in the sentence (order of mention), not the order in which they happened. In history texts, temporal connectives (after, before that, prior to, by the time) and the past perfect (had opened, had been hauled) tell the reader that an earlier event is being mentioned later. ELLs often rely on order of mention until these signals are taught explicitly, for example by numbering the events in a sentence and then placing them on a timeline.",
+   "traps": [
+    null,
+    {
+     "code": "LITERAL",
+     "note": "Ahmad recorded the 1825 date correctly. His error is in the order of the events around that date, so recalling dates is not the problem."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Word-order transfer shows up in how a learner builds his own sentences, not in how he orders events he has read about. Ahmad's list follows the sentence exactly, which points to an order-of-mention reading strategy that learners of many L1s use."
+    },
+    {
+     "code": "MISREFERRAL",
+     "note": "Reading events in the order they are mentioned is a typical developmental strategy for ELLs. One error tied to a specific language feature is not evidence of a disability; the next step is to teach the feature."
+    }
+   ],
+   "key": "History texts often mention events out of order; teach after, before, prior to, and the past perfect as chronology signals."
+  },
+  {
+   "id": "5.5-02",
+   "skill": "5.5",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stimulus": "Class timeline task (grade 8): Place each event in the correct section of the timeline.\n- The American Revolution (eighteenth century)\n- The Civil War (nineteenth century)\n\nMariela, an Expanding ELL whose home language is Spanish, places the American Revolution in the 1800s section and the Civil War in the 1900s section.",
+   "stem": "Which instructional response best addresses the source of Mariela's error?",
+   "options": [
+    "Have Mariela memorize the dates of ten major events in U.S. history so that she can place events without relying on century names.",
+    "Advise Mariela to use only the 1700s and 1800s format in her own writing, since ordinal century names are too advanced at her level.",
+    "Explicitly teach that the eighteenth century means the 1700s, using a timeline labeled both ways and linking it to siglo XVIII.",
+    "Review ordinal numbers such as first, second, and third, since her error shows she has not yet learned how English ordinals are formed."
+   ],
+   "answer": 2,
+   "why": "Mariela matched the ordinal number to the first two digits of the year (eighteenth → 1800s), a common confusion. A century's ordinal name is one greater than the first two digits of its years, so the 1700s are the eighteenth century. Explicit teaching with a timeline labeled both ways corrects the misconception, and linking it to the same convention in Spanish (siglo XVIII = the 1700s) uses her home-language knowledge as a bridge.",
+   "traps": [
+    {
+     "code": "ISOLATED",
+     "note": "Memorizing a list of dates sidesteps the problem. Mariela will keep meeting century names in texts, so she needs to understand the naming convention itself."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Avoiding the form lowers expectations. Ordinal century names are standard in grade-level texts, and an Expanding student can learn the convention with brief, explicit instruction."
+    },
+    null,
+    {
+     "code": "LITERAL",
+     "note": "Mariela read eighteenth correctly as 18; she then mapped it to the 1800s. The issue is the century-naming convention, not her knowledge of ordinal numbers."
+    }
+   ],
+   "key": "A century's name is one more than its years' first digits (1700s = eighteenth century); teach it explicitly with dual-labeled timelines."
+  },
+  {
+   "id": "5.5-03",
+   "skill": "5.5",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 1,
+   "stimulus": "Excerpt from Frederick Douglass's speech in Rochester, New York (1852):\n“What, to the American slave, is your 4th of July? I answer: a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim.”",
+   "stem": "A grade 8 Integrated ENL social studies class that includes Emerging and Transitioning ELLs will analyze this primary source. Which approach best supports the ELLs' access to the source while maintaining the rigor of the task?",
+   "options": [
+    "Replace the speech with a textbook paragraph that summarizes Douglass's main ideas, since nineteenth-century oratory is too complex for ELLs.",
+    "Read the excerpt aloud, gloss key words, pose sourcing questions, and have pairs paraphrase each part before discussing Douglass's argument.",
+    "Have students look up every unfamiliar word in a dictionary and copy its definition before they read the excerpt independently.",
+    "Assign the complete speech as homework so that students can read at their own pace, then lecture on its significance during the next class."
+   ],
+   "answer": 1,
+   "why": "Primary sources are central to social studies, and ELLs need access to them, not replacements for them. Excerpting (shortening without rewriting), reading aloud, glossing key words, and asking sourcing questions scaffold the original text, while paired paraphrasing adds the interaction and output that build comprehension and academic language. The cognitive task, analyzing Douglass's argument, stays at grade level.",
+   "traps": [
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Substituting a summary removes the primary source and the historical-thinking work. Scaffolds such as glossing and read-alouds let ELLs analyze Douglass's own words."
+    },
+    null,
+    {
+     "code": "ISOLATED",
+     "note": "Copying definitions word by word is slow and decontextualized, and dictionary meanings (gross as “disgusting” or as “144”) may not fit the context. It also leaves students alone with the hardest part, the reasoning."
+    },
+    {
+     "code": "PASSIVE",
+     "note": "The full, unsupported speech is beyond Emerging students, and a lecture makes them passive listeners. They need guided, interactive analysis of a manageable excerpt."
+    }
+   ],
+   "key": "Scaffold primary sources (excerpt, read aloud, gloss, sourcing questions, paired paraphrase) instead of replacing them with summaries."
+  },
+  {
+   "id": "5.5-04",
+   "skill": "5.5",
+   "type": "knowledge",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 11 U.S. history teacher plans to use a Progressive Era political cartoon that shows a giant octopus labeled “Standard Oil” wrapping its tentacles around government buildings and several industries. She assumes that because the source is visual, her Transitioning ELLs will understand it without support. Which statement best explains why this assumption is problematic?",
+   "options": [
+    "Cartoons express opinions rather than facts, so they are less appropriate than textbook passages for building ELLs' content knowledge.",
+    "Visual sources are appropriate mainly for Entering and Emerging students, so Transitioning students should analyze written documents instead.",
+    "Cartoons are secondary sources that reflect later interpretations, so they are less useful than written documents for teaching evidence analysis.",
+    "Cartoons rely on culturally specific symbols, labels, and historical context, so ELLs need explicit support to interpret the message."
+   ],
+   "answer": 3,
+   "why": "Visuals lower language demands, but political cartoons are not automatically comprehensible. They depend on symbols (an octopus as a monopoly that reaches into everything), labels, captions, puns, and knowledge of the historical context. Teachers should preteach key symbols and context and guide analysis with questions such as “What do you see? What might it stand for? What is the cartoonist's point of view?”",
+   "traps": [
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Cartoons do express opinions, but analyzing a creator's point of view is exactly the historical-thinking skill being taught. Swapping them for textbook passages lowers rigor."
+    },
+    {
+     "code": "WRONG_LEVEL",
+     "note": "Visual sources benefit students at every level, including fluent English speakers. The problem is not the students' level but the cultural and historical knowledge the cartoon assumes."
+    },
+    {
+     "code": "TERM",
+     "pair": "primary source ↔ secondary source",
+     "note": "A cartoon published during the period it comments on is a primary source. It is valuable evidence of how people at the time viewed an issue."
+    },
+    null
+   ],
+   "key": "Visual sources still need scaffolding: political cartoons depend on cultural symbols, labels, and historical background."
+  },
+  {
+   "id": "5.5-05",
+   "skill": "5.5",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 5 teacher is beginning a unit on the three branches of the U.S. government. Several ELLs in the class recently arrived from Bangladesh, the Dominican Republic, and Ukraine. Which activity would be most effective for building background knowledge at the start of the unit?",
+   "options": [
+    "Students receive a list of key terms (legislative, executive, judicial, veto) with English definitions to memorize before the unit begins.",
+    "Students watch a 30-minute documentary about the Constitutional Convention so that they hear a fluent model of the academic language of government.",
+    "Students discuss, in any language, who makes, enforces, and judges rules in their home countries, then connect their ideas to a labeled visual.",
+    "The teacher begins by explaining what a government is, since students from countries with different political systems are unlikely to have relevant knowledge."
+   ],
+   "answer": 2,
+   "why": "Building background works best when it activates and connects to what students already know (Cummins's Common Underlying Proficiency; Moll's funds of knowledge). Talking about familiar rule-making, rule-enforcing, and rule-judging roles, in the home language if needed, gives ELLs a conceptual anchor, and the labeled visual links that anchor to the new English terms.",
+   "traps": [
+    {
+     "code": "ISOLATED",
+     "note": "Memorizing definitions before students have any conceptual anchor is decontextualized. The terms stick better once they are connected to ideas students already understand."
+    },
+    {
+     "code": "PASSIVE",
+     "note": "A long video with no scaffolds or interaction is largely incomprehensible input for newcomers and keeps them passive."
+    },
+    null,
+    {
+     "code": "DEFICIT",
+     "note": "This assumes newcomers arrive with nothing to contribute. Students know a great deal about rules, leaders, and fairness from their own lives and countries, and that knowledge is the bridge to the new content."
+    }
+   ],
+   "key": "Build social studies background by connecting new concepts to students' experiences and home-country knowledge, with the home language as a resource."
+  },
+  {
+   "id": "5.5-06",
+   "skill": "5.5",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "In a grade 6 Integrated ENL social studies class studying early river valley civilizations, the teacher wants Entering ELLs to show that they understand why people settled near rivers. Which task is most appropriate?",
+   "options": [
+    "Students write a five-paragraph essay explaining how geography shaped early settlement, using a model essay and a list of transition words to organize their ideas.",
+    "Students color-code a physical map, add picture cards of farms and cities, and complete “People lived near the ___ because ___” in any language.",
+    "Students copy the names of four river valley civilizations and their rivers from the board into a chart in their notebooks.",
+    "Students complete an everyday vocabulary packet about home and school in a separate setting until they are ready to join the unit."
+   ],
+   "answer": 1,
+   "why": "Entering students can engage with grade-level social studies concepts when the language demand matches their level. Map work, picture cards, and a simple cause frame let them show the causal idea (rivers provide water and fertile land), and allowing the home language ensures that the task measures geographic understanding rather than English writing.",
+   "traps": [
+    {
+     "code": "WRONG_LEVEL",
+     "note": "An extended essay is not a reasonable expectation at the Entering level. It would mostly measure English writing rather than geographic understanding."
+    },
+    null,
+    {
+     "code": "PASSIVE",
+     "note": "Copying names shows nothing about why people settled near rivers. It is low-level, passive work that never engages the concept."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "This removes Entering students from grade-level content. With visuals and home-language support, they can work on the same concept as their classmates now."
+    }
+   ],
+   "key": "Entering ELLs can do grade-level geography through maps, picture cards, simple frames, and home-language responses."
+  },
+  {
+   "id": "5.5-07",
+   "skill": "5.5",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 2,
+   "stem": "A grade 8 class is studying the Indian Removal Act of 1830. The teacher wants Transitioning and Expanding ELLs to analyze multiple perspectives on the policy while developing academic language. Which activity best meets both goals?",
+   "options": [
+    "Pairs read excerpts from Jackson's 1830 message to Congress and a Cherokee petition, chart each author's claims, and discuss them using perspective frames.",
+    "The teacher lectures on both viewpoints while students fill in a teacher-made outline, so that every student records the key points accurately.",
+    "Students read only the textbook's account of removal, since comparing conflicting sources could confuse ELLs who are still building background knowledge.",
+    "Students write a personal response about how they would feel if they were forced to leave their homes, drawing on their own migration experiences."
+   ],
+   "answer": 0,
+   "why": "Multiple-perspectives work in social studies means comparing sources written by people with different positions and purposes. Paired reading of short excerpts, a chart for claims and purpose, and a perspective frame build historical thinking and the language of perspective (from the perspective of, argued that, in contrast) through interaction. It also reflects the CR-SE call for an inclusive curriculum that includes voices often left out of textbook narratives.",
+   "traps": [
+    null,
+    {
+     "code": "PASSIVE",
+     "note": "Students receive the perspectives secondhand and never analyze the sources or use the language of perspective themselves."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Analyzing multiple perspectives is a grade-level expectation. ELLs need scaffolds for working with conflicting sources, not protection from them."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "A personal connection can build engagement, but it replaces analysis of historical sources with feelings, and it may press refugee or immigrant students to disclose painful experiences."
+    }
+   ],
+   "key": "Teach multiple perspectives by pairing contrasting sources with a claims chart and perspective frames, not by lecturing or using one account."
+  },
+  {
+   "id": "5.5-08",
+   "skill": "5.5",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stimulus": "Excerpt from a grade 10 global history text:\n“Historians identify several long-term causes of World War I. Militarism led nations to build massive armies. A system of alliances bound countries to defend one another. Competition for colonies created tension, and nationalism fueled rivalries. When Archduke Franz Ferdinand was assassinated in 1914, these pressures erupted into war.”",
+   "stem": "Which graphic organizer would best help Emerging ELLs understand how this excerpt is organized?",
+   "options": [
+    "A Venn diagram comparing the Allied Powers and the Central Powers to show how the two sides in the war were similar and different.",
+    "A timeline of the major battles of World War I, arranged in order from the start of the war to its end.",
+    "A diagram with several labeled cause boxes, each with an icon, pointing to one effect box, with the assassination as the trigger.",
+    "A KWL chart on which students list what they know, what they want to know, and what they learned about the war."
+   ],
+   "answer": 2,
+   "why": "The excerpt has a multiple-cause, single-effect structure: four long-term causes (militarism, alliances, imperialism, nationalism) plus a trigger lead to one effect, the war. An organizer that mirrors the text structure makes the relationships visible, and icons and labels reduce the language load for Emerging students. Matching the organizer to the structure is a core content-literacy strategy in social studies.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "compare/contrast ↔ cause/effect",
+     "note": "A Venn diagram fits a compare/contrast structure. This excerpt explains how several causes led to one effect."
+    },
+    {
+     "code": "LITERAL",
+     "note": "The excerpt is not about battles, and a timeline shows sequence, not causation. This option latches onto the topic (the war) rather than the text's structure."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "A KWL chart can activate background knowledge, but it does not show the multiple-causes-to-one-effect structure that students need to see."
+    }
+   ],
+   "key": "Match the graphic organizer to the text structure; several causes leading to one effect calls for a multiple-cause diagram."
+  },
+  {
+   "id": "5.5-09",
+   "skill": "5.5",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stimulus": "Grade 12 Participation in Government lesson:\nTeacher: The president meets with the cabinet to discuss the budget.\nPrakash (Emerging ELL, home language Nepali): Cabinet? In my house the cabinet is in the kitchen. Why the president talk to a cabinet?",
+   "stem": "Which instructional practice would best address Prakash's confusion and prevent similar problems throughout the unit?",
+   "options": [
+    "Briefly tell Prakash that cabinet has another meaning and then continue the lesson so that the class does not lose momentum.",
+    "Replace cabinet with a simpler phrase such as “the president's helpers” in all of the unit materials prepared for ELLs.",
+    "Focus vocabulary instruction on technical terms such as legislature and amendment, since discipline-specific words cause the most difficulty.",
+    "Explicitly teach the unit's multiple-meaning words (cabinet, party, bill, run) by contrasting their everyday and civic meanings."
+   ],
+   "answer": 3,
+   "why": "Social studies is full of words whose everyday meanings differ from their civic meanings (cabinet, party, bill, run for office, branch, state, court). ELLs who know only the everyday meaning may misread whole sentences without realizing it. Teaching these words explicitly, contrasting the two meanings with visuals and examples, prevents confusion that a list of technical terms would miss.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "A quick clarification helps in the moment, but the unit is full of other everyday words with civic meanings. A planned, explicit approach prevents repeated confusion."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Removing the term denies Prakash the academic vocabulary of the course, which he will meet in texts and on assessments."
+    },
+    {
+     "code": "TERM",
+     "pair": "multiple-meaning words ↔ technical (Tier 3) terms",
+     "note": "Prakash's confusion came from a familiar word with a new, discipline-specific meaning. Such polysemous words are often harder than technical terms, because students think they already know them."
+    },
+    null
+   ],
+   "key": "Explicitly teach social studies words with everyday and civic meanings (cabinet, party, bill, run); they cause hidden confusion."
+  },
+  {
+   "id": "5.5-10",
+   "skill": "5.5",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "To teach the colonists' objection to “taxation without representation,” a grade 7 teacher runs a short simulation: one group of students must pay classroom tokens as “taxes” set by another group, without any vote. She then debriefs with visuals and sentence frames. According to Cummins's framework, this activity supports Emerging ELLs primarily because it…",
+   "options": [
+    "lowers the cognitive demand of the content so that students can concentrate on developing basic interpersonal communication skills.",
+    "makes a cognitively demanding concept context-embedded by grounding it in a concrete, shared experience.",
+    "provides input slightly beyond students' current level of competence, consistent with the i+1 principle.",
+    "replaces academic content with a game, which lowers students' anxiety so that they enjoy social studies more."
+   ],
+   "answer": 1,
+   "why": "Cummins describes tasks along two dimensions: context-embedded vs. context-reduced, and cognitively undemanding vs. cognitively demanding. Grade-level social studies concepts are cognitively demanding, and textbooks are context-reduced. A simulation keeps the cognitive demand high but embeds the concept in concrete experience, which makes it accessible to ELLs and prepares them to discuss and read about it in academic language.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "context-embedded ↔ cognitively undemanding",
+     "note": "The simulation keeps the concept cognitively demanding; it adds context rather than reducing demand. The goal is academic understanding, not only BICS."
+    },
+    null,
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "i+1 belongs to Krashen's Input Hypothesis, not Cummins's framework. The stem asks how the activity fits Cummins's dimensions of context and cognitive demand."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "The simulation does not replace content; it is a way into the concept, followed by a debrief in academic language. Enjoyment is a side benefit, not the purpose."
+    }
+   ],
+   "key": "Simulations and hands-on experiences make cognitively demanding social studies concepts context-embedded (Cummins) without lowering rigor."
+  },
+  {
+   "id": "5.5-11",
+   "skill": "5.5",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "Entering ELLs in a grade 4 class are learning the sequence of events in the early history of New York, from the Lenape homeland to Dutch New Amsterdam to English New York. Which activity best supports their understanding of chronology?",
+   "options": [
+    "Students place captioned picture cards on a class timeline, then point to and name events as the teacher asks, “What happened first? Next?”",
+    "Students read the textbook chapter on New Amsterdam independently and then answer the written comprehension questions at the end in complete sentences.",
+    "Students listen as the teacher reads the chapter aloud twice and then copy the key dates from the board into their notebooks.",
+    "Students practice a list of sequence words (first, then, next, finally) in daily drills for a week before the unit begins."
+   ],
+   "answer": 0,
+   "why": "Chronology is abstract, and Entering students need concrete, visual, hands-on ways to work with it. Physically sequencing picture cards on a timeline, combined with simple questions they can answer by pointing or with a word or two, lets them build and show the concept, and it teaches sequence language (first, next, then) in context.",
+   "traps": [
+    null,
+    {
+     "code": "WRONG_LEVEL",
+     "note": "Independent reading of a chapter and full-sentence written answers exceed what Entering students can do, so the task would hide their understanding of the sequence."
+    },
+    {
+     "code": "PASSIVE",
+     "note": "Listening and copying give students no way to show or build an understanding of the order of events; there is no interaction or meaningful output."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Sequence words are useful, but drilling them before and apart from content is decontextualized. Students learn them best while sequencing real events."
+    }
+   ],
+   "key": "For Entering ELLs, teach chronology with picture-card timelines and simple oral prompts, not text-heavy tasks."
+  },
+  {
+   "id": "5.5-12",
+   "skill": "5.5",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "During a grade 8 unit on immigration to the United States from 1880 to 1920, the ENL and social studies teachers want a project that draws on students' funds of knowledge while meeting the unit's historical-thinking goals. Which project best does this?",
+   "options": [
+    "Students research a famous immigrant from their own home country and present a report to the class on that person's achievements.",
+    "Each ELL gives a presentation on the customs, foods, and holidays of his or her home country so that classmates can learn about other cultures.",
+    "Students read the textbook chapter on immigration and complete a worksheet defining terms such as steerage, quota, and nativism.",
+    "Students interview a family or community member of their choice, in any language, about migration and compare the account with Ellis Island–era sources."
+   ],
+   "answer": 3,
+   "why": "Funds of knowledge (Moll) is the knowledge and experience embedded in students' households and communities. An oral-history interview, conducted in any language, brings that knowledge into the curriculum, and comparing it with historical primary sources turns it into historical thinking about causes, experiences, and perspectives across time. Letting students choose whom to interview avoids pressing anyone to share painful experiences.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "This connects to students' backgrounds, but a famous figure is not the knowledge of students' own households and communities, and the project involves no historical comparison of sources."
+    },
+    {
+     "code": "STEREOTYPE",
+     "note": "Asking students to represent a whole country reduces culture to customs and holidays and makes students spokespeople. It also does not address the unit's historical-thinking goals."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Defining terms on a worksheet is decontextualized, and it draws on none of the knowledge that students bring from home."
+    },
+    null
+   ],
+   "key": "Funds of knowledge: bring household and community knowledge into the curriculum (e.g., oral histories), then connect it to grade-level analysis."
+  },
+  {
+   "id": "5.5-13",
+   "skill": "5.5",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Passage from a grade 8 social studies reader:\n“In 1845, a disease began destroying Ireland's potato crop. Over the next decade, more than a million Irish people left for North America and Britain.”\n\nComprehension question: Does the passage explain why many Irish people left Ireland?\nSeveral Transitioning ELLs answered: “No. It does not say why.”",
+   "stem": "Which feature of the passage most likely caused this difficulty?",
+   "options": [
+    "The numbers in the passage (1845, a decade, a million) distract readers from the main idea of the two sentences.",
+    "The word crop is a content-specific term that students are unlikely to know without explicit instruction.",
+    "The causal link between the sentences is implied by their order, not signaled by a connective such as because.",
+    "The passage is written in the passive voice, which hides who performed the actions that it describes."
+   ],
+   "answer": 2,
+   "why": "Academic texts often leave cause-and-effect relationships implicit and expect readers to infer that the second event resulted from the first. ELLs who have been taught to look for signal words may conclude that no cause is given. Teachers can model the inference and have students make the relationship explicit by rewriting the sentences with because, as a result, or led to, then recording it in a cause-effect organizer.",
+   "traps": [
+    {
+     "code": "LITERAL",
+     "note": "The numbers are surface details that students can read easily. What they missed is the unstated relationship between the two events."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Unfamiliar words can block comprehension, but students who answered “It does not say why” were looking for an explicitly stated reason. The missing connective is the more likely cause."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "active voice ↔ passive voice",
+     "note": "Both sentences are active (a disease began destroying; people left). The difficulty is an implicit relationship, not voice."
+    }
+   ],
+   "key": "Causes in history texts are often implied, not signaled; teach ELLs to infer the link and restate it with because or as a result."
+  },
+  {
+   "id": "5.5-14",
+   "skill": "5.5",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "Expanding ELLs in a grade 10 global history class are writing an argument about whether the Industrial Revolution improved life for workers, using evidence from several documents. Their drafts list accurate facts from each document but do not explain how the facts support a claim. Which support would best address this need?",
+   "options": [
+    "Have students sort the facts from each document into categories on a graphic organizer before they begin rewriting their drafts.",
+    "Analyze a model paragraph to show how evidence is linked to a claim, and provide frames such as “This shows that ___ because ___.”",
+    "Allow students to submit a list of relevant facts from the documents in place of an essay, since argument writing is beyond the Expanding level.",
+    "Teach a mini-lesson on paraphrasing so that students restate the evidence from the documents in their own words instead of copying it."
+   ],
+   "answer": 1,
+   "why": "The identified need is specific: connecting evidence to a claim with reasoning, a core move in social studies argument writing. Deconstructing a mentor paragraph makes that move visible, and frames such as “This shows that… because…” give students the language to perform it. Expanding students are ready for this grade-level genre with targeted scaffolds.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "Sorting can organize evidence, but the drafts already contain accurate facts. The gap is explaining how the evidence supports a claim, which sorting does not teach."
+    },
+    null,
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Expanding students are ready for grade-level argument writing with targeted support. Accepting a list removes the reasoning the task requires."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Paraphrasing is a useful skill, but restated facts still need reasoning that connects them to the claim. It does not address the identified need."
+    }
+   ],
+   "key": "When ELLs list evidence without reasoning, model and scaffold the language that links evidence to a claim (This shows that… because…)."
+  },
+  {
+   "id": "5.6-01",
+   "skill": "5.6",
+   "type": "analysis",
+   "difficulty": 1,
+   "diag": 0,
+   "stimulus": "Version 1: “When farmers cut down the forests, the soil washed away quickly, and the land could no longer grow crops.”\nVersion 2: “Rapid deforestation caused severe soil erosion and a decline in agricultural productivity.”",
+   "stem": "Version 2, taken from a grade 9 textbook, is likely to be harder for ELLs to understand primarily because it…",
+   "options": [
+    "uses the passive voice, which hides the agent responsible for each of the actions described in the sentence.",
+    "uses nominalization, turning actions into abstract nouns that pack several ideas into dense noun phrases.",
+    "contains more words than Version 1, and longer sentences are more difficult for ELLs to process.",
+    "relies on idiomatic expressions whose meanings cannot be worked out from the meanings of the individual words."
+   ],
+   "answer": 1,
+   "why": "Nominalization turns verbs and adjectives into nouns (deforest → deforestation, erode → erosion, productive → productivity). It lets writers pack a whole process into a noun phrase and link processes with a single verb (caused), but it removes the people doing the actions and the clause structure that shows who did what. Academic texts in every discipline rely on it, so ELLs need explicit instruction in unpacking it.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "nominalization ↔ passive voice",
+     "note": "Version 2 is in the active voice (deforestation caused…). The people disappear because the actions became nouns, which is nominalization, not passive voice."
+    },
+    null,
+    {
+     "code": "LITERAL",
+     "note": "Version 2 is actually shorter (12 words vs. 19). Its difficulty comes from density, not length."
+    },
+    {
+     "code": "TERM",
+     "pair": "academic nouns ↔ idioms",
+     "note": "Deforestation and erosion are transparent academic words built from parts (de- + forest + -ation), not idioms. The challenge is abstraction and density."
+    }
+   ],
+   "key": "Nominalization turns processes into abstract nouns (erode → erosion), creating dense, agentless noun phrases that ELLs must learn to unpack."
+  },
+  {
+   "id": "5.6-02",
+   "skill": "5.6",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 1,
+   "stimulus": "Sentence from a grade 8 social studies text:\n“The rapid expansion of the railroads in the late 1800s led to the decline of many towns that had depended on river trade.”",
+   "stem": "An ENL teacher wants Expanding ELLs to comprehend sentences like this one and eventually use similar structures in their own writing. Which instructional approach would be most effective?",
+   "options": [
+    "Guide students to unpack the noun phrases into who-did-what clauses (Railroads expanded. River towns declined.), then repack ideas in writing.",
+    "Preteach expansion and decline with student-friendly definitions and pictures so that students recognize both key words when they meet them in the text.",
+    "Rewrite the text for ELLs so that it avoids nominalizations, since abstract nouns are too difficult for students at this level.",
+    "Teach the rule that -sion and -tion turn verbs into nouns and have students convert lists of verbs into nouns on a worksheet."
+   ],
+   "answer": 0,
+   "why": "Unpacking a nominalization means turning it back into clauses with actors and verbs (Railroads expanded → many river towns declined), which reveals the hidden participants and the causal relationship (led to). Repacking, turning clauses back into noun phrases, helps students produce the concise style of academic writing. The approach keeps students working with grade-level text instead of avoiding it.",
+   "traps": [
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Knowing the words helps, but the difficulty lies in how the sentence packs two processes and a causal link into noun phrases. Definitions alone do not teach students to unpack or produce that structure."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Removing nominalizations denies Expanding students access to the language of grade-level texts. They need to be taught to handle it, not shielded from it."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Morphology is relevant, but a decontextualized conversion drill does not show how nominalizations work in sentences to condense meaning and express cause."
+    }
+   ],
+   "key": "Teach nominalization by unpacking dense noun phrases into who-did-what clauses, then repacking ideas into noun phrases in writing."
+  },
+  {
+   "id": "5.6-03",
+   "skill": "5.6",
+   "type": "analysis",
+   "difficulty": 1,
+   "diag": 0,
+   "stimulus": "Passage from a grade 6 social studies text:\n“Athens and Sparta were both powerful Greek city-states. Athens developed a democracy in which male citizens voted on laws. In contrast, Sparta was ruled by two kings and a council of elders. Athenian boys studied reading, music, and athletics, whereas Spartan boys trained to be soldiers. Like Athens, however, Sparta did not allow women to vote.”",
+   "stem": "Which text structure do the signal words in this passage indicate, and which graphic organizer best matches it?",
+   "options": [
+    "Cause/effect, shown best with a flowchart of arrows linking each cause to its effects.",
+    "Chronological sequence, shown best with a timeline of the events in Greek history.",
+    "Description, shown best with a web of the features of ancient Greek city-states.",
+    "Compare/contrast, shown best with a Venn diagram or a two-column comparison chart."
+   ],
+   "answer": 3,
+   "why": "Signal words reveal text structure: both, in contrast, whereas, like, unlike, similarly, and however signal compare/contrast. A Venn diagram or comparison chart mirrors that structure, so students can sort likenesses and differences. Teaching ELLs to notice signal words and match them to organizers helps them comprehend texts and later write in the same structure.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "compare/contrast ↔ cause/effect",
+     "note": "Nothing in the passage presents one event as producing another. Both, in contrast, whereas, and like signal comparison."
+    },
+    {
+     "code": "TERM",
+     "pair": "compare/contrast ↔ sequence",
+     "note": "The passage contains no time-order signals (first, then, later, in 490 B.C.E.). It describes two city-states side by side."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "The passage does describe features, but its signal words organize them as likenesses and differences between two things, which a web would not show."
+    },
+    null
+   ],
+   "key": "Both, in contrast, whereas, and like/unlike signal compare/contrast; pair that structure with a Venn diagram or comparison chart."
+  },
+  {
+   "id": "5.6-04",
+   "skill": "5.6",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Passage from a grade 7 science text:\n“By the 1960s, smog from factories and cars had made the air in many U.S. cities unhealthy to breathe. To address this problem, Congress passed the Clean Air Act of 1970, which set limits on air pollution. In response, automakers began installing catalytic converters, and air quality in many cities improved.”",
+   "stem": "A teacher wants a graphic organizer that reflects how this passage is organized as a whole. Which text structure best describes the passage?",
+   "options": [
+    "Cause/effect, because it explains that smog from factories and cars made the air in U.S. cities unhealthy.",
+    "Chronological sequence, because its dates show the order in which the events occurred.",
+    "Problem/solution, because it presents an issue and then describes the actions taken to resolve it.",
+    "Description, because it describes the characteristics of air pollution in U.S. cities."
+   ],
+   "answer": 2,
+   "why": "Problem/solution texts present a problem and then the actions taken to solve it, often signaled by phrases such as to address this problem, one solution, in response, and as a result. Real texts mix structures, so teachers should help ELLs find the overall structure by attending to these signals. A problem → solution → result organizer fits this passage.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "problem/solution ↔ cause/effect",
+     "note": "Cause-effect relationships appear inside the passage, but signals such as “To address this problem” and “In response” organize the whole text around a problem and the responses to it."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "The events do move forward in time, but the dates serve the larger problem/solution organization. A timeline would miss the relationship between the problem and the responses."
+    },
+    null,
+    {
+     "code": "LITERAL",
+     "note": "Only the first sentence describes conditions. The rest of the passage is about responses to that problem."
+    }
+   ],
+   "key": "Problem/solution is signaled by phrases like to address this problem and in response; identify the overall structure, not just embedded ones."
+  },
+  {
+   "id": "5.6-05",
+   "skill": "5.6",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Sentence frames posted for a grade 9 discussion on whether the town should ban single-use plastic bags:\n- Although some people claim ___, the evidence shows ___.\n- One reason I believe ___ is ___.\n- Someone might argue ___; however, ___.",
+   "stem": "These frames are designed primarily to support which language function?",
+   "options": [
+    "Argue: stating a claim, supporting it with evidence, and responding to opposing views.",
+    "Compare/contrast: showing how two objects or ideas are alike and how they are different.",
+    "Explain: telling how or why something happens by describing its causes and effects.",
+    "Describe: telling the characteristics of an object, place, or event in precise detail."
+   ],
+   "answer": 0,
+   "why": "Language functions are what students do with language: describe, sequence, compare, explain, argue. Each function calls for particular forms. Argument requires stating a claim (I believe), citing evidence (the evidence shows), and conceding or rebutting (Although…; Someone might argue…; however…). Identifying the function lets teachers choose frames and forms that match the task in any discipline.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "pair": "argue ↔ compare/contrast",
+     "note": "Although and however can signal contrast, but here they introduce a counterclaim and a rebuttal, which are moves in an argument."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Giving a reason is part of these frames, but the reasons serve a claim and a rebuttal. The overall function is argument, not explaining a phenomenon."
+    },
+    {
+     "code": "LITERAL",
+     "note": "None of the frames asks for attributes or details. They ask students to take and defend a position."
+    }
+   ],
+   "key": "Argue = claim + evidence + counterclaim and rebuttal, supported by frames like “Although some claim…, the evidence shows…”"
+  },
+  {
+   "id": "5.6-06",
+   "skill": "5.6",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 2,
+   "stem": "A grade 4 Integrated ENL science lesson has this content objective: “Students will compare the characteristics of mammals and reptiles.” Which language objective best targets the language that this function requires?",
+   "options": [
+    "Students will define the words mammal and reptile and then copy both definitions into their science notebooks.",
+    "Students will learn about mammals and reptiles by reading a chapter and answering the questions at the end.",
+    "Students will use regular past-tense verbs correctly when writing about a class trip to the zoo.",
+    "Students will orally compare mammals and reptiles with a partner using whereas, both… and, and unlike."
+   ],
+   "answer": 3,
+   "why": "A strong language objective names the function students will perform and the forms they need to perform it. Comparing calls for comparative structures: whereas, while, both… and, unlike, similar to, and -er than. Pairing the function with these forms and with partner talk gives ELLs practice with exactly the language the content task demands.",
+   "traps": [
+    {
+     "code": "ISOLATED",
+     "note": "Defining two words addresses vocabulary only and involves no comparing. The objective should target the forms needed to compare."
+    },
+    {
+     "code": "TERM",
+     "pair": "language objective ↔ activity",
+     "note": "This describes an activity, not a language objective; it names no language function or form for students to use."
+    },
+    {
+     "code": "LITERAL",
+     "note": "This is a language objective, but its form (past tense) and topic (the zoo trip) do not match the comparing function of the lesson. It connects only on the surface (animals)."
+    },
+    null
+   ],
+   "key": "Language objectives name the function and its forms: compare → whereas, both… and, unlike, -er than."
+  },
+  {
+   "id": "5.6-07",
+   "skill": "5.6",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Sentence from a grade 8 social studies text:\n“The colonists who refused to buy goods that Parliament had taxed hoped to pressure British merchants.”\n\nQuestion: Who hoped to pressure British merchants?\nAnswer from Wei, a Transitioning ELL whose home language is Mandarin: “Parliament.”",
+   "stem": "Which instructional strategy best addresses the source of Wei's difficulty?",
+   "options": [
+    "Preteach colonist, Parliament, and merchant with pictures so that Wei can identify the people mentioned in the sentence.",
+    "Deconstruct the sentence: find the main subject and verb (colonists… hoped), then see what each embedded clause tells about a noun.",
+    "Give Wei additional practice with subject–verb agreement, since he has not yet mastered the third-person singular -s.",
+    "Provide Wei with a simplified version of the sentence that reads “The colonists hoped to pressure merchants” for all of his future readings."
+   ],
+   "answer": 1,
+   "why": "Wei chose Parliament, the noun that sits right before hoped, a common strategy when a long embedded clause separates a subject from its verb. Sentence deconstruction (often called working with a “juicy sentence”) has students chunk the sentence, find the main clause, and see how the relative clauses (who refused…, that Parliament had taxed) modify nouns. Regular practice with one complex sentence from the day's text builds the syntactic awareness needed for grade-level reading.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "Wei already recognized Parliament as one of the participants; his problem is how the clauses fit together. Vocabulary support alone will not help him find the subject of a long sentence."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "identifying the subject ↔ subject–verb agreement",
+     "note": "Nothing in Wei's answer involves agreement. He misidentified which noun is the subject of hoped, a sentence-structure problem, not an inflection problem."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Simplifying removes the complex structures Wei must learn to read in grade-level texts. He needs a strategy for unpacking such sentences instead."
+    }
+   ],
+   "key": "When embedded clauses separate subject and verb, teach sentence deconstruction: find the main clause, then what each clause modifies."
+  },
+  {
+   "id": "5.6-08",
+   "skill": "5.6",
+   "type": "knowledge",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A middle school ENL teacher and the content-area teams want to choose a shared set of words to teach explicitly in science, social studies, and math. Which set would provide the greatest benefit across disciplines?",
+   "options": [
+    "photosynthesis, legislature, hypotenuse, isotope, tariff",
+    "happy, run, house, chair, walk",
+    "analyze, evidence, significant, structure, factor",
+    "piece of cake, break a leg, under the weather"
+   ],
+   "answer": 2,
+   "why": "General academic (Tier 2) words such as analyze, evidence, significant, structure, and factor appear in every discipline, carry important meaning in directions and texts, and are rarely taught because teachers assume students know them. Because they transfer across subjects, a schoolwide focus on them gives high leverage. Tier 3 words are best taught within their discipline, and Tier 1 words are usually acquired through everyday use.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "Tier 3 ↔ Tier 2",
+     "note": "These are discipline-specific Tier 3 words. They matter, but each belongs to one subject and is best taught there."
+    },
+    {
+     "code": "TERM",
+     "pair": "Tier 1 ↔ Tier 2",
+     "note": "These are Tier 1 everyday words that most students acquire through conversation; they are not the academic words that cut across disciplines."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Idioms matter for conversational English, but they are not the general academic vocabulary that students need across content-area texts and tasks."
+    }
+   ],
+   "key": "Tier 2 general academic words (analyze, evidence, significant) cut across disciplines and give the greatest return on explicit instruction."
+  },
+  {
+   "id": "5.6-09",
+   "skill": "5.6",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Sentence from a grade 7 science text:\n“Despite receiving plenty of rain, the corn crop failed because insects destroyed the young plants.”\n\nSummary written by Oumar, a Transitioning ELL whose home language is Wolof:\n“The corn failed because it got too much rain.”",
+   "stem": "Oumar's summary most likely indicates difficulty with which of the following?",
+   "options": [
+    "Understanding the content word crop, which he needs to know in order to identify the topic of the sentence.",
+    "Using verb tenses correctly, since he wrote got instead of the more formal verb received.",
+    "Distinguishing causes from effects, which suggests he needs a review of what cause and effect mean.",
+    "Interpreting despite, which signals that the rain was not the cause and that the result was unexpected."
+   ],
+   "answer": 3,
+   "why": "Concessive connectives (despite, although, even though, in spite of, nevertheless) signal that something happened contrary to what one would expect. Oumar treated the rain as the cause, which reverses the meaning, and he dropped the actual cause (insects). Teachers should explicitly teach concessive signals, for example by having students restate such sentences: “It rained a lot, but the corn still failed. The real cause was insects.”",
+   "traps": [
+    {
+     "code": "LITERAL",
+     "note": "Oumar correctly identified the topic (the corn failed). His error is about the relationship between the rain and the failure."
+    },
+    {
+     "code": "OVERCORRECT",
+     "note": "Got is a correct past-tense verb, only less formal. Focusing on it attends to form while missing the real meaning error."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Oumar used because correctly to link a cause and an effect. The problem is narrower: he misread the concessive connective and assigned the wrong cause."
+    },
+    null
+   ],
+   "key": "Concessive signals (despite, although, even though) introduce an unexpected contrast, not a cause; teach them explicitly."
+  },
+  {
+   "id": "5.6-10",
+   "skill": "5.6",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "During a grade 5 science discussion, Rafi, an Emerging ELL whose home language is Bengali, describes an experiment:\n“We put ice in the sun. The black cup, the ice go water more fast.”",
+   "stem": "Which teacher response best moves Rafi toward academic language while honoring his understanding?",
+   "options": [
+    "“Yes, the ice melted faster in the black cup! Why do you think that happened? Try: ‘The ice in the black cup melted faster because ___.’”",
+    "“That's not how we say it. Say, ‘The ice melted more rapidly in the dark-colored cup.’ Now repeat that whole sentence three times for me, please.”",
+    "“Great job, Rafi! Thank you for sharing. Who else would like to tell us what they noticed during the experiment?”",
+    "“Let's wait until you learn words like melt in your ENL class. Then you can explain the whole experiment to all of us.”"
+   ],
+   "answer": 0,
+   "why": "The best response confirms Rafi's correct observation, recasts his everyday wording into academic language (the ice melted faster), and uses a frame to push for an explanation, moving him along the continuum from everyday to academic register. Building on what students can already say keeps meaning first, and the frame provides the next step.",
+   "traps": [
+    null,
+    {
+     "code": "OVERCORRECT",
+     "note": "This rejects a correct scientific observation, puts form over meaning, and turns the exchange into a repetition drill, which can raise anxiety and discourage participation."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Praise is encouraging, but it misses the chance to model the academic phrasing (melted faster) and to push Rafi to explain the cause."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "This shuts Rafi out of the discussion until his English improves. Content classes are where academic language should be learned."
+    }
+   ],
+   "key": "Bridge everyday to academic language: affirm the idea, recast it academically, and give a frame that pushes for explanation."
+  },
+  {
+   "id": "5.6-11",
+   "skill": "5.6",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stimulus": "Sentence from a grade 4 social studies text:\n“The Haudenosaunee Confederacy, an alliance of Indigenous nations in what is now New York State, had a Grand Council that made decisions for all of its members.”",
+   "stem": "Which instruction would best help ELLs use the structure of this sentence to work out the meaning of an unfamiliar term?",
+   "options": [
+    "Explain that commas separate the items in a list, so students should read the sentence as a series of separate ideas.",
+    "Have students look up Confederacy in a bilingual dictionary before reading so that they know the word in advance.",
+    "Show that the phrase set off by commas is an appositive that defines the term, and have students find other appositives.",
+    "Teach the prefix con- meaning “with,” which is the most reliable clue to the meaning of Confederacy in this sentence."
+   ],
+   "answer": 2,
+   "why": "Content textbooks often define new terms inside the sentence, using an appositive (a noun phrase set off by commas) or signals such as which is, called, also known as, or that is. Teaching ELLs to recognize these embedded definitions turns a complex sentence structure into a comprehension tool they can use in every discipline.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "appositive commas ↔ series commas",
+     "note": "These commas do not mark a list; they set off an appositive phrase that renames the noun before it. Reading them as list commas would break the sentence apart."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "A dictionary can help, but the sentence itself supplies the definition. Teaching students to notice appositives gives them a strategy they can use throughout content texts."
+    },
+    null,
+    {
+     "code": "LITERAL",
+     "note": "A prefix offers a partial clue at best, while the appositive right after the term defines it directly. This option focuses on part of the word rather than the sentence context."
+    }
+   ],
+   "key": "Appositives (noun phrases set off by commas) often define new terms in content texts; teach ELLs to use them as context clues."
+  },
+  {
+   "id": "5.6-12",
+   "skill": "5.6",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Passage from a grade 9 science text:\n“Rain washed excess fertilizer from nearby farms into the lake. There, it caused algae to grow rapidly. When the algae died, bacteria decomposed them. This process used up much of the oxygen that fish need to survive.”\n\nQuestion: What used up the oxygen in the lake?\nSeveral ELLs answered: “The rain.”",
+   "stem": "Which instructional activity would best address the language feature that caused this confusion?",
+   "options": [
+    "Preteach the terms algae, decompose, and oxygen with pictures and definitions before students read the passage.",
+    "Have students draw arrows from it, them, and this process back to what each refers to, then retell the chain of events.",
+    "Give ELLs a version of the passage in which every pronoun and summarizing phrase is replaced by the noun it refers to.",
+    "Teach the difference between this, that, these, and those using a worksheet about objects that are near and far."
+   ],
+   "answer": 1,
+   "why": "Academic texts build cohesion through reference: pronouns (it, them) and summarizing phrases (this process) point back to earlier ideas, sometimes to a whole sentence. ELLs who lose one link misread the causal chain. Tracing reference chains with arrows and then retelling makes cohesion visible and teaches a strategy students can use with any dense text.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "Knowing the terms helps, but students who answered “the rain” misread how the sentences connect. The referring words, not the technical terms, broke the chain."
+    },
+    null,
+    {
+     "code": "LOWER_RIGOR",
+     "note": "This can be a brief temporary support, but it removes the cohesive devices students must learn to track in grade-level texts, so it does not teach the skill."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "A near/far demonstrative drill has nothing to do with this process summarizing a preceding idea. It is decontextualized grammar practice."
+    }
+   ],
+   "key": "Teach ELLs to track reference chains (it, them, this process) back to their referents; cohesive links carry the meaning."
+  },
+  {
+   "id": "5.6-13",
+   "skill": "5.6",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Two sentence frames prepared for a grade 6 lesson comparing ancient Mesopotamia and Egypt:\nFrame 1: “Mesopotamia had ___. Egypt had ___.”\nFrame 2: “While Mesopotamia ___, Egypt ___, which suggests that ___.”",
+   "stem": "The class includes Emerging and Expanding ELLs. Which plan for using the frames is most appropriate?",
+   "options": [
+    "Emerging students use Frame 2 so that they are challenged, and Expanding students use Frame 1 so that they can focus on content.",
+    "All students use Frame 2, since every ELL should be held to the same grade-level expectations for the comparison.",
+    "Emerging students use Frame 1, while Expanding students copy a model comparison paragraph into their notebooks.",
+    "Emerging students use Frame 1 with a word bank, Expanding students use Frame 2, and all compare the same two civilizations."
+   ],
+   "answer": 3,
+   "why": "Differentiating by proficiency level means keeping the content and thinking the same (comparing two civilizations) while varying the language support. Simple parallel sentences with a word bank fit Emerging students, and a frame with a subordinate clause (While…) and an inference (which suggests that…) stretches Expanding students. This mirrors the NLAP, which shows the same standard at every level with decreasing scaffolds.",
+   "traps": [
+    {
+     "code": "WRONG_LEVEL",
+     "note": "This reverses the match. The subordinate clause and inference in Frame 2 are beyond Emerging students, while Frame 1 underchallenges Expanding students."
+    },
+    {
+     "code": "ONE_SIZE",
+     "note": "The content expectation is the same for everyone, but language support should differ by level. Giving every student the same frame ignores proficiency."
+    },
+    {
+     "code": "PASSIVE",
+     "note": "Copying a model gives Expanding students no chance to produce the complex comparative language they are ready for."
+    },
+    null
+   ],
+   "key": "Tier frames by proficiency (simple sentences for Emerging, complex clauses for Expanding) while keeping the same content task for all."
+  },
+  {
+   "id": "5.6-14",
+   "skill": "5.6",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Conclusion from a lab report by Daniela, an Expanding ELL in grade 10 chemistry:\n“Our data proves that heat always makes every chemical reaction go faster.”",
+   "stem": "The teacher wants to address the language of this conclusion in a short mini-lesson. Which focus would be most appropriate?",
+   "options": [
+    "Hedging claims to fit the evidence (e.g., “Our data suggest that heat increased the reaction rate in this experiment”).",
+    "Subject–verb agreement, because data is a plural noun that takes prove rather than proves in formal scientific writing.",
+    "Adding technical vocabulary, such as kinetic energy and activation energy, to make the conclusion sound more scientific.",
+    "Sequence transitions such as first, next, and finally, since the conclusion does not state the steps of the procedure."
+   ],
+   "answer": 0,
+   "why": "Academic writing across disciplines fits claims to evidence with hedges (suggests, indicates, may, likely) and qualifiers (in this experiment, in most cases). Daniela's claim (proves, always, every) overstates what one lab can show, which is both a reasoning issue and a language issue. A mini-lesson on hedging teaches a key feature of the argue function at the Expanding level.",
+   "traps": [
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Many style guides treat data as plural, but this is a minor usage point. The larger problem is that the claim goes far beyond what one experiment can show."
+    },
+    {
+     "code": "LITERAL",
+     "note": "More technical terms would not fix the overstated claim. Academic language is about precision, not about sounding scientific."
+    },
+    {
+     "code": "TERM",
+     "pair": "conclusion (argue) ↔ procedure (sequence)",
+     "note": "Steps belong in the procedure section. A conclusion makes a claim from evidence, so sequence language is the wrong target."
+    }
+   ],
+   "key": "Academic claims are hedged to fit the evidence (suggests, may, in this experiment); teach hedging as part of the argue function."
+  },
+  {
+   "id": "5.7-01",
+   "skill": "5.7",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 1,
+   "stimulus": "Evidence on Hamid, an Emerging ELL in grade 8 social studies (home language: Dari), at the end of a unit on the causes of the Civil War:\n- Unit test (two essay questions in English): 45%\n- Small-group work: correctly sorted picture-and-caption cards into causes and effects\n- Oral check: used a sentence frame to explain how the Fugitive Slave Act increased tension between North and South\n- Notebook: accurate, labeled cause-and-effect organizer",
+   "stem": "What is the most significant problem with using the unit test score as the measure of Hamid's learning?",
+   "options": [
+    "A two-question test is too short to be reliable, so the teacher should add more essay questions to the next unit test.",
+    "The low score shows that Hamid has not yet mastered the content, so he should repeat the unit in a less demanding class.",
+    "The essay format mainly measures his English writing proficiency, so the score does not validly reflect his content knowledge.",
+    "The other evidence is informal and should be set aside, since the unit test is the only objective measure of what Hamid learned."
+   ],
+   "answer": 2,
+   "why": "Validity asks whether an assessment measures what it claims to measure. For an Emerging ELL, an English essay test mostly measures writing proficiency, so Hamid's low score reflects construct-irrelevant language demands rather than his understanding of the causes of the Civil War, which the other evidence shows. Teachers should use multiple measures and formats (sorting, labeled organizers, oral responses with frames) that let ELLs show content knowledge.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "validity ↔ reliability",
+     "note": "More essay items would make the test more consistent but no more valid for Hamid. Each one would still measure his English writing rather than his historical understanding."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "The other evidence shows he understands the causes. Moving him to a less demanding class would deny him grade-level content because of an invalid measure."
+    },
+    null,
+    {
+     "code": "ASSESS_INVALID",
+     "note": "Observations, oral checks, and work products are legitimate evidence. Relying only on a measure that is confounded by language gives an inaccurate picture."
+    }
+   ],
+   "key": "A content test that requires extended English writing may measure language, not content; that is a validity problem."
+  },
+  {
+   "id": "5.7-02",
+   "skill": "5.7",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 2,
+   "stem": "A grade 6 science teacher asks the ENL co-teacher how Entering ELLs can show their understanding of the water cycle at the end of the unit. Which assessment is most appropriate?",
+   "options": [
+    "Students take the same written unit test as their classmates, with extended time provided as a testing accommodation.",
+    "Students label a water cycle diagram using a bilingual word bank, then point to it to explain each stage in English or the home language.",
+    "Students write a paragraph explaining evaporation, condensation, and precipitation, using a list of transition words and a model paragraph for support.",
+    "Students are excused from the unit assessment and receive a grade based on their effort and participation during the unit."
+   ],
+   "answer": 1,
+   "why": "A performance task with a low language load, such as arranging and labeling a diagram and explaining it by pointing, gesturing, or using the home language, lets Entering students show the science concept (the stages and their order) without English proficiency getting in the way. The content target stays at grade level; only the way students show it changes.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "Extended time is a legitimate accommodation, but it does not reduce the language load of a written test that Entering students cannot yet read or write with ease."
+    },
+    null,
+    {
+     "code": "WRONG_LEVEL",
+     "note": "A paragraph of academic writing is beyond the Entering level, so the task would measure English writing rather than science understanding."
+    },
+    {
+     "code": "EXCLUSION",
+     "note": "Excusing students from assessment denies them the chance to show what they learned and gives the teacher no information about content mastery."
+    }
+   ],
+   "key": "Performance tasks with visuals, labels, and oral or home-language explanation let Entering ELLs show content knowledge."
+  },
+  {
+   "id": "5.7-03",
+   "skill": "5.7",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Criterion | 4 points | 2 points\nScientific explanation | Accurately explains results using data | Explanation partly accurate or lacks data\nScientific vocabulary | Uses terms such as variable and control accurately | Uses some terms accurately\nLanguage conventions | Errors do not interfere with meaning | Errors sometimes interfere with meaning",
+   "stem": "The rubric excerpt above is used to score grade 9 science lab conclusions. Which statement best explains why this rubric is well suited to assessing ELLs' work?",
+   "options": [
+    "Its separate criteria let the teacher credit scientific understanding even while language conventions are still developing.",
+    "It produces a single overall score based on the reader's general impression, which is faster than scoring separate dimensions.",
+    "It removes language from the assessment entirely, so that only students' content knowledge affects their scores.",
+    "It ranks each ELL's performance against that of classmates, which makes it a norm-referenced measure of achievement."
+   ],
+   "answer": 0,
+   "why": "An analytic rubric that scores content and language separately keeps an ELL's developing English from lowering the score for scientific understanding, and it gives specific information for instruction (for example, a strong explanation but conventions that sometimes interfere). The conventions criterion also focuses on whether errors interfere with meaning, a reasonable standard for ELLs.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "pair": "analytic ↔ holistic",
+     "note": "A single overall-impression score describes a holistic rubric. This rubric is analytic, and its separate criteria are what keep language from masking content."
+    },
+    {
+     "code": "LITERAL",
+     "note": "The rubric still assesses vocabulary and conventions. It separates language from content; it does not remove it."
+    },
+    {
+     "code": "TERM",
+     "pair": "criterion-referenced ↔ norm-referenced",
+     "note": "Rubrics compare work with fixed criteria, so they are criterion-referenced. Nothing in this rubric ranks students against one another."
+    }
+   ],
+   "key": "Analytic rubrics that score content and language separately keep language from masking content knowledge."
+  },
+  {
+   "id": "5.7-04",
+   "skill": "5.7",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A high school ENL teacher is advising colleagues on ELLs' use of bilingual glossaries. Which practice is most consistent with NYS testing policy and sound assessment practice?",
+   "options": [
+    "Provide glossaries with definitions and illustrations of key terms on a Regents science exam so that ELLs fully understand the vocabulary.",
+    "Allow word-to-word glossaries on the Regents Examination in English Language Arts, since ELLs need the same supports on every test.",
+    "Have ELLs use word-to-word glossaries routinely in instruction and classroom tests so the tool is familiar on state tests.",
+    "Withhold glossaries on classroom tests so that scores show what ELLs can do without help, and provide them only on state tests."
+   ],
+   "answer": 2,
+   "why": "NYS allows ELLs, and former ELLs for two years after exit, to use word-to-word bilingual glossaries without definitions on state content tests such as math, science, and social studies, but not on ELA tests. Accommodations work best when students use them routinely in instruction and classroom assessment, so the tool is familiar and classroom scores reflect content knowledge the same way state scores do.",
+   "traps": [
+    {
+     "code": "NYS_POLICY",
+     "note": "NYS permits only word-to-word bilingual glossaries, with no definitions or explanations, on state content tests. Definitions and pictures could supply the very content being tested."
+    },
+    {
+     "code": "NYS_POLICY",
+     "note": "Glossary and translation accommodations do not apply to ELA tests, which assess English reading and writing. ELLs can still receive other accommodations on ELA tests, such as extended time and a separate location."
+    },
+    null,
+    {
+     "code": "ASSESS_INVALID",
+     "note": "Without the glossary, classroom scores reflect vocabulary gaps rather than content knowledge, and students meet the tool for the first time on a high-stakes test."
+    }
+   ],
+   "key": "NYS bilingual glossaries are word-to-word only and for content tests, not ELA; students should practice with them in class first."
+  },
+  {
+   "id": "5.7-05",
+   "skill": "5.7",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "Lucía arrived from Ecuador two months ago and is at the Entering level. She attended school continuously in Ecuador and earned high grades in biology. Her grade 10 science teacher wants an accurate picture of what she understands about cell processes. Which approach is most appropriate?",
+   "options": [
+    "Postpone science assessments for Lucía until she reaches the Transitioning level, so that her grades are not lowered by her English.",
+    "Give Lucía the same English-only test as her classmates, since accommodations would give her an unfair advantage over them.",
+    "Give Lucía a simplified test on basic cell vocabulary drawn from an earlier grade level's science curriculum.",
+    "Allow Lucía to write her constructed responses in Spanish and have a qualified bilingual educator help score them for content."
+   ],
+   "answer": 3,
+   "why": "Lucía has strong home-language literacy and content knowledge, so letting her respond in Spanish separates what she knows about science from her developing English. NYS also allows ELLs to write responses to state content-test items in the home language, so this classroom practice mirrors a state accommodation, and scoring by a qualified bilingual educator keeps the scoring accurate.",
+   "traps": [
+    {
+     "code": "EXCLUSION",
+     "note": "Waiting months or years to assess Lucía denies her credit for what she knows and leaves the teacher without information to guide instruction."
+    },
+    {
+     "code": "ASSESS_INVALID",
+     "note": "Accommodations remove a language barrier; they do not create an advantage. An English-only test would measure her English rather than her biology knowledge."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Lucía has strong prior schooling in biology. A below-grade test lowers expectations and still would not show what she knows about grade-level cell processes."
+    },
+    null
+   ],
+   "key": "For ELLs with strong prior schooling, home-language responses separate content knowledge from English proficiency."
+  },
+  {
+   "id": "5.7-06",
+   "skill": "5.7",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Original item from a grade 8 science test:\n“Which of the following would most likely be observed by a student who, after carefully placing a healthy plant in a closet where it would not be exposed to any light for a period of two weeks, examined the plant's leaves?”",
+   "stem": "Which revision best reduces the linguistic complexity of this item without changing the science content it assesses?",
+   "options": [
+    "“A plant does not get any light for two weeks. Will its leaves stay green? Answer yes or no.”",
+    "“A healthy plant is kept in a dark closet for two weeks. What will most likely happen to its leaves?”",
+    "“Photosynthesis is the process plants use to make food from light. A plant is kept in a dark closet. What happens?”",
+    "The original item, with the words exposed, observed, and examined translated into the student's home language in parentheses."
+   ],
+   "answer": 1,
+   "why": "Linguistic modification removes construct-irrelevant language: long noun phrases, embedded clauses, passive voice, and unnecessary words. The best revision uses two short, active sentences and keeps the scientific situation and the question intact. Good modification never adds content clues, removes the concept being tested, or changes the response format in ways that make guessing easier.",
+   "traps": [
+    {
+     "code": "LOWER_RIGOR",
+     "note": "The yes/no format lets students guess correctly half the time and hints at the answer (green), so the item measures much less than the original."
+    },
+    null,
+    {
+     "code": "ASSESS_INVALID",
+     "note": "Adding the definition supplies the very knowledge the item tests (that plants need light to make food), so the item no longer measures it."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Translating a few words helps with vocabulary, but the main barrier, the long sentence with embedded and passive clauses, is unchanged."
+    }
+   ],
+   "key": "Linguistic modification simplifies an item's language while keeping the tested concept and response format intact."
+  },
+  {
+   "id": "5.7-07",
+   "skill": "5.7",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "Midway through a grade 5 lesson on the phases of the moon, a teacher wants to check whether her Entering and Emerging ELLs understand the order of the phases before she moves on. Which formative assessment would provide the most useful information?",
+   "options": [
+    "The teacher asks, “Does everyone understand? Raise your hand if you have any questions about the phases.”",
+    "Students write a paragraph explaining why the moon appears to change shape over the course of a month.",
+    "Students take a 20-question multiple-choice quiz with short reading passages at the end of the week.",
+    "Students arrange moon-phase picture cards in order, hold them up, and then name one phase to a partner."
+   ],
+   "answer": 3,
+   "why": "Effective formative checks for ELLs at lower levels let every student show understanding at once with little language: sorting cards, holding up whiteboards, pointing, or gesturing. Arranging the phases shows whether each student grasps the sequence, and naming a phase to a partner adds a small amount of oral output. “Does everyone understand?” yields no valid information.",
+   "traps": [
+    {
+     "code": "ASSESS_INVALID",
+     "note": "Yes/no comprehension checks are unreliable. Many ELLs will not admit confusion, and the teacher learns nothing about what each student actually understands."
+    },
+    {
+     "code": "WRONG_LEVEL",
+     "note": "A written explanation is beyond what Entering students can produce, so it would not show whether they understand the sequence."
+    },
+    {
+     "code": "TERM",
+     "pair": "formative ↔ summative",
+     "note": "An end-of-week, reading-heavy quiz works as a summative check and comes too late to guide this lesson. The teacher needs a quick in-the-moment check."
+    },
+    null
+   ],
+   "key": "Check ELLs' understanding with low-language, every-student responses (sorting, whiteboards), not “Does everyone understand?”"
+  },
+  {
+   "id": "5.7-08",
+   "skill": "5.7",
+   "type": "analysis",
+   "difficulty": 1,
+   "diag": 0,
+   "stimulus": "Prompt (grade 6 science): Explain why the ice cube on the metal tray melted faster than the ice cube on the plastic tray.\n\nResponse from Jae-won, an Emerging ELL whose home language is Korean:\n“Metal is take the heat fast from air. Plastic no take heat fast. So ice on metal get more heat, melt more fast.”\n\nThe teacher gave the response 1 out of 4 points because of its grammatical errors.",
+   "stem": "The rubric is meant to assess understanding of heat transfer. Which evaluation of the response is most appropriate?",
+   "options": [
+    "It shows that metal conducts heat faster than plastic, so it earns content credit, with language feedback given separately.",
+    "It should receive a low score, because its errors make it impossible to determine what Jae-won understands about heat transfer.",
+    "It suggests a possible learning disability, because Jae-won omits articles and uses incorrect verb forms throughout.",
+    "It should be returned ungraded until Jae-won corrects every grammatical error and resubmits a polished response."
+   ],
+   "answer": 0,
+   "why": "When a rubric targets content, ELLs should be scored on the accuracy of their content ideas. Jae-won's explanation is scientifically sound: metal is a better heat conductor, so the ice gets more heat and melts faster. His grammar shows typical Emerging-level features and should be addressed through separate language feedback, not by lowering the content score.",
+   "traps": [
+    null,
+    {
+     "code": "ASSESS_INVALID",
+     "note": "The meaning is clear despite the errors: metal transfers heat faster, so the ice melts faster. Scoring grammar on a science criterion measures the wrong construct."
+    },
+    {
+     "code": "MISREFERRAL",
+     "note": "Omitted articles and simplified verb forms are typical of Emerging ELLs, and Korean has no articles. These features reflect normal second-language development, not a disability."
+    },
+    {
+     "code": "OVERCORRECT",
+     "note": "Withholding credit for accurate science until the grammar is perfect puts form over meaning and discourages the student."
+    }
+   ],
+   "key": "Score the content construct; don't let Emerging-level grammar lower a content score when the meaning is clear."
+  },
+  {
+   "id": "5.7-09",
+   "skill": "5.7",
+   "type": "application",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A grade 7 math teacher is adapting a unit test for ELLs. The targeted standard requires students to write and solve two-step equations to represent real-world word problems. Which adaptation best preserves the test's validity as a measure of this standard?",
+   "options": [
+    "Replacing the two-step equations with one-step equations so that ELLs can concentrate on understanding the language of the problems.",
+    "Reading the problems aloud, simplifying their syntax, and allowing a word-to-word glossary, while keeping the same math.",
+    "Printing a worked example of each problem type beside the corresponding test item so that ELLs can follow its steps.",
+    "Removing the word problems so that ELLs solve only the equations, which eliminates the language barrier entirely."
+   ],
+   "answer": 1,
+   "why": "A valid adaptation reduces language barriers while keeping the construct (writing and solving two-step equations from real-world situations) intact. Reading aloud, simplifying syntax, and providing a word-to-word glossary address language without doing the math for students. Lowering the math level, giving away procedures, or removing the word problems all change what is being measured.",
+   "traps": [
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Switching to one-step equations lowers the mathematical standard, so the test no longer measures what the standard requires."
+    },
+    null,
+    {
+     "code": "ASSESS_INVALID",
+     "note": "A worked example next to each item shows students how to solve it, so the test no longer measures whether they can do it on their own."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "This reduces the language load but drops the real-world problem-solving part of the standard. The better approach scaffolds the language of the word problems rather than deleting them."
+    }
+   ],
+   "key": "Valid adaptations remove language barriers but keep the construct; don't lower the math, give away steps, or delete word problems."
+  },
+  {
+   "id": "5.7-10",
+   "skill": "5.7",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "Samuel, a grade 7 student identified as SIFE, speaks Q'anjob'al and some Spanish and is at the Entering level. His social studies teacher must report his progress in a unit on the physical geography of the Americas. Which assessment plan would give the most valid picture of his learning?",
+   "options": [
+    "A single end-of-unit multiple-choice test in English, because a standardized format gives the most objective result.",
+    "A portfolio of his completed English vocabulary worksheets, which documents his growth in the language of the unit.",
+    "Multiple measures over time, such as labeled maps, observation checklists, photos of hands-on work, and an oral interview with visuals.",
+    "No content assessment until he completes a full year of foundational literacy instruction, since SIFE must build basic skills before content."
+   ],
+   "answer": 2,
+   "why": "Valid assessment of an Entering student with interrupted schooling relies on multiple measures, in varied formats, over time. Maps, observation checklists, photos of hands-on products, and oral interviews with visuals let Samuel show geographic understanding without depending on English literacy, and a staff member who speaks Spanish or Q'anjob'al, when available, can draw out what he knows.",
+   "traps": [
+    {
+     "code": "ASSESS_INVALID",
+     "note": "A single English test would mostly measure Samuel's reading. Objectivity does not equal validity for a student at the Entering level."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "A portfolio is a sound format, but vocabulary worksheets document language practice, not his understanding of the geography of the Americas."
+    },
+    null,
+    {
+     "code": "EXCLUSION",
+     "note": "SIFE need foundational literacy and grade-level content at the same time. Delaying assessment removes him from content learning and leaves his progress undocumented."
+    }
+   ],
+   "key": "For SIFE and Entering ELLs, use multiple low-literacy measures over time: maps, observation, products, and oral interviews."
+  },
+  {
+   "id": "5.7-11",
+   "skill": "5.7",
+   "type": "application",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Item from a grade 6 math test on ratios:\n“In the first three innings, the team got 4 hits in 12 at-bats. At this rate, how many hits would the team get in 36 at-bats?”\n\nSeveral newcomer ELLs who had solved similar ratio problems correctly in class answered this item incorrectly.",
+   "stem": "Which revision would best improve the item's validity for these students?",
+   "options": [
+    "Add a short paragraph explaining the rules of baseball before the problem so that students also learn about American culture.",
+    "Replace the word problem with the bare proportion 4/12 = ?/36, since word problems are not appropriate for newcomers.",
+    "Keep the item as written, since ELLs need to learn to handle the kinds of contexts that appear on state tests.",
+    "Keep the same numbers but use a familiar context, such as “Ana reads 4 pages in 12 minutes. How many pages in 36 minutes?”"
+   ],
+   "answer": 3,
+   "why": "Test items are biased when they depend on cultural knowledge that is irrelevant to the construct. Innings and at-bats are unfamiliar to many newcomers, so the item measures baseball knowledge along with ratio reasoning. Using a familiar context and plain language while keeping the same math removes the construct-irrelevant barrier.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "Building cultural background is valuable during instruction, but on a test it adds reading that has nothing to do with ratios."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Applying ratios to situations is part of the standard. The problem is the unfamiliar context, not the presence of a word problem."
+    },
+    {
+     "code": "ASSESS_INVALID",
+     "note": "Innings and at-bats are cultural knowledge unrelated to ratios. Keeping them makes the item partly a test of familiarity with American sports."
+    },
+    null
+   ],
+   "key": "Remove culturally specific contexts that are irrelevant to the tested skill: keep the math, change the context."
+  },
+  {
+   "id": "5.7-12",
+   "skill": "5.7",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A grade 8 science teacher asks the ENL teacher for advice on report card grades for the Emerging ELLs in her class. Which recommendation is most appropriate?",
+   "options": [
+    "Give ELLs passing grades based on effort and attendance until they reach the Commanding level on the NYSESLAT.",
+    "Grade ELLs on the same written tests as other students, with no supports, so that grades are consistent across the class.",
+    "Base grades on mastery of the same science standards, shown through scaffolded tasks, with separate feedback on language.",
+    "Leave the science grade blank and report only each student's NYSESLAT level until the student exits ELL status."
+   ],
+   "answer": 2,
+   "why": "Grades for ELLs in content classes should reflect mastery of the same grade-level standards, with scaffolds and accommodations that let students show what they know. Language development matters but is a separate construct, so it should be reported through separate feedback (for example, progress toward NLAP-based language goals) rather than folded into the content grade.",
+   "traps": [
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Grading on effort alone lowers expectations and tells students and families nothing about content mastery."
+    },
+    {
+     "code": "ONE_SIZE",
+     "note": "Identical unsupported tests would mostly measure English proficiency, so the grades would be consistent but not accurate."
+    },
+    null,
+    {
+     "code": "EXCLUSION",
+     "note": "A NYSESLAT level reports English proficiency, not science learning. ELLs are entitled to grade-level content instruction and to grades that report it."
+    }
+   ],
+   "key": "Grade ELLs on grade-level content mastery shown through scaffolded tasks; report language growth separately."
+  },
+  {
+   "id": "5.7-13",
+   "skill": "5.7",
+   "type": "analysis",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Item type | Content | Non-ELLs | Transitioning ELLs\nMap-based items | Geography and settlement | 85% | 80%\nText-heavy multiple choice | Geography and settlement | 82% | 41%\nTimeline items | Chronology of civilizations | 88% | 79%\nText-heavy multiple choice | Chronology of civilizations | 84% | 44%",
+   "stem": "The table shows percent correct by item type on a grade 7 social studies unit test. Which conclusion is best supported by these data?",
+   "options": [
+    "The Transitioning ELLs have not mastered the unit content and need reteaching of both geography and chronology.",
+    "The text-heavy items likely measured reading as well as content, underestimating what the ELLs know.",
+    "The map and timeline items are too easy and should be removed so that the test better separates high and low achievers.",
+    "The Transitioning ELLs should be tested only with map and timeline items for the rest of the school year."
+   ],
+   "answer": 1,
+   "why": "When the same content is tested in two formats and ELLs succeed on the low-language format but not the text-heavy one, while non-ELLs score about the same on both, the gap points to construct-irrelevant reading demands. The ELLs' content knowledge is likely higher than the text-heavy scores suggest. The teacher should revise those items through linguistic modification and keep using multiple formats.",
+   "traps": [
+    {
+     "code": "LITERAL",
+     "note": "This reads only the text-heavy scores. On map and timeline items covering the same content, the ELLs scored close to their peers."
+    },
+    null,
+    {
+     "code": "ASSESS_INVALID",
+     "note": "Non-ELLs scored about the same on both item types, so the visual items are not easier. Removing them would make the test less valid for ELLs."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Using more visual items is reasonable, but students still need scaffolded practice with text-based items. The data support a conclusion about what the text-heavy items measured, not dropping them entirely."
+    }
+   ],
+   "key": "If ELLs succeed on visual items but not on text-heavy items covering the same content, the text-heavy items are measuring language."
+  },
+  {
+   "id": "5.7-14",
+   "skill": "5.7",
+   "type": "knowledge",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "Which of the following best describes the main purpose of reducing the linguistic load of a content-area assessment for ELLs?",
+   "options": [
+    "To minimize construct-irrelevant language demands so the assessment measures the intended content knowledge.",
+    "To lower the content standard being assessed so that a greater number of ELLs are able to earn passing scores.",
+    "To give ELLs practice with simplified English that will help prepare them for the NYSESLAT.",
+    "To eliminate the need for testing accommodations such as extended time and bilingual glossaries."
+   ],
+   "answer": 0,
+   "why": "Every content assessment targets a construct, such as understanding heat transfer or the causes of a war. Complex language that is not part of that construct (long sentences, unfamiliar idioms, unnecessary words) adds construct-irrelevant variance, so scores reflect English proficiency as well as content. Reducing the linguistic load improves validity for ELLs while the content standard stays the same.",
+   "traps": [
+    null,
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Reducing the linguistic load changes the language, not the content standard. Lowering the standard would make the test measure something easier."
+    },
+    {
+     "code": "TERM",
+     "pair": "content assessment ↔ language proficiency assessment",
+     "note": "The NYSESLAT measures English proficiency, while a content assessment measures content knowledge. Linguistic modification serves the content construct, not language-test preparation."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Clear language and accommodations work together. Even well-modified items may call for extended time or a glossary for some ELLs."
+    }
+   ],
+   "key": "Reduce construct-irrelevant language so content assessments measure content, not English proficiency; keep the standard the same."
+  }
+ ],
+ "lessons": [
+  {
+   "skill": "5.5",
+   "title": "Teaching Social Studies to ELLs",
+   "why": "Field 116 gives you a history text, map, timeline, or primary source and asks which language feature trips up ELLs, or which scaffold keeps grade-level social studies thinking accessible.",
+   "body": [
+    {
+     "h": "Why social studies is so language-heavy",
+     "md": "Social studies may be the most language-dependent content area. Math has numbers and symbols, and science has hands-on labs, but history and civics are carried almost entirely by text and talk. ELLs face several layers at once:\n\n- **Abstract concepts** (democracy, federalism, imperialism, sovereignty) that are hard to show in a picture.\n- **Assumed background knowledge**: textbooks take for granted that readers know U.S. geography, holidays, and political symbols.\n- **Dense, context-reduced text** full of nominalizations (the expansion of the railroads), cause-effect chains, and long sentences.\n- **Everyday words with civic meanings**: cabinet, party, bill, run (for office), branch, state, court, depression.\n\nIn Cummins's terms, a social studies textbook is cognitively demanding and context-reduced, the hardest combination. On the exam, the best answer almost always adds context and scaffolds while keeping the thinking at grade level. Answers that swap the primary source for a summary, or postpone the unit until students are \"ready,\" are traps."
+    },
+    {
+     "h": "Chronology: order of mention is not order of events",
+     "md": "History texts rarely tell events in order. Consider: \"Families settled western New York after the Erie Canal had opened in 1825; before that, crops had been hauled by wagon.\" The settlers are mentioned first, but they came last. Many ELLs use an **order-of-mention** strategy, so teach the signals explicitly:\n\n- **Temporal connectives**: before, after, prior to, by the time, until, meanwhile, subsequently.\n- **The past perfect** (had opened) marks the earlier of two past events.\n- **Century names**: the 1700s are the eighteenth century. Spanish siglo XVIII follows the same rule, which makes a useful bridge. Also teach decades (the 1920s), circa, and B.C.E./C.E.\n\n**Classroom moves:** students number the events in a complex sentence and then place them on a timeline. Entering students sequence picture cards with dates and captions and answer \"What happened first? Next?\" by pointing or naming."
+    },
+    {
+     "h": "Cause and effect, stated and implied",
+     "md": "Cause-effect reasoning is the backbone of history, and it shows up in three ways:\n\n- **Signaled**: because, as a result, consequently, led to, therefore, due to.\n- **Packed into nouns and verbs**: \"The resulting decline in trade forced Parliament to repeal the act.\"\n- **Implied**: \"In 1845, a disease began destroying Ireland's potato crop. Over the next decade, more than a million people left.\" No connective links the two sentences. Readers must infer the link, and ELLs who hunt for \"because\" may say the text gives no reason.\n\n**Classroom moves:** model the inference aloud, have students rewrite implied links with because or as a result, and match the organizer to the structure. Use a chain for a sequence of causes, and a multiple-cause diagram when several causes (militarism, alliances, imperialism, nationalism) lead to one effect (World War I). A Venn diagram is built for comparison, not causation."
+    },
+    {
+     "h": "Primary sources, maps, and visuals",
+     "md": "Primary sources are non-negotiable in social studies, so **scaffold, don't substitute**:\n\n- **Excerpt** (shorten without rewriting), read aloud, and **gloss** key words in the margin.\n- Ask **sourcing questions**: Who wrote it? When? For what audience? Why?\n- Have pairs paraphrase each chunk before analyzing the argument.\n\nVisual sources lower the language load, but they are not automatically comprehensible. A political cartoon of an octopus labeled \"Standard Oil\" only works if you know what the octopus symbolizes and what a monopoly is. Teach the symbols and context, then guide students with \"What do you see? What might it stand for? What is the cartoonist's point of view?\" Remember that a cartoon published during the period it comments on is a **primary** source.\n\n**Maps** carry their own language: prepositions of location (north of, bordered by, between), legends, scale, and physical vs. political maps. Entering students can show real understanding by color-coding a physical map and completing a frame such as \"People lived near the ___ because ___\" in English or the home language."
+    },
+    {
+     "h": "Background knowledge, funds of knowledge, and multiple perspectives",
+     "md": "Build background by **connecting to what students already know**, never by assuming they know nothing. Before a unit on the three branches of government, have students discuss, in any language, who makes, enforces, and judges rules in their families, schools, and home countries, then link those ideas to a labeled visual. **Simulations**, such as paying \"taxes\" without a vote, make abstract ideas context-embedded without lowering cognitive demand.\n\n**Funds of knowledge** (Moll) means the knowledge in students' households and communities. An oral-history interview with a family or community member of the student's choosing, compared with Ellis Island–era primary sources, turns that knowledge into historical analysis. Contrast this with asking each ELL to present \"the customs of my country,\" which tokenizes students and stereotypes cultures.\n\n**Multiple perspectives** is both a social studies skill and a CR-SE principle (inclusive curriculum). Pair contrasting sources, such as Jackson's 1830 message to Congress and a Cherokee petition, and give frames like \"From the perspective of ___, the policy was ___ because ___.\""
+    },
+    {
+     "h": "Matching tasks to proficiency levels",
+     "md": "The content and the thinking stay the same at every level; the language support changes:\n\n- **Entering**: picture-card timelines, labeling and color-coding maps, sorting cause/effect picture cards, one-word or phrase answers, home-language responses.\n- **Emerging**: simple frames (\"___ caused ___\"), word banks, partner talk with visuals, short glossed excerpts.\n- **Transitioning**: perspective charts, paraphrasing primary-source chunks, frames with because, although, and as a result.\n- **Expanding**: document-based arguments with frames that link evidence to a claim (\"According to Document 2, ___. This shows that ___ because ___\"), hedged claims, and comparison of sources.\n\nWhen Expanding students list facts without explaining them, the fix is targeted: model how a writer connects evidence to a claim. Don't fall back on a list of transition words, and don't let them skip the essay."
+    }
+   ],
+   "traps": [
+    "Exam trap: replacing a primary source with a textbook summary, or a hard concept with an easier topic. That lowers rigor; scaffold the original instead.",
+    "Exam trap: assuming visuals (cartoons, photos, maps) explain themselves. They rely on cultural symbols and background knowledge that must be taught.",
+    "Exam trap: blaming a sequencing or cause-effect error on L1 transfer or a disability when the text's chronology or causal language explains it.",
+    "Exam trap: asking ELLs to represent their whole culture (\"tell us about your country's holidays\"). Funds of knowledge draws on real household knowledge tied to the content.",
+    "Exam trap: choosing a Venn diagram or a timeline for a cause-effect text. Match the organizer to the text structure."
+   ],
+   "terms": [
+    {
+     "t": "order of mention",
+     "d": "The order in which events appear in a sentence; in history texts it often differs from the order in which they happened."
+    },
+    {
+     "t": "past perfect",
+     "d": "Had + past participle (had opened); marks the earlier of two past events and signals chronology."
+    },
+    {
+     "t": "temporal connective",
+     "d": "A word or phrase showing time relationships: before, after, prior to, by the time, subsequently."
+    },
+    {
+     "t": "implied causation",
+     "d": "A cause-effect link the reader must infer because no signal word such as because or as a result states it."
+    },
+    {
+     "t": "multiple-cause diagram",
+     "d": "Organizer showing several causes leading to one effect, such as the long-term causes of World War I."
+    },
+    {
+     "t": "primary source",
+     "d": "A document or artifact created during the period studied: a speech, letter, photograph, or cartoon of the time."
+    },
+    {
+     "t": "secondary source",
+     "d": "A later interpretation by someone who did not experience the events, such as a textbook or encyclopedia article."
+    },
+    {
+     "t": "sourcing",
+     "d": "Asking who created a source, when, for what audience, and why, before interpreting its content."
+    },
+    {
+     "t": "excerpting",
+     "d": "Shortening a primary source while keeping the author's original words; a scaffold, not a simplification."
+    },
+    {
+     "t": "glossing",
+     "d": "Adding brief marginal explanations or translations of key words to a text."
+    },
+    {
+     "t": "multiple perspectives",
+     "d": "Examining an event through sources from people with different positions, purposes, and experiences."
+    },
+    {
+     "t": "funds of knowledge",
+     "d": "Moll's term for the knowledge and skills in students' households and communities, used as curricular resources."
+    },
+    {
+     "t": "context-embedded",
+     "d": "Cummins: supported by concrete cues such as visuals, experience, and interaction; simulations make demanding concepts context-embedded."
+    },
+    {
+     "t": "polysemous civic words",
+     "d": "Everyday words with special social studies meanings: cabinet, party, bill, run, branch, court."
+    }
+   ],
+   "tip": "In social studies items, the option that keeps the original source or concept and adds visuals, frames, or interaction usually beats simplifying, lecturing, or postponing."
+  },
+  {
+   "skill": "5.6",
+   "title": "Academic Language Across the Disciplines",
+   "why": "Field 116 shows you a sentence, passage, or set of frames and asks you to name the feature (nominalization, a concessive connective, a text structure, a language function) that challenges ELLs, and to choose the scaffold that addresses it.",
+   "body": [
+    {
+     "h": "Three levels of academic language",
+     "md": "Academic language is much more than hard vocabulary. Think of it at three levels:\n\n- **Word/phrase**: general academic (Tier 2) words such as analyze, evidence, significant, factor, and structure; discipline-specific (Tier 3) words such as photosynthesis and legislature; and everyday words with special meanings (table, product, party, cabinet).\n- **Sentence**: complex sentences, embedded clauses, appositives, passive voice, and nominalizations.\n- **Discourse**: how a whole text is organized (text structure) and held together (signal words, reference chains).\n\nStudents move along a **register continuum** from everyday talk (\"the ice go water more fast\") to academic writing (\"the ice melted faster because dark surfaces absorb more light\"). The best teacher moves affirm the idea, recast it academically, and give a frame for the next step. Don't reject the everyday version, and don't make students wait until they \"know the words.\""
+    },
+    {
+     "h": "Language functions and the forms they need",
+     "md": "A **language function** is what students do with language. Each function calls for particular forms, and a good language objective names both:\n\n- **Describe**: adjectives, prepositional phrases, relative clauses (\"a mineral that is…\").\n- **Sequence**: first, then, after, finally; past tense; time clauses.\n- **Compare/contrast**: -er than, both… and, whereas, while, unlike, similarly.\n- **Explain (cause/effect)**: because, so, as a result, which causes, led to.\n- **Argue**: a claim (I believe), evidence (the data show), concession and rebuttal (Although some claim…; however…), and hedges.\n\nExample: the content objective is \"Compare mammals and reptiles\"; the language objective is \"Compare orally with a partner using whereas, both… and, and unlike.\" On the exam, watch for options that only name an activity (\"read the chapter\") or a form that doesn't fit the function (past tense in a compare lesson).\n\n**Hedging** is an advanced argue skill: academic writers fit claims to evidence (suggests, indicates, may, in this experiment). A student who writes \"Our data proves heat always makes every reaction faster\" needs a mini-lesson on hedging, not on sequence words."
+    },
+    {
+     "h": "Signal words and text structures",
+     "md": "Most informational texts use five structures. Signal words reveal them, and a matching organizer makes them visible:\n\n- **Description**: for example, such as, characteristics include. Organizer: web.\n- **Sequence/chronology**: first, next, before, after, in 1825. Organizer: timeline or flowchart.\n- **Compare/contrast**: both, whereas, in contrast, unlike, similarly. Organizer: Venn diagram or comparison chart.\n- **Cause/effect**: because, as a result, consequently, led to. Organizer: cause-effect chain or multiple-cause diagram.\n- **Problem/solution**: one problem, to address this, in response, a solution. Organizer: problem → solution → result.\n\nReal texts mix structures, so look for the **overall** one. A passage about smog and the Clean Air Act contains cause and effect, but \"To address this problem\" and \"In response\" make it problem/solution as a whole.\n\nTwo high-yield traps involve signals. **Concessive connectives** (despite, although, even though, nevertheless) introduce an unexpected contrast, not a cause: a student who summarizes \"Despite plenty of rain, the crop failed because of insects\" as \"it failed because of rain\" misread the word despite. And **implied relationships** have no signal at all, so students must infer them."
+    },
+    {
+     "h": "Nominalization: processes turned into things",
+     "md": "**Nominalization** turns verbs or adjectives into nouns: erode → erosion, expand → expansion, productive → productivity. Compare:\n\n- Everyday: \"When farmers cut down the forests, the soil washed away, and the land couldn't grow crops.\"\n- Academic: \"Rapid deforestation caused severe soil erosion and a decline in agricultural productivity.\"\n\nThe academic version is shorter but denser. It packs whole events into noun phrases, removes the people doing the actions, and links processes with one verb (caused). Writers use nominalization to condense information, to treat processes as things that can be measured or evaluated, and to connect ideas across sentences (\"This expansion…\").\n\nDon't confuse it with the **passive voice** (\"the forests were cut down\"). The passive keeps the verb; nominalization turns the verb into a noun.\n\n**Teach it by unpacking and repacking.** Unpack the noun phrase into who-did-what clauses (\"Railroads expanded rapidly. River towns declined.\"), discuss how the ideas connect, and then have students repack ideas into noun phrases in their own writing. Rewriting texts to remove nominalizations lowers rigor, and a verb-to-noun worksheet is isolated practice."
+    },
+    {
+     "h": "Complex sentences and cohesion",
+     "md": "**Embedded clauses** can separate a subject from its verb: \"The colonists who refused to buy goods that Parliament had taxed hoped to pressure British merchants.\" A student who answers \"Parliament\" to \"Who hoped?\" took the noun nearest the verb. **Sentence deconstruction** (often called working with a \"juicy sentence\") fixes this: chunk the sentence, find the main subject and verb (colonists… hoped), and ask what each clause tells about which noun. A few minutes a day with one rich sentence from the day's text builds syntactic awareness.\n\n**Appositives** define terms inside the sentence: \"The Haudenosaunee Confederacy, an alliance of Indigenous nations, …\" Teach students that the phrase between the commas renames the noun. Similar definition signals include which is, called, also known as, and that is.\n\n**Reference chains** hold texts together: \"Rain washed fertilizer into the lake. There, it caused algae to grow. When the algae died, bacteria decomposed them. This process used up the oxygen.\" Summarizing phrases such as this process or these changes can point back to a whole sentence. Have students draw arrows from each referring word to what it refers to, then retell the chain."
+    },
+    {
+     "h": "General academic vocabulary and differentiation by level",
+     "md": "**Tier 2 general academic words** (analyze, evidence, significant, structure, factor, process, interpret) appear in every subject and in test directions, yet teachers often assume students already know them. A schoolwide set taught across content areas gives the biggest return. Tier 3 words (isotope, tariff) are taught within their discipline, and Tier 1 words (house, walk) are mostly acquired through daily use.\n\n**Differentiate the language, not the task.** For a lesson comparing Mesopotamia and Egypt:\n\n- Emerging: \"Mesopotamia had ___. Egypt had ___.\" with a word bank and visuals.\n- Expanding: \"While Mesopotamia ___, Egypt ___, which suggests that ___.\"\n\nEveryone does the same comparison, and the scaffolds decrease as proficiency grows, just as the NLAP shows each standard at five levels."
+    }
+   ],
+   "traps": [
+    "Exam trap: calling a dense academic sentence \"passive\" when it is actually nominalized. Check whether the verb became a noun (erosion) or stayed a verb (was eroded).",
+    "Exam trap: judging difficulty by length. Nominalized sentences are often shorter but harder.",
+    "Exam trap: reading although, however, or despite as plain contrast or as a cause. In arguments they mark concession and rebuttal, and despite never introduces the cause.",
+    "Exam trap: stripping complex language out of texts (no nominalizations, no pronouns) instead of teaching students to unpack it.",
+    "Exam trap: a \"language objective\" that is only an activity, or whose forms don't match the function (past tense in a compare lesson)."
+   ],
+   "terms": [
+    {
+     "t": "language function",
+     "d": "The purpose for using language in a task: describe, sequence, compare, explain, argue."
+    },
+    {
+     "t": "language form",
+     "d": "The grammar and vocabulary that carry out a function, such as whereas and -er than for comparing."
+    },
+    {
+     "t": "signal word",
+     "d": "A word or phrase that reveals relationships and text structure: because, in contrast, first, to address this problem."
+    },
+    {
+     "t": "text structure",
+     "d": "The overall organization of a text: description, sequence, compare/contrast, cause/effect, or problem/solution."
+    },
+    {
+     "t": "concessive connective",
+     "d": "Despite, although, even though, nevertheless: introduces something contrary to expectation, not a cause."
+    },
+    {
+     "t": "nominalization",
+     "d": "Turning a verb or adjective into a noun (erode → erosion), condensing a process into a dense, agentless noun phrase."
+    },
+    {
+     "t": "unpacking",
+     "d": "Rewriting a dense noun phrase as clauses that show who did what, revealing meaning and relationships."
+    },
+    {
+     "t": "embedded (relative) clause",
+     "d": "A clause inside another clause (who refused…, that Parliament had taxed) that modifies a noun."
+    },
+    {
+     "t": "sentence deconstruction",
+     "d": "Chunking a complex sentence to find the main clause and see how the other parts modify it; also called juicy sentences."
+    },
+    {
+     "t": "appositive",
+     "d": "A noun phrase set off by commas that renames or defines the noun right before it."
+    },
+    {
+     "t": "reference chain",
+     "d": "A series of pronouns and summarizing nouns (it, them, this process) that point back to earlier ideas."
+    },
+    {
+     "t": "hedging",
+     "d": "Language that qualifies a claim to fit the evidence: suggests, may, likely, in this experiment."
+    },
+    {
+     "t": "Tier 2 word",
+     "d": "A general academic word used across disciplines (analyze, significant, factor); high priority for explicit teaching."
+    },
+    {
+     "t": "register continuum",
+     "d": "The range from everyday spoken language to formal written academic language; teachers bridge students along it."
+    }
+   ],
+   "tip": "Name the feature first (nominalization? concessive? embedded clause? text structure?), then pick the option that teaches students to unpack that feature in grade-level text."
+  },
+  {
+   "skill": "5.7",
+   "title": "Assessing Content Learning of ELLs",
+   "why": "Field 116 shows you a test, rubric, student response, or data table and asks whether it measures content or English, and which change makes the assessment valid without lowering the standard.",
+   "body": [
+    {
+     "h": "The one big idea: what is this assessment measuring?",
+     "md": "Every content assessment targets a **construct**: understanding heat transfer, the causes of the Civil War, solving two-step equations. For ELLs, language that is not part of that construct (long sentences, unfamiliar contexts, essay formats) adds **construct-irrelevant variance**, so the score partly reflects English proficiency instead of content knowledge. That is a **validity** problem.\n\nExample: Hamid, an Emerging ELL, scores 45% on a two-essay Civil War test, yet he sorts cause/effect cards correctly, explains the Fugitive Slave Act with a frame, and keeps an accurate organizer. The essay test measured his English writing. Adding more essay questions would make the test more reliable (consistent) but no more valid for him.\n\n- **Validity**: Does it measure what it claims to measure?\n- **Reliability**: Does it measure consistently?\n- **Bias**: Does something irrelevant to the construct, such as culture or language, disadvantage a group?\n\nWhen an exam item shows test results that clash with other evidence, the answer is almost always that the format masked content knowledge."
+    },
+    {
+     "h": "Reducing the language load without lowering the standard",
+     "md": "**Linguistic modification** rewrites items to remove unnecessary language while keeping the concept and format:\n\n- Short, active sentences instead of long, embedded, or passive ones.\n- Familiar, concrete contexts instead of culturally loaded ones (innings and at-bats → pages and minutes).\n- Remove irrelevant words and clauses, but keep essential content vocabulary.\n- Add visuals or labeled diagrams that support, rather than supply, the content.\n\nCompare \"Which of the following would most likely be observed by a student who, after carefully placing a healthy plant in a closet where it would not be exposed to any light…\" with \"A healthy plant is kept in a dark closet for two weeks. What will most likely happen to its leaves?\"\n\nWatch for over-modification that changes the construct:\n\n- **Giving the answer away**: adding a definition of photosynthesis, or printing a worked example beside each item.\n- **Lowering the standard**: one-step equations instead of two-step, or below-grade vocabulary tests.\n- **Changing the format**: yes/no items invite guessing.\n- **Deleting the word problems** when the standard requires applying math to real-world situations."
+    },
+    {
+     "h": "Performance tasks and other ways to show knowledge",
+     "md": "Students at lower proficiency levels can show sophisticated content knowledge when the response mode fits:\n\n- **Entering**: sort, sequence, label, draw, build, demonstrate, or point to a diagram; answer in the home language; give one-word or phrase answers with a word bank.\n- **Emerging**: labeled diagrams with short frames, oral explanations with visuals, cloze summaries.\n- **Transitioning and Expanding**: written explanations and arguments with frames, graphic organizers, and analytic rubrics.\n\n**Home-language responses** are powerful for students with strong prior schooling. A newcomer from Ecuador with high biology grades can write her answers in Spanish, with a qualified bilingual educator helping to score them. NYS also allows ELLs to write responses to state content-test items in the home language.\n\n**Formative checks** should let every student respond with little language: picture cards held up or arranged on whiteboards, gestures tied to specific choices, quick partner explanations. \"Does everyone understand?\" gives no valid information.\n\nFor SIFE and Entering students, use **multiple measures over time** (maps, observation checklists, photos of hands-on products, oral interviews with visuals, with a bilingual staff member if possible) rather than one English test."
+    },
+    {
+     "h": "Rubrics and grading",
+     "md": "Use **analytic rubrics** that score content and language as separate criteria, for example scientific explanation, scientific vocabulary, and language conventions. They keep developing grammar from dragging down the content score, and they show exactly where a student needs support. A **holistic** rubric gives one overall impression, so language problems can lower the whole score. Rubrics are **criterion-referenced**: work is compared with standards, not with classmates.\n\nScore the construct. Jae-won writes, \"Metal is take the heat fast from air. Plastic no take heat fast. So ice on metal get more heat, melt more fast.\" The science is correct, so he earns content credit, and the grammar gets separate language feedback. Omitted articles are typical for Emerging ELLs (Korean has no articles) and are not a sign of a disability.\n\nShare rubrics in advance, in student-friendly language with exemplars, and use them for self-assessment.\n\n**Report card grades** should reflect mastery of the same grade-level standards, shown through scaffolded tasks. Avoid effort-only grades, identical unsupported tests, and a blank grade with only a NYSESLAT level."
+    },
+    {
+     "h": "Glossaries and NYS testing accommodations",
+     "md": "Know the NYS rules, because items test them:\n\n- **Bilingual glossaries** must be **word-to-word**, with no definitions, pictures, or explanations.\n- Glossaries, translated editions (math, science, social studies), oral translation for lower-incidence languages, and writing responses in the home language apply to **content tests only, never ELA**.\n- Extended time (for example, time and a half) and a separate location or small group are also available.\n- **Former ELLs** keep their testing accommodations for **2 years** after exiting.\n\nGood classroom practice mirrors the state rules: students use word-to-word glossaries regularly during instruction and classroom tests, so the tool is familiar and classroom scores reflect content the same way state scores do. Withholding glossaries in class \"to see what they can do alone\" makes classroom scores less valid and leaves students unpracticed. A glossary with definitions on a Regents science exam, or any glossary on the ELA Regents, violates policy."
+    },
+    {
+     "h": "Reading assessment data",
+     "md": "Item analysis can reveal whether language is masking content. Suppose Transitioning ELLs score 80% on map-based items but 41% on text-heavy items about the same content, while non-ELLs score about the same on both. The best-supported conclusion is that the text-heavy items measured reading as well as content. Neither \"reteach everything\" nor \"remove the map items\" follows from those data. The sensible next steps are to revise the text-heavy items, keep multiple formats, and keep building students' reading of content text.\n\nAlso check for **cultural bias**: an item that depends on knowing baseball, U.S. holidays, or snow days tests that knowledge along with the target skill. Keep the math and change the context."
+    }
+   ],
+   "traps": [
+    "Exam trap: treating a reliability fix (more items) as a validity fix. More essay questions still measure English writing.",
+    "Exam trap: \"simplifying\" a test by lowering the standard, adding content clues, or deleting word problems. Change the language, not the construct.",
+    "Exam trap: glossaries with definitions, or any glossary or translation on ELA tests. NYS allows word-to-word glossaries on content tests only.",
+    "Exam trap: excusing ELLs from assessment or grading them on effort. Assess grade-level content in accessible formats.",
+    "Exam trap: lowering a content score for grammar errors when the meaning is clear, or reading typical L2 errors as signs of a disability."
+   ],
+   "terms": [
+    {
+     "t": "construct",
+     "d": "The specific knowledge or skill an assessment is meant to measure."
+    },
+    {
+     "t": "construct-irrelevant variance",
+     "d": "Score differences caused by factors outside the construct, such as English proficiency on a science test."
+    },
+    {
+     "t": "validity",
+     "d": "The degree to which an assessment measures what it claims to measure and supports the decisions made from it."
+    },
+    {
+     "t": "reliability",
+     "d": "The consistency of an assessment's results across items, scorers, and occasions."
+    },
+    {
+     "t": "linguistic modification",
+     "d": "Simplifying the language of test items (short active sentences, familiar contexts) without changing the tested concept."
+    },
+    {
+     "t": "performance task",
+     "d": "An assessment in which students show knowledge by doing: labeling, sequencing, building, or demonstrating."
+    },
+    {
+     "t": "analytic rubric",
+     "d": "A rubric that scores separate criteria, such as content, vocabulary, and conventions, each on its own scale."
+    },
+    {
+     "t": "holistic rubric",
+     "d": "A rubric that gives one overall score based on a general impression of the work."
+    },
+    {
+     "t": "criterion-referenced",
+     "d": "Compares performance with fixed standards or criteria rather than with other students."
+    },
+    {
+     "t": "word-to-word glossary",
+     "d": "A bilingual list of direct translations without definitions; the only glossary type NYS allows on state content tests."
+    },
+    {
+     "t": "home-language response",
+     "d": "Letting ELLs answer content items in the home language, which separates content knowledge from English proficiency."
+    },
+    {
+     "t": "multiple measures",
+     "d": "Using several kinds of evidence over time (observation, products, oral, written) to judge learning."
+    },
+    {
+     "t": "cultural bias",
+     "d": "An item feature that depends on cultural knowledge unrelated to the construct and so disadvantages some students."
+    },
+    {
+     "t": "formative assessment",
+     "d": "Ongoing checks during instruction used to adjust teaching; for ELLs, ideally low-language responses from every student."
+    }
+   ],
+   "tip": "For every 5.7 item ask, \"Is this measuring the content or the English?\" Pick the option that removes the language barrier while keeping the same standard."
+  }
+ ]
+}
