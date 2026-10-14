@@ -260,6 +260,116 @@ QUESTIONS += [
 },
 ]
 
+# ---------------- 1.2 Morphology & word formation ----------------
+QUESTIONS += [
+{
+ "id": "1.2-01", "skill": "1.2", "type": "application", "difficulty": 1, "diag": 0,
+ "stimulus": "The teacher's students walked home.",
+ "stem": "Which bound morpheme in this sentence is derivational?",
+ "options": ["the -s in students", "the -ed in walked", "the -'s in teacher's", "the -er in teacher"],
+ "answer": 3,
+ "why": "Derivational morphemes create a new word and often change its part of speech: -er turns the verb teach into the noun teacher. The other three are inflectional: plural -s, past tense -ed, and possessive -'s add grammatical information without creating a new word. English has only eight inflectional morphemes, and all of them are suffixes.",
+ "traps": [
+  {"code": "TERM", "pair": "inflectional ↔ derivational", "note": "Plural -s is one of the eight inflectional morphemes. 'Students' is still the same noun, just marked for number."},
+  {"code": "TERM", "pair": "inflectional ↔ derivational", "note": "Past tense -ed is inflectional. 'Walked' is still a form of the verb walk, not a new word."},
+  {"code": "TERM", "pair": "inflectional ↔ derivational", "note": "Possessive -'s is inflectional. It marks a grammatical relationship and doesn't create a new dictionary word."},
+  None
+ ],
+ "key": "Derivational morphemes make new words (teach → teacher); inflectional ones (-s, -'s, -ed) only mark grammar."
+},
+{
+ "id": "1.2-02", "skill": "1.2", "type": "application", "difficulty": 2, "diag": 1,
+ "stem": "Which of the following words contains exactly four morphemes?",
+ "options": ["caterpillars", "mistreatments", "unbreakable", "rewritten"],
+ "answer": 1,
+ "why": "A morpheme is the smallest unit of meaning. 'Mistreatments' = mis- ('wrongly') + treat (free root) + -ment (derivational, verb → noun) + -s (inflectional plural): four morphemes in only three syllables. Counting morphemes means finding meaningful parts, not counting beats or letters.",
+ "traps": [
+  {"code": "TERM", "pair": "syllable ↔ morpheme", "note": "'Caterpillars' has four syllables but only two morphemes: caterpillar (its pieces carry no meaning on their own) + plural -s."},
+  None,
+  {"code": "TERM", "pair": "syllable ↔ morpheme", "note": "'Unbreakable' has four syllables but three morphemes: un- + break + -able."},
+  {"code": "PARTIAL", "note": "Close, but 'rewritten' has three morphemes: re- + write + -en (past participle). The doubled t is spelling, not a separate morpheme."}
+ ],
+ "key": "Count morphemes by units of meaning: mis-treat-ment-s = 4, even though the word has only 3 syllables."
+},
+{
+ "id": "1.2-03", "skill": "1.2", "type": "scenario", "difficulty": 2, "diag": 2,
+ "stem": "During a grade 5 Integrated ENL lesson, a student says, “Taller and teacher both end in -er, so they have the same kind of ending.” Which response best reflects accurate morphological analysis?",
+ "options": [
+  "Yes. Both are derivational suffixes, because each one adds meaning to the base word.",
+  "No. Comparative -er in taller is inflectional; agentive -er in teacher is derivational.",
+  "Yes. Both are inflectional suffixes, because both are added to the end of a base word.",
+  "No. The -er in taller is a free morpheme, but the -er in teacher is a bound morpheme."
+ ],
+ "answer": 1,
+ "why": "The two endings sound the same but are different morphemes. Comparative -er is one of English's eight inflectional morphemes: tall and taller are both adjectives. Agentive -er is derivational: it creates a new word in a new class (teach, a verb → teacher, a noun). A quick test: if the part of speech changes or a new dictionary entry results, the morpheme is derivational.",
+ "traps": [
+  {"code": "TERM", "pair": "inflectional ↔ derivational", "note": "Both endings add meaning, so 'adds meaning' can't be the test. Comparative -er keeps tall an adjective, which makes it inflectional."},
+  None,
+  {"code": "TERM", "pair": "suffix ↔ inflection", "note": "Many derivational morphemes are suffixes too (-ness, -ful, agentive -er). Position at the end of a word doesn't make a morpheme inflectional."},
+  {"code": "TERM", "pair": "free ↔ bound", "note": "Neither -er can stand alone as a word, so both are bound. The real difference is inflectional vs. derivational."}
+ ],
+ "key": "Same sound, different morphemes: comparative -er (taller) is inflectional; agentive -er (teacher) is derivational."
+},
+{
+ "id": "1.2-04", "skill": "1.2", "type": "knowledge", "difficulty": 1, "diag": 0,
+ "stem": "Which of the following words consists only of free morphemes?",
+ "options": ["bookcase", "bookings", "rebooked", "booklets"],
+ "answer": 0,
+ "why": "A free morpheme can stand alone as a word; a bound morpheme cannot. 'Bookcase' is a compound of two free morphemes, book + case. Each of the other words contains bound morphemes: -ing and -s, re- and -ed, and -let and -s.",
+ "traps": [
+  None,
+  {"code": "TERM", "pair": "free ↔ bound", "note": "The -ing and -s in 'bookings' are bound suffixes that can't stand alone, even though book is free."},
+  {"code": "TERM", "pair": "free ↔ bound", "note": "The prefix re- and the suffix -ed are bound morphemes; only book is free."},
+  {"code": "TERM", "pair": "compound ↔ derivation", "note": "'Booklet' looks like book + let, but -let is a bound diminutive suffix (as in piglet), not the free word let."}
+ ],
+ "key": "Free morphemes stand alone (book, case); a compound such as bookcase joins two free morphemes."
+},
+{
+ "id": "1.2-05", "skill": "1.2", "type": "application", "difficulty": 1, "diag": 0,
+ "stimulus": "Word wall, grade 6 Stand-alone ENL\nbrunch (breakfast + lunch)\nmotel (motor + hotel)\nsmog (smoke + fog)\nSpanglish (Spanish + English)",
+ "stem": "All of the words on this word wall were formed by which word-formation process?",
+ "options": ["compounding", "clipping", "blending", "back-formation"],
+ "answer": 2,
+ "why": "Blending fuses parts of two words into one new word, usually the beginning of one and the end of the other: br(eakfast) + (l)unch. Compounding, by contrast, joins two whole words (notebook, classroom). Blends are a quick way to show students that English vocabulary keeps growing through predictable processes.",
+ "traps": [
+  {"code": "TERM", "pair": "compounding ↔ blending", "note": "Compounding combines whole words (classroom, notebook). These words fuse only parts of each source word."},
+  {"code": "TERM", "pair": "clipping ↔ blending", "note": "Clipping shortens a single word (laboratory → lab). Each of these words merges two different source words."},
+  None,
+  {"code": "TERM", "pair": "back-formation ↔ blending", "note": "Back-formation removes a supposed affix from one word (editor → edit). Nothing was removed from a single word here."}
+ ],
+ "key": "Blend = parts of two words fused (brunch, smog); compound = two whole words joined (notebook)."
+},
+{
+ "id": "1.2-06", "skill": "1.2", "type": "application", "difficulty": 3, "diag": 0,
+ "stimulus": "A grade 11 student asks, “Did 'editor' come from 'edit,' the way 'teacher' came from 'teach'?” The teacher explains that 'editor' actually came first; 'edit' was created later when speakers removed what looked like the suffix -or.",
+ "stem": "The teacher is describing which word-formation process?",
+ "options": ["back-formation", "clipping", "derivation", "conversion"],
+ "answer": 0,
+ "why": "Back-formation creates a new word by removing what speakers take to be an affix, usually producing a verb from a noun: editor → edit, babysitter → babysit, donation → donate. Clipping also shortens words, but it keeps the same meaning and part of speech (laboratory → lab). Back-formation produces a different word, typically in a new class.",
+ "traps": [
+  None,
+  {"code": "TERM", "pair": "clipping ↔ back-formation", "note": "Clipping shortens a word without changing its meaning or class (examination → exam). 'Edit' is a new verb formed from the noun editor."},
+  {"code": "TERM", "pair": "derivation ↔ back-formation", "note": "Ordinary derivation adds an affix (teach → teacher). Here an apparent affix was taken away, so the process runs in reverse."},
+  {"code": "TERM", "pair": "conversion ↔ back-formation", "note": "Conversion changes a word's class with no change in form (a text → to text). 'Edit' is shorter than 'editor.'"}
+ ],
+ "key": "Back-formation removes a 'suffix' to coin a new word (editor → edit); clipping only shortens the same word (exam)."
+},
+{
+ "id": "1.2-07", "skill": "1.2", "type": "knowledge", "difficulty": 1, "diag": 0,
+ "stem": "Which word is correctly paired with the process that formed it?",
+ "options": ["laser — blending", "notebook — back-formation", "babysit — acronym", "exam — clipping"],
+ "answer": 3,
+ "why": "'Exam' is a clipping of 'examination': part of the word is cut off while the meaning and word class stay the same, as in lab, gym, and flu. Laser is an acronym (light amplification by stimulated emission of radiation), notebook is a compound of two free words, and babysit is a back-formation from babysitter.",
+ "traps": [
+  {"code": "TERM", "pair": "acronym ↔ blend", "note": "'Laser' was built from the first letters of a phrase and is pronounced as a word, which makes it an acronym. A blend fuses parts of two words (smog)."},
+  {"code": "TERM", "pair": "compound ↔ back-formation", "note": "'Notebook' joins two free words, note + book, so it's a compound. Nothing was removed."},
+  {"code": "TERM", "pair": "back-formation ↔ acronym", "note": "'Babysit' was formed by removing -er from babysitter (back-formation). It isn't built from initial letters."},
+  None
+ ],
+ "key": "Clipping cuts a word but keeps its meaning and class: examination → exam, laboratory → lab."
+},
+]
+
 # ---- END QUESTIONS ----
 
 import json, pathlib

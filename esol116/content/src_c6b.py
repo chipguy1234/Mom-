@@ -297,5 +297,297 @@ QUESTIONS = [
  ],
  "key": "Check the HLQ and ask families: many Guatemalan and Mexican students speak Indigenous languages such as K'iche' rather than Spanish at home."
 },
+# ---------------------------------------------------------------------------
+# 6.5 Advocacy & equity
+# ---------------------------------------------------------------------------
+{
+ "id": "6.5-01", "skill": "6.5", "type": "analysis", "difficulty": 2, "diag": 1,
+ "stimulus": "Group | Share of grade 3 enrollment | Share of students referred for G&T testing\nELLs | 22% | 2%\nFormer ELLs | 9% | 6%\nNever ELLs | 69% | 92%",
+ "stem": "An ESOL teacher reviews these gifted and talented (G&T) referral data with her school's G&T committee. Screening consists of a classroom teacher nomination followed by an English-language verbal reasoning test. Which recommendation would most effectively address the pattern?",
+ "options": [
+  "Postpone G&T screening for ELLs until they exit ELL status, so that results reflect their true abilities rather than their English proficiency",
+  "Offer ELLs after-school English vocabulary instruction so that more of them can reach the cut score on the verbal reasoning test",
+  "Adopt multiple measures, such as nonverbal reasoning tests, home-language evidence, and nominations by teachers trained to spot gifted ELLs",
+  "Translate the verbal reasoning test into Spanish, the most common home language, and use the translated version to screen all ELLs"
+ ],
+ "answer": 2,
+ "why": "ELLs are 22% of enrollment but 2% of referrals, a severe underrepresentation at the gate. A single English verbal test confounds English proficiency with ability, so it is not a valid gifted screener for ELLs. Equitable identification uses multiple measures: nonverbal ability tests, performance or portfolio evidence, home-language assessment, and nominations from teachers and families who know how giftedness looks in a student still acquiring English. Federal civil rights guidance (the 2015 Dear Colleague Letter) makes clear that ELLs may not be categorically excluded from gifted programs.",
+ "traps": [
+  {"code": "EXCLUSION", "note": "Waiting until exit denies gifted ELLs services for years, and some will not exit before the program window closes. ELLs may not be categorically excluded from gifted programs."},
+  {"code": "DEFICIT", "note": "This locates the problem in the students' English rather than in the screening process, and it keeps a test that measures English proficiency instead of giftedness."},
+  None,
+  {"code": "ASSESS_INVALID", "note": "Direct translation changes what items measure and how hard they are. It serves only Spanish speakers (yet would be used for all ELLs) and still relies on a single verbal measure."}
+ ],
+ "key": "Fix ELL underrepresentation in gifted programs by changing the screen: multiple measures, nonverbal and home-language evidence, informed nominations."
+},
+{
+ "id": "6.5-02", "skill": "6.5", "type": "scenario", "difficulty": 2, "diag": 2,
+ "stimulus": "Draft fall schedule for three newly enrolled grade 9 ELLs (Entering) whose transcripts show strong prior schooling in Bangladesh:\nPeriod 1: Stand-alone ENL\nPeriod 2: ENL Study Skills (no credit)\nPeriod 3: Lunch\nPeriod 4: Basic Skills Math (no credit)\nPeriod 5: Physical Education\nPeriod 6: Stand-alone ENL\nPeriod 7: Study Hall",
+ "stem": "The counselor explains that the students \"need English before they can handle real classes.\" Which action by the ESOL teacher best advocates for these students?",
+ "options": [
+  "Meet with the counselor and an administrator to review the transcripts and request credit-bearing science, math, and social studies with ENL support",
+  "Accept the schedule for the first semester and plan to revisit the students' course placements in the spring, once their English has improved",
+  "Offer the students content tutoring during study hall so that they do not fall too far behind in the subjects they are not yet taking",
+  "Ask the counselor to place the students in credit-bearing courses but excuse them from Stand-alone ENL so that their schedules have room"
+ ],
+ "answer": 0,
+ "why": "Placing academically prepared newcomers in non-credit courses delays graduation and creates the \"educational dead end\" the 1970 OCR memo warns against; ELLs must have meaningful access to the core curriculum. Their strong prior schooling is an asset, because content knowledge learned in Bengali transfers. The ESOL teacher advocates through the appropriate channel, with evidence (transcripts) and a concrete alternative: credit-bearing core courses with ENL support, alongside their required Stand-alone ENL.",
+ "traps": [
+  None,
+  {"code": "EXCLUSION", "note": "\"English first\" delays access to the core curriculum and to credits toward graduation. The 1970 OCR memo warns that language grouping must not become an educational dead end."},
+  {"code": "PARTIAL", "note": "Tutoring is kind, but it accepts a schedule that keeps prepared students out of credit-bearing courses. The placement itself must change."},
+  {"code": "NYS_POLICY", "note": "ELLs must receive their required ENL units of study. Equity means credit-bearing courses and ENL services, not one in place of the other."}
+ ],
+ "key": "ELLs belong in credit-bearing, grade-level courses with ENL support; \"English first\" scheduling creates a dead-end track."
+},
+{
+ "id": "6.5-03", "skill": "6.5", "type": "scenario", "difficulty": 1, "diag": 0,
+ "stem": "An ESOL teacher notices that very few ELLs participate in the high school's clubs and sports. Club information is shared only through English-language morning announcements and the school website. Which action would best address the issue?",
+ "options": [
+  "Assume that the students' cultural backgrounds lead them to put family responsibilities ahead of after-school activities, and respect that choice",
+  "Work with club advisors to share information in students' home languages, invite ELLs personally, and pair newcomers with peer ambassadors",
+  "Post a translated list of the school's clubs on the ENL classroom bulletin board so that ELLs can look for activities that interest them",
+  "Encourage ELLs to join clubs and teams once they reach the Expanding level, when they can more easily follow coaches' and advisors' directions"
+ ],
+ "answer": 1,
+ "why": "Here the barrier is plain: information is available only in English, in formats newcomers may not follow. Equitable access to extracurriculars, which federal guidance lists among the programs ELLs must be able to join, requires proactive outreach: translated information, personal invitations, peer ambassadors, and work with advisors on barriers such as transportation and permission forms. Extracurriculars build English, belonging, and social networks.",
+ "traps": [
+  {"code": "STEREOTYPE", "note": "This assumes a whole group shares one set of priorities, and it ignores the obvious access barrier: information only in English."},
+  None,
+  {"code": "PARTIAL", "note": "Translation is a step forward, but one bulletin board reaches few students and does nothing to make ELLs feel personally welcomed by advisors and peers."},
+  {"code": "EXCLUSION", "note": "Delaying participation until a higher proficiency level withholds activities that build language, belonging, and friendships right now."}
+ ],
+ "key": "Equity includes extracurriculars: remove access barriers with multilingual outreach, personal invitations, and peer support."
+},
+{
+ "id": "6.5-04", "skill": "6.5", "type": "scenario", "difficulty": 3, "diag": 0,
+ "stem": "Lucía, an ELL at the Expanding level who is entering grade 12, earned top grades in precalculus and wants to take AP Calculus this year. The math department's enrollment policy requires \"demonstrated English fluency.\" Which response by the ESOL teacher best advocates for Lucía?",
+ "options": [
+  "Advise Lucía to postpone AP Calculus until she exits ELL status, so that she is better positioned to earn a high score on the AP exam",
+  "Support her enrollment with language scaffolds, and ask the department to revise a policy that screens out students by English proficiency",
+  "Help her enroll in AP Calculus and arrange to drop her ENL services so that she has room in her schedule for the demanding course",
+  "Recommend that she take honors precalculus again, since the AP course's heavy reading load could lower her grade point average"
+ ],
+ "answer": 1,
+ "why": "English proficiency cannot be used to categorically bar ELLs from advanced coursework. The 1970 OCR memo and the 2015 Dear Colleague Letter require equal opportunity to participate in programs such as AP, IB, and gifted education, and Lucía's math record shows she is ready. The ESOL teacher advocates on two levels: for Lucía (enrollment plus scaffolds such as a math glossary and collaboration with the AP teacher) and for the system (revising a policy that uses English fluency as a gatekeeper). Lucía keeps her ENL services, too.",
+ "traps": [
+  {"code": "EXCLUSION", "note": "As a senior, postponing means never taking the course. ELL status cannot justify delaying advanced coursework when her math record shows readiness."},
+  None,
+  {"code": "NYS_POLICY", "note": "Lucía remains entitled to her required ENL services. Equity means access to AP and ENL, not a trade-off between them."},
+  {"code": "LOWER_RIGOR", "note": "Repeating a course she has mastered lowers expectations to protect her GPA. Scaffolds, not a less rigorous course, are the answer to language demands."}
+ ],
+ "key": "English proficiency cannot gatekeep advanced coursework: support enrollment with scaffolds and challenge policies that screen out ELLs."
+},
+{
+ "id": "6.5-05", "skill": "6.5", "type": "analysis", "difficulty": 2, "diag": 0,
+ "stimulus": "Placement summary for Dilnoza, a newly arrived grade 10 student whose home language is Uzbek:\n- Transcript (translated): completed algebra, geometry, and trigonometry with high marks\n- School math placement test (English only): 38% correct; most errors on word problems\n- Current placement: Algebra Foundations (remedial)",
+ "stem": "Which action by the ESOL teacher is most appropriate?",
+ "options": [
+  "Accept the placement for now, since Dilnoza needs to build English math vocabulary before she can succeed in a higher-level course",
+  "Ask the math teacher to give Dilnoza more challenging problems within the remedial course so that she stays engaged and motivated",
+  "Arrange for Dilnoza to retake the same placement test with extended time, an accommodation commonly given to ELLs on state tests",
+  "Request that her math be reassessed in Uzbek or with a low-language-load measure and that her transcript be weighed in placement"
+ ],
+ "answer": 3,
+ "why": "An English-only placement test dominated by word problems measured Dilnoza's English reading, not her math, so it is an invalid basis for placement. Her transcript shows advanced coursework. Appropriate placement draws on valid evidence (a home-language or language-reduced math assessment plus prior records), followed by placement at her actual level with language supports. Under-placement wastes prior learning and can derail an ELL's academic path for years.",
+ "traps": [
+  {"code": "LOWER_RIGOR", "note": "Keeping a student who has completed trigonometry in remedial algebra wastes her prior learning and lowers expectations. Math vocabulary can be scaffolded in the right course."},
+  {"code": "PARTIAL", "note": "Harder problems inside a remedial class still leave her misplaced, without credit toward the courses her record shows she is ready for."},
+  {"code": "ASSESS_INVALID", "note": "More time does not fix the core problem: an English-only, word-problem-heavy test measures her English reading, not her mathematics."},
+  None
+ ],
+ "key": "Base ELLs' course placement on valid content evidence (transcripts, home-language or low-language-load assessments), not English-only tests."
+},
+{
+ "id": "6.5-06", "skill": "6.5", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stem": "In the faculty room, a colleague remarks, \"Our Haitian families never come to conferences. They just don't value education the way we do.\" Which response by the ESOL teacher is most appropriate?",
+ "options": [
+  "Say nothing in the moment to avoid conflict, and later leave a short article about cultural differences in the colleague's mailbox",
+  "Agree that attendance has been low, and suggest that the school send home more frequent conference reminders written in English",
+  "Respectfully question the assumption, note barriers such as work hours and language, and suggest flexible meetings with Haitian Creole interpreters",
+  "Explain that Haitian parents tend to defer to teachers as experts, so their absence from conferences signals respect rather than disinterest"
+ ],
+ "answer": 2,
+ "why": "Challenging bias effectively means questioning a deficit assumption directly but respectfully, then redirecting toward barriers the school can remove: work schedules, transportation, language access, unfamiliarity with U.S. conference norms. Solutions include flexible times, phone or video options, Haitian Creole interpretation, and outreach through trusted community members. Low attendance is a signal to change practice, not evidence of how much families value education.",
+ "traps": [
+  {"code": "PASSIVE", "note": "Silence lets a deficit stereotype stand among colleagues, and an anonymous article is unlikely to change the colleague's thinking or the school's practice."},
+  {"code": "FAMILY_BARRIER", "note": "More English-only reminders repeat the barrier, and the response accepts the colleague's framing instead of questioning it."},
+  None,
+  {"code": "STEREOTYPE", "note": "Replacing a negative generalization with a \"positive\" one is still a stereotype. Haitian families are diverse, and the real barriers go unaddressed."}
+ ],
+ "key": "Challenge deficit assumptions respectfully, reframe low participation as barriers to remove, and propose concrete solutions."
+},
+{
+ "id": "6.5-07", "skill": "6.5", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stem": "A grade 7 newcomer whose home language is Arabic tells the ESOL teacher, through a translation app, that she feels sad most days and has trouble sleeping. When the ESOL teacher contacts the school counselor, the counselor says she cannot meet with the student because she does not speak Arabic and suggests waiting until the student's English improves. Which action by the ESOL teacher best advocates for the student?",
+ "options": [
+  "Ask the counselor to meet with the student now with a qualified Arabic interpreter, and explore bilingual school or community mental health supports",
+  "Agree to wait, and in the meantime give the student a journal so that she can write about her feelings in Arabic whenever she needs to",
+  "Arrange for a bilingual classmate to interpret during counseling sessions so that the student can begin receiving support right away",
+  "Meet with the student herself each week to talk about her feelings, since she has the closest relationship with her of any staff member"
+ ],
+ "answer": 0,
+ "why": "ELLs are entitled to the same school services as their peers, including counseling. Language is a barrier the school must bridge, not a reason to withhold support, and persistent sadness and sleep problems need professional attention now. The ESOL teacher advocates by insisting on access through a qualified interpreter or bilingual counselor and by connecting with school-based or community mental health partners, while continuing her supportive relationship within her own role.",
+ "traps": [
+  None,
+  {"code": "EXCLUSION", "note": "Counseling is a school service ELLs must be able to use now. Waiting for English to improve withholds help from a student showing signs of distress, and a journal is no substitute."},
+  {"code": "FAMILY_BARRIER", "note": "A child should not interpret for a peer, least of all in confidential counseling. It breaches privacy and places an inappropriate burden on the classmate."},
+  {"code": "PARTIAL", "note": "The relationship matters, but the ESOL teacher is not a trained counselor. Informal check-ins in place of professional support go beyond her role and leave the inequity in place."}
+ ],
+ "key": "ELLs have the same right to counseling as peers: bridge language with qualified interpreters or bilingual staff instead of making students wait."
+},
+{
+ "id": "6.5-08", "skill": "6.5", "type": "scenario", "difficulty": 3, "diag": 0,
+ "stem": "In a middle school, Stand-alone ENL for Entering students is scheduled during the period when grade-level science classes conduct labs, so these students rarely take part in hands-on science. Which action by the ESOL teacher is most appropriate?",
+ "options": [
+  "Have the students skip Stand-alone ENL on lab days so that they can participate in science, and make up the missed ENL minutes when possible",
+  "Accept the schedule, since Entering students benefit more from intensive English instruction than from content they cannot yet fully understand",
+  "Build science vocabulary into Stand-alone ENL lessons so that the students keep up with the topics their classmates are exploring in labs",
+  "Bring the conflict to the scheduling team with a proposal that protects both the required ENL minutes and the students' access to science labs"
+ ],
+ "answer": 3,
+ "why": "ELLs are entitled both to their required ENL units of study and to meaningful access to the core curriculum, so a schedule that forces a trade-off is a systemic equity problem. Advocacy works best through the right channel (the scheduling team or administration) with a concrete solution, such as moving Stand-alone ENL to a non-core period or adding Integrated ENL in science. Hands-on labs are often the most accessible science learning a newcomer can have.",
+ "traps": [
+  {"code": "NYS_POLICY", "note": "Entering students are entitled to their required ENL units of study. Skipping them and making up minutes \"when possible\" trades one entitlement for another."},
+  {"code": "EXCLUSION", "note": "ELLs at every level are entitled to the core curriculum. Hands-on labs are among the most comprehensible, language-rich science experiences an Entering student can have."},
+  {"code": "PARTIAL", "note": "Content-based ENL is good practice, but vocabulary previews do not replace hands-on inquiry with grade-level peers. The access problem remains."},
+  None
+ ],
+ "key": "Don't trade ENL minutes for core content: advocate for schedules that guarantee both required ENL and grade-level access."
+},
+{
+ "id": "6.5-09", "skill": "6.5", "type": "scenario", "difficulty": 1, "diag": 0,
+ "stem": "An ESOL teacher works with grade 11 Long-Term ELLs who rarely ask for help, even when they are confused in class or do not receive their testing accommodations. Which approach would best build their capacity to advocate for themselves?",
+ "options": [
+  "Teach students about their rights and supports, then have them role-play asking for clarification, accommodations, or a counselor meeting with frames",
+  "Handle all of the students' requests with their teachers personally so that the students do not risk embarrassment in front of their classmates",
+  "Remind students often that speaking up is their responsibility, and lower their participation grades if they continue to stay silent in class",
+  "Give students a printed list of their rights as English language learners, translated into their home languages, to keep in their binders"
+ ],
+ "answer": 0,
+ "why": "Self-advocacy is a teachable skill with three parts: knowledge (what supports they are entitled to, such as testing accommodations), language (frames such as \"Could you explain what ___ means?\" or \"May I use my bilingual glossary on this test?\"), and rehearsal in a low-risk setting. Explicit instruction plus role-play builds confidence that transfers to real situations. Long-Term ELLs especially benefit from explicit teaching of the academic and social language of school.",
+ "traps": [
+  None,
+  {"code": "PASSIVE", "note": "Acting for students keeps them dependent and silent. They never practice the language or build the confidence to advocate on their own."},
+  {"code": "DEFICIT", "note": "Penalizing silence treats it as a character flaw. Students need knowledge, language, and rehearsal, not pressure, in order to speak up."},
+  {"code": "PARTIAL", "note": "Knowing one's rights is a necessary first step, but a list alone does not give students the language or practice to act on them."}
+ ],
+ "key": "Teach self-advocacy explicitly: knowledge of rights, plus language frames, plus role-play rehearsal."
+},
+{
+ "id": "6.5-10", "skill": "6.5", "type": "analysis", "difficulty": 3, "diag": 0,
+ "stimulus": "Group | Scored Level 3 or 4 on the grade 7 state math test | Enrolled in grade 8 accelerated Algebra I\nELLs | 41% | 3%\nFormer ELLs | 48% | 24%\nNever ELLs | 52% | 31%",
+ "stem": "A middle school ESOL teacher compiles these data. ELLs took the state math test with translated editions or bilingual glossaries. Which conclusion and next step are best supported by the data?",
+ "options": [
+  "ELLs' math achievement lags behind their peers', so the school should strengthen basic math instruction in ENL before considering acceleration",
+  "Many ELLs who show math proficiency are not placed in accelerated math, so the school should check its placement criteria for English gatekeeping",
+  "Former ELLs enroll at rates close to never-ELLs', which shows that placement becomes equitable once students develop full English proficiency",
+  "ELLs probably chose not to accelerate because of their families' cultural preferences, so the school should hold an information night for families"
+ ],
+ "answer": 1,
+ "why": "Proficiency rates on the state math test (taken with translated editions or glossaries, so less confounded by English) are fairly close across groups, 41% vs. 52%. Acceleration rates are not: 3% vs. 31%. Many mathematically proficient ELLs are being left out, which points to a gatekeeping criterion such as English grades, teacher recommendations, or English-only placement tests. Equity advocacy starts with disaggregated data and targets the system's criteria rather than the students.",
+ "traps": [
+  {"code": "LITERAL", "note": "This fixes on the modest proficiency gap (41% vs. 52%) and misses the striking finding: proficient ELLs are almost absent from acceleration (3% vs. 31%)."},
+  None,
+  {"code": "EXCLUSION", "note": "Accepting that access arrives only after exit treats \"wait until proficient\" as equitable, while currently proficient ELLs are still shut out."},
+  {"code": "STEREOTYPE", "note": "Nothing in the data indicates student or family choice. Attributing the gap to \"cultural preferences\" overgeneralizes and ignores the school's placement practices."}
+ ],
+ "key": "When ELLs show content proficiency but are missing from advanced courses, examine placement criteria for English-proficiency gatekeeping."
+},
+{
+ "id": "6.5-11", "skill": "6.5", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stem": "A grade 12 ELL from Guinea who speaks Pulaar and French entered high school as a SIFE and now has a B+ average. Her counselor tells her that a four-year college \"isn't realistic\" and suggests that she plan to look for a job. Which action by the ESOL teacher best advocates for the student?",
+ "options": [
+  "Encourage the student to follow the counselor's advice, since working for a few years would give her time to improve her academic English",
+  "Tell the student privately that the counselor is biased, and help her complete college applications without involving the counseling office",
+  "Suggest that she enroll in an adult ESL program after graduation and apply to college once her writing approaches native-like proficiency",
+  "Work with the counselor to give the student full college guidance, including help with applications and financial aid and outreach to her family"
+ ],
+ "answer": 3,
+ "why": "Students who enter as SIFE and succeed academically deserve the same postsecondary counseling as their peers: college options, application support, financial aid information, and outreach to families in their preferred language. Low expectations from gatekeepers are a well-documented barrier for ELLs. The ESOL teacher advocates most effectively by collaborating with the counselor and sharing the student's record and strengths, so the student gets full access and counseling practice improves for future students.",
+ "traps": [
+  {"code": "LOWER_RIGOR", "note": "Endorsing the counselor's low expectations steers a successful student away from college because of her ELL and SIFE history rather than her record."},
+  {"code": "PARTIAL", "note": "Helping with applications supports this student, but bypassing the counselor gives up counseling resources (fee waivers, aid guidance) and leaves the biased practice in place for future students."},
+  {"code": "EXCLUSION", "note": "Native-like writing is not a college admission requirement, and colleges offer language support. Waiting delays her postsecondary path indefinitely."},
+  None
+ ],
+ "key": "Advocate for full college and career counseling for ELLs and SIFE; collaborate with counselors to replace low expectations with access."
+},
+{
+ "id": "6.5-12", "skill": "6.5", "type": "scenario", "difficulty": 3, "diag": 0,
+ "stem": "At a spring grade-level meeting, the principal proposes retaining Sofía, a grade 2 ELL at the Emerging level who arrived in the United States in September, because her English reading scores are far below grade level. Her math work and class participation are on grade level, and she reads at grade level in Spanish. Which response by the ESOL teacher best advocates for Sofía?",
+ "options": [
+  "Support retention, since another year in grade 2 would give Sofía extra time to build the English literacy skills she needs to succeed",
+  "Recommend a special education evaluation before deciding, since a large gap between her math and reading may signal a learning disability",
+  "Oppose retention, since limited English proficiency alone is not a sound basis for it, and propose promotion with targeted ENL and literacy support",
+  "Suggest promoting Sofía but placing her in a grade 1 reading group for the full literacy block until her English reading catches up"
+ ],
+ "answer": 2,
+ "why": "Sofía's math, participation, and Spanish reading show she is learning at grade level. Only her English reading lags, which is expected for an Emerging newcomer, since academic English takes years to develop (Cummins). Retaining a student for limited English proficiency penalizes her for being an ELL and is linked to disengagement, while her Spanish literacy is an asset that will transfer. Equity advocacy keeps her with her peers in grade-level instruction and adds targeted ENL and literacy support.",
+ "traps": [
+  {"code": "LOWER_RIGOR", "note": "Retention makes Sofía repeat grade 2 content she has already mastered. English proficiency takes years to develop, and repeating a grade does not speed it up."},
+  {"code": "MISREFERRAL", "note": "A newcomer who reads on grade level in Spanish but below grade level in English is showing typical second-language development, not signs of a disability."},
+  None,
+  {"code": "EXCLUSION", "note": "A grade 1 group for the whole literacy block removes her from grade-level texts and peers. She needs scaffolded access to grade 2 literacy plus targeted support."}
+ ],
+ "key": "Don't retain ELLs for limited English proficiency: promote with targeted support, building on home-language literacy and grade-level strengths."
+},
+{
+ "id": "6.5-13", "skill": "6.5", "type": "scenario", "difficulty": 1, "diag": 0,
+ "stem": "An ESOL teacher learns that several newcomers have received detention for \"ignoring directions\" in the cafeteria, where rules are announced only orally in English over a loudspeaker. Which action best addresses the equity concern?",
+ "options": [
+  "Work with administrators to post visual, multilingual rules for all students, have staff model routines, and review the detentions already given",
+  "Teach the newcomers cafeteria vocabulary in Stand-alone ENL so that they can understand the loudspeaker announcements in the future",
+  "Ask that the newcomers be excused from cafeteria rules until they reach the Transitioning level and can understand the expectations",
+  "Arrange for the newcomers to eat lunch in the ENL classroom, where the ESOL teacher can explain expectations in a calmer setting"
+ ],
+ "answer": 0,
+ "why": "Students cannot follow rules they cannot understand. Disciplining newcomers for not responding to English-only oral announcements effectively punishes limited English proficiency, an equity issue with civil rights implications under Title VI. The systemic fix makes expectations comprehensible to everyone (visual and multilingual signs, modeling, peer buddies) and revisits the consequences already given. Excusing or isolating students are not equitable alternatives.",
+ "traps": [
+  None,
+  {"code": "PARTIAL", "note": "Vocabulary helps over time, but it leaves the unfair detentions in place and puts the whole burden on students instead of fixing how rules are communicated."},
+  {"code": "LOWER_RIGOR", "note": "Excusing students from rules lowers expectations and singles them out. The goal is to make expectations comprehensible, not to remove them."},
+  {"code": "EXCLUSION", "note": "Separating newcomers at lunch isolates them from peers and from the social language of the cafeteria, and it leaves the school's practice unchanged."}
+ ],
+ "key": "When ELLs are disciplined for not understanding English-only directions, fix the communication and revisit the consequences."
+},
+{
+ "id": "6.5-14", "skill": "6.5", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stem": "During a schedule review, the ESOL teacher discovers that Andrés, a grade 4 ELL at the Emerging level with an IEP for a learning disability, receives no ENL services. The special education teacher says, \"His IEP services cover his needs, so ENL would be redundant.\" Which response by the ESOL teacher is most accurate?",
+ "options": [
+  "Agree with the special education teacher, since students with IEPs receive their language support through special education instead of ENL",
+  "Recommend that the Committee on Special Education end his IEP services so that his schedule has room for his required ENL services",
+  "Explain that Andrés is entitled to both ENL and IEP services, and propose coordinating them so his language and learning needs are met together",
+  "Suggest postponing ENL services until Andrés's next annual IEP review, when the team can decide whether he still needs language support"
+ ],
+ "answer": 2,
+ "why": "An ELL with a disability has two sets of needs and two sets of entitlements: ENL (or bilingual) services under CR Part 154 and special education services under IDEA and his IEP. One does not replace the other. The ESOL teacher advocates by clarifying this and proposing coordination, for example the CSE considering language needs in the IEP and the ENL and special education teachers co-planning, so the services reinforce each other.",
+ "traps": [
+  {"code": "NYS_POLICY", "note": "ELLs with disabilities remain ELLs. Special education services do not replace the ENL services required under CR Part 154."},
+  {"code": "MISREFERRAL", "note": "Ending services for a documented disability to make room for ENL leaves a real disability need unserved. The student is entitled to both."},
+  None,
+  {"code": "EXCLUSION", "note": "Postponing required ENL services denies Andrés language instruction now. His ELL entitlement does not wait for the IEP calendar."}
+ ],
+ "key": "ELLs with disabilities are entitled to both ENL and special education services; coordinate them rather than choosing one."
+},
+{
+ "id": "6.5-15", "skill": "6.5", "type": "scenario", "difficulty": 1, "diag": 0,
+ "stem": "While reviewing a proposed grade 7 social studies textbook, an ESOL teacher notices that immigrants appear only in chapters about poverty and conflict, with no attention to their contributions or perspectives. Which action best reflects equity advocacy?",
+ "options": [
+  "Skip the textbook's immigration chapters when teaching ELLs so that students are not exposed to negative portrayals of their communities",
+  "Accept the textbook, since social studies texts are expected to present historical events objectively, regardless of how groups are portrayed",
+  "Supplement the textbook in ENL classes only, so that ELLs see positive portrayals of immigrants even if their classmates do not",
+  "Share specific examples with the adoption committee and recommend materials that portray immigrant communities with depth and multiple perspectives"
+ ],
+ "answer": 3,
+ "why": "The CR-SE Framework's principle of inclusive curriculum and assessment calls for materials that reflect students' identities and multiple perspectives, serving as mirrors and windows for every learner. A textbook that portrays immigrants only through a deficit lens reinforces stereotypes for all students, not just ELLs. Effective advocacy brings specific evidence to the place where the decision is made (the adoption committee) and proposes better alternatives.",
+ "traps": [
+  {"code": "EXCLUSION", "note": "Skipping content removes ELLs from grade-level curriculum and leaves the biased portrayal in place for everyone else."},
+  {"code": "STEREOTYPE", "note": "A one-sided portrayal is not \"objective.\" Accepting it lets a stereotyped image of immigrants shape every student's learning."},
+  {"code": "PARTIAL", "note": "Supplementing helps ELLs, but their classmates still learn the stereotype, and the decision point (textbook adoption) goes unaddressed."},
+  None
+ ],
+ "key": "Challenge biased materials at the decision point with specific evidence, and advocate for inclusive, multi-perspective curriculum for all students."
+},
 # __CONTINUE__
 ]

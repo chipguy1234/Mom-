@@ -640,3 +640,82 @@ Q("1.7-14", "scenario", 1,
    T("ISOLATED", "Decontextualized drills aimed at sounding 'native' set an unrealistic goal and imply her accent is a defect to erase.")],
   "Aim pronunciation work at intelligibility (e.g., stress), not accent elimination; accents carry identity, and bias against them is a language attitude."),
 ]
+
+# ---------------------------------------------------------------- LESSONS
+LESSONS = []
+
+LESSONS.append({
+ "skill": "1.5",
+ "title": "Theories of Second-Language Acquisition",
+ "why": "The 116 rarely asks you to just name a theorist; it describes a classroom move or a student's behavior and asks which theory explains it, or which practice follows from a theory.",
+ "body": [
+  {"h": "Krashen's Monitor Model: five hypotheses",
+   "md": """Krashen's five hypotheses are the most-tested theory cluster. Learn each one with a classroom look-for.
+
+- **Acquisition–Learning:** acquisition is subconscious (picking language up through meaningful use); learning is conscious knowledge of rules. Krashen argued that acquisition is what drives fluent speech.
+- **Monitor:** learned rules work only as an editor, and only when the learner has **time, a focus on form, and knowledge of the rule**. Look-for: a student aces an untimed grammar quiz but drops the same endings in a fast debate.
+- **Natural Order:** grammatical morphemes are acquired in a predictable order (e.g., -ing and plural -s early, third-person -s late), **regardless of the order in which they are taught**.
+- **Input (i+1):** we acquire language by understanding messages slightly beyond our current level. Look-for: a read-aloud made comprehensible with pictures, gestures, and paraphrase, with no pressure to speak.
+- **Affective Filter:** anxiety, low motivation, and low self-confidence raise a mental block that keeps input from being acquired. Look-for: a student who talks freely with a partner but freezes when cold-called.
+
+Krashen and Terrell's **Natural Approach** turned these ideas into a method, with five stages: Preproduction, Early Production, Speech Emergence, Intermediate Fluency, and Advanced Fluency."""},
+  {"h": "Cummins: why playground English isn't the whole story",
+   "md": """- **BICS vs. CALP:** Basic Interpersonal Communicative Skills (social, context-embedded language) typically develop in about **1–3 years**. Cognitive Academic Language Proficiency (the language of textbooks and tests) takes about **5–7 years**, and longer without home-language schooling. A fluent talker who struggles with a science text is the expected profile, not a red flag for disability.
+- **Common Underlying Proficiency (CUP), the dual iceberg:** two languages look separate above the waterline but share one base of concepts, literacy skills, and knowledge. What a student learned about algebra in Arabic transfers once she has the English labels. Cummins rejected the 'separate underlying proficiency' (balloon) view, in which the home language takes up room English needs.
+- **Developmental Interdependence:** how far a child gets in L2 depends partly on her L1 competence when intensive L2 exposure begins. Strong L1 literacy predicts faster English academic growth.
+- **Threshold Hypothesis:** Cummins proposed that the cognitive benefits of bilingualism appear once learners reach threshold levels of proficiency in both languages.
+- **The quadrants:** tasks vary by **context** (embedded ↔ reduced) and **cognitive demand** (undemanding ↔ demanding). For ELLs, the goal is grade-level, cognitively demanding work made **context-embedded** with visuals, hands-on materials, and interaction. Lowering the demand is not the goal."""},
+  {"h": "Beyond input: interaction, output, and noticing",
+   "md": """These three theories agree that input matters but say it isn't enough. Know what each one adds.
+
+- **Long's Interaction Hypothesis:** acquisition is promoted when speakers **negotiate meaning** after a breakdown, using comprehension checks ('Do you understand?'), clarification requests ('Sorry, they what?'), and confirmation checks ('You mean he planted them?'). The key word is *two-way*.
+- **Swain's Output Hypothesis:** producing language pushes learners to process grammar more deeply. Output has three functions: **noticing the gap** between what they want to say and what they can say, **hypothesis testing** ('the heat give energy?'), and **metalinguistic reflection** (talking about language). Collaborative writing and pushed speaking tasks apply it.
+- **Schmidt's Noticing Hypothesis:** input becomes *intake* only when learners consciously notice a form. Bolding target forms (input enhancement), highlighting, and guided discovery apply it. Note the contrast with Krashen, who saw acquisition as subconscious."""},
+  {"h": "Sociocultural theory and scaffolding",
+   "md": """Vygotsky saw learning as social first and individual second. The **zone of proximal development (ZPD)** is the distance between what a learner can do alone and what she can do with help from a more knowledgeable other, whether a teacher or a peer. **Scaffolding** (Wood, Bruner & Ross) is the temporary, adjustable support that makes that assisted performance possible, such as graphic organizers, sentence starters, modeling, and prompting. It is gradually withdrawn as the learner takes control, which is the logic of gradual release.
+
+Don't confuse the ZPD with i+1. **i+1 is about input a learner can understand**; **the ZPD is about a task a learner can do with assistance.** If a scenario shows support being faded over time, think ZPD and scaffolding."""},
+  {"h": "Innatism, behaviorism, and age",
+   "md": """- **Behaviorism (Skinner):** language is habit formation through imitation, repetition, and reinforcement. It underlies the **Audiolingual Method** (pattern drills, immediate correction).
+- **Innatism (Chomsky):** children are born with a **Language Acquisition Device** and **Universal Grammar**. Evidence: children produce forms no adult says ('goed,' 'foots'), which shows they build rules rather than imitate.
+- **Critical Period Hypothesis (Lenneberg):** proposes a biologically based window for language acquisition. For L2, the clearest age effect is on pronunciation: early starters are more likely to sound native-like in the long run. But older learners usually **progress faster at first** because they bring literacy and school knowledge. The CPH does **not** mean adolescents can't reach high proficiency."""},
+  {"h": "Telling near-miss theories apart",
+   "md": """When two options both sound right, find the scenario's **key evidence** and match it:
+
+- The teacher makes a message understandable, and no production is required → **Input (i+1)**
+- Two speakers repair a breakdown → **Interaction (Long)**
+- A learner struggles to say something and tries out forms → **Output (Swain)**
+- A form is made salient (bolded, highlighted) → **Noticing (Schmidt)**
+- Help is given and then faded → **ZPD/scaffolding (Vygotsky)**
+- Accuracy differs between untimed and timed tasks → **Monitor**
+- Anxiety blocks participation → **Affective Filter**
+- Social fluency with an academic struggle → **BICS vs. CALP**
+- Home-language knowledge is used to learn English content → **CUP**"""},
+ ],
+ "traps": [
+  "Exam trap: choosing ZPD when the scenario is about comprehensible input (i+1), or the reverse. Input = understanding; ZPD = doing with help.",
+  "Exam trap: reading social fluency as full proficiency. BICS (1–3 years) is not CALP (5–7 years), so an academic gap at 18 months isn't grounds for referral.",
+  "Exam trap: assuming that a form that has been taught should be acquired. Natural Order and the Monitor say otherwise.",
+  "Exam trap: Output vs. Interaction. If the teacher's move is a clarification request or confirmation check, it is Long's negotiation of meaning, even though the student then produces output.",
+  "Exam trap: overstating the Critical Period. Age affects accent most; it doesn't cap a teenager's proficiency.",
+ ],
+ "terms": [
+  {"t": "i+1", "d": "Krashen: input slightly beyond the learner's current level (i) that is still comprehensible."},
+  {"t": "Affective Filter", "d": "Krashen: anxiety, low motivation, or low confidence blocks input from being acquired."},
+  {"t": "Monitor", "d": "Krashen: learned rules edit output only with time, focus on form, and knowledge of the rule."},
+  {"t": "Natural Order", "d": "Krashen: grammatical morphemes are acquired in a predictable sequence regardless of teaching order."},
+  {"t": "BICS", "d": "Cummins: social, context-embedded conversational language; about 1–3 years to develop."},
+  {"t": "CALP", "d": "Cummins: academic, context-reduced, cognitively demanding language; about 5–7 years or more."},
+  {"t": "Common Underlying Proficiency", "d": "Cummins' dual iceberg: languages share one underlying base, so concepts and literacy transfer."},
+  {"t": "Developmental Interdependence", "d": "Cummins: L2 attainment depends partly on L1 competence when intensive L2 exposure begins."},
+  {"t": "Threshold Hypothesis", "d": "Cummins: cognitive benefits of bilingualism appear after threshold proficiency levels in both languages."},
+  {"t": "Negotiation of meaning", "d": "Long: comprehension checks, clarification requests, and confirmation checks used to repair breakdowns."},
+  {"t": "Output Hypothesis", "d": "Swain: producing language makes learners notice gaps, test hypotheses, and reflect on form."},
+  {"t": "Noticing Hypothesis", "d": "Schmidt: input becomes intake only when learners consciously notice the form."},
+  {"t": "Zone of proximal development", "d": "Vygotsky: the gap between what a learner does alone and with help from a more capable other."},
+  {"t": "Scaffolding", "d": "Wood, Bruner & Ross: temporary, adjustable support that is faded as the learner gains control."},
+  {"t": "Universal Grammar / LAD", "d": "Chomsky: innate language faculty that guides children's construction of grammar."},
+  {"t": "Critical Period Hypothesis", "d": "Lenneberg: a biological window for acquisition; in L2, strongest effects on long-term pronunciation."},
+ ],
+ "tip": "Find the single piece of evidence in the scenario (comprehension, breakdown repair, production struggle, salience, faded help, anxiety) and match it to the theory that names that mechanism.",
+})

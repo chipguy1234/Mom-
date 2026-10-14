@@ -175,7 +175,7 @@
    "options": [
     "Under NYS rules a SIFE must be placed in TBE until she reaches grade-level literacy in Spanish, and then she may move to ENL",
     "ENL alone is the better choice for SIFE, since instruction in Spanish would divide her limited learning time between two languages",
-    "Literacy and content learned in Spanish build skills that transfer to English, so TBE can support her progress; the choice is the family's",
+    "Literacy and content learned in Spanish transfer to English, so TBE can support her progress, though the choice is the family's",
     "She should build spoken English first, since learning to read Spanish before speaking English would cause interference between them"
    ],
    "answer": 2,
@@ -207,7 +207,7 @@
    "stem": "Which instructional step best builds on this evidence?",
    "options": [
     "Start him on grade 2 math worksheets to fill the gaps in written computation before he rejoins grade-level work",
-    "Have him explain his mental strategies, then link each step to written notation using money, manipulatives, and real contexts",
+    "Have him explain his mental strategies, then link each step to written notation using money and manipulatives",
     "Assign daily timed drills on multi-digit subtraction until his written accuracy matches his speed in mental calculation",
     "Reassess his skills with an English word-problem test to determine his true grade-level placement in mathematics"
    ],
@@ -305,8 +305,8 @@
    "options": [
     "The behaviors suggest an attention or behavior disorder, so the teacher should request a special education evaluation",
     "The behaviors show culture shock, which usually fades with time, so the teacher should wait for the adjustment stage",
-    "The behaviors may be stress responses, so the teacher should keep routines predictable, preview drills, and consult the counselor",
-    "The shoving incident calls for the standard disciplinary consequence, so that Farid learns the same rules as his peers"
+    "The behaviors may be stress responses, so the teacher should build predictability, preview drills, and consult the counselor",
+    "The shoving incident calls for the standard disciplinary consequence, so that Farid learns the same rules as all his peers"
    ],
    "answer": 2,
    "why": "Startling at alarms, shutting down in noise, and reacting to someone approaching from behind are common fight-flight-freeze responses after adversity, and his engagement one-on-one shows he learns well when he feels safe. A trauma-informed response adds safety and predictability (previewing drills, consistent routines, a calm-down space) and brings in school mental-health staff, rather than punishing, pathologizing, or simply waiting.",
@@ -436,7 +436,7 @@
    "stem": "Which revision to the plan best reflects the two students' profiles?",
    "options": [
     "Keep the shared materials but assign Olena more pages each day, since both students are at the same English proficiency level",
-    "Give Olena English content materials with bilingual glossaries, and give Hamid foundational literacy built on age-appropriate content",
+    "Give Olena content materials with bilingual glossaries, and give Hamid foundational literacy through age-appropriate content",
     "Move Olena into general education classes without ENL, since her strong prior schooling will let her pick up English on her own",
     "Focus both students on spoken English for now, and postpone reading and writing until each one reaches the Transitioning level"
    ],
@@ -469,7 +469,7 @@
    "stem": "The classroom teacher asks whether Valentina should be referred for a reading disability evaluation. Which response is best supported by the evidence?",
    "options": [
     "Refer her, since slow English decoding after two months of instruction is an early sign of dyslexia that needs prompt evaluation",
-    "Do not refer; her fluent Spanish reading and Spanish-based vowel errors point to a language difference that calls for explicit phonics",
+    "Do not refer; fluent Spanish reading and Spanish-based vowel errors signal a language difference that calls for explicit phonics",
     "Postpone the question until she has had five to seven years to develop academic English, and then consider an evaluation",
     "Do not refer, but place her in the Tier 3 intensive reading group with the students who scored lowest on the grade 2 screening"
    ],
@@ -503,7 +503,7 @@
    "options": [
     "Agree, since Cummins' research on academic language shows that ELLs should not be evaluated before about seven years in U.S. schools",
     "Add ENL minutes and repeat the same Tier 2 intervention for another 14 weeks, and then revisit the question of an evaluation",
-    "Refer her for a comprehensive evaluation in Bengali and English, since the data show difficulties in both languages despite good instruction",
+    "Refer her for a comprehensive evaluation in Bengali and English, since her difficulties span both languages despite good instruction",
     "Refer her for a speech-language evaluation conducted only in English, since English is the language of instruction in her classes"
    ],
    "answer": 2,
@@ -536,7 +536,7 @@
     "He mixes Mandarin and English words in the same sentence when talking with bilingual classmates",
     "He leaves off past-tense -ed endings in English, a feature that Mandarin does not mark on verbs",
     "He said very little English during his first months in school, though he followed class routines",
-    "His parents report he had the same trouble learning to read Chinese when he went to school in Shanghai"
+    "His parents report the same trouble learning to read Chinese when he attended school in Shanghai"
    ],
    "answer": 3,
    "why": "A disability affects learning in every language, so difficulties that also appeared during home-language schooling, as reported by parents or shown in home-language work, are a major warning sign. Code-switching, L1-transfer errors such as missing past-tense endings, and an early silent period are all normal features of second-language development.",
@@ -600,7 +600,7 @@
    "stem": "In a multi-tiered system of supports (MTSS/RTI), which of the following must a school establish before it concludes that an ELL's lack of progress may reflect a learning disability?",
    "options": [
     "That the student has attended U.S. schools for at least five years, the time typically needed to develop academic English",
-    "That the student received high-quality, linguistically responsive core instruction, including the ENL services Part 154 requires",
+    "That the student received high-quality, linguistically responsive core instruction, including required ENL services",
     "That the student's parents have confirmed the difficulty is not caused by the family's use of the home language",
     "That the student has reached at least the Expanding level on the NYSESLAT, so that tests given in English will be valid"
    ],
@@ -763,7 +763,7 @@
    "stem": "The ENL teacher is asked to help revise the goal so that it reflects both Amira's disability and her English proficiency level. Which revision is most appropriate?",
    "options": [
     "Amira will use only English during her speech-language sessions, so that she gets maximum exposure to the language of instruction.",
-    "Amira will retell key events from grade-level texts using visuals, an organizer, sentence frames, and home-language support, in 4 of 5 trials.",
+    "Amira will retell key events from grade-level texts using visuals, sentence frames, and home-language support in 4 of 5 trials.",
     "Amira will complete grade 2 phonics and vocabulary worksheets with 90% accuracy, matching her level on an English reading inventory.",
     "Amira will reach the Commanding level on the NYSESLAT by June, so that her IEP no longer needs to address her language needs."
    ],
@@ -794,7 +794,7 @@
    "diag": 0,
    "stem": "A kindergarten ELL whose home language is Mandarin has said almost nothing in English during his first six weeks of school, though he follows routines and points to answers. His parents say he talks constantly at home in Mandarin with his siblings. His teacher asks whether to refer him for a speech-language evaluation. Which response is most appropriate?",
    "options": [
-    "Explain that a silent period is typical for beginners, and continue visual, low-pressure instruction while monitoring his progress",
+    "Explain that a silent period is typical, and continue visual, low-pressure instruction while monitoring his progress",
     "Refer him now, since six weeks without speaking English is an early warning sign of a speech or language disorder",
     "Require him to answer in English before he can join center activities, so that he becomes motivated to start speaking",
     "Ask his parents to speak only English at home, so that he hears more of the language he will need in school"
@@ -891,7 +891,7 @@
    "diag": 0,
    "stem": "A grade 1 teacher brings concerns to the pre-referral team about Antoni, a Polish-speaking ELL at the Emerging level who is struggling to learn letter sounds and remember sight words. Which information should the team gather first?",
    "options": [
-    "His developmental, language, and school history from his parents through a Polish interpreter, plus ENL data and hearing and vision results",
+    "His developmental, language, and school history from his parents via a Polish interpreter, plus ENL and hearing/vision data",
     "His score on an English-language intelligence test, to see whether his learning ability is in line with his reading achievement",
     "A count of the grade 1 sight words he can read, compared with the benchmark used for every student in grade 1",
     "Classroom behavior notes from his teachers, since school data are more objective than reports from his family"
@@ -959,7 +959,7 @@
    "options": [
     "Place them in the newcomer ENL class, where the slower pace and basic vocabulary will rebuild their English foundations",
     "Keep them in grade-level content courses with Integrated ENL, and add a course in academic reading, writing, and discussion",
-    "Move them to remedial content classes with simplified texts until their grades improve enough to return to regular courses",
+    "Move them to remedial content classes with simplified texts until their grades improve enough for them to return to regular courses",
     "Replace their ENL services with an extra study hall, since tutoring on homework will help them pass their courses faster"
    ],
    "answer": 1,
@@ -989,7 +989,7 @@
    "diag": 0,
    "stem": "Several grade 8 Long-Term ELLs ask their ENL teacher, 'Why am I still in ENL? I speak English fine.' They have begun to disengage in class. Which response best addresses both their frustration and their language needs?",
    "options": [
-    "Review each student's NYSESLAT results and writing samples with them, set academic language goals together, and track progress",
+    "Review each student's NYSESLAT results and writing samples with them, set academic goals together, and track progress",
     "Reassure them that their English is excellent, and shift more class time toward the conversation activities they enjoy most",
     "Explain that state rules require them to attend ENL until they meet the exit criteria and that full participation is expected",
     "Let them work on homework from their content classes during ENL, since the language lessons seem too easy for them"
@@ -1024,7 +1024,7 @@
    "options": [
     "Daily grammar worksheets on commas and sentence fragments, assigned until the student's error rate drops below a set level",
     "Marking every informal word and grammatical error in red, so that the student can see exactly what to avoid next time",
-    "Mentor-text analysis and joint construction that show how to move from conversational to academic register in argument writing",
+    "Mentor-text analysis and joint construction showing how to move from conversational to academic register in arguments",
     "Independent reading of high-interest novels, since wide reading will gradually improve the student's writing over the year"
    ],
    "answer": 2,
@@ -1086,7 +1086,7 @@
    "diag": 0,
    "stem": "A grade 11 Long-Term ELL who speaks Spanish fluently at home but has never studied it formally is enrolled in a Spanish for Heritage Speakers course. Her counselor proposes replacing it with a second period of remedial English reading. Which response best reflects research and NYS priorities?",
    "options": [
-    "Keep the heritage course, since Spanish literacy builds skills that transfer to English and can lead toward the Seal of Biliteracy",
+    "Keep the heritage course, since Spanish literacy skills transfer to English and can lead toward the Seal of Biliteracy",
     "Approve the change, since every period spent on Spanish takes time away from the English she needs to meet the exit criteria",
     "Approve the change, but encourage her to keep speaking Spanish at home, since oral use is enough to maintain her home language",
     "Move her into Spanish 1 instead, since a beginner course will teach the formal grammar that heritage speakers have not learned"
@@ -1352,7 +1352,7 @@
    "options": [
     "Agree to a referral, since difficulties that continue after exit can no longer be explained by second-language acquisition",
     "Explain that former ELLs no longer qualify for language support, so she should attend general tutoring like other students",
-    "Explain that academic language keeps developing after exit, and co-plan science-language scaffolds as her former-ELL support",
+    "Explain that academic language keeps developing after exit, and co-plan science-language scaffolds as former-ELL support",
     "Recommend that she return to Stand-alone ENL at the Entering level so that she can relearn the basics of English"
    ],
    "answer": 2,

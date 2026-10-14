@@ -214,7 +214,7 @@
     "She is identified as an ELL because her HLQ shows a home language other than English, and she is served until she exits."
    ],
    "answer": 0,
-   "why": "Identification has two steps. The HLQ and interview decide whether a student needs to take the NYSITELL, and the NYSITELL result decides ELL status. A student who scores Commanding on the NYSITELL is not an ELL. Because she was never identified, she is not a 'former ELL' either; that status, with its two years of continued support and accommodations, belongs to students who were ELLs and then met the NYSESLAT exit criteria.",
+   "why": "Identification has two steps. The HLQ and interview decide whether a student needs to take the NYSITELL, and the NYSITELL result decides ELL status. A student who scores Commanding on the NYSITELL is not an ELL. Because she was never identified, she is not a 'former ELL' either; that status, with its two years of continued support and accommodations, belongs to students who were identified as ELLs and later exited.",
    "traps": [
     null,
     {
@@ -956,7 +956,7 @@
      "note": "Extended time is a real ELL accommodation, but it is available on both exams, so it doesn't answer the question about what differs between them."
     },
     {
-     "code": "PARTIAL",
+     "code": "LITERAL",
      "note": "A separate location is a correct ELL accommodation, but like extended time it applies to all state tests, including ELA, so it isn't the distinction the question asks about."
     },
     null,
@@ -1402,7 +1402,7 @@
    "body": [
     {
      "h": "Two tests, two jobs",
-     "md": "New York uses two English-proficiency tests, and the exam loves to swap them.\n\n- **NYSITELL** (identification): given at initial enrollment, and only when the Home Language Questionnaire (HLQ) and the individual interview indicate a language other than English. Its result decides **whether the student is an ELL** and sets the **initial proficiency level** used for placement and units of study.\n- **NYSESLAT** (annual achievement): given **every spring** to identified ELLs in grades K–12. It measures **listening, speaking, reading, and writing**, places the student at one of the five levels for the next year, and determines **exit**.\n\nMemory hook: NYS-**I**-TELL **I**dentifies. NYSESLAT comes every year, covers all four modalities, and continues until exit.\n\nOne more distinction the exam tests: a student who scores **Commanding on the NYSITELL is not an ELL**. That student was never identified, so she is not a 'former ELL' either and receives no ENL services. Former-ELL status belongs only to students who were ELLs and then met the exit criteria on the NYSESLAT."
+     "md": "New York uses two English-proficiency tests, and the exam loves to swap them.\n\n- **NYSITELL** (identification): given at initial enrollment, and only when the Home Language Questionnaire (HLQ) and the individual interview indicate a language other than English. Its result decides **whether the student is an ELL** and sets the **initial proficiency level** used for placement and units of study.\n- **NYSESLAT** (annual achievement): given **every spring** to identified ELLs in grades K–12. It measures **listening, speaking, reading, and writing**, places the student at one of the five levels for the next year, and determines **exit**.\n\nMemory hook: NYS-**I**-TELL **I**dentifies. NYSESLAT comes every year, covers all four modalities, and continues until exit.\n\nOne more distinction the exam tests: a student who scores **Commanding on the NYSITELL is not an ELL**. That student was never identified, so she is not a 'former ELL' either and receives no ENL services. Former-ELL status belongs to students who were identified as ELLs and later exited."
     },
     {
      "h": "The identification timeline: match each number to its process",
@@ -1410,7 +1410,7 @@
     },
     {
      "h": "The five levels and what they trigger",
-     "md": "**Entering → Emerging → Transitioning → Expanding → Commanding.** The level from the NYSITELL (in the first year) or the NYSESLAT (every year after) sets the following year's units of study. In grades K–8:\n\n- Entering and Emerging: 360 minutes per week\n- Transitioning and Expanding: 180 minutes per week\n- Commanding (former ELL): 90 minutes per week for two years\n\nThe levels also line up with the **New Language Arts Progressions**, which describe what students can do at each level, with scaffolding decreasing from substantial (Entering) to independent (Commanding). So a level tells you more than how many minutes of service a student gets. It also tells you roughly how much scaffolding to plan."
+     "md": "**Entering → Emerging → Transitioning → Expanding → Commanding.** The NYSITELL level sets a newly identified student's units of study at entry, and each spring's NYSESLAT level sets them for the following year. In grades K–8:\n\n- Entering and Emerging: 360 minutes per week\n- Transitioning and Expanding: 180 minutes per week\n- Commanding (former ELL): 90 minutes per week for two years\n\nThe levels also line up with the **New Language Arts Progressions**, which describe what students can do at each level, with scaffolding decreasing from substantial (Entering) to independent (Commanding). So a level tells you more than how many minutes of service a student gets. It also tells you roughly how much scaffolding to plan."
     },
     {
      "h": "Exit criteria: memorize this exactly",

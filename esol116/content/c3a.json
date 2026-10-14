@@ -78,7 +78,7 @@
    "stimulus": "Principal's memo:\n\"To give our grade 1 Entering students their Integrated ENL/ELA minutes, our bilingual paraprofessional will sit with them during the ELA block, which is taught by the classroom teacher. The ESOL teacher will continue to provide their Stand-alone ENL.\"",
    "stem": "Which response to the principal's plan best reflects CR Part 154?",
    "options": [
-    "It works, provided that the bilingual paraprofessional speaks the students' home language and attends every ELA lesson.",
+    "It works, provided that the bilingual paraprofessional speaks the students' home language and attends the ELA block daily.",
     "It works, if the classroom teacher has completed the required ELL-focused CTLE hours for the cycle.",
     "It falls short, because Entering students must receive all of their ENL minutes in Stand-alone classes.",
     "It falls short, because Integrated ENL must be taught by a dually certified teacher or co-taught with an ESOL teacher."
@@ -112,7 +112,7 @@
    "stimulus": "District ELL enrollment, October\nGrade | Home language | ELLs districtwide | Most in any one school\nK | Spanish | 19 | 19\n2 | Bengali | 22 | 9\n3 | Arabic | 9 | 6\n4 | Arabic | 9 | 5\n5 | Arabic | 9 | 6\n4 | Urdu, Nepali, Polish, Karen (combined) | 24 | 10",
    "stem": "Based on CR Part 154, for which group is the district required to provide a bilingual education program?",
    "options": [
-    "The kindergarten Spanish speakers, because all of them attend the same school",
+    "The kindergarten Spanish speakers, because the whole group attends the same school",
     "The grade 2 Bengali speakers, even though they are spread across several schools",
     "The Arabic speakers in grades 3–5, because together they number more than 20",
     "The grade 4 ELLs who speak Urdu, Nepali, Polish, or Karen, because there are more than 20"
@@ -146,7 +146,7 @@
    "options": [
     "Place him in Dual Language, since Part 154 requires bilingual placement for Entering students when a program exists",
     "Place him in a general education class without ENL, since his parents have declined the bilingual program",
-    "Honor the parents' choice and place him in ENL with the required Stand-alone and Integrated ENL/ELA minutes",
+    "Honor the parents' choice and place him in ENL with all the required Stand-alone and Integrated ENL/ELA minutes",
     "Place him in ENL, but in Stand-alone classes only until he reaches the Transitioning level"
    ],
    "answer": 2,
@@ -279,7 +279,7 @@
    "options": [
     "Developing bilingualism and biliteracy for ELLs and English-proficient students who learn together in two languages",
     "Using the home language for literacy and content as English increases, so students can move to English-only classes",
-    "Providing English language development with a certified ESOL teacher while all content is taught in English",
+    "Providing English language development with a certified ESOL teacher while content is taught in English",
     "Placing ELLs in English-only content classes and using the home language only as a last resort when students are completely lost"
    ],
    "answer": 1,
@@ -312,7 +312,7 @@
    "stimulus": "Principal's description at a family open house:\n\"Our program serves only Spanish-speaking ELLs and former ELLs. Students learn to read and write in both Spanish and English, and science and social studies are taught in both languages. Spanish instruction continues through grade 5 even after students test Commanding, because our goal is for every student to become bilingual and biliterate.\"",
    "stem": "Which program model does the principal's description best match?",
    "options": [
-    "Transitional Bilingual Education, since all of the students in the program share the same home language",
+    "Transitional Bilingual Education, since the students in the program share the same home language",
     "Two-way Dual Language, since grade-level content is taught in both English and Spanish",
     "Integrated ENL, since former ELLs continue to receive language support in the same classes",
     "One-way Dual Language, since it serves one language group and aims for biliteracy"
@@ -413,8 +413,8 @@
    "options": [
     "She receives no ENL, because part of her content instruction is delivered in her home language.",
     "She receives home language arts, content instruction in both languages, and ENL for her level.",
-    "She receives all of her instruction in Chinese until she reaches the Expanding level in English.",
-    "She receives content instruction only in English, and Chinese is used mainly for parent meetings."
+    "She is taught in Chinese, with English instruction added once she reaches the Expanding level.",
+    "She receives content instruction in English, and Chinese is used mainly for parent meetings."
    ],
    "answer": 1,
    "why": "NYS bilingual programs (TBE and Dual Language) combine three parts: home language arts, content instruction in both the home language and English, and ENL. Students in a bilingual program still receive ENL units of study for their proficiency level, so the program develops both languages from the start.",
@@ -656,7 +656,7 @@
     "It gives students little practice using English orally to communicate and to learn in content classes.",
     "It relies too heavily on the home language, which delays the students' acquisition of English.",
     "It focuses on literary texts instead of the grammar that students need to pass their tests.",
-    "It teaches grammar inductively, so students never learn the rules of English explicitly."
+    "It teaches grammar inductively, so students do not learn the rules of English explicitly."
    ],
    "answer": 0,
    "why": "This is Grammar-Translation: grammar is taught deductively through explicit rules and applied in written translation, with emphasis on reading and writing accuracy. It builds knowledge about the language but gives almost no practice in listening, speaking, or using English to communicate, which is exactly what ELLs need for social and academic success. Using the home language is not itself the problem.",
@@ -1029,10 +1029,10 @@
    "stimulus": "Writing task, grade 8 Integrated ENL social studies:\n\"Were the colonists justified in protesting the Stamp Act? Write a paragraph that states your claim and supports it with evidence from Documents A and B.\"",
    "stem": "As she plans, the ESOL co-teacher analyzes the language demands of this task. Which analysis is most complete?",
    "options": [
-    "Students must read Documents A and B, so the main demand is the readability level of the two sources.",
+    "Students will read Documents A and B, so the main demand is the readability level of the two sources.",
     "Students need the words justified, protest, and Stamp Act, so the main demand is at the word level.",
     "Students must argue: state a claim, cite evidence from each document, and connect it to the claim.",
-    "Students must spell and punctuate correctly, so the main demand is formal paragraph conventions."
+    "Students will need to spell and punctuate correctly, so the main demand is formal paragraph conventions."
    ],
    "answer": 2,
    "why": "Analyzing language demands means looking beyond vocabulary to the function and the discourse- and sentence-level structures a task requires. This task calls for argument: a claim, cited evidence ('According to Document A…'), and reasoning that links them with connectors such as because and therefore. Vocabulary and readability matter, but they are only parts of the demand; the teacher should plan supports for the argument structure itself.",
@@ -1560,7 +1560,7 @@
    "diag": 0,
    "stem": "A grade 9 Expanding student often says \"more better\" even though her teacher has recast the error many times; she shows no sign of noticing the recasts. The teacher wants her to produce the correct form herself. Which feedback is most likely to accomplish this goal?",
    "options": [
-    "Keep recasting the error (\"Yes, it's better\") consistently every time it occurs in class.",
+    "Keep recasting the error (\"Yes, it's better\") consistently each time it occurs in class.",
     "Write better on her paper and have her copy the correct form ten times for homework.",
     "Prompt her with \"Can you say that another way?\" and give her time to reformulate it.",
     "Ignore the error, since errors at the Expanding level resolve on their own with more input."
@@ -1626,7 +1626,7 @@
    "options": [
     "Using a slightly slower rate, shorter sentences, paraphrase, and gestures or visuals for key ideas",
     "Speaking more loudly and repeating each sentence word for word until the students nod",
-    "Avoiding academic vocabulary and using only everyday words for the science concepts",
+    "Avoiding academic vocabulary and using everyday words in its place for science concepts",
     "Reading the textbook passage aloud at a normal pace so students hear authentic academic English"
    ],
    "answer": 0,
@@ -1657,7 +1657,7 @@
    "stem": "A grade 7 social studies teacher asks a question and calls on the first student who raises a hand, usually within a second or two. Her ELLs rarely participate. Which change would most likely increase their participation?",
    "options": [
     "Ask the ELLs only yes/no questions so that they can respond quickly and successfully.",
-    "Extend the wait time and have students rehearse answers with a partner before calling on anyone.",
+    "Extend the wait time and have all students rehearse answers with a partner before calling on anyone.",
     "Call on the ELLs first, before other students have a chance to raise their hands, to hold them accountable.",
     "Have the ELLs write their answers silently while the rest of the class discusses aloud."
    ],
@@ -1857,7 +1857,7 @@
    "stem": "After giving multistep directions for a lab, a grade 7 teacher wants to check whether her Emerging students understood. Which approach gives her the most reliable information?",
    "options": [
     "Asking the class, \"Does everybody understand?\" and watching for students to nod",
-    "Having students point to each step on an illustrated card and retell the steps to a partner",
+    "Having every student point to each step on an illustrated card and retell the steps to a partner",
     "Repeating the directions a second time, more slowly, so that everyone in the room has heard them",
     "Asking the most proficient student to summarize the directions aloud for the class"
    ],
