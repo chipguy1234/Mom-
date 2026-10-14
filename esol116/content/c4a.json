@@ -1372,6 +1372,470 @@
     null
    ],
    "key": "Spanish spelling is shallow (consistent); English is deep. Teach English vowel teams, silent letters, and irregular high-frequency words explicitly."
+  },
+  {
+   "id": "4.4-01",
+   "skill": "4.4",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 1,
+   "stimulus": "Passage excerpt (grade 5 Integrated ENL/ELA)\n'The villagers were reluctant to leave their homes, even as the eruption grew more intense. Scientists measured the magma rising beneath the crater and urged everyone to evacuate. But Ana's grandmother insisted that the mountain had always protected them.'",
+   "stem": "The teacher wants to choose three words from this passage for robust, explicit vocabulary instruction. Which set of words is the best choice?",
+   "options": [
+    "reluctant, urged, insisted",
+    "magma, crater, eruption",
+    "homes, mountain, grandmother",
+    "villagers, scientists, protected"
+   ],
+   "answer": 0,
+   "why": "Beck, McKeown, and Kucan recommend focusing robust instruction on Tier 2 words: high-utility words that mature language users meet across many contexts and that matter for understanding the text. 'Reluctant,' 'urged,' and 'insisted' appear across subjects and genres and carry the passage's tension. Tier 3 words such as 'magma' and 'crater' are best taught briefly in context or with a visual. Tier 1 words need little instruction for most students, though an Entering student may need a quick picture.",
+   "traps": [
+    null,
+    {
+     "code": "TERM",
+     "pair": "Tier 2 ↔ Tier 3",
+     "note": "These are Tier 3, domain-specific words. A quick visual or brief explanation in context is enough, and they have low utility outside earth science."
+    },
+    {
+     "code": "TERM",
+     "pair": "Tier 2 ↔ Tier 1",
+     "note": "These are Tier 1 everyday words that most students know, or that can be shown with a picture. They don't merit robust instruction."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "'Protected' is a reasonable Tier 2 choice, but 'villagers' and 'scientists' are concrete and easily explained, so the set is weaker."
+    }
+   ],
+   "key": "Target Tier 2 words (high-utility, cross-content, important to the text) for robust instruction; handle Tier 1 and Tier 3 briefly."
+  },
+  {
+   "id": "4.4-02",
+   "skill": "4.4",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 2,
+   "stimulus": "Journal entry, grade 7 (Lucía, home language Spanish, Transitioning)\n'My aunt is embarrassed, so in May we will have a new baby in the family. I am very excited!'",
+   "stem": "How should the teacher best respond to the word choice in Lucía's journal?",
+   "options": [
+    "Advise Lucía to stop relying on Spanish to figure out the meanings of English words, since this habit leads to errors like this one.",
+    "Circle the word, write 'wrong word' in the margin, and move on to the next journal so that Lucía is not singled out in front of others.",
+    "Explain that 'embarazada' and 'embarrassed' are false cognates, add the pair to a class cognate chart, and teach students to check cognates in context.",
+    "Give the class a list of 100 Spanish–English false cognates to memorize for a quiz at the end of the week, so that the error is not repeated."
+   ],
+   "answer": 2,
+   "why": "'Embarazada' means 'pregnant,' while 'embarrassed' is 'avergonzado/a.' The pair is a classic false cognate (falso amigo). Lucía is using a powerful strategy, looking for cognates, that works most of the time; she just needs to learn that some look-alikes differ in meaning. Teaching the pair explicitly, keeping a class chart of cognates and false cognates, and teaching students to confirm cognates in context strengthens the strategy rather than discouraging home-language use.",
+   "traps": [
+    {
+     "code": "DEFICIT",
+     "note": "Cognate knowledge is one of a Spanish speaker's greatest vocabulary assets. Discouraging it because of occasional false cognates throws away a powerful strategy."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Marking the error privately avoids embarrassment, but 'wrong word' doesn't explain the false cognate or teach a strategy for next time."
+    },
+    null,
+    {
+     "code": "ISOLATED",
+     "note": "Memorizing a long decontextualized list is inefficient and quickly forgotten. Students need to learn to verify cognates in context."
+    }
+   ],
+   "key": "Treat false cognates (embarazada ≠ embarrassed) as teachable moments; strengthen cognate use by teaching students to verify meaning in context."
+  },
+  {
+   "id": "4.4-03",
+   "skill": "4.4",
+   "type": "knowledge",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "According to Beck, McKeown, and Kucan's framework, which group consists entirely of Tier 3 words?",
+   "options": [
+    "analyze, consequence, fortunate",
+    "chlorophyll, sonnet, latitude",
+    "happy, table, walk",
+    "however, although, therefore"
+   ],
+   "answer": 1,
+   "why": "Tier 3 words are low-frequency, domain-specific words tied to a particular subject, such as 'chlorophyll' (science), 'sonnet' (literature), and 'latitude' (geography), and are usually taught when the content calls for them. 'Analyze,' 'consequence,' and 'fortunate' are Tier 2 general academic words. Connectives like 'however' and 'therefore' are also treated as high-utility Tier 2 words for ELLs. 'Happy' and 'walk' are Tier 1 everyday words.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "Tier 3 ↔ Tier 2",
+     "note": "These are Tier 2 words: high-utility academic vocabulary used across many subjects, not tied to one domain."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "Tier 3 ↔ Tier 1",
+     "note": "These are Tier 1 basic, everyday words that most students learn through conversation."
+    },
+    {
+     "code": "TERM",
+     "pair": "domain-specific ↔ general academic connectives",
+     "note": "Transition words appear in every subject. They are high-utility Tier 2 words, not domain-specific Tier 3 terms."
+    }
+   ],
+   "key": "Tier 1 = everyday; Tier 2 = high-utility general academic; Tier 3 = low-frequency, domain-specific."
+  },
+  {
+   "id": "4.4-04",
+   "skill": "4.4",
+   "type": "application",
+   "difficulty": 3,
+   "diag": 0,
+   "stimulus": "Words from a grade 4 read-aloud, with Spanish equivalents\nEnglish | Spanish\ninformation | información\ncelebration | celebración\nfamous | famoso\ncurious | curioso\nrapidly | rápidamente",
+   "stem": "The class includes many students whose home language is Spanish. Which teaching point would best help these students use cognates to figure out new English words on their own?",
+   "options": [
+    "Spanish and English share many Latin roots, so students can safely assume that any English word that looks like a Spanish word has the same meaning.",
+    "Students should look up each new English word in a bilingual dictionary and write the Spanish translation before they begin reading.",
+    "Cognates are learned naturally, so students will recognize them on their own, without instruction, as their English proficiency grows.",
+    "Many English suffixes correspond to Spanish ones (-tion/-ción, -ous/-oso, -ly/-mente), so recognizing the pattern can unlock new words."
+   ],
+   "answer": 3,
+   "why": "Explicitly teaching systematic cognate patterns turns a word list into a transferable strategy. Many English–Spanish cognates follow predictable suffix correspondences: -tion/-ción (information/información), -ous/-oso (famous/famoso), -ly/-mente (rapidly/rápidamente), and -ity/-idad (curiosity/curiosidad). ELLs don't automatically notice cognates, so teachers should point them out, teach the patterns, and remind students to verify meanings, since false cognates exist.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "cognate ↔ false cognate",
+     "note": "Most look-alikes are true cognates, but 'any word' ignores false cognates such as 'embarazada' and 'éxito.' Students must verify meaning in context."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Bilingual dictionaries are a legitimate support, but translating every word first builds no strategy students can use independently while reading."
+    },
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "Transfer is not automatic. Research shows ELLs often miss cognates unless they are taught to look for them."
+    },
+    null
+   ],
+   "key": "Teach cognate patterns explicitly (-tion/-ción, -ous/-oso, -ly/-mente) and teach students to verify meaning; cognate awareness isn't automatic."
+  },
+  {
+   "id": "4.4-05",
+   "skill": "4.4",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "Grade 6 Expanding students keep stopping at long words such as 'unpredictable,' 'disagreement,' and 'transportation' while reading a novel. Which strategy will best help them become independent with words like these?",
+   "options": [
+    "Have students look up every unfamiliar long word in a dictionary and copy its definition into a log before they continue reading.",
+    "Give students a list of 50 Latin and Greek roots and their meanings to memorize over the next two weeks for a cumulative test.",
+    "Tell students to skip long words while reading, since most of a passage's meaning comes from the shorter words around them.",
+    "Model breaking words into prefix, root, and suffix (un-predict-able), inferring the meaning, and checking it against context."
+   ],
+   "answer": 3,
+   "why": "Morphological analysis is a high-yield strategy for ELLs because many academic words are built from a small set of prefixes, roots, and suffixes. Modeling the process with a think-aloud (un- = not, predict = say beforehand, -able = can be) and then checking the inferred meaning in context gives students a tool they can use independently. Memorizing long root lists out of context and copying definitions rarely transfers to reading.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "Dictionaries have a place, but looking up every long word interrupts comprehension and builds no independent word-analysis skill."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Memorizing a long root list out of context rarely transfers. Students need guided practice analyzing words as they read."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Skipping long words gives up on academic vocabulary, and those long words often carry the key meaning."
+    },
+    null
+   ],
+   "key": "Teach morphological analysis (prefix-root-suffix) with think-alouds, then confirm meaning in context: a transferable, independent strategy."
+  },
+  {
+   "id": "4.4-06",
+   "skill": "4.4",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Sentences from this week's texts\n1. Ana cut the bread with a sharp knife.\n2. There was a sharp rise in temperature overnight.\n3. The author draws a sharp contrast between the two brothers.",
+   "stem": "An ENL teacher notices that her Transitioning students understand 'sharp' in sentence 1 but are confused by sentences 2 and 3. Which instructional approach is most effective?",
+   "options": [
+    "Make a chart of each meaning with a sentence from the text and a visual, then have students sort new sentences by meaning and write their own.",
+    "Tell students to look up 'sharp' in the dictionary and use the first definition listed, since that is the word's most common meaning.",
+    "Teach only the academic meanings of 'sharp' from sentences 2 and 3, since students already understand the everyday meaning of the word.",
+    "Avoid texts that use words like 'sharp' figuratively until students reach the Commanding level, since such uses are a source of confusion."
+   ],
+   "answer": 0,
+   "why": "Multiple-meaning (polysemous) words are a common stumbling block: students know one meaning and apply it everywhere. Explicitly contrasting the meanings in context, literal ('sharp knife'), sudden ('sharp rise'), and clear or strong ('sharp contrast'), and having students sort and use them builds flexible, deep word knowledge. The familiar meaning becomes a bridge to the new ones.",
+   "traps": [
+    null,
+    {
+     "code": "LITERAL",
+     "note": "The first dictionary entry is often not the meaning in the text; it is the meaning students already know, which caused the confusion."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Students need the academic meanings, but contrasting them with the known everyday meaning is what makes the new meanings clear and memorable."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Avoiding these texts denies access to grade-level language. Multiple-meaning words should be taught, not avoided."
+    }
+   ],
+   "key": "Teach multiple-meaning words by contrasting everyday and academic senses in context; use the known meaning as a bridge."
+  },
+  {
+   "id": "4.4-07",
+   "skill": "4.4",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "A grade 7 class is reading a novel with many idioms, such as 'break the ice' and 'spill the beans.' Which approach best supports the ELLs in the class?",
+   "options": [
+    "Give students a list of 50 common idioms and their meanings to memorize for a weekly quiz throughout the unit.",
+    "Skip over the idioms during discussion, since figurative language is too difficult for ELLs to understand yet.",
+    "Discuss each idiom in context, sketch its literal versus figurative meaning, and invite similar home-language expressions.",
+    "Have students translate each idiom word for word into their home language to work out what the idiom means."
+   ],
+   "answer": 2,
+   "why": "Idioms are figurative: their meaning can't be worked out from the individual words, so ELLs need them taught in context. Contrasting literal and figurative meanings (a quick sketch of someone literally breaking ice is memorable) and connecting to home-language equivalents make idioms stick. Spanish 'costar un ojo de la cara' ('to cost an eye of the face') parallels 'cost an arm and a leg.' Using the idioms in role-plays or discussion moves them into productive use.",
+   "traps": [
+    {
+     "code": "ISOLATED",
+     "note": "Memorizing a long list of idioms out of context is quickly forgotten and doesn't help students interpret idioms in the novel."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Skipping figurative language denies access to grade-level text. Idioms should be taught, not avoided."
+    },
+    null,
+    {
+     "code": "PARTIAL",
+     "note": "Connecting to the home language is valuable, but word-for-word translation fails because an idiom's meaning isn't the sum of its words."
+    }
+   ],
+   "key": "Teach idioms in context: contrast literal vs. figurative meaning, connect to home-language equivalents, and use them in talk."
+  },
+  {
+   "id": "4.4-08",
+   "skill": "4.4",
+   "type": "analysis",
+   "difficulty": 2,
+   "diag": 0,
+   "stimulus": "Writing sample, grade 8 (Diego, home language Spanish, Expanding)\n'Yesterday I made my homework early. Then there was a strong rain, so I stayed home and did a mistake on my science project.'",
+   "stem": "Which of the following best describes the errors in Diego's writing?",
+   "options": [
+    "Verb tense errors, since he shifts between the past and present tense from one sentence to the next",
+    "Collocation errors, in which he combines words that English speakers do not conventionally use together",
+    "False cognate errors, in which he uses English words that resemble Spanish words but have different meanings",
+    "Word-order errors, since he places adjectives and verbs in the positions that Spanish syntax requires"
+   ],
+   "answer": 1,
+   "why": "Collocations are word combinations that proficient speakers habitually use together: we 'do homework,' 'make a mistake,' and get 'heavy rain.' Diego's grammar and tenses are correct; his word choices are logical but unconventional, and some reflect Spanish, where 'hacer' covers both 'make' and 'do' and rain is described as 'fuerte' (strong). Because collocations are largely conventional rather than rule-governed, they must be noticed and practiced as chunks.",
+   "traps": [
+    {
+     "code": "LITERAL",
+     "note": "Every verb is correctly in the past tense. This option misreads the sample instead of examining the word combinations."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "collocation ↔ false cognate",
+     "note": "'Make,' 'do,' and 'strong' are not Spanish look-alikes. The problem is which words go together, not a misleading cognate."
+    },
+    {
+     "code": "TERM",
+     "pair": "collocation ↔ word order",
+     "note": "Diego's word order is standard English ('a strong rain,' 'made my homework'). The issue is word partnership, not syntax."
+    }
+   ],
+   "key": "Collocations are conventional word partnerships (do homework, make a mistake, heavy rain); errors in them are lexical, not grammatical."
+  },
+  {
+   "id": "4.4-09",
+   "skill": "4.4",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "Several Expanding students in a grade 8 class write phrases such as 'made my homework,' 'did a mistake,' and 'strong rain.' Which approach will best build their control of English collocations?",
+   "options": [
+    "Teach the rule that 'make' is for creating things and 'do' is for tasks, and have students apply it on a worksheet of fill-in-the-blank sentences.",
+    "Have students collect 'word partners' from their reading in a collocation chart (do homework, heavy rain) and use them in speaking and writing.",
+    "Mark every collocation error in red on each assignment, so that students can see how often they make them and correct each one.",
+    "Provide dictionary definitions of 'make,' 'do,' 'strong,' and 'heavy,' since knowing exactly what each word means will prevent these errors."
+   ],
+   "answer": 1,
+   "why": "Collocations are learned best as chunks that students notice in real texts and then use. Having students collect word partners from their reading, record them, and use them in meaningful speaking and writing builds a sense of which words go together. A make/do rule captures some tendencies but has many exceptions ('make the bed,' 'do someone a favor'), so it can't replace exposure and use. Red-penning every error and studying single-word definitions don't teach which words go together.",
+   "traps": [
+    {
+     "code": "PARTIAL",
+     "note": "The make/do tendency is useful, but collocations are largely conventional and full of exceptions. A rule plus a worksheet doesn't build the needed exposure and use."
+    },
+    null,
+    {
+     "code": "OVERCORRECT",
+     "note": "Marking every error emphasizes failure without teaching the chunks. It can discourage the risk-taking that develops vocabulary."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Single-word definitions can't predict which words combine. 'Strong' and 'heavy' can mean similar things, yet only 'heavy rain' is conventional."
+    }
+   ],
+   "key": "Teach collocations as chunks: notice and collect word partners in real texts, then use them in meaningful output."
+  },
+  {
+   "id": "4.4-10",
+   "skill": "4.4",
+   "type": "scenario",
+   "difficulty": 2,
+   "diag": 0,
+   "stem": "A grade 4 teacher has her ELLs look up each week's vocabulary words in the dictionary, copy the definitions, and write a sentence for each. Their quiz scores are high, but they rarely use the words in discussion or writing. Which change would best deepen their word knowledge?",
+   "options": [
+    "Introduce each word in context with a student-friendly definition, examples and non-examples, and many chances to use it over several days.",
+    "Give the vocabulary quizzes more often, since the high scores show that the students are already learning the words well this way.",
+    "Have the students write each word and its definition five times so that the words and their meanings stay in long-term memory.",
+    "Replace explicit vocabulary instruction with more independent reading, since students learn most new words incidentally while reading."
+   ],
+   "answer": 0,
+   "why": "Copying dictionary definitions produces shallow, short-term knowledge: definitions are often hard to understand, and students rarely use the words. Robust vocabulary instruction (Beck, McKeown & Kucan) introduces words in context with student-friendly explanations, examples and non-examples, and many varied, interactive encounters across days. That moves words into students' productive vocabulary, which is the gap the teacher is seeing.",
+   "traps": [
+    null,
+    {
+     "code": "LITERAL",
+     "note": "High quiz scores reflect short-term recall. The key evidence is that students don't use the words, which signals shallow knowledge."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Rote copying is decontextualized and passive; it doesn't build the understanding needed to use words in discussion or writing."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Wide reading builds vocabulary over time, but ELLs especially need explicit, interactive instruction for high-utility words."
+    }
+   ],
+   "key": "Robust vocabulary instruction: student-friendly definitions, examples and non-examples, and repeated interactive use across days."
+  },
+  {
+   "id": "4.4-11",
+   "skill": "4.4",
+   "type": "scenario",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "A grade 3 teacher is preparing an interactive read-aloud of a grade-level informational text for a class that includes Emerging and Transitioning ELLs. The text contains about 25 words she expects many ELLs will not know. Which plan is best?",
+   "options": [
+    "Pre-teach all 25 words before the read-aloud begins so that the ELLs will not encounter any unfamiliar vocabulary while she reads.",
+    "Avoid pre-teaching entirely and have students infer every unfamiliar word from context, since this builds independent word learning.",
+    "Replace the text with an easier book on the same topic that contains fewer unfamiliar words, so that the ELLs can follow along.",
+    "Pre-teach a few words key to the main ideas, explain others briefly during reading, and save useful Tier 2 words for deeper study."
+   ],
+   "answer": 3,
+   "why": "Pre-teaching 25 words overloads students and delays the reading, and relying only on context fails when the context itself is full of unknown words. An effective plan is selective. Pre-teach the few words students need for the main ideas, give quick in-context explanations (a gesture, picture, or synonym) for others during reading, and return to high-utility Tier 2 words for robust instruction afterward.",
+   "traps": [
+    {
+     "code": "ISOLATED",
+     "note": "Pre-teaching 25 words is a front-loaded list that overloads memory. Most words won't stick without meaningful encounters in the text."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Context clues are worth teaching, but Emerging and Transitioning students can't infer meanings when much of the surrounding text is also unfamiliar."
+    },
+    {
+     "code": "LOWER_RIGOR",
+     "note": "An easier text lowers expectations. Strategic vocabulary support gives access to the grade-level text instead."
+    },
+    null
+   ],
+   "key": "Be selective: pre-teach the few words essential to the main ideas, gloss others in context, and teach Tier 2 words deeply afterward."
+  },
+  {
+   "id": "4.4-12",
+   "skill": "4.4",
+   "type": "knowledge",
+   "difficulty": 3,
+   "diag": 0,
+   "stem": "Which statement most accurately describes how the vocabulary tier framework should be applied when planning instruction for ELLs?",
+   "options": [
+    "ELLs should be taught only Tier 1 words until they reach the Transitioning level, after which Tier 2 words can gradually be introduced.",
+    "Tier 3 words should be the main focus of vocabulary instruction for ELLs, since content-specific terms are the hardest words in any text.",
+    "Tier labels can shift for ELLs: some Tier 1 words may need explicit teaching, and some Tier 2 words may be easy through cognates.",
+    "The tier framework was designed for native English speakers, so ELLs' vocabulary words should be chosen from frequency lists instead."
+   ],
+   "answer": 2,
+   "why": "The tiers were designed with native English speakers in mind, so teachers adjust them for ELLs. An everyday Tier 1 word or phrase ('fair,' 'get over it') may be unknown to a newcomer and need explicit teaching. A Tier 2 word like 'fortunate' or 'curious' may be easy for Spanish speakers through everyday cognates ('afortunado,' 'curioso'). Researchers such as Calderón have adapted the tiers for ELLs, but the priority on high-utility Tier 2 words remains; ELLs shouldn't be limited to basic words.",
+   "traps": [
+    {
+     "code": "LOWER_RIGOR",
+     "note": "Restricting ELLs to Tier 1 words denies them the academic vocabulary they need for grade-level work. Tier 2 instruction should start right away."
+    },
+    {
+     "code": "PARTIAL",
+     "note": "Tier 3 words are needed for content, but they are low-utility and often easy to illustrate. High-utility Tier 2 words give the broadest payoff."
+    },
+    null,
+    {
+     "code": "MISAPPLIED_THEORY",
+     "note": "The framework works for ELLs with adjustments. Discarding it loses its useful focus on high-utility academic words."
+    }
+   ],
+   "key": "Apply tiers flexibly with ELLs: some Tier 1 words need teaching, cognates can make Tier 2 words accessible, and Tier 2 remains the priority."
+  },
+  {
+   "id": "4.4-13",
+   "skill": "4.4",
+   "type": "scenario",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "Dilnoza, a grade 2 newcomer whose home language is Uzbek, is at the Entering level. Her class is reading a story about a family preparing for a harvest festival. Which vocabulary support is most appropriate for her?",
+   "options": [
+    "Give her a list of the story's key words with their English dictionary definitions to study at home with her family each night.",
+    "Have her copy each new vocabulary word five times in her notebook while the rest of the class reads and discusses the story.",
+    "Teach key words with pictures, objects, and gestures, label a story scene, and use a picture dictionary or home-language support.",
+    "Have her learn the story's vocabulary later during Stand-alone ENL, where she can focus on English words without the story."
+   ],
+   "answer": 2,
+   "why": "Entering students learn new words best through concrete, multimodal input: visuals, real objects, gestures, and labeled pictures tied to the story the class is reading. Bilingual or picture dictionaries let Dilnoza attach English labels to concepts she already knows in Uzbek. English-only dictionary definitions are beyond her current level, and copying words without meaning doesn't build understanding.",
+   "traps": [
+    {
+     "code": "WRONG_LEVEL",
+     "note": "English dictionary definitions use language far beyond the Entering level, so they won't make the words comprehensible to her."
+    },
+    {
+     "code": "ISOLATED",
+     "note": "Copying words without meaning or context builds no understanding and removes her from the shared story."
+    },
+    null,
+    {
+     "code": "EXCLUSION",
+     "note": "Postponing the vocabulary separates her from the class text. Vocabulary should be taught within the grade-level lesson."
+    }
+   ],
+   "key": "For Entering students, teach vocabulary through visuals, realia, gestures, labeling, and home-language or picture dictionaries."
+  },
+  {
+   "id": "4.4-14",
+   "skill": "4.4",
+   "type": "application",
+   "difficulty": 1,
+   "diag": 0,
+   "stem": "An ENL teacher models a word-learning strategy with this sentence: 'Unlike his gregarious sister, Malik was shy and preferred to spend time alone.' Which type of context clue does the sentence provide for 'gregarious'?",
+   "options": [
+    "A definition clue, because the sentence directly states what the word 'gregarious' means",
+    "A contrast clue, because 'unlike' signals that 'gregarious' is the opposite of shy",
+    "A synonym clue, because the word 'shy' means the same thing as 'gregarious'",
+    "A morphology clue, because the word's prefix and suffix reveal its meaning"
+   ],
+   "answer": 1,
+   "why": "Signal words such as 'unlike,' 'but,' 'however,' and 'instead of' alert readers to a contrast (antonym) clue: the unknown word means roughly the opposite of nearby known words. Because Malik is 'shy' and prefers 'to spend time alone,' his sister must be sociable, which is what 'gregarious' means. Teaching ELLs to notice these signal words gives them a strategy they can transfer to any text.",
+   "traps": [
+    {
+     "code": "TERM",
+     "pair": "contrast clue ↔ definition clue",
+     "note": "A definition clue states the meaning directly (e.g., '…, which means…'). Here the meaning must be inferred from an opposite."
+    },
+    null,
+    {
+     "code": "TERM",
+     "pair": "contrast clue ↔ synonym clue",
+     "note": "'Shy' is the opposite of 'gregarious.' Reading it as a synonym reverses the meaning."
+    },
+    {
+     "code": "TERM",
+     "pair": "context clue ↔ morphological analysis",
+     "note": "'Gregarious' has no common prefix or suffix that reveals its meaning. The clue comes from the surrounding sentence."
+    }
+   ],
+   "key": "Signal words like 'unlike,' 'but,' and 'however' mark contrast clues: the unknown word means the opposite of nearby words."
   }
  ],
  "lessons": []

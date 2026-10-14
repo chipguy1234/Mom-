@@ -940,16 +940,225 @@ Q("4.4-07", "scenario", 1,
   key="Teach idioms in context: contrast literal vs. figurative meaning, connect to home-language equivalents, and use them in talk."),
 ]
 QUESTIONS += [
-#@44b
+Q("4.4-08", "analysis", 2,
+  stim="Writing sample, grade 8 (Diego, home language Spanish, Expanding)\n'Yesterday I made my homework early. Then there was a strong rain, so I stayed home and did a mistake on my science project.'",
+  stem="Which of the following best describes the errors in Diego's writing?",
+  opts=[
+    "Verb tense errors, since he shifts between the past and present tense from one sentence to the next",
+    "Collocation errors, in which he combines words that English speakers do not conventionally use together",
+    "False cognate errors, in which he uses English words that resemble Spanish words but have different meanings",
+    "Word-order errors, since he places adjectives and verbs in the positions that Spanish syntax requires",
+  ],
+  ans=1,
+  why="Collocations are word combinations that proficient speakers habitually use together: we 'do homework,' 'make a mistake,' and get 'heavy rain.' Diego's grammar and tenses are correct; his word choices are logical but unconventional, and some reflect Spanish, where 'hacer' covers both 'make' and 'do' and rain is described as 'fuerte' (strong). Because collocations are largely conventional rather than rule-governed, they must be noticed and practiced as chunks.",
+  traps=[
+    ("LITERAL", "Every verb is correctly in the past tense. This option misreads the sample instead of examining the word combinations."),
+    None,
+    ("TERM", "collocation ↔ false cognate", "'Make,' 'do,' and 'strong' are not Spanish look-alikes. The problem is which words go together, not a misleading cognate."),
+    ("TERM", "collocation ↔ word order", "Diego's word order is standard English ('a strong rain,' 'made my homework'). The issue is word partnership, not syntax."),
+  ],
+  key="Collocations are conventional word partnerships (do homework, make a mistake, heavy rain); errors in them are lexical, not grammatical."),
+
+Q("4.4-09", "scenario", 3,
+  stem="Several Expanding students in a grade 8 class write phrases such as 'made my homework,' 'did a mistake,' and 'strong rain.' Which approach will best build their control of English collocations?",
+  opts=[
+    "Teach the rule that 'make' is for creating things and 'do' is for tasks, and have students apply it on a worksheet of fill-in-the-blank sentences.",
+    "Have students collect 'word partners' from their reading in a collocation chart (do homework, heavy rain) and use them in speaking and writing.",
+    "Mark every collocation error in red on each assignment, so that students can see how often they make them and correct each one.",
+    "Provide dictionary definitions of 'make,' 'do,' 'strong,' and 'heavy,' since knowing exactly what each word means will prevent these errors.",
+  ],
+  ans=1,
+  why="Collocations are learned best as chunks that students notice in real texts and then use. Having students collect word partners from their reading, record them, and use them in meaningful speaking and writing builds a sense of which words go together. A make/do rule captures some tendencies but has many exceptions ('make the bed,' 'do someone a favor'), so it can't replace exposure and use. Red-penning every error and studying single-word definitions don't teach which words go together.",
+  traps=[
+    ("PARTIAL", "The make/do tendency is useful, but collocations are largely conventional and full of exceptions. A rule plus a worksheet doesn't build the needed exposure and use."),
+    None,
+    ("OVERCORRECT", "Marking every error emphasizes failure without teaching the chunks. It can discourage the risk-taking that develops vocabulary."),
+    ("ISOLATED", "Single-word definitions can't predict which words combine. 'Strong' and 'heavy' can mean similar things, yet only 'heavy rain' is conventional."),
+  ],
+  key="Teach collocations as chunks: notice and collect word partners in real texts, then use them in meaningful output."),
+
+Q("4.4-10", "scenario", 2,
+  stem="A grade 4 teacher has her ELLs look up each week's vocabulary words in the dictionary, copy the definitions, and write a sentence for each. Their quiz scores are high, but they rarely use the words in discussion or writing. Which change would best deepen their word knowledge?",
+  opts=[
+    "Introduce each word in context with a student-friendly definition, examples and non-examples, and many chances to use it over several days.",
+    "Give the vocabulary quizzes more often, since the high scores show that the students are already learning the words well this way.",
+    "Have the students write each word and its definition five times so that the words and their meanings stay in long-term memory.",
+    "Replace explicit vocabulary instruction with more independent reading, since students learn most new words incidentally while reading.",
+  ],
+  ans=0,
+  why="Copying dictionary definitions produces shallow, short-term knowledge: definitions are often hard to understand, and students rarely use the words. Robust vocabulary instruction (Beck, McKeown & Kucan) introduces words in context with student-friendly explanations, examples and non-examples, and many varied, interactive encounters across days. That moves words into students' productive vocabulary, which is the gap the teacher is seeing.",
+  traps=[
+    None,
+    ("LITERAL", "High quiz scores reflect short-term recall. The key evidence is that students don't use the words, which signals shallow knowledge."),
+    ("ISOLATED", "Rote copying is decontextualized and passive; it doesn't build the understanding needed to use words in discussion or writing."),
+    ("PARTIAL", "Wide reading builds vocabulary over time, but ELLs especially need explicit, interactive instruction for high-utility words."),
+  ],
+  key="Robust vocabulary instruction: student-friendly definitions, examples and non-examples, and repeated interactive use across days."),
+
+Q("4.4-11", "scenario", 3,
+  stem="A grade 3 teacher is preparing an interactive read-aloud of a grade-level informational text for a class that includes Emerging and Transitioning ELLs. The text contains about 25 words she expects many ELLs will not know. Which plan is best?",
+  opts=[
+    "Pre-teach all 25 words before the read-aloud begins so that the ELLs will not encounter any unfamiliar vocabulary while she reads.",
+    "Avoid pre-teaching entirely and have students infer every unfamiliar word from context, since this builds independent word learning.",
+    "Replace the text with an easier book on the same topic that contains fewer unfamiliar words, so that the ELLs can follow along.",
+    "Pre-teach a few words key to the main ideas, explain others briefly during reading, and save useful Tier 2 words for deeper study.",
+  ],
+  ans=3,
+  why="Pre-teaching 25 words overloads students and delays the reading, and relying only on context fails when the context itself is full of unknown words. An effective plan is selective. Pre-teach the few words students need for the main ideas, give quick in-context explanations (a gesture, picture, or synonym) for others during reading, and return to high-utility Tier 2 words for robust instruction afterward.",
+  traps=[
+    ("ISOLATED", "Pre-teaching 25 words is a front-loaded list that overloads memory. Most words won't stick without meaningful encounters in the text."),
+    ("PARTIAL", "Context clues are worth teaching, but Emerging and Transitioning students can't infer meanings when much of the surrounding text is also unfamiliar."),
+    ("LOWER_RIGOR", "An easier text lowers expectations. Strategic vocabulary support gives access to the grade-level text instead."),
+    None,
+  ],
+  key="Be selective: pre-teach the few words essential to the main ideas, gloss others in context, and teach Tier 2 words deeply afterward."),
+
+Q("4.4-12", "knowledge", 3,
+  stem="Which statement most accurately describes how the vocabulary tier framework should be applied when planning instruction for ELLs?",
+  opts=[
+    "ELLs should be taught only Tier 1 words until they reach the Transitioning level, after which Tier 2 words can gradually be introduced.",
+    "Tier 3 words should be the main focus of vocabulary instruction for ELLs, since content-specific terms are the hardest words in any text.",
+    "Tier labels can shift for ELLs: some Tier 1 words may need explicit teaching, and some Tier 2 words may be easy through cognates.",
+    "The tier framework was designed for native English speakers, so ELLs' vocabulary words should be chosen from frequency lists instead.",
+  ],
+  ans=2,
+  why="The tiers were designed with native English speakers in mind, so teachers adjust them for ELLs. An everyday Tier 1 word or phrase ('fair,' 'get over it') may be unknown to a newcomer and need explicit teaching. A Tier 2 word like 'fortunate' or 'curious' may be easy for Spanish speakers through everyday cognates ('afortunado,' 'curioso'). Researchers such as Calderón have adapted the tiers for ELLs, but the priority on high-utility Tier 2 words remains; ELLs shouldn't be limited to basic words.",
+  traps=[
+    ("LOWER_RIGOR", "Restricting ELLs to Tier 1 words denies them the academic vocabulary they need for grade-level work. Tier 2 instruction should start right away."),
+    ("PARTIAL", "Tier 3 words are needed for content, but they are low-utility and often easy to illustrate. High-utility Tier 2 words give the broadest payoff."),
+    None,
+    ("MISAPPLIED_THEORY", "The framework works for ELLs with adjustments. Discarding it loses its useful focus on high-utility academic words."),
+  ],
+  key="Apply tiers flexibly with ELLs: some Tier 1 words need teaching, cognates can make Tier 2 words accessible, and Tier 2 remains the priority."),
+
+Q("4.4-13", "scenario", 1,
+  stem="Dilnoza, a grade 2 newcomer whose home language is Uzbek, is at the Entering level. Her class is reading a story about a family preparing for a harvest festival. Which vocabulary support is most appropriate for her?",
+  opts=[
+    "Give her a list of the story's key words with their English dictionary definitions to study at home with her family each night.",
+    "Have her copy each new vocabulary word five times in her notebook while the rest of the class reads and discusses the story.",
+    "Teach key words with pictures, objects, and gestures, label a story scene, and use a picture dictionary or home-language support.",
+    "Have her learn the story's vocabulary later during Stand-alone ENL, where she can focus on English words without the story.",
+  ],
+  ans=2,
+  why="Entering students learn new words best through concrete, multimodal input: visuals, real objects, gestures, and labeled pictures tied to the story the class is reading. Bilingual or picture dictionaries let Dilnoza attach English labels to concepts she already knows in Uzbek. English-only dictionary definitions are beyond her current level, and copying words without meaning doesn't build understanding.",
+  traps=[
+    ("WRONG_LEVEL", "English dictionary definitions use language far beyond the Entering level, so they won't make the words comprehensible to her."),
+    ("ISOLATED", "Copying words without meaning or context builds no understanding and removes her from the shared story."),
+    None,
+    ("EXCLUSION", "Postponing the vocabulary separates her from the class text. Vocabulary should be taught within the grade-level lesson."),
+  ],
+  key="For Entering students, teach vocabulary through visuals, realia, gestures, labeling, and home-language or picture dictionaries."),
+
+Q("4.4-14", "application", 1,
+  stem="An ENL teacher models a word-learning strategy with this sentence: 'Unlike his gregarious sister, Malik was shy and preferred to spend time alone.' Which type of context clue does the sentence provide for 'gregarious'?",
+  opts=[
+    "A definition clue, because the sentence directly states what the word 'gregarious' means",
+    "A contrast clue, because 'unlike' signals that 'gregarious' is the opposite of shy",
+    "A synonym clue, because the word 'shy' means the same thing as 'gregarious'",
+    "A morphology clue, because the word's prefix and suffix reveal its meaning",
+  ],
+  ans=1,
+  why="Signal words such as 'unlike,' 'but,' 'however,' and 'instead of' alert readers to a contrast (antonym) clue: the unknown word means roughly the opposite of nearby known words. Because Malik is 'shy' and prefers 'to spend time alone,' his sister must be sociable, which is what 'gregarious' means. Teaching ELLs to notice these signal words gives them a strategy they can transfer to any text.",
+  traps=[
+    ("TERM", "contrast clue ↔ definition clue", "A definition clue states the meaning directly (e.g., '…, which means…'). Here the meaning must be inferred from an opposite."),
+    None,
+    ("TERM", "contrast clue ↔ synonym clue", "'Shy' is the opposite of 'gregarious.' Reading it as a synonym reverses the meaning."),
+    ("TERM", "context clue ↔ morphological analysis", "'Gregarious' has no common prefix or suffix that reveals its meaning. The clue comes from the surrounding sentence."),
+  ],
+  key="Signal words like 'unlike,' 'but,' and 'however' mark contrast clues: the unknown word means the opposite of nearby words."),
 ]
 
 # ---------------------------------------------------------------- lessons
 LESSONS = []
 LESSONS += [
-#@L41
+{
+  "skill": "4.1",
+  "title": "Next Gen ELA Standards & the New Language Arts Progressions",
+  "why": "Expect scenario items that name a grade-level standard and a proficiency level and ask which task, target, or scaffold fits. The right answer keeps the standard and adjusts the supports.",
+  "body": [
+    {"h": "The big idea: same standard, different scaffolds",
+     "md": "New York's Next Generation ELA Learning Standards apply to **every** student, including ELLs at every proficiency level. The Blueprint for ELL/MLL Success says it plainly: instruction is **rigorous and grade-level**, and every teacher is a teacher of ELLs.\n\nThe **New Language Arts Progressions (NLAP)** show how that works in practice. For each grade-level standard, they describe what an ELL can do at each of the five levels: **Entering, Emerging, Transitioning, Expanding, Commanding**.\n\nThe standard stays fixed and the scaffolding changes. Support is substantial at Entering and decreases until the student works independently at Commanding.\n\nThat single idea answers most 4.1 questions. If an option swaps in an easier text, a lower-grade standard, or an unrelated task (copying vocabulary, phonics worksheets, 'wait until Transitioning'), it is almost certainly wrong."},
+    {"h": "How an NLAP page is organized",
+     "md": "Each progression is built around one grade-level standard and includes:\n\n- **The standard** and its main academic demand, meaning the thinking every student must do (e.g., determine a theme).\n- **Linguistic demands**: the language functions, forms, and vocabulary the task requires. For comparing points of view, that means contrast connectors (*both, whereas, unlike*) and first- versus third-person pronouns.\n- **Receptive** progressions (listening and reading) and **productive** progressions (speaking and writing), each across all five levels.\n- Performance indicators at each level that name the supports, with the home language as a resource.\n\nWatch the receptive/productive distinction. A *reading* standard still has a productive progression, because students show comprehension by talking or writing about the text. Reading aloud is not 'productive'; it is still reading."},
+    {"h": "What support looks like at each level",
+     "md": "Exact NLAP wording varies by standard. Learn the **pattern**, not the phrases:\n\n- **Entering:** pre-taught words and short phrases, visuals, word banks, labeling, pointing and sorting on a graphic organizer, a home-language partner or text. Substantial support.\n- **Emerging:** pre-taught phrases and short sentences, sentence starters, partially completed organizers, structured partner talk.\n- **Transitioning:** sentence frames and starters, organizers, glossaries, with growing independence and longer responses.\n- **Expanding:** light, targeted support only where the language is newly complex (e.g., frames for counterclaims); students build their own organizers.\n- **Commanding:** independent grade-level performance. In NYS, a Commanding score means the student exits ELL status.\n\nOver-scaffolding is also a mistake. An Expanding student who still gets a word bank, frames for every sentence, and a pre-filled organizer is being held back."},
+    {"h": "A worked example: grade 4 theme and summary",
+     "md": "Standard: *Determine a theme of a story and summarize the text.* Everyone works on theme, at every level.\n\n- **Entering:** sorts pre-taught words and picture cards (*friend, help, brave*) onto a theme organizer and names the theme with a word or phrase, in English or the home language.\n- **Emerging:** completes a partially filled organizer and says the theme with a starter: *'The story teaches that ___.'*\n- **Transitioning:** uses a summary frame (*'At the beginning… Then… In the end… The lesson is…'*).\n- **Expanding:** writes a theme statement and summary with an organizer they create, getting help only with complex sentences.\n- **Commanding:** writes independently, like any grade 4 student.\n\nCompare a weak plan: 'Entering/Emerging students copy vocabulary and draw pictures.' That task has left the standard, and the exam wants you to spot that."},
+    {"h": "Planning and assessing with the NLAP",
+     "md": "A practical sequence for co-teachers in Integrated ENL/ELA:\n\n- **Know each student's level** from the NYSESLAT or NYSITELL, then refine it with classroom evidence. Receptive skills often run ahead of productive ones. A student may follow grade-level read-alouds yet write only simple sentences, so set targets **by modality**.\n- **Name the linguistic demands** of the standard before choosing supports.\n- **Tier the scaffolds** within one shared task. Identical supports for every ELL is a 'one size' trap.\n- **Use the indicators as success criteria.** Turn the current-level and next-level indicators into an observation checklist and note when students begin to show next-level behaviors. That is ongoing formative evidence; the annual NYSESLAT can't provide it.\n- **Fade supports** as students grow (gradual release)."},
+    {"h": "NLAP vs. HLAP, and level-name look-alikes",
+     "md": "- **NLAP:** English as a new language, used in ENL, Integrated ENL/ELA, and the English side of bilingual programs.\n- **HLAP (Home Language Arts Progressions):** the same idea for home language arts, used in TBE and Dual Language programs. They use the same five levels.\n\nDon't let other frameworks confuse you. **Developing** and **Bridging** are WIDA level names, which NYS does not use. **Preproduction, Early Production, Speech Emergence, Intermediate Fluency, Advanced Fluency** are Krashen–Terrell stages, not NYS levels. NYS order: Entering → Emerging → Transitioning → Expanding → Commanding."}
+  ],
+  "traps": [
+    "Exam trap: an easier text, a lower-grade standard, or an unrelated task for low-level ELLs. NYS keeps the grade-level standard; only the scaffolds change.",
+    "Exam trap: identical supports for all ELLs ('equal' support). Scaffolds must match each student's proficiency level.",
+    "Exam trap: Entering-style supports for an Expanding student, or removing all supports at once. Fade them and target new, complex language.",
+    "Exam trap: treating a student as one level across all modalities. Receptive and productive skills can differ; plan for each.",
+    "Exam trap: WIDA level names (Developing, Bridging) or Krashen stages offered as NYS levels."
+  ],
+  "terms": [
+    {"t": "Next Generation ELA Learning Standards", "d": "New York's grade-level ELA standards; they apply to all students, including ELLs at every proficiency level."},
+    {"t": "NLAP", "d": "New Language Arts Progressions: for each standard, what ELLs can do in English at five levels, with decreasing scaffolds."},
+    {"t": "HLAP", "d": "Home Language Arts Progressions: parallel progressions for home language arts in TBE and Dual Language programs."},
+    {"t": "Entering", "d": "NYS level 1; needs substantial support such as pre-taught words, visuals, word banks, and home language."},
+    {"t": "Emerging", "d": "NYS level 2; uses pre-taught phrases, short sentences, starters, and partially completed organizers."},
+    {"t": "Transitioning", "d": "NYS level 3; uses frames and organizers with growing independence."},
+    {"t": "Expanding", "d": "NYS level 4; increasingly independent, with support targeted to complex language. Still an ELL and still receives Integrated ENL."},
+    {"t": "Commanding", "d": "NYS level 5; independent at grade level. A Commanding NYSESLAT score exits the student from ELL status."},
+    {"t": "Receptive modalities", "d": "Listening and reading."},
+    {"t": "Productive modalities", "d": "Speaking and writing. Students show reading comprehension productively by talking or writing about the text."},
+    {"t": "Linguistic demands", "d": "The language functions, forms, and vocabulary a standard's task requires, e.g., contrast connectors for comparing."},
+    {"t": "Performance indicator", "d": "An NLAP description of what a student at a given level can do for a standard, including the supports."},
+    {"t": "Gradual release", "d": "Shifting responsibility from teacher to student as scaffolds fade (I do, we do, you do)."},
+    {"t": "Blueprint for ELL/MLL Success", "d": "NYS's eight principles for ELL education, including rigorous grade-level instruction and leveraging the home language."}
+  ],
+  "tip": "When a stem gives a standard and a level, eliminate any option that changes the standard or text, then pick the scaffold that matches the level."
+},
 ]
 LESSONS += [
-#@L42
+{
+  "skill": "4.2",
+  "title": "Oral Language Development: Academic Talk, Listening & Pronunciation",
+  "why": "Items show a partner transcript, a discussion plan, or a pronunciation issue and ask for the move that gets ELLs producing more, and more academic, language without raising anxiety.",
+  "body": [
+    {"h": "Why talk matters so much",
+     "md": "Oral language is the foundation of literacy: students rarely write sentences they can't say. Two theories explain why structured talk drives acquisition:\n\n- **Long's Interaction Hypothesis:** negotiating meaning (clarification requests, comprehension checks, confirmation checks) makes input comprehensible.\n- **Swain's Output Hypothesis:** having to produce language makes learners notice gaps and test new forms.\n\nThe exam's best answers almost always increase **structured student talk**: who talks, how much, and with what language support. Options in which students just listen, copy, or wait are usually wrong."},
+    {"h": "Structures that produce real academic talk",
+     "md": "- **Turn-and-talk / think-pair-share:** every student talks, not just volunteers.\n- **Information-gap tasks:** each partner holds information the other needs (half a map, different pictures), so negotiation of meaning is unavoidable.\n- **Oral rehearsal before writing:** students explain their ideas to two or three partners, getting clearer each time (Zwiers's 'Stronger and Clearer Each Time'), then write.\n- **Fishbowl modeling:** a pair demonstrates a good conversation while the class notes the moves.\n- **Socratic seminars and structured academic controversy:** effective with ELLs when students rehearse with a partner first (the home language is welcome) and have frames for academic moves.\n\nWatch for **IRE** (Initiate–Response–Evaluate): *Teacher: What's the setting? Student: A farm. Teacher: Good.* It produces one-word answers. The fix is open questions, wait time, follow-ups ('Say more,' 'Why do you think so?'), and partner talk. Simply asking more IRE questions or demanding complete sentences doesn't change the pattern."},
+    {"h": "Sentence frames, talk moves, and Accountable Talk",
+     "md": "**Sentence frames** give structure for a specific **language function** so students can focus on ideas:\n\n- Opinion: *I think ___ because ___.*\n- Building on: *I agree with ___, and I'd add that ___.*\n- Challenging: *I see it differently because ___.*\n- Comparing: *One difference between ___ and ___ is ___.*\n\nTier the frames: fuller frames for Entering and Emerging students, open starters for Transitioning, and few or none for Expanding students except for complex moves like conceding a point. Then fade them.\n\n**Academic conversation skills** (Zwiers & Crawford) worth teaching explicitly: elaborate and clarify, support ideas with examples or evidence, build on or challenge a partner's idea, paraphrase, and synthesize.\n\n**Accountable Talk** (Resnick and colleagues) has three dimensions:\n\n- To the **learning community**: 'Who can add on to what Yuki said?' 'Can you put Omar's idea in your own words?'\n- To **accurate knowledge**: 'Where in the text does it say that?'\n- To **rigorous thinking**: 'How does that evidence support your claim?'\n\n**Revoicing** a student's idea in academic register ('So the *conflict* began when…') models language without correcting the student, and it keeps meaning first."},
+    {"h": "Matching the talk to the level",
+     "md": "- **Silent period (often Entering newcomers):** normal, not a disorder. Provide comprehensible input, accept nonverbal responses (pointing, TPR, drawing), and invite speech through songs and chants without forcing it.\n- **Entering:** yes/no and either/or questions tied to visuals ('Is the bear happy or sad?'). Accept gestures, single words, and home-language answers.\n- **Emerging:** short phrases and sentences with frames, plus rehearsal with a partner.\n- **Transitioning:** extended responses with frames for reasoning and evidence. Teach the conversation skills explicitly.\n- **Expanding:** nuance: hedging, counterclaims, precise vocabulary, and shifting register.\n\nA shallow transcript ('Yes.' 'Me too.' 'OK, we're done.') signals missing conversation skills. More time or a participation grade won't fix it; modeling and explicit teaching will."},
+    {"h": "Teaching listening, not just testing it",
+     "md": "- **Pre-listening:** activate background knowledge, preview a few key words with visuals, and set a purpose or focus question.\n- **During:** listen more than once with a task, first for gist and then for details with a guided organizer.\n- **Post-listening:** partner talk, summary, or a response that uses the new language.\n\nListening involves **top-down** processing (using background knowledge and context) and **bottom-up** processing (decoding sounds, words, and grammar). ELLs need support with both. Playing a recording once and giving a quiz is testing, not teaching."},
+    {"h": "Pronunciation in context",
+     "md": "The goal is **intelligibility, not accent elimination**. 'Erase the accent' options reflect a deficit view.\n\n- **Suprasegmentals** (word stress, sentence stress, rhythm, intonation, thought groups) often affect comprehensibility more than individual sounds. *deVELopment* versus *DEvelopment* matters more than a perfect /θ/.\n- Expect **L1 transfer**. Mandarin allows few final consonants, so learners may drop endings ('pass' for 'passed'). Spanish has five vowels, so learners may say 'sheep' for 'ship.'\n- Practice in **meaningful phrases** students actually need (lines from their presentation, readers' theater, chants), with modeling, recording, and self-monitoring.\n- Don't interrupt a presentation to fix every sound. Give focused feedback afterward, or use recasts during communication."}
+  ],
+  "traps": [
+    "Exam trap: 'let the ELL just listen for now' when the student is already trying to talk. Give frames, modeling, and rehearsal instead.",
+    "Exam trap: stopping a discussion to correct grammar (double negatives, verb endings). Meaning comes first; revoice and model instead.",
+    "Exam trap: more turns in the same IRE pattern, or complete-sentence rules, offered as the fix for one-word answers.",
+    "Exam trap: referring a newcomer in the silent period, or forcing public speech.",
+    "Exam trap: accent elimination or weeks of isolated minimal-pair drills as the pronunciation goal."
+  ],
+  "terms": [
+    {"t": "Interaction Hypothesis", "d": "Long: negotiating meaning in conversation makes input comprehensible and drives acquisition."},
+    {"t": "Output Hypothesis", "d": "Swain: producing language helps learners notice gaps, test hypotheses, and reflect on language."},
+    {"t": "Negotiation of meaning", "d": "Clarification requests, comprehension checks, and confirmation checks used to repair communication breakdowns."},
+    {"t": "Information-gap activity", "d": "A task where partners hold different information and must communicate to complete it."},
+    {"t": "Sentence frame", "d": "A partial sentence that models the structure for a language function; a temporary, level-matched scaffold."},
+    {"t": "Language function", "d": "What language is used to do: describe, compare, explain, justify, argue, sequence."},
+    {"t": "Accountable Talk", "d": "Discussion that is accountable to the learning community, to accurate knowledge, and to rigorous thinking."},
+    {"t": "Revoicing", "d": "Restating a student's idea, often in more academic language, and checking whether it matches what the student meant."},
+    {"t": "IRE pattern", "d": "Initiate–Response–Evaluate: teacher question, short student answer, teacher evaluation. It limits student talk."},
+    {"t": "Silent period", "d": "An early stage when a learner builds receptive language before speaking. It is normal, not a disorder."},
+    {"t": "Oral rehearsal", "d": "Talking through ideas, often with several partners, before writing them down."},
+    {"t": "Suprasegmentals", "d": "Stress, rhythm, intonation, and pausing: features beyond single sounds that strongly affect comprehensibility."},
+    {"t": "Intelligibility", "d": "How easily a listener understands a speaker. This, not a native-like accent, is the pronunciation goal."},
+    {"t": "Top-down / bottom-up listening", "d": "Using background knowledge and context (top-down) versus decoding sounds and words (bottom-up)."}
+  ],
+  "tip": "Pick the option that gets every ELL producing structured, meaningful talk at the right level, with frames, rehearsal, and interaction, and that keeps meaning ahead of correction."
+},
 ]
 LESSONS += [
 #@L43

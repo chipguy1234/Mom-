@@ -106,6 +106,7 @@ main{padding-block:24px 96px}
 
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--line);background:var(--card);border-radius:10px;padding:10px 16px;font-weight:700;font-size:.92rem;line-height:1.2;text-align:center}
 .btn:hover{border-color:var(--brand)}
+a.btn{color:inherit;text-decoration:none}
 .btn.pri{background:var(--brand);border-color:var(--brand);color:var(--on-brand)}
 .btn.pri:hover{filter:brightness(1.08)}
 .btn.ghost{background:transparent}
@@ -224,7 +225,9 @@ details.others ul{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:c
 .acc>summary h3{font-size:1.05rem}
 .acc[open]>summary{border-bottom:1px solid var(--line2)}
 .acc .inner{padding:8px 10px 12px}
-.lrow{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:9px 8px;border-radius:8px}
+.lrow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;align-items:center;padding:9px 8px;border-radius:8px}
+.lrow>.row{justify-content:flex-end}
+@media (max-width:560px){.lrow{grid-template-columns:minmax(0,1fr)}.lrow>.row{justify-content:flex-start}}
 .lrow:hover{background:var(--line2)}
 .lrow .t{font-weight:700;font-size:.92rem;min-width:0}
 .check{color:var(--good);font-weight:700}
@@ -299,11 +302,11 @@ textarea:focus{outline:none;border-color:var(--brand)}
 .trapcard .rate{font-family:var(--f-mono);font-weight:600;text-align:right}
 .trapcard .fix{grid-column:1/-1;font-size:.88rem;background:var(--line2);border-radius:8px;padding:8px 10px}
 .quad{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.quad div{border-radius:10px;padding:12px;background:var(--line2)}
+.quad>div{border-radius:10px;padding:12px;background:var(--line2)}
 .quad .n{font-family:var(--f-mono);font-size:1.4rem;font-weight:600}
-.quad .bad{background:var(--bad-soft)}
-.quad .good{background:var(--good-soft)}
-.quad .warn{background:var(--warn-soft)}
+.quad>.bad{background:var(--bad-soft)}
+.quad>.good{background:var(--good-soft)}
+.quad>.warn{background:var(--warn-soft)}
 .qlist{display:flex;flex-direction:column;gap:10px}
 .qitem{border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:var(--card)}
 .qitem .qs{font-weight:700;font-size:.92rem}
@@ -1067,7 +1070,7 @@ function feedbackBlock(q, c, ord){
   h += '<div class="keyline"><b>Takeaway</b>' + esc(q.key) + '</div>';
   const others = ord.filter(i => i !== q.answer && i !== c);
   if (others.length) h += '<details class="others"><summary>Why the other options are wrong</summary><ul>' + others.map(i => '<li><b>' + L(i) + '</b> <span class="chip trap" style="margin:0 4px">' + esc((TRAPS[q.traps[i] && q.traps[i].code] || {}).label || '') + '</span>' + esc(q.traps[i] ? q.traps[i].note : '') + '</li>').join('') + '</ul></details>';
-  h += '<div class="row">' + (LESSONS[q.skill] ? '<button class="btn sm" data-act="lesson" data-skill="' + q.skill + '">Lesson ' + q.skill + '</button>' : '') + (CAP.sample ? '<button class="btn sm" data-act="ask" data-q="' + q.id + '">' + (ok ? 'Explain it another way' : 'Ask Claude why') + '</button>' : '') + '</div><div id="askout"></div>';
+  h += '<div class="row">' + (LESSONS[q.skill] || (/^7\./.test(q.skill) && GUIDE) ? '<button class="btn sm" data-act="lesson" data-skill="' + q.skill + '">' + (/^7\./.test(q.skill) ? 'Writing guide' : 'Lesson ' + q.skill) + '</button>' : '') + (CAP.sample ? '<button class="btn sm" data-act="ask" data-q="' + q.id + '">' + (ok ? 'Explain it another way' : 'Ask Claude why') + '</button>' : '') + '</div><div id="askout"></div>';
   h += '</div></div>';
   if (P && P.revealed) h += '<div class="pfoot"><button class="btn pri lg" data-act="next">' + (P.i + 1 < P.qids.length ? 'Next question →' : 'See results') + '</button></div>';
   return h;
@@ -1168,7 +1171,7 @@ VIEWS.insights = function(r){
     const comps = COMPS.slice(0,6).map(c => { const xs = srAtts.filter(a => compOf(QM[a.q].skill).id === c.id); return xs.length ? xs.filter(a => a.ok).length / xs.length : 0; });
     const srP = COMPS.slice(0,6).reduce((t, c, i) => t + c.weight * comps[i], 0) / 80;
     const est = toScaled(0.8 * srP + 0.2 * 0.625);
-    h += '<p class="lede">On this sample, your multiple-choice performance projects to about <b>' + est + '</b> on the 400–600 scale (520 passes), assuming a mid-range written response. One question per skill is a rough read, so treat it as a starting line, not a verdict. The real value is below: exactly which skills and habits to fix first.</p>';
+    h += '<p class="lede">On these ' + an.n + ' questions alone, your multiple-choice performance projects to about <b>' + est + '</b> on the 400–600 scale (520 passes), assuming a mid-range written response. One question per skill is a rough read, so treat it as a starting line, not a verdict. The real value is below: exactly which skills and habits to fix first.</p>';
     if (kind === 'check' && S.diag && S.diag.done){
       const base = analyze(diagAtts('diag'));
       h += '<div class="callout" style="margin-bottom:16px"><b>Since your diagnostic:</b> ' + pct(base.ok, base.n) + '% → ' + pct(an.ok, an.n) + '% (' + (an.ok/an.n - base.ok/base.n >= 0 ? '+' : '') + Math.round(100*(an.ok/an.n - base.ok/base.n)) + ' points). ' + COMPS.slice(0,6).map(c => { const b = base.comp[c.id], n = an.comp[c.id]; return b && n ? c.short + ' ' + pct(b.ok,b.n) + '→' + pct(n.ok,n.n) + '%' : ''; }).filter(Boolean).join(' · ') + '</div>';
@@ -1595,7 +1598,7 @@ document.addEventListener('click', e => {
     case 'diag-start': startDiag('diag'); break;
     case 'check-start': if (S.check && S.check.done) go('insights', {diag:'check'}); else startDiag('check'); break;
     case 'go-diag-report': go('insights', {diag:d.kind}); break;
-    case 'lesson': go('lesson', {skill:d.skill}); break;
+    case 'lesson': go('lesson', {skill: /^7\./.test(d.skill) ? 'guide' : d.skill}); break;
     case 'mark-read': S.read[d.skill] = now(); save(); render(); toast('Marked as read'); break;
     case 'read-drill': S.read[d.skill] = now(); save(); startPlayer({mode:'drill', title:'Drill · ' + d.skill, qids:pickSkill(d.skill, 8), home:'learn'}); break;
     case 'drill': { const n = +(d.n || 8); startPlayer({mode:'drill', title:'Drill · ' + d.skill + ' ' + SKILL[d.skill].name, qids:pickSkill(d.skill, n)}); break; }
