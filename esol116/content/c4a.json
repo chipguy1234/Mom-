@@ -1117,7 +1117,7 @@
    "type": "knowledge",
    "difficulty": 3,
    "diag": 0,
-   "stem": "In the literacy-background categories commonly used in ESL literacy instruction (preliterate, nonliterate, semiliterate, and so on), which term best describes a 15-year-old newcomer who speaks Q'anjob'al, a language with an established written form, but who never attended school and cannot read or write in any language?",
+   "stem": "In the literacy-background categories commonly used in ESL literacy instruction (preliterate, nonliterate, semiliterate, and so on), which term best describes a 15-year-old newcomer who speaks Pashto, a language with a long and widely used written tradition, but who never attended school and cannot read or write in any language?",
    "options": [
     "Nonliterate",
     "Preliterate",
@@ -1125,13 +1125,13 @@
     "Non-Roman alphabet literate"
    ],
    "answer": 0,
-   "why": "In this framework, 'preliterate' describes learners whose home language has no written form or is rarely written; 'nonliterate' describes learners whose language has a written form but who have had no access to literacy instruction; 'semiliterate' describes learners with some limited literacy. Because Q'anjob'al has a written form and the student has had no schooling, 'nonliterate' fits. The distinction matters because it points to a lack of opportunity, not a lack of ability.",
+   "why": "In this framework, 'preliterate' describes learners whose home language has no written form or is rarely written; 'nonliterate' describes learners whose language has a written form but who have had no access to literacy instruction; 'semiliterate' describes learners with some limited literacy. Because Pashto is widely written and the student has had no schooling, 'nonliterate' fits. The distinction matters because it points to a lack of opportunity, not a lack of ability.",
    "traps": [
     null,
     {
      "code": "TERM",
      "pair": "nonliterate ↔ preliterate",
-     "note": "'Preliterate' applies when the home language itself has no written form or is rarely written. Q'anjob'al has an established writing system."
+     "note": "'Preliterate' applies when the home language itself has no written form or is rarely written. Pashto is widely written."
     },
     {
      "code": "TERM",
@@ -1141,7 +1141,7 @@
     {
      "code": "TERM",
      "pair": "nonliterate ↔ non-Roman alphabet literate",
-     "note": "That category describes students literate in another alphabet (e.g., Cyrillic, Arabic). This student has no literacy to transfer."
+     "note": "That category describes students literate in another alphabet (e.g., Cyrillic, Arabic). Pashto uses an Arabic-based script, but this student cannot read it."
     }
    ],
    "key": "Preliterate: L1 not (commonly) written. Nonliterate: L1 is written but no access to schooling. Semiliterate: limited literacy."
@@ -1656,7 +1656,7 @@
     "Provide dictionary definitions of 'make,' 'do,' 'strong,' and 'heavy,' since knowing exactly what each word means will prevent these errors."
    ],
    "answer": 1,
-   "why": "Collocations are learned best as chunks that students notice in real texts and then use. Having students collect word partners from their reading, record them, and use them in meaningful speaking and writing builds a sense of which words go together. A make/do rule captures some tendencies but has many exceptions ('make the bed,' 'do someone a favor'), so it can't replace exposure and use. Red-penning every error and studying single-word definitions don't teach which words go together.",
+   "why": "Collocations are learned best as chunks that students notice in real texts and then use. Having students collect word partners from their reading, record them, and use them in meaningful speaking and writing builds a sense of which words go together. A make/do rule captures some tendencies but has many exceptions ('make the bed,' 'make a phone call'), so it can't replace exposure and use. Red-penning every error and studying single-word definitions don't teach which words go together.",
    "traps": [
     {
      "code": "PARTIAL",
@@ -2048,7 +2048,7 @@
     },
     {
      "h": "Spanish speakers: positive and negative transfer",
-     "md": "Spanish uses the Roman alphabet and shares many consonant correspondences (b, d, f, l, m, n, p, s, t), which is positive transfer. The predictable differences:\n\n- **Vowels:** Spanish has five vowel phonemes, and English has many more. Short vowels /ɪ æ ʌ/ get mapped to the nearest Spanish vowel (*ship → sheep, cap → cop, hut → hot*). Teach the contrasts with picture minimal pairs, mouth-position cues, and sorts.\n- **Letter values:** Spanish *i* = /i/, *e* ≈ /eɪ/, *j* = /h/, and *h* is silent. That's why you see invented spellings like *Mai bes dei. Ai laik tu plei… Wi jav fan.* These spellings show **strong phonemic awareness**, with every sound represented in order, using Spanish spellings.\n- **Orthographic depth:** Spanish is **shallow** (consistent), and English is **deep** (silent letters, vowel teams, irregular words). A Spanish reader who says 'oh-neh' for *one* and 'mah-keh' for *make* (pronouncing the silent e) is applying Spanish logic. Teach high-frequency irregular words and English spelling patterns explicitly."
+     "md": "Spanish uses the Roman alphabet and shares many consonant correspondences (b, d, f, l, m, n, p, s, t), which is positive transfer. The predictable differences:\n\n- **Vowels:** Spanish has five vowel phonemes, and English has many more. Short vowels /ɪ æ ʌ/ get mapped to the nearest Spanish vowel (*ship → sheep, cap → cop, hut → hot*). Teach the contrasts with picture minimal pairs, mouth-position cues, and sorts.\n- **Letter values:** Spanish *i* = /i/, *ai* = /aɪ/, *ei* = /eɪ/, *j* = /h/, and *h* is silent. That's why you see invented spellings like *Mai bes dei. Ai laik tu plei… Wi jav fan.* These spellings show **strong phonemic awareness**, with every sound represented in order, using Spanish spellings.\n- **Orthographic depth:** Spanish is **shallow** (consistent), and English is **deep** (silent letters, vowel teams, irregular words). A Spanish reader who says 'oh-neh' for *one* and 'mah-keh' for *make* (pronouncing the silent e) is applying Spanish logic. Teach high-frequency irregular words and English spelling patterns explicitly."
     },
     {
      "h": "Readers of other writing systems",

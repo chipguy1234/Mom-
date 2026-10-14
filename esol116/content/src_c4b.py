@@ -221,42 +221,42 @@ QUESTIONS = [
 },
 {
  "id": "4.5-12", "skill": "4.5", "type": "analysis", "difficulty": 2, "diag": 0,
- "stimulus": "Reading data, grade 5 (grade-level fiction passage)\nStudent | Word accuracy | Oral reading rate | Retell (0–4) | Inferential questions\nSofia (Expanding, home language Spanish, 4th year of ENL services) | 98% | At grade-level benchmark | 1 | 1 of 5 correct\nTeacher note: Sofia's retell lists details from the first paragraph only. She could not explain why the main character changed her mind.",
- "stem": "Which conclusion and next step are best supported by these data?",
+ "stimulus": "Reading data, grade 5 (grade-level fiction passage)\nStudent | Word accuracy | Oral reading rate | Retell (0–4) | Inferential questions\nSofia (Expanding, home language Spanish, 4th year of ENL services) | 98% | At grade-level benchmark | 1 | 1 of 5 correct\nTeacher notes: On a vocabulary check before reading, Sofia knew 9 of the 10 key words. Her retell lists details from the first paragraph only, and she could not explain why the main character changed her mind.",
+ "stem": "Which instructional plan best targets the need shown in these data?",
  "options": [
-  "Sofia needs more phonics and decoding practice, because accurate word reading is the foundation that her comprehension depends on.",
-  "Sofia decodes well but needs comprehension instruction: vocabulary and background building, plus modeled inference and retelling strategies.",
-  "Sofia should be referred for a special education evaluation, because a fluent reader who cannot comprehend text may have a learning disability.",
-  "Sofia should move to texts two grade levels lower so that she can practice comprehension strategies with easier and shorter material."
+  "Pre-teach the passage's key vocabulary before every reading, since unknown words are the most common reason that an ELL's comprehension breaks down.",
+  "Model inferring through think-alouds with grade-level text, then guide her with a story map and frames such as “She changed her mind because ___.”",
+  "Refer Sofia for a special education evaluation, because a fluent reader who cannot comprehend text may have a learning disability.",
+  "Have her answer a set of inference questions on a new short passage each day, so that she gets as much independent practice as possible."
  ],
  "answer": 1,
- "why": "Ninety-eight percent accuracy at a grade-level rate, combined with a weak retell and missed inferences, shows that decoding is not the problem; comprehension is. This pattern is common in ELLs whose decoding and conversational English (BICS) outpace academic vocabulary, background knowledge, and inferencing (CALP). Explicit comprehension instruction with grade-level text—think-alouds, story maps, inference frames—targets the actual need.",
+ "why": "Sofia decodes accurately at a grade-level rate and already knows the key words, yet her retell stops after the first paragraph and she misses inferential questions. The gap is in comprehension strategies: tracking the whole story and connecting clues to infer a character's motives. Explicit strategy instruction—think-alouds that make inferring visible, then guided practice with a story map and inference frames on grade-level text—teaches the process. This pattern is common in ELLs whose decoding and conversational English (BICS) outpace academic comprehension (CALP).",
  "traps": [
-  {"code": "LITERAL", "note": "The data show 98% accuracy at benchmark rate, so decoding is a strength. This answer ignores the key evidence, which is the weak retell and inferencing."},
+  {"code": "LITERAL", "note": "Vocabulary is often the issue, but the teacher's check shows Sofia knew 9 of 10 key words. This option ignores that evidence; her gap is inferring and tracking the whole story."},
   None,
   {"code": "MISREFERRAL", "note": "A comprehension gap in a developing ELL is typical of academic language still being acquired. Targeted instruction and progress monitoring come first, not a referral based on one data point."},
-  {"code": "LOWER_RIGOR", "note": "Sofia reads grade-level text accurately. Moving her to easier texts lowers expectations instead of teaching the comprehension strategies she needs for grade-level work."}
+  {"code": "PARTIAL", "note": "Practice has a place, but more questions without modeling only test the skill she is missing. She first needs to see how a reader connects clues to make an inference."}
  ],
- "key": "Fluent, accurate decoding with a weak retell signals a comprehension need, not a phonics need or a disability."
+ "key": "When an ELL decodes well and knows the words but can't retell or infer, explicitly model comprehension strategies (think-alouds, story maps, inference frames)."
 },
 {
  "id": "4.5-13", "skill": "4.5", "type": "scenario", "difficulty": 2, "diag": 0,
- "stem": "Dilnoza, a grade 4 Entering ELL who arrived from Uzbekistan two months ago, reads and writes fluently in Uzbek. Her Integrated ENL/ELA class is reading a grade-level informational text about the water cycle and will then explain the process in writing. Which plan best gives Dilnoza meaningful access to this lesson?",
+ "stem": "Dilnoza, a grade 4 Entering ELL who arrived from Uzbekistan two months ago, reads and writes fluently in Uzbek. Her Integrated ENL/ELA class is reading a grade-level informational text about the water cycle and will then explain the process in writing. Which plan best gives Dilnoza meaningful access to this lesson while also building her English?",
  "options": [
-  "Preview the concept through an Uzbek-language video or text, then have her label a water-cycle diagram from a word bank and explain it to a partner using a frame.",
-  "Have her work through an English alphabet and phonics workbook at a side table until she knows enough English to take a full part in the class's reading lessons.",
+  "Preview the concept in Uzbek, then have her label the class text's water-cycle diagram from a word bank and explain it to a partner with a frame.",
+  "Have her read an Uzbek article on the water cycle in place of the English text and write her explanation in Uzbek, since that is her strongest language.",
   "Give her the same text and writing prompt as her classmates, without changes, on the expectation that she will acquire English through daily exposure.",
   "Give her a kindergarten picture book about the weather so that she can read a text written at her current English level while the class reads."
  ],
  "answer": 0,
- "why": "Entering students can work with grade-level concepts when the language load is heavily scaffolded. A home-language preview draws on Dilnoza's strong Uzbek literacy (Cummins's Common Underlying Proficiency), so the concept transfers; the labeled diagram, word bank, and frame let her produce English at an Entering level while she thinks about the same content as her peers. This matches the NLAP pattern of substantial support at Entering, not a separate curriculum.",
+ "why": "Entering students can work with grade-level concepts when the language load is heavily scaffolded. A home-language preview draws on Dilnoza's strong Uzbek literacy (Cummins's Common Underlying Proficiency), so the concept transfers; the diagram from the class text, the word bank, and the frame then let her produce English at an Entering level while she thinks about the same content as her peers. The Uzbek material is an on-ramp to the English lesson, not a replacement for it, which matches the NLAP pattern of substantial support at Entering.",
  "traps": [
   None,
-  {"code": "EXCLUSION", "note": "Isolating her with a phonics workbook removes her from grade-level content until she is “ready.” She can learn the concept now with scaffolds."},
+  {"code": "PARTIAL", "note": "Uzbek is the right resource for building the concept, but here it replaces the English text and task, so she gets no English input or output. The home language should bridge into the lesson, not substitute for it."},
   {"code": "ONE_SIZE", "note": "Unmodified grade-level input is not comprehensible at Entering. Exposure without scaffolds ignores her proficiency level and leaves her unable to participate."},
   {"code": "LOWER_RIGOR", "note": "A kindergarten weather book replaces the grade-level concept with much simpler content and underestimates a literate fourth grader."}
  ],
- "key": "At Entering, keep grade-level content and add heavy scaffolds: home-language preview, visuals, word banks, frames, and partner talk."
+ "key": "At Entering, the home language is an on-ramp, not a replacement: preview in L1, then scaffold the English text with visuals, word banks, and frames."
 },
 {
  "id": "4.5-14", "skill": "4.5", "type": "application", "difficulty": 3, "diag": 0,
@@ -287,11 +287,11 @@ QUESTIONS = [
  "options": [
   "Strength: varied complex sentences with embedded clauses; need: organizing the events of the story in a clear, logical order",
   "Strength: a clear, time-ordered sequence of events; need: more vivid descriptive details and dialogue to develop the story",
-  "Strength: a clear, time-ordered sequence with transitions; need: consistent past-tense verbs and stated subjects, as in “It is very cold”",
+  "Strength: a clear, time-ordered sequence with transitions; need: consistent past-tense verbs and stated subjects, as in “It was very cold”",
   "Strength: a willingness to take risks writing in English; need: an evaluation for a language disorder, given the many repeated grammar errors"
  ],
  "answer": 2,
- "why": "The sample shows real narrative competence: a time-ordered sequence signaled by “Last winter,” “First,” “Then,” and “At the end of the day,” plus a closing reflection. The most pervasive need is past-tense marking (go, drive, make, was), and “Is very cold” shows a dropped subject consistent with Spanish, which allows subjects to be omitted (“Está nevando” = “It is snowing”). Strong analysis names an asset to build on and a patterned, teachable need—the same thinking the constructed response requires.",
+ "why": "The sample shows real narrative competence: a time-ordered sequence signaled by “Last winter,” “First,” “Then,” and “At the end of the day,” plus a closing reflection. The most pervasive need is past-tense marking (go, drive, and make for went, drove, and made; “we was” also needs agreement), and “Is very cold” shows a dropped subject consistent with Spanish, which allows subjects to be omitted (“Está nevando” = “It is snowing”). Strong analysis names an asset to build on and a patterned, teachable need—the same thinking the constructed response requires.",
  "traps": [
   {"code": "LITERAL", "note": "This reverses the evidence. The sentences are mostly short and simple, and the sequence of events is already one of the clearest strengths."},
   {"code": "PARTIAL", "note": "The strength is accurate and details would enrich the story, but the need overlooks the verb-tense pattern that runs through most of the sample, which is the priority for a Transitioning writer."},
@@ -419,7 +419,7 @@ QUESTIONS = [
 },
 {
  "id": "4.6-08", "skill": "4.6", "type": "scenario", "difficulty": 2, "diag": 0,
- "stimulus": "Paragraph from a grade 9 Transitioning ELL's response to a short story (home language Russian):\n“In the story, the main character is very brave person. She goes to the forest alone for find her brother. When she sees the wolf, she is not run away. This shows that she loves the brother more than she is afraid.”",
+ "stimulus": "Paragraph from a grade 9 Transitioning ELL's response to a short story (home language Russian):\n“In the story, main character is very brave person. She goes to forest alone for find her brother. When she sees wolf, she is not run away. This shows that she loves her brother more than she is afraid.”",
  "stem": "The teacher notes that the student's claim is well supported by evidence from the story. Which approach to written feedback would be most effective?",
  "options": [
   "Mark every grammatical error in red and write the correct form above each one so that the student can see all of the mistakes at once.",
@@ -428,7 +428,7 @@ QUESTIONS = [
   "Rewrite the paragraph in correct English and ask the student to copy the corrected version neatly into the final draft of the response."
  ],
  "answer": 1,
- "why": "Second-language writing research and practice favor focused (selective) corrective feedback: addressing one or two frequent, patterned errors rather than marking everything. Missing articles are a systematic pattern here, consistent with transfer from Russian, which has no articles. Pairing praise for the strong ideas with a limited self-correction task builds noticing and responsibility without overwhelming the writer.",
+ "why": "Second-language writing research and practice favor focused (selective) corrective feedback: addressing one or two frequent, patterned errors rather than marking everything. Missing articles are the most frequent, systematic pattern here (main character, brave person, forest, wolf), consistent with transfer from Russian, which has no articles. Pairing praise for the strong ideas with a limited self-correction task builds noticing and responsibility without overwhelming the writer.",
  "traps": [
   {"code": "OVERCORRECT", "note": "Marking every error buries the strong ideas, overwhelms the student, and gives no priority. The student can't tell which pattern matters most."},
   None,
@@ -479,22 +479,22 @@ QUESTIONS = [
 {
  "id": "4.6-11", "skill": "4.6", "type": "analysis", "difficulty": 1, "diag": 0,
  "stimulus": "Writing sample (grade 2, Emerging, home language Spanish; written under a drawing of her family at a table):\n“I laik mai famili. Mai mamá cook arroz an beans. On Sonday we go to the parke.”",
- "stem": "Which statement best describes what this sample shows?",
+ "stem": "The teacher wants to build on what this sample shows about the student as a writer. Which next step is most appropriate?",
  "options": [
-  "The student has a spelling disability and should receive intensive intervention in English letter-sound correspondences.",
-  "The student is applying Spanish sound-spelling knowledge to English words and using home-language words to convey meaning.",
-  "The student is confusing her two languages and should be told to write only in English to avoid further interference from Spanish.",
-  "The student's spelling shows that she has not yet learned that letters represent the sounds in spoken words."
+  "Write the correct spelling above each misspelled word, and have her copy the corrected sentences three times so that the spellings stick.",
+  "Respond to her message, then use a few of her own words (mai/my, laik/like) to explicitly contrast English and Spanish spellings.",
+  "Ask her to replace “arroz” and “mamá” with English words, so that she learns to keep her two languages separate when she writes.",
+  "Postpone English spelling instruction until her oral English is stronger, since she must hear English sounds accurately before spelling them."
  ],
  "answer": 1,
- "why": "Spellings like “laik,” “mai,” “famili,” and “parke” map English sounds onto Spanish letter-sound patterns (Spanish spells the /aɪ/ sound “ai” and the /i/ sound “i”), which shows solid phonemic awareness and positive transfer of alphabetic knowledge. Writing “arroz” is translanguaging: she uses her full repertoire to keep communicating. The next step is to build on this by explicitly contrasting English and Spanish spelling patterns, not to treat the sample as a deficit.",
+ "why": "Spellings like “laik,” “mai,” and “famili” map English sounds onto Spanish letter-sound patterns (Spanish spells the /aɪ/ sound “ai” and the /i/ sound “i”), which shows solid phonemic awareness and alphabetic knowledge transferred from Spanish. Writing “arroz” and “mamá” is translanguaging: she uses her full repertoire to keep communicating. The best next step responds to her meaning first, then builds on that knowledge by explicitly contrasting a pattern or two in her own words (Spanish “ai” vs. English “y” in my and “i_e” in like), so transfer becomes a bridge to English spelling.",
  "traps": [
-  {"code": "MISREFERRAL", "note": "The spellings are systematic and logical according to Spanish phonics. That is evidence of transfer, not of a disability."},
+  {"code": "OVERCORRECT", "note": "Correcting every word and assigning copying buries her message under red ink and teaches no pattern. Focused contrast with one or two patterns is more effective."},
   None,
-  {"code": "DEFICIT", "note": "Using Spanish spelling patterns and words is a resource. Banning the home language treats a normal bilingual strategy as a problem."},
-  {"code": "LITERAL", "note": "The opposite is true: she represents nearly every sound with a letter. She just uses Spanish letter-sound rules to do it."}
+  {"code": "DEFICIT", "note": "The Spanish words keep her message flowing and are a resource. Asking her to remove them treats a normal bilingual writing strategy as a problem."},
+  {"code": "EXCLUSION", "note": "Her spellings show she already hears and segments the sounds. Waiting withholds spelling instruction she is ready for now."}
  ],
- "key": "Invented spellings that follow home-language sound-letter rules show phonemic awareness and positive transfer, not a disability."
+ "key": "Build on Spanish-based invented spelling: respond to the message, then explicitly contrast English and Spanish spellings using the student's own words."
 },
 {
  "id": "4.6-12", "skill": "4.6", "type": "scenario", "difficulty": 2, "diag": 0,
@@ -598,22 +598,22 @@ QUESTIONS = [
 {
  "id": "4.7-03", "skill": "4.7", "type": "analysis", "difficulty": 1, "diag": 0,
  "stimulus": "Novel excerpt: “Ana had practiced for weeks, but the night before the audition she got cold feet and almost stayed home.”\n\nJournal response from a grade 6 Transitioning ELL: “Ana almost did not go because her feet were cold. She needed warm socks.”",
- "stem": "Which instructional response would best address this misunderstanding?",
+ "stem": "Which explanation best accounts for the student's response?",
  "options": [
-  "Give students a list of fifty common English idioms with their definitions to memorize for a quiz at the end of each week.",
-  "Postpone instruction in idioms and other figurative language until students reach the Commanding level and can understand them.",
-  "Explain that idioms aren't read word by word, use context clues to infer “got nervous,” and compare similar home-language expressions.",
-  "Tell the student the correct meaning of the idiom and move on so that the class can finish reading the assigned chapter on schedule today."
+  "She lacks background knowledge about auditions, so she could not understand the situation that Ana faced the night before.",
+  "She does not know the words cold and feet, so she first needs explicit instruction in basic everyday vocabulary.",
+  "She read a non-compositional idiom word by word, a predictable step for ELLs that calls for teaching idioms in context.",
+  "Her literal reading signals a weakness in inferential thinking that should be referred for a comprehension evaluation."
  ],
  "answer": 2,
- "why": "Idioms are non-compositional—their meaning is not the sum of their words—so reading “cold feet” literally is a natural, predictable step for ELLs. Effective instruction teaches idioms in context, models using surrounding clues (“practiced for weeks… almost stayed home”) to infer the meaning, and builds cross-linguistic awareness by comparing idioms in students' home languages. Figurative language is part of grade-level ELA, so it is taught with support at every proficiency level.",
+ "why": "Idioms are non-compositional—their meaning is not the sum of their words—so a learner who knows “cold” and “feet” but not the expression computes a literal meaning and even builds a logical inference on it (“She needed warm socks”). Her response shows she understood the situation and the vocabulary; only the figurative expression broke down. The fix is to teach idioms in context, modeling how surrounding clues (“practiced for weeks… almost stayed home”) signal a figurative meaning such as “got nervous,” and comparing similar expressions in students' home languages.",
  "traps": [
-  {"code": "ISOLATED", "note": "Memorizing long lists out of context rarely transfers to reading. Students need to practice inferring idioms from the clues around them in real texts."},
-  {"code": "EXCLUSION", "note": "Figurative language appears in grade-level texts at every level. Waiting until Commanding denies students access to literature they are reading now."},
+  {"code": "TERM", "pair": "idiom ↔ cultural schema", "note": "Her response shows she understood the situation: Ana prepared and almost stayed home. Only the figurative expression was misread, so this is not a gap in cultural background knowledge."},
+  {"code": "LITERAL", "note": "She clearly knows both words; that is exactly why she read the phrase literally. The gap is the idiom's figurative meaning, not the individual words."},
   None,
-  {"code": "PARTIAL", "note": "Giving the meaning fixes this one instance but teaches no strategy, so the student will be stuck again at the next idiom."}
+  {"code": "MISREFERRAL", "note": "She did infer, building a logical explanation (warm socks) from the literal meaning. Literal readings of idioms are a normal part of learning a new language, not evidence of a disability."}
  ],
- "key": "Teach idioms in context with clue-based inference and home-language comparisons, not with memorized lists or postponement."
+ "key": "Literal readings of idioms reflect their non-compositional meaning, not missing schema, vocabulary, or a disability; teach idioms in context."
 },
 {
  "id": "4.7-04", "skill": "4.7", "type": "application", "difficulty": 3, "diag": 0,
@@ -883,7 +883,7 @@ Post-reading talk with **sentence frames** (“The author shows ___ when ___”)
 - **Expanding and Commanding:** sentence deconstruction, discussion protocols, lighter frames, growing independence
 
 An Entering fourth grader who is literate in Uzbek doesn't need a kindergarten weather book. She needs an Uzbek preview of the water cycle, a diagram to label from a word bank, and a frame to explain it to a partner. Same concept as her classmates, different scaffolds."""},
-  {"h": "Reading the data and the text", "md": """- **Fluent decoding + weak retell = a comprehension need.** 98% accuracy at benchmark rate with a 1-out-of-4 retell points to vocabulary, background knowledge, and inferencing (CALP). It is **not** a phonics problem, and it is **not** grounds for a disability referral.
+  {"h": "Reading the data and the text", "md": """- **Fluent decoding + weak retell = a comprehension need.** 98% accuracy at benchmark rate with a 1-out-of-4 retell rules out decoding. Use the rest of the evidence to find the gap (CALP): unknown key words point to vocabulary and background building; known words with missed inferences point to explicit strategy instruction (think-alouds, story maps, inference frames). It is **not** a phonics problem, and it is **not** grounds for a disability referral.
 - **Text complexity** has three dimensions: **quantitative** (Lexile, sentence length, word frequency), **qualitative** (structure, levels of meaning, language conventionality, knowledge demands), and **reader and task** (these students' background and proficiency, plus what the task asks them to do). ESOL teachers speak mostly to reader and task, and they use it to plan scaffolds, not to reject texts.
 
 Exam habit: before you choose, ask what the evidence says the real barrier is. Is it background, vocabulary, syntax, or strategy? Then pick the scaffold that targets that barrier inside the grade-level text."""}
