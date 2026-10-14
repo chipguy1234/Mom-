@@ -568,7 +568,7 @@ Q("4.3-01", "scenario", 2, diag=1,
   key="Spanish has 5 vowels; teach the English short-vowel contrasts explicitly with minimal pairs, pictures, articulation cues, and connected text."),
 
 Q("4.3-02", "analysis", 2,
-  stim="Journal entry, grade 2 (Valeria, literate in Spanish)\n'Mai bes dei. Ai laik tu plei wit mai frend. Wi jav fan in di park.'",
+  stim="Journal entry, grade 2 (Valeria, literate in Spanish)\n'Mai bes dei. Ai laik tu plei wit mai frend. Wi jav fan in de park.'",
   stem="Valeria's spellings most likely indicate that she",
   opts=[
     "has a visual-processing difficulty that causes her to confuse and reverse letters, and she should be referred for a formal evaluation",
@@ -577,7 +577,7 @@ Q("4.3-02", "analysis", 2,
     "has fossilized errors in her interlanguage that will be very difficult to change through classroom instruction",
   ],
   ans=1,
-  why="Valeria's spellings are systematic: 'ai' for /aɪ/ (mai, laik), 'ei' for /eɪ/ (dei, plei), 'j' for /h/ (jav), and 'i' for /i/ (wi, di) are all regular Spanish spellings. She hears each sound and represents it with the Spanish grapheme she knows, which is strong evidence of phonemic awareness and alphabetic knowledge transferred from Spanish. The next step is explicit instruction in the English spellings for these sounds, contrasted with Spanish.",
+  why="Valeria's spellings are systematic: 'ai' for /aɪ/ (mai, laik), 'ei' for /eɪ/ (dei, plei), 'j' for /h/ (jav), 'i' for /i/ (wi), and 'd' for the first sound of 'the' (de) are all regular Spanish choices. She hears each sound and represents it with the Spanish grapheme she knows, which is strong evidence of phonemic awareness and alphabetic knowledge transferred from Spanish. The next step is explicit instruction in the English spellings for these sounds, contrasted with Spanish.",
   traps=[
     ("MISREFERRAL", "The spellings follow consistent Spanish patterns, so this is logical transfer, not a perceptual disability."),
     None,
@@ -788,7 +788,7 @@ Q("4.3-13", "scenario", 2,
   key="Teach ELLs systematic phonics with real words whose meanings are made clear through pictures, gestures, and oral use."),
 
 Q("4.3-14", "analysis", 3,
-  stim="Oral reading notes (Sofía, grade 3, literate in Spanish)\nText word | Sofía read\nsaid | 'sa-eed'\nknow | 'k-now'\nbread | 'bre-ad'\ncat, map, sit | read correctly",
+  stim="Oral reading notes (Sofía, grade 3, literate in Spanish)\nText word | Sofía read\none | 'oh-neh'\nmake | 'mah-keh'\nbread | 'bre-ad'\ncat, map, sit | read correctly",
   stem="Which explanation best accounts for Sofía's reading?",
   opts=[
     "She has not yet learned the alphabetic principle and is guessing at each word from its first letter and overall shape.",
@@ -797,7 +797,7 @@ Q("4.3-14", "analysis", 3,
     "She is applying Spanish's consistent letter-sound mapping to English, whose spelling is far less predictable (a deeper orthography).",
   ],
   ans=3,
-  why="Spanish has a shallow (transparent) orthography: nearly every letter is pronounced, and letters map consistently to sounds. Sofía decodes regular CVC words but sounds out every letter in 'said,' 'know,' and 'bread,' just as she would in Spanish. English has a deep orthography, with silent letters, vowel teams, and irregular high-frequency words, so she needs explicit instruction in these patterns and in high-frequency words such as 'said.'",
+  why="Spanish has a shallow (transparent) orthography: nearly every letter is pronounced, and letters map consistently to sounds. Sofía decodes regular CVC words but gives every letter its Spanish value in 'one,' 'make,' and 'bread,' even pronouncing the silent e, just as she would in Spanish. English has a deep orthography, with silent letters, vowel teams, and irregular high-frequency words, so she needs explicit instruction in these patterns and in high-frequency words such as 'one' and 'said.'",
   traps=[
     ("LITERAL", "She sounds out every letter in order and reads CVC words correctly. That is applying the alphabetic principle, not guessing."),
     ("MISREFERRAL", "She blends sounds successfully; she just pronounces letters English leaves silent or combines. That is transfer, not a processing weakness."),
@@ -1161,10 +1161,94 @@ LESSONS += [
 },
 ]
 LESSONS += [
-#@L43
+{
+  "skill": "4.3",
+  "title": "Foundational Literacy & L1–L2 Literacy Transfer",
+  "why": "Items give a reading or spelling sample from an ELL with a named home language and ask what explains it, what transfers, or what to teach next. The answer is usually 'predictable transfer, so teach the difference explicitly,' not referral.",
+  "body": [
+    {"h": "Get the building blocks straight",
+     "md": "The exam loves near-miss terms:\n\n- **Phonological awareness:** awareness of the sound structure of spoken language (words, syllables, onset-rime, phonemes). Oral only.\n- **Phonemic awareness:** the phoneme-level part of phonological awareness, such as segmenting *ship* into /ʃ/ /ɪ/ /p/ with chips in Elkonin boxes. Still no letters.\n- **Phonics:** the relationships between sounds and letters in print.\n- **Decoding:** using phonics to read words.\n- **Fluency:** accuracy, appropriate rate, and prosody (expression and phrasing) in connected text.\n- **Comprehension:** constructing meaning, which depends heavily on vocabulary and background knowledge.\n\nA key research finding: the National Literacy Panel on Language-Minority Children and Youth (August & Shanahan, 2006) found that ELLs often develop **word-level skills** (decoding, spelling) comparable to native speakers', while **text-level skills** (comprehension) lag because of vocabulary and oral language. So a student with benchmark fluency and a weak retell needs vocabulary and oral language work, not more phonics or speed drills."},
+    {"h": "What transfers, and what has to be taught",
+     "md": "Cummins's **Common Underlying Proficiency** and **Developmental Interdependence** hypotheses predict that literacy in any language helps literacy in English. These usually **transfer**:\n\n- Knowing that print carries meaning, and how books and texts work\n- Phonological awareness (rhyming, syllables, and initial sounds in Spanish carry over to English)\n- Comprehension strategies (predicting, rereading, summarizing)\n- Background knowledge, concepts, and study habits\n\nThings that are **specific to a writing system** need explicit teaching: directionality, letter shapes, letter-sound values, which sounds get written, and how consistent the spelling is.\n\nThis is why the right answer to a family asking whether to stop reading in Bengali (or any home language) is: **keep reading and talking in the home language.**"},
+    {"h": "Spanish speakers: positive and negative transfer",
+     "md": "Spanish uses the Roman alphabet and shares many consonant correspondences (b, d, f, l, m, n, p, s, t), which is positive transfer. The predictable differences:\n\n- **Vowels:** Spanish has five vowel phonemes, and English has many more. Short vowels /ɪ æ ʌ/ get mapped to the nearest Spanish vowel (*ship → sheep, cap → cop, hut → hot*). Teach the contrasts with picture minimal pairs, mouth-position cues, and sorts.\n- **Letter values:** Spanish *i* = /i/, *e* ≈ /eɪ/, *j* = /h/, and *h* is silent. That's why you see invented spellings like *Mai bes dei. Ai laik tu plei… Wi jav fan.* These spellings show **strong phonemic awareness**, with every sound represented in order, using Spanish spellings.\n- **Orthographic depth:** Spanish is **shallow** (consistent), and English is **deep** (silent letters, vowel teams, irregular words). A Spanish reader who says 'oh-neh' for *one* and 'mah-keh' for *make* (pronouncing the silent e) is applying Spanish logic. Teach high-frequency irregular words and English spelling patterns explicitly."},
+    {"h": "Readers of other writing systems",
+     "md": "- **Arabic (also Urdu, Pashto, Dari in Perso-Arabic script):** written **right to left**. Arabic is an **abjad**, in which short vowels are usually unwritten, so learners may omit vowels when spelling (*bk* for *book*). Arabic has no /p/, so p/b confusion is common. Teach directionality and vowel spelling explicitly.\n- **Chinese:** **logographic** (morphosyllabic). Characters mostly represent morphemes and syllables, not phonemes. Students from mainland China usually know **Pinyin**, so they recognize Latin letters, but some values differ (Pinyin *x, q, c*). Teach phoneme-level awareness and English letter-sound mapping explicitly. Don't rely on whole-word memorization.\n- **Cyrillic (Russian, Ukrainian):** look-alike letters with different values: Н = /n/, Р = /r/, В = /v/, С = /s/. A student reading *HOT* as 'not' and *PEN* as 'ren' is decoding systematically with Cyrillic values. Contrast the letters explicitly.\n- **Abugidas (Bengali, Nepali/Devanagari):** consonant letters carry vowel marks. They are alphabetic in spirit and written left to right, but vowel representation works differently.\n\nIn every case, the errors are **logical transfer, not a disability**. Referral options are traps unless the evidence goes beyond the transfer pattern."},
+    {"h": "Students with limited or no print literacy",
+     "md": "ESL literacy specialists distinguish:\n\n- **Preliterate:** the home language has no written form or is rarely written.\n- **Nonliterate:** the home language is written, but the learner had no access to schooling.\n- **Semiliterate:** some limited literacy.\n- **Non-Roman alphabet literate / nonalphabet literate:** literate in another script.\n\nAdolescent **SIFE** with little print experience need **age-respectful, meaningful** literacy instruction, not nursery rhymes. The **Language Experience Approach** fits well: the student dictates an experience, the teacher writes it, and that text becomes reading material for concepts of print, sight words, and phonics. It builds on oral strengths (many SIFE are skilled storytellers). Keep these students in scaffolded content classes; literacy develops alongside content, not before it."},
+    {"h": "Phonics and fluency, adapted for ELLs",
+     "md": "- **Phonics:** ELLs benefit from the same explicit, systematic phonics as other students, **plus meaning**. Use real words and confirm what they mean with pictures, objects, or gestures (*mat, fan, ham*). Nonsense-word drills and 'wait until their English is better' are both traps.\n- **Fluency:** use modeled, **repeated reading** of meaningful text: echo reading, choral reading, readers' theater. Avoid timed word lists and round-robin reading.\n- **Always check comprehension.** Fluency norms were built on native speakers, and an ELL can read quickly while understanding little."}
+  ],
+  "traps": [
+    "Exam trap: referring a student whose errors follow home-language patterns (Spanish vowels, Cyrillic look-alike letters, Spanish-based spellings). That is transfer, not disability.",
+    "Exam trap: 'little will transfer' from a literate student's home language. Concepts of print, phonological awareness, and comprehension strategies do transfer.",
+    "Exam trap: more phonics or speed drills for a student who decodes well but can't retell. The need is vocabulary and oral language.",
+    "Exam trap: kindergarten materials for adolescent SIFE, or keeping them out of content classes until they can read.",
+    "Exam trap: confusing phonemic awareness (oral, no print) with phonics (sound–letter links)."
+  ],
+  "terms": [
+    {"t": "Phonological awareness", "d": "Awareness of spoken sound units (words, syllables, onset-rime, phonemes). Oral, with no print."},
+    {"t": "Phonemic awareness", "d": "Hearing and manipulating individual phonemes in spoken words, e.g., segmenting ship into three sounds."},
+    {"t": "Phonics", "d": "Instruction in the relationships between sounds and letters (graphemes) in print."},
+    {"t": "Fluency", "d": "Reading connected text with accuracy, appropriate rate, and prosody (expression and phrasing)."},
+    {"t": "Alphabetic principle", "d": "The understanding that letters systematically represent the sounds of spoken language."},
+    {"t": "Common Underlying Proficiency", "d": "Cummins: literacy and academic skills learned in one language are available in another."},
+    {"t": "Shallow vs. deep orthography", "d": "Consistent letter-sound mapping (Spanish) versus less predictable mapping (English)."},
+    {"t": "Abjad", "d": "A consonant-based script in which short vowels are usually unwritten, such as Arabic. Written right to left."},
+    {"t": "Logographic script", "d": "A writing system whose characters represent morphemes and syllables rather than phonemes, such as Chinese."},
+    {"t": "Pinyin", "d": "Romanization system for Mandarin; uses Latin letters, some with different sound values than English."},
+    {"t": "Negative transfer", "d": "An L1 feature applied where English differs, e.g., reading Cyrillic-style H as /n/."},
+    {"t": "Preliterate / nonliterate", "d": "Preliterate: L1 not (commonly) written. Nonliterate: L1 is written but the learner lacked schooling."},
+    {"t": "Language Experience Approach", "d": "The student dictates an experience, the teacher transcribes it, and the text becomes personalized reading material."},
+    {"t": "Elkonin boxes", "d": "Boxes that students push markers into, one per sound, to segment words. A phonemic awareness tool."}
+  ],
+  "tip": "When a sample shows systematic errors, ask 'What would this look like in the home language?' The answer is usually transfer, so pick the option that teaches the contrast explicitly."
+},
 ]
 LESSONS += [
-#@L44
+{
+  "skill": "4.4",
+  "title": "Vocabulary Development for ELLs",
+  "why": "Expect items that ask which words to teach (tiers), how to teach them (robust, contextual, interactive), and how to read an ELL's word errors (false cognates, collocations, multiple meanings).",
+  "body": [
+    {"h": "Which words to teach: the three tiers",
+     "md": "Beck, McKeown, and Kucan sort words into three tiers:\n\n- **Tier 1:** basic everyday words (*happy, table, walk*). Most students know them; newcomers may need a quick picture.\n- **Tier 2:** high-utility general academic words found across subjects and genres (*reluctant, insist, analyze, consequence, fortunate*), plus connectives such as *however* and *therefore*. **The priority for robust instruction.**\n- **Tier 3:** low-frequency, domain-specific words (*magma, chlorophyll, sonnet, latitude*). Teach them briefly in context, with a visual, when the content needs them.\n\nWith ELLs, adjust the tiers rather than throw them out (Calderón and colleagues adapted them for ELLs):\n\n- Some Tier 1 words and phrases (*fair, get over it*) may need explicit teaching for a newcomer.\n- Many Tier 2 words are everyday cognates for Spanish speakers (*fortunate/afortunado, curious/curioso*), so they come quickly.\n- Never limit ELLs to Tier 1 words until they are 'ready'. That's a lower-rigor trap.\n\nWhen a text has 25 unknown words, **be selective**. Pre-teach the few words essential to the main ideas, gloss others quickly during reading (a gesture, picture, or synonym), and return to the best Tier 2 words for deep study afterward."},
+    {"h": "How to teach words so they stick",
+     "md": "**Robust vocabulary instruction** means:\n\n- Introducing the word in context\n- Giving a **student-friendly definition** ('*reluctant* means you don't really want to do something')\n- Offering **examples and non-examples** ('Would you be reluctant to eat your favorite food?')\n- Providing **many varied, interactive encounters** over several days, in talk and in writing\n\nCompare the classic weak routine: look up the word, copy the definition, write a sentence. Quiz scores may look fine, but students never use the words. Graphic organizers such as the **Frayer model** (definition, characteristics, examples, non-examples) deepen conceptual understanding.\n\nFor **Entering** students, make words concrete: pictures, real objects, gestures and TPR, labeled scenes from the class text, and **picture or bilingual dictionaries** so they can attach English labels to concepts they already know. English-only dictionary definitions are beyond their reach."},
+    {"h": "Cognates and false cognates",
+     "md": "Spanish, French, Haitian Creole, Portuguese, and other Romance-influenced languages share many words with English through Latin and French. Cognate awareness **must be taught**; students don't reliably notice cognates on their own. Teach the patterns:\n\n- *-tion / -ción*: information / información\n- *-ous / -oso*: famous / famoso\n- *-ly / -mente*: rapidly / rápidamente\n- *-ity / -idad*: curiosity / curiosidad\n\nEveryday Spanish words often match **academic** English words (*construir/construct, enorme/enormous, edificio/edifice*), which is a real advantage on Tier 2 vocabulary.\n\n**False cognates** (*falsos amigos*) look alike but differ in meaning:\n\n- *embarazada* = pregnant (not embarrassed)\n- *éxito* = success (not exit)\n- *librería* = bookstore (not library)\n- *carpeta* = folder (not carpet)\n- *actual* = current (not actual)\n\nWhen a student writes 'My aunt is embarrassed, so we will have a new baby,' treat it as a teachable moment. Name the false cognate, add it to a class chart, and teach students to check that a cognate makes sense in context. Never tell students to stop using Spanish; that throws away their best word-learning tool."},
+    {"h": "Morphology: a strategy students can carry anywhere",
+     "md": "Many academic words are built from a small set of parts. A handful of prefixes (*un-, re-, in-/im-/il-/ir-, dis-*) account for a large share of prefixed words, so they give the biggest payoff.\n\nModel the process with a think-aloud: *un-predict-able* = not + say beforehand + able to be, so 'can't be known ahead of time.' Then **check the meaning against the context**.\n\nMemorizing long root lists out of context, or looking up every long word, rarely builds independence. Spanish speakers can also link parts across languages (*predecir/predict, -able/-able*)."},
+    {"h": "Multiple meanings, idioms, and collocations",
+     "md": "- **Multiple-meaning words:** students know one sense and apply it everywhere. *Sharp knife* is clear, but *sharp rise* and *sharp contrast* are not. Other ELA examples: *plot, character, setting, figure*. Contrast the meanings in context, sort example sentences by meaning, and use the known meaning as a bridge.\n- **Idioms** (*break the ice, spill the beans*) can't be worked out word by word. Teach them in context, sketch the literal versus figurative meaning, and connect them to home-language equivalents (Spanish *costar un ojo de la cara* ≈ 'cost an arm and a leg'). Then use them in talk. Don't skip them, and don't assign a list of 50 to memorize.\n- **Collocations** are conventional word partners: *make a mistake, do homework, heavy rain, pay attention*. 'I made my homework' and 'a strong rain' are correct grammar with unconventional pairings, often influenced by the home language (Spanish *hacer* = make/do). Teach collocations as **chunks**: students notice and collect word partners in their reading, then use them. A make/do rule helps a little but has many exceptions."},
+    {"h": "Context clues",
+     "md": "Teach students to read the signal words:\n\n- **Definition:** '…, which means…' or an appositive\n- **Synonym:** '…, or…'\n- **Contrast/antonym:** *unlike, but, however, instead of*. In 'Unlike his gregarious sister, Malik was shy,' *gregarious* means the opposite of shy.\n- **Example:** *such as, for example*\n- **Inference:** the meaning comes from the general sense of the passage\n\nContext clues fail when too many surrounding words are unknown, which is why selective pre-teaching matters for Emerging and Transitioning students."}
+  ],
+  "traps": [
+    "Exam trap: choosing Tier 3 content words (magma, crater) or Tier 1 words for robust instruction instead of high-utility Tier 2 words.",
+    "Exam trap: telling Spanish speakers to stop using cognates because of a false-cognate error. Teach them to verify meaning in context instead.",
+    "Exam trap: dictionary-copy-and-sentence routines, or memorizing long lists of roots or idioms, offered as deep vocabulary instruction.",
+    "Exam trap: labeling 'made my homework' / 'strong rain' as tense, word-order, or false-cognate errors. They are collocation errors.",
+    "Exam trap: pre-teaching every unknown word, or relying only on context clues, when the text is dense with new vocabulary."
+  ],
+  "terms": [
+    {"t": "Tier 1 words", "d": "Basic everyday words (dog, happy, walk) usually learned through conversation."},
+    {"t": "Tier 2 words", "d": "High-utility general academic words used across subjects (analyze, reluctant, consequence). The priority for robust instruction."},
+    {"t": "Tier 3 words", "d": "Low-frequency, domain-specific words (photosynthesis, sonnet). Teach them when the content requires them."},
+    {"t": "Robust vocabulary instruction", "d": "Student-friendly definitions, examples and non-examples, and many interactive encounters with a word over time."},
+    {"t": "Student-friendly definition", "d": "An explanation in everyday language describing how the word is typically used, instead of a dictionary definition."},
+    {"t": "Cognate", "d": "A word that shares form and meaning across languages, e.g., information/información."},
+    {"t": "False cognate", "d": "Look-alike words with different meanings, e.g., embarazada (pregnant) vs. embarrassed."},
+    {"t": "Morphological analysis", "d": "Using prefixes, roots, and suffixes to infer a word's meaning, then confirming it in context."},
+    {"t": "Polysemy", "d": "One word with several related meanings, e.g., sharp knife, sharp rise, sharp contrast."},
+    {"t": "Idiom", "d": "A fixed expression whose meaning can't be worked out from its individual words (spill the beans)."},
+    {"t": "Collocation", "d": "Words that conventionally go together: make a mistake, do homework, heavy rain."},
+    {"t": "Context clue", "d": "Information in the surrounding text (definition, synonym, contrast, example) that helps infer a word's meaning."},
+    {"t": "Frayer model", "d": "A four-square organizer: definition, characteristics, examples, and non-examples of a concept."},
+    {"t": "Realia", "d": "Real objects used to make vocabulary concrete, especially for Entering students."}
+  ],
+  "tip": "For vocabulary items, favor options that are selective (Tier 2), contextual, interactive, and that use the home language (cognates). Avoid options built on lists, copying, or avoidance."
+},
 ]
 
 import json, pathlib
