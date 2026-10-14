@@ -207,31 +207,32 @@
    "type": "application",
    "difficulty": 1,
    "diag": 0,
-   "stem": "A 6th grader scored at the Commanding level on last spring's NYSESLAT. Which of the following best describes her status this school year?",
+   "stem": "A 6th grader scored at the Commanding level on last spring's NYSESLAT but scored Level 2 on the Grades 3–8 ELA test. Which of the following best describes her status this school year?",
    "options": [
-    "She has exited ELL status and is no longer entitled to any ENL services or testing accommodations.",
-    "She is a former ELL who receives continued ENL support and testing accommodations for two years.",
-    "She remains an ELL until she also scores Level 3 or higher on the Grades 3–8 ELA test this spring.",
-    "She is a former ELL who keeps testing accommodations for one more year but no longer receives instructional support."
+    "She remains an ELL, because a student must also score Level 3 or higher on the Grades 3–8 ELA test to exit.",
+    "She has exited and is now a former ELL, because a Commanding score meets the exit criteria by itself.",
+    "She remains an ELL until a re-identification review confirms that her English proficiency is stable across settings.",
+    "She remains an ELL for one more year, since a student must score Commanding two years in a row to exit."
    ],
    "answer": 1,
-   "why": "A Commanding score on the NYSESLAT meets the exit criteria on its own. Exited students become former ELLs and, under Part 154, keep receiving support (for example, Integrated ENL time in K–8) and ELL testing accommodations for two years after exit.",
+   "why": "NYS has two exit routes: Commanding on the NYSESLAT, or Expanding plus Level 3 or higher on the Grades 3–8 ELA test (or 65 or higher on the Regents ELA exam). Commanding meets the exit criteria on its own, so her ELA score does not affect her exit. She is now a former ELL and, under Part 154, keeps receiving support and ELL testing accommodations for two years.",
    "traps": [
     {
      "code": "NYS_POLICY",
-     "note": "Exiting ELL status does not end support; former ELLs keep services and accommodations for two years."
+     "note": "The ELA-test requirement applies only to students who score Expanding. Commanding on the NYSESLAT is sufficient to exit."
     },
     null,
     {
-     "code": "NYS_POLICY",
-     "note": "The ELA-test requirement applies only to students who score Expanding. Commanding alone is sufficient to exit."
+     "code": "TERM",
+     "note": "Re-identification is a review of the initial identification, requested within 45 school days of enrollment; it plays no role in exiting ELL status.",
+     "pair": "re-identification ↔ exit"
     },
     {
      "code": "NYS_POLICY",
-     "note": "Former ELLs receive both continued instructional support and testing accommodations, and for two years, not one."
+     "note": "One Commanding score is enough; NYS does not require a second year of Commanding before a student exits."
     }
    ],
-   "key": "Former ELLs keep ENL support and testing accommodations for two years after exiting."
+   "key": "Commanding on the NYSESLAT exits a student by itself; the ELA-test requirement applies only to the Expanding route."
   },
   {
    "id": "2.1-08",
@@ -244,10 +245,10 @@
     "He takes the NYSITELL within 10 school days, exactly like every other student whose HLQ shows a language other than English.",
     "The Committee on Special Education decides, because the IEP process takes precedence over ELL identification procedures.",
     "He is exempt from ELL identification, because his disability rather than his home language explains his academic needs.",
-    "A Language Proficiency Team reviews the evidence and recommends whether he takes the NYSITELL; its recommendation goes to the superintendent."
+    "A Language Proficiency Team reviews the evidence and decides whether he takes the NYSITELL; a recommendation not to test goes to the superintendent."
    ],
    "answer": 3,
-   "why": "For a student who has an IEP, Part 154 adds a safeguard: a Language Proficiency Team (LPT) considers evidence of the student's English language development and whether the disability, rather than limited English, is the determining factor. The LPT recommends whether the student should take the NYSITELL, and that recommendation goes to the superintendent.",
+   "why": "For a student who has an IEP, Part 154 adds a safeguard: a Language Proficiency Team (LPT) considers evidence of the student's English language development and whether the disability, rather than limited English, is the determining factor. If the LPT finds he may have English language acquisition needs, he takes the NYSITELL; a recommendation not to test goes to the superintendent for a decision.",
    "traps": [
     {
      "code": "NYS_POLICY",
@@ -263,7 +264,7 @@
     },
     null
    ],
-   "key": "Student with an IEP: the Language Proficiency Team decides whether to give the NYSITELL and sends its recommendation to the superintendent."
+   "key": "Student with an IEP: the Language Proficiency Team decides whether to give the NYSITELL; a recommendation not to test goes to the superintendent."
   },
   {
    "id": "2.1-09",
@@ -312,7 +313,7 @@
     "Place her in 9th grade by age and wait for her spring NYSESLAT results before considering whether she might be SIFE."
    ],
    "answer": 2,
-   "why": "After a student is identified as an ELL, NYS schools have 30 school days to determine SIFE status. They use an oral interview questionnaire and, for certain languages, the Multilingual Literacy SIFE Screener (MLS), which looks at home-language literacy and math. Gaps caused by missed schooling are an opportunity-to-learn issue, not evidence of a disability.",
+   "why": "Once a student is identified as an ELL, NYS schools must determine SIFE status within 30 school days of initial enrollment. They use an oral interview questionnaire and, for certain languages, the Multilingual Literacy SIFE Screener (MLS), which looks at home-language literacy and math. Gaps caused by missed schooling are an opportunity-to-learn issue, not evidence of a disability.",
    "traps": [
     {
      "code": "MISREFERRAL",
@@ -419,7 +420,7 @@
     },
     {
      "code": "MISREFERRAL",
-     "note": "Neither ELL identification test screens for disabilities; treating language testing as disability screening confuses language difference with disability."
+     "note": "The NYSITELL does not screen for disabilities; treating an English proficiency test as disability screening confuses language difference with disability."
     },
     {
      "code": "TERM",
@@ -522,8 +523,8 @@
      "pair": "rate of acquisition ↔ ultimate attainment"
     },
     {
-     "code": "PARTIAL",
-     "note": "Aptitude and motivation do matter, but age effects (especially on pronunciation) are well documented, so 'little measurable effect' is wrong."
+     "code": "MISAPPLIED_THEORY",
+     "note": "Aptitude and motivation do matter, but age effects (especially on pronunciation) are well documented, so 'little measurable effect' misreads the research."
     },
     null
    ],
@@ -910,8 +911,8 @@
    "why": "Research on extroversion is mixed: outgoing learners may get more speaking practice and develop oral fluency sooner, but extroversion does not predict overall proficiency, and introverted learners often do well in reading, writing, and accuracy. Planned, structured interaction (partner talk, roles, sentence frames) ensures every student gets oral practice whatever their personality.",
    "traps": [
     {
-     "code": "PARTIAL",
-     "note": "It is right that personality is not destiny, but traits such as extroversion and inhibition do affect how much learners interact, so they matter for planning."
+     "code": "MISAPPLIED_THEORY",
+     "note": "It is right that personality is not destiny, but 'no measurable relationship' misreads the research: traits such as extroversion and inhibition affect how much learners interact, so they matter for planning."
     },
     {
      "code": "LOWER_RIGOR",
@@ -1868,7 +1869,7 @@
    "body": [
     {
      "h": "Why identification matters",
-     "md": "Commissioner's Regulations **CR Part 154** set out exactly how New York identifies, places, serves, and exits English language learners. On the exam these items read like procedure questions, but they really test whether you know the **sequence** and the **clocks**. Wrong answers are almost always real NYS steps put in the wrong place: the NYSESLAT where the NYSITELL belongs, 45 days where 10 belongs, a school choosing a program where parents choose.\n\nKeep one principle in mind: every step protects the student and the family. The interview is in two languages so a home language isn't missed, parents are informed in their own language, and anyone can ask for a second look within a set window."
+     "md": "Commissioner's Regulations **CR Part 154** set out exactly how New York identifies, places, serves, and exits English language learners. On the exam these items read like procedure questions, but they really test whether you know the **sequence** and the **clocks**. Wrong answers are almost always real NYS steps put in the wrong place: the NYSESLAT where the NYSITELL belongs, 45 days where 10 belongs, a school choosing a program where parents choose.\n\nKeep one principle in mind: every step protects the student and the family. The interview is in two languages so a home language isn't missed, parents are informed in their own language, and a parent (or a teacher with parent consent, or a student 18 or older) can ask for a second look within a set window."
     },
     {
      "h": "The identification sequence, step by step",
@@ -1876,11 +1877,11 @@
     },
     {
      "h": "The four clocks (memorize these)",
-     "md": "- **10 school days**: complete identification (HLQ, interview, NYSITELL) from initial enrollment.\n- **5 school days**: send parent notification after the ELL determination.\n- **30 school days**: determine SIFE status after identification.\n- **45 school days**: window to request a **re-identification** review after enrollment.\n\nMemory hook: *\"Ten to test, five to phone home, thirty for SIFE, forty-five for a second look.\"*\n\nTiming items often give a log with school-day numbers. Check each clock separately. In a typical trap, identification is done on day 6 (fine) but the letter goes out on day 14 (late, because day 6 + 5 school days is day 11)."
+     "md": "- **10 school days**: complete identification (HLQ, interview, NYSITELL) from initial enrollment.\n- **5 school days**: send parent notification after the ELL determination.\n- **30 school days**: determine SIFE status (after ELL identification, counted from initial enrollment).\n- **45 school days**: window to request a **re-identification** review after enrollment.\n\nMemory hook: *\"Ten to test, five to phone home, thirty for SIFE, forty-five for a second look.\"*\n\nTiming items often give a log with school-day numbers. Check each clock separately. In a typical trap, identification is done on day 6 (fine) but the letter goes out on day 14 (late, because day 6 + 5 school days is day 11)."
     },
     {
      "h": "Special cases: IEPs, re-identification, SIFE",
-     "md": "**Students with IEPs.** When a newly enrolled student has an IEP, a **Language Proficiency Team (LPT)** looks at the evidence, including whether the disability rather than limited English is the determining factor, and decides whether the student should take the NYSITELL. Its recommendation goes to the **superintendent**. A disability never automatically rules out ELL status.\n\n**Re-identification.** Within **45 school days** of enrollment, a review can be requested by the **parent/guardian**, a **teacher with parent consent**, or the **student if 18 or older**. A teacher cannot start it alone, and parents are not the only ones who can ask.\n\n**SIFE.** Students with interrupted/inconsistent formal education are ELLs who have been in U.S. schools **less than 12 months** and who, on enrollment, are **two or more years below grade level in home-language literacy and/or math** because of interrupted or inadequate schooling. Status is determined within **30 school days** using an **oral interview questionnaire** and, for certain languages, the **MLS (Multilingual Literacy SIFE Screener)**. Gaps caused by missed school are an opportunity-to-learn issue, not evidence of a disability."
+     "md": "**Students with IEPs.** When a newly enrolled student has an IEP, a **Language Proficiency Team (LPT)** looks at the evidence, including whether the disability rather than limited English is the determining factor, and decides whether the student should take the NYSITELL. A recommendation **not** to test goes to the **superintendent** for a decision. A disability never automatically rules out ELL status.\n\n**Re-identification.** Within **45 school days** of enrollment, a review can be requested by the **parent/guardian**, a **teacher with parent consent**, or the **student if 18 or older**. A teacher cannot start it alone, and parents are not the only ones who can ask.\n\n**SIFE.** Students with interrupted/inconsistent formal education are ELLs who have been in U.S. schools **less than 12 months** and who, on enrollment, are **two or more years below grade level in home-language literacy and/or math** because of interrupted or inadequate schooling. Status is determined within **30 school days** using an **oral interview questionnaire** and, for certain languages, the **MLS (Multilingual Literacy SIFE Screener)**. Gaps caused by missed school are an opportunity-to-learn issue, not evidence of a disability."
     },
     {
      "h": "ELL subgroups",
@@ -1929,7 +1930,7 @@
     },
     {
      "t": "Language Proficiency Team (LPT)",
-     "d": "Team that decides whether a newly enrolled student with an IEP takes the NYSITELL; recommendation goes to the superintendent."
+     "d": "Team that decides whether a newly enrolled student with an IEP takes the NYSITELL; a 'don't test' recommendation goes to the superintendent."
     },
     {
      "t": "SIFE",
@@ -1969,7 +1970,7 @@
     },
     {
      "h": "Age: rate versus ultimate attainment",
-     "md": "Separate **how fast** from **how far**:\n\n- **Older learners** (adolescents and adults), especially those with solid schooling, often progress **faster at first** in vocabulary, grammar, and academic language. They bring cognitive maturity, literacy, and content knowledge.\n- **Younger starters** are more likely to reach **native-like pronunciation** in the long run. This is the strongest evidence behind Lenneberg's **Critical Period Hypothesis**.\n\nTraps: 'after puberty you can't become proficient' (overstated), and 'young children learn academic English faster' (confuses rate with attainment). A 15-year-old with excellent English and an accent is showing a normal age effect, not a disorder and not a motivation problem. If pronunciation is addressed at all, aim for **intelligibility**."
+     "md": "Separate **how fast** from **how far**:\n\n- **Older learners** (adolescents and adults), especially those with solid schooling, often progress **faster at first** in vocabulary, grammar, and academic language. They bring cognitive maturity, literacy, and content knowledge.\n- **Younger starters** are more likely to reach **native-like pronunciation** in the long run. This is the strongest evidence for a critical period in second-language learning (Lenneberg's **Critical Period Hypothesis**, extended to L2).\n\nTraps: 'after puberty you can't become proficient' (overstated), and 'young children learn academic English faster' (confuses rate with attainment). A 15-year-old with excellent English and an accent is showing a normal age effect, not a disorder and not a motivation problem. If pronunciation is addressed at all, aim for **intelligibility**."
     },
     {
      "h": "Motivation",

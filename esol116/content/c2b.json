@@ -6,7 +6,7 @@
    "type": "analysis",
    "difficulty": 2,
    "diag": 1,
-   "stimulus": "ENL teacher's intake notes on four grade 8 ELLs who enrolled in the district this month\nStudent | Background | Home-language literacy and math\nStudent 1 | Age 13, from Ukraine; continuous schooling; Entering on the NYSITELL | Reads Ukrainian at grade level; math at grade level\nStudent 2 | Age 13, transferred from a NYC school she has attended since kindergarten | Reads Spanish about two years below grade level\nStudent 3 | Age 14, from Yemen; first time in U.S. schools; his school was closed for three years by war | Reads Arabic at about a grade 4 level\nStudent 4 | Age 14, from China; first time in U.S. schools; continuous schooling | Reads Mandarin at grade level; math about one year below grade level",
+   "stimulus": "ENL teacher's intake notes on four grade 8 ELLs who enrolled in the district this month\nStudent | Background | Home-language literacy and math\nStudent 1 | Age 13, from Ukraine; continuous schooling; Entering on the NYSITELL | Reads Ukrainian at grade level; math at grade level\nStudent 2 | Age 13, transferred from a NYC school she has attended since kindergarten | Reads Spanish about two years below grade level\nStudent 3 | Age 14, from Guatemala; first time in U.S. schools; his rural school had no math teacher for his last three years there | Reads Spanish at about grade level; math about three years below grade level\nStudent 4 | Age 14, from China; first time in U.S. schools; continuous schooling | Reads Mandarin at grade level; math about one year below grade level",
    "stem": "Based on the NYS definition, which student should be identified as a Student with Inconsistent/Interrupted Formal Education (SIFE)?",
    "options": [
     "Student 1",
@@ -15,7 +15,7 @@
     "Student 4"
    ],
    "answer": 2,
-   "why": "NYS defines SIFE as ELLs who have attended U.S. schools for less than 12 months and who, on initial enrollment, are two or more years below grade level in home-language literacy and/or math because of interrupted or inadequate schooling. Student 3 meets every part (new to U.S. schools, a three-year interruption, Arabic literacy about four years below grade 8); limited English alone never makes a student SIFE.",
+   "why": "NYS defines SIFE as ELLs who have attended U.S. schools for less than 12 months and who, on initial enrollment, are two or more years below grade level in home-language literacy and/or math because of interrupted or inadequate schooling. Student 3 qualifies: he is new to U.S. schools, and three years without math instruction left him about three years below grade level in math. Because the definition says 'and/or,' a math gap alone is enough even though his Spanish reading is on grade level. Limited English alone never makes a student SIFE.",
    "traps": [
     {
      "code": "TERM",
@@ -32,7 +32,7 @@
      "note": "Math one year below grade level does not meet the 'two or more years below' threshold, and his home-language literacy is on grade level, so he does not meet the NYS criteria."
     }
    ],
-   "key": "SIFE: under 12 months in U.S. schools and 2+ years below grade level in home-language literacy and/or math due to interrupted schooling."
+   "key": "SIFE: under 12 months in U.S. schools and 2+ years below grade level in home-language literacy or math (either is enough) due to interrupted schooling."
   },
   {
    "id": "2.5-02",
@@ -40,20 +40,20 @@
    "type": "knowledge",
    "difficulty": 1,
    "diag": 0,
-   "stem": "A district enrolls a 15-year-old ELL whose intake interview suggests several years of interrupted schooling. Which of the following best describes how NYS requires the district to determine whether she is SIFE?",
+   "stem": "A district enrolls a 15-year-old whose family reports that she has had several years of interrupted schooling. A counselor asks how NYS sequences her identification. Which statement is accurate?",
    "options": [
-    "Within 30 school days, using an oral interview questionnaire and, for certain languages, the Multilingual Literacy SIFE Screener",
-    "Within 10 school days of enrollment, using her NYSITELL results, since a low score on that test reflects gaps in her prior schooling",
-    "Within 45 school days, through the re-identification process, after her teachers have had time to observe her classroom work",
-    "By the end of the school year, using her first NYSESLAT results to compare her English skills with those of grade-level peers"
+    "She first goes through ELL identification (HLQ, interview, and NYSITELL); SIFE screening follows, since only ELLs can be SIFE",
+    "SIFE screening replaces the NYSITELL for students with interrupted schooling, since an English test can't show what she knows",
+    "SIFE status is decided through a re-identification review, which teachers may request after observing her classwork for 45 school days",
+    "SIFE status is assigned at enrollment based on the family's report, since interrupted schooling is the defining feature of SIFE"
    ],
    "answer": 0,
-   "why": "NYS determines SIFE status within 30 school days of enrollment. The district uses an oral interview questionnaire about the student's schooling history and, for students who speak one of its languages, the Multilingual Literacy SIFE Screener (MLS), which checks home-language literacy. English tests such as the NYSITELL and NYSESLAT can't answer the SIFE question, because SIFE is about gaps in prior schooling, not about English.",
+   "why": "Being an ELL is part of the SIFE definition, so NYS requires the usual Part 154 identification first: the HLQ, the interview in English and the home language, and the NYSITELL, within 10 school days. Only then does the school determine SIFE status, within 30 school days of initial enrollment, using the oral interview questionnaire and, for certain languages, the Multilingual Literacy SIFE Screener (MLS). A family's report starts the inquiry, but SIFE status requires evidence of a gap of two or more years in home-language literacy and/or math.",
    "traps": [
     null,
     {
      "code": "NYS_POLICY",
-     "note": "Ten school days is the deadline for ELL identification, not SIFE determination. The NYSITELL measures English proficiency, so it can't show gaps in home-language literacy or math."
+     "note": "SIFE screening doesn't replace ELL identification. She still goes through the HLQ, interview, and NYSITELL; the SIFE determination comes after she is identified as an ELL."
     },
     {
      "code": "TERM",
@@ -61,11 +61,11 @@
      "note": "Re-identification (within 45 school days) lets a parent, a teacher (with parent consent), or a student 18 or older question ELL status itself. SIFE status is a separate determination made within 30 school days."
     },
     {
-     "code": "ASSESS_INVALID",
-     "note": "The NYSESLAT measures English proficiency and comes far too late. SIFE status depends on home-language literacy and math compared with grade level."
+     "code": "NYS_POLICY",
+     "note": "A family's report of interrupted schooling starts the inquiry but doesn't establish status. SIFE requires ELL status plus evidence (the oral interview questionnaire and, where available, the MLS) of a gap of two or more years."
     }
    ],
-   "key": "SIFE status is decided within 30 school days through an oral interview questionnaire plus the MLS where available; English tests don't determine SIFE."
+   "key": "Only ELLs can be SIFE: complete ELL identification (HLQ, interview, NYSITELL) first, then determine SIFE status within 30 school days of enrollment."
   },
   {
    "id": "2.5-03",
@@ -694,32 +694,32 @@
    "type": "application",
    "difficulty": 3,
    "diag": 0,
-   "stem": "A grade 3 student with an IEP for autism enrolls in a NYS district from the Dominican Republic, and her Home Language Questionnaire indicates that Spanish is spoken at home. Which describes the correct procedure for deciding whether she takes the NYSITELL?",
+   "stem": "A grade 3 student with an IEP for autism enrolls in a NYS district from the Dominican Republic, and her Home Language Questionnaire indicates that Spanish is spoken at home. The district convenes a Language Proficiency Team (LPT). Which question is central to the LPT's work?",
    "options": [
-    "The Committee on Special Education decides, since the student's IEP takes precedence over the ELL identification process",
-    "She is automatically exempt from the NYSITELL, since students who already have IEPs are not screened for ELL status",
-    "The Language Proficiency Team reviews the evidence and decides; a recommendation not to test goes to the superintendent",
-    "She takes the NYSITELL with no review, since every student whose HLQ shows another language is tested within 10 school days"
+    "Whether her disability is severe enough to require a more restrictive special education setting than her IEP now provides",
+    "Which program her parents prefer (TBE, Dual Language, or ENL), so that her IEP services can be scheduled around it",
+    "Whether she may have English acquisition needs, or her disability is the determinant factor in her English proficiency",
+    "Whether her special education services already address her English, so that ENL services can be waived for her"
    ],
    "answer": 2,
-   "why": "In NYS, when a student with an IEP enrolls and the HLQ shows a language other than English, a Language Proficiency Team (LPT) decides whether the student takes the NYSITELL. The team brings together ESOL/bilingual and special education expertise and the parent, and it considers evidence such as language history and the IEP to judge whether the student may have English language acquisition needs. If the LPT recommends that the student not take the NYSITELL, the recommendation goes to the superintendent for a decision.",
+   "why": "When a newly enrolled student with an IEP has an HLQ showing a language other than English, NYS sends the case to a Language Proficiency Team, which brings together ESOL/bilingual and special education expertise and the parent. Using evidence such as her language history, records, and evaluations (including any in Spanish), the LPT judges whether she may have English language acquisition needs or whether her disability is the determinant factor. If it finds possible language needs, she takes the NYSITELL; a recommendation not to test goes to the superintendent for a decision.",
    "traps": [
     {
      "code": "TERM",
      "pair": "CSE ↔ LPT",
-     "note": "The CSE develops the IEP, but NYS gives the NYSITELL decision for a student with an IEP to the Language Proficiency Team, which includes ESOL/bilingual and special education expertise and the parent."
+     "note": "Placement and services for her disability are decisions for the Committee on Special Education. The LPT's question is whether she may have English language acquisition needs."
     },
     {
      "code": "NYS_POLICY",
-     "note": "Students with IEPs are not automatically exempt. Many have English language acquisition needs and are entitled to ELL services along with special education."
+     "note": "Program choice comes after a student is identified as an ELL, at the parent orientation. The LPT's question comes first: whether she should take the NYSITELL at all."
     },
     null,
     {
      "code": "NYS_POLICY",
-     "note": "Most new entrants whose HLQ shows another language go straight to the NYSITELL, but for a student with an IEP, the LPT first decides whether she should take it."
+     "note": "ELLs with disabilities are entitled to both ENL and IEP services; special education never lets a district waive required ENL services."
     }
    ],
-   "key": "Student with an IEP and another home language: the LPT decides about the NYSITELL, and a 'don't test' recommendation goes to the superintendent."
+   "key": "The LPT asks whether a student with an IEP may have English language acquisition needs, or whether the disability is the determinant factor."
   },
   {
    "id": "2.6-09",
