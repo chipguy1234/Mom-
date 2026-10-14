@@ -809,7 +809,135 @@ Q("4.3-14", "analysis", 3,
 
 # ---------------------------------------------------------------- 4.4
 QUESTIONS += [
-#@44a
+Q("4.4-01", "analysis", 2, diag=1,
+  stim="Passage excerpt (grade 5 Integrated ENL/ELA)\n'The villagers were reluctant to leave their homes, even as the eruption grew more intense. Scientists measured the magma rising beneath the crater and urged everyone to evacuate. But Ana's grandmother insisted that the mountain had always protected them.'",
+  stem="The teacher wants to choose three words from this passage for robust, explicit vocabulary instruction. Which set of words is the best choice?",
+  opts=[
+    "reluctant, urged, insisted",
+    "magma, crater, eruption",
+    "homes, mountain, grandmother",
+    "villagers, scientists, protected",
+  ],
+  ans=0,
+  why="Beck, McKeown, and Kucan recommend focusing robust instruction on Tier 2 words: high-utility words that mature language users meet across many contexts and that matter for understanding the text. 'Reluctant,' 'urged,' and 'insisted' appear across subjects and genres and carry the passage's tension. Tier 3 words such as 'magma' and 'crater' are best taught briefly in context or with a visual. Tier 1 words need little instruction for most students, though an Entering student may need a quick picture.",
+  traps=[
+    None,
+    ("TERM", "Tier 2 ↔ Tier 3", "These are Tier 3, domain-specific words. A quick visual or brief explanation in context is enough, and they have low utility outside earth science."),
+    ("TERM", "Tier 2 ↔ Tier 1", "These are Tier 1 everyday words that most students know, or that can be shown with a picture. They don't merit robust instruction."),
+    ("PARTIAL", "'Protected' is a reasonable Tier 2 choice, but 'villagers' and 'scientists' are concrete and easily explained, so the set is weaker."),
+  ],
+  key="Target Tier 2 words (high-utility, cross-content, important to the text) for robust instruction; handle Tier 1 and Tier 3 briefly."),
+
+Q("4.4-02", "scenario", 2, diag=2,
+  stim="Journal entry, grade 7 (Lucía, home language Spanish, Transitioning)\n'My aunt is embarrassed, so in May we will have a new baby in the family. I am very excited!'",
+  stem="How should the teacher best respond to the word choice in Lucía's journal?",
+  opts=[
+    "Advise Lucía to stop relying on Spanish to figure out the meanings of English words, since this habit leads to errors like this one.",
+    "Circle the word, write 'wrong word' in the margin, and move on to the next journal so that Lucía is not singled out in front of others.",
+    "Explain that 'embarazada' and 'embarrassed' are false cognates, add the pair to a class cognate chart, and teach students to check cognates in context.",
+    "Give the class a list of 100 Spanish–English false cognates to memorize for a quiz at the end of the week, so that the error is not repeated.",
+  ],
+  ans=2,
+  why="'Embarazada' means 'pregnant,' while 'embarrassed' is 'avergonzado/a.' The pair is a classic false cognate (falso amigo). Lucía is using a powerful strategy, looking for cognates, that works most of the time; she just needs to learn that some look-alikes differ in meaning. Teaching the pair explicitly, keeping a class chart of cognates and false cognates, and teaching students to confirm cognates in context strengthens the strategy rather than discouraging home-language use.",
+  traps=[
+    ("DEFICIT", "Cognate knowledge is one of a Spanish speaker's greatest vocabulary assets. Discouraging it because of occasional false cognates throws away a powerful strategy."),
+    ("PARTIAL", "Marking the error privately avoids embarrassment, but 'wrong word' doesn't explain the false cognate or teach a strategy for next time."),
+    None,
+    ("ISOLATED", "Memorizing a long decontextualized list is inefficient and quickly forgotten. Students need to learn to verify cognates in context."),
+  ],
+  key="Treat false cognates (embarazada ≠ embarrassed) as teachable moments; strengthen cognate use by teaching students to verify meaning in context."),
+
+Q("4.4-03", "knowledge", 1,
+  stem="According to Beck, McKeown, and Kucan's framework, which group consists entirely of Tier 3 words?",
+  opts=[
+    "analyze, consequence, fortunate",
+    "chlorophyll, sonnet, latitude",
+    "happy, table, walk",
+    "however, although, therefore",
+  ],
+  ans=1,
+  why="Tier 3 words are low-frequency, domain-specific words tied to a particular subject, such as 'chlorophyll' (science), 'sonnet' (literature), and 'latitude' (geography), and are usually taught when the content calls for them. 'Analyze,' 'consequence,' and 'fortunate' are Tier 2 general academic words. Connectives like 'however' and 'therefore' are also treated as high-utility Tier 2 words for ELLs. 'Happy' and 'walk' are Tier 1 everyday words.",
+  traps=[
+    ("TERM", "Tier 3 ↔ Tier 2", "These are Tier 2 words: high-utility academic vocabulary used across many subjects, not tied to one domain."),
+    None,
+    ("TERM", "Tier 3 ↔ Tier 1", "These are Tier 1 basic, everyday words that most students learn through conversation."),
+    ("TERM", "domain-specific ↔ general academic connectives", "Transition words appear in every subject. They are high-utility Tier 2 words, not domain-specific Tier 3 terms."),
+  ],
+  key="Tier 1 = everyday; Tier 2 = high-utility general academic; Tier 3 = low-frequency, domain-specific."),
+
+Q("4.4-04", "application", 3,
+  stim="Words from a grade 4 read-aloud, with Spanish equivalents\nEnglish | Spanish\ninformation | información\ncelebration | celebración\nfamous | famoso\ncurious | curioso\nrapidly | rápidamente",
+  stem="The class includes many students whose home language is Spanish. Which teaching point would best help these students use cognates to figure out new English words on their own?",
+  opts=[
+    "Spanish and English share many Latin roots, so students can safely assume that any English word that looks like a Spanish word has the same meaning.",
+    "Students should look up each new English word in a bilingual dictionary and write the Spanish translation before they begin reading.",
+    "Cognates are learned naturally, so students will recognize them on their own, without instruction, as their English proficiency grows.",
+    "Many English suffixes correspond to Spanish ones (-tion/-ción, -ous/-oso, -ly/-mente), so recognizing the pattern can unlock new words.",
+  ],
+  ans=3,
+  why="Explicitly teaching systematic cognate patterns turns a word list into a transferable strategy. Many English–Spanish cognates follow predictable suffix correspondences: -tion/-ción (information/información), -ous/-oso (famous/famoso), -ly/-mente (rapidly/rápidamente), and -ity/-idad (curiosity/curiosidad). ELLs don't automatically notice cognates, so teachers should point them out, teach the patterns, and remind students to verify meanings, since false cognates exist.",
+  traps=[
+    ("TERM", "cognate ↔ false cognate", "Most look-alikes are true cognates, but 'any word' ignores false cognates such as 'embarazada' and 'éxito.' Students must verify meaning in context."),
+    ("PARTIAL", "Bilingual dictionaries are a legitimate support, but translating every word first builds no strategy students can use independently while reading."),
+    ("MISAPPLIED_THEORY", "Transfer is not automatic. Research shows ELLs often miss cognates unless they are taught to look for them."),
+    None,
+  ],
+  key="Teach cognate patterns explicitly (-tion/-ción, -ous/-oso, -ly/-mente) and teach students to verify meaning; cognate awareness isn't automatic."),
+
+Q("4.4-05", "scenario", 2,
+  stem="Grade 6 Expanding students keep stopping at long words such as 'unpredictable,' 'disagreement,' and 'transportation' while reading a novel. Which strategy will best help them become independent with words like these?",
+  opts=[
+    "Have students look up every unfamiliar long word in a dictionary and copy its definition into a log before they continue reading.",
+    "Give students a list of 50 Latin and Greek roots and their meanings to memorize over the next two weeks for a cumulative test.",
+    "Tell students to skip long words while reading, since most of a passage's meaning comes from the shorter words around them.",
+    "Model breaking words into prefix, root, and suffix (un-predict-able), inferring the meaning, and checking it against context.",
+  ],
+  ans=3,
+  why="Morphological analysis is a high-yield strategy for ELLs because many academic words are built from a small set of prefixes, roots, and suffixes. Modeling the process with a think-aloud (un- = not, predict = say beforehand, -able = can be) and then checking the inferred meaning in context gives students a tool they can use independently. Memorizing long root lists out of context and copying definitions rarely transfers to reading.",
+  traps=[
+    ("PARTIAL", "Dictionaries have a place, but looking up every long word interrupts comprehension and builds no independent word-analysis skill."),
+    ("ISOLATED", "Memorizing a long root list out of context rarely transfers. Students need guided practice analyzing words as they read."),
+    ("LOWER_RIGOR", "Skipping long words gives up on academic vocabulary, and those long words often carry the key meaning."),
+    None,
+  ],
+  key="Teach morphological analysis (prefix-root-suffix) with think-alouds, then confirm meaning in context: a transferable, independent strategy."),
+
+Q("4.4-06", "scenario", 2,
+  stim="Sentences from this week's texts\n1. Ana cut the bread with a sharp knife.\n2. There was a sharp rise in temperature overnight.\n3. The author draws a sharp contrast between the two brothers.",
+  stem="An ENL teacher notices that her Transitioning students understand 'sharp' in sentence 1 but are confused by sentences 2 and 3. Which instructional approach is most effective?",
+  opts=[
+    "Make a chart of each meaning with a sentence from the text and a visual, then have students sort new sentences by meaning and write their own.",
+    "Tell students to look up 'sharp' in the dictionary and use the first definition listed, since that is the word's most common meaning.",
+    "Teach only the academic meanings of 'sharp' from sentences 2 and 3, since students already understand the everyday meaning of the word.",
+    "Avoid texts that use words like 'sharp' figuratively until students reach the Commanding level, since such uses are a source of confusion.",
+  ],
+  ans=0,
+  why="Multiple-meaning (polysemous) words are a common stumbling block: students know one meaning and apply it everywhere. Explicitly contrasting the meanings in context, literal ('sharp knife'), sudden ('sharp rise'), and clear or strong ('sharp contrast'), and having students sort and use them builds flexible, deep word knowledge. The familiar meaning becomes a bridge to the new ones.",
+  traps=[
+    None,
+    ("LITERAL", "The first dictionary entry is often not the meaning in the text; it is the meaning students already know, which caused the confusion."),
+    ("PARTIAL", "Students need the academic meanings, but contrasting them with the known everyday meaning is what makes the new meanings clear and memorable."),
+    ("LOWER_RIGOR", "Avoiding these texts denies access to grade-level language. Multiple-meaning words should be taught, not avoided."),
+  ],
+  key="Teach multiple-meaning words by contrasting everyday and academic senses in context; use the known meaning as a bridge."),
+
+Q("4.4-07", "scenario", 1,
+  stem="A grade 7 class is reading a novel with many idioms, such as 'break the ice' and 'spill the beans.' Which approach best supports the ELLs in the class?",
+  opts=[
+    "Give students a list of 50 common idioms and their meanings to memorize for a weekly quiz throughout the unit.",
+    "Skip over the idioms during discussion, since figurative language is too difficult for ELLs to understand yet.",
+    "Discuss each idiom in context, sketch its literal versus figurative meaning, and invite similar home-language expressions.",
+    "Have students translate each idiom word for word into their home language to work out what the idiom means.",
+  ],
+  ans=2,
+  why="Idioms are figurative: their meaning can't be worked out from the individual words, so ELLs need them taught in context. Contrasting literal and figurative meanings (a quick sketch of someone literally breaking ice is memorable) and connecting to home-language equivalents make idioms stick. Spanish 'costar un ojo de la cara' ('to cost an eye of the face') parallels 'cost an arm and a leg.' Using the idioms in role-plays or discussion moves them into productive use.",
+  traps=[
+    ("ISOLATED", "Memorizing a long list of idioms out of context is quickly forgotten and doesn't help students interpret idioms in the novel."),
+    ("LOWER_RIGOR", "Skipping figurative language denies access to grade-level text. Idioms should be taught, not avoided."),
+    None,
+    ("PARTIAL", "Connecting to the home language is valuable, but word-for-word translation fails because an idiom's meaning isn't the sum of its words."),
+  ],
+  key="Teach idioms in context: contrast literal vs. figurative meaning, connect to home-language equivalents, and use them in talk."),
 ]
 QUESTIONS += [
 #@44b

@@ -1206,7 +1206,7 @@ Rubric (1–4): Claim 3; Evidence 3; Reasoning (explains how evidence supports t
             "Providing simplified English summaries of each unit that leave out technical vocabulary",
         ],
         answer=2,
-        why="Academic English vocabulary in science is largely Latin-based, so many terms have Spanish cognates (evaporación, transparente, conclusión). Because these students already know the concepts and words in Spanish, cognate study turns their home-language literacy into immediate English vocabulary. This reflects Cummins' Common Underlying Proficiency and positive transfer.",
+        why="Academic English vocabulary in science is largely Latin- and Greek-based, so many terms have Spanish cognates (evaporación, transparente, conclusión). Because these students already know the concepts and words in Spanish, cognate study turns their home-language literacy into immediate English vocabulary. This reflects Cummins' Common Underlying Proficiency and positive transfer.",
         traps=[
             {"code": "DEFICIT", "note": "Banning Spanish discards the strong literacy and content knowledge that are the students' greatest asset."},
             {"code": "ISOLATED", "note": "Memorizing definition lists is decontextualized and doesn't use the students' Spanish knowledge."},
@@ -1413,7 +1413,7 @@ Exhibit 4 (writing): Ana: Mia is brave. Bao: She was happy at the end. Chidi: Mi
             "Their writing suggests that they were probably never taught how to find text evidence in the earlier grades.",
         ],
         answer=2,
-        why="The keyed sentence names two exhibits, gives exact data for all three students, and shows the pattern in both scores and work samples (triangulation). That is what Depth of Support looks like when citing a need. Exhibit 2 is still useful, but as evidence of a strength the strategy can build on: they can locate information.",
+        why="The keyed sentence names two exhibits, gives specific data that covers all three students, and shows the pattern in both scores and work samples (triangulation). That is what Depth of Support looks like when citing a need. Exhibit 2 is still useful, but as evidence of a strength the strategy can build on: they can locate information.",
         traps=[
             {"code": "LITERAL", "note": "This is evidence of a strength (locating information), not of the need. It could support the strategy, but it doesn't prove the claim."},
             {"code": "PARTIAL", "note": "It cites only one student, and Chidi does give a reason. A shared need requires evidence for all three."},
@@ -1510,10 +1510,10 @@ Exhibit 4 (writing): Ana: Mia is brave. Bao: She was happy at the end. Chidi: Mi
 GUIDE = dict(
     skill="7.1",
     title="How to Write the 116 Constructed Response",
-    why="The single constructed response is 20% of your score: an analysis of about 400–600 words of exhibits about ELLs, scored on completeness, accuracy, and depth of support.",
+    why="The single constructed response is 20% of your score: a written analysis of about 400–600 words, based on exhibits about ELLs, scored holistically from 1 to 4 on completeness, accuracy, and depth of support.",
     body=[
         dict(h="What the scorers are looking for", md=T("""
-The constructed response is scored on a 4-point scale against three performance characteristics. Know them cold, because everything you put on the page should serve one of them.
+The constructed response is scored holistically on a 4-point scale: scorers give one overall score from 1 to 4 that weighs three performance characteristics together, not a separate score for each. Know them cold, because everything you put on the page should serve one of them.
 
 - **Completeness:** Did you do every bulleted task? Usually that means one strength, one need, one strategy, and an explanation of why the strategy works. Skip one and a 4 is off the table. Watch the qualifiers: if the prompt says the strength and need must be ones "that the students share," one student's strength does not count.
 - **Accuracy:** Is what you say true to the exhibits and to the field? Use correct terms (Transitioning, not "intermediate"; Integrated ENL, not "push-in"), describe theories correctly, and choose a strategy that fits the students' proficiency levels and ages.
@@ -1527,12 +1527,14 @@ Think of the score points this way:
 - **1 (little or no command):** off-task, inaccurate, or largely missing.
 
 Scorers don't reward fancy prose. They reward a response that is easy to check: each task in its own paragraph, evidence labeled by exhibit, and reasoning spelled out.
+
+The prompt asks for about 400–600 words. Length alone earns nothing, but a response well under 400 words rarely has room for the cited evidence and explanation that a 3 or 4 requires.
 """)),
         dict(h="A 60-minute time plan", md=T("""
 Protect a full 60 minutes for the constructed response, and don't let the multiple-choice section eat into it.
 
-- **Minutes 0–5: Read the prompt first.** Underline the task words: *one* strength, *one* need, *share*, and the domain (*writing*, *oral language*, *literacy*). Now you know what to hunt for.
-- **Minutes 5–15: Read and annotate the exhibits.** On scratch paper, make a two-column chart labeled Strength and Need, with a row for each student. Jot evidence with its exhibit number ("Ex 2: 5/5 sequencing"). Look at the NYSESLAT modalities: the highest often suggests the strength, and the lowest the need.
+- **Minutes 0–5: Read the prompt first.** The test is on a computer, so jot down the task words: *one* strength, *one* need, *share*, and the domain (*writing*, *oral language*, *literacy*). Now you know what to hunt for.
+- **Minutes 5–15: Read the exhibits and take notes.** On your scratch materials, make a two-column chart labeled Strength and Need, with a row for each student. Jot evidence with its exhibit number ("Ex 2: 5/5 sequencing"). Look at the NYSESLAT modalities: the highest often suggests the strength, and the lowest the need.
 - **Minutes 15–20: Decide and outline.** Choose the strength–need pair you can prove for every student, then pick ONE strategy that uses the strength to reach the need. Jot two or three theory links.
 - **Minutes 20–50: Write.** Follow the five-paragraph structure below and aim for about 500 words.
 - **Minutes 50–57: Check against the prompt.** Is every bullet answered? Is each claim tied to an exhibit? Does the explanation mention these students, not just ELLs in general?
