@@ -1,0 +1,1709 @@
+<title>TESOL 116 Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@500;600&family=Literata:opsz,wght@7..72,500;7..72,600;7..72,700&display=swap" rel="stylesheet">
+<style>
+/* Layout: a study desk — slim brand band with the 400–600 readiness scale, tabbed workspace below;
+   exam mode swaps into a plain test-center frame. Motif: primary-writing-paper rules (blue lines, red dashed midline). */
+:root{
+  --paper:#F2F5F8; --card:#FFFFFF; --ink:#17212C; --muted:#5A6774; --line:#D8E0E7; --line2:#E8EDF2;
+  --brand:#24557D; --brand-ink:#183D5B; --brand-soft:#E2EBF4; --on-brand:#FFFFFF;
+  --band:#183D5B; --band-ink:#F2F7FB; --band-muted:#B9CCDD;
+  --red:#C2453B; --red-soft:#F8E5E2;
+  --manila:#F5EBCD; --manila-ink:#5B4818;
+  --good:#2D7A4D; --good-soft:#E1F1E6; --warn:#A5680F; --warn-soft:#F8EDD7; --bad:#B4392F; --bad-soft:#F7E2DF;
+  --l0:#AAB5C0; --l1:#C2453B; --l2:#CF7E27; --l3:#BF9A1E; --l4:#5B9B54; --l5:#2D7A4D;
+  --shadow:0 1px 2px rgba(23,33,44,.06),0 6px 18px rgba(23,33,44,.06);
+  --f-display:'Literata',Georgia,'Times New Roman',serif;
+  --f-body:'Atkinson Hyperlegible',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --f-mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --r:12px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0E141A; --card:#16202A; --ink:#E3E9EF; --muted:#97A4B1; --line:#2A3643; --line2:#1F2A35;
+  --brand:#88B7DF; --brand-ink:#B7D4EE; --brand-soft:#1C3246; --on-brand:#0E141A;
+  --band:#112434; --band-ink:#E3ECF4; --band-muted:#8FA9C0;
+  --red:#EE8176; --red-soft:#3A2321;
+  --manila:#373019; --manila-ink:#EAD9A4;
+  --good:#6CC291; --good-soft:#17342A; --warn:#E2AD58; --warn-soft:#382B15; --bad:#F08A80; --bad-soft:#3C2220;
+  --l0:#4A5866; --l1:#E0675C; --l2:#E39A4C; --l3:#D6BA48; --l4:#7DBB74; --l5:#4FAE78;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25);
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --paper:#0E141A; --card:#16202A; --ink:#E3E9EF; --muted:#97A4B1; --line:#2A3643; --line2:#1F2A35;
+  --brand:#88B7DF; --brand-ink:#B7D4EE; --brand-soft:#1C3246; --on-brand:#0E141A;
+  --band:#112434; --band-ink:#E3ECF4; --band-muted:#8FA9C0;
+  --red:#EE8176; --red-soft:#3A2321;
+  --manila:#373019; --manila-ink:#EAD9A4;
+  --good:#6CC291; --good-soft:#17342A; --warn:#E2AD58; --warn-soft:#382B15; --bad:#F08A80; --bad-soft:#3C2220;
+  --l0:#4A5866; --l1:#E0675C; --l2:#E39A4C; --l3:#D6BA48; --l4:#7DBB74; --l5:#4FAE78;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{font-size:17px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);line-height:1.55;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:var(--f-display);line-height:1.2;margin:0;text-wrap:balance;font-weight:600}
+p{margin:0}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--brand);outline-offset:2px;border-radius:6px}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+.small{font-size:.84rem}
+.tiny{font-size:.76rem}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:16px}
+
+/* brand band */
+.band{background:var(--band);color:var(--band-ink)}
+.band .wrap{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:14px 12px}
+.logo{display:flex;align-items:baseline;gap:10px;min-width:0}
+.logo b{font-family:var(--f-display);font-size:1.38rem;font-weight:700;letter-spacing:.01em}
+.logo .ipa{font-family:var(--f-mono);font-size:.78rem;color:var(--band-muted)}
+.logo .sub{display:block;font-size:.76rem;color:var(--band-muted);letter-spacing:.02em}
+.scale{flex:1 1 300px;max-width:420px;min-width:0}
+.scale .lbl{display:flex;justify-content:space-between;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--band-muted)}
+.scale .track{position:relative;height:10px;border-radius:99px;background:rgba(255,255,255,.14);margin:5px 0 3px}
+.scale .fill{position:absolute;inset:0 auto 0 0;border-radius:99px;background:var(--band-ink);opacity:.9;transition:width .6s ease}
+.scale .pass{position:absolute;top:-4px;bottom:-4px;width:2px;background:#E9C46A;left:60%}
+.scale .nums{display:flex;justify-content:space-between;font-size:.74rem;color:var(--band-muted)}
+.scale .nums b{color:var(--band-ink);font-family:var(--f-mono)}
+
+/* tabs */
+.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:var(--card);border-bottom:1px solid var(--line)}
+.tabs .wrap{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.tabs .wrap::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;border:0;background:none;padding:13px 12px 11px;font-weight:700;font-size:.88rem;color:var(--muted);border-bottom:3px solid transparent;white-space:nowrap}
+.tab:hover{color:var(--ink)}
+.tab.on{color:var(--brand);border-bottom-color:var(--brand)}
+.tab .dot{display:inline-block;min-width:18px;padding:0 5px;margin-left:5px;border-radius:99px;background:var(--red);color:#fff;font-size:.7rem;line-height:18px;text-align:center}
+
+main{padding-block:24px 96px}
+.view-title{font-size:1.75rem}
+.ruled{height:12px;max-width:200px;margin:8px 0 18px;opacity:.6;
+  background:
+   linear-gradient(var(--brand),var(--brand)) top/100% 1.5px no-repeat,
+   repeating-linear-gradient(90deg,var(--red) 0 7px,transparent 7px 12px) center/100% 1.5px no-repeat,
+   linear-gradient(var(--brand),var(--brand)) bottom/100% 1.5px no-repeat}
+.lede{color:var(--muted);max-width:68ch;margin-bottom:20px}
+
+.grid{display:grid;gap:16px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.g4{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.stack{display:flex;flex-direction:column;gap:16px}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.row.between{justify-content:space-between}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px;box-shadow:var(--shadow);min-width:0}
+.card.flat{box-shadow:none}
+.card h3{font-size:1.12rem;margin-bottom:6px}
+.eyebrow{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--brand);margin-bottom:6px}
+.eyebrow.red{color:var(--red)}
+.hero-card{border-left:0;background:linear-gradient(0deg,var(--card),var(--card));position:relative;overflow:hidden}
+.hero-card h2{font-size:1.45rem;margin-bottom:8px}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--line);background:var(--card);border-radius:10px;padding:10px 16px;font-weight:700;font-size:.92rem;line-height:1.2;text-align:center}
+.btn:hover{border-color:var(--brand)}
+.btn.pri{background:var(--brand);border-color:var(--brand);color:var(--on-brand)}
+.btn.pri:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent}
+.btn.sm{padding:7px 11px;font-size:.82rem;border-radius:8px}
+.btn.lg{padding:14px 22px;font-size:1rem}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.btn.danger{color:var(--bad);border-color:var(--bad)}
+.linkish{background:none;border:0;padding:0;color:var(--brand);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+
+.chip{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:99px;font-size:.76rem;font-weight:700;background:var(--line2);color:var(--ink);white-space:nowrap}
+.chip .d{width:8px;height:8px;border-radius:50%;background:var(--l0)}
+.lv1 .d{background:var(--l1)} .lv2 .d{background:var(--l2)} .lv3 .d{background:var(--l3)} .lv4 .d{background:var(--l4)} .lv5 .d{background:var(--l5)}
+.chip.trap{background:var(--red-soft);color:var(--red)}
+.chip.good{background:var(--good-soft);color:var(--good)}
+.chip.warn{background:var(--warn-soft);color:var(--warn)}
+.chip.brand{background:var(--brand-soft);color:var(--brand)}
+
+.stat{display:flex;flex-direction:column;gap:2px}
+.stat .n{font-family:var(--f-mono);font-size:1.6rem;font-weight:600;font-variant-numeric:tabular-nums}
+.stat .c{font-size:.78rem;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:14px}
+
+/* level ladder legend */
+.ladder{display:flex;gap:4px;flex-wrap:wrap}
+.ladder span{flex:1 1 90px;font-size:.72rem;font-weight:700;padding:6px 8px;border-radius:8px;background:var(--line2);border-top:4px solid var(--l0)}
+.ladder .lv1{border-top-color:var(--l1)} .ladder .lv2{border-top-color:var(--l2)} .ladder .lv3{border-top-color:var(--l3)} .ladder .lv4{border-top-color:var(--l4)} .ladder .lv5{border-top-color:var(--l5)}
+
+/* bars */
+.bars{display:flex;flex-direction:column;gap:12px}
+.bar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:center}
+.bar .name{font-weight:700;font-size:.9rem;min-width:0}
+.bar .val{font-family:var(--f-mono);font-size:.86rem}
+.bar .track{grid-column:1/-1;height:9px;background:var(--line2);border-radius:99px;position:relative;overflow:hidden}
+.bar .track i{position:absolute;inset:0 auto 0 0;border-radius:99px;background:var(--brand)}
+.bar .track .tgt{position:absolute;top:0;bottom:0;width:2px;background:var(--ink);opacity:.35;left:75%}
+
+/* skill map */
+.skillmap{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px}
+.sk{display:flex;flex-direction:column;gap:4px;text-align:left;background:var(--card);border:1px solid var(--line);border-left:5px solid var(--l0);border-radius:10px;padding:9px 11px;min-width:0}
+.sk:hover{border-color:var(--brand)}
+.sk.lv1{border-left-color:var(--l1)} .sk.lv2{border-left-color:var(--l2)} .sk.lv3{border-left-color:var(--l3)} .sk.lv4{border-left-color:var(--l4)} .sk.lv5{border-left-color:var(--l5)}
+.sk .code{font-family:var(--f-mono);font-size:.72rem;color:var(--muted)}
+.sk .nm{font-weight:700;font-size:.86rem;line-height:1.3}
+.sk .meta{font-size:.74rem;color:var(--muted)}
+
+/* tables */
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{padding:8px 11px;text-align:left;border-bottom:1px solid var(--line2);vertical-align:top}
+th{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:var(--line2)}
+tr:last-child td{border-bottom:0}
+td.num,th.num{text-align:right;font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.plus{font-family:var(--f-mono);font-weight:600;letter-spacing:.08em;color:var(--brand)}
+
+/* player */
+.player{max-width:780px;margin:0 auto}
+.phead{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;justify-content:space-between;margin-bottom:12px}
+.phead .prog{font-family:var(--f-mono);font-size:.86rem;color:var(--muted)}
+.pbar{height:5px;background:var(--line2);border-radius:99px;overflow:hidden;margin-bottom:18px}
+.pbar i{display:block;height:100%;background:var(--brand);transition:width .3s}
+.stim{background:var(--manila);color:var(--manila-ink);border-radius:10px;padding:14px 16px;margin-bottom:16px;font-size:.93rem;white-space:pre-wrap;overflow-wrap:anywhere}
+.stim .stim-h{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;opacity:.8;margin-bottom:6px;white-space:normal}
+.stim table{margin:6px 0;background:rgba(255,255,255,.35);border-radius:6px;white-space:normal}
+.stim th{background:rgba(0,0,0,.06);color:inherit}
+.stim td,.stim th{border-bottom-color:rgba(0,0,0,.08)}
+.stem{font-size:1.08rem;font-weight:700;margin-bottom:14px;line-height:1.45}
+.opts{display:flex;flex-direction:column;gap:9px}
+.optrow{display:flex;gap:6px;align-items:stretch}
+.opt{flex:1;display:flex;gap:12px;align-items:flex-start;text-align:left;background:var(--card);border:1.5px solid var(--line);border-radius:10px;padding:11px 13px;min-width:0;line-height:1.45}
+.opt:hover{border-color:var(--brand)}
+.opt .ol{flex:0 0 26px;height:26px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;font-weight:700;font-size:.8rem;font-family:var(--f-mono)}
+.opt .ot{min-width:0;overflow-wrap:anywhere}
+.opt.sel{border-color:var(--brand);background:var(--brand-soft)}
+.opt.sel .ol{background:var(--brand);border-color:var(--brand);color:var(--on-brand)}
+.opt.struck .ot{text-decoration:line-through;opacity:.45}
+.opt.ok{border-color:var(--good);background:var(--good-soft)}
+.opt.ok .ol{background:var(--good);border-color:var(--good);color:#fff}
+.opt.no{border-color:var(--bad);background:var(--bad-soft)}
+.opt.no .ol{background:var(--bad);border-color:var(--bad);color:#fff}
+.opt[disabled]{cursor:default}
+.strike{flex:0 0 38px;border:1px solid var(--line);background:var(--card);border-radius:10px;color:var(--muted);font-size:.9rem}
+.strike:hover{color:var(--red);border-color:var(--red)}
+.strike.on{color:var(--red);border-color:var(--red);background:var(--red-soft)}
+.pfoot{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-end;margin-top:18px}
+.pfoot .hint{margin-right:auto;font-size:.78rem;color:var(--muted);align-self:center}
+.fb{margin-top:18px;border-radius:12px;border:1px solid var(--line);background:var(--card);overflow:hidden}
+.fb .fbh{padding:12px 16px;font-weight:700;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.fb.ok .fbh{background:var(--good-soft);color:var(--good)}
+.fb.no .fbh{background:var(--bad-soft);color:var(--bad)}
+.fb .fbb{padding:14px 16px;display:flex;flex-direction:column;gap:12px;font-size:.94rem}
+.fb .yours{border-left:3px dashed var(--red);padding-left:12px}
+.keyline{background:var(--manila);color:var(--manila-ink);border-radius:8px;padding:9px 12px;font-size:.9rem}
+.keyline b{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;margin-right:6px}
+details.others summary{cursor:pointer;font-weight:700;font-size:.86rem;color:var(--brand)}
+details.others ul{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:6px;font-size:.88rem}
+.ai{border:1px dashed var(--brand);border-radius:10px;padding:12px 14px;background:var(--brand-soft);font-size:.92rem;white-space:pre-wrap}
+
+/* lesson */
+.lesson{max-width:72ch}
+.lesson h2{font-size:1.6rem;margin-bottom:4px}
+.lesson h3{font-size:1.15rem;margin:26px 0 8px}
+.lesson p{margin:0 0 12px}
+.lesson ul{margin:0 0 12px;padding-left:20px}
+.lesson li{margin-bottom:5px}
+.why{font-size:1rem;color:var(--muted);margin:6px 0 4px}
+.traps{background:var(--red-soft);border-radius:12px;padding:14px 16px;margin:22px 0}
+.traps h4{font-family:var(--f-body);font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red);margin-bottom:8px}
+.traps ul{margin:0;padding-left:18px}
+.terms{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px;margin:10px 0 20px}
+.term{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--card);font-size:.88rem}
+.term b{display:block;margin-bottom:2px}
+.tip{border-left:4px solid var(--brand);background:var(--brand-soft);padding:12px 14px;border-radius:0 10px 10px 0;margin:16px 0}
+.acc{border:1px solid var(--line);border-radius:12px;background:var(--card);overflow:hidden}
+.acc>summary{list-style:none;cursor:pointer;padding:14px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.acc>summary::-webkit-details-marker{display:none}
+.acc>summary h3{font-size:1.05rem}
+.acc[open]>summary{border-bottom:1px solid var(--line2)}
+.acc .inner{padding:8px 10px 12px}
+.lrow{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:9px 8px;border-radius:8px}
+.lrow:hover{background:var(--line2)}
+.lrow .t{font-weight:700;font-size:.92rem;min-width:0}
+.check{color:var(--good);font-weight:700}
+
+/* flashcards */
+.flash{max-width:560px;margin:0 auto}
+.fcard{min-height:240px;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);padding:28px 24px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:12px;cursor:pointer;
+  background-image:linear-gradient(transparent 0 calc(100% - 46px),var(--line2) calc(100% - 46px) calc(100% - 45px),transparent calc(100% - 45px))}
+.fcard .t{font-family:var(--f-display);font-size:1.5rem;font-weight:600}
+.fcard .d{font-size:1rem;max-width:44ch}
+
+/* writing */
+.cr-layout{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:820px){.cr-layout{grid-template-columns:1fr}}
+.exh-tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.exh{background:var(--manila);color:var(--manila-ink);border-radius:10px;padding:14px 16px;font-size:.9rem;white-space:pre-wrap;overflow-wrap:anywhere;max-height:62vh;overflow:auto}
+.exh table{white-space:normal;background:rgba(255,255,255,.35)}
+.exh th{background:rgba(0,0,0,.06);color:inherit}
+textarea.resp{width:100%;min-height:360px;border:1.5px solid var(--line);border-radius:10px;padding:14px;background:var(--card);line-height:1.6;resize:vertical}
+textarea.notes{width:100%;min-height:90px;border:1px dashed var(--line);border-radius:10px;padding:10px;background:var(--card);font-size:.9rem}
+textarea:focus{outline:none;border-color:var(--brand)}
+.wc{display:flex;gap:10px;align-items:center;font-size:.84rem}
+.wc .meter{flex:1;height:7px;background:var(--line2);border-radius:99px;position:relative;overflow:hidden}
+.wc .meter i{position:absolute;inset:0 auto 0 0;background:var(--brand);border-radius:99px}
+.wc .meter .z{position:absolute;top:0;bottom:0;left:57%;width:29%;background:var(--good-soft);opacity:.9}
+.tasklist{margin:8px 0 0;padding-left:20px}
+.tasklist li{margin-bottom:6px}
+.rubric{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.rubric label{display:flex;flex-direction:column;gap:6px;font-weight:700;font-size:.86rem}
+.rubric select{border:1px solid var(--line);border-radius:8px;padding:8px;background:var(--card)}
+.checks{display:flex;flex-direction:column;gap:8px}
+.checks label{display:flex;gap:10px;align-items:flex-start;font-size:.9rem}
+.checks input{margin-top:4px;width:18px;height:18px;flex:0 0 18px}
+.prose{white-space:pre-wrap;font-size:.93rem;line-height:1.65;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;flex-wrap:wrap}
+.seg button{border:0;background:var(--card);padding:8px 13px;font-weight:700;font-size:.84rem;color:var(--muted)}
+.seg button.on{background:var(--brand);color:var(--on-brand)}
+
+/* exam (test-center frame) */
+#exam{position:fixed;inset:0;z-index:100;background:var(--paper);display:flex;flex-direction:column}
+.xbar{background:var(--band);color:var(--band-ink);padding:10px 16px;padding-top:calc(10px + env(safe-area-inset-top,0px));display:flex;gap:10px 18px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.xbar .ttl{font-weight:700;font-size:.9rem;min-width:0}
+.xbar .clock{font-family:var(--f-mono);font-size:1.05rem;font-weight:600;padding:4px 10px;border-radius:8px;background:rgba(255,255,255,.12)}
+.xbar .clock.low{background:#B4392F;color:#fff}
+.xbody{flex:1;overflow:auto;padding:22px 16px 30px}
+.xinner{max-width:820px;margin:0 auto}
+.xfoot{border-top:1px solid var(--line);background:var(--card);padding:10px 16px;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));display:flex;gap:8px;justify-content:space-between;flex-wrap:wrap}
+.xfoot .grp{display:flex;gap:8px;flex-wrap:wrap}
+.navgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(46px,1fr));gap:6px}
+.navgrid button{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:8px 0;font-family:var(--f-mono);font-size:.8rem;position:relative}
+.navgrid button.ans{background:var(--brand-soft);border-color:var(--brand)}
+.navgrid button.flag::after{content:"";position:absolute;top:3px;right:3px;width:7px;height:7px;border-radius:50%;background:var(--red)}
+.navgrid button.cur{outline:2px solid var(--ink)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:.78rem;color:var(--muted)}
+
+/* misc */
+.empty{border:1.5px dashed var(--line);border-radius:12px;padding:22px;text-align:center;color:var(--muted)}
+.callout{border-radius:12px;padding:14px 16px;background:var(--brand-soft)}
+.callout.warn{background:var(--warn-soft)}
+.callout.red{background:var(--red-soft)}
+.insight{display:flex;gap:12px;align-items:flex-start;padding:12px 0;border-bottom:1px solid var(--line2)}
+.insight:last-child{border-bottom:0}
+.insight .ix{flex:0 0 28px;height:28px;border-radius:8px;display:grid;place-items:center;font-weight:700;font-family:var(--f-mono);font-size:.8rem;background:var(--brand-soft);color:var(--brand)}
+.insight .ix.r{background:var(--red-soft);color:var(--red)}
+.trapcard{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 14px;align-items:start;padding:14px 0;border-bottom:1px solid var(--line2)}
+.trapcard:last-child{border-bottom:0}
+.trapcard .rate{font-family:var(--f-mono);font-weight:600;text-align:right}
+.trapcard .fix{grid-column:1/-1;font-size:.88rem;background:var(--line2);border-radius:8px;padding:8px 10px}
+.quad{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.quad div{border-radius:10px;padding:12px;background:var(--line2)}
+.quad .n{font-family:var(--f-mono);font-size:1.4rem;font-weight:600}
+.quad .bad{background:var(--bad-soft)}
+.quad .good{background:var(--good-soft)}
+.quad .warn{background:var(--warn-soft)}
+.qlist{display:flex;flex-direction:column;gap:10px}
+.qitem{border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:var(--card)}
+.qitem .qs{font-weight:700;font-size:.92rem}
+.qitem .qm{font-size:.84rem;color:var(--muted);margin-top:4px}
+.steps{display:flex;flex-direction:column;gap:10px;counter-reset:st}
+.step{display:flex;gap:12px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:var(--card);flex-wrap:wrap}
+.step .num{flex:0 0 30px;height:30px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-family:var(--f-mono);background:var(--brand-soft);color:var(--brand)}
+.step.done .num{background:var(--good);color:#fff}
+.step .body{flex:1 1 220px;min-width:0}
+.step .body b{display:block}
+.milestones{display:flex;gap:0;flex-wrap:wrap}
+.ms{flex:1 1 120px;padding:10px 10px 10px 0;position:relative;font-size:.8rem}
+.ms::before{content:"";display:block;height:4px;border-radius:99px;background:var(--line);margin-bottom:8px}
+.ms.done::before{background:var(--good)}
+.ms.now::before{background:var(--brand)}
+.ms b{display:block;font-size:.84rem}
+.spark{width:100%;height:60px}
+.spark .ln{fill:none;stroke:var(--brand);stroke-width:2}
+.spark .ar{fill:var(--brand-soft)}
+.spark .pass{stroke:var(--red);stroke-dasharray:4 4;stroke-width:1}
+.spark .pt{fill:var(--brand)}
+#toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:10px;font-size:.88rem;font-weight:700;z-index:200;opacity:0;pointer-events:none;transition:opacity .25s;max-width:calc(100% - 32px)}
+#toast.on{opacity:1}
+.confirm{border:1.5px solid var(--bad);background:var(--bad-soft);border-radius:12px;padding:14px 16px}
+input[type=date],input[type=text]{border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:var(--card)}
+.kbd{font-family:var(--f-mono);font-size:.72rem;border:1px solid var(--line);border-bottom-width:2px;border-radius:5px;padding:0 5px}
+@media (max-width:560px){
+  html{font-size:16px}
+  .view-title{font-size:1.45rem}
+  .card{padding:16px}
+  .pfoot .hint{display:none}
+  .pfoot .btn{flex:1 1 auto}
+}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="band">
+  <div class="wrap">
+    <div class="logo"><div><b>TESOL 116</b> <span class="ipa">/ˈtiː.sɑːl/</span><span class="sub">NYSTCE English to Speakers of Other Languages (116) · study simulator</span></div></div>
+    <div class="scale" id="scale" aria-label="Projected score on the 400 to 600 scale"></div>
+  </div>
+</div>
+<nav class="tabs" aria-label="Sections"><div class="wrap" id="tabs"></div></nav>
+<main><div class="wrap" id="view"></div></main>
+<div id="exam" hidden></div>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script type="application/json" id="bank">/*__BANK__*/</script>
+<script>
+(function(){
+'use strict';
+/* ============================== data ============================== */
+const BANK = JSON.parse(document.getElementById('bank').textContent);
+const Q = BANK.questions || [];
+const QM = {}; Q.forEach(q => QM[q.id] = q);
+const LESSONS = {}; (BANK.lessons || []).forEach(l => LESSONS[l.skill] = l);
+const SCEN = BANK.scenarios || [];
+const SCM = {}; SCEN.forEach(s => SCM[s.id] = s);
+const GUIDE = BANK.guide || null;
+
+const COMPS = [
+ {id:1, code:'0001', name:'Language and Language Learning', short:'Language & Learning', weight:13, skills:{
+  '1.1':'Phonology & pronunciation','1.2':'Morphology & word formation','1.3':'Syntax & grammar','1.4':'Semantics, pragmatics & discourse',
+  '1.5':'Theories of second-language acquisition','1.6':'L2 development, transfer & strategies','1.7':'Sociolinguistics & language variation'}},
+ {id:2, code:'0002', name:'Knowledge of English Language Learners', short:'Knowing ELLs', weight:13, skills:{
+  '2.1':'NYS identification & ELL subgroups','2.2':'Individual learner factors','2.3':'Culture, acculturation & identity','2.4':'Culturally responsive-sustaining teaching',
+  '2.5':'SIFE, newcomers & trauma-informed practice','2.6':'ELLs with disabilities','2.7':'Long-term, gifted & other profiles'}},
+ {id:3, code:'0003', name:'ESOL Instructional Planning, Practices, and Assessment', short:'Planning & Assessment', weight:13, skills:{
+  '3.1':'NYS program models (Part 154)','3.2':'Approaches & methods','3.3':'Objectives, language demands & scaffolds','3.4':'Input, interaction & feedback',
+  '3.5':'NYSITELL & NYSESLAT','3.6':'Classroom assessment principles','3.7':'Accommodations & data use'}},
+ {id:4, code:'0004', name:'Instructing English Language Learners in English Language Arts', short:'ELA Instruction', weight:14, skills:{
+  '4.1':'Next Gen ELA & the NLAP','4.2':'Oral language development','4.3':'Foundational literacy & transfer','4.4':'Vocabulary development',
+  '4.5':'Reading complex texts','4.6':'Writing development','4.7':'Literature, culture & home language'}},
+ {id:5, code:'0005', name:'Instructing English Language Learners in the Content Areas', short:'Content-Area Instruction', weight:14, skills:{
+  '5.1':'Sheltered instruction (SIOP, CALLA)','5.2':'Co-teaching & collaboration','5.3':'Mathematics','5.4':'Science',
+  '5.5':'Social studies','5.6':'Academic language across disciplines','5.7':'Assessing content learning'}},
+ {id:6, code:'0006', name:'ESOL Professional Environments', short:'Professional Environments', weight:13, skills:{
+  '6.1':'Federal law & court cases','6.2':'NYS policy & frameworks','6.3':'Family engagement','6.4':'Collaboration & partnerships',
+  '6.5':'Advocacy & equity','6.6':'Reflection & professional growth'}},
+ {id:7, code:'0007', name:'Analysis, Synthesis, and Application', short:'Constructed Response', weight:20, skills:{
+  '7.1':'Spot the significant strength','7.2':'Spot the significant need','7.3':'Choose a strategy that links them','7.4':'Explain with evidence & theory'}}
+];
+const SKILL = {}; COMPS.forEach(c => Object.entries(c.skills).forEach(([k,v]) => SKILL[k] = {code:k, name:v, comp:c.id}));
+const SKILLS = Object.keys(SKILL);
+const compOf = sk => COMPS[(+String(sk).split('.')[0]) - 1];
+
+const TRAPS = {
+ TERM:{label:'Near-miss terms', plain:'You picked a definition that belongs to a neighboring concept.', fix:'Name the concept in your own words first, then check each option against its defining feature, not just its topic.'},
+ PARTIAL:{label:'Good, but not best', plain:'You chose something true or reasonable that is narrower or less complete than the keyed answer.', fix:'The exam asks for the BEST or MOST effective option. Compare your top two: which one meets the student\'s specific need and the stem\'s exact goal?'},
+ DEFICIT:{label:'Deficit lens', plain:'You chose an option that treats the home language or culture as a problem to remove.', fix:'Credited answers treat home language and culture as resources. Be suspicious of options that ban, replace, or "fix" the L1.'},
+ LOWER_RIGOR:{label:'Watering it down', plain:'You chose to simplify the content or lower expectations instead of scaffolding.', fix:'Keep the grade-level text or task and add supports (visuals, frames, L1, chunking). Swapping in easier work is rarely best.'},
+ ISOLATED:{label:'Drills out of context', plain:'You chose rote or decontextualized practice (lists, worksheets, drills).', fix:'Prefer language practice embedded in meaningful content and real communication.'},
+ PASSIVE:{label:'Students just listening', plain:'You chose a teacher-centered option with no student interaction or output.', fix:'Look for structured talk and output: partners, discussion, writing with talk.'},
+ MISREFERRAL:{label:'Difference vs. disability', plain:'You confused normal second-language development with a disability (or delayed a warranted evaluation).', fix:'Ask: does the difficulty also show up in the home language and across settings? Rule out language and instruction first, but don\'t stall a warranted evaluation.'},
+ ONE_SIZE:{label:'Same support for all', plain:'You chose an option that ignores the student\'s level or profile.', fix:'Match the support to the proficiency level and the details given about this student.'},
+ WRONG_LEVEL:{label:'Level mismatch', plain:'The option expects too much or too little for the student\'s stage.', fix:'Place the student on Entering → Commanding first, then choose what that level can do with support.'},
+ OVERCORRECT:{label:'Correcting too much', plain:'You chose heavy or interrupting error correction when meaning was the goal.', fix:'When fluency or meaning is the goal, use recasts or targeted feedback on one or two patterns.'},
+ EXCLUSION:{label:'Waiting until proficient', plain:'You chose to remove the ELL from grade-level work, enrichment, or opportunity.', fix:'ELLs get grade-level content and opportunities now, with support. Removing them or waiting is the trap.'},
+ ASSESS_INVALID:{label:'Testing the wrong thing', plain:'The assessment you chose measures language when it should measure content (or the reverse), or it is biased.', fix:'Ask what the assessment is meant to measure. Remove language barriers when you are measuring content.'},
+ LAW_FACT:{label:'Law & case mix-up', plain:'You attached the wrong holding or detail to a law or court case.', fix:'Anchor each case to one phrase: Lau = same ≠ equal; Castañeda = 3-prong test; Plyler = school for undocumented children; EEOA = "appropriate action."'},
+ NYS_POLICY:{label:'NYS rule slip', plain:'You picked the wrong NYS procedure, timeline, test, or requirement.', fix:'Rehearse the sequence: HLQ → interview → NYSITELL (10 school days) → parent notice (5) → program. Exit = Commanding, or Expanding + ELA Level 3 / Regents 65.'},
+ STEREOTYPE:{label:'Group generalization', plain:'You chose an option that assumes what a student or family is like based on their culture.', fix:'Gather information about the individual; avoid answers built on cultural assumptions.'},
+ FAMILY_BARRIER:{label:'Family communication gap', plain:'You chose a family-communication approach that shuts some families out.', fix:'Use the family\'s preferred language, qualified interpreters (never children), and flexible two-way contact.'},
+ MISAPPLIED_THEORY:{label:'Theory mismatch', plain:'You matched the right idea to the wrong theorist, or misread what a theory implies for teaching.', fix:'Tie each theorist to one claim and one classroom move: Krashen = input, Swain = output, Long = interaction, Vygotsky = ZPD, Cummins = BICS/CALP/CUP.'},
+ LITERAL:{label:'Surface detail', plain:'You reacted to a vivid detail instead of the key evidence or the question actually asked.', fix:'Reread the last sentence of the stem and underline the decisive evidence before you look at the options.'}
+};
+const LEVELS = [
+ {n:0, name:'Not yet assessed'},{n:1, name:'Entering'},{n:2, name:'Emerging'},{n:3, name:'Transitioning'},{n:4, name:'Expanding'},{n:5, name:'Commanding'}
+];
+
+/* ============================== utils ============================== */
+const $ = (s, r=document) => r.querySelector(s);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const LET = 'ABCD';
+const now = () => Date.now();
+function dayStr(t){ const d = t ? new Date(t) : new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); }
+function dayNum(s){ const [y,m,d] = s.split('-').map(Number); return Math.round(new Date(y, m-1, d).getTime()/864e5); }
+const todayNum = () => dayNum(dayStr());
+function hash(str){ let h = 1779033703 ^ str.length; for (let i=0;i<str.length;i++){ h = Math.imul(h ^ str.charCodeAt(i), 3432918353); h = h << 13 | h >>> 19; } return (h >>> 0); }
+function rng(seed){ let a = seed >>> 0; return function(){ a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+function shuffle(arr, r=Math.random){ for (let i=arr.length-1;i>0;i--){ const j = Math.floor(r()*(i+1)); [arr[i],arr[j]] = [arr[j],arr[i]]; } return arr; }
+const pct = (a,b) => b ? Math.round(100*a/b) : 0;
+const plural = (n, w, p) => n + ' ' + (n === 1 ? w : (p || w + 's'));
+function fmtClock(ms){ ms = Math.max(0, ms); const s = Math.floor(ms/1000), h = Math.floor(s/3600), m = Math.floor(s%3600/60), x = s%60; return (h ? h+':'+String(m).padStart(2,'0') : m) + ':' + String(x).padStart(2,'0'); }
+function words(t){ return (String(t||'').trim().match(/\S+/g) || []).length; }
+function toast(msg){ const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove('on'), 2400); }
+function md(s){
+  const blocks = String(s||'').split(/\n\s*\n/);
+  return blocks.map(b => {
+    const lines = b.split('\n').filter(l => l.trim() !== '');
+    if (!lines.length) return '';
+    const inl = t => esc(t).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/(^|[\s(])\*([^*\s][^*]*?)\*(?=[\s).,;:!?]|$)/g, '$1<em>$2</em>');
+    if (lines.every(l => /^\s*[-•]\s+/.test(l))) return '<ul>' + lines.map(l => '<li>' + inl(l.replace(/^\s*[-•]\s+/, '')) + '</li>').join('') + '</ul>';
+    if (lines.some(l => /^\s*[-•]\s+/.test(l))) {
+      let out = '', list = [];
+      const flush = () => { if (list.length){ out += '<ul>' + list.map(x => '<li>'+inl(x)+'</li>').join('') + '</ul>'; list = []; } };
+      lines.forEach(l => { if (/^\s*[-•]\s+/.test(l)) list.push(l.replace(/^\s*[-•]\s+/, '')); else { flush(); out += '<p>'+inl(l)+'</p>'; } });
+      flush(); return out;
+    }
+    return '<p>' + lines.map(inl).join('<br>') + '</p>';
+  }).join('');
+}
+/* stimulus / exhibit text: pipe tables become real tables */
+function richText(s){
+  const lines = String(s||'').split('\n');
+  let out = '', buf = [], tbl = [];
+  const flushText = () => { if (buf.length){ out += esc(buf.join('\n')); buf = []; } };
+  const flushTbl = () => {
+    if (tbl.length){
+      const rows = tbl.map(l => l.split('|').map(c => c.trim())).filter(r => !r.every(c => /^:?-{2,}:?$/.test(c) || c === ''));
+      const clean = rows.map(r => { if (r[0] === '') r.shift(); if (r[r.length-1] === '') r.pop(); return r; });
+      out += '<div class="tbl-wrap"><table><thead><tr>' + clean[0].map(c => '<th>'+esc(c)+'</th>').join('') + '</tr></thead><tbody>' +
+        clean.slice(1).map(r => '<tr>' + r.map(c => '<td>'+esc(c)+'</td>').join('') + '</tr>').join('') + '</tbody></table></div>';
+      tbl = [];
+    }
+  };
+  lines.forEach((l, i) => {
+    const isRow = (l.match(/\|/g) || []).length >= 1 && l.includes(' | ');
+    const nextRow = lines[i+1] != null && lines[i+1].includes(' | ');
+    const prevRow = lines[i-1] != null && lines[i-1].includes(' | ');
+    if (isRow && (nextRow || prevRow)){ flushText(); tbl.push(l); }
+    else { flushTbl(); buf.push(l); }
+  });
+  flushText(); flushTbl();
+  return out.replace(/\n(?=<div class="tbl-wrap">)/g, '').replace(/(<\/div>)\n/g, '$1');
+}
+
+/* ============================== storage ============================== */
+const KEY = 'tesol116.studio.v1';
+let memStore = null;
+function blank(){ return {v:1, updated:0, examDate:'', name:'', att:[], diag:null, check:null, exams:[], exam:null, srs:{}, cards:{}, read:{}, cr:[], crDraft:{}, prefs:{fb:'each'}}; }
+function normalize(s){ const b = blank(); s = Object.assign(b, s || {}); ['att','exams','cr'].forEach(k => { if (!Array.isArray(s[k])) s[k] = []; }); ['srs','cards','read','crDraft','prefs'].forEach(k => { if (!s[k] || typeof s[k] !== 'object') s[k] = {}; }); return s; }
+function loadState(){
+  try { const raw = localStorage.getItem(KEY); if (raw) return normalize(JSON.parse(raw)); } catch(e) {}
+  return normalize(memStore || blank());
+}
+let S = loadState();
+let storageOK = true;
+function save(quiet){
+  S.updated = now();
+  try { localStorage.setItem(KEY, JSON.stringify(S)); storageOK = true; } catch(e){ memStore = S; storageOK = false; }
+  if (!quiet) Sync.schedule();
+}
+
+/* ============================== account sync (db capability) ============================== */
+const Sync = {
+  db:null, base:'', on:false, timer:null, chain:Promise.resolve(), pushedAtt:0, err:'',
+  async init(){
+    try {
+      if (!window.claude || typeof window.claude.use !== 'function') return;
+      const [db, user] = await Promise.all([window.claude.use('db'), window.claude.use('user')]);
+      if (!db || !user) return;
+      const uid = await user.id();
+      if (!uid) return;
+      this.db = db; this.base = 'data/users/' + uid;
+      const snap = await db.doc(this.base + '/main').get();
+      if (snap.exists){
+        const r = snap.data() || {};
+        if ((r.updated || 0) > (S.updated || 0) + 1000){
+          const att = [];
+          for (let i = 0; i < (r.chunks || 0); i++){
+            const cs = await db.doc(this.base + '/att' + i).get();
+            if (cs.exists){ try { JSON.parse(cs.data().a || '[]').forEach(x => att.push(unpackAtt(x))); } catch(e){} }
+          }
+          const st = normalize(JSON.parse(r.json || '{}'));
+          st.att = att; st.updated = r.updated;
+          S = st; try { localStorage.setItem(KEY, JSON.stringify(S)); } catch(e){ memStore = S; }
+          this.pushedAtt = att.length; this.on = true; render(); toast('Loaded your saved progress');
+          return;
+        }
+        this.pushedAtt = Math.min(r.attCount || 0, S.att.length);
+        this.on = true;
+        if ((S.updated || 0) > (r.updated || 0)) this.schedule(1500);
+      } else {
+        this.on = true; this.pushedAtt = 0;
+        if (S.updated) this.schedule(1500);
+      }
+      renderSettingsBadge();
+    } catch(e){ this.on = false; this.err = (e && e.code) || 'unavailable'; }
+  },
+  schedule(ms){ if (!this.on) return; clearTimeout(this.timer); this.timer = setTimeout(() => this.push(), ms || 8000); },
+  push(){ clearTimeout(this.timer); this.chain = this.chain.then(() => this._push()).catch(e => { this.err = (e && e.code) || 'error'; if (e && (e.code === 'invalid_argument' || e.code === 'revoked' || e.code === 'not_granted')) this.on = false; }); return this.chain; },
+  async _push(){
+    if (!this.db || !this.on) return;
+    const CH = 1500, n = S.att.length, chunks = Math.ceil(n / CH);
+    for (let i = Math.floor(this.pushedAtt / CH); i < chunks; i++){
+      await this.db.doc(this.base + '/att' + i).set({a: JSON.stringify(S.att.slice(i*CH, (i+1)*CH).map(packAtt))});
+    }
+    const rest = Object.assign({}, S); delete rest.att;
+    const json = JSON.stringify(rest);
+    if (json.length > 240000) { this.err = 'too_large'; return; }
+    await this.db.doc(this.base + '/main').set({updated: S.updated, chunks, attCount: n, json});
+    this.pushedAtt = n; this.err = '';
+  }
+};
+const packAtt = a => [a.q, a.c, a.ok ? 1 : 0, a.cf, a.s, a.t, a.m];
+const unpackAtt = x => ({q:x[0], c:x[1], ok:!!x[2], cf:x[3], s:x[4], t:x[5], m:x[6]});
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden' && Sync.on) Sync.push(); });
+
+/* ============================== capabilities: Claude ============================== */
+const CAP = {sample:null};
+(async function(){
+  try {
+    if (window.claude && typeof window.claude.use === 'function'){
+      const s = await window.claude.use('sample');
+      if (s){ CAP.sample = s; if (['play','write','exam'].includes(route.tab)) render(); }
+    }
+  } catch(e){}
+})();
+
+/* ============================== stats ============================== */
+let _statsCache = null, _statsLen = -1;
+function stats(){
+  if (_statsCache && _statsLen === S.att.length + S.cr.length * 1000 + S.exams.length * 7) return _statsCache;
+  const by = {};
+  S.att.forEach(a => { const q = QM[a.q]; if (!q) return; (by[q.skill] = by[q.skill] || []).push(a); });
+  const sk = {};
+  SKILLS.forEach(code => {
+    const list = by[code] || [];
+    let num = 0, den = 0, ok = 0, sureNo = 0, unsOk = 0;
+    for (let k = list.length - 1, j = 0; k >= 0; k--, j++){
+      const a = list[k]; const w = Math.pow(0.88, j) * (!a.ok && a.cf === 1 ? 1.25 : 1);
+      num += w * (a.ok ? 1 : 0); den += w;
+    }
+    list.forEach(a => { if (a.ok) ok++; if (!a.ok && a.cf === 1) sureNo++; if (a.ok && a.cf === 0) unsOk++; });
+    const m = list.length ? (num + 0.75) / (den + 1.5) : null;
+    let lv = 0;
+    if (m != null){ lv = m < .45 ? 1 : m < .6 ? 2 : m < .72 ? 3 : m < .85 ? 4 : 5; if (lv === 5 && list.length < 4) lv = 4; }
+    const total = Q.filter(q => q.skill === code).length;
+    const seen = new Set(list.map(a => a.q)).size;
+    sk[code] = {code, n:list.length, ok, m, lv, sureNo, unsOk, total, seen, acc: list.length ? ok/list.length : null};
+  });
+  const comp = {};
+  COMPS.forEach(c => {
+    const arr = Object.keys(c.skills).map(k => sk[k]).filter(x => x.m != null);
+    const n = Object.keys(c.skills).reduce((t,k) => t + sk[k].n, 0);
+    comp[c.id] = {m: arr.length ? arr.reduce((t,x) => t + x.m, 0) / arr.length : null, covered: arr.length, of: Object.keys(c.skills).length, n};
+  });
+  _statsCache = {sk, comp}; _statsLen = S.att.length + S.cr.length * 1000 + S.exams.length * 7;
+  return _statsCache;
+}
+function crRecent(){
+  const scores = [];
+  S.cr.forEach(c => { if (c.score && c.score.o) scores.push({t:c.t, o:c.score.o}); });
+  S.exams.forEach(e => { if (e.crScore && e.crScore.o) scores.push({t:e.finished, o:e.crScore.o}); });
+  scores.sort((a,b) => b.t - a.t);
+  return scores.slice(0, 2);
+}
+function toScaled(p){ return Math.round(p <= .7 ? 400 + (p/.7)*120 : 520 + ((p-.7)/.3)*80); }
+function projection(){
+  const st = stats();
+  const comps = COMPS.slice(0,6);
+  if (comps.some(c => st.comp[c.id].m == null)) return null;
+  const sr = comps.reduce((t,c) => t + c.weight * st.comp[c.id].m, 0) / 80;
+  const cr = crRecent();
+  const crP = cr.length ? cr.reduce((t,x) => t + x.o, 0) / cr.length / 4 : 0.625;
+  const p = 0.8 * sr + 0.2 * crP;
+  return {sr, crP, crAssumed: !cr.length, p, scaled: toScaled(p)};
+}
+function priorities(){
+  const st = stats();
+  return SKILLS.map(code => {
+    const c = compOf(code), x = st.sk[code];
+    const m = x.m == null ? 0.55 : x.m;
+    const w = c.weight / Object.keys(c.skills).length * (c.id === 7 ? 0.45 : 1);
+    const sureRate = x.n ? x.sureNo / x.n : 0;
+    const readRecent = S.read[code] && (now() - S.read[code] < 7*864e5);
+    const pr = (1 - m) * w * (1 + 0.8*sureRate) * (readRecent ? 0.92 : 1) * (x.n === 0 ? 0.9 : 1);
+    return {code, pr, m: x.m, lv: x.lv, n: x.n};
+  }).sort((a,b) => b.pr - a.pr);
+}
+function analyze(atts){
+  const r = {n:0, ok:0, traps:{}, pairs:{}, conf:{so:0, sn:0, uo:0, un:0}, type:{}, diff:{}, secs:0, timed:0, sureMiss:[], comp:{}, skill:{}};
+  atts.forEach(a => {
+    const q = QM[a.q]; if (!q) return;
+    r.n++; if (a.ok) r.ok++;
+    const t = r.type[q.type] = r.type[q.type] || {n:0, ok:0}; t.n++; if (a.ok) t.ok++;
+    const d = r.diff[q.difficulty] = r.diff[q.difficulty] || {n:0, ok:0}; d.n++; if (a.ok) d.ok++;
+    const cc = compOf(q.skill).id; const ce = r.comp[cc] = r.comp[cc] || {n:0, ok:0}; ce.n++; if (a.ok) ce.ok++;
+    const se = r.skill[q.skill] = r.skill[q.skill] || {n:0, ok:0}; se.n++; if (a.ok) se.ok++;
+    if (a.s){ r.secs += a.s; r.timed++; }
+    if (a.cf === 1){ if (a.ok) r.conf.so++; else { r.conf.sn++; r.sureMiss.push(a); } }
+    else if (a.cf === 0){ if (a.ok) r.conf.uo++; else r.conf.un++; }
+    (q.traps || []).forEach((tr, j) => {
+      if (!tr || j === q.answer) return;
+      const e = r.traps[tr.code] = r.traps[tr.code] || {offered:0, chosen:0, qs:[]};
+      e.offered++;
+      if (a.c === j){ e.chosen++; e.qs.push(a.q); if (tr.pair){ const p = r.pairs[tr.pair] = r.pairs[tr.pair] || {n:0, qs:[]}; p.n++; p.qs.push(a.q); } }
+    });
+  });
+  return r;
+}
+
+/* ============================== selection ============================== */
+function diagItems(kind){
+  const want = kind === 'check' ? 2 : 1;
+  const out = [];
+  SKILLS.forEach(code => {
+    const pool = Q.filter(q => q.skill === code);
+    if (!pool.length) return;
+    let q = pool.find(x => x.diag === want) || pool.find(x => x.difficulty === 2 && !x.diag) || pool[0];
+    out.push(q.id);
+  });
+  const r = rng(hash('diag-' + kind));
+  const byComp = {};
+  out.forEach(id => { const c = compOf(QM[id].skill).id; (byComp[c] = byComp[c] || []).push(id); });
+  Object.values(byComp).forEach(a => shuffle(a, r));
+  const order = []; let more = true, k = 0;
+  while (more){ more = false; for (let c = 1; c <= 7; c++){ const a = byComp[c]; if (a && a[k]){ order.push(a[k]); more = true; } } k++; }
+  return order;
+}
+let FORMS = null;
+function forms(){
+  if (FORMS) return FORMS;
+  const used = new Set(Q.filter(q => q.diag).map(q => q.id));
+  const crIds = SCEN.map(s => s.id);
+  FORMS = {};
+  ['A','B','C'].forEach((F, fi) => {
+    const r = rng(hash('form-' + F));
+    const items = [];
+    COMPS.slice(0,6).forEach(c => {
+      const skills = shuffle(Object.keys(c.skills), r);
+      const base = Math.floor(15 / skills.length), extra = 15 - base * skills.length;
+      let got = [];
+      skills.forEach((sk, k) => {
+        const need = base + (k < extra ? 1 : 0);
+        const pool = shuffle(Q.filter(q => q.skill === sk && !used.has(q.id)), r);
+        const pick = []; const want = [2,1,3,2,1,3,2];
+        want.forEach(dv => { if (pick.length < need){ const q = pool.find(x => x.difficulty === dv && !pick.includes(x)); if (q) pick.push(q); } });
+        pool.forEach(x => { if (pick.length < need && !pick.includes(x)) pick.push(x); });
+        pick.forEach(q => { used.add(q.id); got.push(q.id); });
+      });
+      if (got.length < 15){
+        const pool = shuffle(Q.filter(q => compOf(q.skill).id === c.id && !used.has(q.id)), r);
+        pool.slice(0, 15 - got.length).forEach(q => { used.add(q.id); got.push(q.id); });
+      }
+      items.push(...got);
+    });
+    FORMS[F] = {qids: shuffle(items, r), cr: crIds.length ? crIds[[0,2,5][fi] % crIds.length] : null};
+  });
+  return FORMS;
+}
+function seenSet(){ return new Set(S.att.map(a => a.q)); }
+function lastSeenMap(){ const m = {}; S.att.forEach(a => { m[a.q] = a.t; }); return m; }
+function pickFrom(pool, n, opts={}){
+  const seen = lastSeenMap();
+  const scored = pool.map(q => {
+    let sc = Math.random();
+    if (seen[q.id] == null) sc += 3; else sc += Math.min(2.5, (now()/1000 - seen[q.id]) / 86400 / 7);
+    if (opts.diffTarget) sc += q.difficulty === opts.diffTarget ? 0.8 : 0;
+    if (opts.avoidDiag && q.diag) sc -= 1.5;
+    return {q, sc};
+  }).sort((a,b) => b.sc - a.sc);
+  return scored.slice(0, n).map(x => x.q.id);
+}
+function dueReviews(){ const t = todayNum(); return Object.entries(S.srs).filter(([id, v]) => QM[id] && v.d <= t).map(([id]) => id); }
+function pickSmart(n){
+  const pri = priorities().filter(p => Q.some(q => q.skill === p.code));
+  const due = shuffle(dueReviews()).slice(0, Math.round(n * 0.3));
+  const out = [...due];
+  const top = pri.slice(0, 6);
+  const weights = top.map((p, i) => p.pr * (1 - i * 0.08));
+  const st = stats();
+  let guard = 0;
+  while (out.length < n && guard++ < 400){
+    let code;
+    if (Math.random() < 0.8 && top.length){
+      const tot = weights.reduce((a,b) => a+b, 0); let x = Math.random() * tot;
+      code = top[top.length-1].code; for (let i = 0; i < top.length; i++){ x -= weights[i]; if (x <= 0){ code = top[i].code; break; } }
+    } else code = SKILLS[Math.floor(Math.random()*SKILLS.length)];
+    const m = st.sk[code].m;
+    const target = m == null ? 2 : m < .5 ? 1 : m < .8 ? 2 : 3;
+    const pool = Q.filter(q => q.skill === code && !out.includes(q.id));
+    const pick = pickFrom(pool, 1, {diffTarget: target, avoidDiag: true})[0];
+    if (pick) out.push(pick);
+  }
+  return shuffle(out);
+}
+function pickSkill(code, n){ return shuffle(pickFrom(Q.filter(q => q.skill === code), n, {avoidDiag: true})); }
+function pickTrap(code, n){
+  const pool = Q.filter(q => (q.traps || []).some(t => t && t.code === code));
+  return shuffle(pickFrom(pool, n, {avoidDiag: true}));
+}
+function pickQuick(){
+  const out = [];
+  COMPS.slice(0,6).forEach(c => { const pool = Q.filter(q => compOf(q.skill).id === c.id); out.push(...pickFrom(pool, c.id >= 4 && c.id <= 5 ? 3 : 2, {avoidDiag: true})); });
+  return shuffle(out).slice(0, 15);
+}
+
+/* ============================== attempts / SRS ============================== */
+const BOXES = [1, 3, 7, 16, 35];
+function record(qid, c, cf, secs, mode){
+  const q = QM[qid]; if (!q) return false;
+  const ok = c === q.answer;
+  S.att.push({q:qid, c, ok, cf, s:Math.min(900, Math.max(0, Math.round(secs||0))), t:Math.floor(now()/1000), m:mode});
+  if (mode !== 'diag' && mode !== 'check' || !ok) srsUpdate(qid, ok);
+  return ok;
+}
+function srsUpdate(qid, ok){
+  const t = todayNum();
+  const cur = S.srs[qid];
+  if (!ok) S.srs[qid] = {b:0, d:t + 1};
+  else if (cur){ const b = cur.b + 1; if (b >= BOXES.length) delete S.srs[qid]; else S.srs[qid] = {b, d:t + BOXES[b]}; }
+}
+
+/* ============================== routing ============================== */
+let route = {tab:'today'};
+const TABS = [
+  ['today','Today'],['learn','Learn'],['practice','Practice'],['exam','Mock Exam'],['write','Written Response'],['insights','Pinpoint Report'],['cards','Flashcards'],['settings','Settings']
+];
+function go(tab, params){ route = Object.assign({tab}, params || {}); render(); window.scrollTo(0, 0); }
+function renderTabs(){
+  const due = dueReviews().length;
+  $('#tabs').innerHTML = TABS.map(([k, v]) => {
+    const on = route.tab === k || (route.tab === 'play' && k === (P && P.home || 'practice')) || (route.tab === 'lesson' && k === 'learn');
+    const dot = k === 'practice' && due ? '<span class="dot" title="Missed questions due for review">' + due + '</span>' : '';
+    return '<button class="tab' + (on ? ' on' : '') + '" data-act="tab" data-tab="' + k + '">' + v + dot + '</button>';
+  }).join('');
+}
+function renderScale(){
+  const pr = projection();
+  const el = $('#scale');
+  if (!pr){
+    const n = S.att.length;
+    el.innerHTML = '<div class="lbl"><span>Projected score</span><span>520 passes</span></div><div class="track"><div class="fill" style="width:0"></div><div class="pass"></div></div><div class="nums"><span>400</span><span>' + (n ? 'Answer questions in every competency to project' : 'Take the diagnostic to see your baseline') + '</span><span>600</span></div>';
+    return;
+  }
+  const w = Math.max(2, Math.min(100, (pr.scaled - 400) / 2));
+  const gap = 520 - pr.scaled;
+  el.innerHTML = '<div class="lbl"><span>Projected score (estimate)</span><span>520 passes</span></div><div class="track"><div class="fill" style="width:' + w + '%"></div><div class="pass"></div></div><div class="nums"><span>400</span><span><b>~' + pr.scaled + '</b> · ' + (gap > 0 ? gap + ' to go' : 'above the line by ' + (-gap)) + '</span><span>600</span></div>';
+}
+function scrollActiveTab(){ const t = document.querySelector('.tab.on'); if (t && t.parentElement){ const w = t.parentElement; const l = t.offsetLeft - w.offsetLeft; if (l < w.scrollLeft || l + t.offsetWidth > w.scrollLeft + w.clientWidth) w.scrollLeft = Math.max(0, l - 16); } }
+function renderSettingsBadge(){ if (route.tab === 'settings') render(); }
+function render(){
+  renderTabs(); renderScale(); scrollActiveTab();
+  const fn = VIEWS[route.tab] || VIEWS.today;
+  $('#view').innerHTML = fn(route);
+  if (route.tab === 'play') afterPlayRender();
+  if (route.tab === 'write' && route.ws) afterWriteRender();
+}
+
+/* ============================== shared UI bits ============================== */
+function lvChip(lv, label){ return '<span class="chip lv' + lv + '"><span class="d"></span>' + esc(label || LEVELS[lv].name) + '</span>'; }
+function compPlus(p){ if (p == null) return '—'; return p >= .85 ? '++++' : p >= .7 ? '+++' : p >= .5 ? '++' : '+'; }
+function barRow(name, val, valText, opts={}){
+  const w = val == null ? 0 : Math.round(val * 100);
+  return '<div class="bar"><div class="name">' + name + '</div><div class="val">' + (valText != null ? valText : (val == null ? '—' : w + '%')) + '</div><div class="track"><i style="width:' + w + '%;' + (opts.color ? 'background:' + opts.color : '') + '"></i>' + (opts.target ? '<span class="tgt"></span>' : '') + '</div></div>';
+}
+function levelColor(lv){ return 'var(--l' + lv + ')'; }
+function sparkline(vals, opts={}){
+  if (vals.length < 2) return '';
+  const W = 300, H = 60, pad = 4;
+  const xs = i => pad + i * (W - 2*pad) / (vals.length - 1);
+  const ys = v => H - pad - v * (H - 2*pad);
+  const pts = vals.map((v,i) => xs(i).toFixed(1) + ',' + ys(v).toFixed(1)).join(' ');
+  const area = 'M' + xs(0) + ',' + (H-pad) + ' L' + pts.split(' ').join(' L') + ' L' + xs(vals.length-1) + ',' + (H-pad) + ' Z';
+  const last = vals[vals.length-1];
+  return '<svg class="spark" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" role="img" aria-label="' + esc(opts.label || 'trend') + '"><path class="ar" d="' + area + '"/><line class="pass" x1="0" x2="' + W + '" y1="' + ys(.75) + '" y2="' + ys(.75) + '"/><polyline class="ln" points="' + pts + '"/><circle class="pt" cx="' + xs(vals.length-1) + '" cy="' + ys(last) + '" r="3.5"/></svg>';
+}
+function streak(){
+  const days = new Set(S.att.map(a => dayNum(dayStr(a.t * 1000))));
+  let d = todayNum(), n = 0;
+  if (!days.has(d)) d--;
+  while (days.has(d)){ n++; d--; }
+  return n;
+}
+function daysLeft(){ if (!S.examDate) return null; return dayNum(S.examDate) - todayNum(); }
+
+/* ============================== VIEW: today ============================== */
+const VIEWS = {};
+VIEWS.today = function(){
+  const dl = daysLeft();
+  const st = stats();
+  const pr = projection();
+  const hour = new Date().getHours();
+  const greet = (hour < 12 ? 'Good morning' : hour < 18 ? 'Good afternoon' : 'Good evening') + (S.name ? ', ' + esc(S.name) : '');
+  let h = '<h1 class="view-title">' + greet + '</h1><div class="ruled"></div>';
+  h += '<p class="lede">' + (dl == null ? 'Set your exam date in the box on the right and every session gets paced to it.' : dl > 0 ? '<b>' + plural(dl, 'day') + '</b> until your exam on ' + esc(new Date(S.examDate + 'T12:00').toLocaleDateString(undefined, {weekday:'long', month:'long', day:'numeric'})) + '.' : dl === 0 ? '<b>Exam day.</b> Skim your Pinpoint Report and the NY facts sheet, then go get it.' : 'Your exam date has passed. Update it in Settings if you are retaking.') + '</p>';
+
+  const diagDone = S.diag && S.diag.done;
+  h += '<div class="grid g2">';
+  if (!diagDone){
+    const inprog = S.diag && !S.diag.done;
+    const n = inprog ? Object.keys(S.diag.ans).length : 0;
+    const total = diagItems('diag').length;
+    h += '<div class="card hero-card"><div class="eyebrow">Step 1 · Baseline</div><h2>' + (inprog ? 'Finish your diagnostic' : 'Start with the diagnostic') + '</h2>' +
+      '<p class="muted" style="margin-bottom:14px">' + total + ' questions: one from every skill the exam tests, including the written-response skills. Before each answer you tell me whether you\'re sure or guessing, so I can tell a real misconception from a lucky guess. No answers are shown until the end. Takes about 55 minutes, and you can pause anytime.</p>' +
+      (inprog ? '<div class="pbar"><i style="width:' + pct(n, total) + '%"></i></div><p class="small muted" style="margin:-8px 0 14px">' + n + ' of ' + total + ' answered</p>' : '') +
+      '<div class="row"><button class="btn pri lg" data-act="diag-start">' + (inprog ? 'Resume diagnostic' : 'Begin diagnostic') + '</button><button class="btn ghost" data-act="tab" data-tab="learn">See the exam format first</button></div></div>';
+  } else {
+    h += todaySessionCard();
+  }
+  h += '<div class="card"><div class="eyebrow">Exam date</div><div class="row" style="margin-bottom:12px"><input type="date" id="examDate" value="' + esc(S.examDate) + '" aria-label="Exam date"><button class="btn sm" data-act="save-date">Save</button></div>' +
+    '<div class="stats"><div class="stat"><span class="n">' + S.att.length + '</span><span class="c">questions answered</span></div><div class="stat"><span class="n">' + streak() + '</span><span class="c">day streak</span></div><div class="stat"><span class="n">' + (pr ? '~' + pr.scaled : '—') + '</span><span class="c">projected (520 passes)</span></div></div>' +
+    paceBlock() +
+    '<div class="callout" style="margin-top:16px"><div class="eyebrow" style="margin-bottom:4px">The exam at a glance</div><p class="small">90 multiple-choice + 1 written response · 195 minutes · scaled 400–600, <b>520 passes</b> · written response = 20% of the score.</p></div></div>';
+  h += '</div>';
+
+  h += '<div class="card" style="margin-top:16px"><div class="eyebrow">Your road to 520</div>' + milestones() + '</div>';
+
+  if (diagDone){
+    const pri = priorities().slice(0, 8);
+    h += '<div class="grid g2" style="margin-top:16px"><div class="card"><div class="row between"><div><div class="eyebrow">Study plan</div><h3>Highest-payoff skills right now</h3></div><button class="btn sm ghost" data-act="tab" data-tab="insights">Full report</button></div><p class="small muted" style="margin:4px 0 12px">Ranked by how much each skill can raise your score: how weak it is × how much of the exam it covers × how often you missed while sure.</p><div class="stack" style="gap:8px">' +
+      pri.map((p, i) => '<div class="lrow"><div class="t"><span class="mono muted tiny">' + p.code + '</span> ' + esc(SKILL[p.code].name) + '</div><div class="row">' + lvChip(p.lv) + '<button class="btn sm" data-act="lesson" data-skill="' + p.code + '">Lesson</button><button class="btn sm pri" data-act="drill" data-skill="' + p.code + '">Drill</button></div></div>').join('') +
+      '</div></div>' + compSummaryCard() + '</div>';
+  } else {
+    h += '<div class="card" style="margin-top:16px"><div class="eyebrow">How this works</div><div class="grid g4" style="margin-top:8px">' +
+      [['Diagnose','A 45-question baseline shows where you are on every one of the exam\'s skills.'],
+       ['Pinpoint','Each wrong answer is tagged with the kind of trap behind it, so you see why you miss, not just what you missed.'],
+       ['Teach & drill','Lessons and targeted drills for your weakest skills come first. Missed questions come back on a spaced schedule.'],
+       ['Simulate','Three full 195-minute mock exams (90 questions + written response), scored like the real report.']].map(([t,d]) => '<div><b>' + t + '</b><p class="small muted">' + d + '</p></div>').join('') + '</div></div>';
+  }
+  return h;
+};
+function paceBlock(){
+  const dl = daysLeft();
+  if (dl == null || dl < 1) return '';
+  const seen = seenSet().size;
+  const perDay = Math.max(10, Math.min(60, Math.ceil((Q.length - seen) / Math.max(1, dl - 2))));
+  const at = f => { const d = new Date(); d.setDate(d.getDate() + Math.max(0, Math.round(f))); return d.toLocaleDateString(undefined, {month:'short', day:'numeric'}); };
+  const done = k => S.exams.some(e => e.form === k);
+  const plan = dl >= 10 ? [['A', dl * 0.4], ['B', dl * 0.7], ['C', dl - 5]] : dl >= 4 ? [['A', 1], ['C', dl - 2]] : [['A', 0]];
+  return '<div style="margin-top:14px" class="small"><b>Pace:</b> about <b>' + perDay + ' questions a day</b> gets you through the whole bank before the exam.<br><b>Mock exams:</b> ' + plan.map(([k, f]) => 'Test ' + k + (done(k) ? ' ✓' : ' by ' + at(f))).join(' · ') + '</div>';
+}
+function milestones(){
+  const diagDone = S.diag && S.diag.done;
+  const ms = [
+    ['Diagnostic', diagDone],
+    ['Lessons: weak skills', diagDone && priorities().slice(0,10).every(p => S.read[p.code])],
+    ['Mock Exam A', S.exams.some(e => e.form === 'A')],
+    ['Progress check', S.check && S.check.done],
+    ['Mock Exam B', S.exams.some(e => e.form === 'B')],
+    ['3 written responses scored', S.cr.filter(c => c.score).length + S.exams.filter(e => e.crScore).length >= 3],
+    ['Mock Exam C ≥ 75%', S.exams.some(e => e.form === 'C' && e.srPct >= .75)]
+  ];
+  let nowSet = false;
+  return '<div class="milestones">' + ms.map(([t, done]) => { let cls = done ? 'done' : ''; if (!done && !nowSet){ cls = 'now'; nowSet = true; } return '<div class="ms ' + cls + '"><b>' + t + '</b><span class="muted">' + (done ? 'Done' : cls === 'now' ? 'Up next' : 'Later') + '</span></div>'; }).join('') + '</div>';
+}
+function todaySessionCard(){
+  const pri = priorities();
+  const focus = pri.find(p => p.code[0] !== '7') || pri[0];
+  const t = dayStr();
+  const todayAtts = S.att.filter(a => dayStr(a.t * 1000) === t);
+  const drilled = todayAtts.filter(a => a.m === 'drill' && QM[a.q] && QM[a.q].skill === focus.code).length;
+  const lessonDone = S.read[focus.code] && dayStr(S.read[focus.code]) === t;
+  const due = dueReviews().length;
+  const reviewed = todayAtts.filter(a => a.m === 'review').length;
+  const cardsDue = dueCards().length;
+  const cardsDone = Object.values(S.cards).filter(c => c.last && dayStr(c.last) === t).length;
+  const lastCR = Math.max(0, ...S.cr.map(c => c.t || 0), ...S.exams.map(e => e.finished || 0));
+  const crStale = !lastCR || now() - lastCR > 5 * 864e5;
+  const steps = [];
+  steps.push({done: lessonDone, t:'Read the lesson: ' + SKILL[focus.code].name, d:'About 8 minutes. This is your highest-payoff skill right now (' + LEVELS[focus.lv].name + ').', btn:'<button class="btn sm" data-act="lesson" data-skill="' + focus.code + '">Open lesson</button>'});
+  steps.push({done: drilled >= 8, t:'Drill it: 8 questions on ' + focus.code, d:drilled ? drilled + ' answered today.' : 'Each answer comes with feedback on exactly why each wrong option is wrong.', btn:'<button class="btn sm pri" data-act="drill" data-skill="' + focus.code + '">Start drill</button>'});
+  if (due) steps.push({done:false, t:'Review ' + plural(Math.min(due, 12), 'missed question'), d:'Spaced repetition: questions you missed come back until they stick.', btn:'<button class="btn sm" data-act="review">Review now</button>'});
+  else if (reviewed) steps.push({done:true, t:'Missed-question review', d:'All caught up for today.', btn:''});
+  steps.push({done: cardsDone >= 12 || (!cardsDue && cardsDone > 0), t:'Flashcards: ' + (cardsDue ? Math.min(cardsDue, 15) + ' due' : 'key terms'), d:'Five minutes on terms, theorists, and NY facts.', btn:'<button class="btn sm" data-act="tab" data-tab="cards">Flip cards</button>'});
+  if (crStale) steps.push({done:false, t:'Write one constructed response', d:'It\'s 20% of your score. Practice the 60-minute format with exhibits.', btn:'<button class="btn sm" data-act="tab" data-tab="write">Write</button>'});
+  else steps.push({done:false, t:'Smart practice: 10 mixed questions', d:'Weighted toward your weakest skills and mixed so it feels like the real test.', btn:'<button class="btn sm" data-act="smart" data-n="10">Start</button>'});
+  const doneN = steps.filter(s => s.done).length;
+  return '<div class="card hero-card"><div class="row between"><div><div class="eyebrow">Today\'s session · about 40 min</div><h2>' + (doneN === steps.length ? 'Session complete. Nice work.' : 'Here\'s today\'s plan') + '</h2></div><span class="chip brand">' + doneN + '/' + steps.length + ' done</span></div><div class="steps" style="margin-top:10px">' +
+    steps.map((s, i) => '<div class="step' + (s.done ? ' done' : '') + '"><span class="num">' + (s.done ? '✓' : i + 1) + '</span><div class="body"><b>' + esc(s.t) + '</b><span class="small muted">' + s.d + '</span></div>' + s.btn + '</div>').join('') + '</div></div>';
+}
+function compSummaryCard(){
+  const st = stats();
+  return '<div class="card"><div class="eyebrow">By competency</div><h3>Where you stand</h3><p class="small muted" style="margin:4px 0 14px">The tick marks 75%, a comfortable passing margin.</p><div class="bars">' +
+    COMPS.slice(0,6).map(c => { const m = st.comp[c.id].m; return barRow('<span class="mono muted tiny">' + c.code + '</span> ' + esc(c.short), m, m == null ? 'not yet' : Math.round(m*100) + '% <span class="plus">' + compPlus(m) + '</span>', {target:true}); }).join('') +
+    '</div></div>';
+}
+
+/* ============================== VIEW: learn ============================== */
+VIEWS.learn = function(){
+  const st = stats();
+  let h = '<h1 class="view-title">Learn</h1><div class="ruled"></div><p class="lede">One lesson for each of the exam\'s skills, written for this test: the concepts, the NY specifics, and the traps the distractors set. Start with the format overview and the NY facts sheet.</p>';
+  h += '<div class="grid g2" style="margin-bottom:16px">' +
+    '<button class="card" style="text-align:left" data-act="lesson" data-skill="overview"><div class="eyebrow">Start here</div><h3>The 116 exam: format & strategy</h3><p class="small muted">90 multiple-choice + 1 written response, 195 minutes, 520 to pass. How the questions think and how to beat them.</p></button>' +
+    '<button class="card" style="text-align:left" data-act="lesson" data-skill="facts"><div class="eyebrow red">Memorize</div><h3>NY facts sheet</h3><p class="small muted">Part 154 timelines, exit criteria, ENL minutes, accommodations, court cases, theorists, all on one page.</p></button>' +
+    '</div>';
+  h += '<div class="stack">';
+  COMPS.forEach(c => {
+    const sks = Object.keys(c.skills);
+    const read = sks.filter(k => S.read[k]).length;
+    const m = st.comp[c.id].m;
+    h += '<details class="acc"' + (route.open == c.id ? ' open' : '') + '><summary><div><div class="eyebrow">Competency ' + c.code + ' · ' + c.weight + '% of score</div><h3>' + esc(c.name) + '</h3></div><div class="row"><span class="chip">' + (c.id === 7 ? 'Writing guide' : read + '/' + sks.length + ' read') + '</span>' + (m != null ? '<span class="chip brand">' + Math.round(m*100) + '%</span>' : '') + '</div></summary><div class="inner">';
+    if (c.id === 7){
+      h += '<div class="lrow"><div class="t">How to write the 116 constructed response</div><div class="row"><button class="btn sm" data-act="lesson" data-skill="guide">Read guide</button><button class="btn sm pri" data-act="tab" data-tab="write">Practice writing</button></div></div>';
+    }
+    sks.forEach(k => {
+      const x = st.sk[k];
+      const hasLesson = !!LESSONS[k];
+      h += '<div class="lrow"><div class="t"><span class="mono muted tiny">' + k + '</span> ' + esc(c.skills[k]) + (S.read[k] ? ' <span class="check" title="Read">✓</span>' : '') + '</div><div class="row">' + lvChip(x.lv) + (hasLesson ? '<button class="btn sm" data-act="lesson" data-skill="' + k + '">Lesson</button>' : '') + '<button class="btn sm pri" data-act="drill" data-skill="' + k + '">Drill</button></div></div>';
+    });
+    h += '</div></details>';
+  });
+  h += '</div>';
+  return h;
+};
+VIEWS.lesson = function(r){
+  const back = '<button class="btn sm ghost" data-act="tab" data-tab="learn">← All lessons</button>';
+  if (r.skill === 'overview') return back + overviewLesson();
+  if (r.skill === 'facts') return back + factsLesson();
+  const L = r.skill === 'guide' ? GUIDE : LESSONS[r.skill];
+  if (!L) return back + '<div class="empty" style="margin-top:16px">This lesson isn\'t available yet.</div>';
+  const code = r.skill === 'guide' ? null : r.skill;
+  const st = stats();
+  let h = back + '<article class="lesson" style="margin-top:16px"><div class="eyebrow">' + (code ? 'Skill ' + code + ' · ' + esc(compOf(code).name) : 'Competency 0007 · Constructed response') + '</div><h2>' + esc(L.title) + '</h2><div class="ruled"></div>';
+  if (code) h += '<div class="row" style="margin-bottom:8px">' + lvChip(st.sk[code].lv) + '<span class="small muted">' + st.sk[code].seen + ' of ' + st.sk[code].total + ' questions seen</span></div>';
+  h += '<p class="why">' + esc(L.why) + '</p>';
+  (L.body || []).forEach(b => { h += '<h3>' + esc(b.h) + '</h3>' + md(b.md); });
+  if (L.traps && L.traps.length) h += '<div class="traps"><h4>Where the exam tries to trick you</h4><ul>' + L.traps.map(t => '<li>' + esc(t) + '</li>').join('') + '</ul></div>';
+  if (L.terms && L.terms.length) h += '<h3>Key terms (these become flashcards)</h3><div class="terms">' + L.terms.map(t => '<div class="term"><b>' + esc(t.t) + '</b>' + esc(t.d) + '</div>').join('') + '</div>';
+  if (L.tip) h += '<div class="tip"><b>Exam tip:</b> ' + esc(L.tip) + '</div>';
+  h += '<div class="row" style="margin-top:20px">' + (code ? '<button class="btn pri lg" data-act="read-drill" data-skill="' + code + '">Mark read & drill 8 questions</button><button class="btn" data-act="mark-read" data-skill="' + code + '">' + (S.read[code] ? 'Read ✓' : 'Mark as read') + '</button>' : '<button class="btn pri lg" data-act="tab" data-tab="write">Practice a written response</button>') + '</div></article>';
+  return h;
+};
+function overviewLesson(){
+  const rows = COMPS.map(c => '<tr><td class="mono">' + c.code + '</td><td>' + esc(c.name) + '</td><td class="num">' + c.weight + '%</td><td class="num">' + (c.id === 7 ? '1 written' : '≈15') + '</td></tr>').join('');
+  return '<article class="lesson" style="margin-top:16px"><div class="eyebrow">Start here</div><h2>The ESOL (116) exam: format & strategy</h2><div class="ruled"></div>' +
+  '<p class="why">Know the machine before you study for it.</p>' +
+  '<h3>The format</h3><ul><li><b>Computer-based</b> NYSTCE Content Specialty Test, delivered by Pearson.</li><li><b>90 selected-response questions</b> (A–D, one best answer) <b>+ 1 constructed response</b> (an extended written analysis of student exhibits).</li><li><b>195 minutes total.</b> Plan about <b>135 minutes for the multiple choice</b> (≈90 seconds each) and <b>up to 60 for the written response</b>. You manage your own time.</li><li>Scores are scaled <b>400–600</b>. <b>520 passes.</b> Multiple choice = 80% of the score; the written response = 20%.</li></ul>' +
+  '<h3>The competencies</h3><div class="tbl-wrap"><table><thead><tr><th>Code</th><th>Competency</th><th class="num">Weight</th><th class="num">Items</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
+  '<h3>How the questions think</h3>' + md('Most items test **pedagogical content knowledge**: knowing a concept *and* what to do with it in a NY classroom. A typical stem gives you a grade, a program (Integrated ENL, Stand-alone ENL, Bilingual), a proficiency level, and a detail or two, then asks what is **most effective** or what something **best illustrates**.\n\nThe credited answer almost always reflects the same handful of principles:\n- High expectations **with scaffolds** (never simplified content)\n- Students **talking and producing**, not just listening\n- Home language and culture used **as assets**\n- Support **matched to the proficiency level** in the stem\n- **Meaning before form**; feedback that keeps communication going\n- **Valid assessment** that measures what it claims to\n- **Collaboration** with colleagues and **partnership** with families\n- **Equity and advocacy**: access now, not "once they\'re proficient"') +
+  '<h3>A 4-step routine for every question</h3>' + md('- **Read the last sentence of the stem first.** What is it actually asking: best strategy, most likely cause, best example?\n- **Underline the decisive details**: grade, level (Entering → Commanding), program, the student\'s strength.\n- **Predict the answer before you look.** Then find the option that matches.\n- **Down to two? Ask which one does more for *this* student\'s need.** "Good but narrower" is the most common trap.') +
+  '<h3>Pacing plan for test day</h3>' + md('- Minutes 0–60: questions 1–45, then a quick time check (you should be about halfway).\n- Minutes 60–125: questions 46–90. Flag anything you are unsure of; don\'t stall.\n- Minutes 125–185: the written response (5 min plan, 45 write, 10 revise).\n- Minutes 185–195: go back to flagged questions. **Never leave a question blank**; there\'s no penalty for guessing.') +
+  '<div class="tip"><b>The study path here:</b> Diagnostic → lessons and drills on your weakest skills → Mock Exam A → Progress check → Mock Exam B → written responses → Mock Exam C. The Pinpoint Report updates after every answer.</div></article>';
+}
+function factsLesson(){
+  const sec = (t, items) => '<h3>' + t + '</h3><ul>' + items.map(i => '<li>' + i + '</li>').join('') + '</ul>';
+  return '<article class="lesson" style="margin-top:16px"><div class="eyebrow red">Memorize</div><h2>NY facts sheet</h2><div class="ruled"></div><p class="why">The specific facts the exam can ask outright. Skim this the night before.</p>' +
+  sec('Identification (CR Part 154)', ['<b>Home Language Questionnaire (HLQ)</b> + an individual interview (in English and the home language) at enrollment.','If indicated → <b>NYSITELL</b>. The whole identification process is complete within <b>10 school days</b> of initial enrollment.','Parents get the ELL-status notice within <b>5 school days</b>, in their preferred language, then a <b>parent orientation</b> on program options (TBE, Dual Language, ENL).','<b>Re-identification</b> review: can be requested within <b>45 school days</b> of enrollment.','Students with IEPs: the <b>Language Proficiency Team (LPT)</b> decides whether the student takes the NYSITELL.','<b>SIFE</b>: in U.S. schools less than 12 months, and 2+ years below grade level in home-language literacy and/or math because of interrupted or inadequate schooling. Determined within <b>30 school days</b> (oral interview questionnaire; MLS screener for certain languages).']) +
+  sec('ELL subgroups', ['<b>Newcomers</b>: 0–3 years of ELL services · <b>Developing</b>: 4–6 years · <b>Long-Term ELLs</b>: completed 6+ years.','<b>Former ELLs</b>: exited, with <b>2 years</b> of continued support and testing accommodations.','ELLs with disabilities · SIFE.']) +
+  sec('Proficiency, NYSESLAT & exit', ['Five levels: <b>Entering → Emerging → Transitioning → Expanding → Commanding</b>.','NYSESLAT is given every spring and tests <b>listening, speaking, reading, and writing</b>.','<b>Exit</b> = Commanding on the NYSESLAT, <b>or</b> Expanding + Level 3+ on the Grades 3–8 ELA test (or 65+ on the Regents ELA).','ELLs in their first year in U.S. schools may be exempted once from the Grades 3–8 ELA test.']) +
+  sec('ENL minutes per week (grades K–8)', ['<b>Entering</b> 360 (180 Stand-alone + 180 Integrated ENL/ELA)','<b>Emerging</b> 360 (90 Stand-alone + 180 Integrated ENL/ELA + 90 flexible)','<b>Transitioning</b> 180 (90 Integrated ENL/ELA + 90 flexible)','<b>Expanding</b> 180 (Integrated ENL in ELA or another core subject)','<b>Commanding</b> (former ELL) 90 for 2 years','Grades 9–12: Entering is 540 minutes; the other levels follow the same pattern.']) +
+  sec('Programs', ['<b>Bilingual programs</b> (Transitional Bilingual Education or Dual Language) are required when there are <b>20+ ELLs with the same home language in the same grade</b> districtwide.','<b>Dual Language</b>: one-way (mostly one language group) or two-way (ELLs + English-proficient peers). Goals: bilingualism, biliteracy, achievement, sociocultural competence.','<b>ENL</b>: Stand-alone (the ESOL teacher builds English in its own class) and Integrated (co-taught, or taught by a dually certified teacher, within ELA or content).']) +
+  sec('Testing accommodations (ELLs + former ELLs for 2 years)', ['Extended time (e.g., time and a half); separate location or small group.','<b>Bilingual glossaries</b> (word-to-word, no definitions) and <b>translated editions</b> or oral translation on <b>math, science, and social studies</b> tests; students may answer content tests in the home language.','<b>Third reading</b> of the listening passage on ELA tests.','<b>No glossaries or translations on ELA tests.</b>']) +
+  sec('Professional requirements & frameworks', ['CTLE: 175 hours every 5 years. <b>15%</b> must address ELL needs and language acquisition (<b>50%</b> for ESOL and bilingual teachers).','<b>Blueprint for ELL/MLL Success</b>: 8 principles; "all teachers are teachers of ELLs"; rigorous grade-level work; home language and culture as assets; valid assessment; family partnership.','<b>CR-SE Framework</b>: welcoming and affirming environment · high expectations and rigorous instruction · inclusive curriculum and assessment · ongoing professional learning.','<b>Parents\' Bill of Rights for NYS ELLs</b>; <b>NYS Seal of Biliteracy</b>; <b>Aspira Consent Decree</b> (1974, NYC bilingual education).']) +
+  sec('Federal law & landmark cases', ['<b>Title VI</b> (1964): no national-origin discrimination in federally funded programs.','<b>Bilingual Education Act</b> (1968, Title VII). <b>May 25, 1970 OCR memo</b>: take affirmative steps; don\'t place students in special education because of English; tell parents in their language.','<b>Lau v. Nichols</b> (1974): the same books, teachers, and classes ≠ equal opportunity.','<b>EEOA</b> (1974): "appropriate action to overcome language barriers."','<b>Castañeda v. Pickard</b> (1981): the 3 prongs: sound theory → effective implementation with resources → proven results.','<b>Plyler v. Doe</b> (1982): undocumented children have a right to free public K–12 education.','<b>Meyer v. Nebraska</b> (1923): struck down a ban on teaching foreign languages.','<b>NCLB</b> (2001) Title III → <b>ESSA</b> (2015): English-proficiency accountability moved into Title I; standardized statewide entry and exit procedures.','<b>2015 DOJ/OCR Dear Colleague letter</b>: districts\' obligations to ELs and their parents.']) +
+  sec('Theorists in one line each', ['<b>Krashen</b>: acquisition vs. learning, Monitor, Natural Order, Input (i+1), Affective Filter.','<b>Cummins</b>: BICS (~1–3 years) vs. CALP (~5–7+ years); Common Underlying Proficiency (iceberg); thresholds.','<b>Swain</b>: Output (noticing the gap). <b>Long</b>: Interaction (negotiation of meaning). <b>Schmidt</b>: Noticing.','<b>Vygotsky</b>: ZPD and social learning → scaffolding. <b>Chomsky</b>: LAD and Universal Grammar. <b>Skinner</b>: habit formation (Audiolingual).','<b>Selinker</b>: interlanguage, fossilization. <b>Lado</b>: Contrastive Analysis. <b>Corder</b>: errors vs. mistakes.','<b>Canale & Swain</b>: grammatical, sociolinguistic, discourse, and strategic competence.','<b>Gardner & Lambert</b>: integrative vs. instrumental motivation. <b>Schumann</b>: acculturation and social distance.','<b>Thomas & Collier</b>: dual language gives the strongest long-term results. <b>García</b>: translanguaging. <b>Moll</b>: funds of knowledge.']) +
+  '</article>';
+}
+
+/* ============================== VIEW: practice ============================== */
+VIEWS.practice = function(){
+  const due = dueReviews().length;
+  const st = stats();
+  const an = analyze(S.att.slice(-500));
+  let h = '<h1 class="view-title">Practice</h1><div class="ruled"></div><p class="lede">' + Q.length + ' exam-style questions. Every wrong option is tagged with the trap behind it, so the feedback tells you exactly why your pick was wrong.</p>';
+  h += '<div class="grid g3">' +
+    '<div class="card"><div class="eyebrow">Recommended</div><h3>Smart practice</h3><p class="small muted" style="margin-bottom:12px">Leans on your weakest skills, mixes in missed questions, and raises the difficulty as you improve.</p><div class="row"><button class="btn pri" data-act="smart" data-n="10">10 questions</button><button class="btn" data-act="smart" data-n="20">20</button></div></div>' +
+    '<div class="card"><div class="eyebrow red">Spaced review</div><h3>Missed questions</h3><p class="small muted" style="margin-bottom:12px">' + (due ? due + ' due today. Answer options are reshuffled so you can\'t rely on position.' : 'Nothing due. Misses come back after 1, 3, 7, 16, and 35 days.') + '</p><button class="btn' + (due ? ' pri' : '') + '" data-act="review"' + (due ? '' : ' disabled') + '>Review ' + (due ? Math.min(due, 15) : '') + '</button></div>' +
+    '<div class="card"><div class="eyebrow">Exam pacing</div><h3>Quick 15</h3><p class="small muted" style="margin-bottom:12px">15 questions weighted like the real test, a 22-minute clock, and answers revealed at the end. Builds the 90-seconds-per-question rhythm.</p><button class="btn" data-act="quick">Start timed set</button></div>' +
+    '</div>';
+  const trapList = Object.entries(an.traps).filter(([k, v]) => v.chosen > 0).sort((a,b) => b[1].chosen - a[1].chosen).slice(0, 6);
+  h += '<div class="card" style="margin-top:16px"><div class="eyebrow red">Pattern drills</div><h3>Practice against the traps you fall for</h3><p class="small muted" style="margin-bottom:12px">Each drill pulls questions whose wrong options use that trap, so you learn to spot and reject it.</p>';
+  if (trapList.length) h += '<div class="row">' + trapList.map(([k, v]) => '<button class="btn sm" data-act="trapdrill" data-code="' + k + '">' + esc(TRAPS[k].label) + ' <span class="chip trap">' + v.chosen + '×</span></button>').join('') + '</div>';
+  else h += '<div class="row">' + ['PARTIAL','LOWER_RIGOR','TERM','MISREFERRAL','NYS_POLICY','EXCLUSION'].map(k => '<button class="btn sm" data-act="trapdrill" data-code="' + k + '">' + esc(TRAPS[k].label) + '</button>').join('') + '</div>';
+  h += '</div>';
+  h += '<h2 style="font-size:1.25rem;margin:26px 0 12px">By skill</h2><div class="stack">';
+  COMPS.forEach(c => {
+    h += '<details class="acc"><summary><div><div class="eyebrow">' + c.code + '</div><h3>' + esc(c.name) + '</h3></div><span class="chip">' + Object.keys(c.skills).reduce((t,k) => t + st.sk[k].total, 0) + ' questions</span></summary><div class="inner">';
+    Object.keys(c.skills).forEach(k => {
+      const x = st.sk[k];
+      h += '<div class="lrow"><div class="t"><span class="mono muted tiny">' + k + '</span> ' + esc(c.skills[k]) + ' <span class="tiny muted">' + x.seen + '/' + x.total + ' seen' + (x.n ? ' · ' + Math.round(x.acc*100) + '% correct' : '') + '</span></div><div class="row">' + lvChip(x.lv) + '<button class="btn sm pri" data-act="drill" data-skill="' + k + '">Drill 8</button><button class="btn sm" data-act="drill" data-skill="' + k + '" data-n="99">All</button></div></div>';
+    });
+    h += '</div></details>';
+  });
+  h += '</div><div class="row" style="margin-top:18px"><span class="small muted">Feedback timing:</span><div class="seg" role="group" aria-label="Feedback timing"><button class="' + (S.prefs.fb !== 'end' ? 'on' : '') + '" data-act="pref-fb" data-v="each">After each question</button><button class="' + (S.prefs.fb === 'end' ? 'on' : '') + '" data-act="pref-fb" data-v="end">At the end of the set</button></div></div>';
+  return h;
+};
+
+/* ============================== PLAYER ============================== */
+let P = null;
+function startPlayer(cfg){
+  P = Object.assign({i:0, sel:null, struck:{}, answers:{}, revealed:false, qStart:now(), startedAt:now(), home:'practice', feedback: S.prefs.fb !== 'end', shuffle:false, order:{}}, cfg);
+  if (!P.qids.length){ toast('No questions available for that set yet'); P = null; return; }
+  if (P.shuffle) P.qids.forEach(id => { P.order[id] = shuffle([0,1,2,3]); });
+  go('play');
+}
+function curQ(){ return QM[P.qids[P.i]]; }
+function dispOrder(id){ return P.order[id] || [0,1,2,3]; }
+VIEWS.play = function(){
+  if (!P) return VIEWS.practice();
+  if (P.done) return playSummary();
+  const q = curQ();
+  const total = P.qids.length;
+  const ord = dispOrder(q.id);
+  const isDiag = P.mode === 'diag' || P.mode === 'check';
+  const showSkill = !isDiag && P.mode !== 'quick';
+  let h = '<div class="player"><div class="phead"><div class="row"><span class="chip brand">' + esc(P.title) + '</span>' + (showSkill ? '<span class="chip">' + q.skill + ' · ' + esc(SKILL[q.skill].name) + '</span>' : '') + '</div><div class="row"><span class="prog">' + (P.i + 1) + ' / ' + total + '</span>' + (P.limit ? '<span class="prog mono" id="setclock"></span>' : '') + '<button class="btn sm ghost" data-act="quit">' + (isDiag ? 'Pause' : 'End set') + '</button></div></div>';
+  h += '<div class="pbar"><i style="width:' + pct(P.i, total) + '%"></i></div>';
+  if (q.stimulus) h += '<div class="stim"><div class="stim-h">Read the information below</div>' + richText(q.stimulus) + '</div>';
+  h += '<div class="stem">' + esc(q.stem) + '</div><div class="opts" role="radiogroup" aria-label="Answer options">';
+  const ans = P.answers[q.id];
+  ord.forEach((oi, di) => {
+    let cls = 'opt';
+    if (P.revealed){ if (oi === q.answer) cls += ' ok'; else if (ans && ans.c === oi) cls += ' no'; }
+    else if (P.sel === oi) cls += ' sel';
+    if (P.struck[q.id + ':' + oi] && !P.revealed) cls += ' struck';
+    h += '<div class="optrow"><button class="' + cls + '" role="radio" aria-checked="' + (P.sel === oi) + '" data-act="pick" data-o="' + oi + '"' + (P.revealed ? ' disabled' : '') + '><span class="ol">' + LET[di] + '</span><span class="ot">' + esc(q.options[oi]) + '</span></button>' + (P.revealed ? '' : '<button class="strike' + (P.struck[q.id + ':' + oi] ? ' on' : '') + '" data-act="strike" data-o="' + oi + '" aria-label="Cross out option ' + LET[di] + '" title="Cross out">✕</button>') + '</div>';
+  });
+  h += '</div>';
+  if (P.revealed) h += feedbackBlock(q, ans.c, ord);
+  else {
+    const dis = P.sel == null ? ' disabled' : '';
+    if (isDiag) h += '<div class="pfoot"><span class="hint">Keys: <span class="kbd">A</span>–<span class="kbd">D</span> to choose. How sure are you?</span><button class="btn" data-act="submit" data-cf="0"' + dis + '>Guessing → next</button><button class="btn pri" data-act="submit" data-cf="1"' + dis + '>Sure → next</button></div>';
+    else if (P.mode === 'quick' || !P.feedback) h += '<div class="pfoot"><span class="hint">Keys: <span class="kbd">A</span>–<span class="kbd">D</span>, <span class="kbd">Enter</span></span><button class="btn" data-act="submit" data-cf="0"' + dis + '>Not sure → next</button><button class="btn pri" data-act="submit" data-cf="1"' + dis + '>Sure → next</button></div>';
+    else h += '<div class="pfoot"><span class="hint">Keys: <span class="kbd">A</span>–<span class="kbd">D</span>, <span class="kbd">Enter</span>. Telling me how sure you are sharpens the report.</span><button class="btn" data-act="submit" data-cf="0"' + dis + '>Check · not sure</button><button class="btn pri" data-act="submit" data-cf="1"' + dis + '>Check · I\'m sure</button></div>';
+  }
+  h += '</div>';
+  return h;
+};
+function feedbackBlock(q, c, ord){
+  const ok = c === q.answer;
+  const L = i => LET[ord.indexOf(i)];
+  const tr = !ok && c >= 0 ? q.traps[c] : null;
+  let h = '<div class="fb ' + (ok ? 'ok' : 'no') + '"><div class="fbh">' + (ok ? '✓ Correct' : c < 0 ? 'Not answered. The answer is ' + L(q.answer) : '✗ Not quite. The best answer is ' + L(q.answer)) + (tr ? '<span class="chip trap">Trap: ' + esc((TRAPS[tr.code] || {}).label || tr.code) + '</span>' : '') + '</div><div class="fbb">';
+  if (tr){
+    h += '<div class="yours"><b>Why ' + L(c) + ' is tempting but wrong:</b> ' + esc(tr.note) + (tr.pair ? '<div class="small" style="margin-top:4px"><b>You mixed up:</b> ' + esc(tr.pair) + '</div>' : '') + '<div class="small muted" style="margin-top:4px"><b>Pattern fix:</b> ' + esc(TRAPS[tr.code] ? TRAPS[tr.code].fix : '') + '</div></div>';
+  }
+  h += '<div><b>Why ' + L(q.answer) + ' is best:</b> ' + esc(q.why) + '</div>';
+  h += '<div class="keyline"><b>Takeaway</b>' + esc(q.key) + '</div>';
+  const others = ord.filter(i => i !== q.answer && i !== c);
+  if (others.length) h += '<details class="others"><summary>Why the other options are wrong</summary><ul>' + others.map(i => '<li><b>' + L(i) + '</b> <span class="chip trap" style="margin:0 4px">' + esc((TRAPS[q.traps[i] && q.traps[i].code] || {}).label || '') + '</span>' + esc(q.traps[i] ? q.traps[i].note : '') + '</li>').join('') + '</ul></details>';
+  h += '<div class="row">' + (LESSONS[q.skill] ? '<button class="btn sm" data-act="lesson" data-skill="' + q.skill + '">Lesson ' + q.skill + '</button>' : '') + (CAP.sample ? '<button class="btn sm" data-act="ask" data-q="' + q.id + '">' + (ok ? 'Explain it another way' : 'Ask Claude why') + '</button>' : '') + '</div><div id="askout"></div>';
+  h += '</div></div>';
+  if (P && P.revealed) h += '<div class="pfoot"><button class="btn pri lg" data-act="next">' + (P.i + 1 < P.qids.length ? 'Next question →' : 'See results') + '</button></div>';
+  return h;
+}
+let setClockTimer = null;
+function afterPlayRender(){
+  clearInterval(setClockTimer);
+  if (P && P.limit && !P.done){
+    const tick = () => { const el = $('#setclock'); if (!el){ clearInterval(setClockTimer); return; } const left = P.limit - (now() - P.startedAt); el.textContent = '⏱ ' + fmtClock(left); if (left <= 0){ clearInterval(setClockTimer); toast('Time! Here are your results.'); finishSet(); } };
+    tick(); setClockTimer = setInterval(tick, 1000);
+  }
+}
+function submitAnswer(cf){
+  if (!P || P.sel == null) return;
+  const q = curQ();
+  const secs = (now() - P.qStart) / 1000;
+  const ok = record(q.id, P.sel, cf, secs, P.mode);
+  P.answers[q.id] = {c:P.sel, ok, cf, s:secs};
+  if (P.mode === 'diag' || P.mode === 'check'){
+    const D = S[P.mode]; D.ans[q.id] = {c:P.sel, cf}; D.i = P.i + 1;
+  }
+  save();
+  if (P.feedback && P.mode !== 'quick' && P.mode !== 'diag' && P.mode !== 'check'){ P.revealed = true; render(); }
+  else nextQ();
+}
+function nextQ(){
+  P.i++; P.sel = null; P.revealed = false; P.qStart = now();
+  if (P.i >= P.qids.length) finishSet();
+  else { render(); window.scrollTo(0, 0); }
+}
+function finishSet(){
+  P.done = true; P.finished = now();
+  if (P.mode === 'diag' || P.mode === 'check'){
+    const D = S[P.mode]; D.done = true; D.finished = now(); save();
+    route = {tab:'insights', diag:P.mode}; P = null; render(); window.scrollTo(0,0); return;
+  }
+  render(); window.scrollTo(0, 0);
+}
+function playSummary(){
+  const ids = P.qids.filter(id => P.answers[id]);
+  const atts = ids.map(id => ({q:id, c:P.answers[id].c, ok:P.answers[id].ok, cf:P.answers[id].cf, s:P.answers[id].s}));
+  const an = analyze(atts);
+  const missed = ids.filter(id => !P.answers[id].ok);
+  let h = '<div class="player"><div class="eyebrow">' + esc(P.title) + ' · results</div><h1 class="view-title">' + an.ok + ' of ' + an.n + ' correct (' + pct(an.ok, an.n) + '%)</h1><div class="ruled"></div>';
+  h += '<div class="stats" style="margin-bottom:16px"><div class="stat"><span class="n">' + (an.timed ? Math.round(an.secs / an.timed) : 0) + 's</span><span class="c">avg per question (exam pace ≈ 90s)</span></div><div class="stat"><span class="n">' + an.conf.sn + '</span><span class="c">missed while "sure"</span></div><div class="stat"><span class="n">' + an.conf.uo + '</span><span class="c">right while unsure</span></div></div>';
+  const traps = Object.entries(an.traps).filter(([k,v]) => v.chosen).sort((a,b) => b[1].chosen - a[1].chosen);
+  if (traps.length) h += '<div class="card" style="margin-bottom:16px"><div class="eyebrow red">What tripped you up in this set</div>' + traps.map(([k, v]) => '<div class="trapcard"><div><b>' + esc(TRAPS[k].label) + '</b><div class="small muted">' + esc(TRAPS[k].plain) + '</div></div><div class="rate">' + v.chosen + '×</div><div class="fix"><b>Fix:</b> ' + esc(TRAPS[k].fix) + '</div></div>').join('') + '</div>';
+  h += '<div class="row" style="margin-bottom:18px">' + (missed.length ? '<button class="btn pri" data-act="retry-missed">Retry the ' + plural(missed.length, 'miss', 'misses') + ' (options reshuffled)</button>' : '') + '<button class="btn" data-act="smart" data-n="10">Another smart set</button><button class="btn ghost" data-act="tab" data-tab="insights">Pinpoint Report</button></div>';
+  h += '<h3 style="margin-bottom:10px">Question review</h3>' + reviewList(atts);
+  h += '</div>';
+  return h;
+}
+function reviewList(atts, opts={}){
+  return '<div class="qlist">' + atts.map((a, i) => {
+    const q = QM[a.q]; if (!q) return '';
+    const tr = !a.ok && a.c >= 0 ? q.traps[a.c] : null;
+    return '<details class="qitem"><summary style="cursor:pointer;list-style:none"><div class="row between"><span class="qs">' + (a.ok ? '<span class="check">✓</span>' : '<span style="color:var(--bad);font-weight:700">✗</span>') + ' ' + (opts.num ? (i+1) + '. ' : '') + esc(q.stem.length > 140 ? q.stem.slice(0, 137) + '…' : q.stem) + '</span><span class="row">' + (tr ? '<span class="chip trap">' + esc(TRAPS[tr.code] ? TRAPS[tr.code].label : tr.code) + '</span>' : '') + (a.cf === 1 && !a.ok ? '<span class="chip warn">missed while sure</span>' : '') + '<span class="chip">' + q.skill + '</span></span></div></summary>' +
+      '<div style="margin-top:10px">' + (q.stimulus ? '<div class="stim">' + richText(q.stimulus) + '</div>' : '') + '<div class="stem" style="font-size:.98rem">' + esc(q.stem) + '</div><div class="opts">' +
+      q.options.map((o, j) => '<div class="opt' + (j === q.answer ? ' ok' : j === a.c ? ' no' : '') + '"><span class="ol">' + LET[j] + '</span><span class="ot">' + esc(o) + (j !== q.answer && q.traps[j] ? '<span class="small muted" style="display:block;margin-top:4px">' + esc(q.traps[j].note) + '</span>' : '') + '</span></div>').join('') +
+      '</div><div class="fb ok" style="margin-top:10px"><div class="fbb"><div><b>Why ' + LET[q.answer] + ':</b> ' + esc(q.why) + '</div><div class="keyline"><b>Takeaway</b>' + esc(q.key) + '</div></div></div></div></details>';
+  }).join('') + '</div>';
+}
+
+/* ============================== diagnostic ============================== */
+function startDiag(kind){
+  kind = kind || 'diag';
+  if (!S[kind]) S[kind] = {items: diagItems(kind), i:0, ans:{}, started:now(), done:false};
+  const D = S[kind];
+  if (!D.items || !D.items.length) D.items = diagItems(kind);
+  save(true);
+  const remaining = D.items.filter(id => !D.ans[id]);
+  if (!remaining.length){ D.done = true; save(); go('insights', {diag:kind}); return; }
+  P = {mode:kind, title: kind === 'diag' ? 'Diagnostic' : 'Progress check', qids: D.items, i: D.items.findIndex(id => !D.ans[id]), sel:null, struck:{}, answers:{}, revealed:false, qStart:now(), startedAt:now(), home:'today', feedback:false, order:{}};
+  D.items.forEach(id => { if (D.ans[id]) P.answers[id] = {c:D.ans[id].c, ok:D.ans[id].c === QM[id].answer, cf:D.ans[id].cf}; });
+  go('play');
+}
+
+/* ============================== VIEW: insights (pinpoint report) ============================== */
+VIEWS.insights = function(r){
+  const kind = r.diag;
+  const D = kind ? S[kind] : null;
+  let atts;
+  if (D){
+    const ids = new Set(D.items);
+    const firstByQ = {};
+    S.att.forEach(a => { if (ids.has(a.q) && a.m === kind && !firstByQ[a.q]) firstByQ[a.q] = a; });
+    atts = D.items.map(id => firstByQ[id]).filter(Boolean);
+  } else atts = S.att.slice(-600);
+  let h = '';
+  if (!S.att.length){
+    return '<h1 class="view-title">Pinpoint Report</h1><div class="ruled"></div><div class="empty"><p style="margin-bottom:12px">Your report builds itself as you answer. It shows where you stand on every skill, which traps keep catching you, and which concepts you mix up.</p><button class="btn pri" data-act="diag-start">Take the diagnostic</button></div>';
+  }
+  const an = analyze(atts);
+  const st = stats();
+  if (D){
+    h += '<div class="eyebrow">' + (kind === 'diag' ? 'Diagnostic results · your baseline' : 'Progress check results') + '</div><h1 class="view-title">' + an.ok + ' of ' + an.n + ' correct · ' + pct(an.ok, an.n) + '%</h1><div class="ruled"></div>';
+    const srAtts = atts.filter(a => QM[a.q].skill[0] !== '7');
+    const comps = COMPS.slice(0,6).map(c => { const xs = srAtts.filter(a => compOf(QM[a.q].skill).id === c.id); return xs.length ? xs.filter(a => a.ok).length / xs.length : 0; });
+    const srP = COMPS.slice(0,6).reduce((t, c, i) => t + c.weight * comps[i], 0) / 80;
+    const est = toScaled(0.8 * srP + 0.2 * 0.625);
+    h += '<p class="lede">On this sample, your multiple-choice performance projects to about <b>' + est + '</b> on the 400–600 scale (520 passes), assuming a mid-range written response. One question per skill is a rough read, so treat it as a starting line, not a verdict. The real value is below: exactly which skills and habits to fix first.</p>';
+    if (kind === 'check' && S.diag && S.diag.done){
+      const base = analyze(diagAtts('diag'));
+      h += '<div class="callout" style="margin-bottom:16px"><b>Since your diagnostic:</b> ' + pct(base.ok, base.n) + '% → ' + pct(an.ok, an.n) + '% (' + (an.ok/an.n - base.ok/base.n >= 0 ? '+' : '') + Math.round(100*(an.ok/an.n - base.ok/base.n)) + ' points). ' + COMPS.slice(0,6).map(c => { const b = base.comp[c.id], n = an.comp[c.id]; return b && n ? c.short + ' ' + pct(b.ok,b.n) + '→' + pct(n.ok,n.n) + '%' : ''; }).filter(Boolean).join(' · ') + '</div>';
+    }
+    h += '<div class="row" style="margin-bottom:18px"><button class="btn pri" data-act="tab" data-tab="today">Go to my study plan</button><a class="btn" href="#review-list">Review every question</a></div>';
+  } else {
+    h += '<h1 class="view-title">Pinpoint Report</h1><div class="ruled"></div><p class="lede">Built from your last ' + an.n + ' answers. Every wrong answer here was tagged with the reasoning error it represents, so you can see why you miss, not just what you missed.</p>';
+  }
+
+  // tutor's read
+  const ins = insightsList(an, st, !!D);
+  h += '<div class="card" style="margin-bottom:16px"><div class="eyebrow">The tutor\'s read</div><h3>What your answers say</h3>' + ins.map((x, i) => '<div class="insight"><span class="ix' + (x.red ? ' r' : '') + '">' + (i+1) + '</span><div>' + x.html + '</div></div>').join('') + '</div>';
+
+  // competency + confidence
+  h += '<div class="grid g2" style="margin-bottom:16px"><div class="card"><div class="eyebrow">Performance by competency</div><div class="tbl-wrap" style="margin-top:8px"><table><thead><tr><th>Competency</th><th class="num">Right</th><th class="num">Index</th></tr></thead><tbody>' +
+    COMPS.map(c => { const e = an.comp[c.id]; return '<tr><td><span class="mono muted tiny">' + c.code + '</span> ' + esc(c.short) + '</td><td class="num">' + (e ? e.ok + '/' + e.n : '—') + '</td><td class="num plus">' + (e ? compPlus(e.ok / e.n) : '—') + '</td></tr>'; }).join('') +
+    '</tbody></table></div><p class="tiny muted" style="margin-top:8px">The + scale mirrors NYSTCE score reports: ++++ ≥ 85% · +++ 70–84% · ++ 50–69% · + under 50%.</p></div>';
+  const cf = an.conf;
+  h += '<div class="card"><div class="eyebrow">Confidence check</div><h3>Do you know what you know?</h3><div class="quad" style="margin-top:10px"><div class="good"><div class="n">' + cf.so + '</div><div class="small">Sure & right · <b>solid</b></div></div><div class="bad"><div class="n">' + cf.sn + '</div><div class="small">Sure & wrong · <b>misconceptions</b></div></div><div class="warn"><div class="n">' + cf.uo + '</div><div class="small">Unsure & right · <b>shaky</b></div></div><div><div class="n">' + cf.un + '</div><div class="small">Unsure & wrong · <b>gaps</b></div></div></div><p class="small muted" style="margin-top:10px">Misconceptions matter most: on test day you won\'t think to double-check them. They\'re listed at the bottom of this page.</p></div></div>';
+
+  // trap patterns
+  const traps = Object.entries(an.traps).filter(([k, v]) => v.offered >= 2).map(([k, v]) => [k, v, v.chosen / v.offered]).sort((a, b) => (b[1].chosen - a[1].chosen) || (b[2] - a[2]));
+  h += '<div class="card" style="margin-bottom:16px"><div class="eyebrow red">Error patterns</div><h3>The traps that catch you</h3><p class="small muted">"Fell for" = how often you picked this kind of wrong answer when it appeared as an option.</p>';
+  const hit = traps.filter(t => t[1].chosen > 0);
+  if (!hit.length) h += '<div class="empty" style="margin-top:12px">No trap patterns yet. That\'s either great news or too few answers. Keep going.</div>';
+  hit.slice(0, 8).forEach(([k, v, rate]) => {
+    h += '<div class="trapcard"><div><b>' + esc(TRAPS[k].label) + '</b> <span class="chip trap">' + v.chosen + ' of ' + v.offered + '</span><div class="small muted">' + esc(TRAPS[k].plain) + '</div></div><div class="rate">' + Math.round(rate * 100) + '%<div class="tiny muted">fell for</div></div><div class="fix"><b>The fix:</b> ' + esc(TRAPS[k].fix) + ' <button class="linkish small" data-act="trapdrill" data-code="' + k + '">Drill this pattern →</button></div></div>';
+  });
+  h += '</div>';
+
+  // confusions
+  const pairs = Object.entries(an.pairs).sort((a, b) => b[1].n - a[1].n).slice(0, 10);
+  if (pairs.length) h += '<div class="card" style="margin-bottom:16px"><div class="eyebrow">Concepts you\'re mixing up</div><p class="small muted" style="margin-bottom:10px">Each pair is one specific confusion behind a wrong answer. These make great flashcard targets.</p><div class="row">' + pairs.map(([p, v]) => '<span class="chip trap">' + esc(p) + (v.n > 1 ? ' ×' + v.n : '') + '</span>').join('') + '</div></div>';
+
+  // skill map
+  const showSk = SKILLS.filter(k => Q.some(q => q.skill === k));
+  h += '<div class="card" style="margin-bottom:16px"><div class="row between"><div><div class="eyebrow">Skill map</div><h3>All ' + showSk.length + ' skills, on the NYS proficiency ladder</h3></div></div><p class="small muted" style="margin:4px 0 10px">Your mastery of each skill is shown using the same five levels you use with your students. Tap a skill to drill it.</p><div class="ladder" style="margin-bottom:12px">' + LEVELS.slice(1).map(l => '<span class="lv' + l.n + '">' + l.name + '</span>').join('') + '</div><div class="skillmap">' +
+    showSk.map(k => { const x = st.sk[k]; return '<button class="sk lv' + x.lv + '" data-act="drill" data-skill="' + k + '"><span class="code">' + k + ' · ' + LEVELS[x.lv].name + '</span><span class="nm">' + esc(SKILL[k].name) + '</span><span class="meta">' + (x.n ? x.ok + '/' + x.n + ' right' + (x.sureNo ? ' · ' + x.sureNo + ' sure-miss' : '') : 'no answers yet') + '</span></button>'; }).join('') + '</div></div>';
+
+  // type + difficulty + trend
+  const tlab = {knowledge:'Recall', application:'Apply a concept', scenario:'Classroom scenario', analysis:'Analyze student work/data'};
+  h += '<div class="grid g2" style="margin-bottom:16px"><div class="card"><div class="eyebrow">By question type</div><div class="bars" style="margin-top:10px">' +
+    Object.keys(tlab).map(t => { const e = an.type[t]; return barRow(tlab[t], e ? e.ok / e.n : null, e ? pct(e.ok, e.n) + '% · ' + e.n : '—'); }).join('') + '</div></div>' +
+    '<div class="card"><div class="eyebrow">By difficulty</div><div class="bars" style="margin-top:10px">' +
+    [1,2,3].map(d => { const e = an.diff[d]; return barRow(['','Foundational','Standard','Hardest (two options look right)'][d], e ? e.ok / e.n : null, e ? pct(e.ok, e.n) + '% · ' + e.n : '—'); }).join('') + '</div>' + (D ? '' : trendBlock()) + '</div></div>';
+
+  // misconceptions list
+  const sm = an.sureMiss.slice(-12).reverse();
+  if (sm.length) h += '<div class="card" style="margin-bottom:16px"><div class="eyebrow red">Misconceptions to fix first</div><h3>Questions you missed while sure</h3><p class="small muted" style="margin-bottom:10px">Open each one and read the "why." These are the beliefs to overwrite.</p>' + reviewList(sm) + '</div>';
+  if (D) h += '<h3 id="review-list" style="margin:24px 0 10px">Every ' + (kind === 'diag' ? 'diagnostic' : 'progress-check') + ' question</h3>' + reviewList(atts, {num:true});
+  else h += '<div class="row"><button class="btn" data-act="go-diag-report" data-kind="diag"' + (S.diag && S.diag.done ? '' : ' disabled') + '>Diagnostic report</button><button class="btn" data-act="check-start">' + (S.check && S.check.done ? 'View progress check' : S.check ? 'Resume progress check' : 'Take the progress check (45 new questions)') + '</button></div>';
+  return h;
+};
+function diagAtts(kind){
+  const D = S[kind]; if (!D) return [];
+  const ids = new Set(D.items); const first = {};
+  S.att.forEach(a => { if (ids.has(a.q) && a.m === kind && !first[a.q]) first[a.q] = a; });
+  return D.items.map(id => first[id]).filter(Boolean);
+}
+function trendBlock(){
+  const byDay = {};
+  S.att.forEach(a => { const d = dayStr(a.t * 1000); const e = byDay[d] = byDay[d] || {n:0, ok:0}; e.n++; if (a.ok) e.ok++; });
+  const days = Object.keys(byDay).sort().slice(-14);
+  if (days.length < 2) return '';
+  const vals = days.map(d => byDay[d].ok / byDay[d].n);
+  return '<div class="eyebrow" style="margin-top:18px">Daily accuracy, last ' + days.length + ' study days</div>' + sparkline(vals, {label:'daily accuracy trend'}) + '<div class="row between tiny muted"><span>' + days[0] + '</span><span>dashed line = 75%</span><span>' + days[days.length-1] + '</span></div>';
+}
+function insightsList(an, st, isDiag){
+  const out = [];
+  const comps = COMPS.filter(c => an.comp[c.id] && an.comp[c.id].n >= 2).map(c => ({c, p: an.comp[c.id].ok / an.comp[c.id].n})).sort((a, b) => a.p - b.p);
+  if (comps.length){ const w = comps[0], b = comps[comps.length-1];
+    out.push({red: w.p < .7, html:'<b>Weakest area: ' + esc(w.c.name) + '</b> (' + Math.round(w.p*100) + '%, worth ' + w.c.weight + '% of the exam). ' + (b.c.id !== w.c.id ? 'Strongest: ' + esc(b.c.short) + ' (' + Math.round(b.p*100) + '%).' : '')}); }
+  const traps = Object.entries(an.traps).filter(([k, v]) => v.chosen >= 2).sort((a, b) => b[1].chosen - a[1].chosen);
+  if (traps.length){ const [k, v] = traps[0];
+    out.push({red:true, html:'<b>Your #1 trap is "' + esc(TRAPS[k].label) + '."</b> You chose that kind of wrong answer ' + v.chosen + ' of the ' + v.offered + ' times it was offered. ' + esc(TRAPS[k].fix)}); }
+  if (traps.length > 1){ const [k, v] = traps[1]; out.push({html:'<b>Runner-up trap: "' + esc(TRAPS[k].label) + '"</b> (' + v.chosen + '×). ' + esc(TRAPS[k].plain)}); }
+  const kn = an.type.knowledge, ap = ['application','scenario','analysis'].reduce((t, k) => { const e = an.type[k]; if (e){ t.n += e.n; t.ok += e.ok; } return t; }, {n:0, ok:0});
+  if (kn && kn.n >= 3 && ap.n >= 5){
+    const dk = kn.ok/kn.n, da = ap.ok/ap.n;
+    if (dk - da > .12) out.push({red:true, html:'<b>You know the terms but lose points applying them.</b> Recall: ' + Math.round(dk*100) + '% vs. classroom and analysis items: ' + Math.round(da*100) + '%. Most of the real exam is applied, so practice the 4-step question routine in the format lesson and favor drills over flashcards.'});
+    else if (da - dk > .12) out.push({html:'<b>Your instincts are strong, but the vocabulary is shaky.</b> Scenarios: ' + Math.round(da*100) + '% vs. recall: ' + Math.round(dk*100) + '%. Ten minutes of flashcards a day will close this quickly.'});
+  }
+  const pairs = Object.entries(an.pairs).sort((a, b) => b[1].n - a[1].n).slice(0, 3);
+  if (pairs.length) out.push({html:'<b>Specific mix-ups:</b> ' + pairs.map(([p]) => esc(p)).join(' · ') + '. Each one is a single fact to memorize, not a whole topic to restudy.'});
+  if (an.conf.sn >= 2) out.push({red:true, html:'<b>' + an.conf.sn + ' confident misses</b> (' + pct(an.conf.sn, an.conf.sn + an.conf.so) + '% of your "sure" answers). These are misconceptions, the costliest kind of error because you won\'t double-check them. They\'re listed below.'});
+  if (an.conf.uo >= 3) out.push({html:'<b>' + an.conf.uo + ' right answers were guesses.</b> That knowledge isn\'t locked in yet. Those skills will come back in smart practice until you\'re sure.'});
+  const d1 = an.diff[1]; if (d1 && d1.n >= 4 && d1.ok/d1.n < .7) out.push({red:true, html:'<b>Foundational items are costing you</b> (' + pct(d1.ok, d1.n) + '% on the easiest tier). Read the lessons for your weakest skills before drilling harder questions.'});
+  if (an.timed >= 8){ const avg = an.secs / an.timed; if (avg > 100) out.push({html:'<b>Pace: ' + Math.round(avg) + ' seconds per question.</b> The exam allows about 90 if you save 60 minutes for the written response. Use the Quick 15 timed sets.'}); else if (avg < 35 && an.ok/an.n < .75) out.push({html:'<b>You\'re moving fast (' + Math.round(avg) + 's per question)</b>, and some misses look like misreads. Slow down to the last sentence of each stem.'}); }
+  if (isDiag){
+    const top = priorities().filter(p => p.code[0] !== '7').slice(0, 3);
+    out.push({html:'<b>Your study plan starts with:</b> ' + top.map(p => p.code + ' ' + esc(SKILL[p.code].name)).join(' · ') + '. The Today tab now builds each session around these.'});
+  }
+  if (!out.length) out.push({html:'Answer a few more questions and specific patterns will start to show here.'});
+  return out;
+}
+
+/* ============================== VIEW: exam ============================== */
+VIEWS.exam = function(r){
+  if (r.result) return examResult(S.exams.find(e => e.id === r.result));
+  const F = forms();
+  let h = '<h1 class="view-title">Mock Exam</h1><div class="ruled"></div><p class="lede">A full-length simulation of test day: 90 multiple-choice questions weighted by competency, then one constructed response, on a 195-minute clock. You can flag questions and jump around, just like the real computer-based test. Scores come back in the NYSTCE score-report format.</p>';
+  if (S.exam){
+    const x = S.exam;
+    h += '<div class="callout" style="margin-bottom:16px"><div class="row between"><div><b>' + esc(x.label) + ' is in progress</b><div class="small">' + Object.keys(x.ans).length + ' of ' + x.qids.length + ' answered · ' + fmtClock(195*60000 - x.elapsed) + ' left (paused)</div></div><div class="row"><button class="btn pri" data-act="exam-resume">Resume</button><button class="btn danger sm" data-act="exam-abandon">Discard</button></div></div>' + (route.confirmAbandon ? '<div class="confirm" style="margin-top:10px"><b>Discard this attempt?</b> Your answers will be lost. <div class="row" style="margin-top:8px"><button class="btn danger sm" data-act="exam-abandon-yes">Yes, discard</button><button class="btn sm" data-act="exam">Keep it</button></div></div>' : '') + '</div>';
+  }
+  h += '<div class="grid g3">';
+  ['A','B','C'].forEach(k => {
+    const taken = S.exams.filter(e => e.form === k);
+    const best = taken.length ? Math.max(...taken.map(e => e.scaled || 0)) : null;
+    const sc = F[k].cr && SCM[F[k].cr];
+    h += '<div class="card"><div class="eyebrow">Practice Test ' + k + '</div><h3>' + F[k].qids.length + ' questions + written response</h3><p class="small muted" style="margin-bottom:12px">' + (k === 'A' ? 'Take this after your first round of lessons.' : k === 'B' ? 'Take this after the progress check.' : 'Your final dress rehearsal, about a week out.') + (sc ? ' Written task: ' + esc(sc.title) + '.' : '') + '</p>' + (best ? '<p class="small" style="margin-bottom:10px">Best: <b>~' + best + '</b> · ' + plural(taken.length, 'attempt') + '</p>' : '') + '<div class="row"><button class="btn pri" data-act="exam-start" data-form="' + k + '"' + (S.exam ? ' disabled' : '') + '>' + (taken.length ? 'Retake' : 'Start') + ' Test ' + k + '</button>' + (taken.length ? '<button class="btn sm" data-act="exam-result" data-id="' + taken[taken.length-1].id + '">Last report</button>' : '') + '</div></div>';
+  });
+  h += '<div class="card"><div class="eyebrow">Unlimited</div><h3>Fresh form</h3><p class="small muted" style="margin-bottom:12px">A new 90-question form built from questions you haven\'t seen (or haven\'t seen recently), with a random written task.</p><button class="btn" data-act="exam-start" data-form="R"' + (S.exam ? ' disabled' : '') + '>Build & start</button></div>';
+  h += '</div>';
+  if (S.exams.length){
+    h += '<h2 style="font-size:1.2rem;margin:26px 0 10px">Score history</h2><div class="tbl-wrap"><table><thead><tr><th>Test</th><th>Date</th><th class="num">Multiple choice</th><th class="num">Written</th><th class="num">Projected</th><th></th></tr></thead><tbody>' +
+      S.exams.slice().reverse().map(e => '<tr><td>' + esc(e.label) + '</td><td>' + new Date(e.finished).toLocaleDateString() + '</td><td class="num">' + e.srOk + '/' + e.srN + ' (' + Math.round(e.srPct*100) + '%)</td><td class="num">' + (e.crScore ? e.crScore.o + '/4' : '—') + '</td><td class="num">' + (e.scaled ? '~' + e.scaled : '—') + '</td><td><button class="btn sm" data-act="exam-result" data-id="' + e.id + '">Report</button></td></tr>').join('') + '</tbody></table></div>';
+  }
+  h += '<div class="card flat" style="margin-top:16px"><div class="eyebrow">Test-day rules this simulates</div><ul class="small" style="margin:6px 0 0;padding-left:18px"><li>One 195-minute clock for everything. Budget about 135 minutes for multiple choice and 60 for the written response.</li><li>Answer every question (no guessing penalty). Use <b>Flag</b> to mark ones to revisit, and the <b>Review</b> screen to jump.</li><li>No feedback until you submit. Then you get a competency-by-competency report, trap analysis, and full explanations.</li><li>If you leave mid-exam, the clock pauses and your answers are saved (a convenience the real test won\'t give you).</li></ul></div>';
+  return h;
+};
+function startExam(form){
+  const F = forms();
+  let qids, cr, label;
+  if (form === 'R'){
+    const used = new Set(Q.filter(q => q.diag).map(q => q.id));
+    qids = [];
+    COMPS.slice(0,6).forEach(c => { qids.push(...pickFrom(Q.filter(q => compOf(q.skill).id === c.id && !used.has(q.id)), 15)); });
+    qids = shuffle(qids);
+    cr = SCEN.length ? SCEN[Math.floor(Math.random()*SCEN.length)].id : null;
+    label = 'Fresh form ' + (S.exams.filter(e => e.form === 'R').length + 1);
+  } else { qids = F[form].qids.slice(); cr = F[form].cr; label = 'Practice Test ' + form; }
+  S.exam = {id:'x' + now(), form, label, qids, cr, ans:{}, flags:{}, crText:'', crNotes:'', i:0, elapsed:0, started:now(), lastTick:now(), view:'q'};
+  save();
+  openExam();
+}
+let examTimer = null;
+function openExam(){
+  const x = S.exam; if (!x) return;
+  x.lastTick = now();
+  $('#exam').hidden = false; document.body.style.overflow = 'hidden';
+  renderExam();
+  clearInterval(examTimer);
+  examTimer = setInterval(() => {
+    const t = now(); x.elapsed += t - x.lastTick; x.lastTick = t;
+    const el = $('#xclock'); const left = 195*60000 - x.elapsed;
+    if (el){ el.textContent = fmtClock(left); el.classList.toggle('low', left < 15*60000); }
+    if (t - (x._ls || 0) > 20000){ x._ls = t; save(true); }
+    if (left <= 0){ toast('Time is up. Your exam has been submitted.'); submitExam(); }
+  }, 1000);
+}
+function closeExam(){
+  clearInterval(examTimer);
+  if (S.exam){ const t = now(); S.exam.elapsed += t - S.exam.lastTick; S.exam.lastTick = t; save(); }
+  $('#exam').hidden = true; $('#exam').innerHTML = ''; document.body.style.overflow = '';
+}
+function renderExam(){
+  const x = S.exam; if (!x) return;
+  const N = x.qids.length + (x.cr ? 1 : 0);
+  const left = 195*60000 - x.elapsed;
+  let body = '';
+  if (x.view === 'review'){
+    const ansN = Object.keys(x.ans).length, flagN = Object.keys(x.flags).filter(k => x.flags[k]).length;
+    body = '<h2 style="font-size:1.3rem;margin-bottom:6px">Review screen</h2><p class="small muted" style="margin-bottom:12px">' + ansN + ' of ' + x.qids.length + ' multiple-choice answered · ' + flagN + ' flagged · written response: ' + (words(x.crText) ? words(x.crText) + ' words' : 'not started') + '</p><div class="legend" style="margin-bottom:10px"><span>▢ unanswered</span><span style="color:var(--brand)">▣ answered</span><span style="color:var(--red)">● flagged</span></div><div class="navgrid">' +
+      x.qids.map((id, i) => '<button class="' + (x.ans[id] != null ? 'ans ' : '') + (x.flags[id] ? 'flag ' : '') + (i === x.i ? 'cur' : '') + '" data-act="x-goto" data-i="' + i + '" aria-label="Question ' + (i+1) + '">' + (i+1) + '</button>').join('') +
+      (x.cr ? '<button class="' + (words(x.crText) ? 'ans ' : '') + '" data-act="x-goto" data-i="' + x.qids.length + '" style="grid-column:span 2">Written</button>' : '') + '</div>' +
+      (x.confirmEnd ? '<div class="confirm" style="margin-top:18px"><b>End the test and see your score?</b> ' + (x.qids.length - ansN ? (x.qids.length - ansN) + ' questions are unanswered and will be scored wrong. ' : '') + (x.cr && words(x.crText) < 50 ? 'Your written response is nearly empty. ' : '') + '<div class="row" style="margin-top:10px"><button class="btn danger" data-act="x-submit-yes">Yes, end test</button><button class="btn" data-act="x-review">Keep working</button></div></div>' : '<div class="row" style="margin-top:18px"><button class="btn pri" data-act="x-submit">End test & score it</button></div>');
+  } else if (x.i >= x.qids.length && x.cr){
+    const sc = SCM[x.cr];
+    body = crTaskHTML(sc, {text:x.crText, notes:x.crNotes, prefix:'x'});
+  } else {
+    const q = QM[x.qids[x.i]];
+    body = '<div class="row between" style="margin-bottom:12px"><span class="mono small muted">Question ' + (x.i+1) + ' of ' + N + '</span>' + (x.flags[q.id] ? '<span class="chip trap">Flagged</span>' : '') + '</div>' +
+      (q.stimulus ? '<div class="stim"><div class="stim-h">Read the information below</div>' + richText(q.stimulus) + '</div>' : '') +
+      '<div class="stem">' + esc(q.stem) + '</div><div class="opts" role="radiogroup">' +
+      q.options.map((o, j) => '<div class="optrow"><button class="opt' + (x.ans[q.id] === j ? ' sel' : '') + (x.struck && x.struck[q.id+':'+j] ? ' struck' : '') + '" role="radio" aria-checked="' + (x.ans[q.id] === j) + '" data-act="x-pick" data-o="' + j + '"><span class="ol">' + LET[j] + '</span><span class="ot">' + esc(o) + '</span></button><button class="strike' + (x.struck && x.struck[q.id+':'+j] ? ' on' : '') + '" data-act="x-strike" data-o="' + j + '" aria-label="Cross out option ' + LET[j] + '">✕</button></div>').join('') + '</div>';
+  }
+  const onQ = x.view !== 'review' && x.i < x.qids.length;
+  $('#exam').innerHTML = '<div class="xbar"><div class="ttl">NYSTCE ESOL (116) · ' + esc(x.label) + '</div><div class="row"><span class="clock' + (left < 15*60000 ? ' low' : '') + '" id="xclock" title="Time remaining">' + fmtClock(left) + '</span><button class="btn sm" data-act="x-exit" style="background:transparent;color:inherit;border-color:rgba(255,255,255,.35)">Save & exit</button></div></div>' +
+    '<div class="xbody"><div class="xinner">' + body + '</div></div>' +
+    '<div class="xfoot"><div class="grp"><button class="btn" data-act="x-prev"' + (x.i === 0 && x.view !== 'review' ? ' disabled' : '') + '>← Previous</button>' + (onQ ? '<button class="btn' + (x.flags[x.qids[x.i]] ? ' danger' : '') + '" data-act="x-flag">' + (x.flags[x.qids[x.i]] ? 'Unflag' : 'Flag') + '</button>' : '') + '</div><div class="grp"><button class="btn" data-act="x-review">Review</button>' + (x.view === 'review' ? '' : '<button class="btn pri" data-act="x-next"' + (x.i >= N - 1 ? ' disabled' : '') + '>Next →</button>') + '</div></div>';
+  if (!onQ && x.view !== 'review') bindCRInputs('x');
+  const sig = x.view + ':' + x.i;
+  if (renderExam._sig !== sig){ $('.xbody').scrollTop = 0; renderExam._sig = sig; }
+}
+function submitExam(){
+  const x = S.exam; if (!x) return;
+  clearInterval(examTimer);
+  const t = now(); x.elapsed += t - x.lastTick;
+  const per = Math.round(Math.min(x.elapsed, 135*60000) / 1000 / Math.max(1, x.qids.length));
+  let ok = 0;
+  const byComp = {};
+  x.qids.forEach(id => {
+    const q = QM[id]; const c = x.ans[id] != null ? x.ans[id] : -1;
+    const good = c === q.answer; if (good) ok++;
+    const cc = compOf(q.skill).id; const e = byComp[cc] = byComp[cc] || {n:0, ok:0}; e.n++; if (good) e.ok++;
+    S.att.push({q:id, c, ok:good, cf: x.flags[id] ? 0 : -1, s:per, t:Math.floor(t/1000), m:'exam'});
+    srsUpdate(id, good);
+  });
+  const srPct = ok / x.qids.length;
+  const rec = {id:x.id, form:x.form, label:x.label, qids:x.qids, ans:x.ans, flags:x.flags, cr:x.cr, crText:x.crText, started:x.started, finished:t, elapsed:x.elapsed, srOk:ok, srN:x.qids.length, srPct, byComp, crScore:null, scaled: null};
+  rec.scaled = toScaled(0.8 * srPct + 0.2 * 0.625); rec.scaledAssumed = true;
+  S.exams.push(rec); S.exam = null; save();
+  $('#exam').hidden = true; $('#exam').innerHTML = ''; document.body.style.overflow = '';
+  go('exam', {result: rec.id});
+}
+function examResult(e){
+  if (!e) return '<div class="empty">That report could not be found.</div>';
+  const atts = e.qids.map(id => ({q:id, c: e.ans[id] != null ? e.ans[id] : -1, ok: e.ans[id] === QM[id].answer, cf: e.flags[id] ? 0 : -1, s: Math.round(Math.min(e.elapsed, 135*60000)/1000/e.qids.length)}));
+  const an = analyze(atts);
+  const crP = e.crScore ? e.crScore.o / 4 : 0.625;
+  const scaled = toScaled(0.8 * e.srPct + 0.2 * crP);
+  let h = '<button class="btn sm ghost" data-act="tab" data-tab="exam">← Mock exams</button><div style="margin-top:14px" class="eyebrow">Score report · ' + esc(e.label) + ' · ' + new Date(e.finished).toLocaleDateString() + '</div><h1 class="view-title">Projected ~' + scaled + ' <span class="muted" style="font-size:1rem">(520 passes)</span></h1><div class="ruled"></div>';
+  h += '<div class="stats" style="margin-bottom:16px"><div class="stat"><span class="n">' + e.srOk + '/' + e.srN + '</span><span class="c">multiple choice (' + Math.round(e.srPct*100) + '%)</span></div><div class="stat"><span class="n">' + (e.crScore ? e.crScore.o + '/4' : '—') + '</span><span class="c">written response' + (e.crScore ? ' (' + (e.crScore.src === 'ai' ? 'Claude-scored' : 'self-scored') + ')' : '') + '</span></div><div class="stat"><span class="n">' + fmtClock(e.elapsed) + '</span><span class="c">time used of 3:15:00</span></div><div class="stat"><span class="n">' + (an.timed ? Math.round(an.secs/an.timed) : 0) + 's</span><span class="c">avg per question</span></div></div>';
+  if (!e.crScore && e.cr) h += '<div class="callout warn" style="margin-bottom:16px"><b>Score your written response</b> to complete the projection. Until then it assumes a mid-range 2.5 out of 4. <a class="linkish" href="#crscore">Score it below ↓</a></div>';
+  h += '<div class="grid g2" style="margin-bottom:16px"><div class="card"><div class="eyebrow">Competency performance</div><div class="tbl-wrap" style="margin-top:8px"><table><thead><tr><th>Competency</th><th class="num">Correct</th><th class="num">Index</th></tr></thead><tbody>' +
+    COMPS.slice(0,6).map(c => { const b = e.byComp[c.id] || {n:0, ok:0}; return '<tr><td><span class="mono muted tiny">' + c.code + '</span> ' + esc(c.name) + '</td><td class="num">' + (b.n ? b.ok + '/' + b.n : '—') + '</td><td class="num plus">' + compPlus(b.n ? b.ok/b.n : null) + '</td></tr>'; }).join('') +
+    '<tr><td><span class="mono muted tiny">0007</span> Analysis, Synthesis, and Application</td><td class="num">' + (e.crScore ? e.crScore.o + '/4' : '—') + '</td><td class="num plus">' + (e.crScore ? compPlus(e.crScore.o/4) : '—') + '</td></tr></tbody></table></div></div>';
+  const traps = Object.entries(an.traps).filter(([k,v]) => v.chosen).sort((a,b) => b[1].chosen - a[1].chosen).slice(0, 5);
+  h += '<div class="card"><div class="eyebrow red">What cost you points</div>' + (traps.length ? traps.map(([k, v]) => '<div class="trapcard"><div><b>' + esc(TRAPS[k].label) + '</b><div class="small muted">' + esc(TRAPS[k].plain) + '</div></div><div class="rate">' + v.chosen + '×</div></div>').join('') : '<p class="small muted">No trap patterns. Excellent.</p>') + (atts.filter(a => a.c < 0).length ? '<p class="small" style="margin-top:8px"><b>' + atts.filter(a => a.c < 0).length + ' left blank.</b> On test day, always guess.</p>' : '') + '</div></div>';
+  if (e.cr && SCM[e.cr]) h += '<div id="crscore" class="card" style="margin-bottom:16px"><div class="eyebrow">Written response · ' + esc(SCM[e.cr].title) + '</div>' + crScorePanel({scen:SCM[e.cr], text:e.crText, score:e.crScore, ai:e.crAI, key:'exam:' + e.id}) + '</div>';
+  h += '<div class="row" style="margin-bottom:12px"><h3>All ' + e.qids.length + ' questions</h3><div class="seg"><button class="' + (route.filter !== 'wrong' ? 'on' : '') + '" data-act="exam-filter" data-v="all" data-id="' + e.id + '">All</button><button class="' + (route.filter === 'wrong' ? 'on' : '') + '" data-act="exam-filter" data-v="wrong" data-id="' + e.id + '">Wrong only</button></div></div>';
+  h += reviewList(route.filter === 'wrong' ? atts.filter(a => !a.ok) : atts, {num: route.filter !== 'wrong'});
+  return h;
+}
+
+/* ============================== VIEW: write (constructed response) ============================== */
+let W = null;
+VIEWS.write = function(r){
+  if (r.ws && SCM[r.ws]) return writeWorkspace(SCM[r.ws]);
+  if (r.scored != null) return writeScored(S.cr[r.scored]);
+  let h = '<h1 class="view-title">Written Response</h1><div class="ruled"></div><p class="lede">The constructed response is 20% of your score, and it\'s the most coachable part of the test. Each task mirrors the official format: a class context, exhibits about ELLs (background, NYSESLAT levels, observation notes, work samples), and a prompt for about 400–600 words. It\'s scored 1–4 on <b>completeness, accuracy, and depth of support</b>.</p>';
+  h += '<div class="grid g2" style="margin-bottom:16px"><button class="card" style="text-align:left" data-act="lesson" data-skill="guide"><div class="eyebrow">Read first</div><h3>How to write the 116 response</h3><p class="small muted">A 60-minute plan, a reusable structure, sentence starters, and a bank of strategies with the theory behind each.</p></button>' +
+    '<div class="card"><div class="eyebrow">CR skill builders</div><h3>Practice the thinking in small pieces</h3><p class="small muted" style="margin-bottom:10px">Short multiple-choice drills: spot the strength, spot the need, pick the strategy, justify it.</p><div class="row">' + ['7.1','7.2','7.3','7.4'].map(k => '<button class="btn sm" data-act="drill" data-skill="' + k + '">' + esc(SKILL[k].name) + '</button>').join('') + '</div></div></div>';
+  if (!SCEN.length) return h + '<div class="empty">Writing tasks are loading in the next update.</div>';
+  h += '<div class="grid g2">' + SCEN.map(sc => {
+    const tries = S.cr.filter(c => c.scen === sc.id);
+    const best = tries.filter(c => c.score).reduce((m, c) => Math.max(m, c.score.o), 0);
+    const draft = S.crDraft[sc.id] && words(S.crDraft[sc.id].text);
+    return '<div class="card"><div class="eyebrow">' + esc(sc.setting) + '</div><h3>' + esc(sc.title) + '</h3><p class="small muted" style="margin-bottom:12px">Focus: ' + esc(sc.focus || '') + '</p><div class="row">' + (best ? '<span class="chip good">Best ' + best + '/4</span>' : '') + (draft ? '<span class="chip warn">Draft: ' + draft + ' words</span>' : '') + '<button class="btn pri sm" data-act="ws-open" data-id="' + sc.id + '">' + (draft ? 'Continue' : tries.length ? 'Write again' : 'Start task') + '</button>' + (tries.length ? '<button class="btn sm" data-act="ws-last" data-id="' + sc.id + '">Last attempt</button>' : '') + '</div></div>';
+  }).join('') + '</div>';
+  return h;
+};
+function crTaskHTML(sc, o){
+  const tabs = sc.exhibits.map((ex, i) => '<button class="btn sm' + ((o.tab || 0) === i ? ' pri' : '') + '" data-act="' + o.prefix + '-exh" data-i="' + i + '">' + esc(ex.title.split(':')[0]) + '</button>').join('');
+  const cur = sc.exhibits[o.tab || 0];
+  const wc = words(o.text);
+  return '<div class="eyebrow">Constructed response · ' + esc(sc.setting) + '</div><h2 style="font-size:1.3rem;margin-bottom:6px">' + esc(sc.title) + '</h2><p class="small muted" style="margin-bottom:14px">' + esc(sc.intro || 'Use the information in the exhibits to complete the assignment that follows.') + '</p>' +
+    '<div class="cr-layout"><div><div class="exh-tabs" id="' + o.prefix + '-exhtabs">' + tabs + '</div><div class="exh" id="' + o.prefix + '-exh"><b>' + esc(cur.title) + '</b>\n\n' + richText(cur.content) + '</div></div>' +
+    '<div><div class="card flat" style="padding:14px 16px;margin-bottom:12px"><p class="small"><b>Assignment.</b> ' + esc(sc.prompt) + '</p><ul class="tasklist small">' + sc.tasks.map(t => '<li>' + esc(t) + '</li>').join('') + '</ul></div>' +
+    '<label class="small muted" for="' + o.prefix + '-notes">Planning notes (not scored)</label><textarea class="notes" id="' + o.prefix + '-notes" placeholder="Strength: … (Exhibit #)   Need: … (Exhibit #)   Strategy: …   Why: …">' + esc(o.notes || '') + '</textarea>' +
+    '<label class="small muted" for="' + o.prefix + '-resp" style="display:block;margin-top:10px">Your response</label><textarea class="resp" id="' + o.prefix + '-resp" spellcheck="true" placeholder="Write about 400–600 words.">' + esc(o.text || '') + '</textarea>' +
+    '<div class="wc" style="margin-top:8px"><span class="mono" id="' + o.prefix + '-wc">' + wc + '</span><span class="muted">words</span><div class="meter" aria-hidden="true"><span class="z"></span><i id="' + o.prefix + '-wm" style="width:' + Math.min(100, wc/700*100) + '%"></i></div><span class="tiny muted">target 400–600</span></div></div></div>';
+}
+function bindCRInputs(prefix){
+  const resp = $('#' + prefix + '-resp'), notes = $('#' + prefix + '-notes');
+  if (!resp) return;
+  let t = null;
+  const upd = () => {
+    const wc = words(resp.value);
+    const a = $('#' + prefix + '-wc'), m = $('#' + prefix + '-wm');
+    if (a) a.textContent = wc; if (m) m.style.width = Math.min(100, wc/700*100) + '%';
+    clearTimeout(t); t = setTimeout(() => {
+      if (prefix === 'x' && S.exam){ S.exam.crText = resp.value; S.exam.crNotes = notes.value; save(true); }
+      if (prefix === 'w' && W){ S.crDraft[W.id] = {text:resp.value, notes:notes.value, secs: wsElapsed()}; save(true); }
+    }, 700);
+  };
+  resp.addEventListener('input', upd); notes.addEventListener('input', upd);
+}
+function wsElapsed(){ return W ? W.base + (W.running ? (now() - W.since) : 0) : 0; }
+let wsTimer = null;
+function writeWorkspace(sc){
+  if (!W || W.id !== sc.id){ const d = S.crDraft[sc.id] || {}; W = {id:sc.id, tab:0, base:d.secs || 0, running:false, since:0}; }
+  const d = S.crDraft[sc.id] || {};
+  let h = '<div class="row between" style="margin-bottom:14px"><button class="btn sm ghost" data-act="ws-back">← All tasks</button><div class="row"><span class="mono" id="wsclock" style="font-size:1.05rem;font-weight:600">' + fmtClock(60*60000 - wsElapsed()) + '</span><button class="btn sm" data-act="ws-timer">' + (W.running ? 'Pause timer' : W.base ? 'Resume timer' : 'Start 60-min timer') + '</button></div></div>';
+  h += crTaskHTML(sc, {text:d.text, notes:d.notes, tab:W.tab, prefix:'w'});
+  h += '<div class="row" style="margin-top:14px;justify-content:flex-end"><button class="btn" data-act="ws-peek">Show the scoring checklist</button><button class="btn pri lg" data-act="ws-submit">Submit for scoring</button></div>';
+  if (W.peek) h += '<div class="card flat" style="margin-top:12px"><div class="eyebrow">Self-check before you submit</div><ul class="small" style="margin:6px 0 0;padding-left:18px">' + (sc.checklist || []).map(c => '<li>' + esc(c) + '</li>').join('') + '</ul></div>';
+  return h;
+}
+function afterWriteRender(){
+  bindCRInputs('w');
+  clearInterval(wsTimer);
+  wsTimer = setInterval(() => { const el = $('#wsclock'); if (!el){ clearInterval(wsTimer); return; } const left = 60*60000 - wsElapsed(); el.textContent = left >= 0 ? fmtClock(left) : '+' + fmtClock(-left); el.style.color = left < 0 ? 'var(--bad)' : ''; }, 1000);
+}
+function writeScored(c){
+  if (!c) return '<div class="empty">Attempt not found.</div>';
+  const sc = SCM[c.scen];
+  return '<button class="btn sm ghost" data-act="ws-back">← All tasks</button><div class="eyebrow" style="margin-top:14px">' + esc(sc.setting) + '</div><h1 class="view-title">' + esc(sc.title) + '</h1><div class="ruled"></div><p class="small muted" style="margin-bottom:14px">' + c.words + ' words · ' + fmtClock(c.secs) + ' · ' + new Date(c.t).toLocaleString() + '</p>' + crScorePanel({scen:sc, text:c.text, score:c.score, ai:c.ai, key:'cr:' + S.cr.indexOf(c)});
+}
+function crScorePanel(o){
+  const sc = o.scen;
+  const tab = route.crtab || (o.score ? 'model' : CAP.sample ? 'ai' : 'self');
+  let h = '<div class="seg" role="tablist" style="margin-bottom:14px">' + [['ai','Claude\'s feedback'],['self','Score it yourself'],['model','Model response (4)'],['weak','Weak response (2)'],['mine','My response']].map(([k, v]) => (k === 'ai' && !CAP.sample && !o.ai) ? '' : '<button class="' + (tab === k ? 'on' : '') + '" data-act="crtab" data-v="' + k + '">' + v + '</button>').join('') + '</div>';
+  if (o.score) h += '<div class="callout" style="margin-bottom:14px"><b>Scored ' + o.score.o + '/4</b> (' + (o.score.src === 'ai' ? 'by Claude' : 'self-scored') + '): Completeness ' + o.score.c + ' · Accuracy ' + o.score.a + ' · Depth of Support ' + o.score.d + '</div>';
+  if (tab === 'ai'){
+    if (o.ai) h += aiFeedbackHTML(o.ai);
+    else h += '<p class="small muted" style="margin-bottom:10px">Claude reads your response against the three NYSTCE performance characteristics and the model answers, then tells you exactly what to fix. This uses your Claude account and asks your permission the first time.</p>';
+    h += '<div class="row" style="margin-top:10px">' + (CAP.sample ? '<button class="btn pri" data-act="cr-ai" data-key="' + esc(o.key) + '"' + (words(o.text) < 40 ? ' disabled title="Write at least 40 words first"' : '') + '>' + (o.ai ? 'Score it again' : 'Score my response with Claude') + '</button>' : '') + '</div><div id="aiout" class="small muted" style="margin-top:10px"></div>';
+  } else if (tab === 'self'){
+    h += '<p class="small muted" style="margin-bottom:12px">Compare your response with the model and the checklist, then rate it honestly. Scorers give a holistic 1–4 based on these three characteristics.</p><div class="checks" style="margin-bottom:14px">' + (sc.checklist || []).map((c, i) => '<label><input type="checkbox" class="crchk" id="chk' + i + '"> <span>' + esc(c) + '</span></label>').join('') + '</div>' +
+      '<div class="rubric">' + [['c','Completeness','Did you do every part of the assignment?'],['a','Accuracy','Is your ESOL knowledge accurate and well applied?'],['d','Depth of Support','Do specific exhibit evidence and sound reasoning back each claim?']].map(([k, n, d]) => '<label for="rs-' + k + '">' + n + '<span class="tiny muted" style="font-weight:400">' + d + '</span><select id="rs-' + k + '"><option value="4">4 · thorough</option><option value="3" selected>3 · general</option><option value="2">2 · partial</option><option value="1">1 · little or none</option></select></label>').join('') + '</div><div class="row" style="margin-top:14px"><button class="btn pri" data-act="cr-self" data-key="' + esc(o.key) + '">Save my score</button></div>';
+  } else if (tab === 'model'){
+    h += '<div class="prose">' + esc(sc.model) + '</div>' + (sc.modelNotes ? '<div class="card flat" style="margin-top:12px"><div class="eyebrow">Why it earns a 4</div><ul class="small" style="margin:6px 0 0;padding-left:18px">' + sc.modelNotes.map(n => '<li>' + esc(n) + '</li>').join('') + '</ul></div>' : '');
+  } else if (tab === 'weak'){
+    h += '<div class="prose">' + esc(sc.weak) + '</div>' + (sc.weakNotes ? '<div class="card flat" style="margin-top:12px"><div class="eyebrow red">What holds it at a 2</div><ul class="small" style="margin:6px 0 0;padding-left:18px">' + sc.weakNotes.map(n => '<li>' + esc(n) + '</li>').join('') + '</ul></div>' : '');
+  } else {
+    h += '<div class="prose">' + (esc(o.text) || '<span class="muted">(empty)</span>') + '</div>';
+  }
+  return h;
+}
+function aiFeedbackHTML(a){
+  const li = arr => (arr || []).map(x => '<li>' + esc(typeof x === 'string' ? x : (x.issue ? x.issue + (x.howToFix ? ': ' + x.howToFix : '') : JSON.stringify(x))) + '</li>').join('');
+  return '<div class="card flat"><div class="row" style="margin-bottom:8px"><span class="chip brand">Overall ' + esc(a.overall) + '/4</span><span class="chip">Completeness ' + esc(a.completeness) + '</span><span class="chip">Accuracy ' + esc(a.accuracy) + '</span><span class="chip">Depth ' + esc(a.depth) + '</span></div><p style="margin-bottom:10px">' + esc(a.summary || '') + '</p>' +
+    (a.didWell && a.didWell.length ? '<div class="eyebrow" style="color:var(--good)">What worked</div><ul class="small" style="margin:4px 0 10px;padding-left:18px">' + li(a.didWell) + '</ul>' : '') +
+    (a.fix && a.fix.length ? '<div class="eyebrow red">Fix these to score higher</div><ul class="small" style="margin:4px 0 10px;padding-left:18px">' + li(a.fix) + '</ul>' : '') +
+    (a.strengthNeedCheck ? '<p class="small"><b>Strength and need:</b> ' + esc(a.strengthNeedCheck) + '</p>' : '') +
+    (a.evidenceCheck ? '<p class="small"><b>Evidence:</b> ' + esc(a.evidenceCheck) + '</p>' : '') +
+    (a.strategyCheck ? '<p class="small"><b>Strategy:</b> ' + esc(a.strategyCheck) + '</p>' : '') +
+    (a.rewrite ? '<div class="keyline" style="margin-top:10px"><b>Try it like this</b>' + esc(a.rewrite) + '</div>' : '') + '</div>';
+}
+function crTarget(key){
+  if (key.startsWith('exam:')){ const e = S.exams.find(x => x.id === key.slice(5)); return e ? {get score(){ return e.crScore; }, set(sc, ai){ if (sc) e.crScore = sc; if (ai) e.crAI = ai; e.scaled = toScaled(0.8 * e.srPct + 0.2 * (e.crScore ? e.crScore.o/4 : .625)); }, text:e.crText, scen:SCM[e.cr]} : null; }
+  const c = S.cr[+key.slice(3)]; return c ? {set(sc, ai){ if (sc) c.score = sc; if (ai) c.ai = ai; }, text:c.text, scen:SCM[c.scen]} : null;
+}
+async function crAI(key){
+  const T = crTarget(key); if (!T || !CAP.sample) return;
+  const out = $('#aiout'); const btn = document.querySelector('[data-act="cr-ai"]');
+  if (btn) btn.disabled = true;
+  if (out) out.textContent = 'Claude is reading your response… (about 30–60 seconds)';
+  const sc = T.scen;
+  const prompt = 'You are an experienced, fair scorer for the New York State Teacher Certification Examinations (NYSTCE), scoring the constructed-response item of the ESOL Content Specialty Test (Field 116, Competency 0007: Analysis, Synthesis, and Application).\n\n' +
+    'SCORING: Holistic 1–4 on three performance characteristics.\n- COMPLETENESS: the degree to which the response addresses all parts of the assignment.\n- ACCURACY: the degree to which the response demonstrates the relevant knowledge and skills accurately and effectively.\n- DEPTH OF SUPPORT: the degree to which the response provides appropriate examples and details that demonstrate sound reasoning.\nScore points: 4 = thorough command; 3 = general command; 2 = partial command; 1 = little or no command. A response that is far under ~400 words or skips a bullet usually cannot earn a 4.\n\n' +
+    'TASK CONTEXT: ' + sc.setting + '. ' + (sc.intro || '') + '\n\nEXHIBITS:\n' + sc.exhibits.map(e => '### ' + e.title + '\n' + e.content).join('\n\n') +
+    '\n\nASSIGNMENT: ' + sc.prompt + '\n' + sc.tasks.map(t => '- ' + t).join('\n') +
+    '\n\nANCHOR (a score-4 model response, for calibration only):\n' + sc.model + '\n\nANCHOR (a score-2 response):\n' + sc.weak +
+    '\n\nCANDIDATE RESPONSE (' + words(T.text) + ' words):\n"""\n' + T.text + '\n"""\n\n' +
+    'Score the CANDIDATE response. Be specific and constructive, like a coach who wants her to pass. Reply with only a JSON object of this shape:\n{"overall":3,"completeness":3,"accuracy":3,"depth":2,"summary":"two sentences","didWell":["specific strength", "..."],"fix":[{"issue":"specific problem","howToFix":"concrete fix"}],"strengthNeedCheck":"Are the identified strength and need significant, supported by exhibit evidence, and (if required) shared?","evidenceCheck":"How well and accurately are exhibits cited?","strategyCheck":"Is the strategy concrete, level-appropriate, and does it use the strength to address the need?","rewrite":"one improved paragraph she could model"}';
+  try {
+    const a = await CAP.sample.json(prompt, {modelTier:'default'});
+    const n = v => Math.max(1, Math.min(4, Math.round(+v || 0))) || 2;
+    const ai = {overall:n(a.overall), completeness:n(a.completeness), accuracy:n(a.accuracy), depth:n(a.depth), summary:String(a.summary || ''), didWell:a.didWell || [], fix:a.fix || [], strengthNeedCheck:a.strengthNeedCheck || '', evidenceCheck:a.evidenceCheck || '', strategyCheck:a.strategyCheck || '', rewrite:a.rewrite || ''};
+    T.set({o:ai.overall, c:ai.completeness, a:ai.accuracy, d:ai.depth, src:'ai'}, ai);
+    save(); route.crtab = 'ai'; render();
+  } catch(e){
+    const msg = {not_granted:'Claude scoring needs your permission. You can still score it yourself.', rate_limited:'Claude is busy right now. Try again in a minute.', invalid_json:'The feedback came back garbled. Please try once more.', sampling_disabled:'Claude scoring isn\'t available on this account. Use self-scoring.'}[e && e.code] || 'Claude couldn\'t score it just now. Try again, or score it yourself.';
+    if (out) out.textContent = msg; if (btn) btn.disabled = false;
+  }
+}
+async function askClaude(qid){
+  if (!CAP.sample) return;
+  const q = QM[qid]; const a = P && P.answers[qid]; const c = a ? a.c : -1;
+  const out = $('#askout'); if (!out) return;
+  out.innerHTML = '<div class="ai">Thinking…</div>';
+  const box = out.firstChild;
+  const L = i => LET[i];
+  const prompt = 'You are a warm, precise tutor helping an experienced teacher prepare for the NYSTCE ESOL CST (116) certification exam in New York.\n\n' +
+    (q.stimulus ? 'Stimulus:\n' + q.stimulus + '\n\n' : '') + 'Question: ' + q.stem + '\n' + q.options.map((o, i) => L(i) + ') ' + o).join('\n') +
+    '\n\nCorrect answer: ' + L(q.answer) + '. Official explanation: ' + q.why + '\n' +
+    (c >= 0 && c !== q.answer ? 'She chose ' + L(c) + '. Why that is wrong: ' + (q.traps[c] ? q.traps[c].note : '') + '\n\nIn under 150 words, explain why her choice is tempting but wrong and why ' + L(q.answer) + ' is best, using a concrete classroom picture. End with one memorable rule of thumb for similar exam questions.' : '\nShe answered correctly. In under 120 words, explain the concept a second way with a fresh classroom example, and give one rule of thumb for similar exam questions.') +
+    ' Plain text only, no headings or markdown.';
+  try { await CAP.sample(prompt, {modelTier:'default', onText: ({text}) => { box.textContent = text; }}); }
+  catch(e){ box.textContent = e && e.code === 'not_granted' ? 'Claude needs your permission to answer. The written explanation above covers the key idea.' : 'Couldn\'t reach Claude just now. Try again in a moment.'; }
+}
+
+/* ============================== VIEW: flashcards ============================== */
+function allCards(){
+  const out = [];
+  Object.values(LESSONS).forEach(L => (L.terms || []).forEach((t, i) => out.push({id:'t:' + L.skill + ':' + i, front:t.t, back:t.d, skill:L.skill})));
+  if (GUIDE) (GUIDE.terms || []).forEach((t, i) => out.push({id:'t:g:' + i, front:t.t, back:t.d, skill:'7.1'}));
+  const missed = new Set(S.att.filter(a => !a.ok).map(a => a.q));
+  missed.forEach(id => { const q = QM[id]; if (q && q.key) out.push({id:'k:' + id, front:'Takeaway · ' + SKILL[q.skill].name, back:q.key, skill:q.skill, fromMiss:true}); });
+  return out;
+}
+function dueCards(){ const t = todayNum(); return allCards().filter(c => { const s = S.cards[c.id]; return !s || s.d <= t; }); }
+let FC = null;
+VIEWS.cards = function(r){
+  const all = allCards();
+  if (!all.length) return '<h1 class="view-title">Flashcards</h1><div class="ruled"></div><div class="empty">Flashcards appear once the lessons are loaded.</div>';
+  if (FC && FC.deck.length && FC.i < FC.deck.length){
+    const c = FC.deck[FC.i];
+    return '<div class="flash"><div class="row between" style="margin-bottom:12px"><span class="chip brand">' + esc(FC.label) + '</span><span class="mono small muted">' + (FC.i + 1) + ' / ' + FC.deck.length + '</span></div><button class="fcard" data-act="fc-flip" aria-live="polite">' + (FC.flip ? '<span class="tiny muted">' + esc(c.front) + '</span><span class="d">' + esc(c.back) + '</span>' : '<span class="t">' + esc(c.front) + '</span><span class="tiny muted">' + (c.skill ? esc(c.skill + ' · ' + SKILL[c.skill].name) : '') + ' · tap to flip</span>') + '</button>' +
+      '<div class="row" style="justify-content:center;margin-top:16px">' + (FC.flip ? '<button class="btn lg" data-act="fc-grade" data-v="0">Again</button><button class="btn pri lg" data-act="fc-grade" data-v="1">Got it</button>' : '<button class="btn pri lg" data-act="fc-flip">Show answer</button>') + '</div><div class="row" style="justify-content:center;margin-top:12px"><button class="btn sm ghost" data-act="fc-end">End session</button></div></div>';
+  }
+  if (FC && FC.i >= FC.deck.length){ const n = FC.deck.length, g = FC.got; FC = null; return '<div class="flash"><h1 class="view-title">Deck done</h1><div class="ruled"></div><p class="lede">' + g + ' of ' + n + ' marked "got it." Cards you missed come back tomorrow.</p><button class="btn pri" data-act="tab" data-tab="cards">Back to decks</button></div>'; }
+  const due = dueCards();
+  const st = stats();
+  let h = '<h1 class="view-title">Flashcards</h1><div class="ruled"></div><p class="lede">' + all.length + ' cards: every key term from the lessons, plus a takeaway card for each question you\'ve missed. "Got it" pushes a card out 1 → 3 → 7 → 16 → 35 days; "Again" brings it back tomorrow.</p>';
+  h += '<div class="grid g3" style="margin-bottom:16px"><div class="card"><div class="eyebrow">Due now</div><h3>' + due.length + ' cards</h3><button class="btn pri" style="margin-top:10px" data-act="fc-start" data-deck="due"' + (due.length ? '' : ' disabled') + '>Study ' + Math.min(20, due.length) + '</button></div>' +
+    '<div class="card"><div class="eyebrow red">From your misses</div><h3>' + all.filter(c => c.fromMiss).length + ' takeaways</h3><button class="btn" style="margin-top:10px" data-act="fc-start" data-deck="miss"' + (all.some(c => c.fromMiss) ? '' : ' disabled') + '>Study</button></div>' +
+    '<div class="card"><div class="eyebrow">Weakest skills</div><h3>Terms from your top 3</h3><button class="btn" style="margin-top:10px" data-act="fc-start" data-deck="weak">Study</button></div></div>';
+  h += '<div class="stack">' + COMPS.map(c => { const n = all.filter(x => x.skill && compOf(x.skill).id === c.id).length; return n ? '<div class="lrow card flat" style="padding:12px 14px"><div class="t"><span class="mono muted tiny">' + c.code + '</span> ' + esc(c.name) + ' <span class="tiny muted">' + n + ' cards</span></div><button class="btn sm" data-act="fc-start" data-deck="c' + c.id + '">Study deck</button></div>' : ''; }).join('') + '</div>';
+  return h;
+};
+function startCards(deck){
+  const all = allCards(); let list, label;
+  if (deck === 'due'){ list = dueCards(); label = 'Due cards'; }
+  else if (deck === 'miss'){ list = all.filter(c => c.fromMiss); label = 'Takeaways from misses'; }
+  else if (deck === 'weak'){ const top = priorities().slice(0,3).map(p => p.code); list = all.filter(c => top.includes(c.skill)); label = 'Weakest skills'; }
+  else { const id = +deck.slice(1); list = all.filter(c => c.skill && compOf(c.skill).id === id); label = COMPS[id-1].short; }
+  FC = {deck: shuffle(list).slice(0, 20), i:0, flip:false, got:0, label};
+  go('cards');
+}
+
+/* ============================== VIEW: settings ============================== */
+VIEWS.settings = function(){
+  const syncLine = Sync.on ? '<span class="chip good">On</span> Your progress is also saved to your Claude account, so it follows you across devices.' + (Sync.err ? ' <span class="small muted">(last sync issue: ' + esc(Sync.err) + ')</span>' : '') : '<span class="chip">Browser only</span> Progress is saved in this browser. Use the backup code below to move it or keep a copy.';
+  let h = '<h1 class="view-title">Settings</h1><div class="ruled"></div><div class="stack">';
+  h += '<div class="card"><h3>About you</h3><div class="row" style="margin-top:10px"><label class="small" for="nm">Name for greetings</label><input type="text" id="nm" value="' + esc(S.name) + '" placeholder="e.g., Mom"><label class="small" for="examDate2">Exam date</label><input type="date" id="examDate2" value="' + esc(S.examDate) + '"><button class="btn sm pri" data-act="save-me">Save</button></div></div>';
+  h += '<div class="card"><h3>Where your progress lives</h3><p class="small" style="margin:8px 0">' + syncLine + '</p>' + (storageOK ? '' : '<p class="small" style="color:var(--bad)">This browser is blocking storage, so progress lasts only while this tab is open. Copy a backup code before closing.</p>') + '</div>';
+  h += '<div class="card"><h3>Backup & restore</h3><p class="small muted" style="margin:6px 0 10px">Copy your backup code into a note or email to yourself. Paste it here on any device to restore your progress.</p><div class="row"><button class="btn" data-act="backup">Copy backup code</button></div><textarea class="notes" id="bk" style="margin-top:10px" placeholder="Paste a backup code here to restore"></textarea><div class="row" style="margin-top:8px"><button class="btn sm" data-act="restore">Restore from code</button></div></div>';
+  h += '<div class="card"><h3>Start over</h3><p class="small muted" style="margin:6px 0 10px">Erases every answer, exam, and written response.</p>' + (route.confirmReset ? '<div class="confirm"><b>Erase everything?</b> This can\'t be undone. <div class="row" style="margin-top:8px"><button class="btn danger sm" data-act="reset-yes">Yes, erase</button><button class="btn sm" data-act="tab" data-tab="settings">Cancel</button></div></div>' : '<button class="btn danger sm" data-act="reset">Reset all progress</button>') + '</div>';
+  h += '<div class="card flat"><h3>About this simulator</h3><p class="small muted" style="margin-top:6px">Built around the published NYSTCE Field 116 design: 6 multiple-choice competencies (13–14% each, about 15 questions each) plus the Competency 0007 constructed response (20%), on a 195-minute clock with 520 to pass on the 400–600 scale. The questions are original practice items written to match the official competencies and question style; they are not actual exam questions. Score projections are estimates. NYSTCE doesn\'t publish a raw-to-scaled conversion, so aim for 75% or better on mock exams to give yourself a margin.</p><p class="tiny muted" style="margin-top:8px">' + Q.length + ' questions · ' + Object.keys(LESSONS).length + ' lessons · ' + SCEN.length + ' written tasks · ' + allCards().length + ' flashcards</p></div>';
+  h += '</div>';
+  return h;
+};
+
+/* ============================== events ============================== */
+document.addEventListener('click', e => {
+  const el = e.target.closest('[data-act]'); if (!el) return;
+  const act = el.dataset.act, d = el.dataset;
+  switch (act){
+    case 'tab': go(d.tab); break;
+    case 'diag-start': startDiag('diag'); break;
+    case 'check-start': if (S.check && S.check.done) go('insights', {diag:'check'}); else startDiag('check'); break;
+    case 'go-diag-report': go('insights', {diag:d.kind}); break;
+    case 'lesson': go('lesson', {skill:d.skill}); break;
+    case 'mark-read': S.read[d.skill] = now(); save(); render(); toast('Marked as read'); break;
+    case 'read-drill': S.read[d.skill] = now(); save(); startPlayer({mode:'drill', title:'Drill · ' + d.skill, qids:pickSkill(d.skill, 8), home:'learn'}); break;
+    case 'drill': { const n = +(d.n || 8); startPlayer({mode:'drill', title:'Drill · ' + d.skill + ' ' + SKILL[d.skill].name, qids:pickSkill(d.skill, n)}); break; }
+    case 'smart': startPlayer({mode:'practice', title:'Smart practice', qids:pickSmart(+d.n || 10)}); break;
+    case 'review': startPlayer({mode:'review', title:'Missed-question review', qids:shuffle(dueReviews()).slice(0, 15), shuffle:true}); break;
+    case 'quick': startPlayer({mode:'quick', title:'Quick 15 (timed)', qids:pickQuick(), feedback:false, limit:22.5*60000}); break;
+    case 'trapdrill': startPlayer({mode:'drill', title:'Pattern drill · ' + TRAPS[d.code].label, qids:pickTrap(d.code, 10)}); break;
+    case 'pref-fb': S.prefs.fb = d.v; save(true); render(); break;
+    case 'pick': if (P && !P.revealed){ P.sel = +d.o; render(); } break;
+    case 'strike': if (P){ const k = curQ().id + ':' + d.o; P.struck[k] = !P.struck[k]; if (P.struck[k] && P.sel === +d.o) P.sel = null; render(); } break;
+    case 'submit': submitAnswer(+d.cf); break;
+    case 'next': nextQ(); break;
+    case 'quit': if (P && (P.mode === 'diag' || P.mode === 'check')){ P = null; go('today'); toast('Saved. Pick up where you left off anytime.'); } else if (P){ const answered = P.qids.filter(id => P.answers[id]); if (answered.length){ P.qids = answered; finishSet(); } else { P = null; go('practice'); } } break;
+    case 'retry-missed': { const missed = P.qids.filter(id => P.answers[id] && !P.answers[id].ok); startPlayer({mode:'review', title:'Retry misses', qids:shuffle(missed), shuffle:true}); break; }
+    case 'ask': askClaude(d.q); break;
+    case 'save-date': { const v = $('#examDate').value; S.examDate = v; save(); render(); toast(v ? 'Exam date saved' : 'Exam date cleared'); break; }
+    case 'save-me': S.name = $('#nm').value.trim().slice(0, 40); S.examDate = $('#examDate2').value; save(); toast('Saved'); render(); break;
+    case 'exam': go('exam'); break;
+    case 'exam-start': startExam(d.form); break;
+    case 'exam-resume': openExam(); break;
+    case 'exam-abandon': route.confirmAbandon = true; render(); break;
+    case 'exam-abandon-yes': S.exam = null; save(); go('exam'); toast('Attempt discarded'); break;
+    case 'exam-result': go('exam', {result:d.id}); break;
+    case 'exam-filter': go('exam', {result:d.id, filter:d.v}); break;
+    case 'x-pick': { const x = S.exam, id = x.qids[x.i]; x.ans[id] = +d.o; save(true); renderExam(); break; }
+    case 'x-strike': { const x = S.exam, id = x.qids[x.i]; x.struck = x.struck || {}; const k = id + ':' + d.o; x.struck[k] = !x.struck[k]; if (x.struck[k] && x.ans[id] === +d.o) delete x.ans[id]; renderExam(); break; }
+    case 'x-next': { const x = S.exam; x.view = 'q'; x.i = Math.min(x.i + 1, x.qids.length - (x.cr ? 0 : 1)); save(true); renderExam(); break; }
+    case 'x-prev': { const x = S.exam; if (x.view === 'review'){ x.view = 'q'; } else x.i = Math.max(0, x.i - 1); renderExam(); break; }
+    case 'x-flag': { const x = S.exam, id = x.qids[x.i]; x.flags[id] = !x.flags[id]; save(true); renderExam(); break; }
+    case 'x-review': S.exam.view = 'review'; S.exam.confirmEnd = false; renderExam(); break;
+    case 'x-goto': S.exam.view = 'q'; S.exam.i = +d.i; renderExam(); break;
+    case 'x-submit': S.exam.confirmEnd = true; renderExam(); break;
+    case 'x-submit-yes': submitExam(); break;
+    case 'x-exit': closeExam(); go('exam'); toast('Exam saved. The clock is paused.'); break;
+    case 'x-exh': case 'w-exh': {
+      const prefix = act[0];
+      const sc = prefix === 'x' ? SCM[S.exam.cr] : SCM[W.id];
+      const i = +d.i; if (prefix === 'w') W.tab = i;
+      const box = $('#' + prefix + '-exh'); box.innerHTML = '<b>' + esc(sc.exhibits[i].title) + '</b>\n\n' + richText(sc.exhibits[i].content);
+      document.querySelectorAll('#' + prefix + '-exhtabs .btn').forEach((b, j) => b.classList.toggle('pri', j === i));
+      break; }
+    case 'ws-open': W = null; route = {tab:'write', ws:d.id}; render(); window.scrollTo(0,0); break;
+    case 'ws-back': if (W && W.running){ W.base = wsElapsed(); W.running = false; } clearInterval(wsTimer); W = null; go('write'); break;
+    case 'ws-timer': { if (W.running){ W.base = wsElapsed(); W.running = false; } else { W.running = true; W.since = now(); } const resp = $('#w-resp'), notes = $('#w-notes'); S.crDraft[W.id] = {text: resp ? resp.value : '', notes: notes ? notes.value : '', secs: W.base}; save(true); render(); break; }
+    case 'ws-peek': W.peek = !W.peek; render(); break;
+    case 'ws-submit': {
+      const text = $('#w-resp').value, notes = $('#w-notes').value;
+      if (words(text) < 20){ toast('Write a bit more before submitting'); break; }
+      const secs = wsElapsed();
+      S.cr.push({scen:W.id, text, notes, words:words(text), secs, t:now(), score:null, ai:null});
+      delete S.crDraft[W.id]; W = null; clearInterval(wsTimer); save();
+      route = {tab:'write', scored:S.cr.length - 1, crtab: CAP.sample ? 'ai' : 'self'}; render(); window.scrollTo(0,0);
+      break; }
+    case 'ws-last': { let idx = -1; S.cr.forEach((c, i) => { if (c.scen === d.id) idx = i; }); if (idx >= 0) go('write', {scored:idx}); break; }
+    case 'crtab': route.crtab = d.v; render(); break;
+    case 'cr-self': {
+      const T = crTarget(d.key); if (!T) break;
+      const c = +$('#rs-c').value, a = +$('#rs-a').value, dd = +$('#rs-d').value;
+      T.set({c, a, d:dd, o:Math.round((c + a + dd) / 3), src:'self'});
+      save(); route.crtab = 'model'; render(); toast('Score saved. Now compare with the model.');
+      break; }
+    case 'cr-ai': crAI(d.key); break;
+    case 'fc-start': startCards(d.deck); break;
+    case 'fc-flip': if (FC){ FC.flip = !FC.flip; render(); } break;
+    case 'fc-grade': {
+      const c = FC.deck[FC.i]; const cur = S.cards[c.id] || {b:-1};
+      if (+d.v){ const b = Math.min(BOXES.length - 1, cur.b + 1); S.cards[c.id] = {b, d:todayNum() + BOXES[b], last:now()}; FC.got++; }
+      else S.cards[c.id] = {b:-1, d:todayNum() + 1, last:now()};
+      save(true); FC.i++; FC.flip = false; render(); break; }
+    case 'fc-end': FC = null; go('cards'); break;
+    case 'backup': {
+      const code = JSON.stringify(S);
+      const ta = $('#bk');
+      const done = () => toast('Backup code copied. Paste it somewhere safe.');
+      try { navigator.clipboard.writeText(code).then(done, () => { ta.value = code; ta.select(); toast('Select-all and copy the code shown'); }); }
+      catch(err){ ta.value = code; ta.select(); toast('Select-all and copy the code shown'); }
+      break; }
+    case 'restore': {
+      try { const obj = JSON.parse($('#bk').value.trim()); if (!obj || !Array.isArray(obj.att)) throw 0; S = normalize(obj); save(); _statsCache = null; render(); toast('Progress restored'); }
+      catch(err){ toast('That code didn\'t work. Copy the whole thing and try again.'); }
+      break; }
+    case 'reset': route.confirmReset = true; render(); break;
+    case 'reset-yes': S = blank(); save(); _statsCache = null; P = null; FC = null; go('today'); toast('All progress erased'); break;
+  }
+});
+document.addEventListener('keydown', e => {
+  if (e.target.matches('input, textarea, select')) return;
+  if (!$('#exam').hidden && S.exam){
+    const x = S.exam;
+    if (x.view !== 'review' && x.i < x.qids.length){
+      const k = e.key.toUpperCase(); const i = 'ABCD'.indexOf(k) >= 0 ? 'ABCD'.indexOf(k) : '1234'.indexOf(e.key);
+      if (i >= 0){ x.ans[x.qids[x.i]] = i; save(true); renderExam(); }
+      if (e.key === 'ArrowRight' || e.key === 'Enter'){ x.i = Math.min(x.i + 1, x.qids.length - (x.cr ? 0 : 1)); renderExam(); }
+      if (e.key === 'ArrowLeft'){ x.i = Math.max(0, x.i - 1); renderExam(); }
+    }
+    return;
+  }
+  if (route.tab === 'play' && P && !P.done){
+    const ord = dispOrder(curQ().id);
+    const k = e.key.toUpperCase(); let i = 'ABCD'.indexOf(k); if (i < 0) i = '1234'.indexOf(e.key);
+    if (i >= 0 && !P.revealed){ P.sel = ord[i]; render(); }
+    else if (e.key === 'Enter'){ if (P.revealed) nextQ(); else if (P.sel != null) submitAnswer(1); }
+  } else if (route.tab === 'cards' && FC){
+    if (e.key === ' ' || e.key === 'Enter'){ e.preventDefault(); FC.flip = !FC.flip; render(); }
+  }
+});
+
+/* ============================== boot ============================== */
+function boot(){
+  if (S.exam && S.exam.view !== 'done'){ /* stay on tab; offer resume */ }
+  render();
+  Sync.init();
+}
+boot();
+})();
+</script>

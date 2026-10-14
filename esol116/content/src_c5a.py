@@ -1,0 +1,561 @@
+# Competency 5 (part A): skills 5.1-5.4
+# 5.1 Sheltered instruction & content-language integration (SIOP, CALLA, CBI)
+# 5.2 Integrated ENL co-teaching & collaboration
+# 5.3 Mathematics
+# 5.4 Science
+
+QUESTIONS = [
+# =====================================================================
+# 5.1 SHELTERED INSTRUCTION: SIOP, CALLA, CBI
+# =====================================================================
+{
+ "id": "5.1-01", "skill": "5.1", "type": "application", "difficulty": 1, "diag": 0,
+ "stimulus": "Lesson excerpt, grade 6 Integrated ENL science (food preservation unit):\nThe teacher opens by asking students how their families keep food from spoiling at home. Students describe drying fish, pickling vegetables, and salting meat. The teacher then says, 'Last week we learned that bacteria need warmth and moisture to grow. Let's figure out how each of your families' methods takes one of those away.'",
+ "stem": "The teacher's opening most clearly reflects which SIOP component?",
+ "options": [
+  "Lesson Preparation, because the teacher planned a meaningful activity that integrates content with language practice",
+  "Building Background, because the teacher links the new concepts to students' experiences and to past learning",
+  "Comprehensible Input, because the teacher uses familiar examples to make her speech easier to understand",
+  "Review & Assessment, because the teacher reviews key content concepts from the previous week's lesson"
+ ],
+ "answer": 1,
+ "why": "SIOP's Building Background component has three features: concepts explicitly linked to students' background experiences, explicit links between past learning and new concepts, and emphasis on key vocabulary. Asking about families' food-preservation practices connects the lesson to students' lives (their funds of knowledge), and the reference to last week's bacteria lesson connects past learning to the new concept. Both moves are textbook Building Background.",
+ "traps": [
+  {"code": "TERM", "pair": "Lesson Preparation ↔ Building Background", "note": "Lesson Preparation covers planning features such as objectives, appropriate concepts, supplementary materials, and adapted content. The defining move here is explicitly connecting to students' experiences and prior lessons, which SIOP places in Building Background."},
+  None,
+  {"code": "TERM", "pair": "Comprehensible Input ↔ Building Background", "note": "Comprehensible Input is about how the teacher speaks and explains tasks (rate, enunciation, modeling, visuals). This teacher isn't adjusting her speech; she is activating and connecting background knowledge."},
+  {"code": "LITERAL", "note": "The mention of last week is a bridge to new learning, not a comprehensive review. Review & Assessment features (reviewing key vocabulary and concepts, giving feedback, checking comprehension) happen during and at the end of a lesson."}
+ ],
+ "key": "SIOP Building Background = link to students' experiences + link to past learning + emphasize key vocabulary."
+},
+{
+ "id": "5.1-02", "skill": "5.1", "type": "application", "difficulty": 2, "diag": 1,
+ "stimulus": "Grade 7 Integrated ENL science, Transitioning and Expanding ELLs.\nContent objective: Students will compare plant and animal cells.\nPlanned task: Partners examine microscope images, then report similarities and differences to the class.",
+ "stem": "Which of the following is the most appropriate language objective for this lesson?",
+ "options": [
+  "Students will identify the cell wall, chloroplasts, and vacuole in plant cells viewed under a microscope.",
+  "Students will complete a Venn diagram that shows how plant and animal cells are alike and how they differ.",
+  "Students will orally compare the two cell types using 'Both ___ and ___ have ___' and '___, whereas ___.'",
+  "Students will copy and memorize the glossary definitions of ten cell-structure vocabulary words."
+ ],
+ "answer": 2,
+ "why": "A language objective states how students will use academic language to learn or show the content: a language function (compare), a domain (orally), and the target forms (Both… and… have…; whereas). This option names all three and matches the planned task, in which partners report similarities and differences. SIOP calls for both content and language objectives that are clearly defined, displayed, and reviewed with students.",
+ "traps": [
+  {"code": "TERM", "pair": "content objective ↔ language objective", "note": "Identifying cell structures is content knowledge: what students learn about science. It names no language function or forms, so it is a second content objective, not a language objective."},
+  {"code": "PARTIAL", "note": "A Venn diagram is a useful scaffold, but this describes an activity. It doesn't say which language function, forms, or domain students will practice."},
+  None,
+  {"code": "ISOLATED", "note": "Copying and memorizing glossary definitions is decontextualized and has nothing to do with the lesson's language function (comparing). It produces no meaningful output."}
+ ],
+ "key": "A strong language objective names the function, domain, and target forms students will use, not a content fact or an activity."
+},
+{
+ "id": "5.1-03", "skill": "5.1", "type": "analysis", "difficulty": 2, "diag": 2,
+ "stimulus": "A grade 8 Transitioning ELL (home language: Bengali) thinks aloud before reading a social studies chapter:\n'First I'll look at the headings and the questions at the end, so I know what this is about. Then I'll read the part about the factory workers most carefully, because that's what the questions ask about.'",
+ "stem": "In the CALLA framework, the strategies this student is using are best classified as",
+ "options": [
+  "metacognitive strategies, because the student is planning and directing her attention before the task",
+  "cognitive strategies, because the student is manipulating the text material in order to understand it",
+  "social/affective strategies, because the student is managing her motivation and interest while reading",
+  "compensation strategies, because the student is making up for gaps in her English vocabulary knowledge"
+ ],
+ "answer": 0,
+ "why": "CALLA (Chamot & O'Malley) groups learning strategies into three types. Metacognitive strategies are planning, selective attention, monitoring, and self-evaluation. Cognitive strategies work directly with the material: note-taking, summarizing, grouping, inferencing, using resources. Social/affective strategies are asking for clarification, cooperating, and self-talk. Previewing headings to plan, and deciding in advance what to focus on, are planning and selective attention. The student is managing her own learning, so these are metacognitive strategies.",
+ "traps": [
+  None,
+  {"code": "TERM", "pair": "metacognitive ↔ cognitive", "note": "Cognitive strategies involve working with the content itself (taking notes, summarizing, classifying). This student hasn't started working with the text yet; she is planning how to approach it, which is thinking about her learning."},
+  {"code": "TERM", "pair": "metacognitive ↔ social/affective", "note": "Social/affective strategies involve other people (asking for clarification, cooperating) or managing feelings (positive self-talk). Nothing in the think-aloud involves peers or emotions."},
+  {"code": "MISAPPLIED_THEORY", "note": "'Compensation' is a category in Rebecca Oxford's strategy taxonomy, not one of CALLA's three types. The student also isn't compensating for missing knowledge (guessing, using synonyms, gesturing)."}
+ ],
+ "key": "Planning, selective attention, monitoring, and self-evaluation are metacognitive; working directly on the material is cognitive."
+},
+{
+ "id": "5.1-04", "skill": "5.1", "type": "application", "difficulty": 3, "diag": 0,
+ "stem": "A high school sheltered biology teacher asks a question, pauses several seconds before calling on anyone, and then lets students rehearse their answers with a partner (sometimes in their home language) before sharing with the class. In the SIOP model, these practices are features of which component?",
+ "options": [
+  "Comprehensible Input",
+  "Strategies",
+  "Lesson Delivery",
+  "Interaction"
+ ],
+ "answer": 3,
+ "why": "SIOP's Interaction component has four features: frequent opportunities for interaction and discussion, grouping configurations that support the objectives, sufficient wait time for responses, and ample opportunities to clarify key concepts in L1. The teacher's pause is wait time, and partner rehearsal (including in the home language) is interaction and L1 clarification. Wait time is a classic trap because it seems to belong under Comprehensible Input.",
+ "traps": [
+  {"code": "TERM", "pair": "Comprehensible Input ↔ Interaction", "note": "Wait time feels like it makes a lesson comprehensible, but SIOP lists 'sufficient wait time' and 'clarify key concepts in L1' under Interaction. Comprehensible Input covers teacher speech, clear task explanations, and techniques such as modeling and visuals."},
+  {"code": "TERM", "pair": "Strategies ↔ Interaction", "note": "Strategies covers learning strategies, scaffolding techniques such as think-alouds, and higher-order questions. These practices concern how students respond and talk, not strategy instruction."},
+  {"code": "TERM", "pair": "Lesson Delivery ↔ Interaction", "note": "Lesson Delivery asks whether delivery supports the objectives, whether students are engaged 90–100% of the time, and whether pacing is appropriate. A deliberate pause before calling on students is an Interaction feature, not pacing."},
+  None
+ ],
+ "key": "In SIOP, wait time and L1 clarification belong to Interaction, not Comprehensible Input."
+},
+{
+ "id": "5.1-05", "skill": "5.1", "type": "knowledge", "difficulty": 1, "diag": 0,
+ "stem": "The Cognitive Academic Language Learning Approach (CALLA) integrates which three components?",
+ "options": [
+  "Grade-level content topics, academic language development, and explicit learning-strategy instruction",
+  "Explicit grammar rules, vocabulary memorization, and translation of content texts into the home language",
+  "Posted content objectives, posted language objectives, and a thirty-feature lesson observation protocol",
+  "Total physical response, an extended silent period, and a gradual movement toward oral production"
+ ],
+ "answer": 0,
+ "why": "Chamot and O'Malley designed CALLA to prepare ELLs for grade-level content classes. It integrates three components: content topics from the curriculum, the academic language those topics require, and explicit instruction in learning strategies (metacognitive, cognitive, and social/affective). The learning-strategy strand is what most distinguishes CALLA from other content-based models.",
+ "traps": [
+  None,
+  {"code": "TERM", "pair": "CALLA ↔ Grammar-Translation", "note": "Rules, memorized vocabulary, and translation describe the Grammar-Translation method. CALLA instead teaches academic language and strategies through grade-level content."},
+  {"code": "TERM", "pair": "CALLA ↔ SIOP", "note": "Content and language objectives evaluated with a 30-feature protocol describe the SIOP Model (Echevarría, Vogt & Short), not CALLA."},
+  {"code": "TERM", "pair": "CALLA ↔ Natural Approach/TPR", "note": "TPR and a silent period followed by gradual production describe Asher's TPR and Krashen and Terrell's Natural Approach, which focus on beginning oral language rather than academic content and strategies."}
+ ],
+ "key": "CALLA = content + academic language + explicit learning-strategy instruction (Chamot & O'Malley)."
+},
+{
+ "id": "5.1-06", "skill": "5.1", "type": "application", "difficulty": 3, "diag": 0,
+ "stimulus": "Grade 5 Integrated ENL math. CALLA lesson on selective attention (underlining the question and the key numbers in a word problem):\nDay 1: Students describe how they usually start a word problem.\nDay 1: The teacher models the strategy in a think-aloud and names it.\nDay 2: Partners apply the strategy to three new problems.\nDay 2: Students write in their learning logs: 'How well did underlining work for me? Which problem was hardest, and why?'",
+ "stem": "The learning-log entry on Day 2 corresponds to which phase of the CALLA instructional sequence?",
+ "options": [
+  "Preparation",
+  "Practice",
+  "Self-evaluation",
+  "Expansion"
+ ],
+ "answer": 2,
+ "why": "CALLA's instructional sequence has five phases. Preparation finds out what students know and which strategies they already use. Presentation models and names the strategy. Practice applies it. Self-evaluation (sometimes listed simply as Evaluation) has students judge their own learning and how useful the strategy was. Expansion transfers the strategy to new contexts. Asking 'How well did underlining work for me?' is self-evaluation, which builds metacognitive awareness.",
+ "traps": [
+  {"code": "TERM", "pair": "Preparation ↔ Self-evaluation", "note": "Preparation is the opening phase, when the teacher finds out what students know and how they already approach the task. That is the Day 1 discussion, not the reflective log."},
+  {"code": "LITERAL", "note": "The log comes on the same day as the partner work, but Practice is the phase of applying the strategy to tasks. Judging how well the strategy worked is a separate phase."},
+  None,
+  {"code": "TERM", "pair": "Expansion ↔ Self-evaluation", "note": "Expansion asks students to transfer the strategy to new settings (another subject, home, real life). This log asks students to judge their own success, not to extend the strategy."}
+ ],
+ "key": "CALLA sequence: Preparation → Presentation → Practice → Self-evaluation → Expansion."
+},
+{
+ "id": "5.1-07", "skill": "5.1", "type": "application", "difficulty": 3, "diag": 0,
+ "stem": "A grade 4 Integrated ENL teacher and the classroom teacher are planning a lesson on finding the perimeter of rectangles. Using the distinction between content-obligatory and content-compatible language, which target is content-compatible?",
+ "options": [
+  "The terms perimeter, length, and width, which students need to name what they are measuring",
+  "The past tense, as in 'We measured each side,' when groups report on what they did",
+  "The phrase 'the distance around,' which students need to explain what perimeter means",
+  "The language 'add all the sides,' which students need to describe how to find perimeter"
+ ],
+ "answer": 1,
+ "why": "Snow, Met, and Genesee distinguish content-obligatory language from content-compatible language. Content-obligatory language is the vocabulary, structures, and functions students must have to learn and express the concept. Content-compatible language fits naturally into the lesson and can be practiced there, but it isn't required to master the content. The perimeter terms and the language for explaining and computing perimeter are obligatory. The past tense in a group report is compatible: a good extra target once the obligatory language is planned.",
+ "traps": [
+  {"code": "TERM", "pair": "content-obligatory ↔ content-compatible", "note": "Students can't understand or talk about perimeter without these terms, so they are content-obligatory, the first language to plan."},
+  None,
+  {"code": "TERM", "pair": "content-obligatory ↔ content-compatible", "note": "Explaining what perimeter means is part of the concept itself. Students must have this language to express the content, so it is obligatory."},
+  {"code": "TERM", "pair": "content-obligatory ↔ content-compatible", "note": "Describing the procedure for finding perimeter is essential to the math objective, so this language is obligatory, not optional."}
+ ],
+ "key": "Content-obligatory language is required to learn the concept; content-compatible language fits the lesson but isn't essential."
+},
+{
+ "id": "5.1-08", "skill": "5.1", "type": "knowledge", "difficulty": 3, "diag": 0,
+ "stem": "At a high school, ELLs enroll in a mainstream biology course and, at the same time, in a linked ENL course. The ENL teacher uses the biology readings and assignments to teach the reading, writing, and note-taking skills the course demands, and the two teachers coordinate weekly. This arrangement best exemplifies which content-based instruction model?",
+ "options": [
+  "Theme-based instruction",
+  "Sheltered content instruction",
+  "Two-way immersion",
+  "The adjunct model"
+ ],
+ "answer": 3,
+ "why": "Brinton, Snow, and Wesche described three classic CBI models. In the adjunct model, students are co-enrolled in a mainstream content course and a linked language course, and the teachers coordinate so the language course targets the content course's demands. In sheltered instruction, a content course is taught to ELLs with language-sensitive modifications. In theme-based instruction, a language course is organized around content themes.",
+ "traps": [
+  {"code": "TERM", "pair": "theme-based ↔ adjunct", "note": "In theme-based instruction, a language course is organized around topics the language teacher chooses. Students are not co-enrolled in a linked mainstream content course."},
+  {"code": "TERM", "pair": "sheltered ↔ adjunct", "note": "In sheltered instruction, the content course itself is taught to ELLs with modifications. Here students take the regular mainstream course plus a separate, linked language course."},
+  {"code": "TERM", "pair": "two-way immersion ↔ adjunct", "note": "Two-way immersion is a dual language program that teaches English speakers and partner-language speakers content in both languages. It doesn't describe a linked ENL support course."},
+  None
+ ],
+ "key": "Adjunct = mainstream content course + linked language course; sheltered = adapted content course; theme-based = language course built on themes."
+},
+{
+ "id": "5.1-09", "skill": "5.1", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stem": "A grade 8 social studies teacher with several Emerging ELLs in a sheltered class says the textbook chapter on the Industrial Revolution is 'too hard for them.' Which adaptation best reflects sheltered instruction principles?",
+ "options": [
+  "Keep the grade-level chapter, and add a graphic organizer, a leveled study guide, and highlighted key passages",
+  "Replace the chapter with a picture book about factories that was written for early elementary students",
+  "Have the ELLs listen while the teacher reads the chapter aloud, as the rest of the class takes notes on main ideas",
+  "Excuse the ELLs from the chapter and assign them a word search built from the chapter's key vocabulary terms"
+ ],
+ "answer": 0,
+ "why": "Sheltered instruction, including SIOP's feature 'adaptation of content to all levels of student proficiency,' keeps grade-level concepts and makes the text accessible. Typical supports are graphic organizers, leveled study guides, highlighted text, outlines, and marginal notes. The goal is to scaffold access to rigorous content, not to replace it with easier material.",
+ "traps": [
+  None,
+  {"code": "LOWER_RIGOR", "note": "An early-elementary picture book swaps grade-level content for a far less demanding text. Sheltering means scaffolding the same concepts, not lowering them."},
+  {"code": "PASSIVE", "note": "Just listening to a read-aloud while others take notes gives ELLs no structured support, interaction, or output. The dense language of the text stays inaccessible."},
+  {"code": "EXCLUSION", "note": "Excusing ELLs from the chapter removes them from grade-level content, and a word search is a decontextualized task that builds no understanding of the Industrial Revolution."}
+ ],
+ "key": "Sheltered instruction adapts access to grade-level text with scaffolds; it doesn't replace the text with easier content."
+},
+{
+ "id": "5.1-10", "skill": "5.1", "type": "scenario", "difficulty": 1, "diag": 0,
+ "stem": "While observing a grade 3 Integrated ENL lesson, an ENL teacher notices that the content and language objectives are written on the board in the curriculum's technical wording but are never mentioned during the lesson. According to SIOP, what is the most effective recommendation?",
+ "options": [
+  "Remove the language objective from the board so students can concentrate on the content objective",
+  "Have students copy the objectives into their notebooks at the start of each lesson as handwriting practice",
+  "Restate both objectives in student-friendly language at the start, and revisit them at the end of the lesson",
+  "Post the objectives in each student's home language so that families can read them during the week"
+ ],
+ "answer": 2,
+ "why": "SIOP's first two features call for content and language objectives that are clearly defined, displayed, and reviewed with students. Posting them isn't enough. The teacher should state them in student-friendly language at the start, refer to them during the lesson, and review them at the end so students can judge whether they met them.",
+ "traps": [
+  {"code": "LOWER_RIGOR", "note": "Dropping the language objective removes the explicit language target that sheltered instruction requires. SIOP calls for both content and language objectives in every lesson."},
+  {"code": "PASSIVE", "note": "Copying objectives is rote transcription. Students still don't understand what they're learning or whether they've learned it."},
+  None,
+  {"code": "PARTIAL", "note": "Home-language versions can support understanding and family engagement, but they don't fix the core problem: the objectives are never explained or reviewed with students."}
+ ],
+ "key": "SIOP objectives must be displayed AND reviewed with students in student-friendly language, at the start and the end."
+},
+{
+ "id": "5.1-11", "skill": "5.1", "type": "scenario", "difficulty": 1, "diag": 0,
+ "stem": "A sheltered grade 6 math teacher speaks quickly, uses idioms such as 'ballpark figure,' and gives multistep directions orally. Several Emerging ELLs often start the task incorrectly. Which adjustment best addresses SIOP's Comprehensible Input component?",
+ "options": [
+  "Speak more loudly, and repeat the same directions word for word until all students begin working",
+  "Give the Emerging ELLs a shorter set of easier problems so that they can finish the task on time",
+  "Have the Emerging ELLs wait until bilingual classmates finish their work and can explain the directions",
+  "Slow down, replace idioms with plain terms, and model the steps while also posting them in writing"
+ ],
+ "answer": 3,
+ "why": "SIOP's Comprehensible Input component includes speech appropriate to students' proficiency (slower rate, clear enunciation, simpler sentences, fewer idioms), a clear explanation of academic tasks, and a variety of techniques such as modeling, visuals, and demonstrations. Modeling the steps and posting written directions gives ELLs both oral and visual access to the same grade-level task.",
+ "traps": [
+  {"code": "PARTIAL", "note": "Repetition can help a little, but volume does nothing for comprehension. Repeating the same fast, idiomatic directions word for word keeps the language just as inaccessible."},
+  {"code": "LOWER_RIGOR", "note": "Fewer, easier problems lower the math expectations instead of making the directions comprehensible. The barrier is the teacher's language, not the math."},
+  {"code": "PASSIVE", "note": "Waiting for peers leaves ELLs idle and dependent, and it shifts the teacher's job of making input comprehensible onto classmates."},
+  None
+ ],
+ "key": "Comprehensible input: adjust your rate and wording, explain tasks clearly, and model with visuals. Speaking louder or assigning easier work doesn't count."
+},
+{
+ "id": "5.1-12", "skill": "5.1", "type": "application", "difficulty": 2, "diag": 0,
+ "stem": "Ten minutes before the end of a grade 7 sheltered science lesson on ecosystems, the teacher says, 'Before you leave, let's go over today's key words and ideas.' Students sort the day's terms (producer, consumer, decomposer) into a concept map and use each term in a sentence about the food web they studied, and the teacher gives feedback on their sentences. In SIOP, this activity mainly reflects which component?",
+ "options": [
+  "Review & Assessment",
+  "Building Background",
+  "Lesson Preparation",
+  "Strategies"
+ ],
+ "answer": 0,
+ "why": "SIOP's Review & Assessment component includes a comprehensive review of key vocabulary, a comprehensive review of key content concepts, regular feedback on student output, and assessment of comprehension throughout the lesson. Reviewing the day's terms in meaningful sentences about the food web, with teacher feedback, checks both vocabulary and content at the close of the lesson. Vocabulary appears in two SIOP components: it is emphasized in Building Background and reviewed in Review & Assessment.",
+ "traps": [
+  None,
+  {"code": "TERM", "pair": "Building Background ↔ Review & Assessment", "note": "Building Background includes 'key vocabulary emphasized' when words are introduced. A comprehensive end-of-lesson review of key terms and concepts, with feedback, is a Review & Assessment feature."},
+  {"code": "TERM", "pair": "Lesson Preparation ↔ Review & Assessment", "note": "Lesson Preparation features are planning decisions (objectives, materials, adaptations, meaningful activities). This is an in-class review and check at the close of the lesson."},
+  {"code": "TERM", "pair": "Strategies ↔ Review & Assessment", "note": "A concept map can serve as a learning strategy, but here its purpose and timing (reviewing the day's terms and ideas before students leave, with feedback) make it Review & Assessment."}
+ ],
+ "key": "Vocabulary is emphasized in Building Background but comprehensively reviewed in Review & Assessment."
+},
+{
+ "id": "5.1-13", "skill": "5.1", "type": "analysis", "difficulty": 2, "diag": 0,
+ "stimulus": "SIOP observation notes, grade 5 sheltered science (45-minute period):\n- Content and language objectives posted and reviewed at start ✓\n- Lesson linked to last week's lesson on magnets ✓\n- Teacher modeled with realia; spoke clearly ✓\n- 0:05–0:25 Teacher handed out materials table by table; most students waited with nothing to do\n- 0:25–0:40 Partners tested objects with magnets and discussed results using sentence frames ✓\n- 0:40–0:45 Exit ticket on both objectives ✓",
+ "stem": "Based on the notes, which SIOP component most needs improvement?",
+ "options": [
+  "Building Background",
+  "Lesson Delivery",
+  "Interaction",
+  "Review & Assessment"
+ ],
+ "answer": 1,
+ "why": "SIOP's Lesson Delivery component asks whether delivery supports the content and language objectives, whether students are engaged about 90–100% of the period, and whether pacing suits students' abilities. Twenty of 45 minutes with most students waiting is a serious engagement and pacing problem, and ELLs can't afford to lose that time. Pre-staging materials or giving partners a task during distribution would fix it.",
+ "traps": [
+  {"code": "LITERAL", "note": "The notes show Building Background was done: the lesson was explicitly linked to last week's magnets lesson. The documented gap lies elsewhere."},
+  None,
+  {"code": "PARTIAL", "note": "More interaction is rarely a bad idea, but the notes show partners already discussed results with sentence frames. The specific problem recorded is 20 minutes of idle waiting."},
+  {"code": "LITERAL", "note": "The lesson ended with an exit ticket on both objectives, so Review & Assessment is documented. The observation's key evidence points to engagement and pacing."}
+ ],
+ "key": "SIOP Lesson Delivery = objectives supported, students engaged 90–100% of the period, and appropriate pacing."
+},
+{
+ "id": "5.1-14", "skill": "5.1", "type": "knowledge", "difficulty": 2, "diag": 0,
+ "stem": "Which of the following is the strongest theoretical rationale for content-based instruction (CBI) with ELLs?",
+ "options": [
+  "Students need to master English grammar in isolation before they can benefit from content instruction.",
+  "Content teachers are no longer responsible for language development once an ELL is placed in their class.",
+  "Language is acquired effectively when it is used to learn meaningful, cognitively demanding content.",
+  "Krashen's Monitor hypothesis identifies conscious study of grammar rules as the main source of fluency."
+ ],
+ "answer": 2,
+ "why": "CBI rests on the idea that language develops best as a vehicle for learning meaningful content. Students get rich comprehensible input, have real reasons for output and interaction, and meet the academic language (Cummins' CALP) they need for school. Integrating content and language also keeps ELLs from falling behind in grade-level content while they learn English.",
+ "traps": [
+  {"code": "ISOLATED", "note": "Grammar-first-in-isolation is the sequential view CBI rejects. Language and content are learned together, and ELLs can't afford to postpone grade-level content."},
+  {"code": "NYS_POLICY", "note": "This contradicts NYS's Blueprint for ELL/MLL Success, whose first principle is that every teacher is a teacher of ELLs. Content teachers share responsibility for language development."},
+  None,
+  {"code": "MISAPPLIED_THEORY", "note": "Krashen's Monitor hypothesis says the opposite: consciously learned rules serve only as an editor (monitor), while fluency comes from acquisition through comprehensible input."}
+ ],
+ "key": "CBI rationale: language grows when it is used to learn meaningful, grade-level content, so ELLs shouldn't wait for English before learning content."
+},
+# =====================================================================
+# 5.2 INTEGRATED ENL CO-TEACHING & COLLABORATION
+# =====================================================================
+{
+ "id": "5.2-01", "skill": "5.2", "type": "application", "difficulty": 2, "diag": 1,
+ "stem": "In a grade 6 Integrated ENL science class, the co-teachers want four newly arrived Entering ELLs to learn key vocabulary and handle the lab materials before tomorrow's whole-class investigation. For 15 minutes, the ENL teacher works with this small group while the science teacher reviews homework with the rest of the class. Which co-teaching model are they using?",
+ "options": [
+  "Parallel teaching",
+  "Station teaching",
+  "One teach, one assist",
+  "Alternative teaching"
+ ],
+ "answer": 3,
+ "why": "In alternative teaching, one teacher works with the large group while the other takes a small group for a specific purpose: pre-teaching, re-teaching, enrichment, or assessment. Pre-teaching vocabulary and materials to Entering ELLs before a whole-class lab is a classic use. To avoid stigma, co-teachers should vary which students join the small group and why.",
+ "traps": [
+  {"code": "TERM", "pair": "parallel ↔ alternative", "note": "Parallel teaching splits the class into two roughly equal, heterogeneous groups that learn the same content. Here one small group gets specialized pre-teaching while the large group does something else."},
+  {"code": "TERM", "pair": "station ↔ alternative", "note": "In station teaching, content is divided across stations and all students rotate. Here only a selected small group works with the ENL teacher, and no one rotates."},
+  {"code": "TERM", "pair": "one teach, one assist ↔ alternative", "note": "In one teach, one assist, one teacher leads the whole class while the other circulates. Here the teachers are working with two separate groups."},
+  None
+ ],
+ "key": "Alternative teaching: one teacher takes a small group for a specific purpose (pre-teach, re-teach, enrich) while the other leads the large group."
+},
+{
+ "id": "5.2-02", "skill": "5.2", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stem": "Co-teachers in a grade 8 Integrated ENL social studies class notice that in whole-class discussions of primary sources, only a few students speak and most ELLs never contribute. They want every student to have more chances to talk about the same document during the same period. Which approach best fits this goal?",
+ "options": [
+  "Parallel teaching, with each teacher leading the same discussion with half of the class",
+  "One teach, one observe, with the ENL teacher tallying which students speak during the discussion",
+  "Team teaching, with both teachers taking turns leading the whole-class discussion from the front",
+  "Alternative teaching, with the ENL teacher taking the ELLs to a separate table for the whole unit"
+ ],
+ "answer": 0,
+ "why": "Parallel teaching divides the class into two heterogeneous groups, and each teacher teaches the same content at the same time. Halving the group size roughly doubles each student's chances to speak, which is exactly what ELLs need for oral academic language development. Mixed groups keep ELLs with English-proficient peers who model the language.",
+ "traps": [
+  None,
+  {"code": "PARTIAL", "note": "Tracking participation produces useful data, but it doesn't give any student more chances to speak. The class is still one large discussion group."},
+  {"code": "TERM", "pair": "team ↔ parallel", "note": "Team teaching keeps the whole class together with both teachers co-leading. It can model discussion, but it doesn't reduce the number of students competing for each turn."},
+  {"code": "EXCLUSION", "note": "Pulling the ELLs to a separate table for a whole unit segregates them from their peers and from the grade-level discussion, the opposite of integrated instruction."}
+ ],
+ "key": "Parallel teaching: two heterogeneous halves, same content, same time, so every student gets more chances to talk."
+},
+{
+ "id": "5.2-03", "skill": "5.2", "type": "application", "difficulty": 1, "diag": 0,
+ "stem": "Co-teachers in a grade 4 Integrated ENL math class want specific data on how their ELLs use the language of mathematical explanation. They decide that the classroom teacher will lead the lesson while the ENL teacher records, on a checklist, which students use target phrases such as 'I know ___ because ___.' Which co-teaching model have they chosen?",
+ "options": [
+  "One teach, one assist",
+  "One teach, one observe",
+  "Team teaching",
+  "Station teaching"
+ ],
+ "answer": 1,
+ "why": "In one teach, one observe, one teacher leads instruction while the other systematically gathers data on specific students or skills, here the ELLs' use of explanation language. The observation is purposeful, with a clear focus and a tool, and the data should drive co-planning, such as which students need a mini-lesson on 'because' clauses.",
+ "traps": [
+  {"code": "TERM", "pair": "one teach, one assist ↔ one teach, one observe", "note": "In one teach, one assist, the second teacher circulates and helps individual students. Here the ENL teacher deliberately collects data instead of helping."},
+  None,
+  {"code": "TERM", "pair": "team ↔ one teach, one observe", "note": "In team teaching, both teachers share instruction of the whole class. Here only one teacher instructs while the other observes."},
+  {"code": "TERM", "pair": "station ↔ one teach, one observe", "note": "Station teaching divides the content across stations that groups rotate through. This lesson is taught to the whole group by one teacher."}
+ ],
+ "key": "One teach, one observe: one teacher leads while the other collects focused data to guide planning."
+},
+{
+ "id": "5.2-04", "skill": "5.2", "type": "application", "difficulty": 1, "diag": 0,
+ "stimulus": "Co-teaching plan, grade 5 Integrated ENL science (states of matter):\nGroups rotate every 12 minutes.\n- Table 1 (science teacher): melting-ice investigation\n- Table 2 (ENL teacher): describing changes with 'When ___ heats up, it ___.'\n- Table 3 (independent): sorting picture cards into solid, liquid, and gas",
+ "stem": "Which co-teaching model does this plan use?",
+ "options": [
+  "Parallel teaching",
+  "Alternative teaching",
+  "Station teaching",
+  "Team teaching"
+ ],
+ "answer": 2,
+ "why": "In station teaching, the content is divided into parts. Each teacher leads one station, often alongside an independent station, and student groups rotate so every student gets every part. It lowers the student–teacher ratio and lets the ENL teacher lead a station on the language of the content, as Table 2 does.",
+ "traps": [
+  {"code": "TERM", "pair": "parallel ↔ station", "note": "In parallel teaching, two halves of the class learn the same content at the same time. Here each table has different content and groups rotate."},
+  {"code": "TERM", "pair": "alternative ↔ station", "note": "Alternative teaching pulls one small group for a specific purpose. Here every student rotates through all three tables."},
+  None,
+  {"code": "TERM", "pair": "team ↔ station", "note": "Team teaching keeps the class together while both teachers lead jointly. This plan splits students into rotating groups."}
+ ],
+ "key": "Station teaching: the content is divided among stations, groups rotate, and each teacher leads a station."
+},
+{
+ "id": "5.2-05", "skill": "5.2", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stem": "Co-teachers in a grade 10 Integrated ENL global history class want to show students what an academic disagreement sounds like before students debate whether a ruler's policies helped or harmed peasants. Which approach makes the best use of team teaching for this goal?",
+ "options": [
+  "The ENL teacher prepares a handout of debate phrases while the history teacher explains the debate rules",
+  "The history teacher lectures on the policies while the ENL teacher circulates to help ELLs follow along",
+  "Each teacher takes half of the class, reads the same primary source aloud, and answers students' questions",
+  "Both teachers stage a short debate for the class, pointing out phrases such as 'I see your point, but…'"
+ ],
+ "answer": 3,
+ "why": "In team teaching, both teachers deliver instruction to the whole class together, sharing the lead. A short debate between the two teachers models academic discourse (taking turns, disagreeing politely, backing up claims) and lets them highlight the exact language students will use. Team teaching shines when two voices are part of the content: debates, role plays, or think-aloud dialogues.",
+ "traps": [
+  {"code": "PARTIAL", "note": "A phrase handout is a helpful scaffold, but this splits the work instead of co-delivering instruction, and students never hear a live model of academic disagreement."},
+  {"code": "TERM", "pair": "one teach, one assist ↔ team teaching", "note": "Lecturing while the other teacher circulates is one teach, one assist. A lecture also doesn't model what debate language sounds like."},
+  {"code": "TERM", "pair": "parallel ↔ team teaching", "note": "Splitting the class in half is parallel teaching, and a read-aloud with questions doesn't model debate discourse."},
+  None
+ ],
+ "key": "Team teaching: both teachers co-lead the whole class, ideal for modeling dialogue, debate, and academic discourse."
+},
+{
+ "id": "5.2-06", "skill": "5.2", "type": "scenario", "difficulty": 2, "diag": 0,
+ "stimulus": "ENL teacher's reflection, November:\n'In our grade 7 co-taught math class, Mr. Okafor plans and teaches every lesson. I find out the topic when I walk in, and I spend the period walking around helping ELLs who look lost. Their writing samples show they need explicit work on explaining their reasoning, but I never get to teach it.'",
+ "stem": "Which next step would best improve this co-teaching partnership?",
+ "options": [
+  "Continue the current arrangement, since the ELLs are receiving individual help from a certified ESOL teacher",
+  "Set up regular co-planning time to add language objectives and rotate models so the ENL teacher also leads",
+  "Ask the principal to schedule pull-out sessions during math so the ENL teacher can work with the ELLs alone",
+  "Have the ENL teacher sit beside the ELLs during each lesson and translate the math teacher's explanations"
+ ],
+ "answer": 1,
+ "why": "One teach, one assist is easy to slip into but should be used sparingly. When it becomes the default, the ENL teacher functions as an aide, language instruction goes unplanned, and parity is lost. Regular co-planning lets both teachers set content and language objectives (here, language for explaining reasoning) and choose models such as station, parallel, alternative, or team teaching in which the ENL teacher leads instruction.",
+ "traps": [
+  {"code": "PARTIAL", "note": "Individual help has some value, but daily one teach, one assist reduces the ENL teacher to an aide, provides no planned language instruction, and ignores what the writing samples show students need."},
+  None,
+  {"code": "EXCLUSION", "note": "Pulling ELLs out during math removes them from grade-level math instruction and from the co-taught setting that Integrated ENL is meant to provide."},
+  {"code": "PARTIAL", "note": "Home-language support can help, but constant translation keeps the ENL teacher in an assisting role and never teaches the English language of mathematical reasoning that students need."}
+ ],
+ "key": "Overusing one teach, one assist turns the ENL teacher into an aide; co-planning and rotating models restore shared instruction."
+},
+{
+ "id": "5.2-07", "skill": "5.2", "type": "analysis", "difficulty": 3, "diag": 0,
+ "stimulus": "Co-teaching log, grade 3 Integrated ENL class, weeks 1–6:\n- Every day, 20 minutes: the ENL teacher works at the back table with the same six ELLs (all Entering or Emerging), re-teaching the day's lesson.\n- The classroom teacher continues with the rest of the class.\n- Week 6 note: Two of the six students now call themselves 'the slow table.'",
+ "stem": "What is the most important change the co-teachers should make?",
+ "options": [
+  "Vary the purpose and membership of the small group, including non-ELLs and enrichment, based on ongoing data",
+  "Move the small group to a separate room so that the other students do not notice who is being retaught",
+  "Stop small-group work and keep the ELLs in whole-class instruction so they hear more grade-level English",
+  "Keep the same six students together, since their shared proficiency level makes a fixed group most efficient"
+ ],
+ "answer": 0,
+ "why": "Alternative teaching is powerful for pre-teaching, re-teaching, and enrichment. But when the same students are always pulled, it becomes de facto tracking and stigmatizes them, as the students' comment shows. Co-teachers should form flexible groups from ongoing data, vary the purpose (pre-teaching and enrichment, not just remediation), include non-ELLs, and take turns leading the small group.",
+ "traps": [
+  None,
+  {"code": "EXCLUSION", "note": "A separate room makes the separation more visible and removes the ELLs even further from the integrated class, which deepens the stigma rather than ending it."},
+  {"code": "ONE_SIZE", "note": "Ending small-group work gives every student identical whole-class instruction regardless of proficiency. Targeted small-group support is valuable; the problem is the fixed membership."},
+  {"code": "PARTIAL", "note": "Grouping by need can be appropriate for a specific purpose, but a fixed, permanent group of the same ELLs is what produced the 'slow table' label. Groups should change with the data."}
+ ],
+ "key": "Don't always pull the same ELLs in alternative teaching; use flexible, data-based groups with varied purposes."
+},
+{
+ "id": "5.2-08", "skill": "5.2", "type": "scenario", "difficulty": 2, "diag": 2,
+ "stem": "During weekly co-planning for a grade 8 Integrated ENL science unit on energy transfer, the science teacher has drafted the content objectives and the lab. Which contribution from the ENL teacher would add the most to the plan?",
+ "options": [
+  "Offering to grade the ELLs' lab reports separately using a simpler rubric that focuses on effort",
+  "Offering to teach the ELLs a simplified version of the energy unit at a side table during class",
+  "Offering to find translated versions of the chapter for the ELLs to read in place of the English text",
+  "Analyzing the unit's language demands, then drafting language objectives and level-matched scaffolds"
+ ],
+ "answer": 3,
+ "why": "The ENL teacher's distinct expertise in co-planning is language. That means analyzing the unit's linguistic demands (vocabulary, structures such as passive voice and cause–effect, and discourse such as lab-report writing), writing language objectives, and designing scaffolds matched to each student's proficiency level. Combined with the content teacher's objectives, this lets both teachers share responsibility for content and language.",
+ "traps": [
+  {"code": "ASSESS_INVALID", "note": "An effort-only rubric measures neither content nor language learning, and grading ELLs separately undercuts shared responsibility and lowers expectations."},
+  {"code": "LOWER_RIGOR", "note": "A simplified side-table unit waters down grade-level content and creates a separate track inside the co-taught class."},
+  {"code": "PARTIAL", "note": "Home-language texts can be a valuable scaffold alongside English, but replacing the English text doesn't build the academic English of the unit, and it is narrower than planning for the lesson's language demands."},
+  None
+ ],
+ "key": "In co-planning, the ENL teacher analyzes language demands and adds language objectives and level-matched scaffolds to the content plan."
+},
+{
+ "id": "5.2-09", "skill": "5.2", "type": "knowledge", "difficulty": 2, "diag": 0,
+ "stem": "Under CR Part 154, which of the following describes an Integrated ENL class?",
+ "options": [
+  "A class in which an ESOL-certified teacher provides English language development instruction to ELLs",
+  "A content class taught by a content-certified teacher, with an ESOL teaching assistant for the ELLs",
+  "A content class co-taught by a content-certified and an ESOL-certified teacher, or by one dually certified teacher",
+  "A class in which ELLs learn content in their home language and in English, with English increasing over time"
+ ],
+ "answer": 2,
+ "why": "In NYS, Integrated ENL delivers core content instruction (such as ELA, math, science, or social studies) together with English language development. It is taught by a teacher dually certified in the content area and ESOL, or co-taught by a certified content teacher and a certified ESOL teacher. Stand-alone ENL is the separate English language development class taught by an ESOL teacher.",
+ "traps": [
+  {"code": "TERM", "pair": "Stand-alone ENL ↔ Integrated ENL", "note": "An ESOL teacher providing English language development to ELLs in a separate class describes Stand-alone ENL."},
+  {"code": "NYS_POLICY", "note": "A teaching assistant doesn't meet the requirement. Integrated ENL requires a certified ESOL teacher as co-teacher, or a teacher who is dually certified."},
+  None,
+  {"code": "TERM", "pair": "Transitional Bilingual Education ↔ Integrated ENL", "note": "Home-language content instruction with English gradually increasing describes Transitional Bilingual Education, a bilingual program, not ENL."}
+ ],
+ "key": "Integrated ENL = content plus English development, co-taught by content and ESOL teachers or taught by a dually certified teacher."
+},
+{
+ "id": "5.2-10", "skill": "5.2", "type": "analysis", "difficulty": 3, "diag": 0,
+ "stimulus": "Co-teachers in a grade 6 Integrated ENL social studies class collected written answers to the question 'Why did people settle near rivers in ancient Mesopotamia?'\nResponse from an Emerging ELL (home language: Arabic):\n'People live near river. River give water for farm. Farm make food.'",
+ "stem": "Which co-assessment practice would best inform the teachers' next lessons?",
+ "options": [
+  "The ENL teacher grades the ELLs' grammar while the social studies teacher grades the other students' content",
+  "Both teachers score the answers with a rubric that rates content and language separately, then group by need",
+  "The social studies teacher assigns a content grade, and the ENL teacher marks each grammar error in red",
+  "Both teachers wait for the end-of-unit test to evaluate learning, so they can see a more complete picture"
+ ],
+ "answer": 1,
+ "why": "Co-assessment means both teachers examine student work together, ideally with criteria that separate content understanding from language use. This student clearly understands why settlements formed near rivers (water → farming → food) but needs cause-and-effect language and verb forms. Scoring both dimensions and grouping by need lets the teachers plan targeted instruction, such as a mini-lesson on 'because' and 'so,' without underestimating the student's content knowledge.",
+ "traps": [
+  {"code": "ASSESS_INVALID", "note": "Judging the ELL only on grammar measures language instead of the content question, which this student actually answered correctly. Splitting students by teacher also undercuts shared responsibility."},
+  None,
+  {"code": "OVERCORRECT", "note": "Marking every error overwhelms an Emerging writer and sets no priorities. The teachers should target one or two high-leverage patterns, such as connecting ideas with 'because' and 'so.'"},
+  {"code": "PARTIAL", "note": "Summative data matters, but waiting for the unit test misses the purpose of formative co-assessment, which is adjusting instruction now."}
+ ],
+ "key": "Co-assess jointly with criteria that separate content from language, then use the results to group and plan."
+},
+{
+ "id": "5.2-11", "skill": "5.2", "type": "application", "difficulty": 3, "diag": 0,
+ "stem": "Co-teachers in a grade 7 Integrated ENL math class want every student, ELLs and non-ELLs alike, to receive small-group instruction from both teachers during the same period, each teacher focusing on a different part of a lesson on ratios. Which co-teaching model best meets this goal?",
+ "options": [
+  "Parallel teaching",
+  "Alternative teaching",
+  "One teach, one assist",
+  "Station teaching"
+ ],
+ "answer": 3,
+ "why": "In station teaching, the content is divided and each teacher teaches one part to small groups that rotate, so every student gets small-group instruction from both teachers. Parallel teaching also reduces group size, but each student works with only one teacher and both halves get the same content. This distinction (rotating through different parts vs. splitting the class for the same content) is a frequent exam point.",
+ "traps": [
+  {"code": "TERM", "pair": "parallel ↔ station", "note": "Parallel teaching creates smaller groups, but each half works with only one teacher on the same content, so students don't get both teachers or both parts of the lesson."},
+  {"code": "TERM", "pair": "alternative ↔ station", "note": "Alternative teaching gives one small group specialized time with one teacher. The large group doesn't get small-group instruction from both teachers."},
+  {"code": "TERM", "pair": "one teach, one assist ↔ station", "note": "One teach, one assist keeps the whole class together, so there is no small-group instruction from either teacher."},
+  None
+ ],
+ "key": "Every student rotates to both teachers for different content = station; two halves, same content, one teacher each = parallel."
+},
+{
+ "id": "5.2-12", "skill": "5.2", "type": "scenario", "difficulty": 1, "diag": 0,
+ "stem": "At the start of the year, a high school chemistry teacher with five ELLs in her class asks the ENL teacher what she should know about them. Which information would be most useful to share?",
+ "options": [
+  "Each student's proficiency level, modality strengths, prior schooling, and home-language literacy",
+  "A summary of the learning styles and classroom behaviors typical of each student's home culture",
+  "A list of the chapters each ELL can skip until he or she scores Commanding on the NYSESLAT",
+  "Each student's overall proficiency level, so she can give all five ELLs the same modified assignments"
+ ],
+ "answer": 0,
+ "why": "Effective collaboration starts with sharing actionable information about each ELL: proficiency level, strengths and needs in listening, speaking, reading, and writing, educational background (including any interrupted schooling), and home-language literacy, which can be leveraged with bilingual glossaries or home-language texts. This lets the content teacher plan scaffolds for individuals instead of treating ELLs as one group.",
+ "traps": [
+  None,
+  {"code": "STEREOTYPE", "note": "Styles and behaviors 'typical' of a culture are overgeneralizations. Students within any cultural group vary widely, and planning from stereotypes misleads the teacher."},
+  {"code": "EXCLUSION", "note": "ELLs shouldn't skip grade-level content until they're proficient. They need scaffolded access now, which is the whole point of integrated support."},
+  {"code": "ONE_SIZE", "note": "Five ELLs can differ widely in level, modality profile, and schooling. Identical modified assignments ignore those differences."}
+ ],
+ "key": "Share individual profiles (level, modality strengths, schooling, home-language literacy) so content teachers can scaffold for each ELL."
+},
+{
+ "id": "5.2-13", "skill": "5.2", "type": "analysis", "difficulty": 3, "diag": 0,
+ "stimulus": "Co-planning template, grade 4 Integrated ENL science (draft)\nContent objective: Students will explain how plants use sunlight to make food.\nLanguage objective: (blank)\nOpening (10 min): Classroom teacher introduces the lesson. ENL teacher: 'help ELLs.'\nWork time (25 min): Classroom teacher leads the investigation. ENL teacher: 'help ELLs.'\nClosing (10 min): Classroom teacher leads the review. ENL teacher: 'help ELLs.'",
+ "stem": "Which revision would most strengthen this plan?",
+ "options": [
+  "Assign the ENL teacher to lead the opening each day so that both teachers get equal time at the front",
+  "Add the ELLs' names to each section so that the ENL teacher knows which students to sit beside",
+  "Add a language objective and define the ENL teacher's role in each segment, such as leading a small group",
+  "Move the language work to a separate Stand-alone ENL period so this lesson can focus on science content"
+ ],
+ "answer": 2,
+ "why": "The draft has two classic problems: no language objective, and a vague ENL role ('help ELLs') that defaults to one teach, one assist. A strong co-plan states both content and language objectives (for example, 'Students will explain how plants make food using sequence words and because') and specifies what each teacher does in each segment and which model they'll use. That way the ENL teacher's expertise drives instruction instead of trailing behind it.",
+ "traps": [
+  {"code": "PARTIAL", "note": "Equal time at the front looks like parity, but it doesn't add the missing language objective or tie the ENL teacher's role to what students need to learn."},
+  {"code": "LITERAL", "note": "Listing whom to sit beside keeps the vague 'help ELLs' role. It adds no language objective and defines no instruction for the ENL teacher to deliver."},
+  None,
+  {"code": "ISOLATED", "note": "Moving language work elsewhere separates language from the content it serves. Integrated ENL exists to develop English through grade-level content in the same lesson."}
+ ],
+ "key": "Co-plans need a language objective and a defined instructional role for the ENL teacher in each lesson segment."
+},
+{
+ "id": "5.2-14", "skill": "5.2", "type": "knowledge", "difficulty": 1, "diag": 0,
+ "stem": "Research on co-teaching for ELLs most consistently identifies which factor as essential to an effective co-teaching partnership?",
+ "options": [
+  "Assigning both teachers to the same grade level for several consecutive years",
+  "Regular, scheduled co-planning time with shared goals and clearly defined roles",
+  "Requiring the ENL teacher to hold certification in the co-taught content area",
+  "Seating the ELLs together at one table so the ENL teacher can support them"
+ ],
+ "answer": 1,
+ "why": "Across the co-teaching literature (for example, Honigsfeld and Dove), regular co-planning time is the most consistently cited condition for success. Without it, the ENL teacher learns the lesson as it unfolds and slips into an assistant role. With it, the two teachers can set content and language objectives, choose co-teaching models, divide roles, and plan co-assessment.",
+ "traps": [
+  {"code": "PARTIAL", "note": "Continuity can help a partnership mature, but it doesn't replace planning time. Long-standing partners without co-planning still default to one teach, one assist."},
+  None,
+  {"code": "NYS_POLICY", "note": "NYS allows Integrated ENL to be co-taught by a certified ESOL teacher and a certified content teacher. Dual certification is one option, not a requirement for co-teaching."},
+  {"code": "EXCLUSION", "note": "Clustering ELLs at one table segregates them within the room, limits their interaction with English-proficient peers, and casts the ENL teacher as their aide."}
+ ],
+ "key": "Regular co-planning with shared goals and defined roles is the foundation of effective co-teaching."
+},
+]
+
+LESSONS = []
+
+import json, pathlib
+pathlib.Path(__file__).with_name("c5a.json").write_text(json.dumps({"questions": QUESTIONS, "lessons": LESSONS}, ensure_ascii=False, indent=1))
